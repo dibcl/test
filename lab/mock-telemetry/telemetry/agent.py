@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import asyncio
 from dataclasses import dataclass
-from typing import Any
 
 from .clocks import BaseClock
+from .model import TelemetrySnapshot
 from .providers import BaseMetricsProvider
 from .transports import BaseTransport
 
@@ -15,6 +15,14 @@ class AgentSettings:
     duration_seconds: float | None = None
     schema_version: int = 1
 
+    def validate(self) -> None:
+        if self.interval_seconds <= 0:
+            raise ValueError("interval_seconds must be > 0")
+        if self.duration_seconds is not None and self.duration_seconds < 0:
+            raise ValueError("duration_seconds must be >= 0")
+        if self.schema_version < 1:
+            raise ValueError("schema_version must be >= 1")
+
 
 class TelemetryAgent:
     def __init__(
@@ -24,12 +32,17 @@ class TelemetryAgent:
         clock: BaseClock,
         settings: AgentSettings,
     ) -> None:
+        settings.validate()
         self._provider = provider
         self._transport = transport
         self._clock = clock
         self._settings = settings
         self._provider_lock = asyncio.Lock()
         self._stop_event = asyncio.Event()
+
+    @property
+    def provider(self) -> BaseMetricsProvider:
+        return self._provider
 
     async def set_provider(self, provider: BaseMetricsProvider) -> None:
         """Atomically replace the active metrics provider at runtime."""
@@ -42,11 +55,12 @@ class TelemetryAgent:
     async def stop(self) -> None:
         self._stop_event.set()
 
-    async def _collect(self):
+    async def _collect(self) -> TelemetrySnapshot:
         async with self._provider_lock:
             return await self._provider.snapshot(self._clock)
 
     async def run(self) -> None:
+        self._settings.validate()
         await self._provider.start()
         await self._transport.open()
         elapsed = 0.0
@@ -54,14 +68,9 @@ class TelemetryAgent:
         try:
             while not self._stop_event.is_set():
                 snapshot = await self._collect()
-                envelope: dict[str, Any] = {
-                    "schema_version": self._settings.schema_version,
-                    "observed_at": snapshot.observed_at,
-                    "provider": snapshot.provider,
-                    "metrics": snapshot.metrics,
-                    "metadata": snapshot.metadata,
-                }
-                await self._transport.send(envelope)
+                await self._transport.send(
+                    snapshot.to_envelope(schema_version=self._settings.schema_version)
+                )
 
                 if (
                     self._settings.duration_seconds is not None
