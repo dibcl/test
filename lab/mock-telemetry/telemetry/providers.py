@@ -4,6 +4,7 @@ import asyncio
 import json
 import random
 import socket
+import time
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any
@@ -108,13 +109,13 @@ class LiveSystemProvider(BaseMetricsProvider):
     def __init__(self, process_limit: int = 20) -> None:
         self.process_limit = process_limit
         self._last_net = None
-        self._last_time = None
+        self._last_time: float | None = None
 
     async def start(self) -> None:
         import psutil
 
         self._last_net = psutil.net_io_counters()
-        self._last_time = asyncio.get_running_loop().time()
+        self._last_time = time.monotonic()
         psutil.cpu_percent(interval=None)
 
     def _collect(self) -> dict[str, Any]:
@@ -126,7 +127,7 @@ class LiveSystemProvider(BaseMetricsProvider):
         disk = psutil.disk_usage("/")
         disk_io = psutil.disk_io_counters()
         net = psutil.net_io_counters()
-        now = asyncio.get_running_loop().time()
+        now = time.monotonic()
 
         rx_rate = None
         tx_rate = None
