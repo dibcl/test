@@ -1,1 +1,22 @@
+# Local audit/environment files
 lab/mock-telemetry/local_env.json
+
+# Python bytecode / virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Runtime/test output
+lab/mock-telemetry/out/
+*.jsonl
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Platform/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
