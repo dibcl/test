@@ -137,6 +137,10 @@ The legacy `identity.test_mode` field may remain inside existing fixtures, but
 the generic runtime does not use it as a startup gate. It is preserved only as
 metadata for fixture auditing.
 
+Machine-local identity or environment files must stay outside version control.
+`lab/mock-telemetry/local_env.json` is ignored by `.gitignore`; use
+`local_env.example.json` for synthetic/documentation values.
+
 ## Examples
 
 Install dependencies:
