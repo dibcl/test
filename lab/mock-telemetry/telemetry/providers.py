@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from .clocks import BaseClock
-from .model import TelemetrySnapshot
+from .model import ProviderHealth, TelemetrySnapshot
 
 
 class BaseMetricsProvider(ABC):
@@ -23,6 +23,14 @@ class BaseMetricsProvider(ABC):
 
     async def stop(self) -> None:
         pass
+
+    async def health_check(self) -> ProviderHealth:
+        """Return a side-effect-free readiness result.
+
+        Providers with external dependencies should override this method rather
+        than forcing the agent to take a sample just to determine readiness.
+        """
+        return ProviderHealth(True, "provider ready")
 
     @abstractmethod
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
@@ -40,6 +48,17 @@ class FrozenProfileProvider(BaseMetricsProvider):
             self.profile = json.load(fp)
         self._performance_samples = self.profile.get("performance_samples", [])
         self._sample_index = 0
+
+    async def health_check(self) -> ProviderHealth:
+        if not self.path.is_file():
+            return ProviderHealth(False, f"profile missing: {self.path}")
+        if not isinstance(self.profile, dict):
+            return ProviderHealth(False, "profile root must be an object")
+        return ProviderHealth(
+            True,
+            "profile loaded",
+            {"path": str(self.path), "performance_samples": len(self._performance_samples)},
+        )
 
     def _next_performance(self) -> dict[str, Any]:
         if not self._performance_samples:
@@ -91,6 +110,14 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
         self.memory = float(self.mem_cfg.get("initial", 40.0))
         self.network = float(self.net_cfg.get("initial", 1.0))
         self.disk = float(self.disk_cfg.get("initial", 1.0))
+
+    async def health_check(self) -> ProviderHealth:
+        if not self.path.is_file():
+            return ProviderHealth(False, f"profile missing: {self.path}")
+        dynamics = self.profile.get("dynamics")
+        if dynamics is not None and not isinstance(dynamics, dict):
+            return ProviderHealth(False, "dynamics must be an object when present")
+        return ProviderHealth(True, "synthetic generator ready", {"path": str(self.path)})
 
     def _walk(self, value: float, cfg: dict[str, Any]) -> float:
         mean = float(cfg.get("mean", value))
@@ -146,6 +173,25 @@ class LiveSystemProvider(BaseMetricsProvider):
         self._last_net = psutil.net_io_counters()
         self._last_time = time.monotonic()
         psutil.cpu_percent(interval=None)
+
+    async def health_check(self) -> ProviderHealth:
+        try:
+            import psutil
+
+            disk = psutil.disk_usage(self.disk_path)
+            cpu_count = psutil.cpu_count() or 0
+        except Exception as exc:
+            return ProviderHealth(False, f"live provider unavailable: {exc}")
+        return ProviderHealth(
+            True,
+            "live collector ready",
+            {
+                "cpu_count": cpu_count,
+                "disk_path": self.disk_path,
+                "disk_total_bytes": disk.total,
+                "process_limit": self.process_limit,
+            },
+        )
 
     def _collect(self) -> dict[str, Any]:
         import psutil
