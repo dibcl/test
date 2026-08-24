@@ -19,6 +19,23 @@ from .registry import CLOCK_REGISTRY, PROVIDER_REGISTRY, TRANSPORT_REGISTRY, Reg
 from .transports import BaseTransport, FileDumpTransport, MemoryTransport, TcpTransport, UdpTransport
 
 
+def _build_live_system(cfg: Mapping[str, Any]) -> LiveSystemProvider:
+    """Build the invasive diagnostic collector only with an explicit opt-in.
+
+    The intended runtime is hybrid_network. live_system inspects host CPU,
+    memory, disk, process and hostname state and must never be selected by an
+    accidental config typo or legacy alias.
+    """
+    if cfg.get("diagnostic_only") is not True:
+        raise ValueError(
+            "live_system is diagnostic-only; set provider.diagnostic_only=true explicitly"
+        )
+    return LiveSystemProvider(
+        process_limit=int(cfg.get("process_limit", 20)),
+        disk_path=cfg.get("disk_path"),
+    )
+
+
 def _register_defaults() -> None:
     PROVIDER_REGISTRY.register(
         "frozen_profile",
@@ -39,10 +56,7 @@ def _register_defaults() -> None:
     )
     PROVIDER_REGISTRY.register(
         "live_system",
-        lambda cfg: LiveSystemProvider(
-            process_limit=int(cfg.get("process_limit", 20)),
-            disk_path=cfg.get("disk_path"),
-        ),
+        _build_live_system,
         aliases=("live",),
         replace=True,
     )
@@ -132,16 +146,12 @@ def build_provider(
     registry: Registry[BaseMetricsProvider] = PROVIDER_REGISTRY,
 ) -> BaseMetricsProvider:
     provider_cfg = cfg.get("provider")
-
-    # Backward compatibility with the original profile-only configuration.
     if provider_cfg is None:
         if "profile" not in cfg:
             raise ValueError("provider or profile required")
         provider_cfg = {"type": "frozen_profile", "profile": cfg["profile"]}
-
     if not isinstance(provider_cfg, Mapping):
         raise ValueError("provider must be an object")
-
     provider_type = str(provider_cfg.get("type", "frozen_profile"))
     return registry.build(provider_type, provider_cfg)
 
@@ -153,7 +163,6 @@ def build_transport(
     transport_cfg = cfg.get("transport", {"type": "memory"})
     if not isinstance(transport_cfg, Mapping):
         raise ValueError("transport must be an object")
-
     kind = str(transport_cfg.get("type", "memory"))
     return registry.build(kind, transport_cfg)
 
@@ -165,7 +174,6 @@ def build_clock(
     clock_cfg = cfg.get("clock", {"type": "real"})
     if not isinstance(clock_cfg, Mapping):
         raise ValueError("clock must be an object")
-
     kind = str(clock_cfg.get("type", "real"))
     return registry.build(kind, clock_cfg)
 
