@@ -9,11 +9,32 @@ from pathlib import Path
 from telemetry.agent import AgentSettings, TelemetryAgent
 from telemetry.clocks import SimulatedClock
 from telemetry.config import build_provider, build_settings, build_transport
-from telemetry.providers import FrozenProfileProvider, SyntheticMetricsProvider
+from telemetry.model import TelemetrySnapshot
+from telemetry.providers import BaseMetricsProvider, FrozenProfileProvider, SyntheticMetricsProvider
 from telemetry.transports import FileDumpTransport, MemoryTransport
 
 
 FIXTURE = Path(__file__).resolve().parents[1] / "baseline.synthetic.json"
+
+
+class LifecycleProvider(BaseMetricsProvider):
+    def __init__(self, name: str) -> None:
+        self.name = name
+        self.started = 0
+        self.stopped = 0
+
+    async def start(self) -> None:
+        self.started += 1
+
+    async def stop(self) -> None:
+        self.stopped += 1
+
+    async def snapshot(self, clock) -> TelemetrySnapshot:
+        return TelemetrySnapshot(
+            observed_at=clock.now().isoformat(),
+            provider=self.name,
+            metrics={"provider": self.name},
+        )
 
 
 class ProviderCompatibilityTests(unittest.TestCase):
@@ -69,6 +90,22 @@ class AgentTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(transport.messages[0]["provider"], "frozen-profile")
         self.assertIn("software_batches", transport.messages[0]["metrics"])
         self.assertIn("activity_events", transport.messages[0]["metrics"])
+
+    async def test_provider_can_be_switched_at_runtime_boundary(self) -> None:
+        old = LifecycleProvider("old")
+        new = LifecycleProvider("new")
+        agent = TelemetryAgent(
+            provider=old,
+            transport=MemoryTransport(),
+            clock=SimulatedClock(datetime(2030, 1, 1, tzinfo=timezone.utc)),
+            settings=AgentSettings(interval_seconds=1, duration_seconds=0),
+        )
+
+        await agent.set_provider(new)
+
+        self.assertIs(agent.provider, new)
+        self.assertEqual(new.started, 1)
+        self.assertEqual(old.stopped, 1)
 
     async def test_file_dump_writes_ndjson(self) -> None:
         provider = FrozenProfileProvider(FIXTURE)
