@@ -38,3 +38,23 @@ class TelemetrySnapshot:
             "metrics": self.metrics,
             "metadata": self.metadata,
         }
+
+
+@dataclass(frozen=True, slots=True)
+class ProviderHealth:
+    """Side-effect-free readiness result for a metrics provider."""
+
+    healthy: bool
+    detail: str = ""
+    metadata: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass(frozen=True, slots=True)
+class ProviderSwitchResult:
+    """Result of a transactional provider replacement."""
+
+    previous_provider: str
+    active_provider: str
+    changed: bool
+    health: ProviderHealth
+    cleanup_error: str | None = None
