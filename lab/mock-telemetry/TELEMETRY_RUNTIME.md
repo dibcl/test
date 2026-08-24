@@ -30,6 +30,10 @@ BaseMetricsProvider
 Provider-specific collection logic and transport-specific I/O therefore evolve
 independently.
 
+`TelemetryRuntime` is the configuration-facing facade. It builds the agent from
+configuration and can switch the active provider from another provider config at
+runtime without introducing configuration parsing into `TelemetryAgent`.
+
 ## Providers
 
 - `FrozenProfileProvider`: backward-compatible profile playback.
@@ -122,6 +126,28 @@ register_provider("constant", lambda cfg: ConstantProvider())
 
 The same extension mechanism is available through `register_transport()` and
 `register_clock()`.
+
+## Config-driven provider switching
+
+Initialization and runtime switching use the same registry-backed config shape:
+
+```python
+from telemetry import TelemetryRuntime
+
+runtime = TelemetryRuntime({
+    "profile": "lab/mock-telemetry/baseline.synthetic.json",
+    "transport": {"type": "memory"}
+})
+
+await runtime.switch_provider({
+    "type": "live_system",
+    "process_limit": 10,
+    "disk_path": "."
+})
+```
+
+The runtime builds the replacement provider, starts it, atomically swaps it into
+the agent, and stops the old provider. The agent remains provider-agnostic.
 
 ## Backward compatibility
 
