@@ -1,148 +1,63 @@
 {
   "source": "observed-current-windows-guest-telemetry",
   "captured_at": "2026-08-24T00:24:25+08:00",
+  "filtering": {
+    "sensitive_software_omitted": ["Clash Verge"],
+    "omitted_count": 1,
+    "reason": "user-requested filtering"
+  },
   "notes": [
-    "Derived from captured current-instance telemetry logs.",
-    "Clash Verge intentionally omitted from this baseline.",
-    "Audit/reference fixture only; not wired into proprietary payload builders."
+    "Derived from the captured current-instance 9054 telemetry payloads.",
+    "All retained fields mirror the observed payload model: name, type, publisher, installtime, size, version, operate.",
+    "The original software split was 10 + 6 items; after the agreed single-item filter the retained split is 10 + 5.",
+    "KB payloads preserve the observed single-space version field.",
+    "Audit/reference fixture only; real VM identity is intentionally absent."
   ],
-  "software": [
+  "batches": [
     {
-      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Balloon Device Driver",
-      "publisher": "ZTE",
-      "installtime": "",
-      "version": "08/03/2018,100.76.104.16000"
+      "label": "wow6432node",
+      "observed_count": 10,
+      "retained_count": 10,
+      "softwares": [
+        {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Balloon Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"08/03/2018,100.76.104.16000","operate":"1"},
+        {"name":"Windows Driver Packages - Balloon Service","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"","operate":"1"},
+        {"name":"GuestTools","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"3.18.56.215a7089","operate":"1"},
+        {"name":"Microsoft Edge","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
+        {"name":"Microsoft Edge WebView2 Runtime","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
+        {"name":"云电脑管家","type":"1","publisher":"ZTE Corporation","installtime":"","size":"0","version":"V7.25.21SP3","operate":"1"},
+        {"name":"uSmartviewUpdate","type":"1","publisher":"uSmartviewUpdate","installtime":"","size":"0","version":"7.24.10.01","operate":"1"},
+        {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Vioserial Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"","operate":"1"},
+        {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Viostor Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"08/03/2018,100.76.104.16000","operate":"1"},
+        {"name":"Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"","size":"0","version":"14.44.35211.0","operate":"1"}
+      ]
     },
     {
-      "name": "Windows Driver Packages - Balloon Service",
-      "publisher": "ZTE",
-      "installtime": "",
-      "version": ""
+      "label": "native",
+      "observed_count": 6,
+      "retained_count": 5,
+      "softwares": [
+        {"name":"7-Zip 25.01 (x64)","type":"1","publisher":"Igor Pavlov","installtime":"","size":"0","version":"25.01","operate":"1"},
+        {"name":"QEMU","type":"1","publisher":"QEMU Community","installtime":"","size":"0","version":"11.1.0","operate":"1"},
+        {"name":"Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
+        {"name":"Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
+        {"name":"Microsoft Visual C++ 2010 x64 Redistributable - 10.0.30319","type":"1","publisher":"Microsoft Corporation","installtime":"20250604","size":"0","version":"","operate":"1"}
+      ]
     },
     {
-      "name": "GuestTools",
-      "publisher": "ZTE",
-      "installtime": "",
-      "version": "3.18.56.215a7089"
-    },
-    {
-      "name": "Microsoft Edge",
-      "publisher": "Microsoft Corporation",
-      "installtime": "20260823",
-      "version": ""
-    },
-    {
-      "name": "Microsoft Edge WebView2 Runtime",
-      "publisher": "Microsoft Corporation",
-      "installtime": "20260823",
-      "version": ""
-    },
-    {
-      "name": "云电脑管家",
-      "publisher": "ZTE Corporation",
-      "installtime": "",
-      "version": "V7.25.21SP3"
-    },
-    {
-      "name": "uSmartviewUpdate",
-      "publisher": "uSmartviewUpdate",
-      "installtime": "",
-      "version": "7.24.10.01"
-    },
-    {
-      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Vioserial Device Driver",
-      "publisher": "ZTE",
-      "installtime": "",
-      "version": ""
-    },
-    {
-      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Viostor Device Driver",
-      "publisher": "ZTE",
-      "installtime": "",
-      "version": "08/03/2018,100.76.104.16000"
-    },
-    {
-      "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
-      "publisher": "Microsoft Corporation",
-      "installtime": "",
-      "version": "14.44.35211.0"
-    },
-    {
-      "name": "7-Zip 25.01 (x64)",
-      "publisher": "Igor Pavlov",
-      "installtime": "",
-      "version": "25.01"
-    },
-    {
-      "name": "QEMU",
-      "publisher": "QEMU Community",
-      "installtime": "",
-      "version": "11.1.0"
-    },
-    {
-      "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
-      "publisher": "Microsoft Corporation",
-      "installtime": "20260823",
-      "version": ""
-    },
-    {
-      "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
-      "publisher": "Microsoft Corporation",
-      "installtime": "20260823",
-      "version": ""
-    },
-    {
-      "name": "Microsoft Visual C++ 2010 x64 Redistributable - 10.0.30319",
-      "publisher": "Microsoft Corporation",
-      "installtime": "20250604",
-      "version": ""
-    }
-  ],
-  "kb": [
-    {
-      "name": "KB5037587",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5037592",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5003791",
-      "publisher": "Microsoft Corporation",
-      "installtime": "10/6/2021"
-    },
-    {
-      "name": "KB5011048",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5011050",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5026037",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/17/2024"
-    },
-    {
-      "name": "KB5039211",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5037995",
-      "publisher": "Microsoft Corporation",
-      "installtime": "6/21/2024"
-    },
-    {
-      "name": "KB5005699",
-      "publisher": "Microsoft Corporation",
-      "installtime": "10/6/2021"
+      "label": "kb",
+      "observed_count": 9,
+      "retained_count": 9,
+      "softwares": [
+        {"name":"KB5037587","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5037592","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5003791","type":"2","publisher":"Microsoft Corporation","installtime":"10/6/2021","size":"0","version":" ","operate":"1"},
+        {"name":"KB5011048","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5011050","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5026037","type":"2","publisher":"Microsoft Corporation","installtime":"6/17/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5039211","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5037995","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},
+        {"name":"KB5005699","type":"2","publisher":"Microsoft Corporation","installtime":"10/6/2021","size":"0","version":" ","operate":"1"}
+      ]
     }
   ]
 }
