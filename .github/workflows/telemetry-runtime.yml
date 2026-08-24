@@ -49,3 +49,43 @@ jobs:
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
+
+  debian-13-smoke:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:13-slim
+
+    defaults:
+      run:
+        working-directory: lab/mock-telemetry
+
+    steps:
+      - name: Install Debian prerequisites
+        working-directory: /
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends ca-certificates git python3 python3-pip python3-venv
+          rm -rf /var/lib/apt/lists/*
+          cat /etc/os-release
+          python3 --version
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install runtime dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/python -m pip install -r requirements.txt
+
+      - name: Compile on Debian 13
+        run: .venv/bin/python -m compileall telemetry run_agent.py
+
+      - name: Run full unit suite on Debian 13
+        run: .venv/bin/python -m unittest discover -s tests -v
+
+      - name: Run live-system provider smoke test
+        run: |
+          .venv/bin/python -c 'import json,pathlib; cfg={"provider":{"type":"live_system","process_limit":5},"clock":{"type":"real"},"transport":{"type":"file_dump","path":"/tmp/debian-live.jsonl"},"interval_seconds":1,"duration_seconds":0}; pathlib.Path("/tmp/debian-smoke.json").write_text(json.dumps(cfg),encoding="utf-8")'
+          .venv/bin/python run_agent.py --config /tmp/debian-smoke.json
+          .venv/bin/python -c 'import json,pathlib; rows=pathlib.Path("/tmp/debian-live.jsonl").read_text(encoding="utf-8").splitlines(); assert len(rows)==1, rows; obj=json.loads(rows[0]); assert obj["provider"]=="live-system", obj; m=obj["metrics"]; required={"cpu","memory","disk","disk_io","network_io","process_snapshot"}; assert required.issubset(m), m.keys(); print("Debian 13 live-system smoke OK", {"provider":obj["provider"],"metric_keys":sorted(m.keys()),"processes":len(m["process_snapshot"])})'
