@@ -1,0 +1,16 @@
+{
+  "provider": {
+    "type": "synthetic",
+    "profile": "lab/mock-telemetry/baseline.synthetic.json"
+  },
+  "clock": {
+    "type": "simulated",
+    "start": "2030-01-01T00:00:00+00:00"
+  },
+  "transport": {
+    "type": "file_dump",
+    "path": "lab/mock-telemetry/out/synthetic.jsonl"
+  },
+  "interval_seconds": 5,
+  "duration_seconds": 60
+}
