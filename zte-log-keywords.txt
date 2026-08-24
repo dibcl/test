@@ -1,0 +1,416 @@
+﻿[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:27:58.730 #964 [INFO ] 6104# 964 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:28:00.978 #976 [INFO ] 6104# 976 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:28:00.998 #976 [INFO ] 6104# 976 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:28:31.520 #2168 [ERROR] 6104# 2168 ReadReg(486): open reg [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:31:17.895 #1600 [INFO ] 1596# 1600 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:31:20.126 #756 [INFO ] 1596# 756 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:31:20.143 #756 [INFO ] 1596# 756 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:31:50.590 #3372 [ERROR] 1596# 3372 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:39:44.603 #4804 [INFO ] 3448# 4804 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:39:44.603 #7508 [INFO ] 3448# 7508 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:39:44.626 #7508 [INFO ] 3448# 7508 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:40:01.300 #1584 [INFO ] 1580# 1584 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:40:03.529 #4832 [INFO ] 1580# 4832 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:40:03.545 #4832 [INFO ] 1580# 4832 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:40:34.007 #4828 [ERROR] 1580# 4828 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:43:27.609 #1476 [INFO ] 1472# 1476 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:43:29.839 #4688 [INFO ] 1472# 4688 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:43:29.856 #4688 [INFO ] 1472# 4688 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:44:00.333 #4684 [ERROR] 1472# 4684 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-21 16:49:15.043 #4688 [INFO ] 1472# 4688 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:53:33.999 #1740 [INFO ] 1736# 1740 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:53:36.359 #3280 [INFO ] 1736# 3280 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:53:36.374 #3280 [INFO ] 1736# 3280 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:54:25.549 #1588 [INFO ] 1584# 1588 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:54:27.783 #3144 [INFO ] 1584# 3144 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:54:27.799 #3144 [INFO ] 1584# 3144 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-06-28 19:54:58.236 #3024 [ERROR] 1584# 3024 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:06:32.428 #1432 [INFO ] 1428# 1432 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:06:34.694 #3492 [INFO ] 1428# 3492 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:06:35.132 #3492 [INFO ] 1428# 3492 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:07:05.178 #3488 [ERROR] 1428# 3488 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:12:02.323 #3492 [INFO ] 1428# 3492 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:25:57.467 #3112 [INFO ] 6980# 3112 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:25:57.483 #6260 [INFO ] 6980# 6260 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:25:57.483 #6260 [INFO ] 6980# 6260 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:26:32.774 #1456 [INFO ] 1452# 1456 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:26:35.024 #3836 [INFO ] 1452# 3836 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:26:35.039 #3836 [INFO ] 1452# 3836 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-02 15:27:05.524 #3784 [ERROR] 1452# 3784 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 11:41:49.867 #1312 [INFO ] 1308# 1312 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 11:41:52.117 #3940 [INFO ] 1308# 3940 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 11:41:52.134 #3940 [INFO ] 1308# 3940 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 11:42:22.586 #3712 [ERROR] 1308# 3712 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 11:47:12.238 #3940 [INFO ] 1308# 3940 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 12:00:33.103 #1584 [INFO ] 1580# 1584 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 12:00:35.337 #3844 [INFO ] 1580# 3844 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 12:00:35.353 #3844 [INFO ] 1580# 3844 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 12:01:05.837 #4092 [ERROR] 1580# 4092 ReadReg(500): read key [HKEY_LOCAL_MACHINE]\SOFTWARE\VDAgent\LogonInfo\iRAIUser failed(2)
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 12:07:06.876 #3844 [INFO ] 1580# 3844 reportJoinResult(2770): system: "c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" passthroughadas eyJ0eXBlIjozLCJjb21wdXRlcm5hbWUiOiJERVNLVE9QLTFFQUNET0giLCJkb21haW5uYW1lIjoiIiwicmVzdWx0IjoxfQ=
+[C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log] 2024-07-03 16:30:09.413 #1636 [INFO ] 6728# 1636 getCurrentComputerHostname(434): current ComputerName: DESKTOP-1EACDOH
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 02:47:06.653 [INFO ] 2256# 5708 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 02:57:30.889 [INFO ] 10204# 10208 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 02:58:49.008 [INFO ] 8428# 8432 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 03:07:30.837 [INFO ] 8212# 8236 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 03:38:23.279 [INFO ] 1828# 6324 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 03:40:48.280 [INFO ] 4180# 10740 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 03:41:00.582 [INFO ] 9004# 11040 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\approming.log] 2026-08-23 03:43:35.673 [INFO ] 8456# 2816 AddNetDisksInUserSession(5771): end waiting for mounting share path connections
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-08-01 18:30:15]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-08-01 18:36:00]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-08-01 18:38:16]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-08-09 16:46:24]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-08-09 16:58:52]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 11:19:03]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 11:21:00]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 11:34:05]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 11:37:23]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 12:28:57]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 14:10:53]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 14:16:19]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 14:18:00]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-25 14:18:45]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-09-26 15:46:28]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-11-04 16:58:11]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log] [2024-11-05 22:55:50]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\BCRParse.log.bak] [2024-08-01 18:25:50]tcpconnection.cpp:52:TcpConnection::~TcpConnection {  TcpConnection::~TcpConnection after exit threadRecvHandle } 
+[C:\Program Files (x86)\ZTEGuestOS\log\install.log] [2026-06-23 22:42:28] Begin installing IceServer... 
+[C:\Program Files (x86)\ZTEGuestOS\log\install.log.bak] [2025-06-04 1:23:36] Begin installing IceServer... 
+[C:\Program Files (x86)\ZTEGuestOS\log\installother.log] [2026-06-23 22:43:24] not PublicCloud mode, skip restart vdagent! 
+[C:\Program Files (x86)\ZTEGuestOS\log\installother.log] [2026-06-23 22:43:25] WriteData.exe write Vdagent success
+[C:\Program Files (x86)\ZTEGuestOS\log\installother.log] [2026-06-23 22:43:25] Begin installing UAPAgent... 
+[C:\Program Files (x86)\ZTEGuestOS\log\installother.log] [2026-06-23 22:43:25] End installing UAPAgent... 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:51] Begin Installing IceServer... 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:52] IceServer backup start 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:52] IceServer backup success 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:52] <--begin install IceServer--> 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:53] RapidFire64.dll version compare result  != 1.1.0.27 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:42:53] RapidFire64.dll version now update success  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:43:00] IceServer update success...
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:43:00] delete IceServer backup files 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:43:08] "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInputService.exe" -w csap-ip  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log] [2026-06-23 22:43:08] "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInputService.exe" -w csap-ipv6  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:54] Begin Installing IceServer... 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:55] IceServer backup start 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:55] IceServer backup success 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:56] <--begin install IceServer--> 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:58] RapidFire64.dll version compare result  != 1.1.0.27 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:23:58] RapidFire64.dll version now update success  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:24:07] IceServer update success...
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:24:08] delete IceServer backup files 
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:24:14] "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInputService.exe" -w csap-ip  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ice.log.bak] [2025-06-04 1:24:14] "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInputService.exe" -w csap-ipv6  
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:16:289 [ 1692] wmain(558): Begin installing Vdservice...is_vdservice_exist=1. vdservicepid=1620, vdagentpid=2092
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:17:476 [ 1692] wmain(626): new Vdagent version is 2507.8.9.4020.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:17:476 [ 1692] wmain(631): old Vdagent version is 2501.20.9.3027
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:132 [ 1692] wmain(775): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\vdagent.cfg C:\Program Files (x86)\ZTEGuestOS\vdservice\vdagent.cfg.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:179 [ 1692] wmain(785): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\log4cplusUServer.dll C:\Program Files (x86)\ZTEGuestOS\vdservice\log4cplusUServer.dll.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:304 [ 1692] wmain(820): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdagent.exe C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdagent.exe.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:429 [ 1692] wmain(830): taskkill /F /IM Vdagent.exe return 128.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:757 [ 1692] wmain(875): try Copy vdagent.cfg, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:820 [ 1692] wmain(885): try Copy log4cplusUServer.dll, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:20:960 [ 1692] wmain(910): try Copy Vdagent.exe, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:23:335 [ 1692] wmain(1410): aimed Vdagent version is 2507.8.9.4020.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:23:335 [ 1692] wmain(1417): current Vdagent version is 2507.8.9.4020
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:23:335 [ 1692] wmain(1442): Vdagent.exe is upgraded to new version successfully!
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:23:335 [ 1692] wmain(1456): Vdagent and Vdservice is upgraded to new version successfully! Begin to sha256 check
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:24:492 [ 1692] InstallOrUpdateBCR(365): move /y C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectAgent\RedirectAgent.exe C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectAgent\RedirectAgent.exe.bak return 1.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:24:554 [ 1692] InstallOrUpdateBCR(371): taskkill /F /IM RedirectAgent.exe return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log] 2026/ 6/23 22:43:24:695 [ 1692] InstallOrUpdateBCR(382): Copy RedirectAgent, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:24: 15 [ 5468] wmain(558): Begin installing Vdservice...is_vdservice_exist=1. vdservicepid=1484, vdagentpid=1908
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:25:203 [ 5468] wmain(626): new Vdagent version is 2501.20.9.3027.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:25:203 [ 5468] wmain(631): old Vdagent version is 2410.8.10.3644
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:27:853 [ 5468] wmain(775): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\vdagent.cfg C:\Program Files (x86)\ZTEGuestOS\vdservice\vdagent.cfg.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:27:900 [ 5468] wmain(785): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\log4cplusUServer.dll C:\Program Files (x86)\ZTEGuestOS\vdservice\log4cplusUServer.dll.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:28: 25 [ 5468] wmain(820): move /y C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdagent.exe C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdagent.exe.bak return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:28:134 [ 5468] wmain(830): taskkill /F /IM Vdagent.exe return 128.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:28:478 [ 5468] wmain(875): try Copy vdagent.cfg, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:28:525 [ 5468] wmain(885): try Copy log4cplusUServer.dll, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:28:666 [ 5468] wmain(910): try Copy Vdagent.exe, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:31: 41 [ 5468] wmain(1410): aimed Vdagent version is 2501.20.9.3027.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:31: 41 [ 5468] wmain(1417): current Vdagent version is 2501.20.9.3027
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:31: 41 [ 5468] wmain(1442): Vdagent.exe is upgraded to new version successfully!
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:31: 41 [ 5468] wmain(1456): Vdagent and Vdservice is upgraded to new version successfully! Begin to sha256 check
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:32:181 [ 5468] InstallOrUpdateBCR(365): move /y C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectAgent\RedirectAgent.exe C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectAgent\RedirectAgent.exe.bak return 1.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:32:244 [ 5468] InstallOrUpdateBCR(371): taskkill /F /IM RedirectAgent.exe return 128.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_other.log.bak] 2025/ 6/ 4  1:24:32:369 [ 5468] InstallOrUpdateBCR(382): Copy RedirectAgent, return 0.
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ret.ini] IceServer=0 [2026-06-23 22:43:00]
+[C:\Program Files (x86)\ZTEGuestOS\log\install_ret.ini.bak] IceServer=0 [2025-06-04 1:24:08]
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2025-06-04 01:24:35 main.cpp  ThreadID:1248 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2025-06-04 01:24:35 udpthreadservice.cpp  ThreadID:5604 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2025-06-04 01:24:35 websocketthreadservice.cpp  ThreadID:5908 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2025-06-04 01:24:35 udpthreadservice.cpp  ThreadID:5604 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:40:55 main.cpp  ThreadID:1888 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:40:55 udpthreadservice.cpp  ThreadID:2556 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:40:56 websocketthreadservice.cpp  ThreadID:2564 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:40:56 udpthreadservice.cpp  ThreadID:2556 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:43:24 main.cpp  ThreadID:1680 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:43:24 udpthreadservice.cpp  ThreadID:2008 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:43:24 websocketthreadservice.cpp  ThreadID:5444 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-06-23 22:43:24 udpthreadservice.cpp  ThreadID:2008 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-06 22:49:57 main.cpp  ThreadID:1904 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-06 22:49:57 udpthreadservice.cpp  ThreadID:2520 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-06 22:49:58 websocketthreadservice.cpp  ThreadID:2528 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:44:51 main.cpp  ThreadID:1888 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:44:51 udpthreadservice.cpp  ThreadID:2740 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:44:51 websocketthreadservice.cpp  ThreadID:2752 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:56:39 main.cpp  ThreadID:2152 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:56:39 udpthreadservice.cpp  ThreadID:2824 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:56:39 websocketthreadservice.cpp  ThreadID:2832 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:58:31 main.cpp  ThreadID:1776 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:58:31 udpthreadservice.cpp  ThreadID:2836 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 02:58:32 websocketthreadservice.cpp  ThreadID:2848 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 03:07:14 main.cpp  ThreadID:1856 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 03:07:14 udpthreadservice.cpp  ThreadID:2968 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 03:07:15 websocketthreadservice.cpp  ThreadID:2976 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:04:59 main.cpp  ThreadID:6112 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:04:59 udpthreadservice.cpp  ThreadID:3404 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:04:59 websocketthreadservice.cpp  ThreadID:9840 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:04:59 udpthreadservice.cpp  ThreadID:3404 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:05:09 main.cpp  ThreadID:5836 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:05:09 udpthreadservice.cpp  ThreadID:9560 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:05:09 websocketthreadservice.cpp  ThreadID:9596 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:05:09 udpthreadservice.cpp  ThreadID:9560 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:06:06 main.cpp  ThreadID:1836 line: 39]: *            RedirectAgent START           *
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:06:06 udpthreadservice.cpp  ThreadID:2268 line: 35]: send udp msg to vdagent,size 144
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:06:07 websocketthreadservice.cpp  ThreadID:2280 line: 43]: WebSocket Server started, port 51011
+[C:\Program Files (x86)\ZTEGuestOS\log\RedirectAgent.log] Info:[2026-08-23 04:06:07 udpthreadservice.cpp  ThreadID:2268 line: 70]: send TranVmMsgs_s msg to Vdagent,size  84 data lenth 21
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-06-21 16:25:39] CopyFileExA C:\Program Files (x86)\\ZTEGuestOS\\IceServer\AppProxy.dll result:true
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-06-21 16:25:43] CopyFileExA C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager-2008.dll result:true
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-06-21 16:25:43] CopyFileExA C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager.dll result:true
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-06-21 16:25:55] CopyFileExA C:\Program Files (x86)\\ZTEGuestOS\\IceServer\mainservice.xml result:true
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:07] sha256 check result != ,copy_num:0,Copy:C:\Program Files (x86)\\ZTEGuestOS\\IceServer\AppProxy.dll
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:07] CopyFileExA Z:\vdesktop\ice\IceServer\x64\AppProxy.dll to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\AppProxy.dll result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:07] sha256 check result != ,copy_num:1,Copy:C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager-2008.dll
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:07] CopyFileExA Z:\vdesktop\ice\IceServer\x64\ProtocolManager-2008.dll to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager-2008.dll result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:08] sha256 check result != ,copy_num:2,Copy:C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager.dll
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:08] CopyFileExA Z:\vdesktop\ice\IceServer\x64\ProtocolManager.dll to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\ProtocolManager.dll result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:09] sha256 check result != ,copy_num:3,Copy:C:\Program Files (x86)\\ZTEGuestOS\\IceServer\libcrypto-1_1-x64.dll
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:09] CopyFileExA Z:\vdesktop\ice\IceServer\x64\libcrypto-1_1-x64.dll to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\libcrypto-1_1-x64.dll result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:09] sha256 check result != ,copy_num:4,Copy:C:\Program Files (x86)\\ZTEGuestOS\\IceServer\libssl-1_1-x64.dll
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:09] CopyFileExA Z:\vdesktop\ice\IceServer\x64\libssl-1_1-x64.dll to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\libssl-1_1-x64.dll result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-09-25 11:11:09] CopyFileExA Z:\vdesktop\ice\IceServer\x64\mainservice.xml to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\mainservice.xml result:true,CopyFileExA fail return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2024-11-05 22:53:24] CopyFileExA Z:\vdesktop\ice\IceServer\x64\mainservice.xml to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\mainservice.xml result:true,CopyFileExA return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2025-06-04 01:24:03] CopyFileExA C:\Program Files (x86)\ZTEGuestOS\\install_tmp\\ice\\IceServer\\x64\mainservice.xml to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\mainservice.xml result:true,CopyFileExA return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] [2026-06-23 22:42:57] CopyFileExA C:\Program Files (x86)\ZTEGuestOS\\install_tmp\\ice\\IceServer\\x64\mainservice.xml to
+[C:\Program Files (x86)\ZTEGuestOS\log\sha256.log] C:\Program Files (x86)\\ZTEGuestOS\\IceServer\mainservice.xml result:true,CopyFileExA return:0
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [INFO ] 6500:6496 [SvcInit:451] OK: create usbipc_backward_link_server success!
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [INFO ] 6500:6092 [usbipc_backward_link_server:1706] create socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.0, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [INFO ] 6500:6092 [usbipc_backward_link_server:1723] bind socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.1, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [INFO ] 6500:6092 [usbipc_backward_link_server:1733] listen socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.2, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.3, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.4, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.5, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.6, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.7, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.8, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.9, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.10, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.11, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.12, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.13, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.14, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.15, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.16, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.17, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.18, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.19, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:29:29:889 [ERROR] 6500:4460 [virtioMainLoopThread:890] virtio main loop thread will end, no dev to monitor.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:08:660 [ERROR] 6500:6496 [SendAgentCancelDshowMesg:840] Failed connect to agent, WSAGetLastError(): 10061
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:207 [INFO ] 1492:1700 [SvcInit:451] OK: create usbipc_backward_link_server success!
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [INFO ] 1492:1772 [usbipc_backward_link_server:1706] create socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.0, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [INFO ] 1492:1772 [usbipc_backward_link_server:1723] bind socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.1, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [INFO ] 1492:1772 [usbipc_backward_link_server:1733] listen socket ok.
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.2, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.3, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.4, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.5, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.6, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.7, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.8, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.9, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.10, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.11, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.12, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.13, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.14, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.15, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.16, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.17, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.18, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log] 2024-06-21 16:31:16:238 [ERROR] 1492:1792 [initVirtioDev:26] failed to open virtio device:\\.\Global\com.zte.iceport.19, errno:[2].
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 wWinMain(28322): Vdagent started, version: V7.24.10_19, compile time: Mar 15 2024, 09:31:07
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 IsWinOSServerType(291): LoadLibrary ntdll.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [ERROR] 7404# 5740 VDAgent::set_console_app_vir(27595): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 VDAgent::update_whitelist_proc_state_in_reg(21834): write state is 1, _bIsOffline 1, is_compiling 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 VDAgent::run(7635): OS TYPE: 4! 0 means invalid!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [ERROR] 7404# 5740 VDAgent::run(7740): LoadLibrary user32.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 VDAgent::obtain_gpu_DesktopType(25914): begin to obtain gpu_DesktopType.
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 VDAgent::run(7811): display type is RAP
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [ERROR] 7404# 5740 VDAgent::init_vio_serial(19233): Failed opening \\.\Global\com.redhat.spice.0, error 2
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.434 #5740 [INFO ] 7404# 5740 wWinMain(28362): delete vdagent success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.871 #7308 [INFO ] 2392# 7308 wWinMain(28322): Vdagent started, version: V7.24.10_19, compile time: Mar 15 2024, 09:31:07
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.871 #7308 [INFO ] 2392# 7308 IsWinOSServerType(291): LoadLibrary ntdll.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.871 #7308 [ERROR] 2392# 7308 VDAgent::set_console_app_vir(27595): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.871 #7308 [INFO ] 2392# 7308 VDAgent::update_whitelist_proc_state_in_reg(21834): write state is 1, _bIsOffline 1, is_compiling 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.871 #7308 [INFO ] 2392# 7308 VDAgent::run(7635): OS TYPE: 4! 0 means invalid!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.887 #7308 [ERROR] 2392# 7308 VDAgent::run(7740): LoadLibrary user32.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.888 #7308 [INFO ] 2392# 7308 VDAgent::obtain_gpu_DesktopType(25914): begin to obtain gpu_DesktopType.
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.888 #7308 [INFO ] 2392# 7308 VDAgent::run(7811): display type is RAP
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.888 #7308 [ERROR] 2392# 7308 VDAgent::init_vio_serial(19233): Failed opening \\.\Global\com.redhat.spice.0, error 2
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:42.889 #7308 [INFO ] 2392# 7308 wWinMain(28362): delete vdagent success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.362 #7964 [INFO ] 7524# 7964 wWinMain(28322): Vdagent started, version: V7.24.10_19, compile time: Mar 15 2024, 09:31:07
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.362 #7964 [INFO ] 7524# 7964 IsWinOSServerType(291): LoadLibrary ntdll.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.362 #7964 [ERROR] 7524# 7964 VDAgent::set_console_app_vir(27595): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.362 #7964 [INFO ] 7524# 7964 VDAgent::update_whitelist_proc_state_in_reg(21834): write state is 1, _bIsOffline 1, is_compiling 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.362 #7964 [INFO ] 7524# 7964 VDAgent::run(7635): OS TYPE: 4! 0 means invalid!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.377 #7964 [ERROR] 7524# 7964 VDAgent::run(7740): LoadLibrary user32.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.379 #7964 [INFO ] 7524# 7964 VDAgent::obtain_gpu_DesktopType(25914): begin to obtain gpu_DesktopType.
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.379 #7964 [INFO ] 7524# 7964 VDAgent::run(7811): display type is RAP
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.379 #7964 [ERROR] 7524# 7964 VDAgent::init_vio_serial(19233): Failed opening \\.\Global\com.redhat.spice.0, error 2
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.380 #7964 [INFO ] 7524# 7964 wWinMain(28362): delete vdagent success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.857 #2452 [INFO ] 3684# 2452 wWinMain(28322): Vdagent started, version: V7.24.10_19, compile time: Mar 15 2024, 09:31:07
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.857 #2452 [INFO ] 3684# 2452 IsWinOSServerType(291): LoadLibrary ntdll.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.873 #2452 [ERROR] 3684# 2452 VDAgent::set_console_app_vir(27595): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.874 #2452 [INFO ] 3684# 2452 VDAgent::update_whitelist_proc_state_in_reg(21834): write state is 1, _bIsOffline 1, is_compiling 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.874 #2452 [INFO ] 3684# 2452 VDAgent::run(7635): OS TYPE: 4! 0 means invalid!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.874 #2452 [ERROR] 3684# 2452 VDAgent::run(7740): LoadLibrary user32.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.875 #2452 [INFO ] 3684# 2452 VDAgent::obtain_gpu_DesktopType(25914): begin to obtain gpu_DesktopType.
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.875 #2452 [INFO ] 3684# 2452 VDAgent::run(7811): display type is RAP
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.876 #2452 [ERROR] 3684# 2452 VDAgent::init_vio_serial(19233): Failed opening \\.\Global\com.redhat.spice.0, error 2
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:43.876 #2452 [INFO ] 3684# 2452 wWinMain(28362): delete vdagent success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.356 #8124 [INFO ] 4708# 8124 wWinMain(28322): Vdagent started, version: V7.24.10_19, compile time: Mar 15 2024, 09:31:07
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.358 #8124 [INFO ] 4708# 8124 IsWinOSServerType(291): LoadLibrary ntdll.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.359 #8124 [ERROR] 4708# 8124 VDAgent::set_console_app_vir(27595): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.359 #8124 [INFO ] 4708# 8124 VDAgent::update_whitelist_proc_state_in_reg(21834): write state is 1, _bIsOffline 1, is_compiling 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.359 #8124 [INFO ] 4708# 8124 VDAgent::run(7635): OS TYPE: 4! 0 means invalid!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.359 #8124 [ERROR] 4708# 8124 VDAgent::run(7740): LoadLibrary user32.dll success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.361 #8124 [INFO ] 4708# 8124 VDAgent::obtain_gpu_DesktopType(25914): begin to obtain gpu_DesktopType.
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.361 #8124 [INFO ] 4708# 8124 VDAgent::run(7811): display type is RAP
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.361 #8124 [ERROR] 4708# 8124 VDAgent::init_vio_serial(19233): Failed opening \\.\Global\com.redhat.spice.0, error 2
+[C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log] 2024-06-21 16:27:44.361 #8124 [INFO ] 4708# 8124 wWinMain(28362): delete vdagent success!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.270 #3080 [ERROR] 6956# 3080 VDService::execute(624): Connect state: 0
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.452 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.762 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.763 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.838 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1124): reset _agent_restarts to 0!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:42.916 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.240 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.240 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.409 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.736 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.736 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:43.902 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.215 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.215 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.435 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.759 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.760 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:44.999 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:45.325 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:45.325 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:45.412 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:45.491 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:48.500 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:48.500 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:48.504 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:48.538 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:51.551 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:51.552 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:51.557 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:51.589 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:54.613 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:54.613 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:54.617 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:54.652 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:57.667 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:57.667 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:57.668 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:27:57.694 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:00.714 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:00.714 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:00.718 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:00.753 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:03.757 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:03.757 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:03.760 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:03.804 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:06.827 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1110): restart_agent...
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:06.827 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1112): after kill_agent in restart_agent
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:06.827 #3080 [INFO ] 6956# 3080 VDService::restart_agent(1130): set restart_interval to 3s!
+[C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log] 2024-06-21 16:28:06.856 #3080 [WARN ] 6956# 3080 VDService::execute(719): Agent killed
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"name" : "Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"name" : "Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"name" : "Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"name" : "Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"name" : "Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ZProCtrl.log] 			"path" : "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInputService.exe",
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt001.logTmp] 08-23 04:06:06,962 [  1808][1:-1:-1] [STAT,SYS]API: "ZIME_LogInit executed successfully. params[logpath:C:\Program Files (x86)\ZTEGuestOS\IceServer\..\log\ice_server\,max_size:25000000,max_num:2,log_callback:0000000000000000]."     ----ZIMEDataEngineImpl.cpp:154
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:14,940 [  1820][1:-1:-1] [STAT,SYS]API: "ZIME_LogInit executed successfully. params[logpath:C:\Program Files (x86)\ZTEGuestOS\IceServer\..\log\ice_server\,max_size:25000000,max_num:2,log_callback:0000000000000000]."     ----ZIMEDataEngineImpl.cpp:154
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,003 [   636][1:-1:-1] [DIAG,INF]Ctrl: " m_pEngineObserver is 0000028C6467ED00"     ----LsquicCallbacksImpl.cpp:1010
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,018 [   636][1:-1:-1] [STAT,SYS]API: "ZIME_SetDataChannelCallback called. params:[0000028C64643A10,]"     ----ZIMEDataEngineImpl.cpp:429
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,018 [   636][1:-1:-1] [DIAG,INF]    : " LsquicCallbacksImpl::SetDataChannelCallback success, params[cb:0000028C64643A10]."     ----LsquicCallbacksImpl.cpp:135
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,018 [   636][1:-1:-1] [STAT,SYS]API: "ZIME_SetDataChannelCallback executed successfully. params:[0000028C64643A10,]"     ----ZIMEDataEngineImpl.cpp:458
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,018 [   636][1:-1:-1] [STAT,SYS]API: "ZIME_SetDataChannelEvent called. params:[notify_cb:0000028C646438F0]"     ----ZIMEDataEngineImpl.cpp:776
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.log] 08-23 03:07:15,018 [   636][1:-1:-1] [STAT,SYS]API: "ZIME_SetDataChannelEvent executed successfully, params:[notify_cb:0000028C646438F0]"     ----ZIMEDataEngineImpl.cpp:805
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\IceDetachDisplay-exception.s0.4288.dmp] �                  ��O!   �3�!           �O!   K               ��O!   b��_          �e���  ��O!           ����                        �  ��                                                                                                                                 ��������������������ސ����އ����                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                RSDS�<c[�$TD�(�^�Ǚ   E:\Git\workspace\ice-server\V7.24.10\share\1\ICE-Server\build\server\x64\Release\IceDetachDisplay.pdb RSDSB�2L�в����
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\IceDetachDisplay-exception.s0.4288.dmp]    ucrtbase.pdb RSDS6t�k܃��?>)u��M   advapi32.pdb RSDS[*_��Z����	'��   msvcrt.pdb RSDS�]���q��8������   sechost.pdb RSDSC�du�<���^�i_�   rpcrt4.pdb RSDS1��.&
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\IceDetachDisplay-exception.s0.4288.dmp] �                  �       �       ice_vmproxy_cmd_passthroughadas.log                             c:\Program Files (x86)\ZTEGuestOS\IceServer IceDetachDisplay.exe  p l a y . e x        4���  P��!   �x��  ���!   `(}��  P��!   _����                   ���_  �Gy��  =       ����                  �               ���_  @���_  ����_         c:\Program Files (x86)\ZTEGuestOS\IceServer\..\log\ice_server           �0���  8       ����  Ѝ_
+[C:\Program Files (x86)\ZTEGuestOS\log\ice_server\IceDetachDisplay-exception.s0.4288.dmp] �  @�!                           �              �  @�!      IceDetachDisplay                                                                                                                                                                                                                                                                c:\Program Files (x86)\ZTEGuestOS\IceServer IceDetachDisplay.exe                                                                                                                                                                                                c:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay exe                                                                                                                                                                                                                c:\Program Files (x86)\ZTEGuestOS\IceServer\..\log\ice_server                                                                                                                                                                                                                   c:\Program Files (x86)\ZTEGuestOS\IceServer\..\log\ice_server\IceDetachDisplay-exception.s0.4288.dmp    ��!   0       ݧx��          �4=��  `�!           @�!                         `^

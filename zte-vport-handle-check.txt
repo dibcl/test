@@ -1,0 +1,972 @@
+﻿========== PROCESS HANDLE MAP ==========
+
+========== IceTunnel ==========
+PID=1528
+
+   4C: ALPC Port     
+   A0: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   B4: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   D8: File  (---)   \Device\KsecDD
+   F0: Thread        IceTunnel.exe(1528): 1532
+  120: File  (---)   \Device\KsecDD
+  128: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  130: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  134: Event         \BaseNamedObjects\ice_tunnel_hb_event
+  158: Thread        IceTunnel.exe(1528): 1532
+  164: ALPC Port     
+  188: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+  18C: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt001.logTmp
+  190: Thread        IceTunnel.exe(1528): 1808
+  1A4: File  (---)   \Device\Afd
+  1A8: Thread        IceTunnel.exe(1528): 1808
+  1B0: File  (---)   \Device\Afd
+  1B4: File  (---)   \Device\Afd
+  1EC: File  (---)   \Device\CNG
+  1F0: File  (---)   \Device\Afd
+  1FC: Thread        IceTunnel.exe(1528): 3092
+  208: Thread        IceTunnel.exe(1528): 3096
+
+
+
+========== IceDisplay ==========
+PID=1556
+
+   4C: ALPC Port     
+   90: File  (---)   \Device\KsecDD
+   94: Event         \BaseNamedObjects\ice_display_hb_event
+   B4: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+   D4: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   DC: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   FC: File  (---)   \Device\KsecDD
+  198: Thread        IceDisplay.exe(1556): 1560
+  19C: ALPC Port     
+  1BC: Mutant        \BaseNamedObjects\ice_display.log
+  1C8: Thread        IceDisplay.exe(1556): 1856
+  1D0: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  1D8: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  1DC: Thread        IceDisplay.exe(1556): 1856
+  1E4: File  (---)   \Device\DeviceApi
+  1E8: File  (---)   \Device\DeviceApi
+  1EC: Section       \BaseNamedObjects\IceInputShareMem_0
+  210: File  (---)   \Device\CNG
+  21C: Event         \BaseNamedObjects\ice_push_driver_event_0
+  220: Event         \BaseNamedObjects\ice_poll_driver_event_0
+  224: Event         \BaseNamedObjects\ice_poll_driver_event_2
+  228: Event         \BaseNamedObjects\ice_push_driver_event_2
+  22C: Event         \BaseNamedObjects\ice_poll_driver_event_1
+  230: Event         \BaseNamedObjects\ice_push_driver_event_1
+  234: Event         \BaseNamedObjects\ice_push_driver_event_3
+  238: Event         \BaseNamedObjects\ice_poll_driver_event_3
+  244: Thread        IceDisplay.exe(1556): 6036
+  254: Mutant        \BaseNamedObjects\ice_gpu_mutex_0_0
+  258: File  (---)   \Device\Afd
+  26C: File  (---)   \Device\Afd
+  270: File  (---)   \Device\Nsi
+  28C: Thread        IceDisplay.exe(1556): 6020
+  294: File  (---)   \Device\Afd
+  2D4: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  2D8: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  2DC: ALPC Port     
+  2E8: Thread        IceDisplay.exe(1556): 1128
+  2F4: File  (---)   \Device\Afd
+  304: File  (---)   \Device\Afd
+  30C: File  (---)   \Device\Afd
+  31C: ALPC Port     
+  364: ALPC Port     
+  3EC: File  (---)   \Device\Afd
+  3F0: Thread        IceDisplay.exe(1556): 9324
+  3F8: Thread        IceDisplay.exe(1556): 8732
+
+
+
+========== IceMainService ==========
+PID=1520
+
+   4C: ALPC Port     
+   A0: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   A8: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   C8: File  (---)   \Device\KsecDD
+   F4: Thread        IceMainService.exe(1520): 1524
+  100: ALPC Port     
+  12C: Mutant        \BaseNamedObjects\ice_main_service.log
+  130: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_main_service.log
+  138: Thread        IceMainService.exe(1520): 1704
+  13C: Event         \BaseNamedObjects\ice_capture_restart_event
+  140: Event         \BaseNamedObjects\ice_display_hb_event
+  144: Event         \BaseNamedObjects\ice_tunnel_hb_event
+  148: Event         \BaseNamedObjects\ice_sound_hb_event
+  14C: Event         \BaseNamedObjects\ice_inputs_hb_event
+  16C: Process       IceVGPUCapture.exe(1812)
+
+
+
+========== IceInputService ==========
+PID=1512
+
+   48: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+   50: ALPC Port     
+   94: Thread        IceInputService.exe(1512): 1516
+   AC: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   B4: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   D4: File  (---)   \Device\KsecDD
+  100: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  104: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input_service.log
+  120: Thread        IceInputService.exe(1512): 1516
+  12C: ALPC Port     
+  14C: Event         \BaseNamedObjects\ice_input_cad_event
+  150: Mutant        \BaseNamedObjects\ice_input_service.log
+  158: Thread        IceInputService.exe(1512): 1708
+  180: File  (---)   \Device\Nsi
+  198: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  19C: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  1A0: ALPC Port     
+  1A4: Thread        IceInputService.exe(1512): 1708
+  1C0: ALPC Port     
+  1CC: File  (---)   \Device\Afd
+  1E4: ALPC Port     
+  264: Thread        IceInputService.exe(1512): 6312
+  27C: Process       IceInput.exe(9352)
+  2A4: Thread        IceInputService.exe(1512): 8688
+
+
+
+========== IceInput ==========
+PID=9352
+
+   54: ALPC Port     
+   CC: File  (---)   \Device\KsecDD
+   FC: File  (---)   \Device\DeviceApi
+  194: Mutant        \Sessions\1\BaseNamedObjects\ice_input.log
+  198: ALPC Port     
+  19C: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+  1A0: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  1A8: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  1B4: Thread        IceInput.exe(9352): 3208
+  1CC: Thread        IceInput.exe(9352): 3208
+  1F4: Event         \BaseNamedObjects\ice_input_sc_event
+  1F8: Thread        IceInput.exe(9352): 1796
+  208: ALPC Port     
+  214: File  (---)   \Device\Afd
+  218: Thread        IceInput.exe(9352): 3192
+  238: Event         \BaseNamedObjects\ice_input_exit_event
+  260: File  (---)   \Device\Afd
+  288: Thread        IceInput.exe(9352): 3760
+  29C: Thread        IceInput.exe(9352): 3760
+  2A0: Event         \BaseNamedObjects\ice_input_cad_event
+  2A4: Section       \BaseNamedObjects\IceInputShareMem_0
+  2B0: Event         \BaseNamedObjects\ice_cursor_ch_event
+
+
+
+========== IceSound ==========
+PID=1564
+
+   4C: ALPC Port     
+   BC: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   C4: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   E4: File  (---)   \Device\KsecDD
+  164: File  (---)   \Device\DeviceApi
+  19C: Thread        IceSound.exe(1564): 1568
+  1A0: ALPC Port     
+  1C0: Section       \BaseNamedObjects\IceInputShareMem_0
+  1CC: Mutant        \BaseNamedObjects\ice_sound.log
+  1D0: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+  1D4: Thread        IceSound.exe(1564): 1800
+  1DC: Thread        IceSound.exe(1564): 1800
+  1EC: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  1F4: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  204: Thread        IceSound.exe(1564): 2012
+  20C: File  (---)   \Device\Afd
+  210: File  (---)   \Device\Afd
+  21C: File  (---)   \Device\00000048
+  240: Thread        IceSound.exe(1564): 2068
+  244: Thread        IceSound.exe(1564): 2064
+  248: File  (---)   \Device\ToasterFilter
+  24C: Thread        IceSound.exe(1564): 2072
+  250: Thread        IceSound.exe(1564): 2076
+  254: File  (---)   \Device\ToasterFilter
+  258: File  (---)   \Device\ToasterFilter
+  260: File  (---)   \Device\ToasterFilter
+
+
+
+========== Vdservice ==========
+PID=1540
+
+   9C: ALPC Port     
+  120: File  (---)   \Device\KsecDD
+  150: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  158: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  160: Thread        Vdservice.exe(1540): 1544
+  16C: ALPC Port     
+  180: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log
+  184: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\autotest_vdagent.log
+  19C: Thread        Vdservice.exe(1540): 1408
+  1A0: Event         \BaseNamedObjects\vdservice_trig_logon_event
+  1B8: Thread        Vdservice.exe(1540): 2024
+
+
+
+========== Vdagent ==========
+PID=2056
+
+   90: ALPC Port     
+  14C: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  154: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  170: File  (---)   \Device\KsecDD
+  188: File  (---)   \Device\DeviceApi
+  250: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+  254: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\autotest_vdagent.log
+  264: File  (---)   \Device\Afd
+  2A4: Event         \BaseNamedObjects\vdservice_trig_logon_event
+  2B4: File  (---)   \Device\00000047
+  2B8: File  (---)   \Device\Afd
+  2D4: File  (---)   \Device\Afd
+  2D8: File  (---)   \Device\Afd
+  2DC: File  (---)   \Device\Nsi
+  2F8: File  (---)   \Device\Afd
+  308: File  (---)   \Device\Afd
+  324: ALPC Port     
+  344: ALPC Port     
+  360: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  364: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  368: ALPC Port     
+  370: File  (---)   \Device\KsecDD
+  37C: File  (---)   \Device\CNG
+  38C: ALPC Port     
+  3A4: File  (---)   \Device\Afd
+  3D8: ALPC Port     
+
+
+
+========== Vmbooster ==========
+PID=4156
+
+   90: ALPC Port     
+   F8: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  100: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  120: File  (---)   \Device\KsecDD
+  218: ALPC Port     
+  25C: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  264: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  270: File  (---)   \Device\Afd
+  274: File  (---)   \Device\Afd
+  2B0: File  (---)   \Device\Afd
+  2B4: File  (---)   \Device\Nsi
+  2EC: ALPC Port     
+  300: File  (---)   \Device\NamedPipe\
+  318: ALPC Port     
+  330: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  334: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  36C: ALPC Port     
+  398: ALPC Port     \RPC Control\OLE26A0E9E73D1B03DC38ACDB99358F
+  3D0: File  (---)   \Device\CNG
+
+
+
+========== VmBoosterMonitor ==========
+PID=4164
+
+   90: ALPC Port     
+   FC: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  104: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  128: File  (---)   \Device\KsecDD
+  1D0: ALPC Port     
+  208: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  210: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  21C: File  (---)   \Device\Afd
+  220: File  (---)   \Device\Afd
+  24C: File  (RW-)   C:\Program Files (x86)\ZTEGuestOS\log\install_ret.ini
+
+
+
+========== VmQoEAgent ==========
+PID=4184
+
+   90: ALPC Port     
+   F0: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+   F8: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  118: File  (---)   \Device\KsecDD
+  1D8: File  (---)   \Device\DeviceApi
+  248: ALPC Port     
+  278: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\Protocol_Catalog9
+  280: Key           HKLM\SYSTEM\ControlSet001\Services\WinSock2\Parameters\NameSpace_Catalog5
+  28C: File  (---)   \Device\Afd
+  290: File  (---)   \Device\Nsi
+  2B0: File  (---)   \Device\NamedPipe\
+  2B8: File  (---)   \Device\CNG
+  2F4: File  (---)   \Device\Afd
+  2F8: File  (---)   \Device\Afd
+  350: ALPC Port     
+  354: ALPC Port     
+  380: Key           HKLM\SYSTEM\ControlSet001\Services\.NET CLR Data\Performance
+  3A0: ALPC Port     \RPC Control\OLED9E9D9631880189867B64492336D
+  3EC: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  3F0: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  408: Key           HKLM\SYSTEM\ControlSet001\Services\.NET CLR Networking\Performance
+  410: Key           HKLM\SYSTEM\ControlSet001\Services\.NET CLR Networking 4.0.0.0\Performance
+  418: Key           HKLM\SYSTEM\ControlSet001\Services\.NET Data Provider for Oracle\Performance
+  420: Key           HKLM\SYSTEM\ControlSet001\Services\.NET Data Provider for SqlServer\Performance
+  428: Key           HKLM\SYSTEM\ControlSet001\Services\.NET Memory Cache 4.0\Performance
+  430: Key           HKLM\SYSTEM\ControlSet001\Services\.NETFramework\Performance
+  438: Key           HKLM\SYSTEM\ControlSet001\Services\BITS\Performance
+  440: Key           HKLM\SYSTEM\ControlSet001\Services\ESENT\Performance
+  448: Key           HKLM\SYSTEM\ControlSet001\Services\Lsa\Performance
+  450: Key           HKLM\SYSTEM\ControlSet001\Services\LSM\Performance
+  458: Key           HKLM\SYSTEM\ControlSet001\Services\MSDTC\Performance
+  460: Key           HKLM\SYSTEM\ControlSet001\Services\MSDTC Bridge 4.0.0.0\Performance
+  468: Key           HKLM\SYSTEM\ControlSet001\Services\MSSCNTRS\Performance
+  470: Key           HKLM\SYSTEM\ControlSet001\Services\PerfDisk\Performance
+  478: Key           HKLM\SYSTEM\ControlSet001\Services\PerfNet\Performance
+  480: Key           HKLM\SYSTEM\ControlSet001\Services\PerfOS\Performance
+  488: Key           HKLM\SYSTEM\ControlSet001\Services\PerfProc\Performance
+  490: Key           HKLM\SYSTEM\ControlSet001\Services\rdyboost\Performance
+  498: Key           HKLM\SYSTEM\ControlSet001\Services\RemoteAccess\Performance
+  4A0: Key           HKLM\SYSTEM\ControlSet001\Services\SMSvcHost 4.0.0.0\Performance
+  4A8: Key           HKLM\SYSTEM\ControlSet001\Services\Spooler\Performance
+  4B0: Key           HKLM\SYSTEM\ControlSet001\Services\TapiSrv\Performance
+  4B8: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Performance
+  4C0: Key           HKLM\SYSTEM\ControlSet001\Services\TermService\Performance
+  4C4: Mutant        \BaseNamedObjects\TermService_Perf_Library_Lock_PID_1058
+  4C8: Key           HKLM\SYSTEM\ControlSet001\Services\UGatherer\Performance
+  4D0: Key           HKLM\SYSTEM\ControlSet001\Services\UGTHRSVC\Performance
+  4D8: Key           HKLM\SYSTEM\ControlSet001\Services\usbhub\Performance
+  4E0: Key           HKLM\SYSTEM\ControlSet001\Services\Windows Workflow Foundation 4.0.0.0\Performance
+  4F0: Key           HKLM\SYSTEM\ControlSet001\Services\WSearchIdxPi\Performance
+  53C: File  (---)   \Device\PcwDrv
+  558: File  (---)   \Device\WMIDataDevice
+  56C: File  (---)   \Device\DeviceApi
+  570: File  (---)   \Device\DeviceApi
+  590: Key           HKLM\SYSTEM\ControlSet001\Services\WmiApRpl\Performance
+  600: File  (---)   \Device\NamedPipe\wkssvc
+  648: ALPC Port     
+
+
+
+========== qemu-ga ==========
+PID=3976
+
+   4C: ALPC Port     
+   9C: File  (---)   \Device\Nsi
+   A4: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+   B4: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+   C8: File  (---)   \Device\KsecDD
+  14C: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  154: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  1D8: File  (---)   \Device\DeviceApi
+  268: File  (---)   \Device\CNG
+  27C: Thread        qemu-ga.exe(3976): 3972
+  2AC: Thread        qemu-ga.exe(3976): 4628
+  2B0: File  (---)   \Device\DeviceApi
+  2C0: ALPC Port     
+  2D0: File  (---)   \Device\00000046
+  334: File  (---)   \Device\NamedPipe\
+  354: Thread        qemu-ga.exe(3976): 6376
+
+
+
+========== GuardAgent ==========
+PID=4084
+
+   90: ALPC Port     
+  11C: File  (---)   \Device\KsecDD
+  1AC: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  1B4: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  218: File  (---)   \Device\KsecDD
+  234: File  (---)   \Device\Nsi
+  238: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  23C: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  2BC: File  (---)   \Device\NamedPipe\guardagent.single
+  2C0: File  (---)   \Device\NamedPipe\guardagent.single
+  2C4: File  (---)   \Device\NamedPipe\guardagent.single
+  2C8: File  (---)   \Device\NamedPipe\guardagent.single
+  2CC: File  (---)   \Device\NamedPipe\guardagent.single
+  2D0: File  (---)   \Device\NamedPipe\guardagent.single
+  2D4: File  (---)   \Device\NamedPipe\guardagent.single
+  2D8: File  (---)   \Device\NamedPipe\guardagent.single
+  300: ALPC Port     
+
+
+
+========== AssistantService ==========
+PID=3784
+
+   90: ALPC Port     
+  124: File  (---)   \Device\KsecDD
+  1B0: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  1B8: WindowStation \Windows\WindowStations\Service-0x0-3e7$
+  204: File  (---)   \Device\KsecDD
+  220: File  (---)   \Device\Nsi
+  224: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip\Parameters\Interfaces
+  228: Key           HKLM\SYSTEM\ControlSet001\Services\Tcpip6\Parameters\Interfaces
+  2B0: File  (---)   \Device\NamedPipe\assistant.single
+  2B8: File  (---)   \Device\NamedPipe\assistant.single
+  2BC: File  (---)   \Device\NamedPipe\assistant.single
+  2C0: File  (---)   \Device\NamedPipe\assistant.single
+  2C4: File  (---)   \Device\NamedPipe\assistant.single
+  2C8: File  (---)   \Device\NamedPipe\assistant.single
+  2CC: File  (---)   \Device\NamedPipe\assistant.single
+  2D0: File  (---)   \Device\NamedPipe\assistant.single
+  2D4: Thread        AssistantService.exe(3784): 4780
+  2E4: Thread        AssistantService.exe(3784): 4780
+  2E8: ALPC Port     
+  310: Thread        AssistantService.exe(3784): 5696
+  338: Thread        AssistantService.exe(3784): 5712
+  340: Thread        AssistantService.exe(3784): 3552
+  348: File  (---)   \Device\CNG
+  34C: Thread        AssistantService.exe(3784): 5732
+  358: Thread        AssistantService.exe(3784): 5720
+  364: Thread        AssistantService.exe(3784): 5388
+  370: Thread        AssistantService.exe(3784): 5708
+  374: Thread        AssistantService.exe(3784): 5700
+  37C: Thread        AssistantService.exe(3784): 5716
+  384: Thread        AssistantService.exe(3784): 5724
+  3DC: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3E0: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3E4: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3E8: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3F0: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3F4: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3F8: File  (---)   \Device\NamedPipe\AssistSysGuard
+  3FC: File  (---)   \Device\NamedPipe\AssistSysGuard
+  40C: Thread        AssistantService.exe(3784): 5712
+  410: ALPC Port     
+  44C: ALPC Port     \RPC Control\OLE6EBC92342382FCAF32FBD3E7C9FC
+  450: Thread        AssistantService.exe(3784): 6532
+  46C: ALPC Port     
+  47C: ALPC Port     
+  4AC: Thread        AssistantService.exe(3784): 5700
+  4D8: Thread        AssistantService.exe(3784): 5724
+  4F4: ALPC Port     
+  53C: ALPC Port     
+
+
+
+========== PORT 10000 OWNER ==========
+
+Process           PID       State LocalAddress LocalPort RemoteAddress RemotePort
+-------           ---       ----- ------------ --------- ------------- ----------
+VmQoEAgent       4184 Established 127.0.0.1        49743 127.0.0.1          10000
+Vmbooster        4156 Established 127.0.0.1        49742 127.0.0.1          10000
+VmBoosterMonitor 4164 Established 127.0.0.1        49675 127.0.0.1          10000
+MswitchWin       3968      Listen 127.0.0.1        10000 0.0.0.0                0
+MswitchWin       3968 Established 127.0.0.1        10000 127.0.0.1          49743
+MswitchWin       3968 Established 127.0.0.1        10000 127.0.0.1          49675
+MswitchWin       3968 Established 127.0.0.1        10000 127.0.0.1          49742
+
+
+
+========== RAW VIOSERIAL REGISTRY ==========
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&01
+    DeviceDesc    REG_SZ    vport0p1
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x1
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980417-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&01\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&01\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&01\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&02
+    DeviceDesc    REG_SZ    vport0p2
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x2
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980418-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&02\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&02\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&02\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&03
+    DeviceDesc    REG_SZ    vport0p3
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x3
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980416-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&03\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&03\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&03\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&04
+    DeviceDesc    REG_SZ    vport0p4
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x4
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980419-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&04\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&04\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&04\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&05
+    DeviceDesc    REG_SZ    vport0p5
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x5
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041a-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&05\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&05\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&05\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&06
+    DeviceDesc    REG_SZ    vport0p6
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x6
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041b-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&06\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&06\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&06\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&07
+    DeviceDesc    REG_SZ    vport0p7
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x7
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041c-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&07\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&07\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&07\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&08
+    DeviceDesc    REG_SZ    vport0p8
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x8
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041d-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&08\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&08\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&08\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&09
+    DeviceDesc    REG_SZ    vport0p9
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x9
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041e-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&09\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&09\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&09\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&10
+    DeviceDesc    REG_SZ    vport0p10
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xa
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98041f-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&10\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&10\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&10\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&11
+    DeviceDesc    REG_SZ    vport0p11
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xb
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980420-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&11\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&11\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&11\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&12
+    DeviceDesc    REG_SZ    vport0p12
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xc
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980421-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&12\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&12\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&1570899a&0&12\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&7e8053e&0&01
+    DeviceDesc    REG_SZ    vport0p1
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x1
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {53921d23-2fa4-11ef-bcb8-525400b6885f}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&7e8053e&0&01\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&7e8053e&0&01\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&7e8053e&0&01\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&01
+    DeviceDesc    REG_SZ    vport1p1
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x1
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980422-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&01\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&01\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&01\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&02
+    DeviceDesc    REG_SZ    vport1p2
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x2
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980423-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&02\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&02\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&02\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&03
+    DeviceDesc    REG_SZ    vport1p3
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x3
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980424-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&03\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&03\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&03\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&04
+    DeviceDesc    REG_SZ    vport1p4
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x4
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980425-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&04\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&04\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&04\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&05
+    DeviceDesc    REG_SZ    vport1p5
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x5
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980426-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&05\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&05\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&05\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&06
+    DeviceDesc    REG_SZ    vport1p6
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x6
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980427-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&06\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&06\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&06\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&07
+    DeviceDesc    REG_SZ    vport1p7
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x7
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980428-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&07\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&07\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&07\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&08
+    DeviceDesc    REG_SZ    vport1p8
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x8
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b980429-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&08\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&08\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&08\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&09
+    DeviceDesc    REG_SZ    vport1p9
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x9
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98042a-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&09\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&09\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&09\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&10
+    DeviceDesc    REG_SZ    vport1p10
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xa
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98042b-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&10\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&10\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&10\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&11
+    DeviceDesc    REG_SZ    vport1p11
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xb
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98042c-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&11\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&11\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&11\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&12
+    DeviceDesc    REG_SZ    vport1p12
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0xc
+    Address    REG_DWORD    0x1
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {0b98042d-3950-11ef-bcc2-806e6f6e6963}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&12\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&12\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\4&86d7064&0&12\Properties
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\5&b5896c2&0&01
+    DeviceDesc    REG_SZ    vport0p1
+    LocationInformation    REG_SZ    RedHat VIOSerial Port
+    Capabilities    REG_DWORD    0xe6
+    UINumber    REG_DWORD    0x1
+    Address    REG_DWORD    0x0
+    ConfigFlags    REG_DWORD    0x0
+    ContainerID    REG_SZ    {f0285dc3-3544-11ef-bcbc-92a694d1f085}
+    HardwareID    REG_MULTI_SZ    {6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSerialPort
+    CompatibleIDs    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\5&b5896c2&0&01\Device Parameters
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\5&b5896c2&0&01\Device Parameters\WDF
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\{6FDE7547-1B65-48ae-B628-80BE62016026}\VIOSERIALPORT\5&b5896c2&0&01\Properties
+
+========== ZTE / ICE SYSTEM DRIVERS ==========
+
+
+Name        : HdAudAddService
+DisplayName : 用于 High Definition Audio 服务的 Microsoft 1.1 UAA 函数驱动程序
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\HdAudio.sys
+
+Name        : hvservice
+DisplayName : Hypervisor/Virtual Machine Support Driver
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\hvservice.sys
+
+Name        : ICEAudio
+DisplayName : ICE-Audio-Driver
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\vadsimpl.sys
+
+Name        : ICEDod
+DisplayName : ICEDod
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\icedod.sys
+
+Name        : icekeybd
+DisplayName : ICE PS2 Keyboard
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\icekeybd.sys
+
+Name        : icemouse
+DisplayName : ICE PS2 Mouse
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\icemouse.sys
+
+Name        : NdisVirtualBus
+DisplayName : Microsoft 虚拟网络适配器枚举器
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\NdisVirtualBus.sys
+
+Name        : viohidkmdf
+DisplayName : viohidkmdf
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\viohidkmdf.sys
+
+Name        : vioscsi
+DisplayName : vioscsi
+State       : Running
+StartMode   : Boot
+PathName    : C:\Windows\system32\drivers\vioscsi.sys
+
+Name        : viostor
+DisplayName : viostor
+State       : Running
+StartMode   : Boot
+PathName    : C:\Windows\system32\drivers\viostor.sys
+
+Name        : VirtioInput
+DisplayName : VirtIO Input Service
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\vioinput.sys
+
+Name        : VirtioSerial
+DisplayName : VirtIO Serial Service
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\vioser.sys
+
+Name        : VirtualRender
+DisplayName : VirtualRender
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\vrd.inf_amd64_81fbd405ff2470fc\vrd.sys
+
+Name        : ZTEDeviceTool
+DisplayName : ZTEDeviceTool
+State       : Running
+StartMode   : System
+PathName    : C:\Windows\system32\drivers\ZTEDeviceTool.sys
+
+Name        : zteusbb
+DisplayName : ZTE USB host controller
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\drivers\zteusbb.sys
+
+
+

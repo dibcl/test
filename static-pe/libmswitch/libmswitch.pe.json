@@ -1,0 +1,196 @@
+{
+  "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\libmswitch.dll",
+  "sha256": "e200691b3725ac3d6576e4a00059cf12709bb85ffbcb5729959cc00d5e281927",
+  "size": 65832,
+  "machine": "x86",
+  "bitness": 32,
+  "timestamp": 1698129276,
+  "characteristics": "0x2102",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 33658,
+      "vaddr": 4096,
+      "raw_size": 33792,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 12006,
+      "vaddr": 40960,
+      "raw_size": 12288,
+      "raw_ptr": 34816
+    },
+    {
+      "name": ".data",
+      "vsize": 11300,
+      "vaddr": 53248,
+      "raw_size": 4096,
+      "raw_ptr": 47104
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 504,
+      "vaddr": 65536,
+      "raw_size": 512,
+      "raw_ptr": 51200
+    },
+    {
+      "name": ".reloc",
+      "vsize": 3308,
+      "vaddr": 69632,
+      "raw_size": 3584,
+      "raw_ptr": 51712
+    }
+  ],
+  "imports": [
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "ordinal:11",
+        "ordinal:111",
+        "ordinal:115",
+        "ordinal:116",
+        "ordinal:16",
+        "ordinal:18",
+        "ordinal:19",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:4",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "RegCloseKey",
+        "RegOpenKeyExA",
+        "RegQueryValueExA"
+      ]
+    },
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateFileW",
+        "CreateThread",
+        "DecodePointer",
+        "DeleteCriticalSection",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "ExitProcess",
+        "FlushFileBuffers",
+        "FreeEnvironmentStringsW",
+        "GetACP",
+        "GetCPInfo",
+        "GetCommandLineA",
+        "GetConsoleCP",
+        "GetConsoleMode",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThreadId",
+        "GetEnvironmentStringsW",
+        "GetFileType",
+        "GetLastError",
+        "GetModuleFileNameA",
+        "GetModuleFileNameW",
+        "GetModuleHandleW",
+        "GetOEMCP",
+        "GetProcAddress",
+        "GetStartupInfoW",
+        "GetStdHandle",
+        "GetStringTypeW",
+        "GetSystemTimeAsFileTime",
+        "GetTickCount",
+        "HeapAlloc",
+        "HeapCreate",
+        "HeapDestroy",
+        "HeapFree",
+        "HeapReAlloc",
+        "HeapSize",
+        "InitializeCriticalSection",
+        "InitializeCriticalSectionAndSpinCount",
+        "InterlockedDecrement",
+        "InterlockedIncrement",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "IsValidCodePage",
+        "LCMapStringW",
+        "LeaveCriticalSection",
+        "LoadLibraryW",
+        "MultiByteToWideChar",
+        "QueryPerformanceCounter",
+        "RtlUnwind",
+        "SetFilePointer",
+        "SetHandleCount",
+        "SetLastError",
+        "SetStdHandle",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "TerminateProcess",
+        "TlsAlloc",
+        "TlsFree",
+        "TlsGetValue",
+        "TlsSetValue",
+        "UnhandledExceptionFilter",
+        "WideCharToMultiByte",
+        "WriteConsoleW",
+        "WriteFile"
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "name": "BuildMsg",
+      "ordinal": 1,
+      "rva": "0x1b20"
+    },
+    {
+      "name": "FreeMsg",
+      "ordinal": 2,
+      "rva": "0x24d0"
+    },
+    {
+      "name": "H_UUID",
+      "ordinal": 3,
+      "rva": "0xd004"
+    },
+    {
+      "name": "Libmswitch_BuildTime",
+      "ordinal": 4,
+      "rva": "0xd014"
+    },
+    {
+      "name": "Libmswitch_FullVersion",
+      "ordinal": 5,
+      "rva": "0xd018"
+    },
+    {
+      "name": "Libmswitch_Url",
+      "ordinal": 6,
+      "rva": "0xd01c"
+    },
+    {
+      "name": "RecvMsg",
+      "ordinal": 7,
+      "rva": "0x2080"
+    },
+    {
+      "name": "RecvMsgTimeout",
+      "ordinal": 8,
+      "rva": "0x2260"
+    },
+    {
+      "name": "Register",
+      "ordinal": 9,
+      "rva": "0x10c0"
+    },
+    {
+      "name": "SendMsg",
+      "ordinal": 10,
+      "rva": "0x1c20"
+    }
+  ],
+  "import_directory_size": 80,
+  "export_directory_size": 278
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\SysGuard\\AssistantService.exe",
+    "json": "static-pe\\sysguard\\AssistantService.pe.json",
+    "strings": "static-pe\\sysguard\\AssistantService.strings.txt",
+    "sha256": "e7864870f7c3ea93f07fdd8858ce26511e811900ccd249421b7b2fc9e70dcb29",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 6481
+  },
+  {
+    "path": "C:\\Program Files (x86)\\SysGuard\\SysGuard.exe",
+    "json": "static-pe\\sysguard\\SysGuard.pe.json",
+    "strings": "static-pe\\sysguard\\SysGuard.strings.txt",
+    "sha256": "6d9d365a98cecd31db0e571fa84744c5b3ca8c4019749c845c60b32b9025453c",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 28455
+  }
+]

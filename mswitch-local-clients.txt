@@ -1,0 +1,105 @@
+﻿========== MSWITCH LOCAL CLIENTS ==========
+
+
+Process      : VmQoEAgent.exe
+PID          : 3068
+LocalAddress : 127.0.0.1
+LocalPort    : 49751
+RemoteAddr   : 127.0.0.1
+RemotePort   : 10000
+State        : Established
+
+
+
+
+
+Process      : Vmbooster.exe
+PID          : 3476
+LocalAddress : 127.0.0.1
+LocalPort    : 49749
+RemoteAddr   : 127.0.0.1
+RemotePort   : 10000
+State        : Established
+
+
+
+
+
+Process      : VmBoosterMonitor.exe
+PID          : 4080
+LocalAddress : 127.0.0.1
+LocalPort    : 49675
+RemoteAddr   : 127.0.0.1
+RemotePort   : 10000
+State        : Established
+
+
+
+
+
+Process      : MswitchWin.exe
+PID          : 4016
+LocalAddress : 127.0.0.1
+LocalPort    : 10000
+RemoteAddr   : 127.0.0.1
+RemotePort   : 49751
+State        : Established
+
+
+
+
+
+Process      : MswitchWin.exe
+PID          : 4016
+LocalAddress : 127.0.0.1
+LocalPort    : 10000
+RemoteAddr   : 127.0.0.1
+RemotePort   : 49749
+State        : Established
+
+
+
+
+
+Process      : MswitchWin.exe
+PID          : 4016
+LocalAddress : 127.0.0.1
+LocalPort    : 10000
+RemoteAddr   : 127.0.0.1
+RemotePort   : 49675
+State        : Established
+
+
+
+
+
+Process      : MswitchWin.exe
+PID          : 4016
+LocalAddress : 127.0.0.1
+LocalPort    : 10000
+RemoteAddr   : 0.0.0.0
+RemotePort   : 0
+State        : Listen
+
+
+
+
+========== LISTENERS ==========
+
+
+Process : Vmbooster.exe
+PID     : 3476
+Address : 0.0.0.0
+Port    : 65188
+
+
+
+
+
+Process : MswitchWin.exe
+PID     : 4016
+Address : 127.0.0.1
+Port    : 10000
+
+
+

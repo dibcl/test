@@ -1,0 +1,198 @@
+﻿========== SYSTEM BOOT ==========
+LastBootUpTime: 08/23/2026 23:40:17
+
+========== SERVICE FAILURE ACTIONS ==========
+
+----- MswitchWin -----
+[SC] QueryServiceConfig 成功
+
+SERVICE_NAME: MswitchWin
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : "C:\Program Files (x86)\vmtool\vm_booster\MswitchWin.exe"
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : MswitchWin
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : LocalSystem
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: MswitchWin
+        RESET_PERIOD (以秒计)        : 0
+        REBOOT_MESSAGE               : 
+        COMMAND_LINE                 : 
+
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: MswitchWin
+FAILURE_ACTIONS_ON_NONCRASH_FAILURES:  FALSE
+
+----- Vmbooster -----
+[SC] QueryServiceConfig 成功
+
+SERVICE_NAME: Vmbooster
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : "C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe"
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : Vmbooster
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : LocalSystem
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: Vmbooster
+        RESET_PERIOD (以秒计)        : 0
+        REBOOT_MESSAGE               : 
+        COMMAND_LINE                 : 
+
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: Vmbooster
+FAILURE_ACTIONS_ON_NONCRASH_FAILURES:  FALSE
+
+----- VmBoosterMonitor -----
+[SC] QueryServiceConfig 成功
+
+SERVICE_NAME: VmBoosterMonitor
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : "C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe"
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : VmBoosterMonitor
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : LocalSystem
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: VmBoosterMonitor
+        RESET_PERIOD (以秒计)        : 0
+        REBOOT_MESSAGE               : 
+        COMMAND_LINE                 : 
+        FAILURE_ACTIONS              : 重启动 -- 延迟 = 60000 微秒。
+                                       重启动 -- 延迟 = 120000 微秒。
+
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: VmBoosterMonitor
+FAILURE_ACTIONS_ON_NONCRASH_FAILURES:  FALSE
+
+----- VmQoEAgent -----
+[SC] QueryServiceConfig 成功
+
+SERVICE_NAME: VmQoEAgent
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        START_TYPE         : 2   AUTO_START
+        ERROR_CONTROL      : 1   NORMAL
+        BINARY_PATH_NAME   : "C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe"
+        LOAD_ORDER_GROUP   : 
+        TAG                : 0
+        DISPLAY_NAME       : VmQoEAgent
+        DEPENDENCIES       : 
+        SERVICE_START_NAME : LocalSystem
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: VmQoEAgent
+        RESET_PERIOD (以秒计)        : 0
+        REBOOT_MESSAGE               : 
+        COMMAND_LINE                 : 
+
+[SC] QueryServiceConfig2 成功
+
+SERVICE_NAME: VmQoEAgent
+FAILURE_ACTIONS_ON_NONCRASH_FAILURES:  FALSE
+
+========== SYSTEM EVENTS 23:38-23:42 ==========
+
+TIME: 08/23/2026 23:38:16
+ID: 7040
+PROVIDER: Service Control Manager
+MESSAGE:
+Background Intelligent Transfer Service 服务的启动类型从 按需启动 更改为 自动启动。
+
+TIME: 08/23/2026 23:40:16
+ID: 12
+PROVIDER: Microsoft-Windows-Kernel-General
+MESSAGE:
+操作系统已在系统时间 ‎2026‎-‎08‎-‎23T15:40:16.500000000Z 启动。
+
+TIME: 08/23/2026 23:40:18
+ID: 41
+PROVIDER: Microsoft-Windows-Kernel-Power
+MESSAGE:
+系统已在未先正常关机的情况下重新启动。如果系统停止响应、发生崩溃或意外断电，则可能会导致此错误。
+
+TIME: 08/23/2026 23:40:20
+ID: 6005
+PROVIDER: EventLog
+MESSAGE:
+事件日志服务已启动。
+
+TIME: 08/23/2026 23:40:20
+ID: 6008
+PROVIDER: EventLog
+MESSAGE:
+上一次系统的 23:26:08 在 ‎2026/‎8/‎23 上的关闭是意外的。
+
+TIME: 08/23/2026 23:40:20
+ID: 7000
+PROVIDER: Service Control Manager
+MESSAGE:
+由于下列错误，luafv 服务启动失败: 
+此驱动程序被阻止加载
+
+TIME: 08/23/2026 23:40:21
+ID: 7040
+PROVIDER: Service Control Manager
+MESSAGE:
+TabletInputService 服务的启动类型从 自动启动 更改为 按需启动。
+
+TIME: 08/23/2026 23:40:21
+ID: 7023
+PROVIDER: Service Control Manager
+MESSAGE:
+wuauserv 服务因下列错误而停止: 
+找不到指定的模块。
+
+TIME: 08/23/2026 23:40:21
+ID: 7026
+PROVIDER: Service Control Manager
+MESSAGE:
+以下引导启动或系统启动驱动程序未加载: 
+dam
+
+TIME: 08/23/2026 23:40:22
+ID: 7040
+PROVIDER: Service Control Manager
+MESSAGE:
+Touch Keyboard and Handwriting Panel Service 服务的启动类型从 按需启动 更改为 自动启动。
+
+TIME: 08/23/2026 23:40:23
+ID: 7023
+PROVIDER: Service Control Manager
+MESSAGE:
+Windows Update 服务因下列错误而停止: 
+找不到指定的模块。
+
+TIME: 08/23/2026 23:42:19
+ID: 7023
+PROVIDER: Service Control Manager
+MESSAGE:
+Windows Update 服务因下列错误而停止: 
+找不到指定的模块。
+
+TIME: 08/23/2026 23:42:22
+ID: 7009
+PROVIDER: Service Control Manager
+MESSAGE:
+等待 更新 Orchestrator 服务 服务的连接超时(30000 毫秒)。
+
+TIME: 08/23/2026 23:42:22
+ID: 7000
+PROVIDER: Service Control Manager
+MESSAGE:
+由于下列错误，更新 Orchestrator 服务 服务启动失败: 
+服务没有及时响应启动或控制请求。

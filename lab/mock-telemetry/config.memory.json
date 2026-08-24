@@ -1,0 +1,7 @@
+{
+  "profile": "lab/mock-telemetry/baseline.synthetic.json",
+  "transport": {"type": "memory", "auto_reply": true},
+  "faults": {"drop_ids": [], "duplicate_ids": [], "stale_timestamp_ids": []},
+  "bidirectional": true,
+  "duration_seconds": 600
+}

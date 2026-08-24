@@ -1,0 +1,97 @@
+{
+  "identity": {
+    "test_mode": true,
+    "vmuuid": "11111111-1111-4111-8111-111111111111",
+    "test_uuid": "11111111-1111-4111-8111-111111111111",
+    "test_hostid": "222222222222222222222222222222222222",
+    "test_vmid": "333333333333333333333333333333333333",
+    "agent_version": "TEST-V7.25.21",
+    "driver_version": "TEST-PV-1",
+    "software_versions": {
+      "vmbooster": "TEST-V7.25.21",
+      "PVDriver": "TEST-PV-1",
+      "vdagent": "TEST-VDAGENT-1",
+      "usbipc": "TEST-USBIPC-1",
+      "media_redirect": "TEST-MEDIA-1"
+    },
+    "issysprep": "0",
+    "rdp_state": "0",
+    "gateway_alarm": 1000028,
+    "heartbeat_extensions": false,
+    "max_missed_heartbeat_acks": 3
+  },
+  "environment": {
+    "computername": "TEST-WIN10",
+    "cpu": "Synthetic CPU",
+    "os": "Microsoft Windows [Version 10.0.19044.0]",
+    "bit": "64",
+    "mem": "16384M",
+    "mac": "02-00-00-00-00-10",
+    "ip": "192.0.2.10",
+    "gateway": "192.0.2.1",
+    "netmask": "255.255.255.0",
+    "dns": "192.0.2.53",
+    "dhcp": 1,
+    "disk": "C:80.00GB",
+    "diskused": "C:20.00GB",
+    "version": "TEST-V7.25.21",
+    "targetversion": ""
+  },
+  "software_batches": [
+    [
+      {"name": "Synthetic App A", "type": "1", "publisher": "Test Vendor", "installtime": "20300101", "size": "0", "version": "1.0", "operate": "1"},
+      {"name": "Synthetic App B", "type": "1", "publisher": "Test Vendor", "installtime": "20300101", "size": "0", "version": "2.0", "operate": "1"}
+    ],
+    [
+      {"name": "Synthetic App C x86", "type": "1", "publisher": "Test Vendor", "installtime": "20300101", "size": "0", "version": "3.0", "operate": "1"}
+    ],
+    [
+      {"name": "KB0000001", "type": "2", "publisher": "Test Vendor", "installtime": "1/1/2030", "size": "0", "version": "", "operate": "1"}
+    ]
+  ],
+  "performance_samples": [
+    {"createtime": "frozen-1", "cpu": 10.0, "handle": 1000, "mem": {"used": 40.0}, "network": [{"data": "02-00-00-00-00-10|1|1|0|0|60|60"}], "disk": "1|1|1"},
+    {"createtime": "frozen-2", "cpu": 11.0, "handle": 1001, "mem": {"used": 40.1}, "network": [{"data": "02-00-00-00-00-10|1|1|0|0|60|60"}], "disk": "1|1|1"},
+    {"createtime": "frozen-3", "cpu": 12.0, "handle": 1002, "mem": {"used": 40.2}, "network": [{"data": "02-00-00-00-00-10|1|1|0|0|60|60"}], "disk": "1|1|1"},
+    {"createtime": "frozen-4", "cpu": 13.0, "handle": 1003, "mem": {"used": 40.3}, "network": [{"data": "02-00-00-00-00-10|1|1|0|0|60|60"}], "disk": "1|1|1"},
+    {"createtime": "frozen-5", "cpu": 14.0, "handle": 1004, "mem": {"used": 40.4}, "network": [{"data": "02-00-00-00-00-10|1|1|0|0|60|60"}], "disk": "1|1|1"}
+  ],
+  "process_snapshot": {
+    "process": [{"data": "SyntheticProcess|100|1.0|1024|10"}],
+    "process_memory": [{"data": "SyntheticProcess|100|1.0|1024|10"}],
+    "process_handle": [{"data": "SyntheticProcess|100|1.0|1024|10"}],
+    "process_diskio": [{"data": "SyntheticProcess|100|10|5|5"}],
+    "process_netio": [{"data": "SyntheticProcess|100|10|5|5"}],
+    "keyprocess": "SyntheticProcess.exe"
+  },
+  "activity_events": [
+    "2030-01-01 00:05:00|0|208|3|6||||synthetic active interval=5min"
+  ],
+  "connectivity_rows": [
+    "'2030-01-01 00:05:00','2030-01-01 00:05:00',4,'synthetic','192.0.2.10','1','192.0.2.1:1','1','1'"
+  ],
+  "ice_traces": [
+    {"resourceSpans": [{"resource": {"attributes": [{"key": "service.name", "value": {"stringValue": "ICE-MOCK"}}]}, "scopeSpans": []}]}
+  ],
+  "dynamics": {
+    "seed": 20260824,
+    "cpu": {"mean": 15.0, "initial": 15.0, "min": 8.0, "max": 45.0, "sigma": 2.0, "smoothing": 0.35, "spike_probability": 0.08, "spike_min": 12.0, "spike_max": 24.0},
+    "memory": {"mean": 40.0, "initial": 40.0, "min": 35.0, "max": 60.0, "sigma": 0.8, "smoothing": 0.2, "spike_probability": 0.02, "spike_min": 3.0, "spike_max": 8.0},
+    "disk_io": {"mean": 8.0, "initial": 8.0, "min": 0.2, "max": 80.0, "sigma": 3.0, "smoothing": 0.4, "spike_probability": 0.1, "spike_min": 20.0, "spike_max": 50.0},
+    "network_io": {"mean": 4.0, "initial": 4.0, "min": 0.1, "max": 60.0, "sigma": 1.5, "smoothing": 0.3, "spike_probability": 0.06, "spike_min": 8.0, "spike_max": 24.0},
+    "initial_keyboard_count": 0,
+    "initial_mouse_count": 0,
+    "process_pool": [
+      {"name": "Synthetic_Primary.exe", "primary": true, "pid_base": 100, "pid_jitter": 0, "threads": 24, "cpu_weight": 3.0},
+      {"name": "Synthetic_WorkerA.exe", "primary": false, "pid_base": 200, "pid_jitter": 8, "threads": 12, "cpu_weight": 1.0},
+      {"name": "Synthetic_WorkerB.exe", "primary": false, "pid_base": 300, "pid_jitter": 8, "threads": 8, "cpu_weight": 0.7}
+    ]
+  },
+  "protocol_options": {
+    "url_encode_text": true,
+    "timers": {
+      "heartbeat": {"distribution": "uniform", "min_seconds": 28.0, "max_seconds": 31.0},
+      "qoe": {"distribution": "uniform", "min_seconds": 298.0, "max_seconds": 303.0}
+    }
+  }
+}

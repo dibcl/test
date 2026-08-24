@@ -1,0 +1,38 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\uSmartviewUpdate\\uSmartviewUpdate.exe",
+    "json": "static-pe\\delivery-chain\\uSmartviewUpdate.pe.json",
+    "strings": "static-pe\\delivery-chain\\uSmartviewUpdate.strings.txt",
+    "sha256": "20c5478aeb3bcd9def59be21fe2ee78b1ee76c872d132fff5185a1539a22d327",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 3383
+  },
+  {
+    "path": "C:\\Program Files (x86)\\uSmartviewUpdate\\UpdateDaemon.exe",
+    "json": "static-pe\\delivery-chain\\UpdateDaemon.pe.json",
+    "strings": "static-pe\\delivery-chain\\UpdateDaemon.strings.txt",
+    "sha256": "687be7670d951ccd3656c3515eb4bfe45cd120d4a12843d6f622962f07360db2",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 859
+  },
+  {
+    "path": "C:\\Program Files (x86)\\SysGuard\\AssistantService.exe",
+    "json": "static-pe\\delivery-chain\\AssistantService.pe.json",
+    "strings": "static-pe\\delivery-chain\\AssistantService.strings.txt",
+    "sha256": "e7864870f7c3ea93f07fdd8858ce26511e811900ccd249421b7b2fc9e70dcb29",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 6481
+  },
+  {
+    "path": "C:\\Program Files (x86)\\SysGuard\\SysGuard.exe",
+    "json": "static-pe\\delivery-chain\\SysGuard.pe.json",
+    "strings": "static-pe\\delivery-chain\\SysGuard.strings.txt",
+    "sha256": "6d9d365a98cecd31db0e571fa84744c5b3ca8c4019749c845c60b32b9025453c",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 28455
+  }
+]

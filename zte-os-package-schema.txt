@@ -1,0 +1,277 @@
+﻿========== ZTE OS / PACKAGE SCHEMA ==========
+
+========== C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdate.exe ==========
+      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*' />
+ failed and local network error!clientType=
+ failed, but local network ok!clientType=
+ status was set,clientType=
+ success, clientType=
+,"objecttype":
+,clientType=
+,cur clientType=
+/version?objecttype=
+[download]%1 has new version to down,clientType=%2
+[download]certifiedAddr download %1 package result:%2
+[download]certifiedAddr download %1 package start, package name:%2
+[download]download by ini failed:%1,clienttype=%2
+[download]download from break point install type %1,url:%2,cag:%3,clientType:%4
+[download]download package from extra ipv6 network,clientType=
+[download]download package from extra network,clientType=
+[download]download package from inner network ipv6,clientType=
+[download]download package from inner network,clientType=
+[download]DOWNLOAD_NETWORK_TYPE %1 download %2 package start, package name:%3
+[download]in installing,skip download, clientType=
+[download]no need to download from break point,clientType=
+[download]noncertifiedAddr download %1 package start, package name:%2
+[download]Old server version, not support!clientType=
+[install]auto upgrade trigger install task,clientType=%1
+[install]Automatic upgrade in idle time, show update reminder popup with countdown.clientType=
+[install]Automatic upgrade in idle time, show update reminder popup without countdown.clientType=
+[install]manual upgrade trigger install task,clientType=%1
+[install]manual upgrade trigger, add to install queue,clientType=
+[install]next update install time:%1, curTime:%2, clientType:%3,ildeUpgrade:%4
+[install]not idle,skip install,clientType=
+[install]other soft is in manual upgrade,skip auto install clientType=%1
+[Manual]:manual upgrade failed,other client in upgrade, clientType=
+[query]:local save version is invalid,clientType=%1
+[query]:no server to query,clientType=%1
+[query]:query from %1,clientType:%2,ostype:%3,bit%4,network:%5,cag:%6
+[query]:query latest version clientType=%1, cur version:%2
+[query]:remote latest version %1, clientType=%2
+[query]auto upgrade query latest version from server,clientType=%1
+[query]in installing,skip query version,clientType=
+[query]in period[%1],clientType=%2
+[query]manual upgrade query latest version from server,clientType=%1
+[query]not period[%1],clientType=%2
+[query]query interval=%1min passed,clientType=%2
+] already installed,skip install it, clientType=
+] failed,break install, clientType=
+] success,break install, clientType=
+{"code":0,"data":{"objecttype":
+{"objecttype":
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+add install unfinished soft to queue,clientType=
+add to install queue,clientType=
+already manual clicked,clientType=
+App client is invalid,objectType=
+application is idle,clientType=
+application is not idle,clientType=
+bool __cdecl Helper::isRebotClienttype(int)
+C:\Windows\Temp\update\
+cancel reminder popup[%1],clientType=%2
+check reboot clientType=
+clientType
+ClientType=
+components
+delete old update client package 
+does not exist,skip update process, clientType=
+download full package file[
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\uSmartviewUpdate
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\uSmartviewUpdate
+Identifier:22&objecttype=
+install soft,clientType=
+load app client regedit info,clientType=
+Load local regedit info, queryVersionTime:%1, updateTime:%2, clientType=%3
+manual upgrade %1 failed,upgrade package was delete!
+module %1 versionid:%2 not samed as installed:%3, clientType=%4
+module %1 versionid:%2 samed as installed:%3, clientType=%4
+no cached file to download,clientType=
+no new version,clientType=
+no version to install,clientType=
+not download update client package is empty,clientType=
+objectType
+objectType=
+other app clienttype=%1 installing,manual clienttype=%2
+other client in upgrade install,other clientType=
+query application idle state failed,clientType=
+Query policy after regedit, query time:%1,update Time:%2, clientType=%3, server before 717:%4
+regedit self by clientType=
+retrurn objectType: 
+set manual clicked:%1, clientType=%2
+Soft does not register,clientType=%1
+soft does not register,install failed!clientType=
+soft not regedit,clientType=
+soft->clientType=
+The latest version package has been downloaded.Log in and connect trigger %1 upgrade popup.
+update regedit info clientType=
+Upgrade %1 failed,upgrade package was delete!
+upgrade is forbit,clientType=
+upgrade is not forbit,clientType=
+User select not upgrade.clientType=
+uSmartviewUpdate self upgrade,add soft to install queue,clientType=
+
+========== C:\Program Files (x86)\uSmartviewUpdate\UpdateDaemon.exe ==========
+      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*' />
+<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\uSmartviewUpdate.exe
+
+========== C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe ==========
+%spackageversion.ini
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+C:\Windows
+chengdu component is ok
+ClientType
+ExitWindowsEx
+F:\workspace\ZXCLOUD-iVMC-ComponentV7.25.21\ZXCLOUD-iVMC-Component\windows\Release\VmBoosterMonitor.pdb
+nanjing component is ok
+nanjing_package_version is [%s]!
+pv_package_version is [%s]!
+read package_config 'pvdriver_version' from [%s] failed!
+read package_config 'release_version' from [%s] failed!
+read package_config 'vmbooster_version' from [%s] failed!
+Software\Microsoft\Windows\CurrentVersion\Policies\System
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%s
+the package version config file is: %s
+
+========== C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe ==========
+"C:\Windows\System32\sysprep\sync_time.bat" -L -S
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+C:\Windows\System32\sysprep\clean.cmd
+C:\Windows\System32\sysprep\JoinDomain.vbs
+C:\Windows\System32\sysprep\unattend.xml
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s" password="%s" FJoinOptions=3
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" accountou="%s" FJoinOptions=3 > "C:\Program Files (x86)\vmtool\vm_booster\joindomain.log" 2>&1
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" accountou="%s" FJoinOptions=3 > "C:\Program Files\vmtool\vm_booster\joindomain.log" 2>&1
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" FJoinOptions=3 > "C:\Program Files (x86)\vmtool\vm_booster\joindomain.log" 2>&1
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" FJoinOptions=3 > "C:\Program Files\vmtool\vm_booster\joindomain.log" 2>&1
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call UnJoinDomainOrWorkgroup username="%s\%s" password="%s" > "C:\Program Files (x86)\vmtool\vm_booster\quitdomain.log"
+C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call UnJoinDomainOrWorkgroup username="%s\%s" password="%s" > "C:\Program Files\vmtool\vm_booster\quitdomain.log"
+call c:\windows\system32\sysprep\JoinDomain.vbs
+cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_64.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64_NoJoin.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_x86.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86_NoJoin.xml" "C:\Windows\System32\sysprep\unattend.xml"
+cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\JoinDomain.vbs" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\sync_time.bat" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\JoinDomain.vbs" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\sync_time.bat" "C:\Windows\System32\sysprep"
+cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+cmd.exe /c "C:\Windows\System32\sysprep\startprep.cmd"
+Component Categories
+ExitWindowsEx
+F:\workspace\ZXCLOUD-iVMC-ComponentV7.25.21\ZXCLOUD-iVMC-Component\windows\Release\Vmbooster.pdb
+f:\workspace\zxcloud-ivmc-componentv7.25.21\zxcloud-ivmc-component\windows\vmbooster\diskinfo.h
+get windows product version error.
+https://10.41.213.192:8443/in/iRAI/Intergration/Product/V4.0/ZXCLOUD-iRAI-Product_KVM_OpenStackV4.01.xx/ZXCLOUD-iVMC-Component/agent/vmbooster-window/vm_win_2008/vmbooster
+Identifier:22&objecttype=%d&currentVersion=%s&ClientType=1&bit=%d&network=0&DCIPV6=%s&DC=%s&installInfoPath=%s&appName=ZTE VMTOOL&appNameI18n=%s&verGroup=VdesktopVersion&verKey=version&#1
+Identifier:22&objecttype=%d&isUpdate=confirm&#0
+message is del nic cfg, return sucess directly for windows system.
+Microsoft Windows 10(32)
+Microsoft Windows 10(32) encapsulate join domain start
+Microsoft Windows 10(32) encapsulate start
+Microsoft Windows 10(64)
+Microsoft Windows 10(64) encapsulate join domain start
+Microsoft Windows 10(64) encapsulate start
+Microsoft Windows 11(64)
+Microsoft Windows 7(32)
+Microsoft Windows 7(32) encapsulate join domain without ou start
+Microsoft Windows 7(32) encapsulate start
+Microsoft Windows 7(64)
+Microsoft Windows 7(64) encapsulate join domain start
+Microsoft Windows 7(64) encapsulate start
+Microsoft Windows 8(32)
+Microsoft Windows 8(64)
+Microsoft Windows Server 2003(32)
+Microsoft Windows Server 2003(64)
+Microsoft Windows Server 2008 R2(64)
+Microsoft Windows Server 2008(32)
+Microsoft Windows Server 2008(64)
+Microsoft Windows Server 2012 R2(64)
+Microsoft Windows Server 2012(64)
+Microsoft Windows Server 2016(64)
+Microsoft Windows Server 2019(64)
+Microsoft Windows Server 2022(64)
+Microsoft Windows XP professional(32)
+Microsoft Windows XP professional(64)
+Other Windows
+REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows" "NT\Terminal" "Services /v fDenyTSConnections /t REG_DWORD /d 00000000 /f
+REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows" "NT\Terminal" "Services /v fDenyTSConnections /t REG_DWORD /d 11111111 /f
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+Software\Microsoft\Windows\CurrentVersion\App Paths\SysGuard.exe
+SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Wares.exe
+SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Virtio Driver
+Windows 11
+Windows Server 2016
+Windows Server 2019
+Windows Server 2022
+
+========== TEXT SCHEMA REFERENCES ==========
+
+----- C:\Program Files (x86)\uSmartviewUpdate\updateinfo.ini -----
+L5: ClientType = 1
+L7: OS_Type = Windows
+L9: OS_Bit = 0
+L11: OS_Version = all
+L13: Architecture = x86
+L15: TerminalType = 
+
+----- C:\Program Files (x86)\uSmartviewUpdate\conf\versioninfo.ini -----
+L4: clientType=1
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_64.xml -----
+L4:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L39:         <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L48:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L51:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L54:         <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L80:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L83:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_x86.xml -----
+L4:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L39:         <component name="Microsoft-Windows-International-Core" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L48: 		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L51:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L54:         <component name="Microsoft-Windows-Deployment" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L80:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L83:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64.xml -----
+L4:     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L44:     <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L53:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L56:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L59:         <component name="Microsoft-Windows-UnattendedJoin" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L70:         <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L80:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L83:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64_NoJoin.xml -----
+L4:     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L44:     <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L53:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L56:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L59:         <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L69:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L72:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86.xml -----
+L4:     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L44:         <component name="Microsoft-Windows-International-Core" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L53:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L56:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L59:         <component name="Microsoft-Windows-UnattendedJoin" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L70:         <component name="Microsoft-Windows-Deployment" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L80:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L83:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86_NoJoin.xml -----
+L4:     <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L44:     <component name="Microsoft-Windows-International-Core" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L53:         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L56:         <component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L59:         <component name="Microsoft-Windows-Deployment" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L69:         <component name="Microsoft-Windows-PnpSysprep" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+L72:         <component name="Microsoft-Windows-Security-SPP" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+----- C:\Program Files (x86)\ZTEGuestOS\installinfo.ini -----
+L7: ClientType=1
+
+----- C:\Program Files (x86)\ZTEGuestOS\usbtool\OpenSourceLicense.txt -----
+L1016: GNU/Linux operating system.

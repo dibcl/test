@@ -1,0 +1,24 @@
+#cloud-config
+users:
+  - name: lab
+    gecos: Isolated ICE compatibility lab
+    groups: [sudo]
+    shell: /bin/bash
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock_passwd: false
+chpasswd:
+  expire: false
+  users:
+    - name: lab
+      password: lab-only
+      type: text
+ssh_pwauth: true
+bootcmd:
+  - [dpkg, --add-architecture, i386]
+runcmd:
+  - [sh, -c, 'export DEBIAN_FRONTEND=noninteractive; apt-get update']
+  - [sh, -c, 'export DEBIAN_FRONTEND=noninteractive; apt-get install -y wine wine64 wine32:i386 xvfb xauth x11-utils strace procps net-tools lsof']
+  - [sh, -c, 'wine --version > /var/tmp/wine-version.txt 2>&1']
+  - [sh, -c, 'touch /var/tmp/cloud-init-lab-complete']
+  - [poweroff]
+final_message: "ICE Wine lab bootstrap complete after $UPTIME seconds"

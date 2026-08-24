@@ -1,0 +1,74 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\MswitchWin.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\MswitchWin.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\MswitchWin.strings.txt",
+    "sha256": "585a3e2cebe95f8b9a0658dd1ba31f97a1fa90a9adef4c14b502b23874d6b4b2",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 1006
+  },
+  {
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\Vmbooster.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\Vmbooster.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\Vmbooster.strings.txt",
+    "sha256": "8f2c44900608ad6b907586887156c801236fc92c6fecba6a1d7e259089066c3a",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 2857
+  },
+  {
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\VmBoosterMonitor.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\VmBoosterMonitor.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\VmBoosterMonitor.strings.txt",
+    "sha256": "fc8ce87a8eba0db3497e9605153d2ce9b171f68dd49ec07bd029935e3f064a7e",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 1370
+  },
+  {
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\VmQoEAgent.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\VmQoEAgent.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\VmQoEAgent.strings.txt",
+    "sha256": "dc547c4a93e5278d37a7c63df75b88ec9c035065d1d0c4e4ea154d57eeee7612",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 1772
+  },
+  {
+    "path": "C:\\Program Files (x86)\\qga\\qga\\qemu-ga.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\qemu-ga.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\qemu-ga.strings.txt",
+    "sha256": "35c1f2d503c03c4fc16440e29683326cfbd5a4c085df6de2777f5db3fab9d025",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 15768
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\Vdagent.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\Vdagent.strings.txt",
+    "sha256": "9e47974eac77c34550a8db923e565105be3085bb616e654a3a8b316746ed339e",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 14350
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceTunnel.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\IceTunnel.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\IceTunnel.strings.txt",
+    "sha256": "b565310f75c867218b11c538eca6d78a77750878aebad9b9d45a6e8d16a7ee0e",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 2933
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\IceDisplay.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\IceDisplay.strings.txt",
+    "sha256": "610afe0851789342bf35d4d5a12d893be8a30a54a4efaa5969f7f3aaf18b5b31",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 10635
+  }
+]

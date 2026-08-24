@@ -1,0 +1,1772 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	Richx<
+3	ascii	Xzlh
+4	ascii	.text
+5	ascii	`.rdata
+6	ascii	@.data
+7	ascii	.rsrc
+8	ascii	@.reloc
+9	ascii	u"h(
+10	ascii	uAh\
+11	ascii	t[h`
+12	ascii	uAhd
+13	ascii	tVhh
+14	ascii	Y_^[
+15	ascii	u|h<
+16	ascii	thhH
+17	ascii	B Pj
+18	ascii	jdPR
+19	ascii	hp$@
+20	ascii	Ph< B
+21	ascii	Qhp B
+22	ascii	hL B
+23	ascii	hX!B
+24	ascii	tKh@
+25	ascii	Rh4"B
+26	ascii	hl"B
+27	ascii	h #B
+28	ascii	Rh<#B
+29	ascii	ht#B
+30	ascii	h0$B
+31	ascii	RhL$B
+32	ascii	Rh`%B
+33	ascii	h<%B
+34	ascii	Ph<&B
+35	ascii	Ph\&B
+36	ascii	Rh,'B
+37	ascii	RhL'B
+38	ascii	hp'B
+39	ascii	Qh4(B
+40	ascii	hT(B
+41	ascii	Ph *B
+42	ascii	hD*B
+43	ascii	Rhh*B
+44	ascii	Ph ,B
+45	ascii	h\,B
+46	ascii	Pht,B
+47	ascii	h0-B
+48	ascii	Rh8-B
+49	ascii	hh-B
+50	ascii	h|-B
+51	ascii	Qh8.B
+52	ascii	h,.B
+53	ascii	Rh(/B
+54	ascii	QhD/B
+55	ascii	hL/B
+56	ascii	hX/B
+57	ascii	hh/B
+58	ascii	ht/B
+59	ascii	h@0B
+60	ascii	QhX0B
+61	ascii	hL0B
+62	ascii	h 1B
+63	ascii	hX1B
+64	ascii	h\1B
+65	ascii	hh1B
+66	ascii	h@2B
+67	ascii	Phd2B
+68	ascii	&h83B
+69	ascii	hT3B
+70	ascii	h|3B
+71	ascii	hd4B
+72	ascii	h85B
+73	ascii	hX5B
+74	ascii	Rhx5B
+75	ascii	Qh''
+76	ascii	h@XA
+77	ascii	h,6B
+78	ascii	Rh06B
+79	ascii	hd6B
+80	ascii	hx&C
+81	ascii	Ph 7B
+82	ascii	uZh07B
+83	ascii	RhP7B
+84	ascii	Qh|7B
+85	ascii	Ph@8B
+86	ascii	hP8B
+87	ascii	hp8B
+88	ascii	PhP9B
+89	ascii	Rh(:B
+90	ascii	RhL:B
+91	ascii	Rhp:B
+92	ascii	Ph8;B
+93	ascii	Qht;B
+94	ascii	Qh0<B
+95	ascii	QhP<B
+96	ascii	Qh|<B
+97	ascii	Qh(=B
+98	ascii	PhH=B
+99	ascii	ht=B
+100	ascii	h`>B
+101	ascii	Rh4>B
+102	ascii	u7h ?B
+103	ascii	h\>B
+104	ascii	u5hh@B
+105	ascii	hd@B
+106	ascii	u7h`AB
+107	ascii	hPBB
+108	ascii	hXBB
+109	ascii	hTBB
+110	ascii	QhXCB
+111	ascii	hdCB
+112	ascii	h4DB
+113	ascii	hlDB
+114	ascii	h<EB
+115	ascii	PhtEB
+116	ascii	h(HB
+117	ascii	Qh8HB
+118	ascii	Ph4IB
+119	ascii	hDIB
+120	ascii	PhhIB
+121	ascii	h8JB
+122	ascii	hDJB
+123	ascii	RhxJB
+124	ascii	hhKB
+125	ascii	PhpKB
+126	ascii	h<LB
+127	ascii	h`LB
+128	ascii	Rh|LB
+129	ascii	h4MB
+130	ascii	PhLMB
+131	ascii	htMB
+132	ascii	h NB
+133	ascii	hDNB
+134	ascii	PhhNB
+135	ascii	Ph4OB
+136	ascii	RhXOB
+137	ascii	RhpOB
+138	ascii	h,PB
+139	ascii	0hxQB
+140	ascii	h@RB
+141	ascii	h SB
+142	ascii	htTB
+143	ascii	Ph8UB
+144	ascii	h|UB
+145	ascii	Qh$UB
+146	ascii	Qh0VB
+147	ascii	hPVB
+148	ascii	h`VB
+149	ascii	hlVB
+150	ascii	h(WB
+151	ascii	PhlWB
+152	ascii	h$XB
+153	ascii	h(XB
+154	ascii	h,XB
+155	ascii	h0XB
+156	ascii	Ph4XB
+157	ascii	hPXB
+158	ascii	htXB
+159	ascii	Rh YB
+160	ascii	h4YB
+161	ascii	Rh8YB
+162	ascii	QhPYB
+163	ascii	Ph,ZB
+164	ascii	QhPZB
+165	ascii	PhxZB
+166	ascii	hH[B
+167	ascii	hl[B
+168	ascii	Rh \B
+169	ascii	Qh$\B
+170	ascii	h0\B
+171	ascii	hX\B
+172	ascii	h4]B
+173	ascii	QhL]B
+174	ascii	ht]B
+175	ascii	Ph$^B
+176	ascii	h,^B
+177	ascii	Rh8^B
+178	ascii	h@^B
+179	ascii	QhT^B
+180	ascii	PhX^B
+181	ascii	Rht^B
+182	ascii	hx^B
+183	ascii	h8_B
+184	ascii	h|_B
+185	ascii	Ph<`B
+186	ascii	PhH`B
+187	ascii	Rhh`B
+188	ascii	Rhx`B
+189	ascii	hTcB
+190	ascii	htcB
+191	ascii	h dB
+192	ascii	hTdB
+193	ascii	hxdB
+194	ascii	Qh,eB
+195	ascii	h4eB
+196	ascii	hDeB
+197	ascii	hHeB
+198	ascii	hheB
+199	ascii	hleB
+200	ascii	hTfB
+201	ascii	hdfB
+202	ascii	QhhfB
+203	ascii	hpfB
+204	ascii	h(gB
+205	ascii	Qh4gB
+206	ascii	h<gB
+207	ascii	hdgB
+208	ascii	h4hB
+209	ascii	RhLhB
+210	ascii	QhthB
+211	ascii	Ph jB
+212	ascii	PhHjB
+213	ascii	RhljB
+214	ascii	h0kB
+215	ascii	h<kB
+216	ascii	PhdkB
+217	ascii	QhxkB
+218	ascii	h0lB
+219	ascii	PhTlB
+220	ascii	hXlB
+221	ascii	Rh\lB
+222	ascii	Rh mB
+223	ascii	uMhPmB
+224	ascii	RhhmB
+225	ascii	Rh''
+226	ascii	h@nB
+227	ascii	hdnB
+228	ascii	Rh(oB
+229	ascii	QhDoB
+230	ascii	PhhoB
+231	ascii	h|oB
+232	ascii	QPj<
+233	ascii	u!hHpB
+234	ascii	hTpB
+235	ascii	RhXpB
+236	ascii	h\pB
+237	ascii	Qh0qB
+238	ascii	PhxrB
+239	ascii	hTrB
+240	ascii	Rh4sB
+241	ascii	QhLsB
+242	ascii	uPhdsB
+243	ascii	Rh$tB
+244	ascii	Ph''
+245	ascii	h8tB
+246	ascii	Ph@tB
+247	ascii	QhttB
+248	ascii	Qh,uB
+249	ascii	QhHuB
+250	ascii	h(vB
+251	ascii	QhDvB
+252	ascii	hHvB
+253	ascii	RhTvB
+254	ascii	hXvB
+255	ascii	h|vB
+256	ascii	Qh(wB
+257	ascii	h,wB
+258	ascii	QhDwB
+259	ascii	hHwB
+260	ascii	Qh`wB
+261	ascii	hdwB
+262	ascii	QhTxB
+263	ascii	PhXxB
+264	ascii	h\xB
+265	ascii	RhpxB
+266	ascii	QhtxB
+267	ascii	hxxB
+268	ascii	u-h yB
+269	ascii	PhTyB
+270	ascii	RhXyB
+271	ascii	Rh\yB
+272	ascii	h`yB
+273	ascii	hlyB
+274	ascii	Ph,zB
+275	ascii	h0zB
+276	ascii	Rh8zB
+277	ascii	Qh<zB
+278	ascii	h@zB
+279	ascii	QhPzB
+280	ascii	hTzB
+281	ascii	PhhzB
+282	ascii	RhlzB
+283	ascii	hpzB
+284	ascii	Qhh{B
+285	ascii	Ph|{B
+286	ascii	Ph |B
+287	ascii	tQh(|B
+288	ascii	Qh,|B
+289	ascii	RhT|B
+290	ascii	JhX|B
+291	ascii	hp|B
+292	ascii	Rht|B
+293	ascii	hx|B
+294	ascii	h$}B
+295	ascii	hH}B
+296	ascii	Phl}B
+297	ascii	hp}B
+298	ascii	h|}B
+299	ascii	h<~B
+300	ascii	hP~B
+301	ascii	h\~B
+302	ascii	hp~B
+303	ascii	h|~B
+304	ascii	t;h<
+305	ascii	u&hP
+306	ascii	HPQh`
+307	ascii	B$;E
+308	ascii	 SVW
+309	ascii	PQQSVW
+310	ascii	t%Vh
+311	ascii	j\hX
+312	ascii	< wI:
+313	ascii	XPVSh
+314	ascii	Y__^[
+315	ascii	8csm
+316	ascii	_^[]
+317	ascii	VVVVV
+318	ascii	WVS3
+319	ascii	<$Xf
+320	ascii	<5IkQ
+321	ascii	s1q4
+322	ascii	[ERROR]dst is NULL.
+323	ascii	[ERROR]src is NULL.
+324	ascii	TerminateChildProcess: processid %u failed, error=%d
+325	ascii	TerminateChildProcess: processid %u success
+326	ascii	TerminateChildProcess: openprocess %u failed, error=%d 
+327	ascii	vb_monitor create pipe failed, errno=%d
+328	ascii	winsta0\default
+329	ascii	explorer.exe
+330	ascii	no explorer,exit
+331	ascii	Get hToken token failed 
+332	ascii	CreateProcessAsUser failed, errono=%d 
+333	ascii	GetExitCodeProcess: processid %u failed, error=%d
+334	ascii	cmd:%s pipeinfo:hRead=%d hWrite=%d processinfo:hProcess=%d hThread=%d dwProcessid=%d dwThreadid=%d 
+335	ascii	deal_process_msg return value less than zero 
+336	ascii	TerminateProcess: processid %u failed, error=%d
+337	ascii	TerminateProcess: processid %u success
+338	ascii	the process exitcode is %u 
+339	ascii	the process exitcode ExitCode[%d]
+340	ascii	parameter is invalid(null pointer)
+341	ascii	msg len is 0
+342	ascii	malloc for GetExtendedTcpTable failed.
+343	ascii	malloc for GetExtendedUdpTable failed.
+344	ascii	GetNativeSystemInfo
+345	ascii	kernel32
+346	ascii	Process shell cmd failed, reason is %s
+347	ascii	%.4d-%.2d-%.2d %.2d:%.2d:%.2d
+348	ascii	[INFO]current time: %s
+349	ascii	%.4d%.2d%.2d%.2d%.2d%.2d
+350	ascii	g_running is flase, do not send message
+351	ascii	Malloc memory fail.
+352	ascii	BuildMsg failed:%s, resultid[%d]
+353	ascii	SendMsg failed:%s,resultid[%d]
+354	ascii	SendMsg succ, ret=%d, msg=
+355	ascii	input para is null!
+356	ascii	_Total
+357	ascii	Second PdhGetFormattedCounterArray call failed with 0x%x.
+358	ascii	malloc for PdhGetFormattedCounterArray failed with 0x%x.
+359	ascii	PdhGetFormattedCounterValue call failed with 0x%x.
+360	ascii	\Memory\Available MBytes
+361	ascii	 "Memory\Available MBytes" PdhAddEnglishCounter failed with 0x%x.
+362	ascii	\Processor Information(*)\% Processor Utility
+363	ascii	\Processor(*)\% Processor Time
+364	ascii	 "Processor Information(*)\% Processor Utility" PdhAddEnglishCounter failed with 0x%x.
+365	ascii	 "Processor(*)\% Processor Time" PdhAddEnglishCounter failed with 0x%x.
+366	ascii	\Process(_Total)\Handle Count
+367	ascii	\LogicalDisk(*)\Disk Reads/sec
+368	ascii	\LogicalDisk(*)\Disk Writes/sec
+369	ascii	\LogicalDisk(*)\Disk Read Bytes/sec
+370	ascii	 "Process(_Total)\Handle Count" PdhAddEnglishCounter failed with 0x%x.
+371	ascii	 "LogicalDisk(*)\Disk Reads/sec" PdhAddEnglishCounter failed with 0x%x.
+372	ascii	\LogicalDisk(*)\Avg. Disk sec/Read
+373	ascii	 "LogicalDisk(*)\Disk Writes/sec" PdhAddEnglishCounter failed with 0x%x.
+374	ascii	\LogicalDisk(*)\Avg. Disk sec/Write
+375	ascii	 "LogicalDisk(*)\Disk Read Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+376	ascii	\LogicalDisk(*)\Disk Write Bytes/sec
+377	ascii	 "LogicalDisk(*)\Disk Write Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+378	ascii	 "LogicalDisk(*)\Avg. Disk sec/Read" PdhAddEnglishCounter failed with 0x%x.
+379	ascii	 "LogicalDisk(*)\Avg. Disk sec/Write" PdhAddEnglishCounter failed with 0x%x.
+380	ascii	\LogicalDisk(*)\% Disk Time
+381	ascii	\Memory\Pool Paged Bytes
+382	ascii	 "LogicalDisk(*)\% Disk Time" PdhAddEnglishCounter failed with 0x%x.
+383	ascii	 "Memory\Pool Paged Bytes" PdhAddEnglishCounter failed with 0x%x.
+384	ascii	\Memory\Pool Nonpaged Bytes
+385	ascii	 "Memory\Pool Nonpaged Bytes" PdhAddEnglishCounter failed with 0x%x.
+386	ascii	\Memory\Committed Bytes
+387	ascii	 "Memory\Committed Bytes" PdhAddEnglishCounter failed with 0x%x.
+388	ascii	PdhOpenQuery failed with status 0x%x.
+389	ascii	add_performance_count failed
+390	ascii	1PdhCollectQueryData failed with 0x%x.
+391	ascii	2PdhCollectQueryData failed with 0x%x.
+392	ascii	malloc memory fail.
+393	ascii	VDAM
+394	ascii	127.0.0.1
+395	ascii	%c:\
+396	ascii	GetDiskFreeSpaceEx get failed(%d)
+397	ascii	{"name":"%c","used":%lu,"remain":%lu,"percent":%d},
+398	ascii	GetLogicalDriveStringsA failed(%d) 
+399	ascii	GlobalMemoryStatusEx get failed(%d)
+400	ascii	"cpu%d":%d,
+401	ascii	{"cpuUsage":%d,"CPU":{"cpu_count":%d,"cpu_total":%d,%s},"memUsage":%d,"MEM":{"used":%ld,"remain":%ld},"diskTime":[%s],"HANDLE":%ld,"version":1}
+402	ascii	malloc cr fail.
+403	ascii	success
+404	ascii	failed
+405	ascii	send msg to vdagent %s msg is %s
+406	ascii	get_performance_send_vdagent start
+407	ascii	wait lodctr init
+408	ascii	get_performance_send_vdagent exit
+409	ascii	%.2X-%.2X-%.2X-%.2X-%.2X-%.2X
+410	ascii	GetIfTable2 failed with error: 
+411	ascii	Memory allocation failed for IP_ADAPTER_INFO struct
+412	ascii	GetAdaptersInfo failed with error: %u
+413	ascii	ip=%s,gateway=%s,netmask=%s,mac=%s,dns=%s,reservedns=%s,dhcp=%d,;
+414	ascii	GetNicString  buf is small.
+415	ascii	====new mac num[%d]====
+416	ascii	mac [%s] is delete!
+417	ascii	pNextIndex or pBuffer is NULL!
+418	ascii	{"data":"%s
+419	ascii	|%.1lf
+420	ascii	mac info is too long[%d]
+421	ascii	mac_info_update: g_ip_mac_info is [%s] 
+422	ascii	%%%02X
+423	ascii	GetComputerNameEx failed (%d)
+424	ascii	computerfullname: %s
+425	ascii	:%.2lfGB,
+426	ascii	Program Files
+427	ascii	Program Files (x86)
+428	ascii	C:\%s\ZTEGuestOS\installinfo.ini
+429	ascii	version
+430	ascii	VdesktopVersion
+431	ascii	C:\%s\vmtool\vm_booster\version.ini
+432	ascii	vmbooster_version
+433	ascii	base
+434	ascii	version_with_build is [%s]!
+435	ascii	vmtool_version is [%s]!
+436	ascii	"C:\Windows\sysnative\cmd.exe" /c ver
+437	ascii	C:\Windows\System32\wbem\WMIC.exe cpu get Name | findstr /v "Name"
+438	ascii	C:\Windows\System32\wbem\WMIC.exe LogicalDisk where "drivetype=3" get Caption,Size,Freespace | findstr : 
+439	ascii	result is  %s
+440	ascii	fmt_disksize_str = %s,fmt_diskused_str = %s
+441	ascii	"computername":"%s","cpu":"%s","os":"%s","bit":"%d","mem":"%dM","mac":"%s","ip":"%s","disk":"%s","diskused": "%s","version": "%s","targetversion": ""
+442	ascii	get cpunum error
+443	ascii	malloc for PdhGetFormattedCounterArray failed.
+444	ascii	\Process(*)\ID Process
+445	ascii	 "ID Process" PdhAddEnglishCounter failed with 0x%x.
+446	ascii	\Process(*)\Working Set
+447	ascii	 "Privileged Time" PdhAddEnglishCounter failed with 0x%x.
+448	ascii	 "Working Set - Private" PdhAddEnglishCounter failed with 0x%x.
+449	ascii	\Process(*)\% Processor Time
+450	ascii	\Process(*)\Handle Count
+451	ascii	 "Handle Count" PdhAddEnglishCounter failed with 0x%x.
+452	ascii	\Process(*)\IO Read Bytes/sec
+453	ascii	 "IO Read Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+454	ascii	\Process(*)\IO Write Bytes/sec
+455	ascii	 "IO Write Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+456	ascii	\Process(*)\Page File Bytes
+457	ascii	\Processor Information(_Total)\% Processor Utility
+458	ascii	 Processor Information(_Total) Processor Utility PdhAddEnglishCounter failed with 0x%x.
+459	ascii	\Processor(_Total)\% Processor Time
+460	ascii	Processor(_Total)  Processor Time PdhAddEnglishCounter failed with 0x%x.
+461	ascii	total process number: %d
+462	ascii	[{"data":"%s|%ld|%.1lf|%d|%ld"},
+463	ascii	{"data":"%s|%ld|%.1lf|%d|%ld"},
+464	ascii	{"data":"%s|%ld|%.1lf|%d|%ld"}],
+465	ascii	"process_memory":[{"data":"%s|%ld|%.1lf|%d|%ld"},
+466	ascii	"process_handle":[{"data":"%s|%ld|%.1lf|%d|%ld"},
+467	ascii	"process_diskio":[{"data":"%s|%ld|%ld|%ld|%ld"},
+468	ascii	{"data":"%s|%ld|%ld|%ld|%ld"},
+469	ascii	{"data":"%s|%ld|%ld|%ld|%ld"}],
+470	ascii	"process_netio":[{"data":"%s|%ld|%ld|%ld|%ld"},
+471	ascii	"process_page_file_size":[{"data":"%s|%ld|%.1lf|%d|%ld|%ld"},
+472	ascii	{"data":"%s|%ld|%.1lf|%d|%ld|%ld"},
+473	ascii	{"data":"%s|%ld|%.1lf|%d|%ld|%ld"}]
+474	ascii	process_page_file_size is %s
+475	ascii	Vmbooster.exe|
+476	ascii	MswitchWin.exe|
+477	ascii	VmboosterMonitor.exe|
+478	ascii	UsbIpc.exe|
+479	ascii	UsbIpcGuard.exe|
+480	ascii	Vdagent.exe|
+481	ascii	Vdservice.exe|
+482	ascii	qemu-ga.exe|
+483	ascii	MMRHookService.exe|
+484	ascii	explorer.exe|
+485	ascii	Vmbooster
+486	ascii	MswitchWin
+487	ascii	VmboosterMonitor
+488	ascii	UsbIpc
+489	ascii	UsbIpcGuard
+490	ascii	Vdagent
+491	ascii	Vdservice
+492	ascii	qemu-ga
+493	ascii	MMRHookService
+494	ascii	explorer
+495	ascii	"keyprocess":"%s%s%s%s%s%s%s%s%s%s
+496	ascii	{"data":"CPU%d|%.1lf"},
+497	ascii	%c|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf,
+498	ascii	,"perdisk":"%s"
+499	ascii	performance msg is %s, committed_bytes is %.1lfGB
+500	ascii	"cpu":%.1lf,"cpus":[%s],"handle":%lld,"mem":{"used":%.1lf,"pagedpool":%.1lf,"nonpagedpool":%.1lf},"network":[%s],"disk":"%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf|%.2lf"%s
+501	ascii	Failed to initialize COM library. Error code = 0x%x
+502	ascii	Failed to initialize sercuity. Error code = 0x%x
+503	ascii	Failed to create IWbemLocator object. Error code = 0x%x
+504	ascii	Could not connect. Error code = 0x%x
+505	ascii	Connected to WMI
+506	ascii	Could not set proxy blanket. Error code = 0x%x
+507	ascii	Query for process failed. Error code = 0x%x
+508	ascii	%ls State :%ls
+509	ascii	/softwares
+510	ascii	{"name":"%ls","type":"%d","publisher":"Microsoft Corporation","installtime":"%ls","size":"0","version":" ","operate":"1"},
+511	ascii	{"source":4,"uuid":"%s","hostid":"%s","createtime":"%s","mothod":"1","softwares":[%s]}
+512	ascii	msg is %s
+513	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+514	ascii	RegOpenKeyEx(%s) failed
+515	ascii	%s\%s
+516	ascii	DisplayName
+517	ascii	DisplayVersion
+518	ascii	Publisher
+519	ascii	InstallDate
+520	ascii	{"name":"%s","type":"1","publisher":"%s","installtime":"%s","size":"0","version":"%s","operate":"1"},
+521	ascii	NOT Wow6432Node
+522	ascii	Wow6432Node
+523	ascii	%s software count is %d
+524	ascii	C:\Program Files\vmtool\vm_booster\Vmbooster.exe
+525	ascii	C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe
+526	ascii	PublicMode
+527	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+528	ascii	error no RegCreateKeyEx %s
+529	ascii	error no RegSetValueEx %s
+530	ascii	Open Reg Key failed:%d
+531	ascii	Read Reg Key failed:%d
+532	ascii	Ice-UUID
+533	ascii	[INFO]Get Vm uuid is:%s 
+534	ascii	[ERROR]Get Vm uuid error.
+535	ascii	000000000000000000000000000000000000
+536	ascii	uploadFlag
+537	ascii	need collect log
+538	ascii	logFlag":
+539	ascii	dataSizePerReq":
+540	ascii	limitRate":
+541	ascii	msgtype=9500;msgid=1595916779125616;vuuid=%s;httptype=1;LogFlag=%d;dataSizePerReq=%d;limitRate=%d;
+542	ascii	msgtype=9500;msgid=1595916779125616;vuuid=%s;httptype=1;LogFlag=%d;
+543	ascii	serviceip=%s,postdata_len = %lu, filter_postdata_len = %lu
+544	ascii	Content-Length: %lu
+545	ascii	Accept: application/json
+546	ascii	Content-Type: application/json
+547	ascii	charset: utf-8
+548	ascii	https
+549	ascii	http
+550	ascii	%s://%s
+551	ascii	Http(s) url is %s
+552	ascii	[ERROR]curl_easy_perform() failed: %s
+553	ascii	[ERROR]curl easy init failed!
+554	ascii	response: %s
+555	ascii	"result":
+556	ascii	[ERROR]Send Performance To Insight Fail
+557	ascii	[ERROR]returnCode is not 0;ret is %d,tmpbuff is %s
+558	ascii	[ERROR]strinsightaddr is Null
+559	ascii	%s%s?cpsId=%s
+560	ascii	[INFO]curl_post_data sucess!
+561	ascii	[ERROR]curl_post_data fail strinsightaddr is %s
+562	ascii	old ip state(%d) send msg error, switch
+563	ascii	[ERROR]curl_post_data fail!
+564	ascii	get_net_status_and_send_gateway_alarm: mac not found
+565	ascii	vm_uuid=%s;
+566	ascii	,netmask
+567	ascii	gateway=
+568	ascii	0.0.0.0
+569	ascii	ping -w 5000 %s
+570	ascii	TTL=
+571	ascii	get_net_status_and_send_gateway_alarm: gateway %s is connected
+572	ascii	get_net_status_and_send_gateway_alarm: gateway %s is disconnected
+573	ascii	dhcp=
+574	ascii	ipconfig /renew
+575	ascii	get_net_status_and_send_gateway_alarm: gateway not found
+576	ascii	socket error !
+577	ascii	bind error
+578	ascii	CoCreateInstance failed: 0x%08lx
+579	ascii	get_LocalPolicy failed: 0x%08lx
+580	ascii	get_CurrentProfile failed: 0x%08lx
+581	ascii	get_AuthorizedApplications failed: 0x%08lx
+582	ascii	SysAllocString failed: 0x%08lx
+583	ascii	get_Enabled failed: 0x%08lx
+584	ascii	Authorized application %lS is enabled in the firewall.
+585	ascii	Authorized application %lS is disabled in the firewall.
+586	ascii	WindowsFirewallAppIsEnabled failed: 0x%08lx
+587	ascii	put_ProcessImageFileName failed: 0x%08lx
+588	ascii	put_Name failed: 0x%08lx
+589	ascii	put_Scope failed: 0x%08lx
+590	ascii	Add failed: 0x%08lx
+591	ascii	Authorized application %lS is now enabled in the firewall.
+592	ascii	CoInitializeEx failed: 0x%08lx
+593	ascii	WindowsFirewallInitialize failed: 0x%08lx
+594	ascii	WindowsFirewallAddApp failed: 0x%08lx
+595	ascii	netsh advfirewall firewall show rule name="VmQoEAgent" |findstr "VmQoEAgent"
+596	ascii	netsh advfirewall firewall add rule name="VmQoEAgent" dir=in program="C:\Program Files\vmtool\vm_booster\VmQoeAgent.exe" profile=any action=allow enable=yes
+597	ascii	netsh advfirewall firewall set rule name="VmQoEAgent" new profile=any
+598	ascii	netsh advfirewall firewall show rule name="VmQoEAgentOut" |findstr "VmQoEAgentOut"
+599	ascii	netsh advfirewall firewall add rule name="VmQoEAgentOut" dir=out program="C:\Program Files\vmtool\vm_booster\VmQoeAgent.exe" profile=any action=allow enable=yes
+600	ascii	netsh advfirewall firewall add rule name="VmQoEAgent" dir=in program="C:\Program Files (x86)\vmtool\vm_booster\VmQoeAgent.exe" profile=any action=allow enable=yes
+601	ascii	netsh advfirewall firewall add rule name="VmQoEAgentOut" dir=out program="C:\Program Files (x86)\vmtool\vm_booster\VmQoeAgent.exe" profile=any action=allow enable=yes
+602	ascii	lodctr /R
+603	ascii	Disable Performance Counters
+604	ascii	SYSTEM\CurrentControlSet\Services\PerfOS\Performance
+605	ascii	SYSTEM\CurrentControlSet\Services\PerfProc\Performance
+606	ascii	SYSTEM\CurrentControlSet\Services\PerfDisk\Performance
+607	ascii	g_net_info.size() is %d
+608	ascii	UserGroupId
+609	ascii	SYSTEM\CurrentControlSet\services\VmQoEAgent
+610	ascii	buf_vminfo is %s
+611	ascii	{"source":4,"uuid":"%s","hostid":"000000000000000000000000000000000000","time":"%s","groupid":"%s","createtime":"%s","environment":{%s}}
+612	ascii	/env_virtual
+613	ascii	{"createtime":"%s",%s},
+614	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","groupid":"%s","performance":[{"createtime":"%s",%s}]}
+615	ascii	/performance
+616	ascii	/process
+617	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","groupid":"%s","performance":[%s]}
+618	ascii	{"source":4,"uuid":"%s","hostid":"%s","groupid":"%s","time":"%s","createtime":"%s","process":%s"}
+619	ascii	g_vm_send_otlp_error_num is %d
+620	ascii	%Y-%m-%d %H:%M:%S
+621	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","logdatas":[%s]}
+622	ascii	/log
+623	ascii	morning time is :%s 
+624	ascii	bind error %d!
+625	ascii	create sock failed errno:%d 
+626	ascii	msgtype=
+627	ascii	qoe receive msg without data!.
+628	ascii	/sql_insert_common
+629	ascii	/v1/traces
+630	ascii	send otlp info data to oas server failed!, send again
+631	ascii	send otlp info data to oas server failed again!
+632	ascii	qoe recv message with unknown msgtype[%d]
+633	ascii	%*[^|]|%*[^|]|%*[^|]|%11[0-9]|%11[0-9]|%*s
+634	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","logdatas":[{"log":"%s"}]}
+635	ascii	{"log":"%s"},
+636	ascii	net stop "qoe agent"
+637	ascii	ShellExecute stop qoe agent result: %s
+638	ascii	vmqoe_create_sock_and_bind failed
+639	ascii	vmqoe bind %d port success
+640	ascii	recvdata is %s
+641	ascii	query count = %d
+642	ascii	CreateToolhelp32Snapshot failed :%d 
+643	ascii	Process32First; errcode[%d]
+644	ascii	get token:not found proc!
+645	ascii	OpenProcessToken result:%d 
+646	ascii	%04d-%02d-%02d %02d:%02d:%02d.%03d
+647	ascii	%s|%d|%d|%d|%d||||%s
+648	ascii	{"log":"%s"}
+649	ascii	due to not LogOn.do not check explorer.exe.
+650	ascii	Get explorer.exe token failed.
+651	ascii	explorer.exe abnormal, please reboot vm.
+652	ascii	VirtIO Input Driver
+653	ascii	HID\REV_01&Col01
+654	ascii	SetupDiGetClassDevs get hDevInfo fail.
+655	ascii	No driver/Driver not working properly/Driver does not match
+656	ascii	Function Get_Specified_Device_Info failed
+657	ascii	[ERROR]Deleting VirtIO Input Driver leads to wrong judgement, from other mode to COMPATIBILITY_MODE
+658	ascii	HID-compliant mouse is not exist
+659	ascii	[ERROR]Deleting VirtIO Input Driver leads to wrong judgment, from HIGH_PERFORMANCE_MODE to MULTI_SCREEN_MODE
+660	ascii	HID Keyboard Device(VirtIO) is not exist
+661	ascii	HID Keyboard Device is  not exist
+662	ascii	VirtioNum not in plan.
+663	ascii	enter thread vmqoe_check_abnormal_info.
+664	ascii	enter thread vmqoe_check_gateway_alarm.
+665	ascii	VM_Key(%s) not exist
+666	ascii	mac  get error:%s 
+667	ascii	====all mac num[%d]====
+668	ascii	C:\Program Files\vmtool\vm_booster\VM_Key.log
+669	ascii	C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+670	ascii	service init begin
+671	ascii	service register begin
+672	ascii	register failed!,resultid[%d]
+673	ascii	resgister ok.
+674	ascii	interval
+675	ascii	init ok.
+676	ascii	VmStartTime:%04d-%02d-%02d %02d:%02d:%02d.%03d
+677	ascii	VmStartTime info is :%s
+678	ascii	CopyDirectory %d from %s to %s
+679	ascii	DevicesInfo.log
+680	ascii	%s%s
+681	ascii	SetupDiGetClassDevs failed(%d)
+682	ascii	fopen %s failed(%d)
+683	ascii	Class:%s
+684	ascii	Desc:%s
+685	ascii	\*.*
+686	ascii	SetFileAttributes error %lu
+687	ascii	systeminfo
+688	ascii	%ssysteminfo.log
+689	ascii	powercfg /q > "%spowercfg.log"
+690	ascii	%sprocessinfo.log
+691	ascii	ProcessName:%s;
+692	ascii	cpu:%lf;
+693	ascii	mem:%d kb
+694	ascii	handles:%d;
+695	ascii	C:\Program Files\%s
+696	ascii	C:\Program Files (x86)\%s
+697	ascii	[ERROR]Src Flie:%s Is Not Exist
+698	ascii	[ERROR]Directory %s is Not Exist
+699	ascii	[INFO]copy file from %s to %s success
+700	ascii	[ERROR]copy file copy file from %s to %s fail
+701	ascii	C:\Windows\System32\Winevt\Logs\%s
+702	ascii	win_mkdir %s failed
+703	ascii	Wow64EnableWow64FsRedirection failed!
+704	ascii	%d.%d.%d.%d
+705	ascii	C:\Program Files\vmtool\driverinfo.log
+706	ascii	C:\Program Files (x86)\vmtool\driverinfo.log
+707	ascii	%ls 
+708	ascii	%s    %s    %s    %s    
+709	ascii	vmtool\driverinfo.log
+710	ascii	DiverInfoLog
+711	ascii	[ERROR]create DiverInfoLog is fail
+712	ascii	C:\Windows\INF\setupapi.dev.log
+713	ascii	GuestTools
+714	ascii	VirtioDrivers
+715	ascii	%sPvInstall
+716	ascii	[ERROR]win_mkdir %s is fail
+717	ascii	%sPvInstall\%s
+718	ascii	%s\install.log
+719	ascii	vmtool\vmtool_install.log
+720	ascii	vmtool\vm_booster\vmswitch.log
+721	ascii	vmtool\vm_booster\Log\trace.log
+722	ascii	vmtool\vm_booster\devmbooster.log
+723	ascii	vmtool\vm_booster\devmbooster_bak.log
+724	ascii	vmtool\vm_booster\vmbooster_bak.log
+725	ascii	vmtool\vm_booster\vmtoolsha256.log
+726	ascii	vmtool\vm_booster\QoEAgent_bak.log
+727	ascii	vmtool\vbmonitor_bak.log
+728	ascii	vmtool\vmagent_install.log
+729	ascii	vmtool\vm_booster\vmswitch_bak.log
+730	ascii	vmtool\vm_booster\vmbooster.log
+731	ascii	vmtool\vm_booster\QoEAgent.log
+732	ascii	vmtool\vbmonitor.log
+733	ascii	uSmartviewUpdatelog
+734	ascii	Path
+735	ascii	%s\log
+736	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\uSmartviewUpdate.exe
+737	ascii	get usupdatefilepath failed
+738	ascii	[ERROR]win_mkdir usupdatelog is fail
+739	ascii	softwarestore
+740	ascii	softwarestore\logs
+741	ascii	softwarestoredaemon\logs
+742	ascii	softwarestorelog not exist, No need for collection
+743	ascii	[ERROR]CreateDirectory softwarestorelog is fail
+744	ascii	VmDeskTopLog
+745	ascii	ZTEGuestOS\log
+746	ascii	VmDeskTopLog\uSmartView
+747	ascii	C:\media_redirect
+748	ascii	\media_redirect
+749	ascii	uSmartView\log
+750	ascii	ZTEGuestOS\log\install_ret.ini
+751	ascii	ZTEGuestOS\log\install.log
+752	ascii	SysGuardlog
+753	ascii	[ERROR]win_mkdir sysgurdlog is fail
+754	ascii	get sysgurdfilepath failed
+755	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\SysGuard.exe
+756	ascii	SysGuard\log
+757	ascii	VirtualAppLog
+758	ascii	uSmartViewVirtualApp\VirtualAppClient\log
+759	ascii	[ERROR]win_mkdir VirtualAppLog is fail
+760	ascii	RegeditLog
+761	ascii	[ERROR]win_mkdir RegeditLog is fail
+762	ascii	HKEY_LOCAL_MACHINE_SYSTEM.txt
+763	ascii	regedit /e "%s\%s" HKEY_LOCAL_MACHINE\SYSTEM
+764	ascii	[INFO]Reg cmd is %s
+765	ascii	HKEY_LOCAL_MACHINE_SOFTWARE.txt
+766	ascii	regedit /e "%s\%s" HKEY_LOCAL_MACHINE\SOFTWARE
+767	ascii	HKEY_CURRENT_USER.txt
+768	ascii	regedit /e "%s\%s" HKEY_CURRENT_USER
+769	ascii	vmtool\cmdresult
+770	ascii	get_devices_info_log
+771	ascii	get_system_info_log
+772	ascii	get_powercfg_log
+773	ascii	get_process_info_log
+774	ascii	get_vmbooster_info_log
+775	ascii	get_vm_desktop_info_log
+776	ascii	get_sysgurd_log
+777	ascii	get_virtual_app_log
+778	ascii	get_regedit_log
+779	ascii	get_netupdate_log
+780	ascii	get_softwarestore_log
+781	ascii	get_cmd_result_log
+782	ascii	get_pv_info_log
+783	ascii	[ERROR]%s fail
+784	ascii	[INFO]%s success
+785	ascii	 (x86)
+786	ascii	C:\Program Files%s\vmtool\cmdresult\
+787	ascii	DeleteFile %s Fail, dir not exists
+788	ascii	[INFO]Log Dir:%s Is Not Exist,return
+789	ascii	C:\Program Files\vmtool\
+790	ascii	C:\Program Files (x86)\vmtool\
+791	ascii	7zr0.exe
+792	ascii	a -tzip "%s" "%s"
+793	ascii	ZipCmd is %s;
+794	ascii	 FileExe7z is %s;
+795	ascii	vmtool\
+796	ascii	VmAllCollectLog.zip
+797	ascii	VmAllCollectLog\*
+798	ascii	[INFO]File is Exist %s,FileSize is %lldB
+799	ascii	[ERROR]open cfilename fail,cfilename is %s
+800	ascii	[ERROR]malloc filedata fail
+801	ascii	[ERROR]open cfilename fail, cfilename is %s
+802	ascii	curl_easy_init failed
+803	ascii	Content-Length: %lld
+804	ascii	Content-Type: application/octet-stream
+805	ascii	Expect:
+806	ascii	[INFO]curl_easy_perform return %d, response: %s
+807	ascii	url %s  return %d
+808	ascii	"returnCode":"
+809	ascii	[ERROR]returnCode is not 0; result is %s
+810	ascii	fragmentation_size is %lld, limit_speed is %lld
+811	ascii	fread filedata ret is %d
+812	ascii	Content-Range: bytes %lld-%lld/%lld
+813	ascii	contentrange is %s
+814	ascii	[ERROR]returnCode is not 0; ret is %d, result is %s
+815	ascii	MEMORY.DMP
+816	ascii	%s slice sending failed three times start(%lld)-end(%lld)/(%lld)
+817	ascii	[INFO]HttpUrlInfo strinsightaddr is %s;strType is %s;strUserno is %s;strUUID is %s; isappvirtual is %d
+818	ascii	get_file_size %s failed
+819	ascii	Http url is %s
+820	ascii	%s://%s/sub-insight/user-log/upload?code=%s&logSize=2&type=%s&fileName=%s
+821	ascii	%s://%s/sub-insight/user-log/upload?userno=%s&code=%s&logSize=2&type=%s&fileName=%s
+822	ascii	[ERROR]open file[%s] fail
+823	ascii	[ERROR]malloc for filedata fail
+824	ascii	%s?msgid=%s&fileName=%s
+825	ascii	[INFO] iecs url is %s
+826	ascii	[ERROR]curl_easy_init failed
+827	ascii	[INFO]service is [%s], token is [%s], time is [%s]
+828	ascii	REQ-AUTH-SERVICEID: %s
+829	ascii	REQ-AUTH-TOKEN: %s
+830	ascii	REQ-AUTH-TIME: %s
+831	ascii	[ERROR]url %s  return %d
+832	ascii	"success":
+833	ascii	true
+834	ascii	[ERROR]return success flag is not true, which is %s
+835	ascii	[ERROR]LogFileName[%s] really size[%lld B] over limit size[%d M], do not report file
+836	ascii	[WARN]use urlv4 send log to iecs failed, try urlv6
+837	ascii	Software\VDAgent\LogonInfo\
+838	ascii	iRAIUser
+839	ascii	[ERROR]RegQueryValueEx UserName error!
+840	ascii	[ERROR]RegOpenKeyEx error!
+841	ascii	username=
+842	ascii	InsightHttpServiceIp
+843	ascii	InsightHttpServiceIpV6
+844	ascii	InsightHttpsServiceIp
+845	ascii	InsightHttpsServiceIpV6
+846	ascii	[ERROR]get service addr error!
+847	ascii	CFG_NODE_ID
+848	ascii	SYSTEM\CurrentControlSet\Services\VDI_SYS_CFG
+849	ascii	[ERR]reg without CFG_NODE_ID.
+850	ascii	oas_server_cpsid=
+851	ascii	vb-qoeagent receive invalid  info without oas_server_cpsid
+852	ascii	insightserviceip=
+853	ascii	insightserviceipv6=
+854	ascii	iecsurlv4=
+855	ascii	iecsurlv6=
+856	ascii	[INFO]get strinsightaddr ipv4 (%s), ipv6(%s); striecs urlv4(%s), urlv6(%s) success
+857	ascii	vuuid=
+858	ascii	vb-qoeagent receive invalid  info without vuuid
+859	ascii	LogFlag=
+860	ascii	not need dump file and app virtual log
+861	ascii	need to collect dump file
+862	ascii	need to collect app virtual log
+863	ascii	dataSizePerReq=
+864	ascii	get dataSizePerReq failed
+865	ascii	limitRate=
+866	ascii	get limitRate failed
+867	ascii	msgid=
+868	ascii	limitDataSize=
+869	ascii	REQ-AUTH-SERVICEID=
+870	ascii	REQ-AUTH-TOKEN=
+871	ascii	REQ-AUTH-TIME=
+872	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","logdatas":[{"log":"%s|%d|106|3|17||||%s"}]}
+873	ascii	key log info is %s
+874	ascii	DumpFile
+875	ascii	SYSTEM\ControlSet001\Control\CrashControl
+876	ascii	get dumppath from reg is %s
+877	ascii	C:\Windows\MEMORY.DMP
+878	ascii	echo %s
+879	ascii	analysis dumppath success path is %s
+880	ascii	dump file is %s
+881	ascii	dump file is not exist
+882	ascii	MEMORY.DMP is not exist
+883	ascii	[INFO]upload_file_to_insight success
+884	ascii	[ERROR]upload_file_to_insight fail
+885	ascii	vb-qoeagent receive invalid  info without LogFlag
+886	ascii	WindowsSystemLog
+887	ascii	Microsoft-Windows-Ntfs*Operational.evtx
+888	ascii	Microsoft-Windows-VolumeSnapshot-Driver*Operational.evtx
+889	ascii	System.evtx
+890	ascii	Setup.evtx
+891	ascii	Microsoft-Windows-User Profile Service*Operational.evtx
+892	ascii	WindowsSecurityLog
+893	ascii	Security.evtx
+894	ascii	WindowsApplicationLog
+895	ascii	Application.evtx
+896	ascii	Microsoft-Windows-Winlogon*Operational.evtx
+897	ascii	get System.evtx success
+898	ascii	get System.evtx fail
+899	ascii	get Security.evtx success
+900	ascii	get Security.evtx fail
+901	ascii	get Application.evtx success
+902	ascii	get Application.evtx fail
+903	ascii	[INFO]GetDiverInfoLog success
+904	ascii	[ERROR]GetDiverInfoLog fail
+905	ascii	appvirtuallog
+906	ascii	Microsoft-Windows-TerminalServices-LocalSessionManager*.evtx
+907	ascii	[INFO]get windowsapplicationvirtual log success
+908	ascii	[ERROR]get windowsapplicationvirtual log fail
+909	ascii	Start Get Vm Log,Time:%s;Userno:%s,filename:MEMORY.DMP
+910	ascii	Start Get Vm Log,Time:%s;Userno:%s,Zipname:%s
+911	ascii	[INFO] send keyLog! buf is %s
+912	ascii	ipv4(%s) send keylog error,switch ipv6
+913	ascii	ipv4(%s) and ipv6(%s) send keylog error,use ipv6 send log file
+914	ascii	ipv4(%s) and ipv6(%s) send keylog error,use ipv4 send log file
+915	ascii	End Get Vm Log,Time:%s;Userno:%s,Filename:MEMORY.DMP;LogSize:%lfM;NextModel:Qoe
+916	ascii	End Get Vm Log,Time:%s;Userno:%s,Zipname:%s;LogSize:%lfM;NextModel:Qoe
+917	ascii	%02d%02d%02d%02d%02d
+918	ascii	VA_%s_%s.zip
+919	ascii	VM_log_%s.zip
+920	ascii	[ERROR]strinsightaddr and iecsurl all null
+921	ascii	C:\Program Files\vmtool\VmAllCollectLog\
+922	ascii	C:\Program Files (x86)\vmtool\VmAllCollectLog\
+923	ascii	[ERROR]CreateDirectory %s is fail
+924	ascii	[INFO]upload_file_to_iecs err = %d
+925	ascii	[ERROR]DeleteFile %s Fail
+926	ascii	[INFO]DeleteFile %s Sucess
+927	ascii	[INFO]qoe communicate with host!msg is %s
+928	ascii	[ERROR]strinsightaddr and iecsurl are null
+929	ascii	qoe communicate with host!msg is %s
+930	ascii	command=
+931	ascii	[ERROR]vb-qoeagent receive invalid  info without command
+932	ascii	[ERROR]vb-qoeagent receive invalid  info without vuuid
+933	ascii	[DEBUG]command:%s;vuuid:%s
+934	ascii	Time: %s
+935	ascii	Vmuuid: %s
+936	ascii	Cmd: %s
+937	ascii	CmdResult: 
+938	ascii	C:\Program Files\vmtool\cmdresult\
+939	ascii	C:\Program Files\vmtool\cmdresult\cmdresult_%s.txt
+940	ascii	cmdresult_%s.txt
+941	ascii	C:\Program Files (x86)\vmtool\cmdresult\
+942	ascii	C:\Program Files (x86)\vmtool\cmdresult\cmdresult_%s.txt
+943	ascii	[TEST]start create directory
+944	ascii	[ERROR]CreateDirectory is fail
+945	ascii	[ERROR]can't create file %s
+946	ascii	[ERROR]WriteFile error %lu
+947	ascii	[DEBUG]writefile, TotalBytesWriten:%d
+948	ascii	%s >> "%s" 2>&1
+949	ascii	[DEBUG]cmdtoexec is: %s
+950	ascii	[DEBUG]cmd exec success
+951	ascii	oas_interval":"
+952	ascii	[ERROR]vb-qoeagent receive invalid  info without oas_interval
+953	ascii	vb-qoeagent receive oas_interval is %d
+954	ascii	vb-monitor receive invalid upgrade info without msgytpe
+955	ascii	get msg type is %d;
+956	ascii	vb-qoeagent receive invalid msgytpe:%d 
+957	ascii	select() call error.val[%d] %d
+958	ascii	msg_body is %s
+959	ascii	report_switch":
+960	ascii	msg without report_switch
+961	ascii	report_internal":
+962	ascii	create thread get_performance_send_vdagent
+963	ascii	thread get_performance_send_vdagent is exist
+964	ascii	thread get_performance_send_vdagent is not exist
+965	ascii	exit thread get_performance_send_vdagent
+966	ascii	recv module_id not PASS_THROUGH_VMQOEAGENT module_id is : %d
+967	ascii	data->flags is %d
+968	ascii	recv VD_RECV_REG msg.
+969	ascii	undefine msgtype.
+970	ascii	not recv VD_RECV_REG msg, can not deal other msg
+971	ascii	recv len not more than TransHead_t msg_len is %d, %d
+972	ascii	ClientRemind_t msg_type is %d
+973	ascii	recv from vdagent [%d]
+974	ascii	data->msg_len(%d)  real_msg_len(%d)
+975	ascii	vdagent is exited, need register
+976	ascii	send msg to %s:%d error(%d)
+977	ascii	VDAR
+978	ascii	send [VDAR] register info
+979	ascii	Vdagent.exe
+980	ascii	vmqoe_create_socket failed
+981	ascii	send register info to vdagent success
+982	ascii	send register info to vdagent error
+983	ascii	wait 5 seconds for vdagent ...
+984	ascii	libmswitch.dll
+985	ascii	libmswitch.dll load failed
+986	ascii	error is %d
+987	ascii	Register
+988	ascii	BuildMsg
+989	ascii	SendMsg
+990	ascii	RecvMsg
+991	ascii	FreeMsg
+992	ascii	Register Get failed, error:%u
+993	ascii	BuildMsg Get failed, error:%u
+994	ascii	SendMsg Get failed, error:%u
+995	ascii	RecvMsg Get failed, error:%u
+996	ascii	FreeMsg Get failed, error:%u
+997	ascii	vm qoeagent begin
+998	ascii	msg_id[%d] data_len[%d]
+999	ascii	[INFO]Thread vm_running_time_report started.
+1000	ascii	{"log":"%s|0|102|3|5|||%s|Vm has run [%d] days"}
+1001	ascii	create hDumpFile failed :%d
+1002	ascii	end_time is smaller than start_time!
+1003	ascii	VmQoeAgent
+1004	ascii	C:\Program Files\vmtool\vm_booster\
+1005	ascii	C:\Program Files (x86)\vmtool\vm_booster\
+1006	ascii	%s%s-exception.dmp
+1007	ascii	print dum
+1008	ascii	/install
+1009	ascii	Install successfull
+1010	ascii	Install failed
+1011	ascii	/uninstall
+1012	ascii	Uninstall successful 
+1013	ascii	Uninstall  failed 
+1014	ascii	Register Service Main Function Error!
+1015	ascii	systemshutdown
+1016	ascii	WTS_CONSOLE_CONNECT, IsLogOn=%d
+1017	ascii	WTS_CONSOLE_DISCONNECT, IsLogOn=%d
+1018	ascii	WTS_SESSION_LOGOFF, IsLogOn=%d
+1019	ascii	WTS_SESSION_LOGON, IsLogOn=%d
+1020	ascii	WTS_SESSION_LOCK, IsLogOn=%d
+1021	ascii	WTS_SESSION_UNLOCK, IsLogOn=%d
+1022	ascii	SERVICE_CONTROL_PRESHUTDOWN!
+1023	ascii	SERVICE_CONTROL_SHUTDOWN!
+1024	ascii	C:\Program Files\vmtool\vm_booster\QoEAgent_Config.ini
+1025	ascii	C:\Program Files (x86)\vmtool\vm_booster\QoEAgent_Config.ini
+1026	ascii	Bad service request
+1027	ascii	Handler not installed
+1028	ascii	Service VmQoEAgent stopped
+1029	ascii	Couldn't open service manager
+1030	ascii	GetModuleFileName failed
+1031	ascii	Couldn't create service
+1032	ascii	Couldn't open service
+1033	ascii	Service could not be deleted
+1034	ascii	kernel32.dll
+1035	ascii	GetSystemTimes
+1036	ascii	ntdll.dll
+1037	ascii	NtQuerySystemInformation
+1038	ascii	====%d
+1039	ascii	Open %s Error
+1040	ascii	%Y-%m-%d %H:%M:%S: 
+1041	ascii	string too long
+1042	ascii	invalid string position
+1043	ascii	vector<T> too long
+1044	ascii	list<T> too long
+1045	ascii	L09n
+1046	ascii	b'kJ
+1047	ascii	RSDS
+1048	ascii	,y5,?C
+1049	ascii	F:\workspace\ZXCLOUD-iVMC-ComponentV7.25.21\ZXCLOUD-iVMC-Component\windows\Release\VmQoEAgent.pdb
+1050	ascii	GetCurrentProcess
+1051	ascii	GetTickCount
+1052	ascii	GetSystemTimeAsFileTime
+1053	ascii	InitializeCriticalSection
+1054	ascii	GetProcessTimes
+1055	ascii	LeaveCriticalSection
+1056	ascii	GetProcAddress
+1057	ascii	EnterCriticalSection
+1058	ascii	GetModuleHandleA
+1059	ascii	DeleteCriticalSection
+1060	ascii	CreateFileA
+1061	ascii	SetUnhandledExceptionFilter
+1062	ascii	GetLastError
+1063	ascii	GetModuleFileNameA
+1064	ascii	GetCurrentThreadId
+1065	ascii	OutputDebugStringA
+1066	ascii	CloseHandle
+1067	ascii	GetCurrentProcessId
+1068	ascii	FreeLibrary
+1069	ascii	HeapAlloc
+1070	ascii	HeapFree
+1071	ascii	Process32First
+1072	ascii	WaitForSingleObject
+1073	ascii	GetProcessHeap
+1074	ascii	WriteFile
+1075	ascii	GetDriveTypeA
+1076	ascii	OpenProcess
+1077	ascii	WideCharToMultiByte
+1078	ascii	Sleep
+1079	ascii	GetComputerNameExA
+1080	ascii	TerminateProcess
+1081	ascii	MultiByteToWideChar
+1082	ascii	Wow64EnableWow64FsRedirection
+1083	ascii	CreateDirectoryA
+1084	ascii	FindFirstFileA
+1085	ascii	GetLogicalDriveStringsA
+1086	ascii	lstrcmpiA
+1087	ascii	RemoveDirectoryA
+1088	ascii	SetFileAttributesA
+1089	ascii	FindClose
+1090	ascii	GetPrivateProfileStringA
+1091	ascii	GetLocalTime
+1092	ascii	LoadLibraryA
+1093	ascii	Process32Next
+1094	ascii	GlobalMemoryStatusEx
+1095	ascii	GetSystemInfo
+1096	ascii	FindNextFileA
+1097	ascii	CreateToolhelp32Snapshot
+1098	ascii	GetDiskFreeSpaceExA
+1099	ascii	DeleteFileA
+1100	ascii	KERNEL32.dll
+1101	ascii	MessageBoxA
+1102	ascii	PostThreadMessageA
+1103	ascii	USER32.dll
+1104	ascii	OpenServiceA
+1105	ascii	CloseServiceHandle
+1106	ascii	RegisterEventSourceA
+1107	ascii	StartServiceCtrlDispatcherA
+1108	ascii	DeleteService
+1109	ascii	CreateServiceA
+1110	ascii	DeregisterEventSource
+1111	ascii	RegisterServiceCtrlHandlerExA
+1112	ascii	ReportEventA
+1113	ascii	SetServiceStatus
+1114	ascii	OpenSCManagerA
+1115	ascii	ControlService
+1116	ascii	OpenProcessToken
+1117	ascii	RegSetValueExA
+1118	ascii	RegQueryValueExA
+1119	ascii	RegEnumKeyExA
+1120	ascii	RegCreateKeyExA
+1121	ascii	RegOpenKeyExA
+1122	ascii	RegCloseKey
+1123	ascii	ADVAPI32.dll
+1124	ascii	SHFileOperationA
+1125	ascii	ShellExecuteExA
+1126	ascii	SHELL32.dll
+1127	ascii	CoCreateInstance
+1128	ascii	CoSetProxyBlanket
+1129	ascii	CoUninitialize
+1130	ascii	CoInitializeSecurity
+1131	ascii	CoInitializeEx
+1132	ascii	ole32.dll
+1133	ascii	OLEAUT32.dll
+1134	ascii	__iob_func
+1135	ascii	fopen
+1136	ascii	fread
+1137	ascii	fprintf
+1138	ascii	strftime
+1139	ascii	fwrite
+1140	ascii	ftell
+1141	ascii	vfprintf
+1142	ascii	_localtime64
+1143	ascii	fseek
+1144	ascii	fclose
+1145	ascii	_time64
+1146	ascii	printf
+1147	ascii	??3@YAXPAX@Z
+1148	ascii	??2@YAPAXI@Z
+1149	ascii	_stricmp
+1150	ascii	vsprintf
+1151	ascii	_snprintf
+1152	ascii	remove
+1153	ascii	_ftelli64
+1154	ascii	strtod
+1155	ascii	sprintf
+1156	ascii	feof
+1157	ascii	_strnicmp
+1158	ascii	?what@exception@std@@UBEPBDXZ
+1159	ascii	??1exception@std@@UAE@XZ
+1160	ascii	??0exception@std@@QAE@ABQBD@Z
+1161	ascii	??0exception@std@@QAE@ABV01@@Z
+1162	ascii	sprintf_s
+1163	ascii	sscanf
+1164	ascii	memmove
+1165	ascii	??_U@YAPAXI@Z
+1166	ascii	_endthread
+1167	ascii	free
+1168	ascii	_pclose
+1169	ascii	_localtime64_s
+1170	ascii	malloc
+1171	ascii	strerror
+1172	ascii	strstr
+1173	ascii	strchr
+1174	ascii	_fseeki64
+1175	ascii	memchr
+1176	ascii	atoi
+1177	ascii	_popen
+1178	ascii	_errno
+1179	ascii	_beginthread
+1180	ascii	vsprintf_s
+1181	ascii	strncpy
+1182	ascii	fgets
+1183	ascii	strtok
+1184	ascii	??_V@YAXPAX@Z
+1185	ascii	toupper
+1186	ascii	ldiv
+1187	ascii	MSVCR100.dll
+1188	ascii	_unlock
+1189	ascii	__dllonexit
+1190	ascii	_lock
+1191	ascii	_onexit
+1192	ascii	_amsg_exit
+1193	ascii	__getmainargs
+1194	ascii	_cexit
+1195	ascii	_exit
+1196	ascii	_XcptFilter
+1197	ascii	_ismbblead
+1198	ascii	exit
+1199	ascii	_acmdln
+1200	ascii	_initterm
+1201	ascii	_initterm_e
+1202	ascii	_configthreadlocale
+1203	ascii	__setusermatherr
+1204	ascii	_commode
+1205	ascii	_fmode
+1206	ascii	__set_app_type
+1207	ascii	_crt_debugger_hook
+1208	ascii	_except_handler4_common
+1209	ascii	?terminate@@YAXXZ
+1210	ascii	?_type_info_dtor_internal_method@type_info@@QAEXXZ
+1211	ascii	_invoke_watson
+1212	ascii	_controlfp_s
+1213	ascii	MiniDumpWriteDump
+1214	ascii	dbghelp.dll
+1215	ascii	?_Xout_of_range@std@@YAXPBD@Z
+1216	ascii	?_Xlength_error@std@@YAXPBD@Z
+1217	ascii	?_Orphan_all@_Container_base0@std@@QAEXXZ
+1218	ascii	MSVCP100.dll
+1219	ascii	timeGetTime
+1220	ascii	WINMM.dll
+1221	ascii	SetupDiGetClassDevsA
+1222	ascii	SetupDiDestroyDeviceInfoList
+1223	ascii	SetupDiEnumDeviceInfo
+1224	ascii	SetupDiGetDeviceRegistryPropertyA
+1225	ascii	SETUPAPI.dll
+1226	ascii	PathFileExistsA
+1227	ascii	SHLWAPI.dll
+1228	ascii	GetAdaptersInfo
+1229	ascii	GetExtendedTcpTable
+1230	ascii	FreeMibTable
+1231	ascii	GetIfTable2
+1232	ascii	GetExtendedUdpTable
+1233	ascii	GetPerAdapterInfo
+1234	ascii	IPHLPAPI.DLL
+1235	ascii	inet_pton
+1236	ascii	WS2_32.dll
+1237	ascii	PdhRemoveCounter
+1238	ascii	PdhGetFormattedCounterValue
+1239	ascii	PdhAddEnglishCounterA
+1240	ascii	PdhCloseQuery
+1241	ascii	PdhOpenQueryA
+1242	ascii	PdhCollectQueryData
+1243	ascii	PdhGetFormattedCounterArrayA
+1244	ascii	pdh.dll
+1245	ascii	VerQueryValueA
+1246	ascii	GetFileVersionInfoSizeA
+1247	ascii	GetFileVersionInfoA
+1248	ascii	VERSION.dll
+1249	ascii	curl_slist_append
+1250	ascii	curl_easy_setopt
+1251	ascii	curl_easy_perform
+1252	ascii	curl_easy_strerror
+1253	ascii	curl_easy_cleanup
+1254	ascii	curl_global_init
+1255	ascii	curl_global_cleanup
+1256	ascii	curl_slist_free_all
+1257	ascii	curl_easy_init
+1258	ascii	curl_easy_reset
+1259	ascii	libcurl.dll
+1260	ascii	NetApiBufferFree
+1261	ascii	NetWkstaGetInfo
+1262	ascii	NETAPI32.dll
+1263	ascii	EncodePointer
+1264	ascii	DecodePointer
+1265	ascii	InterlockedExchange
+1266	ascii	InterlockedCompareExchange
+1267	ascii	HeapSetInformation
+1268	ascii	GetStartupInfoW
+1269	ascii	UnhandledExceptionFilter
+1270	ascii	IsDebuggerPresent
+1271	ascii	QueryPerformanceCounter
+1272	ascii	__CxxFrameHandler3
+1273	ascii	memset
+1274	ascii	memcpy
+1275	ascii	_CxxThrowException
+1276	ascii	IsProcessorFeaturePresent
+1277	ascii	.?AVtype_info@@
+1278	ascii	VmQoEAgent
+1279	ascii	C:\Program Files\vmtool\vm_booster\QoEAgent.log
+1280	ascii	C:\Program Files\vmtool\vm_booster\QoEAgent_bak.log
+1281	ascii	C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+1282	ascii	C:\Program Files (x86)\vmtool\vm_booster\QoEAgent_bak.log
+1283	ascii	C:\Program Files\vmtool\vm_booster\VM_Key_bak.log
+1284	ascii	C:\Program Files (x86)\vmtool\vm_booster\VM_Key_bak.log
+1285	ascii	.?AVexception@std@@
+1286	ascii	.?AVbad_alloc@std@@
+1287	ascii	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+1288	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+1289	ascii	    <security>
+1290	ascii	      <requestedPrivileges>
+1291	ascii	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+1292	ascii	      </requestedPrivileges>
+1293	ascii	    </security>
+1294	ascii	  </trustInfo>
+1295	ascii	</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+1296	ascii	0)0J0d0i0o0
+1297	ascii	1#10151;1L1Q1W1a1n1
+1298	ascii	2*2S2X2^2t2~2
+1299	ascii	3-3C3S3`3e3k3
+1300	ascii	4 4)4.444Q4[4d4l4z4
+1301	ascii	5"5:5C5H5Y5
+1302	ascii	6>6G6L6]6q6z6
+1303	ascii	7&7/747E7
+1304	ascii	7/8R8~8
+1305	ascii	9+909a9q9&;9;l;u;};
+1306	ascii	<"<+<4<?<K<T<\<e<n<y<
+1307	ascii	=4=@=O=X=
+1308	ascii	>!>*>5>A>J>R>[>d>o>{>
+1309	ascii	?A?P?_?l?x?}?
+1310	ascii	0#090W0^0e0o0
+1311	ascii	1#1H1j1p1v1
+1312	ascii	2$2*2]2b2i2p2
+1313	ascii	3'3G3h3r3|3
+1314	ascii	314:4?4D4
+1315	ascii	5#535=5C5S5\5b5u5~5
+1316	ascii	6 6&60666@6M6S6`6d6h6l6p6t6x6|6
+1317	ascii	7 7*747=7C7J7U7^7d7k7p7v7
+1318	ascii	7!81868>8Y8p8v8
+1319	ascii	979^9n9s9{9
+1320	ascii	:*:P:n:v:
+1321	ascii	;p;y;
+1322	ascii	<*=B=a=
+1323	ascii	>M?k?
+1324	ascii	171A1t1
+1325	ascii	4.4U4{4
+1326	ascii	4:5V5u5
+1327	ascii	7G8Q8c8n8w8
+1328	ascii	8<9\9
+1329	ascii	:*:X:`:
+1330	ascii	;-;I;f;
+1331	ascii	<4=N=o=
+1332	ascii	='>:>m>
+1333	ascii	>V?p?
+1334	ascii	0J0i0
+1335	ascii	2)2b2
+1336	ascii	4/4E4[4q4
+1337	ascii	5!575K5j5
+1338	ascii	676C6U6k6w6
+1339	ascii	7!777C7U7k7w7
+1340	ascii	8%8;8G8Y8o8{8
+1341	ascii	8J9X9^9l9~9
+1342	ascii	:=:Z:s:
+1343	ascii	;+;Y;
+1344	ascii	=$=M=
+1345	ascii	>&>e>r>
+1346	ascii	0(1`1q1
+1347	ascii	1i2{2
+1348	ascii	4a5o5|5
+1349	ascii	6A6\6
+1350	ascii	7S7u7
+1351	ascii	:,;;;K;w;.<
+1352	ascii	<r=~=
+1353	ascii	>%>j>
+1354	ascii	213Q3W3r3x3~3
+1355	ascii	464<4q4
+1356	ascii	51575R5X5p5v5
+1357	ascii	516Q6W6r6x6
+1358	ascii	72787X7p7v7
+1359	ascii	8'8j8q8
+1360	ascii	8f9p9
+1361	ascii	:-:W:q:x:
+1362	ascii	;,;I;Z;a;m;t;
+1363	ascii	;6<P<
+1364	ascii	>a?h?v?
+1365	ascii	0i3x3
+1366	ascii	575>5
+1367	ascii	6(6>6
+1368	ascii	6"7/7U7d7
+1369	ascii	8C8u8{8
+1370	ascii	9=:C:P:
+1371	ascii	;&;3;F;S;
+1372	ascii	>A>m>}>
+1373	ascii	0#0)0>0t0}0
+1374	ascii	1=1U1c1r1x1~1
+1375	ascii	2*2|2
+1376	ascii	3,3G3L3Q3W3c3p3
+1377	ascii	3=5I6d6
+1378	ascii	8T9p9
+1379	ascii	;3;H;
+1380	ascii	<D=^=
+1381	ascii	0,0@0
+1382	ascii	3)404
+1383	ascii	4V5]5
+1384	ascii	566J6
+1385	ascii	7+7C7
+1386	ascii	8.8P8_8
+1387	ascii	9.949C9K9
+1388	ascii	:/:E:[:q:
+1389	ascii	:0;@;H;V;h;{;
+1390	ascii	<.<A<K<]<p<z<
+1391	ascii	="=4=F=]=g=y=
+1392	ascii	=/>5>?>D>J>P>V>d>y>
+1393	ascii	?%?8?J?Y?_?l?
+1394	ascii	0$0-03080E0z0
+1395	ascii	101C1I1V1f1l1z1
+1396	ascii	2%2+282X2k2
+1397	ascii	3B3R3b3r3
+1398	ascii	4$4*474>4E4K4Q4V4c4
+1399	ascii	5-5@5S5Y5f5v5|5
+1400	ascii	626D6S6Y6j6
+1401	ascii	7'747@7O7\7h7w7
+1402	ascii	8'8<8
+1403	ascii	9%939:9I9P9^9m9
+1404	ascii	:l:{:
+1405	ascii	;";s;
+1406	ascii	<)<z<
+1407	ascii	<.=>=
+1408	ascii	>(?C?R?f?
+1409	ascii	0(0.0F0[0p0
+1410	ascii	1#1)1/1=1C1O1U1d1p1|1
+1411	ascii	2!2'262n243O3w3
+1412	ascii	4,4H4U4x4
+1413	ascii	6+6I6
+1414	ascii	;7;R;
+1415	ascii	=<=f=s=
+1416	ascii	1Y2e2w2
+1417	ascii	4 4I4
+1418	ascii	5&5/5C5
+1419	ascii	6;6~6
+1420	ascii	6"747[7z7
+1421	ascii	8!8-898H8U8Z8f8
+1422	ascii	8@9R9y9
+1423	ascii	:.:3:[:
+1424	ascii	;(;D;b;
+1425	ascii	<M=Y=a=k=v=
+1426	ascii	>6>R>o>
+1427	ascii	?*?@?I?h?u?
+1428	ascii	%070E0J0m0
+1429	ascii	3-3G3Y3
+1430	ascii	4 424v4
+1431	ascii	585V5t5
+1432	ascii	7e8j8
+1433	ascii	9/9;9[9z9
+1434	ascii	9b:v:
+1435	ascii	; ;,;L;T;\;f;y;
+1436	ascii	;B<P<
+1437	ascii	>*>?>D>k>
+1438	ascii	52;2A2
+1439	ascii	3E4k4~4
+1440	ascii	4+5k5
+1441	ascii	6.6;6O6
+1442	ascii	8:8Z8z8
+1443	ascii	8Y9^9k9
+1444	ascii	9P:U:b:
+1445	ascii	;';L;Q;^;
+1446	ascii	=5=:=M=z=
+1447	ascii	?.?5?G?O?U?l?r?
+1448	ascii	0)1.1c1u1
+1449	ascii	4"4J4
+1450	ascii	5a6f6
+1451	ascii	7_8e8o8
+1452	ascii	9+989>9G9Q9
+1453	ascii	:/:;:W:d:o:
+1454	ascii	:*;:;l;
+1455	ascii	<.<><
+1456	ascii	1^2n2O3
+1457	ascii	3!4|4
+1458	ascii	7&7w7
+1459	ascii	8J8\8
+1460	ascii	9$9@9M9m9
+1461	ascii	:;;E;a;
+1462	ascii	=*=3=E=m=
+1463	ascii	>4?q?~?
+1464	ascii	2 2,272C2*343@3L3W3c3:4O4]4
+1465	ascii	4%5-5C5s5
+1466	ascii	6(6C6K6c6l6}6
+1467	ascii	7+7B7V7w7Z8q8
+1468	ascii	;j<p<
+1469	ascii	=2=8=G=U=d=j=
+1470	ascii	>Z>d>j>t>~>
+1471	ascii	?)?8?J?]?d?
+1472	ascii	1U1_1k1x1
+1473	ascii	5(5=5x5
+1474	ascii	6'696I6f6x6
+1475	ascii	6D7B8O8
+1476	ascii	9I:^:d:~:
+1477	ascii	:n;~;
+1478	ascii	<,<4<A<Y<f<
+1479	ascii	=]=o=
+1480	ascii	>#>+>8>J>W>k>q>w>
+1481	ascii	?:?J?
+1482	ascii	;0H0V0c0y0
+1483	ascii	0\1v1
+1484	ascii	1U2l2
+1485	ascii	263H3X3j3z3
+1486	ascii	5m5{5
+1487	ascii	6!676G6T6f6
+1488	ascii	7.7J7W7w7
+1489	ascii	809q9
+1490	ascii	:/:R:d:t:
+1491	ascii	;1;M;
+1492	ascii	< <,<7<D<}<
+1493	ascii	=+=2=p=v=
+1494	ascii	>=>^>j>w>
+1495	ascii	>:?L?y?
+1496	ascii	0(1P1z1
+1497	ascii	1"2K2v2
+1498	ascii	4*4:4
+1499	ascii	4W5o5
+1500	ascii	5s6|6
+1501	ascii	8!9^9
+1502	ascii	:::?:Q:q:v:
+1503	ascii	:Z;c;u;
+1504	ascii	;$<1<6<H<t<
+1505	ascii	<6=?=Q=Y=^=p=
+1506	ascii	=s>|>
+1507	ascii	>!?-???N?v?
+1508	ascii	0)040@0L0
+1509	ascii	1&1-141;1B1I1P1W1^1e1l1s1z1
+1510	ascii	202<2H2Z2|2
+1511	ascii	2R3_3k3x3
+1512	ascii	6*7|7
+1513	ascii	8$8z8
+1514	ascii	9&9K9[9w9
+1515	ascii	:$:E:
+1516	ascii	;-;?;};
+1517	ascii	;?<O<o<z<
+1518	ascii	=-=G=[=c=u=
+1519	ascii	>R>d>r>w>
+1520	ascii	?V?h?
+1521	ascii	2*2K2X2
+1522	ascii	3)3E3
+1523	ascii	4*444?4I4e4
+1524	ascii	6!6?6`6r6
+1525	ascii	6 7%777H7Z7
+1526	ascii	8F8b8o8
+1527	ascii	9@9b9
+1528	ascii	;+;1;U;a;
+1529	ascii	=5>X>m>
+1530	ascii	?#?D?
+1531	ascii	0.0E0]0o0
+1532	ascii	1&1:1T1k1
+1533	ascii	212A2`2
+1534	ascii	3=3}3
+1535	ascii	6)6Q6[6
+1536	ascii	7&757?7N7b7
+1537	ascii	:):8:a:n:~:
+1538	ascii	;#;2;<;X;q;
+1539	ascii	<0=?=[=
+1540	ascii	>%>9>>>e>w>
+1541	ascii	?9?>?^?r?
+1542	ascii	!0E0^0c0
+1543	ascii	1b1g1
+1544	ascii	232E2Y2^2
+1545	ascii	273G3w3
+1546	ascii	3_4k4}4
+1547	ascii	4j5o5
+1548	ascii	6Z6y6
+1549	ascii	708g8
+1550	ascii	8*9/9I9]9~9
+1551	ascii	:U:Z:k:p:
+1552	ascii	;(;7;O;T;n;};
+1553	ascii	=!=3=B=]=
+1554	ascii	>0>C>W>m>
+1555	ascii	>,?T?`?
+1556	ascii	080g0
+1557	ascii	1!1J1_1
+1558	ascii	2C2H2Z2d2i2{2
+1559	ascii	4N4`4z4
+1560	ascii	7+7I7N7n7
+1561	ascii	8"888S8n8
+1562	ascii	:':6:C:P:f:n:
+1563	ascii	;G;y;~;
+1564	ascii	<a<p<z<
+1565	ascii	?(?=?W?\?
+1566	ascii	0'0@0H0W0e0n0w0
+1567	ascii	151=1X1}1
+1568	ascii	2J2g2
+1569	ascii	3&3c3w3
+1570	ascii	3$464G4z4
+1571	ascii	5)575?5^5s5
+1572	ascii	6"646A6F6K6X6]6b6o6t6y6
+1573	ascii	7*757>7D7Y7d7m7s7
+1574	ascii	838P8
+1575	ascii	9"9'9-92989=9l9
+1576	ascii	:.;;;G;S;`;
+1577	ascii	=F=U=
+1578	ascii	=6>E>
+1579	ascii	7&858V;c;
+1580	ascii	1f2u2m3
+1581	ascii	5.7I7p7y7
+1582	ascii	2&373
+1583	ascii	4N5M7\7b7h7o7z7
+1584	ascii	748q8{8
+1585	ascii	9'9:9D9I9N9p9u9~9
+1586	ascii	:4:_:g:p:v:~:
+1587	ascii	;!;);/;;;F;d;j;p;v;|;
+1588	ascii	<*</<5<;<Q<X<`<f<l<q<
+1589	ascii	>0>5>T>
+1590	ascii	?-?A?G?
+1591	ascii	0(00080D0m0u0
+1592	ascii	323R3r3
+1593	ascii	3"4X4
+1594	ascii	6'7b7t7~7
+1595	ascii	4L4P4T4X4
+1596	ascii	8t9x9
+1597	ascii	: :(:@:P:T:d:h:l:t:
+1598	ascii	:P;l;p;
+1599	ascii	<$<<<@<`<t<
+1600	ascii	< =0=D=X=d=l=
+1601	ascii	= >4>@>H>`>h>t>
+1602	ascii	? ?,?4?L?X?x?
+1603	ascii	00080D0d0l0x0
+1604	ascii	1$1D1L1X1
+1605	ascii	1(5D5
+1606	ascii	N0L0
+1607	ascii	DigiCert Inc1
+1608	ascii	www.digicert.com1!0
+1609	ascii	DigiCert Trusted Root G40
+1610	ascii	210429000000Z
+1611	ascii	360428235959Z0i1
+1612	ascii	DigiCert, Inc.1A0?
+1613	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+1614	ascii	>Mp$d
+1615	ascii	}4}L
+1616	ascii	!xE.
+1617	ascii	IpB2
+1618	ascii	6*f(_
+1619	ascii	[K]taM?
+1620	ascii	m&vh
+1621	ascii	J>@G_
+1622	ascii	#!Y`
+1623	ascii	x8E0
+1624	ascii	SA|X=G
+1625	ascii	q]dL
+1626	ascii	k0i0$
+1627	ascii	http://ocsp.digicert.com0A
+1628	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+1629	ascii	<0:08
+1630	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+1631	ascii	:#D=
+1632	ascii	:]Hm
+1633	ascii	v~7q
+1634	ascii	!usR
+1635	ascii	ov7,
+1636	ascii	/"lA
+1637	ascii	jj@0HK4
+1638	ascii	VxN0
+1639	ascii	241111000000Z
+1640	ascii	251110235959Z0
+1641	ascii	CN1#0!
+1642	ascii	Guangdong Province1
+1643	ascii	Shenzhen1
+1644	ascii	Private Organization1
+1645	ascii	9144030027939873X71
+1646	ascii	ZTE CORPORATION1
+1647	ascii	ZTE CORPORATION0
+1648	ascii	3KB/_
+1649	ascii	4c<b
+1650	ascii	bCQY
+1651	ascii	2gx}w
+1652	ascii	Bm]JG)OF
+1653	ascii	8{:2_hF
+1654	ascii	H}If[
+1655	ascii	!Oa?
+1656	ascii	?66]
+1657	ascii	:.fs
+1658	ascii	60402
+1659	ascii	0)0'
+1660	ascii	http://www.digicert.com/CPS0
+1661	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+1662	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+1663	ascii	http://ocsp.digicert.com0\
+1664	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+1665	ascii	C%,d
+1666	ascii	_+*2
+1667	ascii	ye>ga
+1668	ascii	ZpQeg
+1669	ascii	XTB2z
+1670	ascii	>,Z,
+1671	ascii	C5/u
+1672	ascii	0}0i1
+1673	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+1674	ascii	'T}D
+1675	ascii	5_!,7
+1676	ascii	{F/%W
+1677	ascii	)ZAA
+1678	ascii	@>@)
+1679	ascii	{]5)
+1680	ascii	iZA"L
+1681	ascii	tu3o_
+1682	ascii	c^ (
+1683	ascii	20250708015618Z
+1684	ascii	DigiCert, Inc.1;09
+1685	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+1686	ascii	240926000000Z
+1687	ascii	351125235959Z0B1
+1688	ascii	DigiCert1 0
+1689	ascii	DigiCert Timestamp 20240
+1690	ascii	ymIXa+
+1691	ascii	GW3K;
+1692	ascii	o~R}a
+1693	ascii	z9XxGT
+1694	ascii	<Jisu
+1695	ascii	jSDx
+1696	ascii	7!5B
+1697	ascii	/s)v
+1698	ascii	S0Q0O
+1699	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+1700	ascii	http://ocsp.digicert.com0X
+1701	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+1702	ascii	Mm*V;
+1703	ascii	Z +J
+1704	ascii	MzE @t
+1705	ascii	5dz?g
+1706	ascii	(f*^[0
+1707	ascii	220323000000Z
+1708	ascii	370322235959Z0c1
+1709	ascii	=rIQU
+1710	ascii	|jWz
+1711	ascii	!hn7!
+1712	ascii	{un'%
+1713	ascii	+Xt@(
+1714	ascii	u($A
+1715	ascii	fIRP
+1716	ascii	,W5y+
+1717	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+1718	ascii	 %41g
+1719	ascii	i?Gw
+1720	ascii	',=?k
+1721	ascii	Axz8
+1722	ascii	www.digicert.com1$0"
+1723	ascii	DigiCert Assured ID Root CA0
+1724	ascii	220801000000Z
+1725	ascii	311109235959Z0b1
+1726	ascii	]J<0"0i3
+1727	ascii	t;mq
+1728	ascii	u]xf
+1729	ascii	v=Y]Bv
+1730	ascii	p,A`
+1731	ascii	RQGt
+1732	ascii	|Lu?c
+1733	ascii	 Qko
+1734	ascii	m0k0$
+1735	ascii	http://ocsp.digicert.com0C
+1736	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+1737	ascii	>0<0:
+1738	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+1739	ascii	Jz/-
+1740	ascii	5FjiT
+1741	ascii	wZ\T
+1742	ascii	~qj#k"
+1743	ascii	T-'~
+1744	ascii	0w0c1
+1745	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+1746	ascii	250708015618Z0+
+1747	ascii	[E0/
+1748	ascii	t?gw
+1749	ascii	/1(0&0$0"
+1750	ascii	^#oSM(u
+1751	ascii	DK;H
+1752	ascii	;w]nnw
+1753	ascii	JEVO
+1754	ascii	4.>i@
+1755	utf16le	<Bjj
+1756	utf16le	jjjj
+1757	utf16le	jjjjjj
+1758	utf16le	ROOT\CIMV2
+1759	utf16le	SELECT * FROM Win32_QuickFixEngineering
+1760	utf16le	HotFixID
+1761	utf16le	InstalledOn
+1762	utf16le	VmQoEAgent
+1763	utf16le	C:\Program Files\vmtool\vm_booster\VmQoEAgent.exe
+1764	utf16le	C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe
+1765	utf16le	Name
+1766	utf16le	Status
+1767	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%HID-compliant mouse"
+1768	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%HID Keyboard Device"
+1769	utf16le	DisplayName
+1770	utf16le	State
+1771	utf16le	PathName
+1772	utf16le	SELECT * FROM Win32_SystemDriver 

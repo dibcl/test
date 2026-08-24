@@ -1,0 +1,160 @@
+﻿========== ZTE UPDATER METADATA ==========
+TIME: 2026-08-24 00:28:15
+
+========== FILE: C:\Program Files (x86)\vmtool\vm_booster\updateinfo.ini ==========
+[Vmagent] 
+versionId=cfe4879845167d027cb5246e857bb21c58ec31fb 
+
+========== FILE: C:\Program Files (x86)\vmtool\vm_booster\version.ini ==========
+[base]
+vmbooster_version=V7.25.21SP3pv-9
+
+========== FILE: C:\Program Files (x86)\vmtool\vm_booster\versionbak0331.ini ==========
+[base]
+vmbooster_version =V7.25.21SP3-9
+
+========== FILE: C:\Program Files (x86)\vmtool\version.ini ==========
+[base]
+vmbooster_version =V7.25.21SP3-9
+
+========== FILE: C:\Program Files (x86)\ZTEGuestOS\version.ini ==========
+[base]
+
+========== PACKAGEVERSION FILES ==========
+
+========== FILESYSTEM DRIVES ==========
+
+Name Root        Used         Free Description
+---- ----        ----         ---- -----------
+C    C:\  24897507328  60947308544            
+D    D:\  28578955264 508290887680            
+Z    Z:\       358400            0            
+
+
+
+========== UPDATE PROCESSES ==========
+
+
+Name            : UpdateDaemon.exe
+ProcessId       : 4084
+ParentProcessId : 736
+ExecutablePath  : C:\Program Files (x86)\uSmartviewUpdate\UpdateDaemon.exe
+CommandLine     : "C:\Program Files (x86)\uSmartviewUpdate\UpdateDaemon.exe"
+
+Name            : VmBoosterMonitor.exe
+ProcessId       : 4092
+ParentProcessId : 736
+ExecutablePath  : C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe
+CommandLine     : "C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe"
+
+Name            : Vmbooster.exe
+ProcessId       : 3448
+ParentProcessId : 736
+ExecutablePath  : C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe
+CommandLine     : "C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe"
+
+Name            : MicrosoftEdgeUpdate.exe
+ProcessId       : 2832
+ParentProcessId : 1860
+ExecutablePath  : C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+CommandLine     : "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /c
+
+Name            : uSmartviewUpdate.exe
+ProcessId       : 7460
+ParentProcessId : 4084
+ExecutablePath  : C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdate.exe
+CommandLine     : "C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdate.exe"
+
+Name            : uSmartviewUpdateUI.exe
+ProcessId       : 5248
+ParentProcessId : 4084
+ExecutablePath  : C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdateUI.exe
+CommandLine     : "C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdateUI.exe"
+
+
+
+
+========== UPDATE SERVICES ==========
+
+
+Name        : edgeupdate
+DisplayName : Microsoft Edge Update Service (edgeupdate)
+State       : Stopped
+StartMode   : Auto
+PathName    : "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /svc
+
+Name        : edgeupdatem
+DisplayName : Microsoft Edge Update Service (edgeupdatem)
+State       : Stopped
+StartMode   : Manual
+PathName    : "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /medsvc
+
+Name        : tzautoupdate
+DisplayName : 自动时区更新程序
+State       : Stopped
+StartMode   : Disabled
+PathName    : C:\Windows\system32\svchost.exe -k LocalService -p
+
+Name        : UpdateDaemon
+DisplayName : UpdateDaemon
+State       : Running
+StartMode   : Auto
+PathName    : "C:\Program Files (x86)\uSmartviewUpdate\UpdateDaemon.exe"
+
+Name        : Vmbooster
+DisplayName : Vmbooster
+State       : Running
+StartMode   : Auto
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe"
+
+Name        : VmBoosterMonitor
+DisplayName : VmBoosterMonitor
+State       : Running
+StartMode   : Auto
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe"
+
+Name        : wuauserv
+DisplayName : Windows Update
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\svchost.exe -k netsvcs -p
+
+
+
+
+========== USMART UPDATE INSTALL INFO ==========
+
+
+DisplayName     : uSmartviewUpdate
+DisplayVersion  : 7.24.10.01
+InstallLocation : 
+InstallSource   : 
+UninstallString : 
+
+
+
+
+========== UPDATE RELATED FILES ==========
+
+FullName                                                                 Length LastWriteTime    
+--------                                                                 ------ -------------    
+C:\Program Files (x86)\vmtool\version.ini                                    42 2025/8/8 18:31:09
+C:\Program Files (x86)\vmtool\vm_booster\updateinfo.ini                      65 2025/7/8 9:54:10 
+C:\Program Files (x86)\vmtool\vm_booster\version.ini                         43 2026/8/6 22:51:15
+C:\Program Files (x86)\vmtool\vm_booster\versionbak0331.ini                  42 2025/8/8 18:31:09
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_force.exe            1141032 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_notice.exe           1142736 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_reboot_button.exe    1142056 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_reboot_notice.exe    1126696 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_timeout.exe          1142232 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\vm_update_upgrading_notice.exe 1140144 2025/7/8 9:53:54 
+C:\Program Files (x86)\vmtool\vm_booster\Skins\Default\Upgrade.png         3651 2025/7/8 9:53:54 
+
+
+
+FullName                                                              Length LastWriteTime     
+--------                                                              ------ -------------     
+C:\Program Files (x86)\ZTEGuestOS\version.ini                              8 2026/6/23 22:43:12
+C:\Program Files (x86)\ZTEGuestOS\autologon\ZTECredential\version.txt      8 2025/6/30 20:03:25
+
+

@@ -1,0 +1,11 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\libmswitch.dll",
+    "json": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\libmswitch\\libmswitch.pe.json",
+    "strings": "C:\\Users\\Administrator\\Desktop\\zte-research\\static-pe\\libmswitch\\libmswitch.strings.txt",
+    "sha256": "e200691b3725ac3d6576e4a00059cf12709bb85ffbcb5729959cc00d5e281927",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 577
+  }
+]

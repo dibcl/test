@@ -1,0 +1,19 @@
+﻿START 2026-08-23 22:15:47.578
+
+===== 22:15:48.703 =====
+2026-08-23 22:15:48.625 #2060 [WARN ] 2056# 2060 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-23 22:15:48.671 #2060 [WARN ] 2056# 2060 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+
+
+===== 22:16:09.600 =====
+2026-08-23 22:16:09.370 #2060 [INFO ] 2056# 2060 VDAgent::TimerProc(1233): keyboard down count: 1, keyboard up count: 1
+
+
+===== 22:16:16.734 =====
+2026-08-23 22:16:16.653 #3016 [INFO ] 2056# 3016 VDAgent::vdagent_send_hb_event(7319): send hb to main service mode
+
+
+===== 22:16:43.268 =====
+2026-08-23 22:16:42.854 #2060 [INFO ] 2056# 2060 VDAgent::handle_server_heartbeat(16067): ID 0, timestamp 0, times 0, ack_flag 0
+2026-08-23 22:16:42.855 #2060 [WARN ] 2056# 2060 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+

@@ -1,0 +1,361 @@
+{
+  "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+  "sha256": "ddf21efc355cf8a6611a590d8922f3bb1af1044fa07b3d6c36ba9a9cf662a6e6",
+  "size": 202672,
+  "machine": "x86-64",
+  "bitness": 64,
+  "timestamp": 1752044135,
+  "characteristics": "0x22",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 122752,
+      "vaddr": 4096,
+      "raw_size": 122880,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 54048,
+      "vaddr": 126976,
+      "raw_size": 54272,
+      "raw_ptr": 123904
+    },
+    {
+      "name": ".data",
+      "vsize": 147112,
+      "vaddr": 184320,
+      "raw_size": 3584,
+      "raw_ptr": 178176
+    },
+    {
+      "name": ".pdata",
+      "vsize": 6972,
+      "vaddr": 331776,
+      "raw_size": 7168,
+      "raw_ptr": 181760
+    },
+    {
+      "name": ".tls",
+      "vsize": 9,
+      "vaddr": 339968,
+      "raw_size": 512,
+      "raw_ptr": 188928
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 1296,
+      "vaddr": 344064,
+      "raw_size": 1536,
+      "raw_ptr": 189440
+    },
+    {
+      "name": ".reloc",
+      "vsize": 808,
+      "vaddr": 348160,
+      "raw_size": 1024,
+      "raw_ptr": 190976
+    }
+  ],
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateEventA",
+        "CreateFileA",
+        "CreateFileMappingA",
+        "CreateFileW",
+        "CreateMutexA",
+        "CreateProcessA",
+        "CreateThread",
+        "DecodePointer",
+        "DeleteFileA",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "FreeLibrary",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThread",
+        "GetCurrentThreadId",
+        "GetDiskFreeSpaceExA",
+        "GetExitCodeProcess",
+        "GetLastError",
+        "GetLocalTime",
+        "GetModuleFileNameA",
+        "GetModuleHandleA",
+        "GetOverlappedResult",
+        "GetPrivateProfileIntA",
+        "GetPrivateProfileStringA",
+        "GetProcAddress",
+        "GetProcessId",
+        "GetSystemDirectoryW",
+        "GetSystemInfo",
+        "GetSystemTimeAsFileTime",
+        "InitializeCriticalSection",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "LeaveCriticalSection",
+        "LoadLibraryW",
+        "MapViewOfFile",
+        "MultiByteToWideChar",
+        "OpenEventA",
+        "OpenFileMappingA",
+        "OpenProcess",
+        "OutputDebugStringA",
+        "ProcessIdToSessionId",
+        "QueryPerformanceCounter",
+        "QueryPerformanceFrequency",
+        "ReadFile",
+        "ReadFileEx",
+        "SetEvent",
+        "SetLastError",
+        "SetPriorityClass",
+        "SetThreadPriority",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "TerminateProcess",
+        "UnmapViewOfFile",
+        "WTSGetActiveConsoleSessionId",
+        "WaitForSingleObjectEx",
+        "WaitNamedPipeW",
+        "WriteFile",
+        "lstrcatW"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "GetMessageA",
+        "PeekMessageA",
+        "PostThreadMessageA"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "ChangeServiceConfig2A",
+        "CloseServiceHandle",
+        "CreateProcessAsUserA",
+        "CreateServiceA",
+        "DeleteService",
+        "DuplicateTokenEx",
+        "OpenProcessToken",
+        "OpenSCManagerA",
+        "OpenServiceA",
+        "QueryServiceStatus",
+        "QueryServiceStatusEx",
+        "RegCloseKey",
+        "RegCreateKeyExA",
+        "RegOpenKeyExA",
+        "RegQueryValueExA",
+        "RegSetValueExA",
+        "RegisterServiceCtrlHandlerExA",
+        "SetServiceStatus",
+        "SetTokenInformation",
+        "StartServiceCtrlDispatcherA"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "WSAAddressToStringA",
+        "freeaddrinfo",
+        "getaddrinfo",
+        "ordinal:10",
+        "ordinal:11",
+        "ordinal:111",
+        "ordinal:115",
+        "ordinal:151",
+        "ordinal:16",
+        "ordinal:18",
+        "ordinal:19",
+        "ordinal:21",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:4",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "functions": [
+        "MiniDumpWriteDump"
+      ]
+    },
+    {
+      "dll": "wtsapi32.dll",
+      "functions": [
+        "WTSFreeMemory",
+        "WTSQuerySessionInformationA"
+      ]
+    },
+    {
+      "dll": "msvcr120.dll",
+      "functions": [
+        "?terminate@@YAXXZ",
+        "_XcptFilter",
+        "__C_specific_handler",
+        "__crtCaptureCurrentContext",
+        "__crtCapturePreviousContext",
+        "__crtSetUnhandledExceptionFilter",
+        "__crtTerminateProcess",
+        "__crtUnhandledException",
+        "__crt_debugger_hook",
+        "__dllonexit",
+        "__getmainargs",
+        "__initenv",
+        "__iob_func",
+        "__set_app_type",
+        "__setusermatherr",
+        "_access",
+        "_amsg_exit",
+        "_calloc_crt",
+        "_cexit",
+        "_commode",
+        "_configthreadlocale",
+        "_difftime64",
+        "_exit",
+        "_fmode",
+        "_initterm",
+        "_initterm_e",
+        "_localtime64",
+        "_lock",
+        "_mkdir",
+        "_mktime64",
+        "_onexit",
+        "_stricmp",
+        "_time64",
+        "_unlock",
+        "_vsnprintf",
+        "atoi",
+        "calloc",
+        "exit",
+        "fclose",
+        "feof",
+        "fflush",
+        "fgets",
+        "floor",
+        "fopen",
+        "fprintf",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "isupper",
+        "malloc",
+        "memcpy",
+        "memcpy_s",
+        "memmove",
+        "memset",
+        "pow",
+        "printf",
+        "realloc",
+        "rename",
+        "rewind",
+        "sqrt",
+        "strchr",
+        "strcmp",
+        "strncmp",
+        "strncpy",
+        "strncpy_s",
+        "strnlen",
+        "strrchr",
+        "strstr",
+        "strtok_s",
+        "swprintf_s",
+        "tolower"
+      ]
+    },
+    {
+      "dll": "swscale-3.dll",
+      "functions": [
+        "sws_freeContext",
+        "sws_getCachedContext",
+        "sws_scale"
+      ]
+    },
+    {
+      "dll": "avutil-54.dll",
+      "functions": [
+        "av_frame_alloc",
+        "av_frame_free",
+        "av_frame_get_buffer",
+        "av_get_channel_layout_nb_channels",
+        "av_malloc",
+        "av_opt_set_double",
+        "av_opt_set_int",
+        "av_opt_set_sample_fmt",
+        "av_realloc",
+        "av_samples_set_silence",
+        "av_strerror"
+      ]
+    },
+    {
+      "dll": "swresample-1.dll",
+      "functions": [
+        "swr_alloc",
+        "swr_alloc_set_opts",
+        "swr_convert",
+        "swr_free",
+        "swr_init"
+      ]
+    },
+    {
+      "dll": "avformat-56.dll",
+      "functions": [
+        "av_dump_format",
+        "av_interleaved_write_frame",
+        "av_register_all",
+        "av_stream_set_r_frame_rate",
+        "av_write_trailer",
+        "avformat_alloc_output_context2",
+        "avformat_free_context",
+        "avformat_new_stream",
+        "avformat_write_header",
+        "avio_alloc_context",
+        "avio_seek"
+      ]
+    },
+    {
+      "dll": "avcodec-56.dll",
+      "functions": [
+        "av_init_packet",
+        "avcodec_close",
+        "avcodec_encode_audio2",
+        "avcodec_find_encoder",
+        "avcodec_get_name",
+        "avcodec_open2"
+      ]
+    },
+    {
+      "dll": "ice-encoder.dll",
+      "functions": [
+        "ice_get_encoder_factory"
+      ]
+    },
+    {
+      "dll": "opus.dll",
+      "functions": [
+        "opus_decode_float",
+        "opus_decoder_create",
+        "opus_decoder_destroy",
+        "opus_encode_float",
+        "opus_encoder_create",
+        "opus_encoder_ctl",
+        "opus_encoder_destroy"
+      ]
+    },
+    {
+      "dll": "iceaudio.dll",
+      "functions": [
+        "AudioStart",
+        "register_audio_cfgs",
+        "register_snd_cbs"
+      ]
+    }
+  ],
+  "exports": [],
+  "import_directory_size": 320,
+  "export_directory_size": 0
+}

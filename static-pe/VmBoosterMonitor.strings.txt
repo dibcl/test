@@ -1,0 +1,1370 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	Rich
+3	ascii	Wzlh
+4	ascii	.text
+5	ascii	`.rdata
+6	ascii	@.data
+7	ascii	.rsrc
+8	ascii	@.reloc
+9	ascii	h(pA
+10	ascii	Qh`pA
+11	ascii	Ph(qA
+12	ascii	PhhqA
+13	ascii	Ph,rA
+14	ascii	RhLrA
+15	ascii	9[[[[t
+16	ascii	PhtrA
+17	ascii	RhhsA
+18	ascii	QhTtA
+19	ascii	[[[[
+20	ascii	Ph@uA
+21	ascii	Qh,sA
+22	ascii	PhhuA
+23	ascii	hltA
+24	ascii	h vA
+25	ascii	h8vA
+26	ascii	hXvA
+27	ascii	hxvA
+28	ascii	h<wA
+29	ascii	u!h`wA
+30	ascii	htwA
+31	ascii	htoA
+32	ascii	hxoA
+33	ascii	hP)@
+34	ascii	h$mA
+35	ascii	h0mA
+36	ascii	hHmA
+37	ascii	[hXmA
+38	ascii	hdmA
+39	ascii	h|mA
+40	ascii	h4nA
+41	ascii	hHnA
+42	ascii	h`,@
+43	ascii	h\nA
+44	ascii	htnA
+45	ascii	h<oA
+46	ascii	hToA
+47	ascii	j@hX
+48	ascii	u"j@
+49	ascii	} j@
+50	ascii	u)h`
+51	ascii	Pj ht
+52	ascii	Rj h
+53	ascii	 u7h
+54	ascii	Pj h
+55	ascii	hP A
+56	ascii	hl A
+57	ascii	hp A
+58	ascii	hx A
+59	ascii	h4!A
+60	ascii	h@!A
+61	ascii	hP!A
+62	ascii	h8"A
+63	ascii	hX$A
+64	ascii	h8%A
+65	ascii	h,%A
+66	ascii	u.h8&A
+67	ascii	hT&A
+68	ascii	hp&A
+69	ascii	,ht&A
+70	ascii	`hl'A
+71	ascii	h|'A
+72	ascii	h$(A
+73	ascii	hD(A
+74	ascii	,hH(A
+75	ascii	hl(A
+76	ascii	hH)A
+77	ascii	h(*A
+78	ascii	hP+A
+79	ascii	hp+A
+80	ascii	:h$,A
+81	ascii	h<,A
+82	ascii	u/h@,A
+83	ascii	h\,A
+84	ascii	hx,A
+85	ascii	h|,A
+86	ascii	h4-A
+87	ascii	Rh8-A
+88	ascii	PhP-A
+89	ascii	hl-A
+90	ascii	h /A
+91	ascii	Qh(0A
+92	ascii	Ph80A
+93	ascii	RhP0A
+94	ascii	hh0A
+95	ascii	hl0A
+96	ascii	Php0A
+97	ascii	h,1A
+98	ascii	t h81A
+99	ascii	hH1A
+100	ascii	Rhl1A
+101	ascii	h`2A
+102	ascii	h,2A
+103	ascii	hL2A
+104	ascii	hP3A
+105	ascii	uGhd3A
+106	ascii	Ph84A
+107	ascii	PhX4A
+108	ascii	Qh<5A
+109	ascii	h@5A
+110	ascii	hL5A
+111	ascii	Qhp5A
+112	ascii	ht5A
+113	ascii	uRj@
+114	ascii	Ph|5A
+115	ascii	h 6A
+116	ascii	hD6A
+117	ascii	Qhx6A
+118	ascii	h87A
+119	ascii	h|7A
+120	ascii	hH8A
+121	ascii	)hd8A
+122	ascii	tah89A
+123	ascii	h ;A
+124	ascii	hL;A
+125	ascii	hT;A
+126	ascii	Phh;A
+127	ascii	Qhd;A
+128	ascii	h,<A
+129	ascii	hD<A
+130	ascii	hl<A
+131	ascii	hX=A
+132	ascii	Qhd=A
+133	ascii	h(>A
+134	ascii	hp>A
+135	ascii	h(?A
+136	ascii	hX?A
+137	ascii	h\?A
+138	ascii	ht?A
+139	ascii	Rh,@A
+140	ascii	u\h4@A
+141	ascii	Ph<@A
+142	ascii	PhX@A
+143	ascii	Ph`@A
+144	ascii	Phl@A
+145	ascii	Qh AA
+146	ascii	Ph4AA
+147	ascii	uMh<AA
+148	ascii	PhDAA
+149	ascii	QhlAA
+150	ascii	QhxAA
+151	ascii	QhTBA
+152	ascii	Rh\BA
+153	ascii	QhdBA
+154	ascii	Qh|BA
+155	ascii	PhpCA
+156	ascii	hlCA
+157	ascii	7h(DA
+158	ascii	hlDA
+159	ascii	Ph$DA
+160	ascii	Rh8EA
+161	ascii	QhhEA
+162	ascii	hHFA
+163	ascii	u%h\
+164	ascii	u{h`
+165	ascii	u^h4GA
+166	ascii	h<GA
+167	ascii	hDGA
+168	ascii	hxGA
+169	ascii	Qh HA
+170	ascii	u(hHHA
+171	ascii	PhTHA
+172	ascii	h`HA
+173	ascii	5h4IA
+174	ascii	hdIA
+175	ascii	hTJA
+176	ascii	=hpJA
+177	ascii	h(KA
+178	ascii	hLKA
+179	ascii	hPKA
+180	ascii	h|KA
+181	ascii	h(LA
+182	ascii	hpLA
+183	ascii	hlLA
+184	ascii	h8MA
+185	ascii	)hTMA
+186	ascii	t5h(NA
+187	ascii	h,NA
+188	ascii	hdNA
+189	ascii	h0OA
+190	ascii	RhHOA
+191	ascii	PhLOA
+192	ascii	RhpOA
+193	ascii	QhLPA
+194	ascii	hhPA
+195	ascii	PhTQA
+196	ascii	hXQA
+197	ascii	Ph`QA
+198	ascii	hdQA
+199	ascii	hlQA
+200	ascii	h0RA
+201	ascii	hlRA
+202	ascii	h4SA
+203	ascii	hHTA
+204	ascii	h`TA
+205	ascii	hxTA
+206	ascii	PhlSA
+207	ascii	Qh$UA
+208	ascii	h(UA
+209	ascii	h0UA
+210	ascii	QhhUA
+211	ascii	hlUA
+212	ascii	QhtUA
+213	ascii	hxUA
+214	ascii	h@VA
+215	ascii	hHWA
+216	ascii	RhlWA
+217	ascii	hpWA
+218	ascii	h,XA
+219	ascii	h\XA
+220	ascii	h YA
+221	ascii	h0YA
+222	ascii	hdYA
+223	ascii	hHZA
+224	ascii	hLZA
+225	ascii	h4[A
+226	ascii	h8[A
+227	ascii	hl[A
+228	ascii	Rhp[A
+229	ascii	ht[A
+230	ascii	h|[A
+231	ascii	h$\A
+232	ascii	hD\A
+233	ascii	hT\A
+234	ascii	h0]A
+235	ascii	u+hL]A
+236	ascii	hh]A
+237	ascii	hl]A
+238	ascii	h,^A
+239	ascii	hH^A
+240	ascii	h`^A
+241	ascii	h|^A
+242	ascii	h<_A
+243	ascii	hL_A
+244	ascii	h|_A
+245	ascii	hT`A
+246	ascii	hl`A
+247	ascii	Ph0aA
+248	ascii	hHaA
+249	ascii	%pyA
+250	ascii	RhxaA
+251	ascii	hPbA
+252	ascii	Rh`bA
+253	ascii	Rh$cA
+254	ascii	PhLcA
+255	ascii	U Rj
+256	ascii	QhlcA
+257	ascii	E,Ph@dA
+258	ascii	U,RhXdA
+259	ascii	Rh|dA
+260	ascii	h eA
+261	ascii	hHeA
+262	ascii	PhxeA
+263	ascii	Ph8fA
+264	ascii	QhXfA
+265	ascii	RhLfA
+266	ascii	h@gA
+267	ascii	h$gA
+268	ascii	Ph(hA
+269	ascii	h,hA
+270	ascii	h4hA
+271	ascii	QhphA
+272	ascii	h iA
+273	ascii	h\iA
+274	ascii	hliA
+275	ascii	h4jA
+276	ascii	hDjA
+277	ascii	hhjA
+278	ascii	u)hxjA
+279	ascii	h\kA
+280	ascii	RhtkA
+281	ascii	h8lA
+282	ascii	j\hXzA
+283	ascii	< wI:
+284	ascii	XPVSh
+285	ascii	8csm
+286	ascii	hxzA
+287	ascii	_^[]
+288	ascii	Y_^[
+289	ascii	Y__^[
+290	ascii	VVVVV
+291	ascii	<5IkQ
+292	ascii	s1q4
+293	ascii	C:\Program Files\vmtool\vmtool_install.log
+294	ascii	C:\Program Files (x86)\vmtool\vmtool_install.log
+295	ascii	error no RegSetValueEx %s
+296	ascii	Failed to initialize COM library. Error code = 0x%x
+297	ascii	Failed to initialize sercuity. Error code = 0x%x
+298	ascii	Failed to create IWbemLocator object. Error code = 0x%x
+299	ascii	Could not connect. Error code = 0x%x
+300	ascii	Connected to WMI
+301	ascii	Could not set proxy blanket. Error code = 0x%x
+302	ascii	Query for process failed. Error code = 0x%x
+303	ascii	%ls State :%ls
+304	ascii	query count = %d
+305	ascii	Open Reg Key failed:%d
+306	ascii	Read Reg Key failed:%d
+307	ascii	parameter is invalid(null pointer)
+308	ascii	error no RegCreateKeyEx %s
+309	ascii	Process shell cmd failed, reason is %s
+310	ascii	GetNativeSystemInfo
+311	ascii	kernel32
+312	ascii	invalid lpname is null 
+313	ascii	CreateToolhelp32Snapshot failed :%d 
+314	ascii	Process32First; errcode[%d]
+315	ascii	OpenProcessToken result:%d 
+316	ascii	get token:not found proc!
+317	ascii	SeShutdownPrivilege
+318	ascii	restart OS fail.
+319	ascii	kernel32.dll
+320	ascii	TerminateChildProcess: processid %u failed, error=%d
+321	ascii	TerminateChildProcess: processid %u success
+322	ascii	TerminateChildProcess: openprocess %u failed, error=%d 
+323	ascii	C:\Program Files\ZTEGuestOS\log\install_ret.ini
+324	ascii	C:\Program Files\vmtool\monitor.ini
+325	ascii	C:\Program Files\vmtool\vm_booster\install_ret.ini
+326	ascii	C:\Program Files\vmtool\vmtool_install_bak.log
+327	ascii	C:\Program Files (x86)\ZTEGuestOS\log\install_ret.ini
+328	ascii	C:\Program Files (x86)\vmtool\monitor.ini
+329	ascii	C:\Program Files (x86)\vmtool\vm_booster\install_ret.ini
+330	ascii	C:\Program Files (x86)\vmtool\vmtool_install_bak.log
+331	ascii	vbmonitor register failed!,result[%d]
+332	ascii	MswitchWin.exe
+333	ascii	cmd.exe  /C sc start "MswitchWin"
+334	ascii	Process MswitchWin is stopped,Monitor starting MswitchWin...
+335	ascii	vbmonitor resgister ok 
+336	ascii	vm_update_upgrading_notice.exe
+337	ascii	taskkill /f /t /im vm_update_upgrading_notice.exe
+338	ascii	close vm_update_upgrading_notice process
+339	ascii	{"msgtype":"%d", "result":"%d", "vuuid":"%s", "msgid":"%s", "restart":"%d","agent_version":"%s"}
+340	ascii	BuildMsg failed:%s,resultid[%d] 
+341	ascii	build msg result = %d
+342	ascii	SendMsg failed:%s,resultid[%d] 
+343	ascii	send pm msg: %s ok : %d
+344	ascii	OptionValue
+345	ascii	SYSTEM\CurrentControlSet\Control\SafeBoot\Option
+346	ascii	malloc msg_ack failed
+347	ascii	BuildMsg failed:%s,resultid[%d]
+348	ascii	SendMsg failed:%s,resultid[%d]
+349	ascii	SendMsg succ, ret=%d, msg=
+350	ascii	vmtool_install.log not exist
+351	ascii	000000000000000000000000000000000000
+352	ascii	{"msgtype":"%d", "msgid":"%s", "vmid":"%s", "msg":"%s"}
+353	ascii	malloc msg_ack error
+354	ascii	vb-monitor get vmtool diskinfo error:%u 
+355	ascii	\\.\
+356	ascii	%s%c:
+357	ascii	skip %s, not CD-ROM
+358	ascii	===vb-monitor diskinfo[%s]=== 
+359	ascii	RegOpenKeyEx failed!
+360	ascii	Software\Microsoft\Windows\CurrentVersion\Policies\System
+361	ascii	ConsentPromptBehaviorAdmin
+362	ascii	EnableLUA
+363	ascii	PromptOnSecureDesktop
+364	ascii	ConsentPromptBehaviorAdminbak
+365	ascii	EnableLUAbak
+366	ascii	PromptOnSecureDesktopbak
+367	ascii	WTSQueryUserToken failed, errono=%d 
+368	ascii	DuplicateTokenEx failed, errono=%d 
+369	ascii	CreateEnvironmentBlock failed, errono=%d 
+370	ascii	CreateProcessAsUser failed, errono=%d 
+371	ascii	vb_monitor create pipe failed, errno=%d
+372	ascii	winsta0\default
+373	ascii	close uac failed 
+374	ascii	explorer.exe
+375	ascii	no explorer try get usertoken from ActiveConsoleSession
+376	ascii	CreateUserProcess using token from ActiveConsoleSession failed 
+377	ascii	Get hToken token failed 
+378	ascii	pipeinfo:hRead=%d hWrite=%d processinfo:hProcess=%d hThread=%d dwProcessid=%d dwThreadid=%d 
+379	ascii	vb_monitor CreateProcess failed, errono=%d 
+380	ascii	try get usertoken from ActiveConsoleSession 
+381	ascii	GetExitCodeProcess: processid %u failed, error=%d
+382	ascii	DealProcessMsg return value less than zero 
+383	ascii	TerminateProcess: processid %u failed, error=%d
+384	ascii	TerminateProcess: processid %u success
+385	ascii	the process exitcode is %u 
+386	ascii	the process exitcode ExitCode[%d]
+387	ascii	%spackageversion.ini
+388	ascii	the package version config file is: %s
+389	ascii	unknown
+390	ascii	release_version
+391	ascii	base
+392	ascii	read package_config 'release_version' from [%s] failed!
+393	ascii	release_version is [%s]!
+394	ascii	vmbooster_version
+395	ascii	read package_config 'vmbooster_version' from [%s] failed!
+396	ascii	nanjing_package_version is [%s]!
+397	ascii	pvdriver_version
+398	ascii	read package_config 'pvdriver_version' from [%s] failed!
+399	ascii	pv_package_version is [%s]!
+400	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\%s
+401	ascii	DisplayVersion
+402	ascii	get reg(%s) version is %s
+403	ascii	get %s version is %s
+404	ascii	get %s version failed
+405	ascii	C:\Program Files\vmtool\vm_booster\version.ini
+406	ascii	C:\Program Files\vmtool\version.ini
+407	ascii	C:\Program Files (x86)\vmtool\vm_booster\version.ini
+408	ascii	C:\Program Files (x86)\vmtool\version.ini
+409	ascii	read config 'vmbooster_version' from [%s] failed!
+410	ascii	vmversion is [%s]!
+411	ascii	vmbooster_version is [%s]!
+412	ascii	Virtio Driver
+413	ascii	AudioDriver
+414	ascii	DisplayDriver
+415	ascii	IceServer
+416	ascii	usbipenum remove
+417	ascii	usbipenum install
+418	ascii	vhci remove
+419	ascii	vhci install
+420	ascii	Vdservice
+421	ascii	ZTERemoteRender
+422	ascii	ZTEVideoDmo
+423	ascii	ZTEAudioRenderer
+424	ascii	MediaPlayerHook
+425	ascii	UsbIpc
+426	ascii	UsbIpcGuard
+427	ascii	ude remove
+428	ascii	ude install
+429	ascii	sysguard
+430	ascii	vdiskmrx remove
+431	ascii	vdiskmrx install
+432	ascii	ZProcessMonitor
+433	ascii	commdll
+434	ascii	vmtoolOpt
+435	ascii	vserial_bus remove
+436	ascii	vserial_bus install
+437	ascii	win_vhci remove
+438	ascii	win_vhci install
+439	ascii	vdesktop upgrade result file is: %s
+440	ascii	%s result is %s
+441	ascii	install %s fail %s
+442	ascii	install %s success %s
+443	ascii	parse %s result fail
+444	ascii	driver viostor is stopped
+445	ascii	driver vioscsi is stopped
+446	ascii	driver netkvm is stopped
+447	ascii	driver ballon is stopped
+448	ascii	ZTE VirtIO Balloon Driver is not ok
+449	ascii	driver VirtioSerial is stopped
+450	ascii	ZTE VirtIO-Serial Driver is not ok
+451	ascii	driver PVPanic is stopped
+452	ascii	driver VirtioInput is stopped
+453	ascii	pv driver is ok
+454	ascii	qemu-ga upgrade failed,qga_version is %s, pv_version is %s
+455	ascii	qemu-ga.exe
+456	ascii	qemu-ga is running
+457	ascii	net start "qemu-ga.exe"
+458	ascii	process qemu-ga is stopped
+459	ascii	chengdu component is ok
+460	ascii	install_ret.ini not exist,return success 
+461	ascii	vmtool
+462	ascii	check vmtool_result error
+463	ascii	vmtool result is %s
+464	ascii	install vmtool fail %s
+465	ascii	install vmtool success %s
+466	ascii	parse vmtool result fail
+467	ascii	Vmbooster.exe
+468	ascii	MswitchWin
+469	ascii	Vmbooster
+470	ascii	MMRHookService.exe
+471	ascii	UsbIpc.exe
+472	ascii	UsbIpcGuard.exe
+473	ascii	Vdservice.exe
+474	ascii	Vdagent.exe
+475	ascii	IceDisplay.exe
+476	ascii	IceInput.exe
+477	ascii	IceInputService.exe
+478	ascii	IceMainService.exe
+479	ascii	IceSound.exe
+480	ascii	%s is running
+481	ascii	net start "%s"
+482	ascii	process %s is stopped
+483	ascii	%s is not running
+484	ascii	install vdesktop fail
+485	ascii	nanjing component is ok
+486	ascii	 /chengdu_full
+487	ascii	 /chengdu_qga
+488	ascii	no need to upgrade chengdu module
+489	ascii	vm-monitor upgrade chengdu module disk path:%s
+490	ascii	Vmtool-setup.exe
+491	ascii	C:\Program Files\vmtool\vm_booster\vm_update_upgrading_notice.exe
+492	ascii	first upgrade chengdu module fail, try upgrade agagin
+493	ascii	upgrade chengdu module success
+494	ascii	VDesktop-setup.exe
+495	ascii	C:\Program Files (x86)\vmtool\vm_booster\vm_update_upgrading_notice.exe
+496	ascii	VDesktop-setup.exe or Vmtool-setup.exe is running
+497	ascii	taskkill /F /im "Vmtool-setup.exe"
+498	ascii	Vmtool-setup.exe is running, taskkill Vmtool-setup.exe
+499	ascii	taskkill /F /im "VDesktop-setup.exe"
+500	ascii	VDesktop-setup.exe is running, taskkill VDesktop-setup.exe
+501	ascii	cmd.exe /c %svmtool-setup.exe
+502	ascii	cmd.exe /c %svmtool-setup.exe /quiet
+503	ascii	 /vmdesktop
+504	ascii	 /user
+505	ascii	monitor.ini empty
+506	ascii	monitor.ini info is %s
+507	ascii	msgid=
+508	ascii	monitor.ini info without msgid
+509	ascii	vuuid=
+510	ascii	monitor.ini info without vuuid
+511	ascii	msgtype=
+512	ascii	monitor.ini info without msgtype
+513	ascii	vmtype=
+514	ascii	vtype=
+515	ascii	monitor.ini info without vtype
+516	ascii	utype=
+517	ascii	monitor.ini info without utype
+518	ascii	upgrade_dont_restart=
+519	ascii	upgrade_dont_restart in monitor.ini is %s 
+520	ascii	upgrade_nanjing_again get vmtool diskinfo error 
+521	ascii	 /pv_qga
+522	ascii	 /pv_full
+523	ascii	vm-monitor upgrade full module disk path:%s
+524	ascii	msgid=%s;msgtype=%d;vuuid=%s;vmtype=%d;nanjing_upgrade_count=2;
+525	ascii	vmboostermonitor not restart, upgrade failed
+526	ascii	[second upgrade]:after exec_cmd,vmboostermonitor not restart, upgrade failed!
+527	ascii	|1|103|102|10201|||%s|%s
+528	ascii	exec Vmtool-Setup.exe failed, upgrade failed
+529	ascii	[second upgrade]:exec Vmtool-Setup.exe failed, upgrade failed!
+530	ascii	bHasUserNightUp
+531	ascii	SYSTEM\CurrentControlSet\services\VmBoosterMonitor
+532	ascii	echo f |xcopy /j /r /y "C:\Program Files\vmtool\version.ini" "C:\Program Files\vmtool\vm_booster"
+533	ascii	C:\Program Files\ZTEGuestOS\installinfo.ini
+534	ascii	C:\Program Files\vmtool\vm_booster\installinfo.ini
+535	ascii	echo f |xcopy /j /r /y "C:\Program Files (x86)\vmtool\version.ini" "C:\Program Files (x86)\vmtool\vm_booster"
+536	ascii	C:\Program Files (x86)\ZTEGuestOS\installinfo.ini
+537	ascii	C:\Program Files (x86)\vmtool\vm_booster\installinfo.ini
+538	ascii	copy version.ini to vm_booster fail!copy again!
+539	ascii	copy version.ini to vm_booster success!
+540	ascii	version
+541	ascii	VdesktopVersion
+542	ascii	WritePrivateProfileString VdesktopVersion to version failed, path is %s, version is %s
+543	ascii	ClientType
+544	ascii	cmd.exe  /C sc stop "Vmbooster"
+545	ascii	cmd.exe  /C sc stop "Vdservice"
+546	ascii	second upgrade
+547	ascii	get upgrade cmd error
+548	ascii	[first upgrade]:vmtool upgrade failed!
+549	ascii	first upgrade nanjing module fail and try again
+550	ascii	msgid=%s;msgtype=%d;vuuid=%s;vmtype=%d;nanjing_upgrade_count=2;upgrade_dont_restart=1;
+551	ascii	 /nanjing
+552	ascii	vm-monitor upgrade nanjing module disk path:%s
+553	ascii	vmboostermonitor does not restart
+554	ascii	second upgrade nanjing module process fail
+555	ascii	second upgrade nanjing module fail and vmboostermonitor does not restart
+556	ascii	first upgrade nanjing module success
+557	ascii	second upgrade nanjing module fail
+558	ascii	second upgrade nanjing module success
+559	ascii	monitor.ini not exist
+560	ascii	install_ret.ini not exist,quit upgrade process 
+561	ascii	nanjing_upgrade_count=
+562	ascii	SystemRoot
+563	ascii	C:\Windows
+564	ascii	SystemRoot=%s
+565	ascii	Path
+566	ascii	%s\system32;
+567	ascii	Path is %s ,it need change
+568	ascii	Path=%s;%s;
+569	ascii	%s\system32\Wbem;
+570	ascii	Path is %s , not exist wmic it need change
+571	ascii	Path is NULL ,it need add
+572	ascii	Path=%s\system32;%s\system32\Wbem;
+573	ascii	ComSpec
+574	ascii	%s\system32\cmd.exe
+575	ascii	ComSpec is %s , not cmd it need change
+576	ascii	ComSpec=%s
+577	ascii	ComSpec=%s\system32\cmd.exe
+578	ascii	file %s not exist!
+579	ascii	In file %s, WritePrivateProfileString %s = %s below base failed!
+580	ascii	base %s is %s
+581	ascii	key name %s is invalid
+582	ascii	user_update_night_success_time
+583	ascii	user_update_night_reboot_time
+584	ascii	thread vmmonitor_user_night_upgrade_reboot_pop_control start!.
+585	ascii	In user night upgrade reboot gap thread, now time is %ld, sleep %d seconds now!
+586	ascii	In user night upgrade reboot gap thread last boot time is %ld!
+587	ascii	vm has restart, time is %ld
+588	ascii	C:\Program Files\vmtool\vm_booster\vm_update_reboot_button.exe
+589	ascii	reboot_gap_time
+590	ascii	In user night upgrade reboot gap thread, time to pop reboot exe
+591	ascii	thread vmmonitor_user_night_upgrade_reboot_pop_control end!.
+592	ascii	C:\Program Files (x86)\vmtool\vm_booster\vm_update_reboot_button.exe
+593	ascii	vm upgrade night reboot gap time is %d minute
+594	ascii	now time is %ld, gap reboot later time is %ld
+595	ascii	C:\Program Files\vmtool\vm_booster\vm_update_reboot_notice.exe
+596	ascii	C:\Program Files (x86)\vmtool\vm_booster\vm_update_reboot_notice.exe
+597	ascii	%04d-%02d-%02d %02d:%02d:%02d.%03d
+598	ascii	VDesktop-setup-ice*.exe
+599	ascii	1001
+600	ascii	IceServer is upgrding, send vmtool upgrade failed!
+601	ascii	exec upgrade failed, because IceServer is upgrading!
+602	ascii	exec upgrade failed, IceServer is upgrading!
+603	ascii	%spatch.ini
+604	ascii	this is a patch version,don't check version
+605	ascii	patch version cmdstr is %s
+606	ascii	this is a patch version,send upgrade success
+607	ascii	[first upgrade]:this is a patch version!upgrade success!
+608	ascii	|0|103|102|10201|||%s|%s
+609	ascii	this is a patch version,send upgrade failed
+610	ascii	[first upgrade]:this is a patch version!exec_cmd failed!
+611	ascii	no need to upgrade nanjing module
+612	ascii	[first upgrade]:nanjing module needn't upgrade!just upgrade pv failed!please check pv drive status!
+613	ascii	[first upgrade]:nanjing module needn't upgrade!upgrade pv success!
+614	ascii	upgrade begain
+615	ascii	 /safemode
+616	ascii	can not open %s, send upgrade failed
+617	ascii	[first upgrade]:write monitor.ini failed!
+618	ascii	%snanjing_upgrade_count=1;upgrade_dont_restart=1;
+619	ascii	[first upgrade]:after exec_cmd,vmboostermonitor not restart, upgrade failed!
+620	ascii	[first upgrade]:exec Vmtool-Setup.exe failed, upgrade failed!
+621	ascii	C:\Program Files\vmtool\vm_booster\antiviruslist.txt
+622	ascii	open file[%s] failed!
+623	ascii	C:\Program Files (x86)\vmtool\vm_booster\antiviruslist.txt
+624	ascii	GetDiskFreeSpaceEx exec failed %d
+625	ascii	C disk free is %lu MB
+626	ascii	The capacity of the System disk is less than 500MB(%lu MB), upgrade failed!
+627	ascii	[first upgrade]:The capacity of the System disk is less than 500MB, upgrade failed!
+628	ascii	VirusScan [%s] is running
+629	ascii	{"msgtype":"%d","vuuid":"%s","msgid":"%s","VirusScanName":"%s"}
+630	ascii	receive admin upgrade request:[%s]
+631	ascii	vb-monitor receive invalid upgrade info without msgid
+632	ascii	{"msgtype":"%d","vuuid":"%s","msgid":"%s"}
+633	ascii	{"msgtype":"%d","vuuid":"%s","msgid":"%s","result":"1"}
+634	ascii	C:\Program Files\vmtool\vm_booster\vm_update_timeout.exe
+635	ascii	C:\Program Files (x86)\vmtool\vm_booster\vm_update_timeout.exe
+636	ascii	vm_update_timeout.exe
+637	ascii	taskkill /f /t /im vm_update_timeout.exe
+638	ascii	receive user upgrade request:[%s]
+639	ascii	close update process,user_upgrade_auto timeout. installing now
+640	ascii	C:\Program Files\vmtool\vm_booster\vm_update_notice.exe
+641	ascii	C:\Program Files (x86)\vmtool\vm_booster\vm_update_notice.exe
+642	ascii	vm_update_notice.exe
+643	ascii	taskkill /f /t /im vm_update_notice.exe
+644	ascii	close update process
+645	ascii	timeout=
+646	ascii	vb-monitor receive invalid upgrade info without timeout
+647	ascii	vmmonitor get vmtool diskinfo error, please check if iso is correct
+648	ascii	vb-monitor get vmtool diskinfo error 
+649	ascii	[first upgrade]:vb-monitor get vmtool diskinfo error!please check CD mount!
+650	ascii	net stop "ShellHWDetection"
+651	ascii	{"msgtype":"%d","vuuid":"%s","msgid":"%s","result":"0"}
+652	ascii	%d-%d-%d %d:%d:%d
+653	ascii	nightstarttime=
+654	ascii	nightstarttime parse failed
+655	ascii	set night upgrade time is %s
+656	ascii	g_real_set_dtime is %lf
+657	ascii	g_UserNightUp is USER_AUTO_UP_POPUP, can not query vm lock stat
+658	ascii	[second check]user leave,night upgrade start
+659	ascii	{"msgtype":"%d","vuuid":"%s","lockstat":"0"}
+660	ascii	[second check]user is on working,can not night upgrade now,upgrade next day!
+661	ascii	{"msgtype":"%d","vuuid":"%s","result":"0"}
+662	ascii	vb-monitor receive invalid upgrade info without msgytpe
+663	ascii	get msg type is %d;
+664	ascii	vb-monitor receive invalid msgytpe:%d 
+665	ascii	restart
+666	ascii	VdesktopVersion restart is %s
+667	ascii	urestart
+668	ascii	VdesktopVersion urestart is %s
+669	ascii	vm_update_reboot_notice.exe
+670	ascii	vm_update_reboot_notice exec failed,vmmonitor reboot system
+671	ascii	{"msgtype":"%d","vuuid":"%s"}
+672	ascii	upgrade vmtool sucess!
+673	ascii	PVDriver upgrade failed
+674	ascii	PVDriver upgrade failed! please install try install again!
+675	ascii	vmtool upgrade failed
+676	ascii	[second upgrade]:vmtool upgrade failed! please install try install again!
+677	ascii	{"msgtype":"%d","explorer":"0","vuuid":"%s"}
+678	ascii	user is on working,can not night upgrade now!
+679	ascii	{"msgtype":"%d","vuuid":"%s","lockstat":"1"}
+680	ascii	explorer.exe not found,user not login
+681	ascii	vmtool current version is same to iso
+682	ascii	user leave,night upgrade start
+683	ascii	user is on working
+684	ascii	user not choose, install now
+685	ascii	No Mount Disk,Please check!
+686	ascii	%Y-%m-%d %H:%M:%S
+687	ascii	morning time is :%s 
+688	ascii	thread vmmonitor_user_night_upgrade start!.
+689	ascii	user choose night upgrade,now time is %04d-%02d-%02d %02d:%02d:%02d 
+690	ascii	the time left TotalDtime to updata is : %lf s;
+691	ascii	thread vmmonitor_user_night_upgrade end!.
+692	ascii	[INFO]RegQueryValueEx sucess!bHasUserNightUp is %d;g_UserNightUp is %d
+693	ascii	[ERROR]RegQueryValueEx error!bHasUserNightUp is %d
+694	ascii	[ERROR]RegOpenKeyEx error!bHasUserNightUp is %d
+695	ascii	Vmtool-setup.exe(%d): open failed(%d)
+696	ascii	Vmtool-setup.exe(%d): is exist
+697	ascii	Vmtool-setup.exe(%u):ppid(%u) is exist
+698	ascii	Vmtool-setup.exe(%u):ppid(%u) open failed(%d)
+699	ascii	vm_update_force.exe
+700	ascii	vm_update_reboot_button.exe
+701	ascii	%s(%u) open failed(%d)
+702	ascii	%s(%u) is exist, TerminateProcess
+703	ascii	{"msgtype":"%d","explorer":"1","vuuid":"%s"}
+704	ascii	 wait_seconds para error
+705	ascii	select timeout 
+706	ascii	select error 
+707	ascii	socket fail(%d) and socket again.
+708	ascii	bind(%d) fail(%d) and bind again.
+709	ascii	listen fail(%d).
+710	ascii	OpenPort
+711	ascii	vmmonitor listen for update rsp socket listen success,OpenPort is: %d.
+712	ascii	vmmonitor bind port failed,please check the usage of virtual machine ports
+713	ascii	vmmonitor bind port failed,please check the usage of virtual machine ports!
+714	ascii	[ERR]accept fail.
+715	ascii	accept success.
+716	ascii	 Server start get connect from %x:%x
+717	ascii	recv success,buf = [%s].
+718	ascii	[ERR]Receive msg without msgtype.
+719	ascii	result=
+720	ascii	{"msgtype":"%d","vuuid":"%s","msgid":"%s","result":"%d"}
+721	ascii	user choose night upgrade.
+722	ascii	[ERR]undefine msg type.
+723	ascii	cmd.exe  /C sc start "Vmbooster"
+724	ascii	Process Vmbooster is stopped,Monitor starting Vmbooster...
+725	ascii	cmd.exe  /C sc start "qemu-ga"
+726	ascii	Process qemu-ga is stopped,Monitor starting qemu-ga...
+727	ascii	cmd.exe  /C sc start "Vdservice"
+728	ascii	VmQoEAgent.exe
+729	ascii	Start
+730	ascii	SYSTEM\CurrentControlSet\services\VmQoEAgent
+731	ascii	cmd.exe  /C sc start "VmQoEAgent"
+732	ascii	Ice-UUID
+733	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+734	ascii	[INFO]Get Vm uuid is:%s 
+735	ascii	[ERROR]Get Vm uuid error.
+736	ascii	openProcessToken error
+737	ascii	SeDebugPrivilege
+738	ascii	lookupPrivilegevalue error
+739	ascii	adjust error
+740	ascii	begin monitor_dog thread
+741	ascii	begin send_upgrade_rsp thread
+742	ascii	RecvMsg ret is %d
+743	ascii	the taskcount is %d 
+744	ascii	create hDumpFile failed :%d
+745	ascii	repeat upgrade operation, vmboostermonitor is excuting upgrade now 
+746	ascii	VmMonitor
+747	ascii	C:\Program Files\vmtool\vm_booster\
+748	ascii	C:\Program Files (x86)\vmtool\vm_booster\
+749	ascii	%s%s-exception.dmp
+750	ascii	create dumpfile :VmMonitor-exception.dmp.
+751	ascii	/install
+752	ascii	Install successfull
+753	ascii	Install failed
+754	ascii	/uninstall
+755	ascii	Uninstall successful 
+756	ascii	Uninstall  failed 
+757	ascii	Register Service Main Function Error!
+758	ascii	WTS_SESSION_LOCK!
+759	ascii	WTS_SESSION_UNLOCK!
+760	ascii	PostThreadMessage() GetLastError() is %u
+761	ascii	Service VMBoosterMonitor stopped
+762	ascii	Bad service request
+763	ascii	Handler not installed
+764	ascii	Service VmBoosterMonitor stopped
+765	ascii	Couldn't open service manager
+766	ascii	GetModuleFileName failed
+767	ascii	CreateService failed (%d)
+768	ascii	Couldn't create service
+769	ascii	CreateService end
+770	ascii	Couldn't open service
+771	ascii	Service could not be deleted
+772	ascii	Open %s Error
+773	ascii	%Y-%m-%d %H:%M:%S: 
+774	ascii	$WCNOW$
+775	ascii	$WCRANGE$
+776	ascii	$WCURL$
+777	ascii	lookup_entity_by_modid: param 2 is NULL
+778	ascii	127.0.0.1
+779	ascii	Client: WSAStartup() failed with error %d
+780	ascii	Client: socket() failed with error %d, try again.
+781	ascii	SYSTEM\CurrentControlSet\services\MswitchWin
+782	ascii	Client: connect() failed: %d, try again.
+783	ascii	Client: get server port failed: %d, still use base to connect.
+784	ascii	param sock is not legal, sock=%d
+785	ascii	param msg is NULL
+786	ascii	param buflen is NULL
+787	ascii	lib send pack fail, err=%d
+788	ascii	param buffer is NULL
+789	ascii	param buflen is not valid
+790	ascii	lib recv msg head fail, err=%d
+791	ascii	lib recv msg head's length invalid, %d
+792	ascii	lib recv msg head's magic invalid, %08x
+793	ascii	lib recv 1 msg only with msg head, total len: %d, data-len in msg-head :%d 
+794	ascii	lib recv msg too long, message length %d, buffer length %d
+795	ascii	recv agent regist rsp msg length %d is not legal, want=%d
+796	ascii	lib recv msg data fail, return msg-head(total len: %d ), err='%d
+797	ascii	lib recv 1 msg, total len: %d 
+798	ascii	agent regist to message switch failure!
+799	ascii	lib recv msg data's length is not correct, real data-len: %d , data-len in msg-head: %d 
+800	ascii	register from %d mod
+801	ascii	try_register_thread
+802	ascii	send msg to 'message switch' length %d is illegal, dst_socket(mswitch)=%d
+803	ascii	try_register_thread is running ... mod %d
+804	ascii	alloc memory failed for agent regist rsp msg, regist fail,mem size=%d
+805	ascii	recv agent regist rsp failed, len=%d
+806	ascii	recv agent regist rsp msg, length %d, msgid=%d, msgtype=%d, src_mod=%d, dst_mod=%d
+807	ascii	%s:parameter is NULL
+808	ascii	Register first,please!
+809	ascii	try Register is running!
+810	ascii	thread malloc failed
+811	ascii	thread create failed
+812	ascii	Register param uuid is NULL
+813	ascii	Send Msg, try to reconncet.
+814	ascii	Send Msg, module entity not exist.
+815	ascii	Send Msg Sock = -1
+816	ascii	Send Msg buffer is NULL
+817	ascii	Send Msg too long, give up, max length=%d, buffer length=%d
+818	ascii	SendMsg ret %d
+819	ascii	Recv Msg, try to reconncet.
+820	ascii	Recv Msg, module entity not exist.
+821	ascii	Recv Msg Sock = -1
+822	ascii	Recv Msg buffer is NULL
+823	ascii	Recv Msg too long, give up, max length=%d, buffer length=%d
+824	ascii	Recv Msg, memory allocate failed.
+825	ascii	RecvMsg ret %d
+826	ascii	recv msg too long, give up, recv length=%d, buffer length=%d
+827	ascii	RecvMsgTimeout, try to reconncet.
+828	ascii	RecvMsgTimeout, module entity not exist.
+829	ascii	RecvMsgTimeout Sock = -1
+830	ascii	RecvMsgTimeout buffer is NULL
+831	ascii	RecvMsgTimeout too long, give up, max length=%d, buffer length=%d
+832	ascii	RecvMsgTimeout, argument 'timeout' invalid.
+833	ascii	FreeMsg: socket %d is running.
+834	ascii	RSDSR
+835	ascii	>@OL
+836	ascii	F:\workspace\ZXCLOUD-iVMC-ComponentV7.25.21\ZXCLOUD-iVMC-Component\windows\Release\VmBoosterMonitor.pdb
+837	ascii	InitializeCriticalSection
+838	ascii	Sleep
+839	ascii	LeaveCriticalSection
+840	ascii	EnterCriticalSection
+841	ascii	CreateThread
+842	ascii	CreateFileA
+843	ascii	SetUnhandledExceptionFilter
+844	ascii	GetCurrentProcess
+845	ascii	GetLastError
+846	ascii	GetModuleFileNameA
+847	ascii	GetCurrentThreadId
+848	ascii	OutputDebugStringA
+849	ascii	CloseHandle
+850	ascii	GetCurrentProcessId
+851	ascii	Process32First
+852	ascii	GetTickCount
+853	ascii	GetDriveTypeA
+854	ascii	OpenProcess
+855	ascii	GetVolumeInformationA
+856	ascii	GetExitCodeProcess
+857	ascii	TerminateProcess
+858	ascii	GetStartupInfoA
+859	ascii	GetLogicalDriveStringsA
+860	ascii	lstrcmpiA
+861	ascii	GetProcAddress
+862	ascii	GetPrivateProfileStringA
+863	ascii	Process32Next
+864	ascii	WritePrivateProfileStringA
+865	ascii	DeviceIoControl
+866	ascii	GetSystemInfo
+867	ascii	CreatePipe
+868	ascii	WTSGetActiveConsoleSessionId
+869	ascii	GetModuleHandleA
+870	ascii	CreateToolhelp32Snapshot
+871	ascii	GetDiskFreeSpaceExA
+872	ascii	WinExec
+873	ascii	GetTickCount64
+874	ascii	KERNEL32.dll
+875	ascii	MessageBoxA
+876	ascii	PostThreadMessageA
+877	ascii	ExitWindowsEx
+878	ascii	USER32.dll
+879	ascii	RegQueryValueExA
+880	ascii	RegOpenKeyExA
+881	ascii	RegCloseKey
+882	ascii	OpenServiceA
+883	ascii	CloseServiceHandle
+884	ascii	RegisterEventSourceA
+885	ascii	StartServiceCtrlDispatcherA
+886	ascii	DeleteService
+887	ascii	CreateServiceA
+888	ascii	DeregisterEventSource
+889	ascii	RegisterServiceCtrlHandlerExA
+890	ascii	ReportEventA
+891	ascii	SetServiceStatus
+892	ascii	OpenSCManagerA
+893	ascii	ControlService
+894	ascii	CreateProcessAsUserA
+895	ascii	OpenProcessToken
+896	ascii	RegSetValueExA
+897	ascii	LookupPrivilegeValueA
+898	ascii	RegCreateKeyExA
+899	ascii	DuplicateTokenEx
+900	ascii	RegDeleteValueA
+901	ascii	AdjustTokenPrivileges
+902	ascii	ADVAPI32.dll
+903	ascii	CoCreateInstance
+904	ascii	CoSetProxyBlanket
+905	ascii	CoUninitialize
+906	ascii	CoInitializeSecurity
+907	ascii	CoInitializeEx
+908	ascii	ole32.dll
+909	ascii	OLEAUT32.dll
+910	ascii	WS2_32.dll
+911	ascii	free
+912	ascii	malloc
+913	ascii	__iob_func
+914	ascii	printf
+915	ascii	fprintf
+916	ascii	fopen
+917	ascii	fread
+918	ascii	strftime
+919	ascii	fwrite
+920	ascii	ftell
+921	ascii	vfprintf
+922	ascii	_localtime64
+923	ascii	fseek
+924	ascii	fclose
+925	ascii	_time64
+926	ascii	_stricmp
+927	ascii	vsprintf
+928	ascii	_snprintf
+929	ascii	rename
+930	ascii	_mktime64
+931	ascii	feof
+932	ascii	_gmtime64
+933	ascii	_endthread
+934	ascii	_pclose
+935	ascii	strerror
+936	ascii	strstr
+937	ascii	atoi
+938	ascii	_popen
+939	ascii	_errno
+940	ascii	_beginthread
+941	ascii	_exit
+942	ascii	remove
+943	ascii	strncpy
+944	ascii	fgets
+945	ascii	rand
+946	ascii	srand
+947	ascii	??3@YAXPAX@Z
+948	ascii	strrchr
+949	ascii	getenv
+950	ascii	_difftime64
+951	ascii	??2@YAPAXI@Z
+952	ascii	MSVCR100.dll
+953	ascii	_amsg_exit
+954	ascii	__getmainargs
+955	ascii	_cexit
+956	ascii	_XcptFilter
+957	ascii	_ismbblead
+958	ascii	exit
+959	ascii	_acmdln
+960	ascii	_initterm
+961	ascii	_initterm_e
+962	ascii	_configthreadlocale
+963	ascii	__setusermatherr
+964	ascii	_commode
+965	ascii	_fmode
+966	ascii	__set_app_type
+967	ascii	_crt_debugger_hook
+968	ascii	?terminate@@YAXXZ
+969	ascii	_unlock
+970	ascii	__dllonexit
+971	ascii	_lock
+972	ascii	_onexit
+973	ascii	_except_handler4_common
+974	ascii	_invoke_watson
+975	ascii	_controlfp_s
+976	ascii	MiniDumpWriteDump
+977	ascii	dbghelp.dll
+978	ascii	WTSQueryUserToken
+979	ascii	WTSAPI32.dll
+980	ascii	?qoe_log_init@@YAHXZ
+981	ascii	?qoe_log_write@@YAHPBD@Z
+982	ascii	qoelog.dll
+983	ascii	PathMatchSpecA
+984	ascii	SHLWAPI.dll
+985	ascii	CreateEnvironmentBlock
+986	ascii	DestroyEnvironmentBlock
+987	ascii	USERENV.dll
+988	ascii	InterlockedExchange
+989	ascii	InterlockedCompareExchange
+990	ascii	HeapSetInformation
+991	ascii	GetStartupInfoW
+992	ascii	EncodePointer
+993	ascii	UnhandledExceptionFilter
+994	ascii	IsDebuggerPresent
+995	ascii	DecodePointer
+996	ascii	QueryPerformanceCounter
+997	ascii	GetSystemTimeAsFileTime
+998	ascii	_putenv
+999	ascii	_access
+1000	ascii	memset
+1001	ascii	memcpy
+1002	ascii	VmBoosterMonitor
+1003	ascii	C:\Program Files\vmtool\vbmonitor.log
+1004	ascii	C:\Program Files\vmtool\vbmonitor_bak.log
+1005	ascii	C:\Program Files (x86)\vmtool\vbmonitor.log
+1006	ascii	C:\Program Files (x86)\vmtool\vbmonitor_bak.log
+1007	ascii	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+1008	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+1009	ascii	    <security>
+1010	ascii	      <requestedPrivileges>
+1011	ascii	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+1012	ascii	      </requestedPrivileges>
+1013	ascii	    </security>
+1014	ascii	  </trustInfo>
+1015	ascii	</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+1016	ascii	00Z0m0|0
+1017	ascii	0?1J1
+1018	ascii	2 2>2D2l2r2w2
+1019	ascii	3%3@3F3P3Y3r3
+1020	ascii	3+484?4\4g4m4s4}4
+1021	ascii	5)555;5
+1022	ascii	6(6.6U6[6
+1023	ascii	7-737?7E7w7
+1024	ascii	7S8Y8m9z9
+1025	ascii	:<:y:
+1026	ascii	:G;M;l;
+1027	ascii	<$<@<f<l<
+1028	ascii	<9=?=W=]={=
+1029	ascii	>#>7>k>q>
+1030	ascii	B0H0^0d0z0
+1031	ascii	0'1y1
+1032	ascii	2-232y2
+1033	ascii	3<3P3]3s3
+1034	ascii	4#404B4G4M4^4c4i4s4
+1035	ascii	5m5z5
+1036	ascii	6#6,61676T6^6g6o6}6
+1037	ascii	7 7%7=7F7K7\7p7y7~7
+1038	ascii	8B8N8Z8d8m8r8
+1039	ascii	9'9.959?9Z9
+1040	ascii	:2:8:>:K:g:y:
+1041	ascii	;";);0;C;I;N;T;Y;c;y;
+1042	ascii	<#<-<7<A<K<
+1043	ascii	=&=/=5=<=A=X=e=k=x=|=
+1044	ascii	> >*>4>=>C>J>U>^>d>k>p>v>
+1045	ascii	?1?A?F?N?i?
+1046	ascii	0$060@0g0
+1047	ascii	1"141Z1
+1048	ascii	2E2Y2y2
+1049	ascii	3#3:3w3
+1050	ascii	4J4\4
+1051	ascii	5$5@5M5m5
+1052	ascii	6;7E7a7
+1053	ascii	8+8R8q8
+1054	ascii	9*9=9F9]9}9
+1055	ascii	: :3:B:]:|:
+1056	ascii	;(;1;H;g;q;
+1057	ascii	;\<|<
+1058	ascii	?<?T?p?
+1059	ascii	1)1d1u1
+1060	ascii	242>2G2Y2z2
+1061	ascii	363I3X3e3{3
+1062	ascii	4%4+43484?4E4M4R4Y4_4g4l4s4y4
+1063	ascii	5F5Y5^5q5w5|5
+1064	ascii	5(6-696A6a6s6
+1065	ascii	8\8o8
+1066	ascii	909l9
+1067	ascii	;$;*;4;M;R;\;n;
+1068	ascii	>V>n>
+1069	ascii	0F0K0k0w0
+1070	ascii	191T1z1
+1071	ascii	2(232?2L2p2
+1072	ascii	555Y5d5q5
+1073	ascii	6*666Y6
+1074	ascii	9M9W9]9
+1075	ascii	:3:S:k:}:
+1076	ascii	;.;8;B;w;
+1077	ascii	<!<'<4<|<
+1078	ascii	=e=u=z=
+1079	ascii	=(>8>=>S>q>
+1080	ascii	?2?B?Z?o?
+1081	ascii	0$070<0A0F0L0^0k0p0
+1082	ascii	2#3+303<3D3I3X3b3g3s3{3
+1083	ascii	4'4,494>4E4K4U4Z4g4l4s4y4
+1084	ascii	455p5
+1085	ascii	6I6U6b6
+1086	ascii	7"7J7V7a7
+1087	ascii	7/8:8F8R8x8
+1088	ascii	9!9-999_9l9x9
+1089	ascii	:I:T:`:
+1090	ascii	:$;0;<;G;S;m;v;
+1091	ascii	<#<0<V<b<m<y<
+1092	ascii	=\=a=W>g>
+1093	ascii	>%?T?
+1094	ascii	0'0e0j0o0
+1095	ascii	1.13181a1f1k1
+1096	ascii	242G2L2h2o2t2y2
+1097	ascii	30353:3c3h3m3
+1098	ascii	3$4)4.4I4\4a4}4
+1099	ascii	5Q6[6
+1100	ascii	7@7R7c7h7z7
+1101	ascii	9%9T9
+1102	ascii	:J:T:`:l:x:
+1103	ascii	;';Y;e;q;
+1104	ascii	<+<]<h<t<
+1105	ascii	=;=G=R=_=l=
+1106	ascii	>;>G>S>^>k>x>
+1107	ascii	0!0J0n0
+1108	ascii	0-1H1e1j1
+1109	ascii	2(242b2m2z2
+1110	ascii	3(343A3f3r3
+1111	ascii	4*4W4c4o4
+1112	ascii	5M5Y5e5p5|5
+1113	ascii	6!6W7y7
+1114	ascii	8"8(8
+1115	ascii	9;9Z9e9
+1116	ascii	;.;8;M;W;d;l;};
+1117	ascii	=;=M=R=d=l=
+1118	ascii	>!>/>G>U>h>p>
+1119	ascii	0(060F0N0Y0^0~0
+1120	ascii	1'12171S1
+1121	ascii	182E2g2
+1122	ascii	3$3@3W3g3~3
+1123	ascii	4.444B4G4T4Y4^4m4r4
+1124	ascii	4a5f5x5
+1125	ascii	6K6{6
+1126	ascii	7H8M8R8_8l8q8w8
+1127	ascii	9,9=9L9z9
+1128	ascii	;7;F;M;
+1129	ascii	;6<;<A<X<
+1130	ascii	='=,=X=
+1131	ascii	>F?L?X?]?o?w?|?
+1132	ascii	0*00090M0S0\0n0~0
+1133	ascii	1'1-161Q1c1s1{1
+1134	ascii	2*2<2L2~2
+1135	ascii	2,323B3M3V3\3l3
+1136	ascii	4*4J4
+1137	ascii	5'6V6a6
+1138	ascii	7!7:7I7]7k7
+1139	ascii	7+8;8
+1140	ascii	809E9Q9w9
+1141	ascii	:A:U:
+1142	ascii	;4;9;K;P;];j;o;|;
+1143	ascii	<.<6<P<b<n<}<
+1144	ascii	= =%=I=T=n=
+1145	ascii	=7>I>S>
+1146	ascii	?'?,?1?D?i?w?
+1147	ascii	0#080E0J0O0r0w0
+1148	ascii	1+10151D1I1V1[1`1
+1149	ascii	3B3T3
+1150	ascii	4(5.5?5Y5^5k5p5u5
+1151	ascii	5M6q6w6
+1152	ascii	7)8<8A8[8
+1153	ascii	989H9P9U9[9c9i9q9v9
+1154	ascii	9::a:f:p:
+1155	ascii	;B;H;Y;_;s;
+1156	ascii	=*=/=A=U=[=b=h=m={=
+1157	ascii	>$>)>C>
+1158	ascii	>C?V?[?v?
+1159	ascii	0(010A0
+1160	ascii	1J1z1
+1161	ascii	1g2w2
+1162	ascii	3(303Z3
+1163	ascii	3_4s4x4
+1164	ascii	5"545
+1165	ascii	5=6P6U6o6
+1166	ascii	607W7
+1167	ascii	8!8*8Q8V8[8a8j8
+1168	ascii	9,91969<9E9J9O9U9z9
+1169	ascii	<+<9<?<Z<_<i<{<
+1170	ascii	=[=e=
+1171	ascii	2%272
+1172	ascii	505:5@5T5c5v5{5
+1173	ascii	6(717L7
+1174	ascii	8"838D8f8l8
+1175	ascii	9)9.93999@9F9U9[9k9q9
+1176	ascii	:5:G:T:b:
+1177	ascii	;$;=;Q;^;j;t;
+1178	ascii	;8<b<s<
+1179	ascii	=T=a=m=
+1180	ascii	?*?4?F?
+1181	ascii	V0a0
+1182	ascii	1*1,2@2]2
+1183	ascii	3#3.393K3c3n3t3
+1184	ascii	415F5K5o5
+1185	ascii	576a6o6
+1186	ascii	737M7
+1187	ascii	919C9M9S9X9e9w9
+1188	ascii	:,:2:=:H:W:r:y:
+1189	ascii	;&;J;
+1190	ascii	<R<z<
+1191	ascii	=(=2=9=?=D=I=N=S=Y=a=u=
+1192	ascii	>'>,>5>:>G>X>^>e>y>~>
+1193	ascii	?'?-?5?A?V?a?g?y?
+1194	ascii	0$0*00060<0C0J0Q0X0_0f0m0u0}0
+1195	ascii	1[1a1j1q1|1
+1196	ascii	1*2/2P2U2t2
+1197	ascii	3/3M3a3g3
+1198	ascii	3K4P4
+1199	ascii	5&5,52585>5D5J5P5V5b5
+1200	ascii	9l:p:
+1201	ascii	N0L0
+1202	ascii	DigiCert Inc1
+1203	ascii	www.digicert.com1!0
+1204	ascii	DigiCert Trusted Root G40
+1205	ascii	210429000000Z
+1206	ascii	360428235959Z0i1
+1207	ascii	DigiCert, Inc.1A0?
+1208	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+1209	ascii	>Mp$d
+1210	ascii	}4}L
+1211	ascii	!xE.
+1212	ascii	IpB2
+1213	ascii	6*f(_
+1214	ascii	[K]taM?
+1215	ascii	m&vh
+1216	ascii	J>@G_
+1217	ascii	#!Y`
+1218	ascii	x8E0
+1219	ascii	SA|X=G
+1220	ascii	q]dL
+1221	ascii	k0i0$
+1222	ascii	http://ocsp.digicert.com0A
+1223	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+1224	ascii	<0:08
+1225	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+1226	ascii	:#D=
+1227	ascii	:]Hm
+1228	ascii	v~7q
+1229	ascii	!usR
+1230	ascii	ov7,
+1231	ascii	/"lA
+1232	ascii	jj@0HK4
+1233	ascii	VxN0
+1234	ascii	241111000000Z
+1235	ascii	251110235959Z0
+1236	ascii	CN1#0!
+1237	ascii	Guangdong Province1
+1238	ascii	Shenzhen1
+1239	ascii	Private Organization1
+1240	ascii	9144030027939873X71
+1241	ascii	ZTE CORPORATION1
+1242	ascii	ZTE CORPORATION0
+1243	ascii	3KB/_
+1244	ascii	4c<b
+1245	ascii	bCQY
+1246	ascii	2gx}w
+1247	ascii	Bm]JG)OF
+1248	ascii	8{:2_hF
+1249	ascii	H}If[
+1250	ascii	!Oa?
+1251	ascii	?66]
+1252	ascii	:.fs
+1253	ascii	60402
+1254	ascii	0)0'
+1255	ascii	http://www.digicert.com/CPS0
+1256	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+1257	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+1258	ascii	http://ocsp.digicert.com0\
+1259	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+1260	ascii	C%,d
+1261	ascii	_+*2
+1262	ascii	ye>ga
+1263	ascii	ZpQeg
+1264	ascii	XTB2z
+1265	ascii	>,Z,
+1266	ascii	C5/u
+1267	ascii	0}0i1
+1268	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+1269	ascii	$eSdNy?t
+1270	ascii	W?Yr
+1271	ascii	H(>C
+1272	ascii	<?$q
+1273	ascii	z;x3
+1274	ascii	20250708015613Z
+1275	ascii	DigiCert, Inc.1;09
+1276	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+1277	ascii	240926000000Z
+1278	ascii	351125235959Z0B1
+1279	ascii	DigiCert1 0
+1280	ascii	DigiCert Timestamp 20240
+1281	ascii	ymIXa+
+1282	ascii	GW3K;
+1283	ascii	o~R}a
+1284	ascii	z9XxGT
+1285	ascii	<Jisu
+1286	ascii	jSDx
+1287	ascii	7!5B
+1288	ascii	/s)v
+1289	ascii	S0Q0O
+1290	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+1291	ascii	http://ocsp.digicert.com0X
+1292	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+1293	ascii	Mm*V;
+1294	ascii	Z +J
+1295	ascii	MzE @t
+1296	ascii	5dz?g
+1297	ascii	(f*^[0
+1298	ascii	220323000000Z
+1299	ascii	370322235959Z0c1
+1300	ascii	=rIQU
+1301	ascii	|jWz
+1302	ascii	!hn7!
+1303	ascii	{un'%
+1304	ascii	+Xt@(
+1305	ascii	u($A
+1306	ascii	fIRP
+1307	ascii	,W5y+
+1308	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+1309	ascii	 %41g
+1310	ascii	i?Gw
+1311	ascii	',=?k
+1312	ascii	Axz8
+1313	ascii	www.digicert.com1$0"
+1314	ascii	DigiCert Assured ID Root CA0
+1315	ascii	220801000000Z
+1316	ascii	311109235959Z0b1
+1317	ascii	]J<0"0i3
+1318	ascii	t;mq
+1319	ascii	u]xf
+1320	ascii	v=Y]Bv
+1321	ascii	p,A`
+1322	ascii	RQGt
+1323	ascii	|Lu?c
+1324	ascii	 Qko
+1325	ascii	m0k0$
+1326	ascii	http://ocsp.digicert.com0C
+1327	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+1328	ascii	>0<0:
+1329	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+1330	ascii	Jz/-
+1331	ascii	5FjiT
+1332	ascii	wZ\T
+1333	ascii	~qj#k"
+1334	ascii	T-'~
+1335	ascii	0w0c1
+1336	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+1337	ascii	250708015613Z0+
+1338	ascii	[E0/
+1339	ascii	/1(0&0$0"
+1340	ascii	<iWh
+1341	ascii	i't1@
+1342	ascii	wLJ]
+1343	ascii	7%IZ_;R
+1344	ascii	1mwd
+1345	utf16le	$Ajj
+1346	utf16le	jjjjjj
+1347	utf16le	jjjjj
+1348	utf16le	ROOT\CIMV2
+1349	utf16le	Name
+1350	utf16le	Status
+1351	utf16le	Error
+1352	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%VirtIO SCSI controller"
+1353	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME = "ZTE VirtIO SCSI controller"
+1354	utf16le	Running
+1355	utf16le	State
+1356	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "viostor"
+1357	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%VirtIO SCSI pass-through controller"
+1358	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME = "ZTE VirtIO Serial Attached SCSI controller"
+1359	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "vioscsi"
+1360	utf16le	SELECT * FROM Win32_PnPEntity WHERE Description LIKE "%VirtIO Ethernet Adapter"
+1361	utf16le	SELECT * FROM Win32_PnPEntity WHERE Description = "ZTE VirtIO Ethernet Adapter"
+1362	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "netkvm"
+1363	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%VirtIO Balloon Driver"
+1364	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "BALLOON"
+1365	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%VirtIO Serial Driver"
+1366	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "VirtioSerial"
+1367	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%PVPanic Device"
+1368	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "PVPanic"
+1369	utf16le	SELECT * FROM Win32_PnPEntity WHERE NAME LIKE "%VirtIO Input Driver"
+1370	utf16le	SELECT * FROM Win32_SystemDriver WHERE NAME = "VirtioInput"

@@ -1,0 +1,408 @@
+{
+  "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\Vmbooster.exe",
+  "sha256": "8f2c44900608ad6b907586887156c801236fc92c6fecba6a1d7e259089066c3a",
+  "size": 319408,
+  "machine": "x86",
+  "bitness": 32,
+  "timestamp": 1751939674,
+  "characteristics": "0x102",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 178783,
+      "vaddr": 4096,
+      "raw_size": 179200,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 108530,
+      "vaddr": 184320,
+      "raw_size": 108544,
+      "raw_ptr": 180224
+    },
+    {
+      "name": ".data",
+      "vsize": 643496,
+      "vaddr": 294912,
+      "raw_size": 2048,
+      "raw_ptr": 288768
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 436,
+      "vaddr": 942080,
+      "raw_size": 512,
+      "raw_ptr": 290816
+    },
+    {
+      "name": ".reloc",
+      "vsize": 17038,
+      "vaddr": 946176,
+      "raw_size": 17408,
+      "raw_ptr": 291328
+    }
+  ],
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateFileA",
+        "CreatePipe",
+        "CreateProcessA",
+        "CreateToolhelp32Snapshot",
+        "DecodePointer",
+        "DeleteCriticalSection",
+        "DeleteFileA",
+        "DeviceIoControl",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "FreeLibrary",
+        "GetComputerNameA",
+        "GetComputerNameExA",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThreadId",
+        "GetDiskFreeSpaceExA",
+        "GetDriveTypeA",
+        "GetLastError",
+        "GetLocalTime",
+        "GetLogicalDriveStringsA",
+        "GetModuleFileNameA",
+        "GetModuleHandleA",
+        "GetPrivateProfileStringA",
+        "GetProcAddress",
+        "GetProcessHeap",
+        "GetProcessTimes",
+        "GetStartupInfoA",
+        "GetStartupInfoW",
+        "GetSystemInfo",
+        "GetSystemTimeAsFileTime",
+        "GetTickCount",
+        "GetUserDefaultLCID",
+        "GetVersionExA",
+        "GetVolumeInformationA",
+        "GlobalMemoryStatusEx",
+        "HeapAlloc",
+        "HeapFree",
+        "HeapSetInformation",
+        "InitializeCriticalSection",
+        "InterlockedCompareExchange",
+        "InterlockedExchange",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "LeaveCriticalSection",
+        "LoadLibraryA",
+        "MultiByteToWideChar",
+        "OpenProcess",
+        "Process32First",
+        "Process32Next",
+        "ProcessIdToSessionId",
+        "QueryDosDeviceA",
+        "QueryFullProcessImageNameA",
+        "QueryPerformanceCounter",
+        "SetComputerNameExA",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "TerminateProcess",
+        "UnhandledExceptionFilter",
+        "WTSGetActiveConsoleSessionId",
+        "WideCharToMultiByte",
+        "WinExec",
+        "Wow64EnableWow64FsRedirection",
+        "lstrcmpiA"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "ExitWindowsEx",
+        "GetSystemMetrics",
+        "MessageBoxA",
+        "PostThreadMessageA"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "AdjustTokenPrivileges",
+        "ChangeServiceConfig2A",
+        "CloseServiceHandle",
+        "ControlService",
+        "CreateProcessAsUserA",
+        "CreateServiceA",
+        "DeleteService",
+        "DuplicateTokenEx",
+        "GetTokenInformation",
+        "LookupAccountSidA",
+        "LookupPrivilegeValueA",
+        "OpenProcessToken",
+        "OpenSCManagerA",
+        "OpenServiceA",
+        "RegCloseKey",
+        "RegCreateKeyA",
+        "RegCreateKeyExA",
+        "RegOpenKeyExA",
+        "RegQueryValueExA",
+        "RegSetValueExA",
+        "RegisterServiceCtrlHandlerA",
+        "SetServiceStatus",
+        "SetTokenInformation",
+        "StartServiceCtrlDispatcherA"
+      ]
+    },
+    {
+      "dll": "shell32.dll",
+      "functions": [
+        "ShellExecuteA"
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "functions": [
+        "CoCreateInstance",
+        "CoInitializeEx",
+        "CoInitializeSecurity",
+        "CoSetProxyBlanket",
+        "CoUninitialize"
+      ]
+    },
+    {
+      "dll": "oleaut32.dll",
+      "functions": [
+        "ordinal:2",
+        "ordinal:8",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "iphlpapi.dll",
+      "functions": [
+        "FreeMibTable",
+        "GetAdaptersAddresses",
+        "GetAdaptersInfo",
+        "GetExtendedTcpTable",
+        "GetIfTable2",
+        "GetPerAdapterInfo"
+      ]
+    },
+    {
+      "dll": "msvcr100.dll",
+      "functions": [
+        "??0exception@std@@QAE@ABQBD@Z",
+        "??0exception@std@@QAE@ABV01@@Z",
+        "??1exception@std@@UAE@XZ",
+        "??2@YAPAXI@Z",
+        "??3@YAXPAX@Z",
+        "??_U@YAPAXI@Z",
+        "?_type_info_dtor_internal_method@type_info@@QAEXXZ",
+        "?terminate@@YAXXZ",
+        "?what@exception@std@@UBEPBDXZ",
+        "_CxxThrowException",
+        "_XcptFilter",
+        "__CxxFrameHandler3",
+        "__dllonexit",
+        "__getmainargs",
+        "__iob_func",
+        "__set_app_type",
+        "__setusermatherr",
+        "_access",
+        "_acmdln",
+        "_amsg_exit",
+        "_beginthread",
+        "_cexit",
+        "_commode",
+        "_configthreadlocale",
+        "_controlfp_s",
+        "_crt_debugger_hook",
+        "_difftime64",
+        "_endthread",
+        "_errno",
+        "_except_handler4_common",
+        "_exit",
+        "_fmode",
+        "_initterm",
+        "_initterm_e",
+        "_invoke_watson",
+        "_ismbblead",
+        "_localtime64",
+        "_lock",
+        "_mktime64",
+        "_onexit",
+        "_pclose",
+        "_popen",
+        "_snprintf",
+        "_stricmp",
+        "_strnicmp",
+        "_time64",
+        "_unlock",
+        "_vswprintf_c_l",
+        "atoi",
+        "atol",
+        "exit",
+        "fclose",
+        "feof",
+        "fgetc",
+        "fgets",
+        "fopen",
+        "fprintf",
+        "fputs",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "isalnum",
+        "isdigit",
+        "isspace",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memmove",
+        "memset",
+        "printf",
+        "rand",
+        "remove",
+        "sprintf",
+        "srand",
+        "sscanf",
+        "strcat",
+        "strchr",
+        "strcmp",
+        "strcpy",
+        "strerror",
+        "strftime",
+        "strlen",
+        "strncat",
+        "strncmp",
+        "strncpy",
+        "strrchr",
+        "strstr",
+        "strtok",
+        "strtoul",
+        "tolower",
+        "toupper",
+        "vfprintf",
+        "vsprintf"
+      ]
+    },
+    {
+      "dll": "msvcp100.dll",
+      "functions": [
+        "??0_Container_base12@std@@QAE@XZ",
+        "??1_Container_base12@std@@QAE@XZ",
+        "?_Orphan_all@_Container_base0@std@@QAEXXZ",
+        "?_Orphan_all@_Container_base12@std@@QAEXXZ",
+        "?_Xlength_error@std@@YAXPBD@Z",
+        "?_Xout_of_range@std@@YAXPBD@Z"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "inet_ntop",
+        "inet_pton",
+        "ordinal:1",
+        "ordinal:11",
+        "ordinal:115",
+        "ordinal:116",
+        "ordinal:13",
+        "ordinal:14",
+        "ordinal:15",
+        "ordinal:16",
+        "ordinal:19",
+        "ordinal:2",
+        "ordinal:21",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:4",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "psapi.dll",
+      "functions": [
+        "GetProcessMemoryInfo"
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "functions": [
+        "MiniDumpWriteDump"
+      ]
+    },
+    {
+      "dll": "shlwapi.dll",
+      "functions": [
+        "PathFileExistsA",
+        "SHDeleteKeyA"
+      ]
+    },
+    {
+      "dll": "qoelog.dll",
+      "functions": [
+        "?qoe_log_init@@YAHXZ",
+        "?qoe_log_write@@YAHPBD@Z"
+      ]
+    },
+    {
+      "dll": "winmm.dll",
+      "functions": [
+        "timeGetTime"
+      ]
+    },
+    {
+      "dll": "netapi32.dll",
+      "functions": [
+        "NetApiBufferFree",
+        "NetWkstaGetInfo"
+      ]
+    },
+    {
+      "dll": "pdh.dll",
+      "functions": [
+        "PdhAddEnglishCounterA",
+        "PdhCloseQuery",
+        "PdhCollectQueryData",
+        "PdhGetFormattedCounterValue",
+        "PdhOpenQueryA"
+      ]
+    },
+    {
+      "dll": "wldap32.dll",
+      "functions": [
+        "ordinal:136",
+        "ordinal:143",
+        "ordinal:16",
+        "ordinal:186",
+        "ordinal:200",
+        "ordinal:211",
+        "ordinal:217",
+        "ordinal:26",
+        "ordinal:27",
+        "ordinal:301",
+        "ordinal:32",
+        "ordinal:33",
+        "ordinal:34",
+        "ordinal:36",
+        "ordinal:37",
+        "ordinal:38",
+        "ordinal:41",
+        "ordinal:44",
+        "ordinal:45",
+        "ordinal:46",
+        "ordinal:47",
+        "ordinal:50",
+        "ordinal:88"
+      ]
+    },
+    {
+      "dll": "crypt32.dll",
+      "functions": [
+        "CertFreeCertificateContext"
+      ]
+    }
+  ],
+  "import_directory_size": 400
+}

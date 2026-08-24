@@ -1,0 +1,217 @@
+﻿========== FULL VPORT PROCESS MAP ==========
+
+
+Process : IceSound
+PID     : 1564
+Device  : \Device\00000048
+VPort   : vport0p4
+
+
+
+
+
+Process : MswitchWin
+PID     : 3968
+Device  : \Device\00000045
+VPort   : vport0p3
+
+
+
+
+
+Process : qemu-ga
+PID     : 3976
+Device  : \Device\00000046
+VPort   : vport0p1
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000053
+VPort   : vport1p3
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004a
+VPort   : vport0p6
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000049
+VPort   : vport0p5
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004b
+VPort   : vport0p7
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004c
+VPort   : vport0p8
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004d
+VPort   : vport0p9
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004e
+VPort   : vport0p10
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000004f
+VPort   : vport0p11
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000050
+VPort   : vport0p12
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000051
+VPort   : vport1p1
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000052
+VPort   : vport1p2
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000054
+VPort   : vport1p4
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000055
+VPort   : vport1p5
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000056
+VPort   : vport1p6
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000057
+VPort   : vport1p7
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000058
+VPort   : vport1p8
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\00000059
+VPort   : vport1p9
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000005a
+VPort   : vport1p10
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000005b
+VPort   : vport1p11
+
+
+
+
+
+Process : UsbIpc
+PID     : 1572
+Device  : \Device\0000005c
+VPort   : vport1p12
+
+
+
+
+
+Process : Vdagent
+PID     : 2056
+Device  : \Device\00000047
+VPort   : vport0p2
+
+
+

@@ -1,0 +1,3179 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	Rich
+3	ascii	.text
+4	ascii	`.rdata
+5	ascii	@.data
+6	ascii	.pdata
+7	ascii	@.tls
+8	ascii	.rsrc
+9	ascii	@.reloc
+10	ascii	@SUVH
+11	ascii	 ^][
+12	ascii	|$@L
+13	ascii	d$HL
+14	ascii	l$PL
+15	ascii	d$HH
+16	ascii	l$PH
+17	ascii	|$ ATH
+18	ascii	\$0H
+19	ascii	l$8H
+20	ascii	t$@H
+21	ascii	|$HH
+22	ascii	T$HD
+23	ascii	T$@D
+24	ascii	t$8H
+25	ascii	\t)f
+26	ascii	|$@H
+27	ascii	l$Pf
+28	ascii	t?L+
+29	ascii	f98t\H
+30	ascii	xcI+
+31	ascii	f98tZH
+32	ascii	@SUWATH
+33	ascii	L$03
+34	ascii	L$0E3
+35	ascii	L$ 3
+36	ascii	|$0H
+37	ascii	D$0H
+38	ascii	A\_][
+39	ascii	WATAUH
+40	ascii	D$ $
+41	ascii	D$$&
+42	ascii	D$(*
+43	ascii	twE3
+44	ascii	t$PH
+45	ascii	\$XH
+46	ascii	l$`H
+47	ascii	0A]A\_
+48	ascii	t$0H
+49	ascii	|$8H
+50	ascii	l$0H
+51	ascii	\$@H
+52	ascii	VWATAUAVH
+53	ascii	|$pL
+54	ascii	|$pH
+55	ascii	L$0L
+56	ascii	L$4E3
+57	ascii	L$(I
+58	ascii	L$0M
+59	ascii	\$xH
+60	ascii	@A^A]A\_^
+61	ascii	l$ VATAUH
+62	ascii	|$`L
+63	ascii	t$hL
+64	ascii	t$hH
+65	ascii	|$`H
+66	ascii	L$0A
+67	ascii	L$ I
+68	ascii	\$pH
+69	ascii	l$xH
+70	ascii	@A]A\^
+71	ascii	@VATH
+72	ascii	D$XL
+73	ascii	L$PL
+74	ascii	l$hH
+75	ascii	\$`H
+76	ascii	|$03
+77	ascii	l$hA;
+78	ascii	8A\^
+79	ascii	[ UVWATAUAVAWH
+80	ascii	D$xH
+81	ascii	D$8 
+82	ascii	D$X 
+83	ascii	D$\E3
+84	ascii	H9-[
+85	ascii	H9-G
+86	ascii	D$@H
+87	ascii	D$HH
+88	ascii	D$8E
+89	ascii	T$8E3
+90	ascii	\$0E
+91	ascii	T$8L
+92	ascii	L$0H
+93	ascii	D$XH
+94	ascii	D$`H
+95	ascii	D$hH
+96	ascii	D$pH
+97	ascii	D$(H
+98	ascii	L$XI
+99	ascii	L$xH3
+100	ascii	A_A^A]A\_^]
+101	ascii	\$8H
+102	ascii	\$ VWATAUAVH
+103	ascii	|$XL
+104	ascii	|$XH
+105	ascii	H95I
+106	ascii	H95!
+107	ascii	\$hH
+108	ascii	 A^A]A\_^
+109	ascii	L$`E3
+110	ascii	\$`E
+111	ascii	D$`L
+112	ascii	L$`H
+113	ascii	@SUVWATAUH
+114	ascii	D$` 
+115	ascii	L$dH
+116	ascii	tQH9-Y
+117	ascii	H9-=
+118	ascii	T$HH
+119	ascii	L$@H
+120	ascii	L$HH
+121	ascii	T$`I
+122	ascii	\$HE
+123	ascii	D$H3
+124	ascii	T$`D
+125	ascii	uGf;>tB
+126	ascii	Kf;;u
+127	ascii	A]A\_^][
+128	ascii	WATAUAVAWH
+129	ascii	|$0M
+130	ascii	t}E3
+131	ascii	L9%#
+132	ascii	L$ H
+133	ascii	L$8L
+134	ascii	|$8D
+135	ascii	SfD;>t(I
+136	ascii	KfD;;u
+137	ascii	fD;;t
+138	ascii	@A_A^A]A\_
+139	ascii	UVWATAUAVAWH
+140	ascii	t}H9=5
+141	ascii	|$8L
+142	ascii	|$0L
+143	ascii	|$(L
+144	ascii	@A_A^A]A\_^]
+145	ascii	/u2H
+146	ascii	\$03
+147	ascii	@VWATAUH
+148	ascii	D$p3
+149	ascii	D$P 
+150	ascii	|$TH
+151	ascii	D$hL
+152	ascii	H95}
+153	ascii	H95a
+154	ascii	H95-
+155	ascii	D$PH
+156	ascii	T$HI
+157	ascii	D$0L
+158	ascii	L$DL
+159	ascii	T$PH
+160	ascii	|$DH
+161	ascii	\$@E
+162	ascii	L$(L
+163	ascii	D$@E3
+164	ascii	D$(3
+165	ascii	L$ E3
+166	ascii	L$pH3
+167	ascii	A]A\_^
+168	ascii	\$ VH
+169	ascii	\$HH
+170	ascii	d$@f
+171	ascii	d$@H
+172	ascii	@SVATH
+173	ascii	\$TH
+174	ascii	tgH9
+175	ascii	|$HE3
+176	ascii	T$PE
+177	ascii	L$@E3
+178	ascii	L$(E
+179	ascii	A\^[
+180	ascii	D$.H
+181	ascii	L$@L
+182	ascii	D$ H
+183	ascii	d$8H
+184	ascii	d$XH
+185	ascii	D$HL
+186	ascii	L$ L
+187	ascii	d$(H
+188	ascii	l$pH
+189	ascii	\$`I
+190	ascii	t$ WH
+191	ascii	\$ H
+192	ascii	D$0H;
+193	ascii	l$HH
+194	ascii	t$XH
+195	ascii	t$X3
+196	ascii	@SVWAWH
+197	ascii	l$XL
+198	ascii	d$`3
+199	ascii	l$hA
+200	ascii	|$PH
+201	ascii	t$ f
+202	ascii	|$PM
+203	ascii	t$ L
+204	ascii	l$hL
+205	ascii	d$`H
+206	ascii	l$XH
+207	ascii	(A__^[
+208	ascii	D$`f
+209	ascii	L$`A
+210	ascii	@UVAUAWH
+211	ascii	L$HM
+212	ascii	L$HA
+213	ascii	D$HE3
+214	ascii	D$ E3
+215	ascii	T$XE3
+216	ascii	D$x 
+217	ascii	t$@A
+218	ascii	T$XH
+219	ascii	D$@E
+220	ascii	D$DE3
+221	ascii	T$xH
+222	ascii	D$DE
+223	ascii	D$XA
+224	ascii	D$HE
+225	ascii	A_A]^]
+226	ascii	T$ A
+227	ascii	T$(H
+228	ascii	f9D$,uO
+229	ascii	f9D$.uCH
+230	ascii	f9D$Bu
+231	ascii	f9t$@u
+232	ascii	L$ SVH
+233	ascii	|$ H
+234	ascii	L$XH
+235	ascii	L$ USVWATAVAWH
+236	ascii	f90t
+237	ascii	E`H+
+238	ascii	A_A^A\_^[]
+239	ascii	D$8H
+240	ascii	MOH3
+241	ascii	@UVH
+242	ascii	D$ A
+243	ascii	d$0H
+244	ascii	D$0D
+245	ascii	d$(D
+246	ascii	M/H3
+247	ascii	t$ UWAVH
+248	ascii	t$(L
+249	ascii	M7H3
+250	ascii	A^_]
+251	ascii	\$ WH
+252	ascii	t$`H
+253	ascii	D$X3
+254	ascii	D$lH
+255	ascii	t$(H
+256	ascii	@SVWH
+257	ascii	l$@H
+258	ascii	l$(H
+259	ascii	T$(I
+260	ascii	UVWAVAWH
+261	ascii	D$8E3
+262	ascii	D$8D
+263	ascii	D$ 3
+264	ascii	T$8D
+265	ascii	L$XH3
+266	ascii	`A_A^_^]
+267	ascii	L$A3
+268	ascii	T$@H
+269	ascii	D$@L
+270	ascii	T$(D
+271	ascii	D$PA
+272	ascii	D$0A
+273	ascii	L$HH3
+274	ascii	t$xH
+275	ascii	D$03
+276	ascii	D$"f
+277	ascii	D$*H
+278	ascii	D$"E
+279	ascii	D$$f
+280	ascii	D$$A
+281	ascii	D$$H
+282	ascii	L$0H3
+283	ascii	SVWAVH
+284	ascii	t$pH
+285	ascii	|$hL
+286	ascii	8A^_^[
+287	ascii	HiD$ 
+288	ascii	L$(H3
+289	ascii	T$PA
+290	ascii	\$(H
+291	ascii	L$8H
+292	ascii	D$(L
+293	ascii	L$(A
+294	ascii	D$LH
+295	ascii	D$TH
+296	ascii	D$\H
+297	ascii	|$(H
+298	ascii	D$HA
+299	ascii	\$DH
+300	ascii	L$PH3
+301	ascii	@USWATAWH
+302	ascii	D$1H
+303	ascii	D$9H
+304	ascii	D$AH
+305	ascii	D$IH
+306	ascii	D$QH
+307	ascii	D$YH
+308	ascii	D$if
+309	ascii	D$qH
+310	ascii	D$yH
+311	ascii	tIH+
+312	ascii	L$pL
+313	ascii	T$pH
+314	ascii	A_A\_[]
+315	ascii	@USVWATAUAVAWH
+316	ascii	L$8M
+317	ascii	T$0H
+318	ascii	D$aH
+319	ascii	D$iH
+320	ascii	D$yf
+321	ascii	tCH+
+322	ascii	|$0Hc
+323	ascii	A_A^A]A\_^[]
+324	ascii	T$@A
+325	ascii	P_^[
+326	ascii	L$0D
+327	ascii	T$0A
+328	ascii	L$8H3
+329	ascii	@VWATAUAVH
+330	ascii	D$ L
+331	ascii	l$@L
+332	ascii	\$HA
+333	ascii	E80toA
+334	ascii	PA^A]A\_^
+335	ascii	<+tl</ta<=tJ
+336	ascii	T$AD
+337	ascii	@VWAVAW
+338	ascii	D$@f
+339	ascii	D$(W
+340	ascii	L$1A
+341	ascii	A_A^_^
+342	ascii	@SUVWAVH
+343	ascii	D$@H;
+344	ascii	PA^_^][
+345	ascii	drBA
+346	ascii	T$(L
+347	ascii	[<[t
+348	ascii	D8;u
+349	ascii	\$0D8|$0t
+350	ascii	D$0L+
+351	ascii	s<Ic
+352	ascii	L$(H
+353	ascii	|$ Hc
+354	ascii	drhH
+355	ascii	D$(A
+356	ascii	L$@A
+357	ascii	] D8e t
+358	ascii	D8#u
+359	ascii	\$@D8d$@t
+360	ascii	t&Hc
+361	ascii	s5Ic
+362	ascii	@USWATAUAVAWH
+363	ascii	L$qM
+364	ascii	L$pH
+365	ascii	D$pL
+366	ascii	Hc\$D@2
+367	ascii	\$XA
+368	ascii	L$pA
+369	ascii	A_A^A]A\_[]
+370	ascii	WAVAWH
+371	ascii	0A_A^_
+372	ascii	@SVWATAUH
+373	ascii	0A]A\_^[
+374	ascii	l$(L
+375	ascii	t$ I
+376	ascii	l$`L
+377	ascii	\$PH
+378	ascii	w:E3
+379	ascii	D$(I
+380	ascii	T$ L
+381	ascii	L$PE3
+382	ascii	H+\$PH
+383	ascii	D$0#!
+384	ascii	L$13
+385	ascii	L$ M
+386	ascii	L$.i
+387	ascii	@SUVWH
+388	ascii	L$BE3
+389	ascii	D$@D
+390	ascii	t$8L
+391	ascii	t$0L
+392	ascii	D$@A
+393	ascii	_^][
+394	ascii	@SUVWAVAWH
+395	ascii	L$PA
+396	ascii	A_A^_^][
+397	ascii	L$ WH
+398	ascii	t$@H+
+399	ascii	D$`3
+400	ascii	L$`H3
+401	ascii	L$Q3
+402	ascii	D$PE3
+403	ascii	CHH+
+404	ascii	H9K`rA
+405	ascii	D$(E
+406	ascii	D9-^
+407	ascii	uED9-
+408	ascii	D$hA
+409	ascii	D$(E3
+410	ascii	D9-|
+411	ascii	L$hA
+412	ascii	u[D9-
+413	ascii	t'E3
+414	ascii	L$hH
+415	ascii	D$pE3
+416	ascii	D$0 
+417	ascii	M H3
+418	ascii	t$HH
+419	ascii	@USVWATAVAWH
+420	ascii	D$JH
+421	ascii	D$RH
+422	ascii	D$Zf
+423	ascii	L$x3
+424	ascii	D$LA
+425	ascii	D$@@
+426	ascii	D$HA;
+427	ascii	f9t$Pu:f9t$Ru3f9t$Tu,f9t$Vu%f9t$Xu
+428	ascii	f9D$Zu
+429	ascii	T$HA
+430	ascii	D$l 
+431	ascii	|$ AVH
+432	ascii	D$@I
+433	ascii	D$H 
+434	ascii	T$HE3
+435	ascii	D$pD
+436	ascii	D$ f
+437	ascii	T$HM
+438	ascii	L$1D
+439	ascii	T$ H
+440	ascii	D$83
+441	ascii	$~(L
+442	ascii	USVWAVAWI
+443	ascii	|$l;
+444	ascii	T$0L
+445	ascii	D$`E
+446	ascii	D$hE3
+447	ascii	D$lE3
+448	ascii	d$0L
+449	ascii	|$hH
+450	ascii	D$lL
+451	ascii	A_A^_^[]
+452	ascii	D9|$l
+453	ascii	L$tL
+454	ascii	D$tD
+455	ascii	t$XD
+456	ascii	D$PD
+457	ascii	9D$p
+458	ascii	9D$t
+459	ascii	D$oH
+460	ascii	L$@t/
+461	ascii	L$@D
+462	ascii	8xV4
+463	ascii	L$@H3
+464	ascii	D$`I
+465	ascii	L$0t
+466	ascii	D$P3
+467	ascii	\$LH
+468	ascii	|$H5
+469	ascii	\$0L
+470	ascii	`_^[
+471	ascii	D$@3
+472	ascii	x AVH
+473	ascii	D95x^
+474	ascii	u*D95
+475	ascii	woE3
+476	ascii	L$ A
+477	ascii	;D95
+478	ascii	L$d3
+479	ascii	D$PL
+480	ascii	D$l=cE
+481	ascii	L$$H
+482	ascii	D$oI
+483	ascii	T$ f
+484	ascii	\$ UVWAVAWH
+485	ascii	l$8L
+486	ascii	A_A^_^]
+487	ascii	\$83
+488	ascii	d$pH
+489	ascii	L$D3
+490	ascii	L$IH
+491	ascii	A^_^][
+492	ascii	L$@3
+493	ascii	|$4M
+494	ascii	L$dL
+495	ascii	l$0L
+496	ascii	A_A^A]A\_
+497	ascii	t$ H
+498	ascii	T$zD
+499	ascii	D$xD
+500	ascii	T$rD
+501	ascii	L$8D
+502	ascii	\$(L
+503	ascii	|$(A
+504	ascii	D$hHc\$`I
+505	ascii	t$XL
+506	ascii	T$8H
+507	ascii	D$8L
+508	ascii	D$PI
+509	ascii	\$0E3
+510	ascii	L$PE
+511	ascii	hA_A^_^][
+512	ascii	D$BH
+513	ascii	D$8A
+514	ascii	X_^][
+515	ascii	\$ 3
+516	ascii	D$P|7
+517	ascii	L$DE
+518	ascii	`A^_^][
+519	ascii	t!E3
+520	ascii	t$ WATAUAVAWH
+521	ascii	 A_A^A]A\_
+522	ascii	T$~D
+523	ascii	D$|D
+524	ascii	T$xD
+525	ascii	T$PD
+526	ascii	D$HD
+527	ascii	UVWH
+528	ascii	0<;w
+529	ascii	L$P3
+530	ascii	t$ AWH
+531	ascii	@SUVWATAUAVAWH
+532	ascii	D$HfA
+533	ascii	|$xE3
+534	ascii	D$pA
+535	ascii	d$ L
+536	ascii	L$0I+
+537	ascii	A_A^A]A\_^][
+538	ascii	L$`E
+539	ascii	D$`J
+540	ascii	eu-H
+541	ascii	\$0f
+542	ascii	eu*H
+543	ascii	\$ AVH
+544	ascii	@SWAWH
+545	ascii	 A__[
+546	ascii	sMH+
+547	ascii	d$PA
+548	ascii	d$PH
+549	ascii	9A0uhH
+550	ascii	u/Hc
+551	ascii	t+HcS0L
+552	ascii	HcK0H
+553	ascii	t$83
+554	ascii	|$ ATAVAWH
+555	ascii	9~0~IE3
+556	ascii	 ;~0|
+557	ascii	|$XA
+558	ascii	 A_A^A\
+559	ascii	LcA H
+560	ascii	9Q$t
+561	ascii	l$ WH
+562	ascii	Q8H;S0u-A
+563	ascii	H+C H;
+564	ascii	K L+
+565	ascii	@SAVAWH
+566	ascii	D9{0~(I
+567	ascii	 ;{0|
+568	ascii	C@H;
+569	ascii	l$@I
+570	ascii	 A_A^[
+571	ascii	9REDQt
+572	ascii	T$RA
+573	ascii	D$V%
+574	ascii	L$VH
+575	ascii	fHM;d$
+576	ascii	xA_A^_^][
+577	ascii	D$XD
+578	ascii	$+C H
+579	ascii	D$0|
+580	ascii	l$ VH
+581	ascii	uM@:
+582	ascii	l$H3
+583	ascii	=REDQtJ
+584	ascii	D$0REDQ
+585	ascii	AHH;@
+586	ascii	\$`M
+587	ascii	REDQH
+588	ascii	t$(D
+589	ascii	|$xH
+590	ascii	@A_A^A\
+591	ascii	=REDQ
+592	ascii	D$0/
+593	ascii	s fD
+594	ascii	|$h3
+595	ascii	VWAWH
+596	ascii	sHM;v
+597	ascii	PA__^
+598	ascii	@WAWH
+599	ascii	l$HE3
+600	ascii	t$ E
+601	ascii	t$PA
+602	ascii	u4D:s4u.D
+603	ascii	t$PL
+604	ascii	l$Ht
+605	ascii	(A__
+606	ascii	t'Hc
+607	ascii	\$pI
+608	ascii	D$( 
+609	ascii	t$8E3
+610	ascii	t$`L
+611	ascii	d$hL
+612	ascii	d$hH
+613	ascii	D$06
+614	ascii	\$`$
+615	ascii	@A_A^_
+616	ascii	@Hcz
+617	ascii	t$x|J
+618	ascii	t$pA
+619	ascii	@}DD9s0t.D
+620	ascii	t$p3
+621	ascii	l$ht
+622	ascii	9K u
+623	ascii	|$hff
+624	ascii	;;|$@u"
+625	ascii	\$@L
+626	ascii	d$XL
+627	ascii	l$HA
+628	ascii	yHE3
+629	ascii	l$HL
+630	ascii	I;@ r>
+631	ascii	s&ff
+632	ascii	tRff
+633	ascii	A;H(H
+634	ascii	CH(A
+635	ascii	A(H;
+636	ascii	I9H v
+637	ascii	C(;{(v
+638	ascii	ti9i
+639	ascii	|$0A
+640	ascii	E8y u
+641	ascii	M9y8t-A
+642	ascii	 A_A^_
+643	ascii	|$ UATAUAVAWH
+644	ascii	d$PD
+645	ascii	l$2H
+646	ascii	tDfff
+647	ascii	D$D@
+648	ascii	A_A^A]A\]
+649	ascii	9yHt)H9y
+650	ascii	H;PHv?H
+651	ascii	t$`A
+652	ascii	\$PI
+653	ascii	l$XA
+654	ascii	 H;[
+655	ascii	t$HE3
+656	ascii	HHH;
+657	ascii	H9hP
+658	ascii	D9p<
+659	ascii	H@D9p8t&L9p
+660	ascii	L;BHv>H
+661	ascii	tRE3
+662	ascii	D9IHt#H
+663	ascii	;QPt'H
+664	ascii	D$0I
+665	ascii	D$8I
+666	ascii	@_^[
+667	ascii	@81u
+668	ascii	tQE;
+669	ascii	D$hHc
+670	ascii	|$xL
+671	ascii	L$hH3
+672	ascii	D952!
+673	ascii	t$0A
+674	ascii	9=I 
+675	ascii	l$ f
+676	ascii	t$pL
+677	ascii	T$HL
+678	ascii	D$Pf
+679	ascii	l$xL
+680	ascii	L$xH
+681	ascii	tkD9-
+682	ascii	\$8L
+683	ascii	L$hL
+684	ascii	|<D9-k
+685	ascii	t$PHc
+686	ascii	|$XHi
+687	ascii	l$$A
+688	ascii	p $#
+689	ascii	L$ D
+690	ascii	L$(D
+691	ascii	t$,D
+692	ascii	l$@D
+693	ascii	d$DE
+694	ascii	T$0E
+695	ascii	L$<D
+696	ascii	t$HD
+697	ascii	QZ^&E
+698	ascii	D$(D
+699	ascii	L$4A
+700	ascii	D$<D
+701	ascii	L$4D
+702	ascii	D$ E
+703	ascii	D$4A
+704	ascii	D$hI
+705	ascii	D$dL
+706	ascii	D$DH
+707	ascii	T$"A
+708	ascii	s"fff
+709	ascii	0A_A^A\
+710	ascii	UVAVH
+711	ascii	 A^^]
+712	ascii	D$,vT2
+713	ascii	D$0E3
+714	ascii	D$4H
+715	ascii	\$ UVWATAUAVAWH
+716	ascii	t$0D
+717	ascii	@VWAVH
+718	ascii	\$`L
+719	ascii	0A^_^
+720	ascii	L$pE
+721	ascii	(D$p
+722	ascii	)M H
+723	ascii	|$hI
+724	ascii	T$PL
+725	ascii	KpE3
+726	ascii	q0E3
+727	ascii	D$pI;
+728	ascii	T$pE
+729	ascii	H;G0u
+730	ascii	D$pA+
+731	ascii	@A^_^][
+732	ascii	\$@Hc
+733	ascii	\$ Hc
+734	ascii	w3Hc
+735	ascii	SAWH
+736	ascii	)D$0
+737	ascii	)L$`
+738	ascii	)T$@A
+739	ascii	HPfH
+740	ascii	)D$P
+741	ascii	)D$pA
+742	ascii	L$HD
+743	ascii	L$LD
+744	ascii	L$4L
+745	ascii	L$DA
+746	ascii	VWATAVAWH
+747	ascii	A_A^A\_^
+748	ascii	L$0@
+749	ascii	L/0H
+750	ascii	\.0H
+751	ascii	L$PD
+752	ascii	t$H3
+753	ascii	\$P3
+754	ascii	@SUVATAVAWH
+755	ascii	A_A^A\^][
+756	ascii	\$ UWAVH
+757	ascii	L$B3
+758	ascii	t$0=
+759	ascii	H_^][
+760	ascii	L+A(I
+761	ascii	A0Hc
+762	ascii	\$ t@H
+763	ascii	(9L$$
+764	ascii	|$`D
+765	ascii	|$`tUD9%
+766	ascii	t$8D
+767	ascii	tLf;
+768	ascii	|rIc
+769	ascii	|BIc
+770	ascii	J0H+J(H
+771	ascii	B0H+
+772	ascii	T$lA
+773	ascii	t$@D
+774	ascii	\$8D
+775	ascii	L$hD
+776	ascii	*tI@
+777	ascii	7tCE
+778	ascii	sC@:9t
+779	ascii	t$hD
+780	ascii	T$8E
+781	ascii	B8<3u
+782	ascii	B0H+B(H
+783	ascii	H+J(H
+784	ascii	B(I+
+785	ascii	|$hA
+786	ascii	\$`D
+787	ascii	T$XD
+788	ascii	@SUWH
+789	ascii	\$xD
+790	ascii	T$pD
+791	ascii	D$hD
+792	ascii	L$`+
+793	ascii	t$XHc
+794	ascii	|$PD
+795	ascii	d$HD
+796	ascii	l$@Hc
+797	ascii	l$ VWATAUAVH
+798	ascii	l$xA
+799	ascii	Su(L
+800	ascii	|$pD
+801	ascii	|$xE
+802	ascii	8&u]
+803	ascii	\$@3
+804	ascii	A^A]A\_^
+805	ascii	H+B(H
+806	ascii	B0I+
+807	ascii	L$PH
+808	ascii	T$PtH
+809	ascii	@SUVWAUAVAWH
+810	ascii	D$0m
+811	ascii	A_A^A]_^][
+812	ascii	r'H9=
+813	ascii	l$0f
+814	ascii	|$@f;
+815	ascii	|$<f
+816	ascii	|$8A
+817	ascii	|$xf
+818	ascii	t$8f
+819	ascii	\$:A
+820	ascii	|$x3
+821	ascii	t#Hk
+822	ascii	@USVWAVH
+823	ascii	L$XA
+824	ascii	A^_^[]
+825	ascii	@SWATAU
+826	ascii	T$`E3
+827	ascii	9\$`
+828	ascii	E9l$
+829	ascii	l$lD
+830	ascii	l$dD
+831	ascii	l$hE8l
+832	ascii	D$lI
+833	ascii	;\$`
+834	ascii	\D9-
+835	ascii	A]A\_[
+836	ascii	D$Hf
+837	ascii	D$B|:H
+838	ascii	D$LL
+839	ascii	L$HL
+840	ascii	D$@^
+841	ascii	L$(E3
+842	ascii	@SUH
+843	ascii	D$PK
+844	ascii	T$0D
+845	ascii	TtlE
+846	ascii	|$`3
+847	ascii	l$ VWAVH
+848	ascii	9x t
+849	ascii	9x$u
+850	ascii	A^_^
+851	ascii	D$@C
+852	ascii	\$0A
+853	ascii	H95X
+854	ascii	=@85?4
+855	ascii	=@85
+856	ascii	H95y
+857	ascii	H95|
+858	ascii	t$x3
+859	ascii	8\$0u
+860	ascii	1XPH
+861	ascii	w"Hc
+862	ascii	L$0H;
+863	ascii	@USATAVAWH
+864	ascii	T$hH
+865	ascii	|$PL
+866	ascii	|$HL
+867	ascii	D$xL
+868	ascii	|$0E3
+869	ascii	D$|E3
+870	ascii	D9|$|
+871	ascii	L$p3
+872	ascii	;|$|s
+873	ascii	d$`L
+874	ascii	A_A^A\[]
+875	ascii	D$L9
+876	ascii	x%Ic
+877	ascii	9D$Pu
+878	ascii	9D$Tt
+879	ascii	t$`3
+880	ascii	\$0H+A
+881	ascii	@USAVH
+882	ascii	|$dH
+883	ascii	L$`3
+884	ascii	D$ha
+885	ascii	D$|L
+886	ascii	A^[]
+887	ascii	UAVAWH
+888	ascii	t$pD
+889	ascii	\$XD
+890	ascii	L$8F
+891	ascii	A_A^]
+892	ascii	\$ VWATAUAWH
+893	ascii	M+4$L;
+894	ascii	L$8@
+895	ascii	`A_A]A\_^
+896	ascii	d$pE2
+897	ascii	|$XE2
+898	ascii	M+7L;
+899	ascii	D$8@
+900	ascii	l$hD
+901	ascii	d$pt,H
+902	ascii	L$QD
+903	ascii	D$ @
+904	ascii	L$P;
+905	ascii	ATAV
+906	ascii	F9d;
+907	ascii	F:t9
+908	ascii	F8d9
+909	ascii	T$ D
+910	ascii	A^A\
+911	ascii	D$@0
+912	ascii	L$lI
+913	ascii	ukf9
+914	ascii	@VWH
+915	ascii	B9l;
+916	ascii	B:|9
+917	ascii	B8l9
+918	ascii	T$`H
+919	ascii	u/@85
+920	ascii	D$ ;
+921	ascii	D$ =
+922	ascii	D$ <
+923	ascii	|7H+=af
+924	ascii	MGH3
+925	ascii	L$TA
+926	ascii	UATAUAVAWH
+927	ascii	"@8u
+928	ascii	D$08
+929	ascii	L$@I
+930	ascii	t.Hc
+931	ascii	0Lcj`3
+932	ascii	D$ I
+933	ascii	0A_A^A]A\_
+934	ascii	T$@L
+935	ascii	@USH
+936	ascii	9\$0
+937	ascii	L$dA
+938	ascii	D$@g
+939	ascii	L$$I
+940	ascii	\$@A
+941	ascii	L$tA
+942	ascii	upD9=27
+943	ascii	\$@|6
+944	ascii	l$Hu
+945	ascii	L$T3
+946	ascii	D$Pdpi
+947	ascii	t$@;
+948	ascii	l$@Hi
+949	ascii	@8-B
+950	ascii	ujf9
+951	ascii	L$`D
+952	ascii	t=9=
+953	ascii	D$af
+954	ascii	D$  
+955	ascii	USVATAUI
+956	ascii	A]A\^[]
+957	ascii	\$P9
+958	ascii	9\$P
+959	ascii	@87tZI
+960	ascii	|$hJ
+961	ascii	t$8A
+962	ascii	.tXH
+963	ascii	A_A^_
+964	ascii	D$@@88
+965	ascii	;=uA
+966	ascii	D$ =H
+967	ascii	9|((tD
+968	ascii	UAWI
+969	ascii	|$@0u
+970	ascii	|$A1u
+971	ascii	|$C0A
+972	ascii	C0D88
+973	ascii	tZ@8
+974	ascii	|$@0L
+975	ascii	|$A1u0
+976	ascii	|$C0u)
+977	ascii	|$I1u"H
+978	ascii	t$ AVH
+979	ascii	|$`A
+980	ascii	\$PD
+981	ascii	\$ UVW
+982	ascii	L$Hf
+983	ascii	l$0A
+984	ascii	@SVW
+985	ascii	VAVH
+986	ascii	O H;
+987	ascii	dvZA
+988	ascii	l$0Hcl$PH
+989	ascii	Lct$XL
+990	ascii	<$E3
+991	ascii	|VIc
+992	ascii	l$8D
+993	ascii	t$(3
+994	ascii	@SWAVH
+995	ascii	D$x@
+996	ascii	D$\f
+997	ascii	 |7@
+998	ascii	s,H9t$pt2H9t$ht+95
+999	ascii	A^_[
+1000	ascii	D$rL
+1001	ascii	D$lM
+1002	ascii	D$(&
+1003	ascii	D$hM
+1004	ascii	~7HcU
+1005	ascii	L$lD
+1006	ascii	T$dH
+1007	ascii	u'A9
+1008	ascii	D$(5
+1009	ascii	@VWAUAVAWH
+1010	ascii	fD;l$Z
+1011	ascii	d$xE3
+1012	ascii	D$LD
+1013	ascii	D$8J
+1014	ascii	d$xH
+1015	ascii	A_A^A]_^
+1016	ascii	D$(U
+1017	ascii	@UVWAVAWH
+1018	ascii	D$TE
+1019	ascii	L$bf
+1020	ascii	D$TA
+1021	ascii	|$px
+1022	ascii	VWAVH
+1023	ascii	@A^_^
+1024	ascii	8csm
+1025	ascii	LcA<E3
+1026	ascii	t"H+
+1027	ascii	HcH<H
+1028	ascii	\$ UH
+1029	ascii	H3E H3E
+1030	ascii	ERROR
+1031	ascii	CRITICAL
+1032	ascii	Warning
+1033	ascii	Info
+1034	ascii	Debug
+1035	ascii	ZXVsnprintf failed, error:0x%x size:%d func:%s:%d
+1036	ascii	ZXVsnprintf
+1037	ascii	..\base_func.c:136
+1038	ascii	mbstowcs_s failed, error:%d
+1039	ascii	ZXMbstowcs_s
+1040	ascii	..\base_func.c:170
+1041	ascii	dstbuf length is small, %d < %d
+1042	ascii	..\base_func.c:175
+1043	ascii	..\base_func.c:181
+1044	ascii	ZXStrnlen failed, error:0x%x
+1045	ascii	ZXStrnlen_s
+1046	ascii	..\base_func.c:230
+1047	ascii	Delete file %s failed, error:%d
+1048	ascii	ice_remove
+1049	ascii	..\base_func.c:302
+1050	ascii	rename file %s failed, errno:%d
+1051	ascii	ice_rename
+1052	ascii	..\base_func.c:311
+1053	ascii	message:%d
+1054	ascii	ice_check_thread_hb
+1055	ascii	..\base_func.c:435
+1056	ascii	thread:%s exit, timeout:%llu, %llu
+1057	ascii	..\base_func.c:437
+1058	ascii	exit:%d line:%d
+1059	ascii	..\base_func.c:438
+1060	ascii	close file failed!
+1061	ascii	ZXFile_close
+1062	ascii	..\base_func.c:608
+1063	ascii	fflush failed!
+1064	ascii	ZXFflush
+1065	ascii	..\base_func.c:618
+1066	ascii	fwrite failed!
+1067	ascii	ZXFwrite
+1068	ascii	..\base_func.c:627
+1069	ascii	open file failed:%s 
+1070	ascii	ZXFopen
+1071	ascii	..\base_func.c:638
+1072	ascii	ice_build_cfg_res_string
+1073	ascii	error or buf size is small[%d][%d]
+1074	ascii	..\base_func.c:661
+1075	ascii	%s%s
+1076	ascii	dump
+1077	ascii	data
+1078	ascii	%s%s%s_%x.%s
+1079	ascii	ice_base_info_dump
+1080	ascii	--%s:%d dump file:%s data:%d
+1081	ascii	..\base_func.c:1058
+1082	ascii	--%s:%d open dump file:%s fail:%d
+1083	ascii	..\base_func.c:1062
+1084	ascii	ice_get_module_name
+1085	ascii	display_pos input info error idx:%d display_num:%d
+1086	ascii	ice_get_display_pos
+1087	ascii	..\base_func.c:1120
+1088	ascii	System\CurrentControlSet\Hardware Profiles\UnitedVideo\CONTROL\VIDEO\%s\%04d
+1089	ascii	Attach.ToDesktop
+1090	ascii	System\CurrentControlSet\Control\UnitedVideo\CONTROL\VIDEO\%s\%04d
+1091	ascii	get to_desktop:%d ret:%d
+1092	ascii	..\base_func.c:1135
+1093	ascii	Attach.RelativeX
+1094	ascii	Attach.RelativeY
+1095	ascii	display_pos reg_name:%s worker_id:%d reg_pos:%d,%d, pos:%d,%d i:%04d
+1096	ascii	..\base_func.c:1142
+1097	ascii	ice-config.ini
+1098	ascii	%s%s%s
+1099	ascii	ice_get_log_fname
+1100	ascii	ice_get_session_uname
+1101	ascii	MultiByteToWideChar failed:%d
+1102	ascii	ice_ansii_2_utf8
+1103	ascii	..\base_func.c:1310
+1104	ascii	WideCharToMultiByte failed:%d
+1105	ascii	..\base_func.c:1316
+1106	ascii	%s%s%s%ssid_%u
+1107	ascii	ice_get_log_fpath
+1108	ascii	AppMode
+1109	ascii	C:\Program Files (x86)\ZTEGuestOS\ZProcessMonitor\ZProCtrl.exe
+1110	ascii	start_process_monitor
+1111	ascii	ZProcessMonitor
+1112	ascii	"%s" --StartMonitor
+1113	ascii	"%s" --StopMonitor
+1114	ascii	call ZProCtrl.exe fail!!!
+1115	ascii	..\base_func.c:1508
+1116	ascii	hProcess not active skip kill %p exitCode:%d !!!
+1117	ascii	IceTerminateProcessEx
+1118	ascii	..\base_func.c:1541
+1119	ascii	hProcess may active res:%d exitCode:%d beForce:%d!!!
+1120	ascii	..\base_func.c:1544
+1121	ascii	GetProcessId Fail errno:%d!!!
+1122	ascii	..\base_func.c:1552
+1123	ascii	%p code:%d
+1124	ascii	..\base_func.c:1558
+1125	ascii	open pid failed
+1126	ascii	..\base_func.c:1564
+1127	ascii	RtlGetVersion
+1128	ascii	ntdll.dll
+1129	ascii	SOFTWARE\Microsoft\Windows NT\CurrentVersion
+1130	ascii	os verison:%lu.%lu.%lu.%lu
+1131	ascii	ice_get_system_version_ex
+1132	ascii	..\base_func.c:1616
+1133	ascii	GetNativeSystemInfo
+1134	ascii	kernel32.dll
+1135	ascii	no need create new process:%d
+1136	ascii	winsta0\default
+1137	ascii	WTSQueryUserToken error dwSession:%u error:%d
+1138	ascii	ice_create_process_win7_extend
+1139	ascii	..\base_func.c:1971
+1140	ascii	OpenProcessToken error:%d
+1141	ascii	..\base_func.c:1979
+1142	ascii	DuplicateTokenEx error:%d
+1143	ascii	..\base_func.c:1991
+1144	ascii	SetTokenInformation error:%lu
+1145	ascii	..\base_func.c:1999
+1146	ascii	begin call CreateProcessAsUser
+1147	ascii	..\base_func.c:2017
+1148	ascii	CreateProcessAsUser error:%lu
+1149	ascii	..\base_func.c:2021
+1150	ascii	restart process:%p crtSession:%u dwSession:%u
+1151	ascii	..\base_func.c:2029
+1152	ascii	Global\IceInputShareMem_%u
+1153	ascii	ice_create_open_input_share_mem
+1154	ascii	Could not create mapping file, error code:%lu
+1155	ascii	..\base_func.c:2639
+1156	ascii	Could not open mapping file, error code:%lu
+1157	ascii	..\base_func.c:2645
+1158	ascii	craete_and_open_ok
+1159	ascii	..\base_func.c:2650
+1160	ascii	openFile failed:%0x 
+1161	ascii	ice_get_share_mem_ex
+1162	ascii	..\base_func.c:3463
+1163	ascii	CreateFile failed:%0x 
+1164	ascii	..\base_func.c:3466
+1165	ascii	size miss match: min_size%d fsize:%d map_size:%lu
+1166	ascii	..\base_func.c:3479
+1167	ascii	MapViewOfFile failed err:%u
+1168	ascii	..\base_func.c:3492
+1169	ascii	map file failed:%lu 
+1170	ascii	..\base_func.c:3497
+1171	ascii	open file failed, error:%lu
+1172	ascii	..\base_func.c:3504
+1173	ascii	C:\Windows\System32\vappvideo\input_info.dat
+1174	ascii	%s%u
+1175	ascii	ice_get_input_share_info
+1176	ascii	c:\windows\input_info.dat
+1177	ascii	make link to:%s:%d
+1178	ascii	ice_sock_make_connection
+1179	ascii	..\base_func.c:3538
+1180	ascii	connect to main modue fail,fd%d dport:%d
+1181	ascii	..\base_func.c:3567
+1182	ascii	open reg fail %lu
+1183	ascii	ice_del_reg_info
+1184	ascii	..\base_func.c:3713
+1185	ascii	del reg fail %lu, key:%s
+1186	ascii	..\base_func.c:3719
+1187	ascii	open/create reg fail:%lu node:%s
+1188	ascii	ice_save_reg_info
+1189	ascii	..\base_func.c:3739
+1190	ascii	set reg fail:%lu, key:%s
+1191	ascii	..\base_func.c:3746
+1192	ascii	open reg fail:%lu node:%s
+1193	ascii	ice_get_reg_info_ex
+1194	ascii	..\base_func.c:3763
+1195	ascii	get reg fail:%lu key_name:%s
+1196	ascii	..\base_func.c:3769
+1197	ascii	SYSTEM\CurrentControlSet\Services\VDI_SYS_CFG
+1198	ascii	Desktop_Width
+1199	ascii	Desktop_Height
+1200	ascii	iRaiUser
+1201	ascii	Software\VDAgent\LogonInfo\iRAIUser
+1202	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment\
+1203	ascii	Ice-Display_Driver_Flag
+1204	ascii	GPU-Driver-Flag
+1205	ascii	Driver-Exception-Flag
+1206	ascii	tunnel-stream-flag
+1207	ascii	SYSTEM\CurrentControlSet\Control\Video\
+1208	ascii	Origin-Cloud-Type
+1209	ascii	PcMode
+1210	ascii	pc farm:%d
+1211	ascii	ice_get_pc_mode
+1212	ascii	..\base_func.c:3910
+1213	ascii	None-vGpu-License
+1214	ascii	OpenFtLog
+1215	ascii	SYSTEM\CurrentControlSet\services\IceCconfig
+1216	ascii	Ice-Port
+1217	ascii	IceDispalyPort_%u
+1218	ascii	ProcessName
+1219	ascii	Software\WOW6432Node\VDAgent
+1220	ascii	OnlineState
+1221	ascii	Ice-UUID
+1222	ascii	Video-Name
+1223	ascii	Vendor-Name
+1224	ascii	ice_set_audio
+1225	ascii	gpu-enc
+1226	ascii	ice_get_display_app_port
+1227	ascii	session_id:%u get:port:%u
+1228	ascii	..\base_func.c:4642
+1229	ascii	ConsoleSessionApp
+1230	ascii	ice_idd_enabled
+1231	ascii	ice_idd_flag
+1232	ascii	PublicMode
+1233	ascii	ICEVideoID
+1234	ascii	LOGIN_NAME
+1235	ascii	IS_DOMAIN
+1236	ascii	DOMAIN_NAME
+1237	ascii	gpu enc flag:%d
+1238	ascii	ice_get_gpu_enc_flag
+1239	ascii	..\base_func.c:5208
+1240	ascii	OpenInputDesktop failed:%lu
+1241	ascii	get_desktop_name
+1242	ascii	..\base_func.c:5356
+1243	ascii	GetUserObjectInformation failed:%lu
+1244	ascii	..\base_func.c:5362
+1245	ascii	OpenSCManager error:%lu
+1246	ascii	ice_check_vmboostr_service
+1247	ascii	..\base_func.c:5385
+1248	ascii	Vmbooster
+1249	ascii	ZTE Vmbooster
+1250	ascii	VmBoosterMonitor
+1251	ascii	 OpenSCManager failed error:%lu
+1252	ascii	CheckServiceStatus
+1253	ascii	..\base_func.c:5482
+1254	ascii	service %s is not exist
+1255	ascii	..\base_func.c:5490
+1256	ascii	OpenService %s failed, error:%lu
+1257	ascii	..\base_func.c:5494
+1258	ascii	QueryServiceStatusEx failed, error:%lu
+1259	ascii	..\base_func.c:5501
+1260	ascii	service %s running
+1261	ascii	..\base_func.c:5507
+1262	ascii	service %s stopped
+1263	ascii	..\base_func.c:5511
+1264	ascii	service %s status %d
+1265	ascii	..\base_func.c:5515
+1266	ascii	func:%s line:%d OpenEvent Event failed:%lu
+1267	ascii	ice_send_event_once_ex
+1268	ascii	..\base_func.c:5534
+1269	ascii	send event:%s
+1270	ascii	..\base_func.c:5539
+1271	ascii	SetEvent failed:%lu
+1272	ascii	..\base_func.c:5546
+1273	ascii	GetSystemTimePreciseAsFileTime
+1274	ascii	Kernel32.dll
+1275	ascii	GetTickCount64
+1276	ascii	call CreateToolhelp32Snapshot fail!!
+1277	ascii	make sock  failed errno:%d 
+1278	ascii	deal sock send fail send_len:%d
+1279	ascii	ice_send_tcp_info
+1280	ascii	..\base_func.c:6155
+1281	ascii	tn_sock_ip
+1282	ascii	connection  failed errno:%d ip[%s] dport[%d]
+1283	ascii	ice_deal_sock_connect_ex
+1284	ascii	..\base_func.c:6264
+1285	ascii	connection  to dest timeout tv_ms:%d ip[%s] dport[%d]
+1286	ascii	..\base_func.c:6291
+1287	ascii	..\log\ice_server
+1288	ascii	unknown
+1289	ascii	%s%s%s-exception.s%u.%u.dmp
+1290	ascii	ApplicationCrashHandler
+1291	ascii	C:\Windows\System32\Shcore.dll
+1292	ascii	SetProcessDpiAwareness
+1293	ascii	%04d-%02d-%02d %02d:%02d:%02d.%03d
+1294	ascii	ice_qoe_log
+1295	ascii	%s|%d|208|%d|%d|%s|%s|%s|%s
+1296	ascii	line:%d be_have_gpu:%d
+1297	ascii	ice_restart_vgpu_capture_ex
+1298	ascii	..\base_func.c:7002
+1299	ascii	Global\ice_gpu_exit_event
+1300	ascii	Global\ice_capture_restart_event
+1301	ascii	%s.bak
+1302	ascii	ice_log_rename_file
+1303	ascii	feek error!!!
+1304	ascii	%02d-%02d %02d:%02d:%02d:%03ld: disk has space:%llu, limit_disk_space:%d
+1305	ascii	ice_write_space_info
+1306	ascii	%02d-%02d %02d:%02d:%02d:%03ld: %s%s%s-%s-%u:%u : %s: %s: 
+1307	ascii	ice_logv
+1308	ascii	%s_%u
+1309	ascii	ice_check_duoble_running
+1310	ascii	ice_mk_dir
+1311	ascii	create folder failed %s 
+1312	ascii	Error writing to file
+1313	ascii	..\base_func.c:7604
+1314	ascii	log-file-size
+1315	ascii	ice_log_init
+1316	ascii	hid:
+1317	ascii	vmulti-
+1318	ascii	ice_send_vdi_func
+1319	ascii	..\base_func.c:7881
+1320	ascii	send udp msg to %s:%d fail:errno %d
+1321	ascii	..\base_func.c:7893
+1322	ascii	127.0.0.1
+1323	ascii	ice_deal_tcp_write
+1324	ascii	..\base_func.c:7984
+1325	ascii	ice_create_sock_and_connect
+1326	ascii	..\base_func.c:7996
+1327	ascii	create socket failed!
+1328	ascii	ice_send_general_passthrough_msg
+1329	ascii	..\base_func.c:8015
+1330	ascii	send ack date failed!
+1331	ascii	..\base_func.c:8022
+1332	ascii	send date succeed: dport = [%d]
+1333	ascii	..\base_func.c:8026
+1334	ascii	ice_encryptString
+1335	ascii	;zxin10config
+1336	ascii	ice_getEncryptType
+1337	ascii	killblk_ex
+1338	ascii	fgetstr_ex
+1339	ascii	cutpre_ex
+1340	ascii	loop_cnt1 reach max value
+1341	ascii	check_cfg_file_rw_time
+1342	ascii	..\base_func.c:8482
+1343	ascii	..\base_func.c:8483
+1344	ascii	ZXOSGetPrivateProfileString_
+1345	ascii	linkto:{
+1346	ascii	ZXOSGetPrivateProfileInt_
+1347	ascii	ice_get_write_type
+1348	ascii	ZXOSWritePrivateProfileString_
+1349	ascii	%s=%s
+1350	ascii	[%s]
+1351	ascii	GetPrivateProfileString_Link
+1352	ascii	ZXOS_GetPrivateProfileString
+1353	ascii	c:\Windows\System32\video_%d.dat
+1354	ascii	PCI\VEN_10DE&DEV_
+1355	ascii	 Quadro 
+1356	ascii	%s support virtual edid
+1357	ascii	ice_nvidia_be_support_virtual_edid
+1358	ascii	..\base_func.c:9609
+1359	ascii	get info fail match display displayOutputId:0x%x ret:%d
+1360	ascii	ice_nv_edid_get_monitor_name_by_displayId
+1361	ascii	..\base_func.c:9635
+1362	ascii	monitor name:%s, displayId:0x%x
+1363	ascii	..\base_func.c:9654
+1364	ascii	NvAPI_DISP_GetDisplayIdByDisplayName failed, %s, %d
+1365	ascii	ice_nv_edid_get_monitor_name_by_display_name
+1366	ascii	..\base_func.c:9672
+1367	ascii	display name:%s-->0x%x
+1368	ascii	..\base_func.c:9676
+1369	ascii	NvAPI_SYS_GetPhysicalGpuFromDisplayId failed, %s, %d
+1370	ascii	..\base_func.c:9682
+1371	ascii	ICE vDisplay
+1372	ascii	PCI\VEN_1b36&DEV_0100&SUBSYS_11001af4
+1373	ascii	PCI\VEN_1b36&DEV_0100&SUBSYS_00880088
+1374	ascii	Change Device State ERR!
+1375	ascii	ice_set_device_state
+1376	ascii	..\base_func.c:9760
+1377	ascii	Change Device State:%d, success!
+1378	ascii	..\base_func.c:9764
+1379	ascii	SetupDiSetClassInstallParams ERR!
+1380	ascii	..\base_func.c:9771
+1381	ascii	call CM_Get_DevNode_Status fail:%lu
+1382	ascii	ice_deal_enable_device
+1383	ascii	..\base_func.c:9783
+1384	ascii	deal  device state fail!
+1385	ascii	..\base_func.c:9794
+1386	ascii	remove device ID: %s failed, error code: %d
+1387	ascii	ice_deal_remove_device
+1388	ascii	..\base_func.c:9806
+1389	ascii	remove device ID: %s success
+1390	ascii	..\base_func.c:9809
+1391	ascii	SetupDiGetClassDevs fail
+1392	ascii	ice_enum_device_info
+1393	ascii	..\base_func.c:9828
+1394	ascii	SetupDiEnumDeviceInfo Property:%d Index:%d
+1395	ascii	..\base_func.c:9840
+1396	ascii	SetupDiGetDeviceRegistryProperty error1--ERROR_INVALID_DATA
+1397	ascii	..\base_func.c:9851
+1398	ascii	fail buf is small
+1399	ascii	error3
+1400	ascii	SetupDiGetDeviceRegistryProperty dwRetVal:%d %s
+1401	ascii	..\base_func.c:9854
+1402	ascii	device id:%s 
+1403	ascii	..\base_func.c:9857
+1404	ascii	ice_check_display_hardware_id_and_driver
+1405	ascii	..\base_func.c:9886
+1406	ascii	..\base_func.c:9888
+1407	ascii	ICE DISPLAY 
+1408	ascii	found not ice driver dev device desc:%s, device id:%s 
+1409	ascii	..\base_func.c:9894
+1410	ascii	line:%d http update critical error:%d exit!!!
+1411	ascii	_sock_deal_http_critical_error
+1412	ascii	..\sock_func.c:187
+1413	ascii	find the key val, but it's too long[%s] key[%s]
+1414	ascii	scok_get_http_head
+1415	ascii	..\sock_func.c:229
+1416	ascii	.zip
+1417	ascii	C:\Program Files\ZTEGuestOS\ice_update.iso
+1418	ascii	C:\Program Files\ZTEGuestOS\ice_update.zip
+1419	ascii	C:\Program Files (x86)\ZTEGuestOS\ice_update.iso
+1420	ascii	C:\Program Files (x86)\ZTEGuestOS\ice_update.zip
+1421	ascii	get too long header %d:%s
+1422	ascii	sock_be_get_whole_head
+1423	ascii	..\sock_func.c:299
+1424	ascii	HTTP/1
+1425	ascii	get htto header error %d:%s
+1426	ascii	..\sock_func.c:306
+1427	ascii	Content-Length:
+1428	ascii	get Content-Length fai %s!!!
+1429	ascii	..\sock_func.c:315
+1430	ascii	open file:%s fail!!
+1431	ascii	..\sock_func.c:336
+1432	ascii	parse http url fail:%s
+1433	ascii	sock_make_http_req
+1434	ascii	..\sock_func.c:352
+1435	ascii	GET %s HTTP/1.1
+1436	ascii	Host:%s:%d
+1437	ascii	Accept-Encoding:gzip,deflate
+1438	ascii	get port fail
+1439	ascii	sock_make_connection
+1440	ascii	..\sock_func.c:389
+1441	ascii	parse url fail:%s
+1442	ascii	..\sock_func.c:403
+1443	ascii	trying too many times :%d
+1444	ascii	..\sock_func.c:408
+1445	ascii	call malloc fail!!
+1446	ascii	sock_get_msg_struct
+1447	ascii	..\sock_func.c:449
+1448	ascii	sock_get_sending_buf
+1449	ascii	..\sock_func.c:482
+1450	ascii	init-ok
+1451	ascii	sock_session_init
+1452	ascii	..\sock_func.c:512
+1453	ascii	sock close  line:%d fd:%d be_main_session:%d be_checked:%d
+1454	ascii	sock_deal_link_close_ex
+1455	ascii	..\sock_func.c:623
+1456	ascii	ice-sock ctrl_msg:%d msg_size;%d
+1457	ascii	sock_get_user_info
+1458	ascii	..\sock_func.c:660
+1459	ascii	get info magic error:%x magic:%x
+1460	ascii	..\sock_func.c:663
+1461	ascii	111worker->user_msg->sock_info.be_header:%d worker->user_msg->sock_info.read_pos:%d empty:%d i:%d worker->user_msg->sock_info.msg_size:%d worker->sock_header.ctrl_msg:%d
+1462	ascii	..\sock_func.c:718
+1463	ascii	worker->user_msg->sock_info.info malloc fail:%lu
+1464	ascii	..\sock_func.c:728
+1465	ascii	get too bigger header:%d support max size:%d
+1466	ascii	sock_deal_get_msg_header
+1467	ascii	..\sock_func.c:769
+1468	ascii	ice msg_type:%d msg_size;%d
+1469	ascii	..\sock_func.c:773
+1470	ascii	recv ctrl  msg:%d
+1471	ascii	sock_deal_get_msg_body
+1472	ascii	..\sock_func.c:797
+1473	ascii	..\sock_func.c:822
+1474	ascii	send msg_id:%d msg_type:%d msg_size:%d to worker mode
+1475	ascii	..\sock_func.c:837
+1476	ascii	send msg to worker thread fail!!!
+1477	ascii	..\sock_func.c:846
+1478	ascii	get read_bytes:%d biger than sock_info->lase_size%d
+1479	ascii	sock_deal_msg_info
+1480	ascii	..\sock_func.c:864
+1481	ascii	write file fail len:%d!!!!
+1482	ascii	sock_deal_http_read
+1483	ascii	..\sock_func.c:1058
+1484	ascii	version download ok!!
+1485	ascii	..\sock_func.c:1072
+1486	ascii	read buf be_main_session:%d fd:%d is null msg_size:%d read_pos:%d
+1487	ascii	sock_get_record_buf_func
+1488	ascii	..\sock_func.c:1089
+1489	ascii	read fail:%d,bytes:%d want:%d
+1490	ascii	sock_deal_scok_read
+1491	ascii	..\sock_func.c:1167
+1492	ascii	bytes:%d read_len:%d
+1493	ascii	..\sock_func.c:1178
+1494	ascii	make link ok to main mode: SOCK_THREAD_CONN LinkHeader_t:%d
+1495	ascii	sock_deal_connect_init
+1496	ascii	..\sock_func.c:1229
+1497	ascii	make link ok to dest[%s:%d] mode: SOCK_THREAD_CONN
+1498	ascii	..\sock_func.c:1237
+1499	ascii	make http connection to csap mode success: SOCK_THREAD_CONN 
+1500	ascii	..\sock_func.c:1248
+1501	ascii	get sock ack timeout !!!
+1502	ascii	sock_check_common_sock
+1503	ascii	..\sock_func.c:1442
+1504	ascii	get sock connect timeout !!!
+1505	ascii	..\sock_func.c:1447
+1506	ascii	get sock ack timeout !!!, no ack times:%d
+1507	ascii	sock_thread_func
+1508	ascii	..\sock_func.c:1486
+1509	ascii	no ack too many times, exit
+1510	ascii	..\sock_func.c:1491
+1511	ascii	..\sock_func.c:1492
+1512	ascii	_sock_pre_init_func
+1513	ascii	call CREATE_THREAD fail!!
+1514	ascii	_sock_thread_init
+1515	ascii	..\sock_func.c:1563
+1516	ascii	bytes:%d send_header:%d msg_size:%d error:%d
+1517	ascii	_scok_send_msg
+1518	ascii	..\sock_func.c:1642
+1519	ascii	..\sock_func.c:1660
+1520	ascii	..\sock_func.c:1672
+1521	ascii	session:%p g_scok_session:%p
+1522	ascii	_sock_init_func_ex
+1523	ascii	..\sock_func.c:1693
+1524	ascii	input session is invalid! session->ss_flag:%u, %u
+1525	ascii	_sock_disconnect_ex
+1526	ascii	..\sock_func.c:1732
+1527	ascii	input session is invalid! session->ss_flag:%u, %u msg_size:%d
+1528	ascii	_sock_send_func_ex
+1529	ascii	..\sock_func.c:1773
+1530	ascii	fd:%d bytes:%d msg_size:%d error:%d
+1531	ascii	..\sock_func.c:1788
+1532	ascii	..\sock_func.c:1800
+1533	ascii	input session is invalid! session->ss_flag:%u, %u data_len:%d
+1534	ascii	_sock_read_func_ex
+1535	ascii	..\sock_func.c:1825
+1536	ascii	..\sock_func.c:1839
+1537	ascii	call spice_new0 fail 
+1538	ascii	spice_timer_queue_add
+1539	ascii	..\timer_queue.c:150
+1540	ascii	..\timer_queue.c:151
+1541	ascii	Outputs:%d
+1542	ascii	ice_clear_desktop_capture
+1543	ascii	cursor_duplication.cpp:95
+1544	ascii	CreateDevice fail:hr:0x%x Outputs:%d
+1545	ascii	ice_init_desktop_capture_pack
+1546	ascii	cursor_duplication.cpp:153
+1547	ascii	hDxgiDevice fail:hr:0x%x Outputs:%d
+1548	ascii	cursor_duplication.cpp:164
+1549	ascii	GetParent fail:hr:0x%x Outputs:%d
+1550	ascii	cursor_duplication.cpp:176
+1551	ascii	EnumOutputs:%d fail:hr:0x%x
+1552	ascii	cursor_duplication.cpp:194
+1553	ascii	DeviceName:%S DisplayName:%S Outputs:%d Rotation:%d-%d
+1554	ascii	cursor_duplication.cpp:204
+1555	ascii	Device name is not same as display name, deviceName:%S worker->display_name:%S outputIndex:%d worker->display_id:%d
+1556	ascii	cursor_duplication.cpp:213
+1557	ascii	Enum output device failed, no corresponding device!
+1558	ascii	cursor_duplication.cpp:222
+1559	ascii	hDxgiOutput1 fail:hr:0x%x Outputs:%d
+1560	ascii	cursor_duplication.cpp:233
+1561	ascii	hDeskDupl fail:hr:0x%x Outputs:%d
+1562	ascii	cursor_duplication.cpp:243
+1563	ascii	get output success: Outputs:%d display_name:%S!!
+1564	ascii	cursor_duplication.cpp:246
+1565	ascii	pAdapter:%p pFactory:%p
+1566	ascii	ice_init_desktop_capture
+1567	ascii	cursor_duplication.cpp:280
+1568	ascii	find [%d] adapter:%p
+1569	ascii	cursor_duplication.cpp:284
+1570	ascii	adapter---Description:%S
+1571	ascii	cursor_duplication.cpp:289
+1572	ascii	adapter:%p init succeed
+1573	ascii	cursor_duplication.cpp:293
+1574	ascii	adapter:%p init failed
+1575	ascii	cursor_duplication.cpp:299
+1576	ascii	adapter init use default:NULL
+1577	ascii	cursor_duplication.cpp:307
+1578	ascii	need reset capture:0x%x Outputs:%d enc_frames:%u 
+1579	ascii	ice_deal_acquire_ret
+1580	ascii	cursor_duplication.cpp:317
+1581	ascii	need release frame capture:0x%x Outputs:%d 
+1582	ascii	cursor_duplication.cpp:323
+1583	ascii	undeal errcode, _restart vgpu capture hr:0x%x Outputs:%d
+1584	ascii	cursor_duplication.cpp:328
+1585	ascii	cursor_duplication.cpp:329
+1586	ascii	hr:0x%x
+1587	ascii	cursor_duplication.cpp:331
+1588	ascii	ice_get_frame_pointershape
+1589	ascii	call GetFramePointerShape:0x%x fail
+1590	ascii	cursor_duplication.cpp:484
+1591	ascii	dup_cursor_mono
+1592	ascii	dup_cursor
+1593	ascii	dup_cursor_output
+1594	ascii	id:%d,%d BufferSize:%u size:%u * %u, to:%d Type:%u unique:%llu,%llu hot_spot:%u,%u visible:%u
+1595	ascii	cursor_duplication.cpp:531
+1596	ascii	PointerShapeBufferSize:%u
+1597	ascii	ice_deal_mouse_msg
+1598	ascii	cursor_duplication.cpp:567
+1599	ascii	get new frames:%u
+1600	ascii	ice_get_cursor_info
+1601	ascii	cursor_duplication.cpp:635
+1602	ascii	cahce cursor info Id:%d,%d
+1603	ascii	ice_check_input_param
+1604	ascii	cursor_duplication.cpp:668
+1605	ascii	ice_deal_driver_cursor
+1606	ascii	driver_cursor
+1607	ascii	driver_cursor_output
+1608	ascii	set display_id:%d name:%s
+1609	ascii	ice_set_display_name
+1610	ascii	cursor_duplication.cpp:826
+1611	ascii	ice_get_display_info
+1612	ascii	c:\Windows\System32\vappvideo\appvideo_%d_%d.dat
+1613	ascii	ice_init_share_memory
+1614	ascii	success
+1615	ascii	fail
+1616	ascii	open share memory:%d %s!!
+1617	ascii	cursor_func.c:82
+1618	ascii	ice_delete_cursor_cache
+1619	ascii	cursor_func.c:94
+1620	ascii	cursor_msg_size change to %d
+1621	ascii	update_msg_size
+1622	ascii	cursor_func.c:227
+1623	ascii	channel_id:%d SPICE_MSG_CURSOR_RESET
+1624	ascii	ice_marshall_cursor_reset
+1625	ascii	cursor_func.c:256
+1626	ascii	c_id:%d msize= %d c.flags=%d size:%u * %u  uid:%llu visible:%d cu_flag:%d(1:h 2/3:x)
+1627	ascii	ice_marshall_cursor_init
+1628	ascii	cursor_func.c:338
+1629	ascii	%s numScreen:%d dwFlags:%d
+1630	ascii	MonitorEnumProc
+1631	ascii	cursor_func.c:390
+1632	ascii	g_numScreen:%d monitorinfo.szDevice:%s
+1633	ascii	cursor_func.c:398
+1634	ascii	%s mode:%d,%d pos:%d,%d dmBitsPerPel:%d Orientation:%d
+1635	ascii	ice_reset_display_2_default
+1636	ascii	desktop_layout.cpp:45
+1637	ascii	res:%d code:%d
+1638	ascii	desktop_layout.cpp:48
+1639	ascii	retry-res:%d code:%d
+1640	ascii	desktop_layout.cpp:57
+1641	ascii	find %d connected display
+1642	ascii	DesktopLayout::get_displays
+1643	ascii	desktop_layout.cpp:98
+1644	ascii	%s %s mode:%d,%d @%d HZ idx:%d Orientation:%d
+1645	ascii	desktop_layout.cpp:141
+1646	ascii	total:%d,%d
+1647	ascii	DesktopLayout::normalize_displays_pos
+1648	ascii	desktop_layout.cpp:203
+1649	ascii	vector<T> too long
+1650	ascii	C:\Windows\System32\cursor_%d.dat
+1651	ascii	ice_driver_cursor_init
+1652	ascii	id:%d, cursor map base:%p
+1653	ascii	driver_cursor.c:69
+1654	ascii	driver cursor chagned, size:%d, %d, shapeId:%d
+1655	ascii	ice_be_driver_cursor_change
+1656	ascii	driver_cursor.c:88
+1657	ascii	ice_get_driver_cursor_info
+1658	ascii	cursor_data is NULL
+1659	ascii	driver_cursor.c:113
+1660	ascii	XBOX 360
+1661	ascii	DualShock 4
+1662	ascii	id:%d begin
+1663	ascii	ice_game_controll_msg_handler_thread
+1664	ascii	game_controller.cpp:32
+1665	ascii	id:%d, DeviceState:%d
+1666	ascii	ice_game_controller_data_handle
+1667	ascii	game_controller.cpp:100
+1668	ascii	device[%d] plugining, wait device plug, avoid this msg
+1669	ascii	game_controller.cpp:113
+1670	ascii	invalid id:%d
+1671	ascii	ice_inputs_channel_handle_game_controller_parsed
+1672	ascii	game_controller.cpp:125
+1673	ascii	ice_game_controller_init
+1674	ascii	game_controller.cpp:149
+1675	ascii	id:%d, result:%d
+1676	ascii	ice_game_controller_plugin_done_cb
+1677	ascii	game_controller.cpp:162
+1678	ascii	device %d plugin failed
+1679	ascii	game_controller.cpp:178
+1680	ascii	id:%d, controller_type:%s
+1681	ascii	ice_game_controller_plugin
+1682	ascii	game_controller.cpp:193
+1683	ascii	malloc failed
+1684	ascii	game_controller.cpp:200
+1685	ascii	Queue is full
+1686	ascii	Queue<struct _XUSB_REPORT>::enqueue
+1687	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\iceinput\queue.h:54
+1688	ascii	XUSB_REPORT, id:%d ret:%x, wButtons:%x, bLeftTrigger:%d, bRightTrigger:%d, sThumbLX:%d, sThumbLY:%d, sThumbRX:%d, sThumbRY:%d
+1689	ascii	ice_game_controller_xbox_data_handle_vigem
+1690	ascii	game_controller_vigem.cpp:22
+1691	ascii	Uh, not enough memory to do that?!
+1692	ascii	ice_game_open_vigem
+1693	ascii	game_controller_vigem.cpp:42
+1694	ascii	ViGEm Bus connection failed with error code: 0x
+1695	ascii	game_controller_vigem.cpp:50
+1696	ascii	vigem bus device not exist, try install
+1697	ascii	game_controller_vigem.cpp:54
+1698	ascii	ViGEm Bus connection success
+1699	ascii	game_controller_vigem.cpp:62
+1700	ascii	Target plugin failed with error code: 0x
+1701	ascii	ice_game_controller_device_plugin
+1702	ascii	game_controller_vigem.cpp:77
+1703	ascii	device %d plugin success
+1704	ascii	game_controller_vigem.cpp:80
+1705	ascii	begin plugin, type:%d, id:%d
+1706	ascii	ice_vigem_plugin_thread
+1707	ascii	game_controller_vigem.cpp:96
+1708	ascii	end plugin, type:%d, id:%d
+1709	ascii	game_controller_vigem.cpp:104
+1710	ascii	iNVIDIA
+1711	ascii	ice_get_vendor
+1712	ascii	MOORE
+1713	ascii	VASTSTREAM
+1714	ascii	INTEL
+1715	ascii	have not get vendor!!!
+1716	ascii	adapter.cpp:38
+1717	ascii	EnumerateUsingDXGI
+1718	ascii	video_name:%s video_memory: %u MB video_vendor:%s
+1719	ascii	adapter.cpp:59
+1720	ascii	CreateDXGIFactory1 failed
+1721	ascii	ice_get_gpu_adapter_infos
+1722	ascii	adapter.cpp:201
+1723	ascii	Unsupported display adapter, of which vendorId is:0x%x
+1724	ascii	adapter.cpp:234
+1725	ascii	djpnewton\vmulti
+1726	ascii	vmulti_alloc failed
+1727	ascii	ice_init_icehid_handle
+1728	ascii	ice_input.cpp:230
+1729	ascii	icehid
+1730	ascii	vmulti_connect failed
+1731	ascii	ice_input.cpp:246
+1732	ascii	init kbd_handle:%p success!
+1733	ascii	ice_input.cpp:250
+1734	ascii	init ps2 kbd filter driver handle success
+1735	ascii	ice_init_ps2_kbd_handle
+1736	ascii	ice_input.cpp:288
+1737	ascii	init ps2 filter mouse driver handle success
+1738	ascii	ice_init_ps2_mouse_handle
+1739	ascii	ice_input.cpp:311
+1740	ascii	g_ice_kbd_handle:%p, g_ice_mouse_handle:%p, g_vmulti:%p
+1741	ascii	ice_print_input_handle
+1742	ascii	ice_input.cpp:320
+1743	ascii	Global\ice_input_cad_event
+1744	ascii	OpenEvent failed:%lu
+1745	ascii	make code:%x %x %x %x %x %x, shift key:%x
+1746	ascii	key_down_driver
+1747	ascii	ice_input.cpp:652
+1748	ascii	scan:0x%x, be_need_up:%d
+1749	ascii	ice_input.cpp:657
+1750	ascii	vmulti_update_keyboard failed, scan:0x%x
+1751	ascii	ice_input.cpp:661
+1752	ascii	up code is:%x
+1753	ascii	key_up_driver
+1754	ascii	ice_input.cpp:670
+1755	ascii	down_scan_code is:%x
+1756	ascii	ice_input.cpp:686
+1757	ascii	down make code is:%x
+1758	ascii	ice_input.cpp:708
+1759	ascii	ice_input.cpp:751
+1760	ascii	use send_input send key kown
+1761	ascii	key_down
+1762	ascii	ice_input.cpp:919
+1763	ascii	win key up
+1764	ascii	key_up
+1765	ascii	ice_input.cpp:941
+1766	ascii	KEY_LCTRL
+1767	ascii	KEY_LSHIFT
+1768	ascii	KEY_RSHIFT
+1769	ascii	KEY_LALT
+1770	ascii	KEY_TAB
+1771	ascii	KEY_RCTRL_EX
+1772	ascii	KEY_RALT_EX
+1773	ascii	KEY_LWIN_EX
+1774	ascii	KEY_RWIN_EX
+1775	ascii	recv:%s down msg
+1776	ascii	ice_print_special_key
+1777	ascii	ice_input.cpp:1016
+1778	ascii	recv:%s up msg
+1779	ascii	ice_input.cpp:1021
+1780	ascii	ice_deal_ctrl_alt_del
+1781	ascii	Global\ice_alt_ctrl_delevent
+1782	ascii	Win + P
+1783	ascii	ice_inputs_channel_handle_keyboard_parsed
+1784	ascii	ice_input.cpp:1071
+1785	ascii	Win + L -> Win + J
+1786	ascii	ice_input.cpp:1078
+1787	ascii	w-h:%d,%d
+1788	ascii	ice_input.cpp:1087
+1789	ascii	Ctrl + Alt + Del
+1790	ascii	ice_input.cpp:1088
+1791	ascii	ice_input.cpp:1141
+1792	ascii	ctrl key up
+1793	ascii	ice_input.cpp:1147
+1794	ascii	alt key up
+1795	ascii	ice_input.cpp:1153
+1796	ascii	client logout, log keyboard state:
+1797	ascii	ice_keyboard_reset
+1798	ascii	ice_input.cpp:1193
+1799	ascii	key down:%d
+1800	ascii	ice_input.cpp:1199
+1801	ascii	--------------log keyboard state end--------------
+1802	ascii	ice_input.cpp:1221
+1803	ascii	%x:[%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d]
+1804	ascii	ice_dump_keyboard_state
+1805	ascii	ice_input.cpp:1244
+1806	ascii	scroll lock:%d,num lock:%d, caps lock:%d
+1807	ascii	ice_handle_keyboard_modifiers
+1808	ascii	ice_input.cpp:1288
+1809	ascii	change scroll lock, %d
+1810	ascii	ice_input.cpp:1291
+1811	ascii	change num lock, %d
+1812	ascii	ice_input.cpp:1299
+1813	ascii	change caps lock, %d
+1814	ascii	ice_input.cpp:1307
+1815	ascii	button:%d, dx:%d, dy:%d, wheelPosition:%d
+1816	ascii	vmulti_update_relative_mouse_extern
+1817	ascii	ice_input.cpp:1475
+1818	ascii	mouse motion: dx:%d, dy:%d
+1819	ascii	ice_inputs_channel_handle_mouse_motion_parsed
+1820	ascii	ice_input.cpp:1484
+1821	ascii	send pos msg:%d %d(%d), g_desktop_changed_sec:%d
+1822	ascii	ice_inputs_channel_handle_mouse_move_parsed
+1823	ascii	ice_input.cpp:1649
+1824	ascii	ice_get_input_stat_info
+1825	ascii	|%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u
+1826	ascii	k/mp0/mp1/mm/ml/mr/mw/mx1/mx2/hw/vw: %s
+1827	ascii	ice_input.cpp:1897
+1828	ascii	k/mp0/mp1/mm/ml/mr/mw/mx1/mx2/hw/vw: none
+1829	ascii	ice_input.cpp:1901
+1830	ascii	stat_idx:%u 
+1831	ascii	force_print_input_stat_info
+1832	ascii	ice_input.cpp:1911
+1833	ascii	mouse press button:%d buttons_state:0x%x
+1834	ascii	ice_inputs_channel_handle_mouse_press_parsed
+1835	ascii	ice_input.cpp:1974
+1836	ascii	be_mouse_press_on_title:%d
+1837	ascii	ice_input.cpp:2004
+1838	ascii	mouse release be_mouse_press:%d button:%d buttons_state:0x%x
+1839	ascii	ice_inputs_channel_handle_mouse_release_parsed
+1840	ascii	ice_input.cpp:2021
+1841	ascii	buttons_state new:0x%x, old:0x%x mouse_wheel:%d buttons_change:%d mouse_xbutton:%d mouseData:%d
+1842	ascii	ice_handle_mouse_event_button
+1843	ascii	ice_input.cpp:2112
+1844	ascii	current server cursor:%d %d last_client_mouse:%d %d new_client_mousey:%d %d
+1845	ascii	ice_recalc_cursor_pos
+1846	ascii	ice_input.cpp:2149
+1847	ascii	11new server mouse_y:%d,%d
+1848	ascii	ice_input.cpp:2170
+1849	ascii	22new server mouse_y:%d,%d
+1850	ascii	ice_input.cpp:2176
+1851	ascii	33new server mouse_y:%d,%d
+1852	ascii	ice_input.cpp:2184
+1853	ascii	screen width or height is zero, skip this input
+1854	ascii	ice_input.cpp:2194
+1855	ascii	absolute mouse dx:%d, dy:%d
+1856	ascii	vmulti_update_mouse_extern
+1857	ascii	ice_input.cpp:2225
+1858	ascii	buttons:%d,%d
+1859	ascii	ice_input.cpp:2241
+1860	ascii	SendInput failed: %lu
+1861	ascii	ice_input_send_mouse_msg
+1862	ascii	ice_input.cpp:2278
+1863	ascii	SimulateCtrlAltDel
+1864	ascii	ice_input.cpp:2339
+1865	ascii	GetDpiForMonitor
+1866	ascii	GetSystemMetricsForDpi
+1867	ascii	User32.dll
+1868	ascii	monitor:%d,hMonitor:%p, dpiX:%d, dpiY:%d, %f, %f, hr:%d SM_CURSOR:%d,%d old:%d,%d
+1869	ascii	init_dpi
+1870	ascii	ice_input.cpp:2408
+1871	ascii	System Cursor Metrics Changed, Need Restart
+1872	ascii	ice_input.cpp:2412
+1873	ascii	ice_input.cpp:2413
+1874	ascii	invalid vector<T> subscript
+1875	ascii	support-core-dump
+1876	ascii	show
+1877	ascii	mrs-conf
+1878	ascii	desktop-monitor-count
+1879	ascii	log-level
+1880	ascii	reset-timer-peroid
+1881	ascii	8388608
+1882	ascii	desktop-stream-rat
+1883	ascii	not-used-freetime
+1884	ascii	desktop-dve-quality
+1885	ascii	dve-ref-num
+1886	ascii	desktop-idr-interval
+1887	ascii	65000
+1888	ascii	use-desktop-dupl
+1889	ascii	desktop-dve-mask
+1890	ascii	protocol-type
+1891	ascii	scale-screen
+1892	ascii	enable-network-cards
+1893	ascii	disable-lowlevel-tls
+1894	ascii	use-debugview
+1895	ascii	set-interesting
+1896	ascii	autocad-enc-mode
+1897	ascii	use-zip-lossless
+1898	ascii	multi-screen-video
+1899	ascii	multi-screen-video-width
+1900	ascii	multi-screen-video-hight
+1901	ascii	vapp-wait-display-run
+1902	ascii	1500
+1903	ascii	exclusive-pro
+1904	ascii	,OVERWATCH.EXE,
+1905	ascii	ice-vm-id
+1906	ascii	dve-log-level
+1907	ascii	dump-desktop-h264
+1908	ascii	dump-desktop-raw
+1909	ascii	dump-h264-maxsize
+1910	ascii	user-activity-data
+1911	ascii	user-activity-time
+1912	ascii	mouse-discard-count
+1913	ascii	mouse-discard-range
+1914	ascii	mouse-cache-time
+1915	ascii	mouse-cache-time-ex
+1916	ascii	input-log-level
+1917	ascii	tmp-input-log
+1918	ascii	mouse-discard
+1919	ascii	mouse-discard-ex
+1920	ascii	mouse-adjust
+1921	ascii	use-dup-cursor
+1922	ascii	input-cursor-dump
+1923	ascii	mouse-down-flag
+1924	ascii	mouse-pos-cnt
+1925	ascii	mouse-cursor-move
+1926	ascii	virkm-status
+1927	ascii	use-kbd-driver
+1928	ascii	use-hid-motion
+1929	ascii	auto-keyup
+1930	ascii	auto-keyup-timer-ms
+1931	ascii	auto-keyup-delay-ms
+1932	ascii	key-down-interval
+1933	ascii	power-off-screem
+1934	ascii	app-stuck-detection
+1935	ascii	app-busy-interval
+1936	ascii	explorer-busy-interval
+1937	ascii	busy-recover-interval
+1938	ascii	cursor-hook
+1939	ascii	cursor-game-mode
+1940	ascii	display-wins
+1941	ascii	,2,TXGuiFoundation,TXGuiFoundation,2,WMP Skin Host,WMP Plugin UI Host,3,Baofeng_StormPlayer,SplitterWindow,VideoContainer,
+1942	ascii	ice_get_win_names
+1943	ascii	parse cfg fail, current_pro input is null error
+1944	ascii	ice_parse_cfg_display_wins
+1945	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:101
+1946	ascii	%s%c
+1947	ascii	parse cfg fail, data input is null error
+1948	ascii	parse cfg fail, input val error val[%s] error
+1949	ascii	ice_parse_cfg_boolean_param
+1950	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:737
+1951	ascii	inside_parse_str_name_cfg
+1952	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1107
+1953	ascii	,%s,
+1954	ascii	input cfg_index parse error fail, cfg_index[%d] 
+1955	ascii	parse_cfg_comm_call
+1956	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1184
+1957	ascii	desktop-stream-scene
+1958	ascii	ice_parse_str_cfg
+1959	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1227
+1960	ascii	NULL
+1961	ascii	using default key[%s] val[%s]
+1962	ascii	read_all_cfg
+1963	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1260
+1964	ascii	get file key[%s] val[%s]
+1965	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1270
+1966	ascii	no-auth
+1967	ascii	charge
+1968	ascii	get default key[%s] val[%s]
+1969	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1276
+1970	ascii	parse cfg fail, name[%s] be_val:%d param error
+1971	ascii	parse_cfg_call_func
+1972	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1302
+1973	ascii	parse cfg fail, not find func name[%s] error
+1974	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1312
+1975	ascii	parse cfg get name[%s] val[%s]
+1976	ascii	parse_all_cfg
+1977	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1367
+1978	ascii	call cfg fail[%s] pos[%s]
+1979	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1370
+1980	ascii	parse cfg fail[%s] pos[%s]
+1981	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1379
+1982	ascii	GetModuleHandle ==NULL
+1983	ascii	create_window_cursor
+1984	ascii	main.c:343
+1985	ascii	ICE_CURSOR_CLASS
+1986	ascii	ice_deal_explorer_stat
+1987	ascii	main.c:366
+1988	ascii	explorer.exe
+1989	ascii	kill szExeFile:%s th32ProcessID:%u
+1990	ascii	main.c:395
+1991	ascii	explorer down:%llu, %llu %llu
+1992	ascii	ice_check_explorer
+1993	ascii	main.c:420
+1994	ascii	C:\Windows\explorer.exe
+1995	ascii	explorer down:%llu, desktop_time:%llu
+1996	ascii	main.c:432
+1997	ascii	ice_deal_input_desktop_handle
+1998	ascii	main.c:451
+1999	ascii	SetThreadDesktop failed:%lu,terminate process
+2000	ascii	main.c:457
+2001	ascii	main.c:459
+2002	ascii	window quit res:%d
+2003	ascii	ice_get_bmp_by_gdi
+2004	ascii	main.c:509
+2005	ascii	key:%u ext:%d, may continuous input, times:%u
+2006	ascii	kbd_check_continuous_input
+2007	ascii	main.c:564
+2008	ascii	key:%u ext:%d, down too long time:%llums
+2009	ascii	main.c:569
+2010	ascii	rePress, the keyboard down for a long time, key:%u ext:%d time:%llums
+2011	ascii	main.c:586
+2012	ascii	key:%u scan:%u, push_ext:%u times:%u
+2013	ascii	main.c:591
+2014	ascii	key:%d is down
+2015	ascii	inputs_check_keys_down_interval
+2016	ascii	main.c:615
+2017	ascii	key_ext:%d is down
+2018	ascii	main.c:626
+2019	ascii	cursor channel config:
+2020	ascii	V7.25.21-13
+2021	ascii	version : %s
+2022	ascii	log-level : %d
+2023	ascii	cursor-hook : %s
+2024	ascii	cfg->res_buf:%s
+2025	ascii	build_show_send
+2026	ascii	main.c:655
+2027	ascii	desktop_name:%s
+2028	ascii	ice_cursor_check_deskctop
+2029	ascii	main.c:685
+2030	ascii	Default
+2031	ascii	event %s, position client_cursor_move_time:%lld
+2032	ascii	ice_get_client_cursor_move_event
+2033	ascii	main.c:803
+2034	ascii	detected external cursor inputting, current_time:%lld client_cursor_move_time:%lld
+2035	ascii	ice_check_external_cursor
+2036	ascii	main.c:817
+2037	ascii	external cursor stop inputting, reset timer, current_time:%lld external_cursor_time:%lld client_cursor_move_time:%lld
+2038	ascii	cursor_timer_set
+2039	ascii	main.c:850
+2040	ascii	skip cid=%d uid:%llu
+2041	ascii	send_cursor_set
+2042	ascii	main.c:930
+2043	ascii	msz=%d cid=%d type:%u flag=%d sz:%u * %u uid:%llu vsb:%u (ch:%d,cu:%d(1:h 2/3:x))
+2044	ascii	main.c:959
+2045	ascii	cid:%d send hide msg line:%d
+2046	ascii	send_cursor_hide_ex
+2047	ascii	main.c:993
+2048	ascii	channel_id:%d send inval_one msg:%lld
+2049	ascii	send_cursor_inval_one
+2050	ascii	main.c:1024
+2051	ascii	cursor_move.position.x = %d  cursor_move.position.y =%d
+2052	ascii	send_cursor_move
+2053	ascii	main.c:1052
+2054	ascii	input hwnd:%p
+2055	ascii	ice_get_win_info
+2056	ascii	main.c:1063
+2057	ascii	get GetMonitorInfo fail:%lu, pos:%d,%d hscreen:%p
+2058	ascii	ice_get_monitor_info_by_point
+2059	ascii	main.c:1089
+2060	ascii	pos:%d,%d,%d,%d display_id:%d,%d
+2061	ascii	ice_conver_win_pose
+2062	ascii	main.c:1133
+2063	ascii	not find wind, using hwnd:%p
+2064	ascii	get_child_windows
+2065	ascii	main.c:1178
+2066	ascii	line:%d numScreen:%d
+2067	ascii	ice_send_init_link_msg
+2068	ascii	main.c:1186
+2069	ascii	ice_cursor_init_all_channels
+2070	ascii	main.c:1200
+2071	ascii	reinit cursor channel,user id:%d, link id:%d, channel id:%d
+2072	ascii	main.c:1220
+2073	ascii	idx:%d numScreen:%d k:%d user_id:%d
+2074	ascii	ice_get_usr_link_idx
+2075	ascii	main.c:1256
+2076	ascii	main.c:1260
+2077	ascii	display:%d cursor_being_invisible
+2078	ascii	ice_deal_win10_cursor_visable
+2079	ascii	main.c:1313
+2080	ascii	D3 Main Window Class
+2081	ascii	Diablo III64.exe is active
+2082	ascii	main.c:1326
+2083	ascii	display:%d cursor become visible again, api_no_visable:%d
+2084	ascii	main.c:1353
+2085	ascii	C:\Program Files (x86)\ZTEGuestOS\IceDriver\wddm\win8.1\x64\
+2086	ascii	C:\Program Files (x86)\ZTEGuestOS\IceDriver\xddm\install_fre_win7_x86\
+2087	ascii	dec_time:%ld   g_SpiceCfg->not_used_freetime:%d
+2088	ascii	ice_check_release_exe
+2089	ascii	main.c:1434
+2090	ascii	g_input_time_now:%ld
+2091	ascii	main.c:1436
+2092	ascii	win10
+2093	ascii	ice_driver_exceptional_insight
+2094	ascii	win7
+2095	ascii	driver_type:%d, vmid:%s
+2096	ascii	main.c:1458
+2097	ascii	Moore Threads
+2098	ascii	Vastai
+2099	ascii	%s Driver is exceptional, %s
+2100	ascii	main.c:1485
+2101	ascii	Driver reset normal
+2102	ascii	main.c:1493
+2103	ascii	IceCursorInfo.ptScreenPos.x:%d  g_IceCursorInfo_m.ptScreenPos.x:%d
+2104	ascii	ice_check_curcors_postion_for_multiten
+2105	ascii	main.c:1517
+2106	ascii	get video_memory:%u video_name:%s vendor_name:%s
+2107	ascii	ice_save_video_info
+2108	ascii	main.c:1534
+2109	ascii	device key or id error, key:%s, device id:%s, device string:%s
+2110	ascii	ice_get_ice_monitor_cnt_cursor
+2111	ascii	main.c:1603
+2112	ascii	PCI\VEN_1002&DEV_
+2113	ascii	Microsoft 
+2114	ascii	 VGA 
+2115	ascii	PCI\VEN_1ED5&DEV_
+2116	ascii	PCI\VEN_1EC6&DEV_
+2117	ascii	NVIDIA GRID 
+2118	ascii	NVIDIA A
+2119	ascii	ICE IDD 
+2120	ascii	found not ice dev, DisplayDevice.DeviceID:%s
+2121	ascii	main.c:1635
+2122	ascii	DisplayDevice.DeviceID:%s
+2123	ascii	main.c:1644
+2124	ascii	DisplayDevice.DeviceID:%s DisplayDevice.DeviceString:%s
+2125	ascii	main.c:1651
+2126	ascii	display_idx:%d idd_num:%d
+2127	ascii	main.c:1702
+2128	ascii	ROOT\BasicDisplay
+2129	ascii	Use driver cursor:%d
+2130	ascii	main.c:1753
+2131	ascii	main.c:1766
+2132	ascii	gpus ice:%d, nv:%d, amd:%d, mt:%d, va:%d, other:%d, qxl_dev_num:%d, other_display_cnt:%d, be_has_icedev:%d, be_ice_dev_wrong_driver:%d, ice_driver_id_flag:%d, idd_dev_num:%d, idd_num:%d
+2133	ascii	main.c:1777
+2134	ascii	display_flags change:0x%x-->0x%x, tmp:0x%x
+2135	ascii	main.c:1799
+2136	ascii	release_exe
+2137	ascii	main.c:1806
+2138	ascii	the first display not on ice_num:%d
+2139	ascii	main.c:1812
+2140	ascii	ice will install wddm display driver, %d, %d, other_display_cnt:%d
+2141	ascii	main.c:1821
+2142	ascii	gpu_driver_flag:%d  %d
+2143	ascii	main.c:1830
+2144	ascii	ice_deal_spical_app_cursor
+2145	ascii	main.c:1883
+2146	ascii	cur_handle is null, send hide disp_idx:%d
+2147	ascii	ice_pack_get_cursor_info
+2148	ascii	main.c:1897
+2149	ascii	get cursor fail, just skip current cursor:%p disp_idx:%d!!
+2150	ascii	main.c:1904
+2151	ascii	disp_idx:%d cursor_stat[k].cursor_stat:%d
+2152	ascii	main.c:1909
+2153	ascii	hide cursor disp_idx:%d
+2154	ascii	main.c:1915
+2155	ascii	monitorinfo.szDevice:%s  k=%d
+2156	ascii	ice_get_cursor_in_disp
+2157	ascii	main.c:1950
+2158	ascii	g_numScreen:%d 
+2159	ascii	main.c:1952
+2160	ascii	main.c:1955
+2161	ascii	display matched
+2162	ascii	main.c:1961
+2163	ascii	error: k == g_numScreen again, srceen not found 
+2164	ascii	main.c:1969
+2165	ascii	api_no_visable:%d visible:%d change_flag:0x%x
+2166	ascii	ice_send_cursor_set_msg
+2167	ascii	main.c:2000
+2168	ascii	GetVCPFeatureAndVCPFeatureReply i:%d res__:%d,%d errno:%d Val:%d dwCurrentValue:%d
+2169	ascii	_MonitorEnumProc
+2170	ascii	main.c:2079
+2171	ascii	dwMonitorCount:%d error:%d
+2172	ascii	main.c:2101
+2173	ascii	g_client_session.use_dup_cursor:%d
+2174	ascii	ice_be_dup_cursor_changed
+2175	ascii	main.c:2143
+2176	ascii	dda cursor:%d, change:%d
+2177	ascii	main.c:2150
+2178	ascii	cursor_stat[k].cursor_stat:%d   cursor_stat[k].old_stat:%d, ci.hCursor:%p old_handle:%p flags:%d,%d be_invisible:%d
+2179	ascii	deal_cursor_msgs
+2180	ascii	main.c:2210
+2181	ascii	g_pt.x=%d  prev_position.x=%d  g_pt.y = %d   prev_position.y = %d force_move:%d
+2182	ascii	main.c:2226
+2183	ascii	display:%d cursor visable agein
+2184	ascii	main.c:2237
+2185	ascii	%s\Software\Tencent\LOL
+2186	ascii	SetLOLDesktopSize
+2187	ascii	InstallPath
+2188	ascii	%s\Game\Config\game.cfg
+2189	ascii	Width
+2190	ascii	General
+2191	ascii	Height
+2192	ascii	display_flags change:0x%x-->0x%x
+2193	ascii	ice_load_display_setting
+2194	ascii	main.c:2362
+2195	ascii	display_num:%d g_be_has_real_gpu:%d be_first_on:%d
+2196	ascii	main.c:2371
+2197	ascii	display_pos file idx not change display_id:%d last_file_id:%d
+2198	ascii	ice_get_cursor_share_mem
+2199	ascii	main.c:2399
+2200	ascii	display_pos file idx change display_id:%d pos:%d,%d old_file_id:%d new:%d
+2201	ascii	main.c:2403
+2202	ascii	create_window
+2203	ascii	main.c:2417
+2204	ascii	ICEINPUT
+2205	ascii	Register Notification() failed: %lu
+2206	ascii	main.c:2425
+2207	ascii	load hook
+2208	ascii	ice_init_cursor_hook
+2209	ascii	main.c:2449
+2210	ascii	IceCursorHook.dll
+2211	ascii	ice_register_hook_log
+2212	ascii	ice_set_mouse_hook
+2213	ascii	set hook failed
+2214	ascii	main.c:2465
+2215	ascii	load timer
+2216	ascii	main.c:2474
+2217	ascii	ice display count:%d other gpu_cnt: %d
+2218	ascii	change_monitor_count
+2219	ascii	main.c:2551
+2220	ascii	release middle button!!!
+2221	ascii	set_mouse_middle_button_release
+2222	ascii	main.c:2576
+2223	ascii	release left button!!!
+2224	ascii	main.c:2588
+2225	ascii	release right button!!!
+2226	ascii	main.c:2600
+2227	ascii	release xbutton1 button!!!
+2228	ascii	main.c:2612
+2229	ascii	release xbutton2 button!!!
+2230	ascii	main.c:2624
+2231	ascii	ice_get_busy_app
+2232	ascii	val user state:%u
+2233	ascii	main.c:2653
+2234	ascii	busy app!!! %s
+2235	ascii	main.c:2666
+2236	ascii	busy explorer!!! %s
+2237	ascii	main.c:2676
+2238	ascii	report:%u
+2239	ascii	main.c:2682
+2240	ascii	app busy recover!!!
+2241	ascii	busy recover tm :%lu!!!
+2242	ascii	main.c:2689
+2243	ascii	ice_deal_input_all_logout
+2244	ascii	main.c:2703
+2245	ascii	find user_id:%d i:%d init
+2246	ascii	ice_input_be_none_client
+2247	ascii	main.c:2724
+2248	ascii	ice_input_client_login
+2249	ascii	main.c:2745
+2250	ascii	user_id:%d client_mode:%d
+2251	ascii	ice_input_change_client_mode
+2252	ascii	main.c:2779
+2253	ascii	active idd cnt:%d
+2254	ascii	ice_notify_display_screen_pos
+2255	ascii	main.c:2859
+2256	ascii	send display change message to display. display_flag:0x%x
+2257	ascii	main.c:2869
+2258	ascii	MAIN_MSG_CLINET_REG
+2259	ascii	deal_sock_inside_msg
+2260	ascii	main.c:2885
+2261	ascii	recv SOCK_THREAD_CONN
+2262	ascii	main.c:2891
+2263	ascii	SOCK_THREAD_DISCONN
+2264	ascii	main.c:2895
+2265	ascii	user_id:%d mode->client_mode:%d SPICE_NORMAL:%d
+2266	ascii	deal_client_mode_change
+2267	ascii	main.c:2914
+2268	ascii	input channel config:
+2269	ascii	tmp-log-level : %d
+2270	ascii	mouse-discard : %s
+2271	ascii	mouse-cache-time : %d
+2272	ascii	mouse-discard-ex : %s
+2273	ascii	mouse-cache-time-ex : %d
+2274	ascii	mouse-adjust : %s
+2275	ascii	key-down-interval : %d
+2276	ascii	mouse_down_flag:%d,mouse_cursor_move:%d use_dup_cursor:%d input_cursor_dump:%d
+2277	ascii	ice_set_param_val
+2278	ascii	main.c:3015
+2279	ascii	channel_type:%d %d _size:%d %d
+2280	ascii	ice_deal_cfg_msg
+2281	ascii	main.c:3041
+2282	ascii	DisplayLink
+2283	ascii	skip-display-monitor
+2284	ascii	cfgMsg->msg:%s
+2285	ascii	main.c:3062
+2286	ascii	--show
+2287	ascii	MAIN_MSG_TC_KEY_DOWN
+2288	ascii	ice_input_send_tc_to_main
+2289	ascii	main.c:3101
+2290	ascii	input close log level
+2291	ascii	ice_change_input_log_level
+2292	ascii	main.c:3170
+2293	ascii	input exit close g_inputlog_timestart:%d g_inputlog_timelimit:%d
+2294	ascii	main.c:3176
+2295	ascii	input change log out time
+2296	ascii	main.c:3192
+2297	ascii	receive MAIN_MSG_CLINET_LOGON msg data:%d user_id:%d link_id:%d client_mode:%d type=%d
+2298	ascii	deal_sock_ctrl_msgs
+2299	ascii	main.c:3233
+2300	ascii	main.c:3245
+2301	ascii	recv MAIN_MSG_CLINET_LOGON user_id:%u link_id:%d channel_id:%d  type=%d g_user:%d
+2302	ascii	main.c:3253
+2303	ascii	receive MAIN_MSG_CLINET_LOGOUT msg user_id:%d link_id:%d
+2304	ascii	main.c:3263
+2305	ascii	recv MAIN_MSG_CLINET_LOGOUT user_id:%u link_id:%d channel_id:%d g_user:%d
+2306	ascii	main.c:3287
+2307	ascii	main.c:3300
+2308	ascii	recv MAIN_MSG_CLIENT_MULTI_REG user_id:%u dm_ctrl:%d
+2309	ascii	main.c:3310
+2310	ascii	msg->swtich:%d msg->time:%d
+2311	ascii	main.c:3319
+2312	ascii	led state changed, keyboard modifiers:%x -> %x
+2313	ascii	notify_client_led
+2314	ascii	main.c:3351
+2315	ascii	no_input_mem
+2316	ascii	ice_recivie_input_envent_ex
+2317	ascii	main.c:3391
+2318	ascii	g_key_down_time :%d
+2319	ascii	main.c:3400
+2320	ascii	inactive
+2321	ascii	active
+2322	ascii	%s,interval=%dmin,key=%d,left=%d,mid=%d,right=%d,xbutton1=%d,xbutton2=%d,vwheel=%d,hwheel=%d
+2323	ascii	ice_deal_activation_timer
+2324	ascii	ice insight activation, info = [%s]
+2325	ascii	main.c:3467
+2326	ascii	ping interv[%d] too long
+2327	ascii	ice_show_pong_timestamp
+2328	ascii	main.c:3492
+2329	ascii	%llu.%03llu s
+2330	ascii	First input event!
+2331	ascii	handle_first_input_event
+2332	ascii	main.c:3517
+2333	ascii	mouse scroll, dir:%d UP:%d DOWN:%d HWUP:%d HWDOWN:%d
+2334	ascii	video_set_mouse_press_flag
+2335	ascii	main.c:3540
+2336	ascii	send motion_ack ms in:%d user_id:%d
+2337	ascii	deal_sock_msgs
+2338	ascii	main.c:3580
+2339	ascii	SPICE_MSGC_INPUTS_KEY_DOWN:%d
+2340	ascii	main.c:3599
+2341	ascii	SPICE_MSGC_INPUTS_KEY_UP:%d
+2342	ascii	main.c:3610
+2343	ascii	SPICE_MSGC_INPUTS_KEY_MODIFIERS:%d
+2344	ascii	main.c:3621
+2345	ascii	POSITION
+2346	ascii	POSITION x:%d y:%d, buttons_state:0x%x, display_id:%d
+2347	ascii	main.c:3639
+2348	ascii	MOTION
+2349	ascii	g_not_ice_attached:%s
+2350	ascii	ice_init_screen_pos
+2351	ascii	main.c:3772
+2352	ascii	has 2 or more ice gpu
+2353	ascii	ice_get_ice_gpu_count
+2354	ascii	main.c:3828
+2355	ascii	ice gpu count:%d
+2356	ascii	main.c:3834
+2357	ascii	more than 5m no input event, send mouse event
+2358	ascii	check_input_event
+2359	ascii	main.c:3847
+2360	ascii	ice_deal_display_change_msg
+2361	ascii	main.c:3862
+2362	ascii	Screen-saver
+2363	ascii	kill screensaver desktop, simulate keybd event: VK_RIGHT
+2364	ascii	main.c:3874
+2365	ascii	g_not_ice_attached:%d
+2366	ascii	main.c:3884
+2367	ascii	HOOK_MOUSE_UPDATE enter  g_user= %d
+2368	ascii	main.c:3893
+2369	ascii	found ice driver dev devicedevice id:%s, %s 
+2370	ascii	ice_check_mouse_hardware_id
+2371	ascii	main.c:3917
+2372	ascii	ice_check_kbd_hardware_id
+2373	ascii	main.c:3936
+2374	ascii	HID\VMULTI&
+2375	ascii	HID\ICEHID&
+2376	ascii	free hid handle, mouse hardware error
+2377	ascii	ice_check_hid_device
+2378	ascii	main.c:3957
+2379	ascii	free hid handle, kbd hardware error
+2380	ascii	main.c:3970
+2381	ascii	found vigem bus dev devicedevice id:%s, %s 
+2382	ascii	ice_check_vigem_bus_hardware_id
+2383	ascii	main.c:3981
+2384	ascii	ICEVGEmBus
+2385	ascii	install-gc-bus
+2386	ascii	%s : %ds, 
+2387	ascii	ice_get_report_buf
+2388	ascii	busy_app_buf:%s index:%d
+2389	ascii	main.c:4028
+2390	ascii	%s : %ds
+2391	ascii	busy_explore_buf:%s
+2392	ascii	main.c:4038
+2393	ascii	mouse busy start!!!g_mouse_busy_start_time:%lu
+2394	ascii	ice_get_mouse_busy_time
+2395	ascii	main.c:4051
+2396	ascii	mouse busy end!!!*busy_time :%lu g_mouse_busy_start_time:%lu
+2397	ascii	main.c:4060
+2398	ascii	scan:0x%x, be_ext:%d, key_down_times:%d, delay:%lu, max_delay:%d
+2399	ascii	ice_deal_auto_keyup
+2400	ascii	main.c:4146
+2401	ascii	SOCK_MODE_TIMER_MSG enter  g_user= %d g_desk_stat:%d g_cursor_timer:%p hook-handle:%p
+2402	ascii	ice_deal_input_timer
+2403	ascii	main.c:4264
+2404	ascii	SetDesktopHandle failed:%lu
+2405	ascii	ice_retry_set_thread_desktop
+2406	ascii	main.c:4284
+2407	ascii	main.c:4285
+2408	ascii	init thread:%u
+2409	ascii	thread_check_thread
+2410	ascii	main.c:4302
+2411	ascii	man_thread_func
+2412	ascii	InputEventInfo:%p
+2413	ascii	main.c:4323
+2414	ascii	mouse discard:%d, mouse cache time:%d g_IceLogLevel:%d
+2415	ascii	main.c:4340
+2416	ascii	vapp mode, create check input event timer
+2417	ascii	main.c:4360
+2418	ascii	Global\ice_cursor_ch_event
+2419	ascii	MAIN_MSG_EXIT
+2420	ascii	main.c:4447
+2421	ascii	DESKTOP_NAME
+2422	ascii	ice_write_desktop_info_reg
+2423	ascii	desktop_full_name:%s,%s,%s
+2424	ascii	main.c:4490
+2425	ascii	SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Configuration\
+2426	ascii	open reg failed:%ld,%lu
+2427	ascii	get_reg_graphics_based_timestamp
+2428	ascii	main.c:4545
+2429	ascii	query reg info failed:%ld,%lu
+2430	ascii	main.c:4553
+2431	ascii	enum reg failed:%ld,%lu
+2432	ascii	main.c:4573
+2433	ascii	Timestamp
+2434	ascii	IceDisplaySetting.exe
+2435	ascii	%s %s
+2436	ascii	ice_run_display_set
+2437	ascii	process:%s cmd_line:%s
+2438	ascii	main.c:4639
+2439	ascii	main.c:4644
+2440	ascii	call IceDisplaySetting fail!!!
+2441	ascii	main.c:4651
+2442	ascii	process stop code is ICE_DRUN_CODE!!!
+2443	ascii	main.c:4664
+2444	ascii	IceDisplaySetting timeout or fail exitCode try:%d exitCode:%d, stop process!!!
+2445	ascii	main.c:4667
+2446	ascii	g_SpiceCfg->use_kbd_driver:%d, g_client_session.usr_kbd_driver:%d
+2447	ascii	ice_init_input_device_handle
+2448	ascii	main.c:4693
+2449	ascii	desktop_name:%s 
+2450	ascii	main.c:4708
+2451	ascii	install-hid
+2452	ascii	set-mousekeys extend
+2453	ascii	ice_reset_dpi
+2454	ascii	SYSTEM\CurrentControlSet\Control\Video
+2455	ascii	Current Graphics Drivers: %s, all: %d ice_reset_dpi:%d
+2456	ascii	ice_reset_system_dpi_process
+2457	ascii	main.c:4782
+2458	ascii	Graphics Drivers configuration too less
+2459	ascii	main.c:4785
+2460	ascii	set-audio
+2461	ascii	change desktop from %s 
+2462	ascii	desktop_change_handler
+2463	ascii	main.c:4831
+2464	ascii	to %s
+2465	ascii	main.c:4843
+2466	ascii	WM_DISPLAYCHANGE:%d
+2467	ascii	wnd_proc
+2468	ascii	main.c:4873
+2469	ascii	WM_DESKTOP_CHANGE
+2470	ascii	main.c:4877
+2471	ascii	PostQuitMessage close window
+2472	ascii	wparam:%d PBT_APMRESUMEAUTOMATIC:%d
+2473	ascii	main.c:4885
+2474	ascii	len:%d, data:%d  g_be_default_desktop:%d
+2475	ascii	main.c:4891
+2476	ascii	change g_be_screen_on to 1
+2477	ascii	main.c:4894
+2478	ascii	Global\ice_input_sc_event
+2479	ascii	CreateEvent failed:%lu
+2480	ascii	init_sc_thread
+2481	ascii	main.c:5000
+2482	ascii	create sc thread success, thread id:%u
+2483	ascii	main.c:5009
+2484	ascii	session change thread, WaitForSingleObject.
+2485	ascii	sc_thread_func
+2486	ascii	main.c:5021
+2487	ascii	session changed, close hid dev
+2488	ascii	main.c:5027
+2489	ascii	desktop_change_event_thread_proc
+2490	ascii	WinSta0_DesktopSwitch
+2491	ascii	open WinSta0_DesktopSwitch event failed:%lu
+2492	ascii	main.c:5050
+2493	ascii	Global\ice_input_exit_event
+2494	ascii	input get exit event
+2495	ascii	main.c:5076
+2496	ascii	main.c:5077
+2497	ascii	key roll up
+2498	ascii	ice_check_direction_key_be_presses
+2499	ascii	main.c:5101
+2500	ascii	key roll left
+2501	ascii	main.c:5107
+2502	ascii	key roll right
+2503	ascii	main.c:5113
+2504	ascii	key roll down
+2505	ascii	main.c:5119
+2506	ascii	ice_create_input_sh_mem
+2507	ascii	gpu dev info:%s, %s, %s
+2508	ascii	ice_have_va_vd
+2509	ascii	main.c:5219
+2510	ascii	ice_input.log
+2511	ascii	14:55:29
+2512	ascii	2025-07-09
+2513	ascii	version:%s build on: %s %s
+2514	ascii	main
+2515	ascii	main.c:5242
+2516	ascii	SetProcessShutdownParameters failed:%lu
+2517	ascii	main.c:5260
+2518	ascii	app mode:%d, session_id:%u, user_name:%s be_pc_mode:%d game_mode:%d gpu_enc:%d auto key-up:%d g_mouse_align_pos_cnt:0x%x desktop_name:%ss
+2519	ascii	main.c:5279
+2520	ascii	create thread failed:%d
+2521	ascii	main.c:5291
+2522	ascii	main.c:5293
+2523	ascii	main.c:5299
+2524	ascii	main.c:5301
+2525	ascii	main.c:5307
+2526	ascii	main.c:5309
+2527	ascii	main.c:5339
+2528	ascii	buf_size too bigger:%u call :%s :%d
+2529	ascii	ice_get_cursor_buf_ex
+2530	ascii	win32api.c:16
+2531	ascii	user32.dll
+2532	ascii	Load user32.dll failed
+2533	ascii	Init_GetCursorFrameInfo
+2534	ascii	win32api.c:27
+2535	ascii	GetCursorFrameInfo
+2536	ascii	ice_get_cursor_info failed:%lu
+2537	ascii	win32api.c:132
+2538	ascii	flags:%d cursor:%p
+2539	ascii	win32api.c:136
+2540	ascii	bmWidth:%d bmWidthBytes:%d bmHeight:%d, i:%d j:%d and:0x%x xor:0x%x
+2541	ascii	ice_be_mono_cursor_hide
+2542	ascii	win32api.c:183
+2543	ascii	..\log\ice_server\cursor_dump
+2544	ascii	rgba
+2545	ascii	copy_from_mask
+2546	ascii	ice_get_mono_cursor
+2547	ascii	win32api.c:209
+2548	ascii	bmp.bmHeight=%d  bmp.bmWidth=%d  bmp.bmBitsPixel=%d  bmp.bmWidthBytes=%d
+2549	ascii	win32api.c:218
+2550	ascii	GetBitmapBits failed
+2551	ascii	win32api.c:227
+2552	ascii	GetObject bmp failed!!
+2553	ascii	win32api.c:233
+2554	ascii	mono_cursor
+2555	ascii	ice_deal_mono_cursor be_hide:%d
+2556	ascii	win32api.c:246
+2557	ascii	data->cursor.data_size=%d
+2558	ascii	win32api.c:254
+2559	ascii	bmp_mask.bmWidth=%d  bmWidthBytes=%d  bmBitsPixel=%d
+2560	ascii	ice_deal_cursor_mask
+2561	ascii	win32api.c:274
+2562	ascii	win32api.c:288
+2563	ascii	color_cursor_mask
+2564	ascii	bmWidth:%d, bmHeight:%d, bmWidthBytes=%d, maskWidth=%d maskHeight:%d maskWidthBytes=%d 
+2565	ascii	win32api.c:295
+2566	ascii	has_alpha :%d be_hide:%d
+2567	ascii	win32api.c:301
+2568	ascii	color_cursor_output
+2569	ascii	GetObject mask_bmp:%p failed!!
+2570	ascii	win32api.c:313
+2571	ascii	bmp_color.bmWidth=%d  bmWidthBytes=%d  bmBitsPixel=%d
+2572	ascii	ice_get_cursor_cursor
+2573	ascii	win32api.c:328
+2574	ascii	win32api.c:337
+2575	ascii	color_cursor
+2576	ascii	ice_deal_cursor_mask data_size=%d  be_hide:%d
+2577	ascii	win32api.c:354
+2578	ascii	data->cursor.data_size=%d  be_hide:%d
+2579	ascii	win32api.c:363
+2580	ascii	hCursor = %p display_id:%d
+2581	ascii	ice_cursor_info
+2582	ascii	win32api.c:408
+2583	ascii	CopyIcon failed display_id:%d
+2584	ascii	win32api.c:417
+2585	ascii	GetIconInfo failed display_id:%d
+2586	ascii	win32api.c:423
+2587	ascii	cursor hide sys-flags:%d display_id:%d
+2588	ascii	win32api.c:467
+2589	ascii	ci.flags%d visible:%d display_id:%d cursor_flag:%d
+2590	ascii	win32api.c:483
+2591	ascii	nvapi_pepQueryInterface
+2592	ascii	nvapi_QueryInterface
+2593	ascii	SHGetFolderPathW
+2594	ascii	RegCloseKey
+2595	ascii	RegEnumValueW
+2596	ascii	RegOpenKeyExW
+2597	ascii	RegQueryValueExW
+2598	ascii	SetupDiDestroyDeviceInfoList
+2599	ascii	SetupDiGetDeviceInterfaceDetailW
+2600	ascii	SetupDiEnumDeviceInterfaces
+2601	ascii	SetupDiGetClassDevsW
+2602	ascii	CloseServiceHandle
+2603	ascii	QueryServiceConfigW
+2604	ascii	OpenServiceW
+2605	ascii	OpenSCManagerW
+2606	ascii	SetupDiGetDeviceRegistryPropertyW
+2607	ascii	SetupGetInfDriverStoreLocationW
+2608	ascii	SetupDiGetDevicePropertyW
+2609	ascii	failed HidD_SetNumInputBuffers %d
+2610	ascii	failed WriteFile %d
+2611	ascii	SetupDiGetClassDevs failed: %x
+2612	ascii	....looking for our %s HID device (with UP=0x%x and Usage=0x%x)
+2613	ascii	Failure: Could not find our HID device 
+2614	ascii	Error: OpenDeviceInterface: malloc failed
+2615	ascii	Error: SetupDiGetInterfaceDeviceDetail failed
+2616	ascii	SetupDiGetDeviceRegistryProperty failed:%d, %s
+2617	ascii	Error: CreateFile failed: %d
+2618	ascii	find hardware id:%s
+2619	ascii	Error: HidD_GetPreparsedData failed 
+2620	ascii	Error: HidD_GetAttributes failed 
+2621	ascii	Error: HidP_GetCaps failed 
+2622	ascii	Success: Found my device.. 
+2623	ascii	m)BQ
+2624	ascii	generic
+2625	ascii	unknown error
+2626	ascii	iostream
+2627	ascii	iostream stream error
+2628	ascii	system
+2629	ascii	SetupDiGetClassDevs failed: %lu
+2630	ascii	filter_get_driver_device_path
+2631	ascii	filterclient.cpp:155
+2632	ascii	List of Device Interfaces
+2633	ascii	filterclient.cpp:160
+2634	ascii	SetupDiGetDeviceInterfaceDetail failed %lu
+2635	ascii	filterclient.cpp:177
+2636	ascii	Couldn't allocate %d bytes for device interface details.
+2637	ascii	filterclient.cpp:193
+2638	ascii	Error in SetupDiGetDeviceInterfaceDetail
+2639	ascii	filterclient.cpp:206
+2640	ascii	idx:%d, %s
+2641	ascii	filterclient.cpp:211
+2642	ascii	No device interfaces present
+2643	ascii	filterclient.cpp:228
+2644	ascii	Input buf is small:%d, needed:%s
+2645	ascii	filterclient.cpp:234
+2646	ascii	Opening the last interface: %s
+2647	ascii	filterclient.cpp:241
+2648	ascii	get mouse filter driver path failed
+2649	ascii	filter_connect_mouse
+2650	ascii	filterclient.cpp:252
+2651	ascii	mouse filter driver path:%s, CreateFile failed: %lu
+2652	ascii	filterclient.cpp:267
+2653	ascii	mouse filter driver connect success: %p
+2654	ascii	filterclient.cpp:271
+2655	ascii	get kbd filter driver path failed
+2656	ascii	filter_connect_keyboard
+2657	ascii	filterclient.cpp:280
+2658	ascii	kbd filter driver path:%s, CreateFile failed: %lu
+2659	ascii	filterclient.cpp:295
+2660	ascii	kbd filter driver connect success: %p
+2661	ascii	filterclient.cpp:299
+2662	ascii	ButtonFlags:0x%x ButtonData:%d
+2663	ascii	filter_update_mouse
+2664	ascii	filterclient.cpp:413
+2665	ascii	ButtonFlags:0x%x ButtonData:%d Flags:0x%x LastX:%ld LastY:%ld
+2666	ascii	filterclient.cpp:419
+2667	ascii	DeviceIoControl failed:%lu
+2668	ascii	filterclient.cpp:424
+2669	ascii	Retrieve Keyboard Flags:0x:%x MakeCode:%d
+2670	ascii	filter_update_keyboard
+2671	ascii	filterclient.cpp:438
+2672	ascii	filterclient.cpp:444
+2673	ascii	string too long
+2674	ascii	invalid string position
+2675	ascii	RSDS
+2676	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\x64\Release\IceInput.pdb
+2677	ascii	HidP_GetCaps
+2678	ascii	HidD_FreePreparsedData
+2679	ascii	HidD_GetAttributes
+2680	ascii	HidD_SetNumInputBuffers
+2681	ascii	HidD_GetHidGuid
+2682	ascii	HidD_GetPreparsedData
+2683	ascii	HID.DLL
+2684	ascii	FreeLibrary
+2685	ascii	GetProcAddress
+2686	ascii	LocalAlloc
+2687	ascii	LocalFree
+2688	ascii	OpenProcess
+2689	ascii	GetCurrentProcess
+2690	ascii	GetCurrentProcessId
+2691	ascii	TerminateProcess
+2692	ascii	GetExitCodeProcess
+2693	ascii	SetUnhandledExceptionFilter
+2694	ascii	CreateThread
+2695	ascii	GetCurrentThread
+2696	ascii	GetCurrentThreadId
+2697	ascii	GetProcessId
+2698	ascii	SetThreadPriority
+2699	ascii	GetLastError
+2700	ascii	SetLastError
+2701	ascii	InitializeCriticalSection
+2702	ascii	EnterCriticalSection
+2703	ascii	LeaveCriticalSection
+2704	ascii	SetEvent
+2705	ascii	Sleep
+2706	ascii	GetFileSize
+2707	ascii	WriteFile
+2708	ascii	CloseHandle
+2709	ascii	GetSystemTimeAsFileTime
+2710	ascii	GetLocalTime
+2711	ascii	GetSystemInfo
+2712	ascii	MapViewOfFile
+2713	ascii	UnmapViewOfFile
+2714	ascii	CreateMutexA
+2715	ascii	CreateEventA
+2716	ascii	OpenEventA
+2717	ascii	CreateFileMappingA
+2718	ascii	OpenFileMappingA
+2719	ascii	LoadLibraryA
+2720	ascii	GetModuleFileNameA
+2721	ascii	GetModuleHandleA
+2722	ascii	OutputDebugStringA
+2723	ascii	GetPrivateProfileIntA
+2724	ascii	GetPrivateProfileStringA
+2725	ascii	WritePrivateProfileStringA
+2726	ascii	GetSystemDirectoryW
+2727	ascii	GetDiskFreeSpaceExA
+2728	ascii	CreateFileA
+2729	ascii	CreateFileW
+2730	ascii	DeleteFileA
+2731	ascii	MoveFileExA
+2732	ascii	SetPriorityClass
+2733	ascii	GetComputerNameExA
+2734	ascii	QueryPerformanceCounter
+2735	ascii	QueryPerformanceFrequency
+2736	ascii	ProcessIdToSessionId
+2737	ascii	WTSGetActiveConsoleSessionId
+2738	ascii	MultiByteToWideChar
+2739	ascii	WideCharToMultiByte
+2740	ascii	CreateToolhelp32Snapshot
+2741	ascii	Process32First
+2742	ascii	Process32Next
+2743	ascii	GetTickCount
+2744	ascii	WaitForMultipleObjects
+2745	ascii	SetProcessShutdownParameters
+2746	ascii	KERNEL32.dll
+2747	ascii	OpenInputDesktop
+2748	ascii	CloseDesktop
+2749	ascii	GetUserObjectInformationA
+2750	ascii	GetMessageA
+2751	ascii	PeekMessageA
+2752	ascii	PostThreadMessageA
+2753	ascii	MsgWaitForMultipleObjects
+2754	ascii	EnumDisplayDevicesA
+2755	ascii	LockWorkStation
+2756	ascii	GetMonitorInfoA
+2757	ascii	ChangeDisplaySettingsExA
+2758	ascii	EnumDisplaySettingsA
+2759	ascii	GetKeyState
+2760	ascii	GetKeyboardState
+2761	ascii	keybd_event
+2762	ascii	SendInput
+2763	ascii	MapVirtualKeyA
+2764	ascii	GetWindowRect
+2765	ascii	GetCursorPos
+2766	ascii	WindowFromPoint
+2767	ascii	SetThreadDesktop
+2768	ascii	GetThreadDesktop
+2769	ascii	TranslateMessage
+2770	ascii	DispatchMessageA
+2771	ascii	RegisterPowerSettingNotification
+2772	ascii	PostMessageA
+2773	ascii	DefWindowProcA
+2774	ascii	PostQuitMessage
+2775	ascii	RegisterClassA
+2776	ascii	CreateWindowExA
+2777	ascii	DestroyWindow
+2778	ascii	ShowWindow
+2779	ascii	GetAsyncKeyState
+2780	ascii	SetTimer
+2781	ascii	UpdateWindow
+2782	ascii	GetForegroundWindow
+2783	ascii	InvalidateRect
+2784	ascii	SetWindowTextA
+2785	ascii	SetCursorPos
+2786	ascii	GetClassNameA
+2787	ascii	GetWindow
+2788	ascii	LoadCursorA
+2789	ascii	SystemParametersInfoA
+2790	ascii	MonitorFromPoint
+2791	ascii	EnumDisplayMonitors
+2792	ascii	GetCursorInfo
+2793	ascii	DestroyIcon
+2794	ascii	CopyIcon
+2795	ascii	GetIconInfo
+2796	ascii	USER32.dll
+2797	ascii	DeleteObject
+2798	ascii	GetBitmapBits
+2799	ascii	GetObjectA
+2800	ascii	GDI32.dll
+2801	ascii	OpenProcessToken
+2802	ascii	SetTokenInformation
+2803	ascii	CreateProcessAsUserA
+2804	ascii	DuplicateTokenEx
+2805	ascii	RegCreateKeyExA
+2806	ascii	RegDeleteValueA
+2807	ascii	RegOpenKeyExA
+2808	ascii	RegQueryValueExA
+2809	ascii	RegSetValueExA
+2810	ascii	OpenSCManagerA
+2811	ascii	OpenServiceA
+2812	ascii	QueryServiceStatusEx
+2813	ascii	RegEnumKeyExA
+2814	ascii	RegQueryInfoKeyA
+2815	ascii	ADVAPI32.dll
+2816	ascii	WSAAddressToStringA
+2817	ascii	WS2_32.dll
+2818	ascii	MiniDumpWriteDump
+2819	ascii	dbghelp.dll
+2820	ascii	timeBeginPeriod
+2821	ascii	timeEndPeriod
+2822	ascii	WINMM.dll
+2823	ascii	WTSQuerySessionInformationA
+2824	ascii	WTSFreeMemory
+2825	ascii	WTSQueryUserToken
+2826	ascii	WTSRegisterSessionNotification
+2827	ascii	WTSAPI32.dll
+2828	ascii	SetupDiEnumDeviceInfo
+2829	ascii	SetupDiGetClassDevsA
+2830	ascii	SetupDiRemoveDevice
+2831	ascii	SetupDiChangeState
+2832	ascii	SetupDiGetDeviceRegistryPropertyA
+2833	ascii	SetupDiSetClassInstallParamsA
+2834	ascii	CM_Get_DevNode_Status
+2835	ascii	SetupDiGetDeviceInterfaceDetailA
+2836	ascii	SETUPAPI.dll
+2837	ascii	__iob_func
+2838	ascii	fclose
+2839	ascii	feof
+2840	ascii	fflush
+2841	ascii	fgets
+2842	ascii	fopen
+2843	ascii	fprintf
+2844	ascii	fseek
+2845	ascii	ftell
+2846	ascii	fwrite
+2847	ascii	printf
+2848	ascii	rename
+2849	ascii	rewind
+2850	ascii	setvbuf
+2851	ascii	_vsnprintf
+2852	ascii	_vsnwprintf
+2853	ascii	isupper
+2854	ascii	tolower
+2855	ascii	memcpy_s
+2856	ascii	strnlen
+2857	ascii	memmove
+2858	ascii	strchr
+2859	ascii	_stricmp
+2860	ascii	strncmp
+2861	ascii	_strnicmp
+2862	ascii	strncpy_s
+2863	ascii	strrchr
+2864	ascii	strstr
+2865	ascii	exit
+2866	ascii	atoi
+2867	ascii	mbstowcs_s
+2868	ascii	free
+2869	ascii	malloc
+2870	ascii	_mkdir
+2871	ascii	_access
+2872	ascii	ceil
+2873	ascii	memset
+2874	ascii	strcmp
+2875	ascii	memcpy
+2876	ascii	calloc
+2877	ascii	realloc
+2878	ascii	strncpy
+2879	ascii	_purecall
+2880	ascii	??2@YAPEAX_K@Z
+2881	ascii	??3@YAXPEAX@Z
+2882	ascii	_CxxThrowException
+2883	ascii	__CxxFrameHandler3
+2884	ascii	floor
+2885	ascii	strtok_s
+2886	ascii	_beginthreadex
+2887	ascii	wcsstr
+2888	ascii	vprintf
+2889	ascii	isalpha
+2890	ascii	wcsrchr
+2891	ascii	_wcsnicmp
+2892	ascii	_wcsicmp
+2893	ascii	isdigit
+2894	ascii	_wcsupr
+2895	ascii	__crt_debugger_hook
+2896	ascii	__crtUnhandledException
+2897	ascii	__crtTerminateProcess
+2898	ascii	__crtCaptureCurrentContext
+2899	ascii	__crtCapturePreviousContext
+2900	ascii	MSVCR120.dll
+2901	ascii	_lock
+2902	ascii	_unlock
+2903	ascii	_calloc_crt
+2904	ascii	__dllonexit
+2905	ascii	__C_specific_handler
+2906	ascii	_onexit
+2907	ascii	_XcptFilter
+2908	ascii	_amsg_exit
+2909	ascii	__getmainargs
+2910	ascii	__set_app_type
+2911	ascii	_exit
+2912	ascii	_cexit
+2913	ascii	_configthreadlocale
+2914	ascii	__setusermatherr
+2915	ascii	_initterm_e
+2916	ascii	_initterm
+2917	ascii	__initenv
+2918	ascii	_fmode
+2919	ascii	_commode
+2920	ascii	?terminate@@YAXXZ
+2921	ascii	?_type_info_dtor_internal_method@type_info@@QEAAXXZ
+2922	ascii	__crtSetUnhandledExceptionFilter
+2923	ascii	D3D11CreateDevice
+2924	ascii	d3d11.dll
+2925	ascii	CreateDXGIFactory1
+2926	ascii	dxgi.dll
+2927	ascii	?_Xbad_alloc@std@@YAXXZ
+2928	ascii	?_Xlength_error@std@@YAXPEBD@Z
+2929	ascii	?_Xout_of_range@std@@YAXPEBD@Z
+2930	ascii	?_Syserror_map@std@@YAPEBDH@Z
+2931	ascii	?_Winerror_map@std@@YAPEBDH@Z
+2932	ascii	MSVCP120.dll
+2933	ascii	GetNumberOfPhysicalMonitorsFromHMONITOR
+2934	ascii	GetPhysicalMonitorsFromHMONITOR
+2935	ascii	DestroyPhysicalMonitor
+2936	ascii	GetVCPFeatureAndVCPFeatureReply
+2937	ascii	SetVCPFeature
+2938	ascii	dxva2.dll
+2939	ascii	GetFileAttributesW
+2940	ascii	LoadLibraryExW
+2941	ascii	GetFullPathNameW
+2942	ascii	VerifyVersionInfoW
+2943	ascii	VerSetConditionMask
+2944	ascii	OutputDebugStringW
+2945	ascii	IsDebuggerPresent
+2946	ascii	IsProcessorFeaturePresent
+2947	ascii	EncodePointer
+2948	ascii	DecodePointer
+2949	ascii	WaitForSingleObjectEx
+2950	ascii	GetOverlappedResult
+2951	ascii	CreateEventW
+2952	ascii	DeviceIoControl
+2953	ascii	_vscwprintf
+2954	ascii	_scwprintf
+2955	ascii	c:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_system_test.log
+2956	ascii	RIGJIKSLOMQNMOKPPQHR5T
+2957	ascii	 !"#$%&'-.*+
+2958	ascii	,9:;<=>?@ABCSG_`aV\]^WYZ[bc
+2959	ascii	.?AVQueueBase@@
+2960	ascii	.?AV?$Queue@U_XUSB_REPORT@@@@
+2961	ascii	.?AVtype_info@@
+2962	ascii	.?AV_Iostream_error_category@std@@
+2963	ascii	.?AV_System_error_category@std@@
+2964	ascii	.?AVerror_category@std@@
+2965	ascii	.?AV_Generic_error_category@std@@
+2966	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+2967	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+2968	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+2969	ascii	    <security>
+2970	ascii	      <requestedPrivileges>
+2971	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+2972	ascii	      </requestedPrivileges>
+2973	ascii	    </security>
+2974	ascii	  </trustInfo>
+2975	ascii	</assembly>
+2976	ascii	N0L0
+2977	ascii	nr&CP}5"
+2978	ascii	DigiCert Inc1
+2979	ascii	www.digicert.com1!0
+2980	ascii	DigiCert Trusted Root G40
+2981	ascii	210429000000Z
+2982	ascii	360428235959Z0i1
+2983	ascii	DigiCert, Inc.1A0?
+2984	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+2985	ascii	>Mp$d
+2986	ascii	}4}L
+2987	ascii	!xE.
+2988	ascii	IpB2
+2989	ascii	6*f(_
+2990	ascii	[K]taM?
+2991	ascii	m&vh
+2992	ascii	J>@G_
+2993	ascii	#!Y`
+2994	ascii	x8E0
+2995	ascii	SA|X=G
+2996	ascii	q]dL
+2997	ascii	k0i0$
+2998	ascii	http://ocsp.digicert.com0A
+2999	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+3000	ascii	<0:08
+3001	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+3002	ascii	:#D=
+3003	ascii	:]Hm
+3004	ascii	v~7q
+3005	ascii	!usR
+3006	ascii	ov7,
+3007	ascii	/"lA
+3008	ascii	jj@0HK4
+3009	ascii	VxN0
+3010	ascii	241111000000Z
+3011	ascii	251110235959Z0
+3012	ascii	CN1#0!
+3013	ascii	Guangdong Province1
+3014	ascii	Shenzhen1
+3015	ascii	Private Organization1
+3016	ascii	9144030027939873X71
+3017	ascii	ZTE CORPORATION1
+3018	ascii	ZTE CORPORATION0
+3019	ascii	3KB/_
+3020	ascii	4c<b
+3021	ascii	bCQY
+3022	ascii	2gx}w
+3023	ascii	Bm]JG)OF
+3024	ascii	8{:2_hF
+3025	ascii	H}If[
+3026	ascii	!Oa?
+3027	ascii	?66]
+3028	ascii	:.fs
+3029	ascii	60402
+3030	ascii	0)0'
+3031	ascii	http://www.digicert.com/CPS0
+3032	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+3033	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+3034	ascii	http://ocsp.digicert.com0\
+3035	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+3036	ascii	C%,d
+3037	ascii	_+*2
+3038	ascii	ye>ga
+3039	ascii	ZpQeg
+3040	ascii	XTB2z
+3041	ascii	>,Z,
+3042	ascii	C5/u
+3043	ascii	0}0i1
+3044	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+3045	ascii	 xL1
+3046	ascii	.."0/x
+3047	ascii	5&d7
+3048	ascii	N}`z
+3049	ascii	~J0K
+3050	ascii	P2/4x
+3051	ascii	d;e8
+3052	ascii	20250709065900Z
+3053	ascii	DigiCert, Inc.1;09
+3054	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+3055	ascii	240926000000Z
+3056	ascii	351125235959Z0B1
+3057	ascii	DigiCert1 0
+3058	ascii	DigiCert Timestamp 20240
+3059	ascii	ymIXa+
+3060	ascii	GW3K;
+3061	ascii	o~R}a
+3062	ascii	z9XxGT
+3063	ascii	<Jisu
+3064	ascii	jSDx
+3065	ascii	7!5B
+3066	ascii	/s)v
+3067	ascii	S0Q0O
+3068	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+3069	ascii	http://ocsp.digicert.com0X
+3070	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+3071	ascii	Mm*V;
+3072	ascii	Z +J
+3073	ascii	MzE @t
+3074	ascii	5dz?g
+3075	ascii	(f*^[0
+3076	ascii	220323000000Z
+3077	ascii	370322235959Z0c1
+3078	ascii	=rIQU
+3079	ascii	|jWz
+3080	ascii	!hn7!
+3081	ascii	{un'%
+3082	ascii	+Xt@(
+3083	ascii	u($A
+3084	ascii	fIRP
+3085	ascii	,W5y+
+3086	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+3087	ascii	 %41g
+3088	ascii	i?Gw
+3089	ascii	',=?k
+3090	ascii	Axz8
+3091	ascii	www.digicert.com1$0"
+3092	ascii	DigiCert Assured ID Root CA0
+3093	ascii	220801000000Z
+3094	ascii	311109235959Z0b1
+3095	ascii	]J<0"0i3
+3096	ascii	t;mq
+3097	ascii	u]xf
+3098	ascii	v=Y]Bv
+3099	ascii	p,A`
+3100	ascii	RQGt
+3101	ascii	|Lu?c
+3102	ascii	 Qko
+3103	ascii	m0k0$
+3104	ascii	http://ocsp.digicert.com0C
+3105	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+3106	ascii	>0<0:
+3107	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+3108	ascii	Jz/-
+3109	ascii	5FjiT
+3110	ascii	wZ\T
+3111	ascii	~qj#k"
+3112	ascii	T-'~
+3113	ascii	0w0c1
+3114	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+3115	ascii	250709065900Z0+
+3116	ascii	[E0/
+3117	ascii	/1(0&0$0"
+3118	ascii	fk2S
+3119	ascii	Ei~z
+3120	ascii	m@uY
+3121	ascii	%b~%VV
+3122	ascii	`uUR
+3123	ascii	Z?_N
+3124	ascii	AZ`[yc
+3125	ascii	%q&:`
+3126	ascii	cOB6
+3127	ascii	{,z#Cu
+3128	utf16le	Generic PnP Monitor
+3129	utf16le	nvpowerapi.dll
+3130	utf16le	nvapi64.dll
+3131	utf16le	.dll
+3132	utf16le	Shell32.dll
+3133	utf16le	Advapi32.dll
+3134	utf16le	SOFTWARE\Microsoft\Windows NT\CurrentVersion
+3135	utf16le	CurrentBuildNumber
+3136	utf16le	VEN_10DE
+3137	utf16le	Setupapi.dll
+3138	utf16le	SYSTEM\CurrentControlSet\Control\Class\
+3139	utf16le	DriverSupportModules
+3140	utf16le	DriverSupportModulesWow
+3141	utf16le	SOFTWARE\Khronos\OpenCL\Vendors
+3142	utf16le	SOFTWARE\Khronos\Vulkan\Drivers
+3143	utf16le	UserModeDListDriverName
+3144	utf16le	OpenGLDriverName
+3145	utf16le	UserModeDriverName
+3146	utf16le	UserModeDListDriverNameWow
+3147	utf16le	OpenGLDriverNameWow
+3148	utf16le	UserModeDriverNameWow
+3149	utf16le	.sys
+3150	utf16le	\SystemRoot\system32\
+3151	utf16le	system32\
+3152	utf16le	[%s:%d] 
+3153	utf16le	Started DS4 Output Report pickup thread for 0x%p
+3154	utf16le	vigem_internal_ds4_output_report_pickup_handler
+3155	utf16le	Win32 Error: 0x%X
+3156	utf16le	No target to report to for serial %d
+3157	utf16le	Finished DS4 Output Report pickup thread for 0x%p
+3158	utf16le	NVIDIA
+3159	utf16le	Moore
+3160	utf16le	VASTAI
+3161	utf16le	NVIDIA Geforce 
+3162	utf16le	VS_VERSION_INFO
+3163	utf16le	StringFileInfo
+3164	utf16le	080404b0
+3165	utf16le	CompanyName
+3166	utf16le	ICE Corporation
+3167	utf16le	FileDescription
+3168	utf16le	IceInput
+3169	utf16le	FileVersion
+3170	utf16le	V7.25.21-13
+3171	utf16le	InternalName
+3172	utf16le	IceInput.exe
+3173	utf16le	LegalCopyright
+3174	utf16le	Copyright (C) 2017 ICE Corporation
+3175	utf16le	OriginalFilename
+3176	utf16le	ProductName
+3177	utf16le	ProductVersion
+3178	utf16le	VarFileInfo
+3179	utf16le	Translation

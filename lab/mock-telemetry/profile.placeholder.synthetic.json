@@ -1,0 +1,15 @@
+{
+  "extends": "baseline.synthetic.json",
+  "identity": {
+    "test_mode": true,
+    "vmuuid": "${TEST_VMUUUID}",
+    "test_uuid": "${TEST_UUID}",
+    "test_hostid": "${TEST_HOSTID}",
+    "test_vmid": "${TEST_VMID}"
+  },
+  "environment": {
+    "computername": "${TEST_COMPUTERNAME}",
+    "mac": "${TEST_MAC}",
+    "ip": "${TEST_IP}"
+  }
+}

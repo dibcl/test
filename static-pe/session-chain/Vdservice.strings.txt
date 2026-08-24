@@ -1,0 +1,1228 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	qGHK
+3	ascii	HRich
+4	ascii	.text
+5	ascii	`.rdata
+6	ascii	@.data
+7	ascii	.rsrc
+8	ascii	hPGB
+9	ascii	9B<s
+10	ascii	PQQSVW
+11	ascii	Y_^[
+12	ascii	h(:B
+13	ascii	DSVW
+14	ascii	PQVj
+15	ascii	SVWj>3
+16	ascii	_^[]
+17	ascii	Y~-3
+18	ascii	Y~(3
+19	ascii	YPWj
+20	ascii	tG9}
+21	ascii	0WWWWW
+22	ascii	SSSSS
+23	ascii	HH_^[
+24	ascii	@PVh
+25	ascii	8"ue
+26	ascii	8"u/
+27	ascii	hP@B
+28	ascii	~,WPV
+29	ascii	hp@B
+30	ascii	98t^
+31	ascii	tVPV
+32	ascii	t/9U
+33	ascii	8csm
+34	ascii	QSVW
+35	ascii	Ph`rB
+36	ascii	_VVVVV
+37	ascii	PPPPP
+38	ascii	0SSSSS
+39	ascii	X_^]
+40	ascii	SVW3
+41	ascii	t$9}
+42	ascii	WWWWW
+43	ascii	h8AB
+44	ascii	t)9u
+45	ascii	VVVVV
+46	ascii	hXAB
+47	ascii	tR:Q
+48	ascii	t<:Q
+49	ascii	t&:Q
+50	ascii	hxAB
+51	ascii	t&:a
+52	ascii	 CCGG
+53	ascii	t8f;
+54	ascii	QCPC
+55	ascii	W95T
+56	ascii	 GGBB
+57	ascii	@@BBf;
+58	ascii	t&Ku
+59	ascii	VhCz@
+60	ascii	~-8]
+61	ascii	@@8X
+62	ascii	QW@Ph
+63	ascii	W@Ph
+64	ascii	~S8]
+65	ascii	QQSVWd
+66	ascii	to=@
+67	ascii	Y_^[]
+68	ascii	Wj6Y
+69	ascii	Fpt"
+70	ascii	=X}B
+71	ascii	=PwB
+72	ascii	^_[]
+73	ascii	<.u4
+74	ascii	PVj@
+75	ascii	_trP
+76	ascii	,uRP
+77	ascii	^H_[
+78	ascii	>CuW
+79	ascii	@PVW
+80	ascii	58rB
+81	ascii	vSSSh
+82	ascii	VWw$
+83	ascii	h BB
+84	ascii	hx|B
+85	ascii	@_^]
+86	ascii	=MOC
+87	ascii	=csm
+88	ascii	hXBB
+89	ascii	9csm
+90	ascii	~SSV
+91	ascii	~@;H
+92	ascii	>csm
+93	ascii	h CB
+94	ascii	taSV
+95	ascii	YYPV
+96	ascii	t)SV
+97	ascii	h@CB
+98	ascii	Hu4j
+99	ascii	>MOC
+100	ascii	s[S;7|G;w
+101	ascii	9>u&
+102	ascii	h@rB
+103	ascii	h\CB
+104	ascii	tR99u2
+105	ascii	r,9Y
+106	ascii	@_^[]
+107	ascii	^SSSSS
+108	ascii	u,9E
+109	ascii	u8SS3
+110	ascii	9] u
+111	ascii	9]$SS
+112	ascii	t)9]
+113	ascii	t"SS9]
+114	ascii	@u^V
+115	ascii	t$HHt
+116	ascii	HHtYHHt
+117	ascii	HHty+
+118	ascii	RPSW
+119	ascii	90tW
+120	ascii	WSj0
+121	ascii	WSj 
+122	ascii	VVVV
+123	ascii	ueSj
+124	ascii	@_^[
+125	ascii	 VW}
+126	ascii	j?^;
+127	ascii	Y__^[
+128	ascii	35`rB
+129	ascii	h`rB
+130	ascii	VVhU
+131	ascii	5$vB
+132	ascii	h8DB
+133	ascii	FhPwB
+134	ascii	5 vB
+135	ascii	h`DB
+136	ascii	Y;=X}B
+137	ascii	= vB
+138	ascii	5(vB
+139	ascii	<at9<rt,<wt
+140	ascii	tVHtG
+141	ascii	tEHt1
+142	ascii	>=upF
+143	ascii	URPQQh|
+144	ascii	L$,3
+145	ascii	UVWS
+146	ascii	[_^]
+147	ascii	SVWj
+148	ascii	WVS3
+149	ascii	h(EB
+150	ascii	;5x{B
+151	ascii	5x{B
+152	ascii	0A@@Ju
+153	ascii	hHEB
+154	ascii	Fh=PwB
+155	ascii	N+D$
+156	ascii	=0rB
+157	ascii	u&hP
+158	ascii	<v8V
+159	ascii	u+9u
+160	ascii	h`}B
+161	ascii	Af#E
+162	ascii	hhEB
+163	ascii	WWWW
+164	ascii	j0Xf
+165	ascii	90tN
+166	ascii	j Xf
+167	ascii	8"uk
+168	ascii	8"u5
+169	ascii	oV f
+170	ascii	o^0f
+171	ascii	of@f
+172	ascii	onPf
+173	ascii	ov`f
+174	ascii	o~pf
+175	ascii	S99t
+176	ascii	=,~B
+177	ascii	=(~B
+178	ascii	>=Yt1j
+179	ascii	tPVWP
+180	ascii	Y[_^
+181	ascii	j"@@
+182	ascii	@@Bf
+183	ascii	8"u8
+184	ascii	j\Yf
+185	ascii	t$9U
+186	ascii	QQSVWh
+187	ascii	@@f9
+188	ascii	j@j ^V
+189	ascii	[j@j 
+190	ascii	5`rB
+191	ascii	5drB
+192	ascii	9] SS
+193	ascii	QWVP
+194	ascii	,0GG
+195	ascii	t+Ht
+196	ascii	Pj1Q3
+197	ascii	F Pj*
+198	ascii	F$Pj+
+199	ascii	F(Pj,
+200	ascii	F,Pj-
+201	ascii	F0Pj.
+202	ascii	F4Pj/
+203	ascii	F8PjD
+204	ascii	F<PjE
+205	ascii	F@PjF
+206	ascii	FDPjG
+207	ascii	FHPjH
+208	ascii	FLPjI
+209	ascii	FPPjJ
+210	ascii	FTPjK
+211	ascii	FXPjL
+212	ascii	F\PjM
+213	ascii	F`PjN
+214	ascii	FdPjO
+215	ascii	FhPj8
+216	ascii	FlPj9
+217	ascii	FpPj:
+218	ascii	FtPj;
+219	ascii	FxPj<
+220	ascii	F|Pj=
+221	ascii	{>Vj
+222	ascii	v$;5d
+223	ascii	C PjPV
+224	ascii	C$PjQV
+225	ascii	C(Pj
+226	ascii	C)Pj
+227	ascii	C*PjTV
+228	ascii	C+PjUV
+229	ascii	C,PjVV
+230	ascii	C-PjWV
+231	ascii	C.PjRV
+232	ascii	C/PjSV
+233	ascii	PPPPPPPP
+234	ascii	|FVW
+235	ascii	,aB<
+236	ascii	u49^
+237	ascii	Vj@h8
+238	ascii	j@Sh
+239	ascii	t,j@
+240	ascii	C@Ph
+241	ascii	Sj Z
+242	ascii	0;1t|
+243	ascii	uaVj
+244	ascii	uL9=D
+245	ascii	wIVSP
+246	ascii	FVSj
+247	ascii	WWWWV
+248	ascii	t<Vj
+249	ascii	t+WWVPV
+250	ascii	h(FB
+251	ascii	j"^SSSSS
+252	ascii	QSWVj
+253	ascii	hHFB
+254	ascii	~%9M
+255	ascii	r 8^
+256	ascii	VW|[;
+257	ascii	hhFB
+258	ascii	j@j 
+259	ascii	tGHt.Ht&
+260	ascii	;t0;
+261	ascii	8VVVVV
+262	ascii	t(9u
+263	ascii	ti9]
+264	ascii	6f;p
+265	ascii	r0f;p
+266	ascii	tH9]
+267	ascii	6f;H
+268	ascii	r0f;H
+269	ascii	u!f;
+270	ascii	tA9]
+271	ascii	t_8]
+272	ascii	t 9]
+273	ascii	SVWUj
+274	ascii	]_^[
+275	ascii	;t$,v-
+276	ascii	UQPXY]Y[
+277	ascii	AAFFf;
+278	ascii	u,VVWV
+279	ascii	u#9u
+280	ascii	t VV9u
+281	ascii	u09u
+282	ascii	VW9]
+283	ascii	u99u
+284	ascii	tl9]
+285	ascii	tC9]
+286	ascii	Ht$C
+287	ascii	CC@@
+288	ascii	Ht(f
+289	ascii	CC+]
+290	ascii	_^[u
+291	ascii	^_[3
+292	ascii	t=f;
+293	ascii	CCGG
+294	ascii	tXh,
+295	ascii	t%hh
+296	ascii	u#h(
+297	ascii	SVWP
+298	ascii	tGj\
+299	ascii	h(HB
+300	ascii	tcj\
+301	ascii	Ph$!B
+302	ascii	hD!B
+303	ascii	RhL!B
+304	ascii	hl!B
+305	ascii	h0-B
+306	ascii	hP-B
+307	ascii	hl-B
+308	ascii	h@.B
+309	ascii	M(Qh
+310	ascii	h4/B
+311	ascii	h8/B
+312	ascii	hX/B
+313	ascii	h\/B
+314	ascii	hH0B
+315	ascii	hD1B
+316	ascii	PhH7B
+317	ascii	hT7B
+318	ascii	Qh N
+319	ascii	hd2B
+320	ascii	Ph N
+321	ascii	hx2B
+322	ascii	Ph0u
+323	ascii	h$3B
+324	ascii	h83B
+325	ascii	h 7B
+326	ascii	h|6B
+327	ascii	h\6B
+328	ascii	hH6B
+329	ascii	h(6B
+330	ascii	bad allocation
+331	ascii	string too long
+332	ascii	invalid string position
+333	ascii	Unknown exception
+334	ascii	LC_TIME
+335	ascii	LC_NUMERIC
+336	ascii	LC_MONETARY
+337	ascii	LC_CTYPE
+338	ascii	LC_COLLATE
+339	ascii	LC_ALL
+340	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+341	ascii	bad exception
+342	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+343	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+344	ascii	(null)
+345	ascii	( 8PX
+346	ascii	700WP
+347	ascii	`h````
+348	ascii	xpxxxx
+349	ascii	('8PW
+350	ascii	700PP
+351	ascii	`h`hhh
+352	ascii	xppwpp
+353	ascii	EncodePointer
+354	ascii	DecodePointer
+355	ascii	FlsFree
+356	ascii	FlsSetValue
+357	ascii	FlsGetValue
+358	ascii	FlsAlloc
+359	ascii	CorExitProcess
+360	ascii	UTF-8
+361	ascii	UTF-16LE
+362	ascii	UNICODE
+363	ascii	SunMonTueWedThuFriSat
+364	ascii	JanFebMarAprMayJunJulAugSepOctNovDec
+365	ascii	runtime error 
+366	ascii	TLOSS error
+367	ascii	SING error
+368	ascii	DOMAIN error
+369	ascii	R6034
+370	ascii	An application has made an attempt to load the C runtime library incorrectly.
+371	ascii	Please contact the application's support team for more information.
+372	ascii	R6033
+373	ascii	- Attempt to use MSIL code from this assembly during native code initialization
+374	ascii	This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+375	ascii	R6032
+376	ascii	- not enough space for locale information
+377	ascii	R6031
+378	ascii	- Attempt to initialize the CRT more than once.
+379	ascii	This indicates a bug in your application.
+380	ascii	R6030
+381	ascii	- CRT not initialized
+382	ascii	R6028
+383	ascii	- unable to initialize heap
+384	ascii	R6027
+385	ascii	- not enough space for lowio initialization
+386	ascii	R6026
+387	ascii	- not enough space for stdio initialization
+388	ascii	R6025
+389	ascii	- pure virtual function call
+390	ascii	R6024
+391	ascii	- not enough space for _onexit/atexit table
+392	ascii	R6019
+393	ascii	- unable to open console device
+394	ascii	R6018
+395	ascii	- unexpected heap error
+396	ascii	R6017
+397	ascii	- unexpected multithread lock error
+398	ascii	R6016
+399	ascii	- not enough space for thread data
+400	ascii	This application has requested the Runtime to terminate it in an unusual way.
+401	ascii	R6009
+402	ascii	- not enough space for environment
+403	ascii	R6008
+404	ascii	- not enough space for arguments
+405	ascii	R6002
+406	ascii	- floating point support not loaded
+407	ascii	Microsoft Visual C++ Runtime Library
+408	ascii	<program name unknown>
+409	ascii	Runtime Error!
+410	ascii	Program: 
+411	ascii	HH:mm:ss
+412	ascii	dddd, MMMM dd, yyyy
+413	ascii	MM/dd/yy
+414	ascii	December
+415	ascii	November
+416	ascii	October
+417	ascii	September
+418	ascii	August
+419	ascii	July
+420	ascii	June
+421	ascii	April
+422	ascii	March
+423	ascii	February
+424	ascii	January
+425	ascii	Saturday
+426	ascii	Friday
+427	ascii	Thursday
+428	ascii	Wednesday
+429	ascii	Tuesday
+430	ascii	Monday
+431	ascii	Sunday
+432	ascii	united-states
+433	ascii	united-kingdom
+434	ascii	trinidad & tobago
+435	ascii	south-korea
+436	ascii	south-africa
+437	ascii	south korea
+438	ascii	south africa
+439	ascii	slovak
+440	ascii	puerto-rico
+441	ascii	pr-china
+442	ascii	pr china
+443	ascii	new-zealand
+444	ascii	hong-kong
+445	ascii	holland
+446	ascii	great britain
+447	ascii	england
+448	ascii	czech
+449	ascii	china
+450	ascii	britain
+451	ascii	america
+452	ascii	swiss
+453	ascii	swedish-finland
+454	ascii	spanish-venezuela
+455	ascii	spanish-uruguay
+456	ascii	spanish-puerto rico
+457	ascii	spanish-peru
+458	ascii	spanish-paraguay
+459	ascii	spanish-panama
+460	ascii	spanish-nicaragua
+461	ascii	spanish-modern
+462	ascii	spanish-mexican
+463	ascii	spanish-honduras
+464	ascii	spanish-guatemala
+465	ascii	spanish-el salvador
+466	ascii	spanish-ecuador
+467	ascii	spanish-dominican republic
+468	ascii	spanish-costa rica
+469	ascii	spanish-colombia
+470	ascii	spanish-chile
+471	ascii	spanish-bolivia
+472	ascii	spanish-argentina
+473	ascii	portuguese-brazilian
+474	ascii	norwegian-nynorsk
+475	ascii	norwegian-bokmal
+476	ascii	norwegian
+477	ascii	italian-swiss
+478	ascii	irish-english
+479	ascii	german-swiss
+480	ascii	german-luxembourg
+481	ascii	german-lichtenstein
+482	ascii	german-austrian
+483	ascii	french-swiss
+484	ascii	french-luxembourg
+485	ascii	french-canadian
+486	ascii	french-belgian
+487	ascii	english-usa
+488	ascii	english-us
+489	ascii	english-uk
+490	ascii	english-trinidad y tobago
+491	ascii	english-south africa
+492	ascii	english-nz
+493	ascii	english-jamaica
+494	ascii	english-ire
+495	ascii	english-caribbean
+496	ascii	english-can
+497	ascii	english-belize
+498	ascii	english-aus
+499	ascii	english-american
+500	ascii	dutch-belgian
+501	ascii	chinese-traditional
+502	ascii	chinese-singapore
+503	ascii	chinese-simplified
+504	ascii	chinese-hongkong
+505	ascii	chinese
+506	ascii	canadian
+507	ascii	belgian
+508	ascii	australian
+509	ascii	american-english
+510	ascii	american english
+511	ascii	american
+512	ascii	Norwegian-Nynorsk
+513	ascii	 Complete Object Locator'
+514	ascii	 Class Hierarchy Descriptor'
+515	ascii	 Base Class Array'
+516	ascii	 Base Class Descriptor at (
+517	ascii	 Type Descriptor'
+518	ascii	`local static thread guard'
+519	ascii	`managed vector copy constructor iterator'
+520	ascii	`vector vbase copy constructor iterator'
+521	ascii	`vector copy constructor iterator'
+522	ascii	`dynamic atexit destructor for '
+523	ascii	`dynamic initializer for '
+524	ascii	`eh vector vbase copy constructor iterator'
+525	ascii	`eh vector copy constructor iterator'
+526	ascii	`managed vector destructor iterator'
+527	ascii	`managed vector constructor iterator'
+528	ascii	`placement delete[] closure'
+529	ascii	`placement delete closure'
+530	ascii	`omni callsig'
+531	ascii	 delete[]
+532	ascii	 new[]
+533	ascii	`local vftable constructor closure'
+534	ascii	`local vftable'
+535	ascii	`RTTI
+536	ascii	`udt returning'
+537	ascii	`copy constructor closure'
+538	ascii	`eh vector vbase constructor iterator'
+539	ascii	`eh vector destructor iterator'
+540	ascii	`eh vector constructor iterator'
+541	ascii	`virtual displacement map'
+542	ascii	`vector vbase constructor iterator'
+543	ascii	`vector destructor iterator'
+544	ascii	`vector constructor iterator'
+545	ascii	`scalar deleting destructor'
+546	ascii	`default constructor closure'
+547	ascii	`vector deleting destructor'
+548	ascii	`vbase destructor'
+549	ascii	`string'
+550	ascii	`local static guard'
+551	ascii	`typeof'
+552	ascii	`vcall'
+553	ascii	`vbtable'
+554	ascii	`vftable'
+555	ascii	operator
+556	ascii	 delete
+557	ascii	 new
+558	ascii	__unaligned
+559	ascii	__restrict
+560	ascii	__ptr64
+561	ascii	__clrcall
+562	ascii	__fastcall
+563	ascii	__thiscall
+564	ascii	__stdcall
+565	ascii	__pascal
+566	ascii	__cdecl
+567	ascii	__based(
+568	ascii	GetProcessWindowStation
+569	ascii	GetUserObjectInformationA
+570	ascii	GetLastActivePopup
+571	ascii	GetActiveWindow
+572	ascii	MessageBoxA
+573	ascii	USER32.DLL
+574	ascii	CONOUT$
+575	ascii	event_type: %d, bIsRemoteUser: %d
+576	ascii	OpenCloseMediaRedirect
+577	ascii	*******open
+578	ascii	WritePrivateProfileString failed!!!! GetLastError: %d
+579	ascii	*******close
+580	ascii	INVALID
+581	ascii	CONNECT
+582	ascii	DISCONNECT
+583	ascii	REMOTE_CONNECT
+584	ascii	REMOTE_DISCONNECT
+585	ascii	LOGON
+586	ascii	LOGOFF
+587	ascii	LOCK
+588	ascii	UNLOCK
+589	ascii	REMOTE_CONTROL
+590	ascii	SetEvent() failed: %lu
+591	ascii	VDService::set_control_event
+592	ascii	handle_control_event STOP
+593	ascii	VDService::handle_control_event
+594	ascii	handle_control_event RESTART
+595	ascii	Unsupported control command %u
+596	ascii	vdagent.ini
+597	ascii	write vdagent.ini [%s/%s] failed
+598	ascii	WriteVdagentIni
+599	ascii	SessionChange
+600	ascii	Stop service
+601	ascii	VDService::control_handler
+602	ascii	Interrogate service
+603	ascii	Session %lu %s
+604	ascii	flag of logoff-autologin is %S
+605	ascii	enable logoff-autologin, set logon event!
+606	ascii	reset logon event!
+607	ascii	session connect id[%d] and original sessionid is the same.
+608	ascii	Is remote conon
+609	ascii	is_agent_switch==true.
+610	ascii	Unsupported control %lu
+611	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+612	ascii	OpenFtLog
+613	ascii	vdservice.log
+614	ascii	***Service started***
+615	ascii	VDService::main
+616	ascii	enable
+617	ascii	disable
+618	ascii	%s ft log print!
+619	ascii	SetPriorityClass failed %lu
+620	ascii	RegisterServiceCtrlHandler failed!
+621	ascii	***Service stopped***
+622	ascii	 console user is logoning...
+623	ascii	VDService::is_remote_user
+624	ascii	 remote user is logoning...
+625	ascii	WTSGetActiveConsoleSessionId() failed
+626	ascii	VDService::execute
+627	ascii	Active console session id: %lu
+628	ascii	Connect state: %d
+629	ascii	Create switch_thread_proc() failed: %lu
+630	ascii	create scan code file success
+631	ascii	Mapping view of scan code file filed %lu
+632	ascii	Mapping view of scan code file success
+633	ascii	Could not create file failed: %lu
+634	ascii	create logofftriglogon file success
+635	ascii	Create logofftriglogon file failed: %lu
+636	ascii	Failed launching vdagent instance for the first time, try again...
+637	ascii	Failed launching vdagent instance for the second time, waiting for session connection
+638	ascii	Agent killed
+639	ascii	WaitForMultipleObjects failed %lu
+640	ascii	vdservice will kill agent and exit
+641	ascii	WinStationQueryInformationW
+642	ascii	OpenProcess() failed %lu
+643	ascii	create_session_process_as_user
+644	ascii	CreateToolhelp32Snapshot() failed %lu
+645	ascii	create_process_as_user
+646	ascii	Process32First() failed %lu
+647	ascii	Winlogon not found
+648	ascii	OpenProcessToken() failed %lu
+649	ascii	DuplicateTokenEx() failed %lu
+650	ascii	create_session_process_as_user #%d
+651	ascii	VDService::launch_agent
+652	ascii	Not supported in this system version
+653	ascii	CreateProcess() failed: %lu
+654	ascii	Begin to kill agent...
+655	ascii	VDService::kill_agent
+656	ascii	Agent does not exist, so return.
+657	ascii	SetEvent _agent_stop_event failed, errcode=%lu
+658	ascii	Begin to WaitForSingleObject...
+659	ascii	exit_code=%d.
+660	ascii	GetExitCodeProcess() failed: %lu
+661	ascii	Wait timeout
+662	ascii	WaitForSingleObject() failed: %lu
+663	ascii	End to kill agent...
+664	ascii	restart_agent...
+665	ascii	VDService::restart_agent
+666	ascii	after kill_agent in restart_agent
+667	ascii	launch_agent failed, try again after 5s
+668	ascii	launch_agent failed last time
+669	ascii	launch_agent failed, try again after 60s
+670	ascii	reset _agent_restarts to 0!
+671	ascii	set restart_interval to 3s!
+672	ascii	Set is_agent_switch=true.
+673	ascii	VDService::switch_thread_proc
+674	ascii	WaitForSingleObject(): %lu
+675	ascii	Service stopped
+676	ascii	VDService::stop
+677	ascii	ZXVE_INSTALL_PATH
+678	ascii	C:\Program Files\ZTEGuestOS\log
+679	ascii	C:\Program Files (x86)\ZTEGuestOS\log
+680	ascii	\log
+681	ascii	C:\Program Files\ZTEGuestOS\vdservice\
+682	ascii	C:\Program Files (x86)\ZTEGuestOS\vdservice\
+683	ascii	C:\Program Files\ZTEGuestOS\
+684	ascii	C:\Program Files (x86)\ZTEGuestOS\
+685	ascii	invalid parameters!
+686	ascii	c2w_utf8
+687	ascii	RtlGetNtVersionNumbers
+688	ascii	GetNativeSystemInfo
+689	ascii	LoadLibrary ntdll.dll failed!
+690	ascii	IsWinOSServerType
+691	ascii	LoadLibrary ntdll.dll success!
+692	ascii	RtlGetVersion
+693	ascii	os type is winserver!
+694	ascii	get RtlGetVersion failed!
+695	ascii	wcstol range error, got %ld
+696	ascii	UrlDecode
+697	ascii	HKEY_CLASSES_ROOT
+698	ascii	HKEY_CURRENT_USER
+699	ascii	HKEY_LOCAL_MACHINE
+700	ascii	HKEY_USERS
+701	ascii	HKEY_CURRENT_CONFIG
+702	ascii	none
+703	ascii	open reg [%s]\%S failed(%ld)
+704	ascii	ReadReg
+705	ascii	read key [%s]\%S\%S failed(%ld)
+706	ascii	malloc failed
+707	ascii	WriteReg
+708	ascii	open reg [%s]\%S failed, maybe not exist, create!
+709	ascii	create local regist key failed
+710	ascii	write key [%s]\%S\%S failed!
+711	ascii	run exception:%s
+712	ascii	run exception
+713	ascii	open reg [%s]\%S failed,maybe not exist,create! error:%d
+714	ascii	CheckDeleteRegValue
+715	ascii	delete reg key value [%s]\%S\%S failed! error:%d
+716	ascii	reg key value [%s]\%S\%S has been deleted!
+717	ascii	delete reg key value [%s]\%S\%S ok!
+718	ascii	%llu
+719	ascii	ioctlsocket failed, errcode=%d
+720	ascii	sock_set_fcntl
+721	ascii	connection failed, errcode=%d ip[%s] dport[%d]
+722	ascii	deal_sock_connect
+723	ascii	connection success ip[%s] dport[%d]
+724	ascii	connection failed errcode=%d ip[%s] dport[%d]
+725	ascii	connection to dest timeout tv_ms:%d ip[%s] dport[%d]
+726	ascii	make sock failed, errcode=%d
+727	ascii	create_sock_and_connect
+728	ascii	msg from irai is NULL, so return
+729	ascii	get_type_from_msg_for_irai
+730	ascii	len is %d
+731	ascii	type
+732	ascii	g_irai_msg_type is NULL, so return
+733	ascii	g_irai_msg_type is %d
+734	ascii	process name is NULL
+735	ascii	GetProcessNameWithoutExtension
+736	ascii	process name is empty
+737	ascii	process name is %s
+738	ascii	process name without extension is %s
+739	ascii	file %s does not exist, directly return
+740	ascii	isFileEmpty
+741	ascii	file %s size is %ld
+742	ascii	unable to close file in %s
+743	ascii	vdcommon_fclose
+744	ascii	unable to seek in file
+745	ascii	vdcommon_fseek
+746	ascii	del reg sid:%u
+747	ascii	vdagent_del_hookvapp_server_port
+748	ascii	GetTickCount64
+749	ascii	GetProcAddress success
+750	ascii	GetTickCount64_func_init
+751	ascii	GetProcAddress failed, errcode=%lu
+752	ascii	LocalAuthAlarm
+753	ascii	CommonInfo
+754	ascii	failed to write to config file, errcode=%lu
+755	ascii	write_local_auth_alarm_state_to_vdagent_ini
+756	ascii	MonitorVMAlarm
+757	ascii	write_monitor_vm_alarm_state_to_vdagent_ini
+758	ascii	MonitorVMAlarmTimestamp
+759	ascii	write_monitor_vm_alarm_timestamp_to_vdagent_ini
+760	ascii	write alarm system uptime %llu
+761	ascii	reset_monitor_vm_alarm_timestamp
+762	ascii	failed to read from config file, errcode=%lu
+763	ascii	read_monitor_vm_alarm_timestamp_from_vdagent_ini
+764	ascii	conversion error
+765	ascii	read alarm system uptime %llu
+766	ascii	log4cplus.vdagent.properties
+767	ascii	log4cplus.vdservice.properties
+768	ascii	log4cplus.approming.properties
+769	ascii	log4cplus.upm.properties
+770	ascii	log4cplus.adas.properties
+771	ascii	log4cplus.zproctrl.properties
+772	ascii	autotest_vdagent.log
+773	ascii	DEBUG
+774	ascii	INFO
+775	ascii	WARN
+776	ascii	ERROR
+777	ascii	FATAL
+778	ascii	log4cplus.appender.gena.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q} [%-5p] %m%n
+779	ascii	log4cplus.appender.autotesta.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}|%i|%m%n
+780	ascii	#set log default level:(DEBUG|INFO|WARN|ERROR|FATAL)
+781	ascii	,gena
+782	ascii	log4cplus.logger.gen=
+783	ascii	log4cplus.appender.gena=log4cplus::RollingFileAppender
+784	ascii	log4cplus.appender.gena.File=
+785	ascii	log4cplus.appender.gena.MaxFileSize=
+786	ascii	log4cplus.appender.gena.MaxBackupIndex=1
+787	ascii	log4cplus.appender.gena.ImmediateFlush=true
+788	ascii	log4cplus.appender.gena.layout=log4cplus::PatternLayout
+789	ascii	log4cplus.logger.autotest=INFO,autotesta
+790	ascii	log4cplus.appender.autotesta=log4cplus::RollingFileAppender
+791	ascii	log4cplus.appender.autotesta.File=
+792	ascii	log4cplus.appender.autotesta.MaxFileSize=
+793	ascii	log4cplus.appender.autotesta.MaxBackupIndex=1
+794	ascii	log4cplus.appender.autotesta.ImmediateFlush=true
+795	ascii	log4cplus.appender.autotesta.layout=log4cplus::PatternLayout
+796	ascii	%d# %d %s(%d): %s
+797	ascii	void __cdecl log4cplus_log(unsigned int,const char *,int,const char *,...)
+798	ascii	..\common\debug.cpp
+799	ascii	%s(%d): %s
+800	ascii	void __cdecl log4cplus_log_plus(const char *,unsigned int,const char *,int,const char *,...)
+801	ascii	[vdagent]qoelog
+802	ascii	TST_INIT_LOG_QOE
+803	ascii	[adas]
+804	ascii	log4cplus
+805	ascii	TST_INIT_LOG_ADAS
+806	ascii	[upm]
+807	ascii	TST_INIT_LOG_UPM
+808	ascii	[approming]log4cplus
+809	ascii	TST_INIT_LOG_APPROMING
+810	ascii	[vdagent]log4cplus
+811	ascii	TST_INIT_LOG_VDAGENT
+812	ascii	[vdservice]log4cplus
+813	ascii	TST_INIT_LOG_VDSERVICE
+814	ascii	success
+815	ascii	failed
+816	ascii	%s|%s|%s
+817	ascii	void __cdecl log4cplus_autotest(unsigned int,bool)
+818	ascii	unable to format string
+819	ascii	qoe_log
+820	ascii	|%d|%d|%d|%d|%s|%s|%s|%s
+821	ascii	qoe_log_write failed, errcode=%d
+822	ascii	qoe_log_new
+823	ascii	|%d|%d|%d|%d|%s|%s|%s|%s|%s|%d|%d
+824	ascii	qoe_log_vapp
+825	ascii	|%d|%d|%d|%d|%S|%s|%s|%s|%s|%d|%d|%d|%d|%d|%s
+826	ascii	rpt2qoelog: %s
+827	ascii	qoe_log_vapp_new
+828	ascii	|%d|%d|%d|%d|%s|%s|%s|%s|%s|%d|%d|%d|%d|%d|%s
+829	ascii	ios_base::badbit set
+830	ascii	ios_base::failbit set
+831	ascii	ios_base::eofbit set
+832	ascii	bad cast
+833	ascii	deque<T> too long
+834	ascii	RSDS
+835	ascii	d:\Git\workspace\vdagent-new\V7.25.21\share\2\vdagent-0.12.4\vdservice\Release\Vdservice.pdb
+836	ascii	WTSQuerySessionInformationW
+837	ascii	WTSFreeMemory
+838	ascii	WTSEnumerateSessionsW
+839	ascii	WTSAPI32.dll
+840	ascii	?setInternalDebugging@LogLog@helpers@log4cplus@@QAEX_N@Z
+841	ascii	?getLogLog@LogLog@helpers@log4cplus@@SAPAV123@XZ
+842	ascii	?get_macro_body_oss@detail@log4cplus@@YAAAV?$basic_ostringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ
+843	ascii	?macro_forced_log@detail@log4cplus@@YAXABVLogger@2@HABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PBDH2@Z
+844	ascii	??1Logger@log4cplus@@UAE@XZ
+845	ascii	??4Logger@log4cplus@@QAEAAV01@ABV01@@Z
+846	ascii	??0Logger@log4cplus@@QAE@XZ
+847	ascii	?isEnabledFor@Logger@log4cplus@@QBE_NH@Z
+848	ascii	?getInstance@Logger@log4cplus@@SA?AV12@ABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z
+849	ascii	?getDefaultHierarchy@Logger@log4cplus@@SAAAVHierarchy@2@XZ
+850	ascii	?initialize@log4cplus@@YAXXZ
+851	ascii	?doConfigure@PropertyConfigurator@log4cplus@@SAXABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AAVHierarchy@2@I@Z
+852	ascii	log4cplusU.dll
+853	ascii	GetFileAttributesA
+854	ascii	MultiByteToWideChar
+855	ascii	GetModuleFileNameA
+856	ascii	GetCurrentThreadId
+857	ascii	GetCurrentProcessId
+858	ascii	FreeLibrary
+859	ascii	CreateProcessW
+860	ascii	WaitForSingleObject
+861	ascii	GetModuleHandleW
+862	ascii	GetTickCount
+863	ascii	WideCharToMultiByte
+864	ascii	LoadLibraryW
+865	ascii	GetExitCodeProcess
+866	ascii	CreateDirectoryA
+867	ascii	GetLastError
+868	ascii	GetProcAddress
+869	ascii	WritePrivateProfileStringA
+870	ascii	GetSystemInfo
+871	ascii	CloseHandle
+872	ascii	SetPriorityClass
+873	ascii	MapViewOfFile
+874	ascii	UnmapViewOfFile
+875	ascii	GetCurrentProcess
+876	ascii	SetEvent
+877	ascii	WaitNamedPipeW
+878	ascii	WriteFile
+879	ascii	OpenProcess
+880	ascii	GetSystemDirectoryW
+881	ascii	Sleep
+882	ascii	ReadFile
+883	ascii	GetModuleFileNameW
+884	ascii	CreateFileW
+885	ascii	WritePrivateProfileStringW
+886	ascii	GetPrivateProfileIntW
+887	ascii	SetLastError
+888	ascii	ResetEvent
+889	ascii	Process32FirstW
+890	ascii	GetProcessId
+891	ascii	ProcessIdToSessionId
+892	ascii	CreateFileMappingW
+893	ascii	CreateEventW
+894	ascii	WaitForMultipleObjects
+895	ascii	Process32NextW
+896	ascii	WTSGetActiveConsoleSessionId
+897	ascii	lstrcmpiW
+898	ascii	lstrcatW
+899	ascii	CreateToolhelp32Snapshot
+900	ascii	KERNEL32.dll
+901	ascii	wsprintfW
+902	ascii	MsgWaitForMultipleObjects
+903	ascii	USER32.dll
+904	ascii	RegQueryValueExA
+905	ascii	RegQueryValueExW
+906	ascii	RegOpenKeyExA
+907	ascii	RegOpenKeyExW
+908	ascii	RegCloseKey
+909	ascii	CreateServiceW
+910	ascii	CloseServiceHandle
+911	ascii	OpenProcessToken
+912	ascii	DeleteService
+913	ascii	OpenSCManagerW
+914	ascii	StartServiceCtrlDispatcherW
+915	ascii	OpenServiceW
+916	ascii	RegisterServiceCtrlHandlerExW
+917	ascii	CreateProcessAsUserW
+918	ascii	ChangeServiceConfig2W
+919	ascii	DuplicateTokenEx
+920	ascii	QueryServiceStatus
+921	ascii	SetServiceStatus
+922	ascii	ADVAPI32.dll
+923	ascii	InterlockedIncrement
+924	ascii	InterlockedDecrement
+925	ascii	InterlockedCompareExchange
+926	ascii	InterlockedExchange
+927	ascii	InitializeCriticalSection
+928	ascii	DeleteCriticalSection
+929	ascii	EnterCriticalSection
+930	ascii	LeaveCriticalSection
+931	ascii	HeapFree
+932	ascii	TerminateProcess
+933	ascii	UnhandledExceptionFilter
+934	ascii	SetUnhandledExceptionFilter
+935	ascii	IsDebuggerPresent
+936	ascii	HeapAlloc
+937	ascii	ExitThread
+938	ascii	CreateThread
+939	ascii	GetCPInfo
+940	ascii	RtlUnwind
+941	ascii	RaiseException
+942	ascii	LCMapStringW
+943	ascii	LCMapStringA
+944	ascii	GetStringTypeW
+945	ascii	HeapCreate
+946	ascii	VirtualFree
+947	ascii	VirtualAlloc
+948	ascii	HeapReAlloc
+949	ascii	GetConsoleCP
+950	ascii	GetConsoleMode
+951	ascii	FlushFileBuffers
+952	ascii	TlsGetValue
+953	ascii	TlsAlloc
+954	ascii	TlsSetValue
+955	ascii	TlsFree
+956	ascii	HeapSize
+957	ascii	ExitProcess
+958	ascii	GetACP
+959	ascii	GetOEMCP
+960	ascii	IsValidCodePage
+961	ascii	GetStdHandle
+962	ascii	SetFilePointer
+963	ascii	FreeEnvironmentStringsW
+964	ascii	GetEnvironmentStringsW
+965	ascii	GetCommandLineW
+966	ascii	SetHandleCount
+967	ascii	GetFileType
+968	ascii	GetStartupInfoA
+969	ascii	QueryPerformanceCounter
+970	ascii	GetSystemTimeAsFileTime
+971	ascii	GetStringTypeA
+972	ascii	GetUserDefaultLCID
+973	ascii	GetLocaleInfoA
+974	ascii	EnumSystemLocalesA
+975	ascii	IsValidLocale
+976	ascii	InitializeCriticalSectionAndSpinCount
+977	ascii	WriteConsoleA
+978	ascii	GetConsoleOutputCP
+979	ascii	WriteConsoleW
+980	ascii	SetStdHandle
+981	ascii	LoadLibraryA
+982	ascii	CreateFileA
+983	ascii	GetLocaleInfoW
+984	ascii	SetEndOfFile
+985	ascii	GetProcessHeap
+986	ascii	.?AVout_of_range@std@@
+987	ascii	Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
+988	ascii	.?AVtype_info@@
+989	ascii	.?AVbad_exception@std@@
+990	ascii	                          
+991	ascii	abcdefghijklmnopqrstuvwxyz
+992	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+993	ascii	.?AV?$ctype@_W@std@@
+994	ascii	.?AUctype_base@std@@
+995	ascii	.?AVfacet@locale@std@@
+996	ascii	.?AVruntime_error@std@@
+997	ascii	.?AVexception@std@@
+998	ascii	.?AVfailure@ios_base@std@@
+999	ascii	.?AVbad_cast@std@@
+1000	ascii	.?AVbad_alloc@std@@
+1001	ascii	.?AVlogic_error@std@@
+1002	ascii	.?AVlength_error@std@@
+1003	ascii	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+1004	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+1005	ascii	    <security>
+1006	ascii	      <requestedPrivileges>
+1007	ascii	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+1008	ascii	      </requestedPrivileges>
+1009	ascii	    </security>
+1010	ascii	  </trustInfo>
+1011	ascii	</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING
+1012	ascii	N0L0
+1013	ascii	3,3r
+1014	ascii	DigiCert Inc1
+1015	ascii	www.digicert.com1!0
+1016	ascii	DigiCert Trusted Root G40
+1017	ascii	210429000000Z
+1018	ascii	360428235959Z0i1
+1019	ascii	DigiCert, Inc.1A0?
+1020	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+1021	ascii	>Mp$d
+1022	ascii	}4}L
+1023	ascii	!xE.
+1024	ascii	IpB2
+1025	ascii	6*f(_
+1026	ascii	[K]taM?
+1027	ascii	m&vh
+1028	ascii	J>@G_
+1029	ascii	#!Y`
+1030	ascii	x8E0
+1031	ascii	SA|X=G
+1032	ascii	q]dL
+1033	ascii	k0i0$
+1034	ascii	http://ocsp.digicert.com0A
+1035	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+1036	ascii	<0:08
+1037	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+1038	ascii	:#D=
+1039	ascii	:]Hm
+1040	ascii	v~7q
+1041	ascii	!usR
+1042	ascii	ov7,
+1043	ascii	/"lA
+1044	ascii	jj@0HK4
+1045	ascii	VxN0
+1046	ascii	241111000000Z
+1047	ascii	251110235959Z0
+1048	ascii	CN1#0!
+1049	ascii	Guangdong Province1
+1050	ascii	Shenzhen1
+1051	ascii	Private Organization1
+1052	ascii	9144030027939873X71
+1053	ascii	ZTE CORPORATION1
+1054	ascii	ZTE CORPORATION0
+1055	ascii	3KB/_
+1056	ascii	4c<b
+1057	ascii	bCQY
+1058	ascii	2gx}w
+1059	ascii	Bm]JG)OF
+1060	ascii	8{:2_hF
+1061	ascii	H}If[
+1062	ascii	!Oa?
+1063	ascii	?66]
+1064	ascii	:.fs
+1065	ascii	60402
+1066	ascii	0)0'
+1067	ascii	http://www.digicert.com/CPS0
+1068	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+1069	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+1070	ascii	http://ocsp.digicert.com0\
+1071	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+1072	ascii	C%,d
+1073	ascii	_+*2
+1074	ascii	ye>ga
+1075	ascii	ZpQeg
+1076	ascii	XTB2z
+1077	ascii	>,Z,
+1078	ascii	C5/u
+1079	ascii	0}0i1
+1080	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+1081	ascii	U>it
+1082	ascii	5\86A]
+1083	ascii	IG3m
+1084	ascii	e8O[
+1085	ascii	j\':Hr[
+1086	ascii	XkG|
+1087	ascii	M3w`
+1088	ascii	20250708014146Z
+1089	ascii	DigiCert, Inc.1;09
+1090	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+1091	ascii	240926000000Z
+1092	ascii	351125235959Z0B1
+1093	ascii	DigiCert1 0
+1094	ascii	DigiCert Timestamp 20240
+1095	ascii	ymIXa+
+1096	ascii	GW3K;
+1097	ascii	o~R}a
+1098	ascii	z9XxGT
+1099	ascii	<Jisu
+1100	ascii	jSDx
+1101	ascii	7!5B
+1102	ascii	/s)v
+1103	ascii	S0Q0O
+1104	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+1105	ascii	http://ocsp.digicert.com0X
+1106	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+1107	ascii	Mm*V;
+1108	ascii	Z +J
+1109	ascii	MzE @t
+1110	ascii	5dz?g
+1111	ascii	(f*^[0
+1112	ascii	220323000000Z
+1113	ascii	370322235959Z0c1
+1114	ascii	=rIQU
+1115	ascii	|jWz
+1116	ascii	!hn7!
+1117	ascii	{un'%
+1118	ascii	+Xt@(
+1119	ascii	u($A
+1120	ascii	fIRP
+1121	ascii	,W5y+
+1122	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+1123	ascii	 %41g
+1124	ascii	i?Gw
+1125	ascii	',=?k
+1126	ascii	Axz8
+1127	ascii	www.digicert.com1$0"
+1128	ascii	DigiCert Assured ID Root CA0
+1129	ascii	220801000000Z
+1130	ascii	311109235959Z0b1
+1131	ascii	]J<0"0i3
+1132	ascii	t;mq
+1133	ascii	u]xf
+1134	ascii	v=Y]Bv
+1135	ascii	p,A`
+1136	ascii	RQGt
+1137	ascii	|Lu?c
+1138	ascii	 Qko
+1139	ascii	m0k0$
+1140	ascii	http://ocsp.digicert.com0C
+1141	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+1142	ascii	>0<0:
+1143	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+1144	ascii	Jz/-
+1145	ascii	5FjiT
+1146	ascii	wZ\T
+1147	ascii	~qj#k"
+1148	ascii	T-'~
+1149	ascii	0w0c1
+1150	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+1151	ascii	250708014146Z0+
+1152	ascii	[E0/
+1153	ascii	5)$C
+1154	ascii	/1(0&0$0"
+1155	ascii	@uQS
+1156	ascii	uFYuHX
+1157	ascii	3(U#
+1158	ascii	M)>gu
+1159	ascii	E[B@
+1160	ascii	+}?;
+1161	ascii	8%a\
+1162	ascii	T^:A
+1163	utf16le	jjjjj
+1164	utf16le	jjjj
+1165	utf16le	Bjjj
+1166	utf16le	jjjjjj
+1167	utf16le	         (((((                  H
+1168	utf16le	         h((((                  H
+1169	utf16le	                                 H
+1170	utf16le	B(null)
+1171	utf16le	KERNEL32.DLL
+1172	utf16le	mscoree.dll
+1173	utf16le	BtBdBHB(B
+1174	utf16le	Global\vdagent_stop_event
+1175	utf16le	Global\vdagent_switch_event
+1176	utf16le	Vdservice
+1177	utf16le	System Reserved
+1178	utf16le	RHEV RAP Agent
+1179	utf16le	Enables Rap event injection and display configuration.
+1180	utf16le	C:\Program Files\ZTEGuestOS\vdi_or_not.ini
+1181	utf16le	C:\Program Files (x86)\ZTEGuestOS\vdi_or_not.ini
+1182	utf16le	VDI_OR_NOT
+1183	utf16le	C:\online\online.ini
+1184	utf16le	IS_REDIRECT
+1185	utf16le	VHOST_FLASH
+1186	utf16le	SYSTEM\CurrentControlSet\Services\VDI_SYS_CFG
+1187	utf16le	CFG_LOGOUT_AUTO_LOGIN
+1188	utf16le	%s\Vdagent.exe
+1189	utf16le	nVdservice
+1190	utf16le	nGlobal\vdservice_trig_logon_event
+1191	utf16le	Global\scanlogoninf
+1192	utf16le	Global\logofftriglogoninf
+1193	utf16le	\winsta.dll
+1194	utf16le	W\\.\Pipe\TerminalServer\SystemExecSrvr\%d
+1195	utf16le	%llu
+1196	utf16le	winlogon.exe
+1197	utf16le	Winsta0\winlogon
+1198	utf16le	tWinsta0\default
+1199	utf16le	pinstall
+1200	utf16le	uninstall
+1201	utf16le	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+1202	utf16le	PcMode
+1203	utf16le	C:\Windows\System32\ntdll.dll
+1204	utf16le	okernel32
+1205	utf16le	ntdll
+1206	utf16le	0x00
+1207	utf16le	SOFTWARE\VDAgent
+1208	utf16le	VDAgentHookPort_%lu
+1209	utf16le	Kernel32.dll
+1210	utf16le	autotest
+1211	utf16le	VS_VERSION_INFO
+1212	utf16le	StringFileInfo
+1213	utf16le	000904b0
+1214	utf16le	CompanyName
+1215	utf16le	ZTE Corporation
+1216	utf16le	FileDescription
+1217	utf16le	FileVersion
+1218	utf16le	0, 5, 1, 0
+1219	utf16le	InternalName
+1220	utf16le	ZTEVdservice
+1221	utf16le	LegalCopyright
+1222	utf16le	(c)2014 ZTE Corporation
+1223	utf16le	OriginalFilename
+1224	utf16le	ZTEVdservice.exe
+1225	utf16le	ProductName
+1226	utf16le	ProductVersion
+1227	utf16le	VarFileInfo
+1228	utf16le	Translation

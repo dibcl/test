@@ -1,0 +1,549 @@
+﻿========== VMSWITCH TRIGGER CONTEXT ==========
+
+==================================================
+TARGET: 2026-08-23 02:44:59  +/- 20 sec
+[   -7.0s] 2026-08-23 02:44:52 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+[   -7.0s] 2026-08-23 02:44:52 F[CustomMainProcess:1752] L[INFO]init com port success!
+[   -7.0s] 2026-08-23 02:44:52 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   -7.0s] 2026-08-23 02:44:52 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_entry:1822] L[ERROR]error is :0
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_entry:1825] L[ERROR]error is :183
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 468
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_add:129] L[INFO]client add,i=0, clientfd=472, clienttick=0, fd=472
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_agent_task:1534] L[INFO]accept agentsock=472, port=49677, i=0, maxi=0, clientfd=472, clienttick=0
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 472, err=0
+[   -5.0s] 2026-08-23 02:44:54 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=472
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 472
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 472
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=472, msi_tid=476,msi_src_sock=472 
+[   -5.0s] 2026-08-23 02:44:54 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 02:44:58 F[client_add:129] L[INFO]client add,i=0, clientfd=480, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1534] L[INFO]accept agentsock=480, port=49705, i=0, maxi=0, clientfd=480, clienttick=0
+[   -1.0s] 2026-08-23 02:44:58 F[client_add:129] L[INFO]client add,i=1, clientfd=484, clienttick=0, fd=484
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1534] L[INFO]accept agentsock=484, port=49704, i=1, maxi=1, clientfd=484, clienttick=0
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 480, err=0
+[   -1.0s] 2026-08-23 02:44:58 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 480
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 480
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=480, msi_tid=488,msi_src_sock=480 
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 484, err=0
+[   -1.0s] 2026-08-23 02:44:58 F[client_del:146] L[INFO]client del,i=1, clientfd=-1, clienttick=0, fd=484
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 484
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 484
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=484, msi_tid=504,msi_src_sock=484 
+[   -1.0s] 2026-08-23 02:44:58 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 02:44:58 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=785, dst_type=1, int_msgid=9053, dst_mod=10, data_len=656,msg=<REDACTED>
+[   -1.0s] 2026-08-23 02:44:58 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:44:59 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=670, dst_type=1, int_msgid=9050, dst_mod=10, data_len=541,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:45:00 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=2490, dst_type=1, int_msgid=9054, dst_mod=10, data_len=2361,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:45:00 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=773, dst_type=1, int_msgid=9054, dst_mod=10, data_len=644,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:45:00 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:45:08 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=130, dst_type=1, int_msgid=8454852, dst_mod=6, data_len=1,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:45:08 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=130, dst_type=1, int_msgid=8454852, dst_mod=6, data_len=1,msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=173, dst_type=1, int_msgid=8454856, dst_mod=6, data_len=42,msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 02:45:09 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+[   10.0s] 2026-08-23 02:45:09 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 02:45:09 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+[   10.0s] 2026-08-23 02:45:09 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 02:45:09 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+
+==================================================
+TARGET: 2026-08-23 02:56:47  +/- 20 sec
+[   -8.0s] 2026-08-23 02:56:39 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+[   -8.0s] 2026-08-23 02:56:39 F[CustomMainProcess:1752] L[INFO]init com port success!
+[   -8.0s] 2026-08-23 02:56:39 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   -8.0s] 2026-08-23 02:56:39 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_entry:1822] L[ERROR]error is :0
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_entry:1825] L[ERROR]error is :183
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 484
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_add:129] L[INFO]client add,i=0, clientfd=492, clienttick=0, fd=492
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_agent_task:1534] L[INFO]accept agentsock=492, port=49675, i=0, maxi=0, clientfd=492, clienttick=0
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 492, err=0
+[   -6.0s] 2026-08-23 02:56:41 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=492
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 492
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 492
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=492, msi_tid=496,msi_src_sock=492 
+[   -6.0s] 2026-08-23 02:56:41 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 02:56:45 F[client_add:129] L[INFO]client add,i=0, clientfd=500, clienttick=0, fd=500
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1534] L[INFO]accept agentsock=500, port=49694, i=0, maxi=0, clientfd=500, clienttick=0
+[   -2.0s] 2026-08-23 02:56:45 F[client_add:129] L[INFO]client add,i=1, clientfd=504, clienttick=0, fd=504
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1534] L[INFO]accept agentsock=504, port=49693, i=1, maxi=1, clientfd=504, clienttick=0
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 500, err=0
+[   -2.0s] 2026-08-23 02:56:45 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=500
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 500
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 500
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=500, msi_tid=432,msi_src_sock=500 
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 504, err=0
+[   -2.0s] 2026-08-23 02:56:45 F[client_del:146] L[INFO]client del,i=1, clientfd=-1, clienttick=0, fd=504
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 504
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 504
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=504, msi_tid=188,msi_src_sock=504 
+[   -2.0s] 2026-08-23 02:56:45 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 02:56:45 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=5675, dst_type=1, int_msgid=9053, dst_mod=10, data_len=5546,msg=<REDACTED>
+[   -2.0s] 2026-08-23 02:56:45 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:56:47 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=670, dst_type=1, int_msgid=9050, dst_mod=10, data_len=541,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:56:47 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=2366, dst_type=1, int_msgid=9054, dst_mod=10, data_len=2237,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:56:47 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=773, dst_type=1, int_msgid=9054, dst_mod=10, data_len=644,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:56:47 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=170, dst_type=1, int_msgid=1300, dst_mod=-2147483648, data_len=39,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    8.0s] 2026-08-23 02:56:55 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+[    8.0s] 2026-08-23 02:56:55 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:56:56 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+[    9.0s] 2026-08-23 02:56:56 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:56:56 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+[    9.0s] 2026-08-23 02:56:56 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:56:56 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+
+==================================================
+TARGET: 2026-08-23 02:58:39  +/- 20 sec
+[  -20.0s] 2026-08-23 02:58:19 F[mswitch_agent_task:1508] L[DEBUG]Select Sock Timeout, i=0, maxi=1, tick=31,fd=-1,err='m'.
+[  -20.0s] 2026-08-23 02:58:19 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=-1
+[  -14.0s] 2026-08-23 02:58:25 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[  -14.0s] 2026-08-23 02:58:25 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[  -14.0s] 2026-08-23 02:58:25 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[  -14.0s] 2026-08-23 02:58:25 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[  -14.0s] 2026-08-23 02:58:25 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[  -14.0s] 2026-08-23 02:58:25 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -7.0s] 2026-08-23 02:58:32 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+[   -7.0s] 2026-08-23 02:58:32 F[CustomMainProcess:1752] L[INFO]init com port success!
+[   -7.0s] 2026-08-23 02:58:32 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   -7.0s] 2026-08-23 02:58:32 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_entry:1822] L[ERROR]error is :0
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_entry:1825] L[ERROR]error is :183
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 464
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_add:129] L[INFO]client add,i=0, clientfd=472, clienttick=0, fd=472
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_agent_task:1534] L[INFO]accept agentsock=472, port=49675, i=0, maxi=0, clientfd=472, clienttick=0
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 472, err=0
+[   -5.0s] 2026-08-23 02:58:34 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=472
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 472
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 472
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=472, msi_tid=476,msi_src_sock=472 
+[   -5.0s] 2026-08-23 02:58:34 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 02:58:38 F[client_add:129] L[INFO]client add,i=0, clientfd=480, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1534] L[INFO]accept agentsock=480, port=49695, i=0, maxi=0, clientfd=480, clienttick=0
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 480, err=0
+[   -1.0s] 2026-08-23 02:58:38 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 480
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 480
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=480, msi_tid=484,msi_src_sock=480 
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 02:58:38 F[client_add:129] L[INFO]client add,i=0, clientfd=488, clienttick=0, fd=488
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1534] L[INFO]accept agentsock=488, port=49696, i=0, maxi=0, clientfd=488, clienttick=0
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 488, err=0
+[   -1.0s] 2026-08-23 02:58:38 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=488
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 488
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 488
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=488, msi_tid=500,msi_src_sock=488 
+[   -1.0s] 2026-08-23 02:58:38 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 02:58:38 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=4287, dst_type=1, int_msgid=9053, dst_mod=10, data_len=4158,msg=<REDACTED>
+[   -1.0s] 2026-08-23 02:58:38 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+[    0.0s] 2026-08-23 02:58:39 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=670, dst_type=1, int_msgid=9050, dst_mod=10, data_len=541,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:58:40 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=2366, dst_type=1, int_msgid=9054, dst_mod=10, data_len=2237,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:58:40 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=773, dst_type=1, int_msgid=9054, dst_mod=10, data_len=644,msg=<REDACTED>
+[    1.0s] 2026-08-23 02:58:40 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+[    6.0s] 2026-08-23 02:58:45 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1619, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1486,msg=<REDACTED>
+[    7.0s] 2026-08-23 02:58:46 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1485, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1356,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=170, dst_type=1, int_msgid=1300, dst_mod=-2147483648, data_len=39,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 02:58:48 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+[    9.0s] 2026-08-23 02:58:48 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 02:58:49 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+[   10.0s] 2026-08-23 02:58:49 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 02:58:49 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+[   10.0s] 2026-08-23 02:58:49 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 02:58:49 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+
+==================================================
+TARGET: 2026-08-23 03:07:22  +/- 20 sec
+[   -7.0s] 2026-08-23 03:07:15 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+[   -7.0s] 2026-08-23 03:07:15 F[CustomMainProcess:1752] L[INFO]init com port success!
+[   -7.0s] 2026-08-23 03:07:15 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   -7.0s] 2026-08-23 03:07:15 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_entry:1822] L[ERROR]error is :0
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_entry:1825] L[ERROR]error is :183
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 460
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_add:129] L[INFO]client add,i=0, clientfd=464, clienttick=0, fd=464
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_agent_task:1534] L[INFO]accept agentsock=464, port=49676, i=0, maxi=0, clientfd=464, clienttick=0
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 464, err=0
+[   -6.0s] 2026-08-23 03:07:16 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=464
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 464
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 464
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=464, msi_tid=468,msi_src_sock=464 
+[   -6.0s] 2026-08-23 03:07:16 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 03:07:20 F[client_add:129] L[INFO]client add,i=0, clientfd=488, clienttick=0, fd=488
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1534] L[INFO]accept agentsock=488, port=49737, i=0, maxi=0, clientfd=488, clienttick=0
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 488, err=0
+[   -2.0s] 2026-08-23 03:07:20 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=488
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 488
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 488
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=488, msi_tid=492,msi_src_sock=488 
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 03:07:20 F[client_add:129] L[INFO]client add,i=0, clientfd=496, clienttick=0, fd=496
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1534] L[INFO]accept agentsock=496, port=49738, i=0, maxi=0, clientfd=496, clienttick=0
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 496, err=0
+[   -2.0s] 2026-08-23 03:07:20 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=496
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 496
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 496
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=496, msi_tid=508,msi_src_sock=496 
+[   -2.0s] 2026-08-23 03:07:20 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -2.0s] 2026-08-23 03:07:20 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1293, dst_type=1, int_msgid=9053, dst_mod=10, data_len=1164,msg=<REDACTED>
+[   -2.0s] 2026-08-23 03:07:20 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+[    0.0s] 2026-08-23 03:07:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=667, dst_type=1, int_msgid=9050, dst_mod=10, data_len=538,msg=<REDACTED>
+[    0.0s] 2026-08-23 03:07:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1740, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1611,msg=<REDACTED>
+[    0.0s] 2026-08-23 03:07:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=492, dst_type=1, int_msgid=9054, dst_mod=10, data_len=363,msg=<REDACTED>
+[    0.0s] 2026-08-23 03:07:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+[    5.0s] 2026-08-23 03:07:27 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1619, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1486,msg=<REDACTED>
+[    6.0s] 2026-08-23 03:07:28 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1485, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1356,msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    8.0s] 2026-08-23 03:07:30 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+[    8.0s] 2026-08-23 03:07:30 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[    8.0s] 2026-08-23 03:07:30 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    8.0s] 2026-08-23 03:07:30 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[    9.0s] 2026-08-23 03:07:31 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 03:07:31 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+[    9.0s] 2026-08-23 03:07:31 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 03:07:31 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 03:07:31 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+[    9.0s] 2026-08-23 03:07:31 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=166, dst_type=1, int_msgid=8454856, dst_mod=6, data_len=35,msg=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 03:07:32 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+[   10.0s] 2026-08-23 03:07:32 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 03:07:32 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+[   10.0s] 2026-08-23 03:07:32 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 03:07:32 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+
+==================================================
+TARGET: 2026-08-23 04:06:13  +/- 20 sec
+[   -6.0s] 2026-08-23 04:06:07 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+[   -6.0s] 2026-08-23 04:06:07 F[CustomMainProcess:1752] L[INFO]init com port success!
+[   -6.0s] 2026-08-23 04:06:07 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   -6.0s] 2026-08-23 04:06:07 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_entry:1822] L[ERROR]error is :0
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_entry:1825] L[ERROR]error is :183
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 460
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_add:129] L[INFO]client add,i=0, clientfd=468, clienttick=0, fd=468
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_agent_task:1534] L[INFO]accept agentsock=468, port=49675, i=0, maxi=0, clientfd=468, clienttick=0
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 468, err=0
+[   -5.0s] 2026-08-23 04:06:08 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=468
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 468
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 468
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=468, msi_tid=472,msi_src_sock=468 
+[   -5.0s] 2026-08-23 04:06:08 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 04:06:12 F[client_add:129] L[INFO]client add,i=0, clientfd=480, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1534] L[INFO]accept agentsock=480, port=49742, i=0, maxi=0, clientfd=480, clienttick=0
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 480, err=0
+[   -1.0s] 2026-08-23 04:06:12 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=480
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 480
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 480
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=480, msi_tid=484,msi_src_sock=480 
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 04:06:12 F[client_add:129] L[INFO]client add,i=0, clientfd=496, clienttick=0, fd=496
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1534] L[INFO]accept agentsock=496, port=49743, i=0, maxi=0, clientfd=496, clienttick=0
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 496, err=0
+[   -1.0s] 2026-08-23 04:06:12 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=496
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 496
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 496
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=496, msi_tid=500,msi_src_sock=496 
+[   -1.0s] 2026-08-23 04:06:12 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+[   -1.0s] 2026-08-23 04:06:12 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=689, dst_type=1, int_msgid=9053, dst_mod=10, data_len=560,msg=<REDACTED>
+[   -1.0s] 2026-08-23 04:06:12 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+[    0.0s] 2026-08-23 04:06:13 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=667, dst_type=1, int_msgid=9050, dst_mod=10, data_len=538,msg=<REDACTED>
+[    0.0s] 2026-08-23 04:06:13 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1740, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1611,msg=<REDACTED>
+[    0.0s] 2026-08-23 04:06:13 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=492, dst_type=1, int_msgid=9054, dst_mod=10, data_len=363,msg=<REDACTED>
+[    1.0s] 2026-08-23 04:06:14 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=170, dst_type=1, int_msgid=1300, dst_mod=-2147483648, data_len=39,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[    9.0s] 2026-08-23 04:06:22 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+[    9.0s] 2026-08-23 04:06:22 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 04:06:23 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+[   10.0s] 2026-08-23 04:06:23 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+[   10.0s] 2026-08-23 04:06:23 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+[   10.0s] 2026-08-23 04:06:23 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+[   10.0s] 2026-08-23 04:06:23 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200

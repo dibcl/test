@@ -1,0 +1,41 @@
+﻿========== ZTE COMPONENT METADATA MAP ==========
+
+========== C:\Program Files (x86)\ZTEGuestOS\installinfo.ini ==========
+[VdesktopVersion]
+version=V7.25.21SP3-9
+ClientType=1
+versionId=e9824e48ba1170d4aa977cca4b5371c2
+versionId=59b0ba358d44aa243a843ecee7edf12b
+versionId=3a52a69e1296971b481110e5ca272ec5
+versionId=2dd9153a7226f1fd9f8962df7b1aff0b
+versionId=f52f791a0ca7c152fb2df7df83a8958d
+versionId=95b7ef830fbaebaf70986b49316c481e
+
+========== C:\Program Files (x86)\ZTEGuestOS\version.ini ==========
+
+========== C:\Program Files (x86)\uSmartviewUpdate\updateinfo.ini ==========
+ClientType = 1
+OS_Type = Windows
+#0=涓嶅尯鍒嗭紝1=64浣嶏紝2=32浣?OS_Bit = 0
+OS_Version = all
+Architecture = x86
+#缁堢绫诲瀷锛?=鑳栫粓绔紝1=鐦︾粓绔?绌鸿〃绀虹粓绔被鍨嬫棤鍏?TerminalType = 
+#瀵硅薄绫诲瀷锛?锛氬崌绾у鎴风锛?锛氳蒋浠跺晢搴? 2锛氬崌绾ф湇鍔?objecttype = 2
+fullInstall = 1
+installSize =100
+Install_order = 200
+Need_space = 51793378
+
+========== C:\Program Files (x86)\uSmartviewUpdate\conf\versioninfo.ini ==========
+version=7.24.10.01
+versionId=d9a3d72e59a87ca9fb91ed0f1e7a609ad55a2d2b
+clientType=1
+
+========== C:\Program Files (x86)\vmtool\version.ini ==========
+vmbooster_version =V7.25.21SP3-9
+
+========== C:\Program Files (x86)\vmtool\vm_booster\updateinfo.ini ==========
+versionId=cfe4879845167d027cb5246e857bb21c58ec31fb 
+
+========== C:\Program Files (x86)\vmtool\vm_booster\version.ini ==========
+vmbooster_version=V7.25.21SP3pv-9

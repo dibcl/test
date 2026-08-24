@@ -1,0 +1,58 @@
+﻿START 2026-08-23 22:09:47.752
+
+===== 22:09:55.011 =====
+08-23 22:09:54:844: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2388] g_be_use_ipv6:0  g_use_tnport:0 
+08-23 22:09:54:844: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:09:54:844: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:09:54:849: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:09:54:850: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+
+
+===== 22:10:05.178 =====
+08-23 22:10:04:850: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2389] g_be_use_ipv6:1  g_use_tnport:1 
+08-23 22:10:04:850: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:04:850: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:04:855: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:10:04:856: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+
+
+===== 22:10:15.356 =====
+08-23 22:10:14:854: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2390] g_be_use_ipv6:0  g_use_tnport:0 
+08-23 22:10:14:854: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:14:854: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:14:859: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:10:14:860: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+
+
+===== 22:10:24.991 =====
+08-23 22:10:24:864: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2391] g_be_use_ipv6:1  g_use_tnport:1 
+08-23 22:10:24:864: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:24:864: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:24:869: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:10:24:870: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+
+
+===== 22:10:35.187 =====
+08-23 22:10:34:874: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2392] g_be_use_ipv6:0  g_use_tnport:0 
+08-23 22:10:34:874: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:34:874: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:34:879: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:10:34:880: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+
+
+===== 22:10:44.900 =====
+08-23 22:10:44:880: ice-Info-1556:1856 : main_channel.c:4661: main_channel_check_10secs_timer: reg no response,times[2393] g_be_use_ipv6:1  g_use_tnport:1 
+08-23 22:10:44:880: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4662, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:44:880: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:44:885: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+08-23 22:10:44:886: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+08-23 22:10:44:891: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:256,25 addrv6: len:256,0 
+08-23 22:10:44:891: ice-Info-1556:1856 : base_func.c:3763: ice_get_reg_info_ex: open reg fail:0 node:SOFTWARE\WOW6432Node\ZTEAI
+08-23 22:10:44:891: ice-Info-1556:1856 : main_channel.c:2290: send_reg_req_ex: uuid:<REDACTED> callde by:4834, stop_heart:0 status:Logout com_ver:V7.25.21SP3pv
+08-23 22:10:44:891: ice-Info-1556:1856 : main_channel.c:1723: load_csap_cfg: ip_buff:100.121.21.58,,domain:100.121.21.58, tdiff:0,0
+08-23 22:10:44:896: ice-Info-1556:1856 : base_func.c:2792: ice_get_local_ip_all: addr:172.18.0.1,172.20.176.122 len:512,25 addrv6: len:512,0 
+
+
+===== 22:10:45.412 =====
+08-23 22:10:44:897: ice-Info-1556:1856 : tunnel.c:4311: _proxy_send_udp_msg: tmp_ip:::ffff:100.121.21.58
+

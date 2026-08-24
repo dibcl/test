@@ -1,0 +1,673 @@
+﻿========== VIOSERIAL PDO MAP ==========
+
+------------------------------------
+FriendlyName : vport1p1
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&01
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p1
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000051
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p1
+
+
+
+
+------------------------------------
+FriendlyName : vport1p2
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&02
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p2
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000052
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p2
+
+
+
+
+------------------------------------
+FriendlyName : vport1p3
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&03
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p3
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000053
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p3
+
+
+
+
+------------------------------------
+FriendlyName : vport1p4
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&04
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p4
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000054
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p4
+
+
+
+
+------------------------------------
+FriendlyName : vport1p5
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&05
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p5
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000055
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p5
+
+
+
+
+------------------------------------
+FriendlyName : vport1p6
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&06
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p6
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000056
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p6
+
+
+
+
+------------------------------------
+FriendlyName : vport1p7
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&07
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p7
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000057
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p7
+
+
+
+
+------------------------------------
+FriendlyName : vport1p8
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&08
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p8
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000058
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p8
+
+
+
+
+------------------------------------
+FriendlyName : vport1p9
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&09
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p9
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000059
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p9
+
+
+
+
+------------------------------------
+FriendlyName : vport1p10
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&10
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p10
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000005a
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p10
+
+
+
+
+------------------------------------
+FriendlyName : vport1p11
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&11
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p11
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000005b
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p11
+
+
+
+
+------------------------------------
+FriendlyName : vport1p12
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&86D7064&0&12
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport1p12
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000005c
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&58
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport1p12
+
+
+
+
+------------------------------------
+FriendlyName : vport0p1
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&01
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p1
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000046
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p1
+
+
+
+
+------------------------------------
+FriendlyName : vport0p2
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&02
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p2
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000047
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p2
+
+
+
+
+------------------------------------
+FriendlyName : vport0p3
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&03
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p3
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000045
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p3
+
+
+
+
+------------------------------------
+FriendlyName : vport0p4
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&04
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p4
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000048
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p4
+
+
+
+
+------------------------------------
+FriendlyName : vport0p5
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&05
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p5
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000049
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p5
+
+
+
+
+------------------------------------
+FriendlyName : vport0p6
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&06
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p6
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004a
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p6
+
+
+
+
+------------------------------------
+FriendlyName : vport0p7
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&07
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p7
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004b
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p7
+
+
+
+
+------------------------------------
+FriendlyName : vport0p8
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&08
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p8
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004c
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p8
+
+
+
+
+------------------------------------
+FriendlyName : vport0p9
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&09
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p9
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004d
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p9
+
+
+
+
+------------------------------------
+FriendlyName : vport0p10
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&10
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p10
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004e
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p10
+
+
+
+
+------------------------------------
+FriendlyName : vport0p11
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&11
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p11
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\0000004f
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p11
+
+
+
+
+------------------------------------
+FriendlyName : vport0p12
+InstanceId   : {6FDE7547-1B65-48AE-B628-80BE62016026}\VIOSERIALPORT\4&1570899A&0&12
+
+
+KeyName : DEVPKEY_Device_DeviceDesc
+Type    : String
+Data    : vport0p12
+
+KeyName : DEVPKEY_Device_LocationInfo
+Type    : String
+Data    : RedHat VIOSerial Port
+
+KeyName : DEVPKEY_Device_PDOName
+Type    : String
+Data    : \Device\00000050
+
+KeyName : DEVPKEY_Device_Parent
+Type    : String
+Data    : PCI\VEN_1AF4&DEV_1003&SUBSYS_00031AF4&REV_00\3&13c0b0c5&0&50
+
+KeyName : DEVPKEY_Device_BusReportedDeviceDesc
+Type    : String
+Data    : vport0p12
+
+
+

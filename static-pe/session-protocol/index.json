@@ -1,0 +1,29 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\ProtocolManager.dll",
+    "json": "static-pe\\session-protocol\\ProtocolManager.pe.json",
+    "strings": "static-pe\\session-protocol\\ProtocolManager.strings.txt",
+    "sha256": "803aa00822d60c763cffa8ffa5bb12fd9c468961c5d8d9d7bf1b17def544470a",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 1161
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\ProtocolManager-2008.dll",
+    "json": "static-pe\\session-protocol\\ProtocolManager-2008.pe.json",
+    "strings": "static-pe\\session-protocol\\ProtocolManager-2008.strings.txt",
+    "sha256": "9b1a88fc7f1ea166e51a500f274fdffd2700ad404f231b79cdf3172ed2e445ea",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 1124
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\AppProxy.dll",
+    "json": "static-pe\\session-protocol\\AppProxy.pe.json",
+    "strings": "static-pe\\session-protocol\\AppProxy.strings.txt",
+    "sha256": "8a43c853cde06b73ac9b0efbbbf03c4b5204c2b803e5d49d64523fd2227d2b3a",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 2498
+  }
+]

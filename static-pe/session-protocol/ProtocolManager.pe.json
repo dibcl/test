@@ -1,0 +1,253 @@
+{
+  "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\ProtocolManager.dll",
+  "sha256": "803aa00822d60c763cffa8ffa5bb12fd9c468961c5d8d9d7bf1b17def544470a",
+  "size": 100784,
+  "machine": "x86-64",
+  "bitness": 64,
+  "timestamp": 1752044136,
+  "characteristics": "0x2022",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 47716,
+      "vaddr": 4096,
+      "raw_size": 48128,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 32604,
+      "vaddr": 53248,
+      "raw_size": 32768,
+      "raw_ptr": 49152
+    },
+    {
+      "name": ".data",
+      "vsize": 165184,
+      "vaddr": 86016,
+      "raw_size": 1024,
+      "raw_ptr": 81920
+    },
+    {
+      "name": ".pdata",
+      "vsize": 3312,
+      "vaddr": 253952,
+      "raw_size": 3584,
+      "raw_ptr": 82944
+    },
+    {
+      "name": ".tls",
+      "vsize": 9,
+      "vaddr": 258048,
+      "raw_size": 512,
+      "raw_ptr": 86528
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 2248,
+      "vaddr": 262144,
+      "raw_size": 2560,
+      "raw_ptr": 87040
+    },
+    {
+      "name": ".reloc",
+      "vsize": 324,
+      "vaddr": 266240,
+      "raw_size": 512,
+      "raw_ptr": 89600
+    }
+  ],
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateEventW",
+        "CreateFileA",
+        "CreateFileMappingA",
+        "CreateFileW",
+        "CreateMutexA",
+        "CreateThread",
+        "DecodePointer",
+        "DeleteCriticalSection",
+        "DeleteFileA",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThreadId",
+        "GetDiskFreeSpaceExA",
+        "GetLastError",
+        "GetLocalTime",
+        "GetModuleFileNameA",
+        "GetModuleHandleA",
+        "GetPrivateProfileIntA",
+        "GetProcAddress",
+        "GetSystemTimeAsFileTime",
+        "InitializeCriticalSection",
+        "InitializeCriticalSectionEx",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "LeaveCriticalSection",
+        "LocalAlloc",
+        "MapViewOfFile",
+        "MultiByteToWideChar",
+        "OpenFileMappingA",
+        "OutputDebugStringA",
+        "OutputDebugStringW",
+        "QueryPerformanceCounter",
+        "QueryPerformanceFrequency",
+        "SetEvent",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "UnmapViewOfFile",
+        "WideCharToMultiByte"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "MsgWaitForMultipleObjects",
+        "wsprintfW"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "RegCloseKey",
+        "RegOpenKeyExA",
+        "RegOpenKeyExW",
+        "RegQueryValueExA",
+        "RegQueryValueExW"
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "functions": [
+        "StringFromCLSID"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "ordinal:1",
+        "ordinal:11",
+        "ordinal:111",
+        "ordinal:115",
+        "ordinal:12",
+        "ordinal:13",
+        "ordinal:16",
+        "ordinal:19",
+        "ordinal:2",
+        "ordinal:21",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "libcrypto-3-x64.dll",
+      "functions": [
+        "ERR_error_string",
+        "ERR_get_error",
+        "EVP_PKEY_CTX_free",
+        "EVP_PKEY_CTX_new",
+        "EVP_PKEY_CTX_set_rsa_padding",
+        "EVP_PKEY_decrypt",
+        "EVP_PKEY_decrypt_init",
+        "EVP_PKEY_free",
+        "EVP_PKEY_get_id",
+        "d2i_PrivateKey"
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "functions": [
+        "MiniDumpWriteDump"
+      ]
+    },
+    {
+      "dll": "msvcr120.dll",
+      "functions": [
+        "??2@YAPEAX_K@Z",
+        "??3@YAXPEAX@Z",
+        "?_type_info_dtor_internal_method@type_info@@QEAAXXZ",
+        "?terminate@@YAXXZ",
+        "_CxxThrowException",
+        "__C_specific_handler",
+        "__CppXcptFilter",
+        "__CxxFrameHandler3",
+        "__clean_type_info_names_internal",
+        "__crtCaptureCurrentContext",
+        "__crtCapturePreviousContext",
+        "__crtTerminateProcess",
+        "__crtUnhandledException",
+        "__crt_debugger_hook",
+        "__dllonexit",
+        "__iob_func",
+        "_access",
+        "_amsg_exit",
+        "_calloc_crt",
+        "_initterm",
+        "_initterm_e",
+        "_lock",
+        "_malloc_crt",
+        "_mkdir",
+        "_onexit",
+        "_stricmp",
+        "_unlock",
+        "_vsnprintf",
+        "_vsnwprintf",
+        "atoi",
+        "exit",
+        "fclose",
+        "feof",
+        "fflush",
+        "fgets",
+        "fopen",
+        "fprintf",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "isupper",
+        "memcmp",
+        "memcpy",
+        "memcpy_s",
+        "memmove",
+        "memset",
+        "printf",
+        "rename",
+        "rewind",
+        "strchr",
+        "strncmp",
+        "strncpy_s",
+        "strnlen",
+        "strrchr",
+        "strstr"
+      ]
+    },
+    {
+      "dll": "msvcp120.dll",
+      "functions": [
+        "?_Xbad_alloc@std@@YAXXZ",
+        "?_Xlength_error@std@@YAXPEBD@Z",
+        "?_Xout_of_range@std@@YAXPEBD@Z"
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "name": "DllCanUnloadNow",
+      "ordinal": 1,
+      "rva": "0xb240"
+    },
+    {
+      "name": "DllGetClassObject",
+      "ordinal": 2,
+      "rva": "0xb250"
+    }
+  ],
+  "import_directory_size": 200,
+  "export_directory_size": 114
+}

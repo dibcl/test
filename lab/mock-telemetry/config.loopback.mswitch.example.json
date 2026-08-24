@@ -1,0 +1,17 @@
+{
+  "profile": "lab/mock-telemetry/baseline.synthetic.json",
+  "transport": {
+    "type": "loopback_mswitch_tcp",
+    "host": "127.0.0.1",
+    "port": 19051,
+    "timeout": 3.0,
+    "test_mode": true,
+    "test_uuid": "11111111-1111-4111-8111-111111111111",
+    "dst_type": 0,
+    "dst_type_by_module": {"0x6": 0, "0x80000000": 0},
+    "msgtype_by_id": {"0x8102c4": 0}
+  },
+  "faults": {"drop_ids": [], "duplicate_ids": [], "stale_timestamp_ids": []},
+  "bidirectional": true,
+  "duration_seconds": 600
+}

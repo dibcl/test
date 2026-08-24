@@ -1,0 +1,350 @@
+﻿========== FAILED OFFICIAL CLIENT STATE ==========
+TIME: 2026-08-24 00:13:49.294
+
+========== WINDOWS SESSIONS ==========
+ 用户名                会话名             ID  状态    空闲时间   登录时间
+>administrator         console             1  运行中      无     2026/8/23 23:40
+ 会话名            用户名                   ID  状态    类型        设备 
+ services                                    0  断开                        
+>console           Administrator             1  运行中                      
+
+========== DISPLAY DEVICES ==========
+
+
+Status       : OK
+Class        : Display
+FriendlyName : ICE IDD DISPLAY DRIVER
+InstanceId   : ROOT\DISPLAY\0000
+
+Status       : OK
+Class        : Display
+FriendlyName : GameViewer Virtual Display Adapter
+InstanceId   : ROOT\DISPLAY\0001
+
+Status       : OK
+Class        : Display
+FriendlyName : ICE DISPLAY WDDM DRIVER
+InstanceId   : PCI\VEN_1B36&DEV_0100&SUBSYS_11001AF4&REV_04\3&13C0B0C5&0&10
+
+Status       : Unknown
+Class        : Display
+FriendlyName : ICE DISPLAY WDDM DRIVER
+InstanceId   : PCI\VEN_1B36&DEV_0100&SUBSYS_11001AF4&REV_04\3&2411E6FE&0&08
+
+
+
+
+========== VIDEO CONTROLLERS ==========
+
+
+Name                 : ICE IDD DISPLAY DRIVER
+Status               : OK
+PNPDeviceID          : ROOT\DISPLAY\0000
+DriverVersion        : 11.43.22.979
+VideoModeDescription : 
+
+Name                 : GameViewer Virtual Display Adapter
+Status               : OK
+PNPDeviceID          : ROOT\DISPLAY\0001
+DriverVersion        : 15.6.5.199
+VideoModeDescription : 3840 x 2160 x 4294967296 种颜色
+
+Name                 : ICE DISPLAY WDDM DRIVER
+Status               : OK
+PNPDeviceID          : PCI\VEN_1B36&DEV_0100&SUBSYS_11001AF4&REV_04\3&13C0B0C5&0&10
+DriverVersion        : 6.2.0.2824
+VideoModeDescription : 3072 x 1920 x 4294967296 种颜色
+
+
+
+
+========== REMOTE / ICE PROCESSES ==========
+
+Name                  ProcessId ParentProcessId ExecutablePath                                                               
+----                  --------- --------------- --------------                                                               
+services.exe                732             588                                                                              
+IceMainService.exe         1488             732 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceMainService.exe               
+IceTunnel.exe              1496             732 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceTunnel.exe                    
+IceInputService.exe        1504             732 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInputService.exe              
+IceDisplay.exe             1520             732 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDisplay.exe                   
+Vdservice.exe              1528             732 C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdservice.exe                    
+IceSound.exe               1536             732 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceSound.exe                     
+IceVGPUCapture.exe         1728            1488 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceVGPUCapture.exe               
+RedirectAgent.exe          1744            1488 C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectAgent.exe              
+MswitchWin.exe             4016             732 C:\Program Files (x86)\vmtool\vm_booster\MswitchWin.exe                      
+AssistantService.exe       4032             732 C:\Program Files (x86)\SysGuard\AssistantService.exe                         
+GameViewerService.exe      3792             732 D:\UU\GameViewer\GameViewerService.exe                                       
+GameViewerServer.exe       3952            3792 D:\UU\GameViewer\bin\GameViewerServer.exe                                    
+GameViewerHealthd.exe      4772            3792 D:\UU\GameViewer\bin\GameViewerHealthd.exe                                   
+RedirectProxy.exe          5632            1744 C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectProxy\RedirectProxy.exe
+RedirectProxy.exe          5320            5632 C:\Program Files (x86)\ZTEGuestOS\BCRRedirect\RedirectProxy\RedirectProxy.exe
+GameViewer.exe             8620            3200 D:\UU\GameViewer\bin\GameViewer.exe                                          
+Vdagent.exe                7484            1528 C:\Program Files (x86)\ZTEGuestOS\vdservice\Vdagent.exe                      
+IceInput.exe               9692            1504 C:\Program Files (x86)\ZTEGuestOS\IceServer\IceInput.exe                     
+
+
+
+========== TCP CONNECTIONS ==========
+
+========== ICE / VDAGENT RECENT STATUS ==========
+
+----- C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log -----
+2026-08-24 00:02:36.011 #9484 [INFO ] 10112# 9484 VDAgent::handle_announce_capabilities(11286): set _stop_send_flag num 0
+2026-08-24 00:02:36.012 #9484 [INFO ] 10112# 9484 VDAgent::update_whitelist_proc_state_in_reg(22610): write state is 0, _bIsOffline 0, is_compiling 0
+2026-08-24 00:02:36.015 #9484 [INFO ] 10112# 9484 VDAgent::write_user_online_state_in_reg(1570): write user online state 1
+2026-08-24 00:02:36.016 #9484 [INFO ] 10112# 9484 VDAgent::client_connection_status(28171): connect_value: 1
+2026-08-24 00:02:36.016 #9484 [INFO ] 10112# 9484 VDAgent::send_vm_session_id(27019): send vm sessionId: 1.
+2026-08-24 00:02:36.017 #9484 [INFO ] 10112# 9484 VDAgent::handle_alarm_info(26365): noLA is 0, _client_connect_type is 0, size is 38
+2026-08-24 00:02:36.017 #9484 [ERROR] 10112# 9484 VDAgent::clean_client_mac_info(11973): remove client_mac_info failed, error 2
+2026-08-24 00:02:36.017 #9484 [ERROR] 10112# 9484 VDAgent::clean_client_mac_info(11991): remove client_ip_im_info failed, error 2
+2026-08-24 00:02:36.021 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12805): FindWindow wmp failed!
+2026-08-24 00:02:36.021 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12837): FindWindow storm failed!
+2026-08-24 00:02:36.021 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12858): FindWindow uSmartplayer failed!
+2026-08-24 00:02:36.021 #2352 [INFO ] 10112# 2352 get_path_of_uSmartView(6129): ReadReg failed, errcode=0
+2026-08-24 00:02:36.021 #2352 [ERROR] 10112# 2352 send_msg_to_uSmartViewService(6140): ReadReg of uSmartView's InstallLocation failed
+2026-08-24 00:02:36.165 #9484 [INFO ] 10112# 9484 DisplaySetting::get_user_process_id(139): current_id 10112, agent_session_id 1
+2026-08-24 00:02:36.181 #8276 [INFO ] 10112# 8276 VDAgent::AddOneShareDisk(9182): wait for Approming start
+2026-08-24 00:02:36.187 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20459): Default desktop, but not login on OS, current sessionid=1
+2026-08-24 00:02:36.188 #9484 [ERROR] 10112# 9484 GetLtgcAesInfo(17315): read userinfo/ice info from ltgcinfo.ini failed
+2026-08-24 00:02:36.188 #9484 [ERROR] 10112# 9484 GetLtgcRsaPrivateKey(17365): get LTGC AES info failed, quit
+2026-08-24 00:02:36.188 #9484 [ERROR] 10112# 9484 isCuCloud_sm4_ver(17013): open HKLM\SOFTWARE\piraty failed(2)
+2026-08-24 00:02:36.188 #9484 [INFO ] 10112# 9484 VDAgent::init_loginfo_in_reg(15166): Skip init for CU already exist...
+2026-08-24 00:02:36.188 #9484 [ERROR] 10112# 9484 VDAgent::set_logon_info_to_reg(16882): open reg SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{44AD597F-E1AD-4973-9A52-33F61F3E16E9}\ failed(2)
+2026-08-24 00:02:36.189 #8276 [INFO ] 10112# 8276 VDAgent::AddOneShareDisk(9216): start approming start,szDataPath:, szConfigPath:
+2026-08-24 00:02:36.223 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20846): Received VD_AGENT_CLIENT_LOCK_DISCONNECT_SETTINGS message
+2026-08-24 00:02:36.223 #9484 [INFO ] 10112# 9484 VDAgent::handle_client_lock_disconnect_settings(22623): m_iLockDisconSettings is 0
+2026-08-24 00:02:36.224 #9484 [INFO ] 10112# 9484 VDAgent::update_whitelist_proc_state_in_reg(22610): write state is 0, _bIsOffline 0, is_compiling 0
+2026-08-24 00:02:36.225 #9484 [INFO ] 10112# 9484 VDAgent::handle_file_export_config(25507): Set file-export= in C:\Program Files (x86)\ZTEGuestOS\FileExport\export.ini return 0 error 3
+2026-08-24 00:02:36.225 #9484 [ERROR] 10112# 9484 VDAgent::handle_file_export_config(25511): FileExport not exist
+2026-08-24 00:02:36.308 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20983): Received VD_AGENT_CB_OLE_RECONNECT
+2026-08-24 00:02:36.308 #9484 [INFO ] 10112# 9484 VDAgent::handle_ole_reconnect(29110): enter handle_ole_reconnect, VDI notify 3 to set link integration! 2 means both tcp mode
+2026-08-24 00:02:37.025 #2352 [WARN ] 10112# 2352 deal_sock_connect(743): connection to dest timeout tv_ms:1000 ip[127.0.0.1] dport[46666]
+2026-08-24 00:02:37.025 #2352 [ERROR] 10112# 2352 send_msg_to_uSmartViewService(6152): create and connect socket failed!
+2026-08-24 00:02:37.263 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20983): Received VD_AGENT_CB_OLE_RECONNECT
+2026-08-24 00:02:37.263 #9484 [INFO ] 10112# 9484 VDAgent::handle_ole_reconnect(29110): enter handle_ole_reconnect, VDI notify 3 to set link integration! 2 means both tcp mode
+2026-08-24 00:02:37.346 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20983): Received VD_AGENT_CB_OLE_RECONNECT
+2026-08-24 00:02:37.346 #9484 [INFO ] 10112# 9484 VDAgent::handle_ole_reconnect(29110): enter handle_ole_reconnect, VDI notify 2 to set link integration! 2 means both tcp mode
+2026-08-24 00:02:37.976 #9484 [ERROR] 10112# 9484 DesktopLayout::change_wddm_or_idd_display(785): ChangeDisplaySettingsEx success in change_wddm_display!
+2026-08-24 00:02:47.665 #9484 [WARN ] 10112# 9484 VDAgent::handle_get_third_party_app_info(11774): get netprinter conf printername failed!
+2026-08-24 00:02:53.055 #10360 [ERROR] 10112# 10360 GetActiveWindowInfo(7516): GetWindowThreadProcessId failed, errcode=1400.
+2026-08-24 00:03:12.571 #10360 [ERROR] 10112# 10360 GetActiveWindowInfo(7516): GetWindowThreadProcessId failed, errcode=1400.
+2026-08-24 00:03:13.840 #10360 [ERROR] 10112# 10360 GetActiveWindowInfo(7516): GetWindowThreadProcessId failed, errcode=1400.
+2026-08-24 00:03:15.841 #9912 [WARN ] 10112# 9912 VDAgent::get_vm_ip_addr(6533): ERROR_BUFFER_OVERFLOW == nRel
+2026-08-24 00:03:15.841 #9912 [WARN ] 10112# 9912 VDAgent::get_vm_ip_addr(6533): ERROR_BUFFER_OVERFLOW == nRel
+2026-08-24 00:03:18.945 #9912 [WARN ] 10112# 9912 VDAgent::get_vm_ip_addr(6533): ERROR_BUFFER_OVERFLOW == nRel
+2026-08-24 00:03:18.946 #9912 [WARN ] 10112# 9912 VDAgent::get_vm_ip_addr(6533): ERROR_BUFFER_OVERFLOW == nRel
+2026-08-24 00:04:47.977 #9484 [INFO ] 10112# 9484 VDAgent::dispatch_message(20247): Received VD_AGENT_CLIENT_DISCONNECTED message
+2026-08-24 00:04:47.977 #9484 [INFO ] 10112# 9484 VDAgent::update_whitelist_proc_state_in_reg(22610): write state is 1, _bIsOffline 1, is_compiling 0
+2026-08-24 00:04:47.978 #9484 [INFO ] 10112# 9484 VDAgent::write_user_online_state_in_reg(1570): write user online state 0
+2026-08-24 00:04:47.978 #9484 [INFO ] 10112# 9484 VDAgent::SetLogoffAutoLoginFlag(8033): write logoff-autologin cfg to 0
+2026-08-24 00:04:47.978 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12805): FindWindow wmp failed!
+2026-08-24 00:04:47.978 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12837): FindWindow storm failed!
+2026-08-24 00:04:47.978 #9484 [INFO ] 10112# 9484 VDAgent::handle_exit_wmplayer(12858): FindWindow uSmartplayer failed!
+2026-08-24 00:04:47.979 #9484 [INFO ] 10112# 9484 VDAgent::client_connection_status(28171): connect_value: 0
+2026-08-24 00:04:47.982 #9484 [WARN ] 10112# 9484 VDAgent::dispatch_message(20316): Client disconnected!
+2026-08-24 00:04:47.984 #10300 [ERROR] 10112# 10300 VDAgent::thread_handle_ole_clipboard(29221): recv msg failed, errcode=10054
+2026-08-24 00:04:47.985 #10504 [INFO ] 10112# 10504 VDAgent::thread_user_ole_clipboard(7944): ZDP-clipboard is stoped,restarted
+2026-08-24 00:05:12.437 #9484 [WARN ] 10112# 9484 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.057 #9484 [WARN ] 10112# 9484 VDAgent::event_dispatcher(9892): stop event from vdservice siganaled! begin to exit...
+2026-08-24 00:05:13.058 #9968 [WARN ] 10112# 9968 VDAgent::thread_report_ipchange(7301): exit thread_report_ipchange because agent stop!
+2026-08-24 00:05:13.058 #9876 [WARN ] 10112# 9876 VDAgent::thread_monitor_server_heartbeat(7434): exit thread_monitor_server_heartbeat because agent stop!
+2026-08-24 00:05:13.059 #9484 [INFO ] 10112# 9484 VDAgent::input_desktop_message_loop(9817): <<<<<<<<<<<<<<<StopHOOK!
+2026-08-24 00:05:13.065 #10356 [WARN ] 10112# 10356 VDAgent::thread_handle_active_window_x64(7624): exit thread because agent stop!
+2026-08-24 00:05:13.065 #10504 [WARN ] 10112# 10504 VDAgent::thread_user_ole_clipboard(7992): thread_user_ole_clipboard exit for agent stop!
+2026-08-24 00:05:13.067 #10300 [ERROR] 10112# 10300 VDAgent::thread_handle_ole_clipboard(29221): recv msg failed, errcode=10054
+2026-08-24 00:05:13.275 #10360 [ERROR] 10112# 10360 VDAgent::thread_recv_active_window_event_x64(7674): recvfrom failed with 10004,exit thread
+2026-08-24 00:05:13.275 #9484 [INFO ] 10112# 9484 VDAgent::exitVdagent(8587): Agent stopped
+2026-08-24 00:05:13.275 #10364 [ERROR] 10112# 10364 VDAgent::thread_recv_active_window_event_x86(7734): recvfrom failed with 10004,exit thread
+2026-08-24 00:05:13.602 #3744 [INFO ] 7484# 3744 wWinMain(30593): Vdagent started, version: V7.25.21_20, compile time: Jul  8 2025, 09:40:21
+2026-08-24 00:05:13.602 #3744 [ERROR] 7484# 3744 VDAgent::set_console_app_vir(29820): open reg HKLM\\SYSTEM\CurrentControlSet\Control\Session Manager\Environment failed 0
+2026-08-24 00:05:13.602 #3744 [INFO ] 7484# 3744 VDAgent::update_whitelist_proc_state_in_reg(22610): write state is 1, _bIsOffline 1, is_compiling 0
+2026-08-24 00:05:13.602 #3744 [INFO ] 7484# 3744 VDAgent::write_user_online_state_in_reg(1570): write user online state 0
+2026-08-24 00:05:13.602 #3744 [INFO ] 7484# 3744 VDAgent::run(8295): ResetEvent for stop event succ
+2026-08-24 00:05:13.602 #3744 [ERROR] 7484# 3744 VDAgent::run(8309): LoadLibrary user32.dll success!
+2026-08-24 00:05:13.618 #10308 [INFO ] 7484# 10308 VDAgent::thread_vm_module(23102): thread_vm_module start!!!
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.619 #3744 [INFO ] 7484# 3744 VDAgent::run(8528): Connected to server
+2026-08-24 00:05:13.625 #3744 [WARN ] 7484# 3744 VDAgent::GetUploadHotStarTime(30092): ReadRegKeySZ  [CFG_START_END_TIME] failed, error code -2
+2026-08-24 00:05:13.625 #3744 [WARN ] 7484# 3744 VDAgent::GetUploadLastTime(30109): ReadRegKeySZ  [CFG_LAST_TIME] failed, error code -2
+2026-08-24 00:05:13.625 #3744 [INFO ] 7484# 3744 VDAgent::GetStartTimerMin(30079): upload hotdate nMin = [1435]
+2026-08-24 00:05:13.626 #3744 [INFO ] 7484# 3744 VDAgent::GetStartTimerMin(30080): upload hotdate nMax = [1795]
+2026-08-24 00:05:13.627 #3744 [INFO ] 7484# 3744 VDAgent::StartTimerForPathSync(30144): start  pathsync.exe timer after = [1498]
+2026-08-24 00:05:13.627 #3744 [ERROR] 7484# 3744 TouchInfoInit(483): LoadLibrary user32.dll success!
+2026-08-24 00:05:13.628 #3744 [INFO ] 7484# 3744 VDAgent::update_loginfo_in_reg(15301): Current UserName=Administrator, UserLen=28, DomainName=YD-TY-01, DomainLen=18.
+2026-08-24 00:05:13.628 #3744 [ERROR] 7484# 3744 get_alarm_switch_state(1702): ReadReg failed, errcode=0
+2026-08-24 00:05:13.628 #3744 [INFO ] 7484# 3744 VDAgent::detect_local_authentication(15213): alarm switch off or noLA switch on, do not send alarm msg
+2026-08-24 00:05:13.628 #4572 [INFO ] 7484# 4572 VDAgent::thread_handle_active_window_x64(7577): enter thread_handle_active_window_x64, hookDemo started...
+2026-08-24 00:05:13.628 #3744 [INFO ] 7484# 3744 DisplaySetting::get_user_process_id(139): current_id 7484, agent_session_id 1
+2026-08-24 00:05:13.636 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:05:13.636 #7660 [INFO ] 7484# 7660 get_path_of_uSmartView(6129): ReadReg failed, errcode=0
+2026-08-24 00:05:13.636 #7660 [ERROR] 7484# 7660 send_msg_to_uSmartViewService(6140): ReadReg of uSmartView's InstallLocation failed
+2026-08-24 00:05:14.649 #7660 [WARN ] 7484# 7660 deal_sock_connect(743): connection to dest timeout tv_ms:1000 ip[127.0.0.1] dport[46666]
+2026-08-24 00:05:14.649 #7660 [ERROR] 7484# 7660 send_msg_to_uSmartViewService(6152): create and connect socket failed!
+2026-08-24 00:05:37.609 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:06:37.609 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:07:37.603 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:08:37.607 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:09:37.605 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:14.818 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:17.481 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:28.326 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:10:31.288 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:31.292 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:32.048 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:32.054 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:33.487 #1312 [ERROR] 7484# 1312 GetActiveWindowInfo(7516): GetWindowThreadProcessId failed, errcode=1400.
+2026-08-24 00:10:35.925 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:10:37.614 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:10:41.519 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:11:37.614 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:12:37.612 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:13:19.841 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:13:24.128 #1312 [WARN ] 7484# 1312 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:13:37.612 #3744 [WARN ] 7484# 3744 VDAgent::enqueue_chunk_unify(21343): Desktop User is offline, so skip send chunk message...
+2026-08-24 00:13:44.041 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:13:45.757 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+2026-08-24 00:13:48.160 #3744 [INFO ] 7484# 3744 VDAgent::wnd_proc(21659): WM_DRAWCLIPBOARD or WM_CLIPBOARDUPDATE, but client disconnected, so break
+
+----- C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log -----
+2026-08-23 23:40:20.928 #1992 [INFO ] 1528# 1992 VDService::main(491): ***Service started***
+2026-08-23 23:40:20.928 #1992 [INFO ] 1528# 1992 VDService::execute(626): Active console session id: 1
+2026-08-23 23:40:20.944 #1992 [ERROR] 1528# 1992 VDService::execute(629): Connect state: 2
+2026-08-23 23:40:21.038 #1532 [INFO ] 1528# 1532 VDService::control_handler(354): Session 1 CONNECT
+2026-08-23 23:40:21.038 #1532 [INFO ] 1528# 1532 VDService::control_handler(395): session connect id[1] and original sessionid is the same.
+2026-08-23 23:40:23.109 #1532 [INFO ] 1528# 1532 VDService::control_handler(354): Session 1 LOGON
+2026-08-23 23:40:42.045 #1992 [INFO ] 1528# 1992 VDService::restart_agent(1118): restart_agent...
+2026-08-23 23:40:42.045 #1992 [INFO ] 1528# 1992 VDService::restart_agent(1120): after kill_agent in restart_agent
+2026-08-24 00:05:13.588 #1992 [INFO ] 1528# 1992 VDService::restart_agent(1118): restart_agent...
+2026-08-24 00:05:13.588 #1992 [INFO ] 1528# 1992 VDService::restart_agent(1120): after kill_agent in restart_agent
+2026-08-24 00:05:13.591 #1992 [INFO ] 1528# 1992 VDService::restart_agent(1140): reset _agent_restarts to 0!
+
+----- C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log -----
+
+----- C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log -----
+
+----- C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log -----
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501371981597846","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "7c71612cd2bf475a","startTimeUnixNano": "1787501371981588246","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501372585234346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "79db44e236af4abe","startTimeUnixNano": "1787501372585225446","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501372585234346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "79db44e236af4abe","startTimeUnixNano": "1787501372585225446","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501378458886746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "09b9716ef95b4c7b","startTimeUnixNano": "1787501378458876946","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501378458886746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "09b9716ef95b4c7b","startTimeUnixNano": "1787501378458876946","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501379060339346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f72999f626934465","startTimeUnixNano": "1787501379060328446","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501379060339346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f72999f626934465","startTimeUnixNano": "1787501379060328446","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501379663654646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "906bbd62cf1d4cf0","startTimeUnixNano": "1787501379663644446","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501379663654646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "906bbd62cf1d4cf0","startTimeUnixNano": "1787501379663644446","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501380264288646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "6e3d436e83da49f2","startTimeUnixNano": "1787501380264278046","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501380264288646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "6e3d436e83da49f2","startTimeUnixNano": "1787501380264278046","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501380866611246","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "1e559b420e3d4590","startTimeUnixNano": "1787501380866602146","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501380866611246","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "1e559b420e3d4590","startTimeUnixNano": "1787501380866602146","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501386790131846","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f5afec24e45548e5","startTimeUnixNano": "1787501386790122346","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501386790131846","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f5afec24e45548e5","startTimeUnixNano": "1787501386790122346","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501387404359346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "9b8985aee1794fd6","startTimeUnixNano": "1787501387404349846","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501387404359346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "9b8985aee1794fd6","startTimeUnixNano": "1787501387404349846","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501388007265346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e9a281ca53b043de","startTimeUnixNano": "1787501388007256246","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501388007265346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e9a281ca53b043de","startTimeUnixNano": "1787501388007256246","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501388610248446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a3516ace38be4060","startTimeUnixNano": "1787501388610239446","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501388610248446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a3516ace38be4060","startTimeUnixNano": "1787501388610239446","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501389213212646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ea7451af74034369","startTimeUnixNano": "1787501389213203246","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501389213212646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ea7451af74034369","startTimeUnixNano": "1787501389213203246","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501395206643146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e1a5c6a26f834f76","startTimeUnixNano": "1787501395206634646","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501395206643146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e1a5c6a26f834f76","startTimeUnixNano": "1787501395206634646","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501395809708746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "790fda413d134a66","startTimeUnixNano": "1787501395809699146","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501395809708746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "790fda413d134a66","startTimeUnixNano": "1787501395809699146","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501396413797746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d18e7f6f6cf64c97","startTimeUnixNano": "1787501396413788546","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501396413797746","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d18e7f6f6cf64c97","startTimeUnixNano": "1787501396413788546","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501397009221146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "3b7d199c15764efb","startTimeUnixNano": "1787501397009211146","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501397009221146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "3b7d199c15764efb","startTimeUnixNano": "1787501397009211146","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501397620094146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2f87c6e729504285","startTimeUnixNano": "1787501397620085546","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501397620094146","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2f87c6e729504285","startTimeUnixNano": "1787501397620085546","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501403602647446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0017bcb140bc4505","startTimeUnixNano": "1787501403602638246","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501403602647446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0017bcb140bc4505","startTimeUnixNano": "1787501403602638246","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501404214888246","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "6c3a01d903d0401e","startTimeUnixNano": "1787501404214879146","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501404214888246","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "6c3a01d903d0401e","startTimeUnixNano": "1787501404214879146","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501404826839446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d24f61a1c0c04c3e","startTimeUnixNano": "1787501404826829846","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501404826839446","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d24f61a1c0c04c3e","startTimeUnixNano": "1787501404826829846","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501405744357946","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2d21a0fc50154bf5","startTimeUnixNano": "1787501405744348946","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501405744357946","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2d21a0fc50154bf5","startTimeUnixNano": "1787501405744348946","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501406350275346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d5a4ddaffdd948da","startTimeUnixNano": "1787501406350266246","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501406350275346","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d5a4ddaffdd948da","startTimeUnixNano": "1787501406350266246","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501412210782646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "cd64a42b3634478a","startTimeUnixNano": "1787501412210773646","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501412210782646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "cd64a42b3634478a","startTimeUnixNano": "1787501412210773646","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501412813871646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e0095485692345d6","startTimeUnixNano": "1787501412813862046","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501412813871646","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "e0095485692345d6","startTimeUnixNano": "1787501412813862046","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501413417345046","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "93fab6b6f5cf417d","startTimeUnixNano": "1787501413417334946","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501413417345046","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "93fab6b6f5cf417d","startTimeUnixNano": "1787501413417334946","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501414028714046","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "633e9833a0c44322","startTimeUnixNano": "1787501414028707146","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501414028714046","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "633e9833a0c44322","startTimeUnixNano": "1787501414028707146","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501414631013946","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a0eaf59ddc3841fa","startTimeUnixNano": "1787501414631003946","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501414631013946","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a0eaf59ddc3841fa","startTimeUnixNano": "1787501414631003946","traceId": "<REDACTED>"}]}]}]}.
+2026-08-24 00:10:28: Connected to WMI
+2026-08-24 00:10:28: Connected to WMI
+2026-08-24 00:10:30: get_net_status_and_send_gateway_alarm: gateway 172.20.176.1 is connected
+2026-08-24 00:10:36: g_vm_send_otlp_error_num is 0
+2026-08-24 00:11:30: get_net_status_and_send_gateway_alarm: gateway 172.20.176.1 is connected
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501503385028229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "86410c58664b4c6c","startTimeUnixNano": "1787501503385018829","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501503385028229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "86410c58664b4c6c","startTimeUnixNano": "1787501503385018829","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501503987748029","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "20d0f28c64694633","startTimeUnixNano": "1787501503987739129","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501503987748029","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "20d0f28c64694633","startTimeUnixNano": "1787501503987739129","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501504604437629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a545fdefecd84edf","startTimeUnixNano": "1787501504604428829","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501504604437629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a545fdefecd84edf","startTimeUnixNano": "1787501504604428829","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501505193423429","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0f0619fcc8aa4764","startTimeUnixNano": "1787501505193415129","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501505193423429","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0f0619fcc8aa4764","startTimeUnixNano": "1787501505193415129","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501505796370229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a2a8a67bce714c73","startTimeUnixNano": "1787501505796361129","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501505796370229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a2a8a67bce714c73","startTimeUnixNano": "1787501505796361129","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501511667043629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2daedca8324b4e8d","startTimeUnixNano": "1787501511667035529","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501511667043629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "2daedca8324b4e8d","startTimeUnixNano": "1787501511667035529","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501512283333929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a580d091e10b44f3","startTimeUnixNano": "1787501512283324929","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501512283333929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a580d091e10b44f3","startTimeUnixNano": "1787501512283324929","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501512875896029","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f5bede872dd9405c","startTimeUnixNano": "1787501512874886029","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501512875896029","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f5bede872dd9405c","startTimeUnixNano": "1787501512874886029","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501513479284729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "270dda8962754f41","startTimeUnixNano": "1787501513479275629","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501513479284729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "270dda8962754f41","startTimeUnixNano": "1787501513479275629","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501514082496529","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "06e4fff25516430e","startTimeUnixNano": "1787501514082488029","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501514082496529","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "06e4fff25516430e","startTimeUnixNano": "1787501514082488029","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501519961979929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ec6d79d19bf14d15","startTimeUnixNano": "1787501519961970429","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501519961979929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ec6d79d19bf14d15","startTimeUnixNano": "1787501519961970429","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501520553212629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "c70a2f15a6f3492e","startTimeUnixNano": "1787501520553203929","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501520553212629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "c70a2f15a6f3492e","startTimeUnixNano": "1787501520553203929","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501521156401429","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "461738c7ea3e4b96","startTimeUnixNano": "1787501521156393029","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501521156401429","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "461738c7ea3e4b96","startTimeUnixNano": "1787501521156393029","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501521760462629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0d1077eccd3e482b","startTimeUnixNano": "1787501521760452729","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501521760462629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "0d1077eccd3e482b","startTimeUnixNano": "1787501521760452729","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501522370514529","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "167b14d0eec54baf","startTimeUnixNano": "1787501522370505329","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501522370514529","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "167b14d0eec54baf","startTimeUnixNano": "1787501522370505329","traceId": "<REDACTED>"}]}]}]}.
+2026-08-24 00:12:31: get_net_status_and_send_gateway_alarm: gateway 172.20.176.1 is connected
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501608544011729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d966a5673db74824","startTimeUnixNano": "1787501608544002429","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501608544011729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "d966a5673db74824","startTimeUnixNano": "1787501608544002429","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501609147221629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ed8ba59a89654300","startTimeUnixNano": "1787501609147212629","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501609147221629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ed8ba59a89654300","startTimeUnixNano": "1787501609147212629","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501609750296629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "4e4e8f6e6d1f4023","startTimeUnixNano": "1787501609750285929","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501609750296629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "4e4e8f6e6d1f4023","startTimeUnixNano": "1787501609750285929","traceId": "<REDACTED>"}]}]}]}.
+2026-08-24 00:13:30: get_net_status_and_send_gateway_alarm: gateway 172.20.176.1 is connected
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501610354254329","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "acd4916fe7664fe5","startTimeUnixNano": "1787501610354244829","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501610354254329","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "acd4916fe7664fe5","startTimeUnixNano": "1787501610354244829","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501610957275829","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "8fadb519c7694ff0","startTimeUnixNano": "1787501610957267429","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501610957275829","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "8fadb519c7694ff0","startTimeUnixNano": "1787501610957267429","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501616855492929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "b2201b945c3441fa","startTimeUnixNano": "1787501616855483729","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501616855492929","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "b2201b945c3441fa","startTimeUnixNano": "1787501616855483729","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501617459539229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a87e8013d7cd405a","startTimeUnixNano": "1787501617459530329","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501617459539229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "a87e8013d7cd405a","startTimeUnixNano": "1787501617459530329","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501618063318629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ac5ec50002e547c8","startTimeUnixNano": "1787501618063309129","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501618063318629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "ac5ec50002e547c8","startTimeUnixNano": "1787501618063309129","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501618666784729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f79a6ac594704b18","startTimeUnixNano": "1787501618666775829","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501618666784729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "f79a6ac594704b18","startTimeUnixNano": "1787501618666775829","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501619282386829","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "5330b52d505141f5","startTimeUnixNano": "1787501619282378229","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501619282386829","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "5330b52d505141f5","startTimeUnixNano": "1787501619282378229","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501625057640229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "918c02cbe90c4740","startTimeUnixNano": "1787501625057630929","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501625057640229","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "918c02cbe90c4740","startTimeUnixNano": "1787501625057630929","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501625660142729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "47a044c2440a402c","startTimeUnixNano": "1787501625660132329","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501625660142729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "47a044c2440a402c","startTimeUnixNano": "1787501625660132329","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501626263817129","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "fad4a2e0ce0e437b","startTimeUnixNano": "1787501626263808229","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501626263817129","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "fad4a2e0ce0e437b","startTimeUnixNano": "1787501626263808229","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501626865635629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "12b5f33ed10b4090","startTimeUnixNano": "1787501626865626229","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501626865635629","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "12b5f33ed10b4090","startTimeUnixNano": "1787501626865626229","traceId": "<REDACTED>"}]}]}]}.
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501627468551729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "387f0a6243514d75","startTimeUnixNano": "1787501627468541829","traceId": "<REDACTED>"}]}]}]}
+"}},{"key": "result_message","value": {"stringValue": "Set-Key Success"}}],"endTimeUnixNano": "1787501627468551729","flags": 1,"kind": 3,"name": "Set-Key","parentSpanId": "0000000000000000","spanId": "387f0a6243514d75","startTimeUnixNano": "1787501627468541829","traceId": "<REDACTED>"}]}]}]}.

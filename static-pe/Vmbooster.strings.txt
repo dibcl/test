@@ -1,0 +1,2857 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	C*&?
+3	ascii	C*&Rich
+4	ascii	Zzlh
+5	ascii	.text
+6	ascii	`.rdata
+7	ascii	@.data
+8	ascii	.rsrc
+9	ascii	@.reloc
+10	ascii	j=hd
+11	ascii	H,Qh
+12	ascii	u%h 
+13	ascii	u%hx
+14	ascii	u%hD
+15	ascii	h ]@
+16	ascii	Y_^[
+17	ascii	PQQSVW
+18	ascii	u"hH
+19	ascii	u{h8
+20	ascii	tghD
+21	ascii	B Pj
+22	ascii	jdPR
+23	ascii	hXZD
+24	ascii	u6h(
+25	ascii	u&h`
+26	ascii	j.hx
+27	ascii	j`h$
+28	ascii	u(h8
+29	ascii	u(h|
+30	ascii	u&hP
+31	ascii	=p5M
+32	ascii	hh'M
+33	ascii	h, C
+34	ascii	Ph< C
+35	ascii	hd C
+36	ascii	ht C
+37	ascii	h !C
+38	ascii	h0!C
+39	ascii	Qh@!C
+40	ascii	hT!C
+41	ascii	hh!C
+42	ascii	hx!C
+43	ascii	h("C
+44	ascii	uCh8"C
+45	ascii	h`"C
+46	ascii	hp"C
+47	ascii	Ph$#C
+48	ascii	hL#C
+49	ascii	h`#C
+50	ascii	hp#C
+51	ascii	h $C
+52	ascii	Ph0$C
+53	ascii	Ph %C
+54	ascii	h<%C
+55	ascii	hL%C
+56	ascii	Ph\%C
+57	ascii	h|%C
+58	ascii	hx&C
+59	ascii	h (C
+60	ascii	QhX(C
+61	ascii	hh(C
+62	ascii	Ph<)C
+63	ascii	hD)C
+64	ascii	hL)C
+65	ascii	RhP)C
+66	ascii	E Ph
+67	ascii	hX)C
+68	ascii	hx)C
+69	ascii	hH*C
+70	ascii	hX*C
+71	ascii	Rhh*C
+72	ascii	hl*C
+73	ascii	h,+C
+74	ascii	h@+C
+75	ascii	RhP+C
+76	ascii	hd+C
+77	ascii	hx+C
+78	ascii	h PB
+79	ascii	h(,C
+80	ascii	Ph8,C
+81	ascii	hL,C
+82	ascii	h`,C
+83	ascii	Rhp,C
+84	ascii	ht,C
+85	ascii	Qh|,C
+86	ascii	h`\A
+87	ascii	h4-C
+88	ascii	Rh`-C
+89	ascii	hd-C
+90	ascii	Qhp-C
+91	ascii	ht-C
+92	ascii	Qh(.C
+93	ascii	h,.C
+94	ascii	(h8.C
+95	ascii	hT.C
+96	ascii	hh.C
+97	ascii	hx.C
+98	ascii	u#h /C
+99	ascii	hD/C
+100	ascii	hX/C
+101	ascii	Qj%h
+102	ascii	hh/C
+103	ascii	h|/C
+104	ascii	h 0C
+105	ascii	u h00C
+106	ascii	hP0C
+107	ascii	hd0C
+108	ascii	ht0C
+109	ascii	Rh 1C
+110	ascii	h$1C
+111	ascii	Qh41C
+112	ascii	h81C
+113	ascii	RhD1C
+114	ascii	hH1C
+115	ascii	PhT1C
+116	ascii	hX1C
+117	ascii	Qhh1C
+118	ascii	hl1C
+119	ascii	Rh|1C
+120	ascii	h82C
+121	ascii	RhH2C
+122	ascii	PhP2C
+123	ascii	hp2C
+124	ascii	hL3C
+125	ascii	Ph<4C
+126	ascii	hh4C
+127	ascii	hl4C
+128	ascii	h$5C
+129	ascii	h(5C
+130	ascii	Qh`5C
+131	ascii	Ph`6C
+132	ascii	h@7C
+133	ascii	hL6C
+134	ascii	h`7C
+135	ascii	hp7C
+136	ascii	t%hX8C
+137	ascii	hh8C
+138	ascii	Ph09C
+139	ascii	Rh8:C
+140	ascii	h<;C
+141	ascii	hL;C
+142	ascii	h$:C
+143	ascii	h0<C
+144	ascii	hD<C
+145	ascii	hT<C
+146	ascii	h =C
+147	ascii	eh\=C
+148	ascii	QhX>C
+149	ascii	h\>C
+150	ascii	Phh>C
+151	ascii	hl>C
+152	ascii	Rh|>C
+153	ascii	h<?C
+154	ascii	hP?C
+155	ascii	h`?C
+156	ascii	h @C
+157	ascii	h4@C
+158	ascii	hD@C
+159	ascii	h8AC
+160	ascii	h<AC
+161	ascii	htAC
+162	ascii	htBC
+163	ascii	Ph|BC
+164	ascii	h@CC
+165	ascii	hTCC
+166	ascii	hdCC
+167	ascii	hhCC
+168	ascii	h,DC
+169	ascii	hdDC
+170	ascii	hhDC
+171	ascii	hpEC
+172	ascii	RhHFC
+173	ascii	h|FC
+174	ascii	h,GC
+175	ascii	hPGC
+176	ascii	hdGC
+177	ascii	ehtGC
+178	ascii	h$HC
+179	ascii	Ph`HC
+180	ascii	hdHC
+181	ascii	RhtHC
+182	ascii	h$IC
+183	ascii	Qh4IC
+184	ascii	h8IC
+185	ascii	h@IC
+186	ascii	hpIC
+187	ascii	h\JC
+188	ascii	RhlJC
+189	ascii	hpJC
+190	ascii	u#h|JC
+191	ascii	RhHKC
+192	ascii	h`KC
+193	ascii	h8LC
+194	ascii	hLLC
+195	ascii	Rh\LC
+196	ascii	h`LC
+197	ascii	hlLC
+198	ascii	h MC
+199	ascii	hLMC
+200	ascii	hpMC
+201	ascii	Qh$NC
+202	ascii	h0NC
+203	ascii	u#h<NC
+204	ascii	hXNC
+205	ascii	hlNC
+206	ascii	Ph|NC
+207	ascii	hD"M
+208	ascii	u&h$PC
+209	ascii	RhXPC
+210	ascii	hdPC
+211	ascii	$hpPC
+212	ascii	Ah4QC
+213	ascii	hPQC
+214	ascii	hdQC
+215	ascii	htQC
+216	ascii	h RC
+217	ascii	hLRC
+218	ascii	AhxRC
+219	ascii	 u4hXSC
+220	ascii	0u*h
+221	ascii	h4TC
+222	ascii	hHTC
+223	ascii	1u(hXTC
+224	ascii	hxTC
+225	ascii	Rh UC
+226	ascii	Qh,VC
+227	ascii	h0VC
+228	ascii	u h@VC
+229	ascii	hdVC
+230	ascii	hxVC
+231	ascii	h WC
+232	ascii	Qh0WC
+233	ascii	Rh@XC
+234	ascii	hDXC
+235	ascii	u hPXC
+236	ascii	hpXC
+237	ascii	}ChXYC
+238	ascii	h ZC
+239	ascii	h4ZC
+240	ascii	RhDZC
+241	ascii	hHZC
+242	ascii	u:hTZC
+243	ascii	htZC
+244	ascii	h,[C
+245	ascii	h@[C
+246	ascii	QhP[C
+247	ascii	h$\C
+248	ascii	hT\C
+249	ascii	Phd\C
+250	ascii	hh\C
+251	ascii	Php\C
+252	ascii	}Ch$]C
+253	ascii	hT]C
+254	ascii	hd]C
+255	ascii	Rh(^C
+256	ascii	}Ch|^C
+257	ascii	Rh _C
+258	ascii	h4_C
+259	ascii	hH_C
+260	ascii	PhX_C
+261	ascii	Rhh_C
+262	ascii	h,`C
+263	ascii	Qhh`C
+264	ascii	Qh$aC
+265	ascii	hLaC
+266	ascii	h`aC
+267	ascii	hpaC
+268	ascii	Ph,bC
+269	ascii	h0bC
+270	ascii	Rh<bC
+271	ascii	hLbC
+272	ascii	h`bC
+273	ascii	PhpbC
+274	ascii	htbC
+275	ascii	h cC
+276	ascii	h0cC
+277	ascii	RhlcC
+278	ascii	h,dC
+279	ascii	Qh<dC
+280	ascii	hTdC
+281	ascii	hhdC
+282	ascii	hxdC
+283	ascii	h\eC
+284	ascii	QhleC
+285	ascii	h(fC
+286	ascii	Qh8fC
+287	ascii	hdfC
+288	ascii	hxfC
+289	ascii	h4gC
+290	ascii	hHgC
+291	ascii	hXgC
+292	ascii	Ph(hC
+293	ascii	hDhC
+294	ascii	hPhC
+295	ascii	Ph`hC
+296	ascii	h8iC
+297	ascii	hHiC
+298	ascii	QhXiC
+299	ascii	hxiC
+300	ascii	h4jC
+301	ascii	h@jC
+302	ascii	PhPjC
+303	ascii	hpjC
+304	ascii	h|jC
+305	ascii	h0kC
+306	ascii	h<kC
+307	ascii	u#hLkC
+308	ascii	hpkC
+309	ascii	h|kC
+310	ascii	= 'N
+311	ascii	J<Qj
+312	ascii	h(lC
+313	ascii	Ph8lC
+314	ascii	h(mC
+315	ascii	h4mC
+316	ascii	uBhDmC
+317	ascii	hHmC
+318	ascii	h\mC
+319	ascii	hhmC
+320	ascii	tBhxmC
+321	ascii	h|mC
+322	ascii	h(nC
+323	ascii	h,nC
+324	ascii	PhlnC
+325	ascii	A<Pj
+326	ascii	P<Rj
+327	ascii	h oC
+328	ascii	h0oC
+329	ascii	h4oC
+330	ascii	hhoC
+331	ascii	hloC
+332	ascii	hdpC
+333	ascii	hxpC
+334	ascii	u(h qC
+335	ascii	hDqC
+336	ascii	hTqC
+337	ascii	QhdqC
+338	ascii	hHrC
+339	ascii	h\rC
+340	ascii	QhlrC
+341	ascii	htrC
+342	ascii	u hx
+343	ascii	Qh,sC
+344	ascii	h<sC
+345	ascii	u=h`sC
+346	ascii	t%hhsC
+347	ascii	h tC
+348	ascii	Ph0tC
+349	ascii	hptC
+350	ascii	h(uC
+351	ascii	h8uC
+352	ascii	h`uC
+353	ascii	hpuC
+354	ascii	hdvC
+355	ascii	htvC
+356	ascii	Ph\B
+357	ascii	QhLwC
+358	ascii	=(NN
+359	ascii	Qh\B
+360	ascii	=$NN
+361	ascii	h xC
+362	ascii	h4xC
+363	ascii	PhDxC
+364	ascii	h\xC
+365	ascii	hpxC
+366	ascii	Qh(yC
+367	ascii	PhpyC
+368	ascii	(Rh\
+369	ascii	h4zC
+370	ascii	hLzC
+371	ascii	h`zC
+372	ascii	hpzC
+373	ascii	(Qh\
+374	ascii	h<{C
+375	ascii	hx{C
+376	ascii	(Ph4|C
+377	ascii	h@|C
+378	ascii	hP|C
+379	ascii	ht|C
+380	ascii	h4}C
+381	ascii	hL}C
+382	ascii	Ph\}C
+383	ascii	h,~C
+384	ascii	u2h<~C
+385	ascii	h`~C
+386	ascii	h|~C
+387	ascii	u#h0
+388	ascii	u*h\
+389	ascii	t%h<
+390	ascii	u#h 
+391	ascii	uJh0
+392	ascii	u#h\
+393	ascii	ubht
+394	ascii	t`hh
+395	ascii	u#h(
+396	ascii	u#ht
+397	ascii	u#hp
+398	ascii	u0hT
+399	ascii	}?hH
+400	ascii	Rj h
+401	ascii	j hD"M
+402	ascii	s h,
+403	ascii	 u!h
+404	ascii	u(h\
+405	ascii	u hl
+406	ascii	u&h0
+407	ascii	t3hx
+408	ascii	t3hD
+409	ascii	u(hT
+410	ascii	tlh,
+411	ascii	u(hP
+412	ascii	| h,
+413	ascii	| hH
+414	ascii	tdhT
+415	ascii	tLhx
+416	ascii	| h4
+417	ascii	| hL
+418	ascii	t(hX
+419	ascii	| h<
+420	ascii	t(h\
+421	ascii	u(h@
+422	ascii	t(ht
+423	ascii	t(hl
+424	ascii	| hP
+425	ascii	| hx
+426	ascii	| hT
+427	ascii	t(h,
+428	ascii	t(h$
+429	ascii	| h(
+430	ascii	| h@
+431	ascii	| h8
+432	ascii	u h8
+433	ascii	t(h(
+434	ascii	t*h\
+435	ascii	t$h\
+436	ascii	u h,
+437	ascii	u hL
+438	ascii	u-h@
+439	ascii	u h0
+440	ascii	t#hd
+441	ascii	h, D
+442	ascii	hD D
+443	ascii	RhT D
+444	ascii	h$!D
+445	ascii	hH!D
+446	ascii	QhX!D
+447	ascii	Qh4"D
+448	ascii	Rh8"D
+449	ascii	h\"D
+450	ascii	h #D
+451	ascii	hD#D
+452	ascii	%hT#D
+453	ascii	hl#D
+454	ascii	u(h($D
+455	ascii	hL$D
+456	ascii	h\$D
+457	ascii	u(hl$D
+458	ascii	h<%D
+459	ascii	hL%D
+460	ascii	hXRD
+461	ascii	Qh\%D
+462	ascii	h,&D
+463	ascii	h<&D
+464	ascii	PhL&D
+465	ascii	h|&D
+466	ascii	u(h('D
+467	ascii	hL'D
+468	ascii	hl'D
+469	ascii	Ph|'D
+470	ascii	Ph,(D
+471	ascii	hD(D
+472	ascii	hd(D
+473	ascii	Pht(D
+474	ascii	u(hx(D
+475	ascii	Ph()D
+476	ascii	hT)D
+477	ascii	hx)D
+478	ascii	h0*D
+479	ascii	h@*D
+480	ascii	7hP*D
+481	ascii	hd*D
+482	ascii	ht*D
+483	ascii	h(+D
+484	ascii	h8+D
+485	ascii	RhL+D
+486	ascii	hX+D
+487	ascii	hh+D
+488	ascii	Phx+D
+489	ascii	hH,D
+490	ascii	h`,D
+491	ascii	hp,D
+492	ascii	h8-D
+493	ascii	hH-D
+494	ascii	RhX-D
+495	ascii	Qh\-D
+496	ascii	h(.D
+497	ascii	Qh8.D
+498	ascii	h\.D
+499	ascii	hl.D
+500	ascii	Rh|.D
+501	ascii	h8/D
+502	ascii	PhH/D
+503	ascii	PhP/D
+504	ascii	hl/D
+505	ascii	h,0D
+506	ascii	hH0D
+507	ascii	PhX0D
+508	ascii	h|0D
+509	ascii	h81D
+510	ascii	hH1D
+511	ascii	PhX1D
+512	ascii	hl1D
+513	ascii	h|1D
+514	ascii	h 2D
+515	ascii	h82D
+516	ascii	PhH2D
+517	ascii	hX2D
+518	ascii	h\2D
+519	ascii	hl2D
+520	ascii	hp2D
+521	ascii	ht2D
+522	ascii	h,3D
+523	ascii	h<3D
+524	ascii	hd3D
+525	ascii	h|3D
+526	ascii	h 4D
+527	ascii	Qh04D
+528	ascii	h@4D
+529	ascii	RhD4D
+530	ascii	hh4D
+531	ascii	Phl4D
+532	ascii	h(5D
+533	ascii	h<5D
+534	ascii	PhL5D
+535	ascii	ht5D
+536	ascii	PhP6D
+537	ascii	Ph,6D
+538	ascii	Qh(7D
+539	ascii	hD7D
+540	ascii	hT7D
+541	ascii	Phd7D
+542	ascii	hx7D
+543	ascii	h$8D
+544	ascii	h88D
+545	ascii	RhH8D
+546	ascii	h\8D
+547	ascii	hx8D
+548	ascii	Ph 9D
+549	ascii	hD9D
+550	ascii	h`9D
+551	ascii	u&hp9D
+552	ascii	h@:D
+553	ascii	h\:D
+554	ascii	Phl:D
+555	ascii	h,;D
+556	ascii	u(h<;D
+557	ascii	h`;D
+558	ascii	hx;D
+559	ascii	hX<D
+560	ascii	hp<D
+561	ascii	QhL=D
+562	ascii	uMhX=D
+563	ascii	Qhp=D
+564	ascii	h@>D
+565	ascii	hd>D
+566	ascii	u!hP
+567	ascii	h0?D
+568	ascii	Rh@?D
+569	ascii	h<@D
+570	ascii	RhL@D
+571	ascii	u hX@D
+572	ascii	h AD
+573	ascii	u#h0AD
+574	ascii	hTAD
+575	ascii	htAD
+576	ascii	h(BD
+577	ascii	Rh8BD
+578	ascii	h<BD
+579	ascii	hHBD
+580	ascii	hlBD
+581	ascii	h4CD
+582	ascii	hTCD
+583	ascii	u(hdCD
+584	ascii	h,DD
+585	ascii	Ph<DD
+586	ascii	hXDD
+587	ascii	hlDD
+588	ascii	Rh|DD
+589	ascii	h8ED
+590	ascii	hLED
+591	ascii	Qh\ED
+592	ascii	htED
+593	ascii	h8FD
+594	ascii	u#h<FD
+595	ascii	h`FD
+596	ascii	h GD
+597	ascii	Ph0GD
+598	ascii	h4GD
+599	ascii	u#h@GD
+600	ascii	hXGD
+601	ascii	hlGD
+602	ascii	Ph|GD
+603	ascii	@~#h
+604	ascii	h,HD
+605	ascii	h@HD
+606	ascii	QhPHD
+607	ascii	QhTHD
+608	ascii	hdHD
+609	ascii	hxHD
+610	ascii	h(ID
+611	ascii	h8ID
+612	ascii	uHhDID
+613	ascii	h\ID
+614	ascii	hhID
+615	ascii	PhxID
+616	ascii	= 3M
+617	ascii	Ph JD
+618	ascii	hdJD
+619	ascii	hpJD
+620	ascii	=$'N
+621	ascii	HPQh
+622	ascii	tNh$KD
+623	ascii	h\KD
+624	ascii	hhKD
+625	ascii	hxKD
+626	ascii	h|KD
+627	ascii	h0LD
+628	ascii	h<LD
+629	ascii	hLLD
+630	ascii	hhLD
+631	ascii	htLD
+632	ascii	h`dA
+633	ascii	h(MD
+634	ascii	h8MD
+635	ascii	hXMD
+636	ascii	hdMD
+637	ascii	u#htMD
+638	ascii	txh(
+639	ascii	(SVW
+640	ascii	B$;E
+641	ascii	PQVW
+642	ascii	8csm
+643	ascii	h0aD
+644	ascii	t%Vh\
+645	ascii	hPaD
+646	ascii	WVS3
+647	ascii	<$Xf
+648	ascii	$HNN
+649	ascii	5|QN
+650	ascii	h8NN
+651	ascii	h<NN
+652	ascii	h4NN
+653	ascii	j\hpaD
+654	ascii	5PNN
+655	ascii	< wI:
+656	ascii	XPVSh
+657	ascii	5PON
+658	ascii	=LON
+659	ascii	%@ON
+660	ascii	-<ON
+661	ascii	Y__^[
+662	ascii	_^[]
+663	ascii	VVVVV
+664	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+665	ascii	cmd is %s
+666	ascii	shell_rst
+667	ascii	config_ip.cpp
+668	ascii	Process shell cmd failed, reason is %s
+669	ascii	maxsize is %d
+670	ascii	%.2X:%.2X:%.2X:%.2X:%.2X:%.2X
+671	ascii	fe80
+672	ascii	, "ipv6":"%s"
+673	ascii	netsh interface ipv6 del address "%u" %s
+674	ascii	netsh interface ipv6 del route ::/0 "%u" %s
+675	ascii	netsh interface ipv6 del dns name="%u" all validate=no
+676	ascii	netsh interface ipv6 show interface "%u" level=normal 
+677	ascii	connected
+678	ascii	get nic_name failed cmd:%s,buff:%s
+679	ascii	restart_nic
+680	ascii	%*[^ ]%*[ ]%[^@]
+681	ascii	get nic name success cmd:%s, name:%s
+682	ascii	C:\Program Files\vmtool\vm_booster\restart_nic.txt
+683	ascii	C:\Program Files (x86)\vmtool\vm_booster\restart_nic.txt
+684	ascii	netsh interface set interface "%s" disabled
+685	ascii	netsh interface set interface "%s" enabled
+686	ascii	get nic_name failed result:%s
+687	ascii	0.0.0.0
+688	ascii	netsh interface ipv4 del address "%lu" %s
+689	ascii	netsh interface ipv4 del address "%lu" %s %s
+690	ascii	[config_ip] cmd:%s, buff:%s
+691	ascii	del_index_ipv4_info
+692	ascii	netsh interface ipv4 del dns name="%d" addr=%s
+693	ascii	get_ipv4_info failed
+694	ascii	set_index_ipv4_info
+695	ascii	ip is %s, gateway is %s, netmask is %s
+696	ascii	netsh interface ipv4 set address "%lu" static %s %s
+697	ascii	ip, netmask same ,do need set ip
+698	ascii	netsh interface ipv4 set address "%u" static %s %s %s 1
+699	ascii	ip, netmask gateway same ,do need set ip
+700	ascii	nic %d dns is %s
+701	ascii	nic name = %s, index = %u, dns = %s, redns = %s
+702	ascii	netsh interface ipv4 set dns name="%u" DHCP
+703	ascii	netsh interface ipv4 set dns name="%d" source=static addr=%s
+704	ascii	netsh interface ipv4 add dns name="%d" addr=%s index=1
+705	ascii	netsh interface ipv4 add dns name="%u" addr=%s index=2
+706	ascii	netsh interface ipv6 add address "%u" %s/%s 
+707	ascii	[config_ip]ret:%d, cmd:%s, buff:%s
+708	ascii	set_index_ipv6_info
+709	ascii	netsh interface ipv6 set interface "%u" routerdiscovery=disabled
+710	ascii	netsh interface ipv6 add route ::/0 "%u" %s
+711	ascii	netsh interface ipv6 add dns name="%d" %s validate=no
+712	ascii	netsh interface ipv6 add dns name="%d" %s index=2 validate=no
+713	ascii	netsh interface ipv6 set dns name="%u" DHCP
+714	ascii	netsh interface ipv6 del address "%lu" %s
+715	ascii	del_index_ipv6_info
+716	ascii	netsh interface ipv6 set interface "%u" routerdiscovery=enabled
+717	ascii	netsh interface ipv6 del route ::/0 "%lu" %s
+718	ascii	netsh interface ipv4 set address "%lu" source=dhcp
+719	ascii	set_ip_dhcp
+720	ascii	netsh interface ipv4 set dns "%lu" source=dhcp
+721	ascii	ipconfig /release
+722	ascii	ipconfig /renew
+723	ascii	ipconfig /release6
+724	ascii	ipconfig /renew6
+725	ascii	index is %d, dhcp is %d
+726	ascii	config_ip
+727	ascii	00:00:00:00:00:00
+728	ascii	nic name = %s, index = %u, operate = %d, ipv6 = %s, prefix = %s, gateway = %s, dns = %s, redns = %s
+729	ascii	taskkill /f /t /im netsh.exe
+730	ascii	Memory allocation failed for IP_ADAPTER_INFO struct
+731	ascii	Config_Nic_Name
+732	ascii	%.2x:%.2x:%.2x:%.2x:%.2x:%.2x
+733	ascii	config nic_name[%s],mac_addr[%s]
+734	ascii	config nic_name[%s],mac_addr[%s],index[%d]
+735	ascii	config [%s] ip %s != %s
+736	ascii	Not find mac :%s in the VM!
+737	ascii	Sleep 5 s for one more time find mac!
+738	ascii	get_ipv4_info parameter error
+739	ascii	get_ipv4_info
+740	ascii	GetAdaptersInfo failed with error: %u
+741	ascii	find_mac
+742	ascii	"ip":"%s","gateway":"%s","netmask":"%s","mac":"%s",
+743	ascii	"dns":"%s",
+744	ascii	"reservedns":"%s"
+745	ascii	"reservedns":""
+746	ascii	"dns":"","reservedns":""
+747	ascii	is_win_10_add is %d
+748	ascii	get_privacy
+749	ascii	%s powershell
+750	ascii	%s bat
+751	ascii	cmd:%s, buf:%s 
+752	ascii	need restart
+753	ascii	get_all_mac
+754	ascii	GetNicString
+755	ascii	ip %s
+756	ascii	mac_addr:%s  ai:%s
+757	ascii	ipv6 is %s
+758	ascii	NumIpv6 is %d
+759	ascii	ip=%s,gateway=%s,netmask=%s,mac=%s,dns=%s,reservedns=%s,dhcp=%d,dhcpv6=%d,gatewayv6=%s,netmaskv6=%s,dnsv6=%s,reservednsv6=%s,
+760	ascii	ip=%s,gateway=%s,netmask=%s,mac=%s,dns=%s,reservedns=%s,dhcp=%d,dhcpv6=%d,gatewayv6=%s,netmaskv6=%s,dnsv6=%s,reservednsv6=%s; 
+761	ascii	ipv6=%s,
+762	ascii	NumIpv6=%d; 
+763	ascii	GetNicString  buf is small.
+764	ascii	vector<T> too long
+765	ascii	string too long
+766	ascii	invalid string position
+767	ascii	debug
+768	ascii	info
+769	ascii	warning
+770	ascii	error
+771	ascii	fatal
+772	ascii	Open %s Error
+773	ascii	%Y-%m-%d %H:%M:%S: 
+774	ascii	%s[%s][%s:%d][%s]
+775	ascii	kernel32.dll
+776	ascii	GetSystemTimes
+777	ascii	ntdll.dll
+778	ascii	NtQuerySystemInformation
+779	ascii	====%d
+780	ascii	update name:%s
+781	ascii	pid:%d
+782	ascii	index:%d
+783	ascii	update_proc_info_list
+784	ascii	procmonitor.cpp
+785	ascii	new pid[%u]
+786	ascii	.exe
+787	ascii	MswitchWin
+788	ascii	cmd.exe  /C sc start "MswitchWin"
+789	ascii	cmd.exe  /C sc start %s
+790	ascii	Creat process failed! errcode[%d]
+791	ascii	start_proc_ex
+792	ascii	Creat process success! 
+793	ascii	start_proc
+794	ascii	MswitchWin.exe
+795	ascii	Vmbooster.exe
+796	ascii	stop process failed! pid[%d]
+797	ascii	stop_proc
+798	ascii	C:\Program Files\vmtool\vm_booster\proc_cfg.txt
+799	ascii	C:\Program Files (x86)\vmtool\vm_booster\proc_cfg.txt
+800	ascii	open file[%s] failed
+801	ascii	cfg_file_set
+802	ascii	%s|%s;
+803	ascii	not found related process!
+804	ascii	set_proc_moni_mode
+805	ascii	process[%s] didn't set auto start!
+806	ascii	malloc failed!
+807	ascii	find_stopped_proc
+808	ascii	restart %s rst[%d]
+809	ascii	proc_monitor
+810	ascii	{"process":"%s","user":"%s","startcmd":"%s","pid":"%u","stat":"%u","config":"%u","cpu":"%.2lf","mem":"%lu"},
+811	ascii	{"process":"%s","user":"%s","startcmd":"%s","pid":"%u","stat":"%u","config":"%u","cpu":"%.2lf","mem":"%lu"}
+812	ascii	"msgid":"
+813	ascii	"uuid":"
+814	ascii	uuid [%s]
+815	ascii	reprort_proc_info_callback
+816	ascii	get path error code[%u]
+817	ascii	{"msgtype":"6011","msgid":"%s","vmid":"%s","result":"0","info":[%s]}
+818	ascii	OpenProcess failed!
+819	ascii	Get path failed!
+820	ascii	add name:%s
+821	ascii	pid:%u
+822	ascii	stat:%u
+823	ascii	path:%s
+824	ascii	2014/09/03 11:16:41
+825	ascii	12738
+826	ascii	https://10.41.213.192:8443/in/iRAI/Intergration/Product/V4.0/ZXCLOUD-iRAI-Product_KVM_OpenStackV4.01.xx/ZXCLOUD-iVMC-Component/agent/vmbooster-window/vm_win_2008/vmbooster
+827	ascii	create hDumpFile failed :%d
+828	ascii	CreateDumpFile
+829	ascii	Service.cpp
+830	ascii	VmBooster
+831	ascii	C:\Program Files\vmtool\vm_booster\
+832	ascii	C:\Program Files (x86)\vmtool\vm_booster\
+833	ascii	%s%s-exception.dmp
+834	ascii	print dum
+835	ascii	ApplicationCrashHandler
+836	ascii	SYSTEM\CurrentControlSet\Control\ComputerName\AvoidChange
+837	ascii	Couldn't open service manager
+838	ascii	Couldn't open service
+839	ascii	Service could not be deleted
+840	ascii	Uninstall
+841	ascii	GetModuleFileName failed
+842	ascii	Couldn't create service
+843	ascii	ChangeServiceConfig2 failed
+844	ascii	PostThreadMessage() GetLastError() is %u
+845	ascii	ServiceCtrl
+846	ascii	Service VMBooster stopped
+847	ascii	receive SERVICE_CONTROL_SHUTDOWN
+848	ascii	Bad service request
+849	ascii	Handler not installed
+850	ascii	ServiceMain
+851	ascii	CustomMainProcess() completed
+852	ascii	/install
+853	ascii	Install successfull
+854	ascii	Install failed
+855	ascii	/install-hostname
+856	ascii	/uninstall
+857	ascii	Uninstall successfull
+858	ascii	Uninstall failed
+859	ascii	/debug
+860	ascii	Error: unrecongnized or incomplete command line
+861	ascii	USAGE:
+862	ascii	    VMBooster.exe /install      ...install VMBooster service
+863	ascii	WinMain
+864	ascii	    VMBooster.exe /install-hostname      ...install VMBooster service and service can not change hostname
+865	ascii	    VMBooster.exe /uninstall    ...uninstall VMBooster service
+866	ascii	Register Service Main Function Error!
+867	ascii	ForceRemove
+868	ascii	NoRemove
+869	ascii	Delete
+870	ascii	AppID
+871	ascii	CLSID
+872	ascii	Component Categories
+873	ascii	FileType
+874	ascii	Interface
+875	ascii	Hardware
+876	ascii	Mime
+877	ascii	SECURITY
+878	ascii	SYSTEM
+879	ascii	Software
+880	ascii	TypeLib
+881	ascii	pdp is null
+882	ascii	GetDrivePerformance
+883	ascii	f:\workspace\zxcloud-ivmc-componentv7.25.21\zxcloud-ivmc-component\windows\vmbooster\diskinfo.h
+884	ascii	\\.\PhysicalDrive%d
+885	ascii	%c:\
+886	ascii	PdhOpenQuery failed with 0x%x.
+887	ascii	GetDiskIO
+888	ascii	\PhysicalDisk(_Total)\Disk Read Bytes/sec
+889	ascii	 "Disk Read Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+890	ascii	PdhCollectQueryData failed with 0x%x.
+891	ascii	\PhysicalDisk(_Total)\Disk Write Bytes/sec
+892	ascii	 "Disk Write Bytes/sec" PdhAddEnglishCounter failed with 0x%x.
+893	ascii	\PhysicalDisk(_Total)\Disk Reads/sec
+894	ascii	 "Disk Reads/sec" PdhAddEnglishCounter failed with 0x%x.
+895	ascii	\PhysicalDisk(_Total)\Disk Writes/sec
+896	ascii	 "Disk Writes/sec" PdhAddEnglishCounter failed with 0x%x.
+897	ascii	\PhysicalDisk(_Total)\Avg. Disk sec/Transfer
+898	ascii	 "Avg. Disk sec/Transfer" PdhAddEnglishCounter failed with 0x%x.
+899	ascii	fmtValue.doubleValue: %lf
+900	ascii	error no RegSetValueEx %s
+901	ascii	SetDwordReg
+902	ascii	VMBooster.cpp
+903	ascii	error no RegCreateKeyEx %s
+904	ascii	CreateStringReg
+905	ascii	parameter is invalid(null pointer)
+906	ascii	read_string_reg
+907	ascii	Open Reg Key failed:%d
+908	ascii	%s %s len(%lu) more than datesize(%u), can not read string
+909	ascii	Read Reg Key failed:%d
+910	ascii	input para is null!
+911	ascii	find_mac_in_memery
+912	ascii	GetIfTable2 failed with error: 
+913	ascii	get_all_nic_info_2008
+914	ascii	msgtype:'1300';macid=%s;
+915	ascii	====new mac num[%d]====
+916	ascii	get_new_mac
+917	ascii	mac [%s] is delete!
+918	ascii	delete_mac
+919	ascii	pNextIndex is NULL!
+920	ascii	get_real_pm
+921	ascii	[ERROR]param nptr is NULL.
+922	ascii	str_strtoul
+923	ascii	[ERROR]param value is NULL.
+924	ascii	[ERROR]param base is not legal, base=%u.
+925	ascii	[ERROR]strtoul failed(No digits were found in %s).
+926	ascii	[ERROR]further characters after number %s.
+927	ascii	[%s]
+928	ascii	%s=%s
+929	ascii	load file failed
+930	ascii	modify_file_string
+931	ascii	open file failed
+932	ascii	write file failed
+933	ascii	replace file success
+934	ascii	{msgtype:'9001',res_id: '%s',datas:[
+935	ascii	{moc_id:'%s',columns:['%.0f','%.0f','%.0f','%.0f']},
+936	ascii	{moc_id:'%s',columns:['%.2f','%.2f','%.2f','%.2f']},
+937	ascii	msgid=
+938	ascii	poid=
+939	ascii	pitemid=
+940	ascii	mocuuid=
+941	ascii	%Y-%m-%d %H:%M:%S
+942	ascii	%.0f,
+943	ascii	%.2f,
+944	ascii	{msgtype: '2001',msgid:'%s',result: '1',ctime: '%s',val: '%s'}
+945	ascii	%.2f,%.2f
+946	ascii	{msgtype: '2001',msgid:'%s',result: '1',ctime: '%s',val: '%.0f'}
+947	ascii	error real msg:%s
+948	ascii	{msgtype: '2001',msgid:'%s',result: '1',ctime: '%s',val: '%.2f'}
+949	ascii	build_real_json_str
+950	ascii	json_str:%s
+951	ascii	pm_json
+952	ascii	log_level
+953	ascii	SYSTEM\CurrentControlSet\Services\Vmbooster
+954	ascii	No log_level, create reg log_level for vmbooster.
+955	ascii	init_log_level
+956	ascii	read reg ret:%d, info:%s, toint:%d
+957	ascii	C:\Program Files\vmtool\vm_booster\disk_operate.txt
+958	ascii	"C:\Program Files\vmtool\vm_booster\format_disk32.bat"
+959	ascii	C:\Program Files\ZTEGuestOS\IceServer\IceDetachDisplay.exe
+960	ascii	C:\Program Files\vmtool\vm_booster\disk_info_list.txt
+961	ascii	"C:\Program Files\vmtool\vm_booster\set_ipv6_random.bat"
+962	ascii	C:\Program Files\ZTEGuestOS\installinfo.ini
+963	ascii	C:\Program Files\vmtool\vm_booster\installinfo.ini
+964	ascii	C:\Program Files (x86)\vmtool\vm_booster\disk_operate.txt
+965	ascii	"C:\Program Files (x86)\vmtool\vm_booster\format_disk.bat"
+966	ascii	C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe
+967	ascii	C:\Program Files (x86)\vmtool\vm_booster\disk_info_list.txt
+968	ascii	"C:\Program Files (x86)\vmtool\vm_booster\set_ipv6_random.bat"
+969	ascii	C:\Program Files (x86)\ZTEGuestOS\installinfo.ini
+970	ascii	C:\Program Files (x86)\vmtool\vm_booster\installinfo.ini
+971	ascii	cmd:%s, buff:%s
+972	ascii	check_nic_restart
+973	ascii	register failed!,resultid[%d]
+974	ascii	init
+975	ascii	resgister ok.
+976	ascii	GetNativeSystemInfo
+977	ascii	kernel32
+978	ascii	invalid lpname is null 
+979	ascii	GetTokenByName
+980	ascii	CreateToolhelp32Snapshot failed :%d 
+981	ascii	Process32First; errcode[%d]
+982	ascii	OpenProcessToken result:%d 
+983	ascii	get token:not found proc!
+984	ascii	SeShutdownPrivilege
+985	ascii	restart OS fail.
+986	ascii	RebootSystem
+987	ascii	"C:\Program Files\vm_agent\reboot.exe"
+988	ascii	"C:\Program Files (x86)\vm_agent\reboot.exe"
+989	ascii	vmbooster create pipe failed, errno=%d
+990	ascii	RebootSystemEx
+991	ascii	explorer.exe
+992	ascii	vmbooster get explorer token failed 
+993	ascii	winsta0\default
+994	ascii	vmbooster CreateProcess failed, errono=%d 
+995	ascii	cmd to exec is %s
+996	ascii	DealProcessMsgUser
+997	ascii	vb_monitor CreateProcess failed, errono=%d 
+998	ascii	pipeinfo:hRead=%d hWrite=%d processinfo:hProcess=%d hThread=%d dwProcessid=%d dwThreadid=%d 
+999	ascii	DealProcessMsg
+1000	ascii	OpenProcessToken error
+1001	ascii	DuplicateTokenEx error:%d
+1002	ascii	SetTokenInformation error:%d
+1003	ascii	exec_cmd
+1004	ascii	DealProcessMsg return value less than zero 
+1005	ascii	exec_cmd_easy
+1006	ascii	"C:\Program Files\vmtool\vm_booster\runjoin.vbs"
+1007	ascii	"C:\Program Files (x86)\vmtool\vm_booster\runjoin.vbs"
+1008	ascii	joindomain
+1009	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+1010	ascii	AutoAdminLogon
+1011	ascii	SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+1012	ascii	DefaultUserName
+1013	ascii	DefaultPassword
+1014	ascii	vbjoindomain
+1015	ascii	SYSTEM\CurrentControlSet\services\Vmbooster
+1016	ascii	VmboosterAutoLogon
+1017	ascii	distinguishedName
+1018	ascii	cn=%s
+1019	ascii	,DC=
+1020	ascii	DC=%s
+1021	ascii	[info]The pLDAP is not null.
+1022	ascii	DelComputerInAD
+1023	ascii	[info]search_count: [%lu], search_buff: [%s].
+1024	ascii	distinguishedName":"
+1025	ascii	(objectCategory=*)
+1026	ascii	msgid":"
+1027	ascii	msg type is %d, msgid is %s
+1028	ascii	msg_deal_by_msgtype
+1029	ascii	usergroupid":"
+1030	ascii	[ERR]Receive msg without usergroupid.
+1031	ascii	usergroupid is %s.
+1032	ascii	UserGroupId
+1033	ascii	SYSTEM\CurrentControlSet\services\VmQoEAgent
+1034	ascii	malloc message_t failed!
+1035	ascii	msg_str:%s
+1036	ascii	real_json is %s;
+1037	ascii	macid=
+1038	ascii	macuuid=
+1039	ascii	{"msgtype":"%d","msgid":"%s","result":"0"}
+1040	ascii	procname":"
+1041	ascii	get process name failed!
+1042	ascii	{"msgtype":"%d","msgid":"%s","result":"1"}
+1043	ascii	startcmd":"
+1044	ascii	receive MSG_TYPE_VM_INFO_RSP
+1045	ascii	vuuid=
+1046	ascii	[ERR]Receive msg without vuuid.
+1047	ascii	set gselfuuid = %s
+1048	ascii	computername":"
+1049	ascii	computername= %s.
+1050	ascii	GetComputerNameEx failed (%d)
+1051	ascii	malloc set_com_name failed!
+1052	ascii	{"msgtype":"%d","msgid":"%s","result":"1","errcode":"2"}
+1053	ascii	domain":"
+1054	ascii	domainuser":"
+1055	ascii	domainuserpwd":"
+1056	ascii	domainou":"
+1057	ascii	vmuser":"
+1058	ascii	vmuserpwd":"
+1059	ascii	limit":"
+1060	ascii	authssl":"
+1061	ascii	ldapurlport":"
+1062	ascii	ldapsslport":"
+1063	ascii	userbind":"
+1064	ascii	domain = %s,domainou = %s,domainuser = %s,computername = %s,vmuser = %s,limit = %d,authssl = %d,ldapurlport = %lu, ldapsslport = %lu, userbind = %d.
+1065	ascii	%s@%s
+1066	ascii	_accountou is %s.
+1067	ascii	this vm not join DNS Domain.
+1068	ascii	C:\Program Files\vmtool\vm_booster\domaininfo.ini
+1069	ascii	C:\Program Files (x86)\vmtool\vm_booster\domaininfo.ini
+1070	ascii	this vm is joining domain now.
+1071	ascii	{"msgtype":"%d","msgid":"%s","result":"1","errcode":"4"}
+1072	ascii	domain=%s;msgid=%s;limit=%d;userbind=%d;
+1073	ascii	C:\Program Files\vmtool\vm_booster\joinDomainflag.txt
+1074	ascii	write domaininfo.ini.
+1075	ascii	C:\Program Files\vmtool\vm_booster\joindomain.log
+1076	ascii	C:\Program Files\vmtool\vm_booster\joinDNSdomain.bat
+1077	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" accountou="%s" FJoinOptions=3 > "C:\Program Files\vmtool\vm_booster\joindomain.log" 2>&1
+1078	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" FJoinOptions=3 > "C:\Program Files\vmtool\vm_booster\joindomain.log" 2>&1
+1079	ascii	joinDNSdomain.bat is written
+1080	ascii	C:\Program Files\vmtool\vm_booster\runjoin.vbs
+1081	ascii	domainaddress
+1082	ascii	C:\Program Files (x86)\vmtool\vm_booster\joinDomainflag.txt
+1083	ascii	C:\Program Files (x86)\vmtool\vm_booster\joindomain.log
+1084	ascii	C:\Program Files (x86)\vmtool\vm_booster\joinDNSdomain.bat
+1085	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" accountou="%s" FJoinOptions=3 > "C:\Program Files (x86)\vmtool\vm_booster\joindomain.log" 2>&1
+1086	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s\%s" password="%s" FJoinOptions=3 > "C:\Program Files (x86)\vmtool\vm_booster\joindomain.log" 2>&1
+1087	ascii	C:\Program Files (x86)\vmtool\vm_booster\runjoin.vbs
+1088	ascii	modify join DNS Domain bat.
+1089	ascii	set joinDNSdomain bat autorun when system start
+1090	ascii	domain info wrong.
+1091	ascii	{"msgtype":"%d","msgid":"%s","result":"1","errcode":"3"}
+1092	ascii	this vm join DNS Domain: %s.
+1093	ascii	this vm already join this DNS Domain.
+1094	ascii	{"msgtype":"%d","msgid":"%s","result":"0","errcode":"0"}
+1095	ascii	this vm already join other DNS Domain.
+1096	ascii	domainname = %s,adminuser= %s.
+1097	ascii	C:\Program Files\vmtool\vm_booster\unjoin.ini
+1098	ascii	C:\Program Files (x86)\vmtool\vm_booster\unjoin.ini
+1099	ascii	this vm is quiting domain now.
+1100	ascii	need quit this DNS Domain.
+1101	ascii	C:\Program Files\vmtool\vm_booster\quitdomain.log
+1102	ascii	C:\Program Files\vmtool\vm_booster\unjoinDNSdomain.bat
+1103	ascii	"C:\Program Files\vmtool\vm_booster\unjoinDNSdomain.bat"
+1104	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call UnJoinDomainOrWorkgroup username="%s\%s" password="%s" > "C:\Program Files\vmtool\vm_booster\quitdomain.log"
+1105	ascii	open
+1106	ascii	ShellExecute unjoinDNSdomain.bat failed: %d
+1107	ascii	{"msgtype":"%d","msgid":"%s","result":"1","errcode":"1"}
+1108	ascii	ShellExecute unjoinDNSdomain.bat successfully: %d
+1109	ascii	domain=%s;msgid=%s;
+1110	ascii	delete unjoinDNSdomain.bat failed
+1111	ascii	C:\Program Files (x86)\vmtool\vm_booster\quitdomain.log
+1112	ascii	C:\Program Files (x86)\vmtool\vm_booster\unjoinDNSdomain.bat
+1113	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call UnJoinDomainOrWorkgroup username="%s\%s" password="%s" > "C:\Program Files (x86)\vmtool\vm_booster\quitdomain.log"
+1114	ascii	different DNS Domain.
+1115	ascii	newpassword":"
+1116	ascii	net user administrator  "%s"
+1117	ascii	receive MSG_TYPE_GETIP_IECS_RSP
+1118	ascii	url":"
+1119	ascii	[ERR]Receive msg without SysGuard ServerUrl.
+1120	ascii	ServerUrl
+1121	ascii	Software\Microsoft\Windows\CurrentVersion\App Paths\SysGuard.exe
+1122	ascii	[ERR]open sys_guard Reg error!
+1123	ascii	waresurl":
+1124	ascii	[ERR]Receive msg without softwareshome ServerUrl.
+1125	ascii	waresurl is %s
+1126	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Wares.exe
+1127	ascii	SoftWaresHomeServerUrl
+1128	ascii	[ERR]open SoftWaresHome Reg error,no write SoftWaresHome Reg!
+1129	ascii	receive MSG_TYPE_GET_VERSION_SERVER_URL_IECS_RSP
+1130	ascii	urltype":"
+1131	ascii	[ERR]Receive msg without urltype.
+1132	ascii	SYSTEM\CurrentControlSet\Services\update
+1133	ascii	receive MSG_TYPE_GET_CLASS_URI_RSP
+1134	ascii	[ERR]Receive msg without iClass ServerUrl.
+1135	ascii	C:\Program Files\vmtool\vm_booster\iClass_info.ini
+1136	ascii	iecs_url
+1137	ascii	iClass_info
+1138	ascii	[ERR]Write iecs_url Fail.
+1139	ascii	C:\Program Files (x86)\vmtool\vm_booster\iClass_info.ini
+1140	ascii	{"msgtype":"%d","msgid":"%s","vmbooster":"%s","vmagent":" ","PVDriver":"%s","vdagent":"%s","usbipc":"%s","media_redirect":"%s"}
+1141	ascii	channel_num":"
+1142	ascii	[ERR]Receive msg without iClass channel_num.
+1143	ascii	channel_num
+1144	ascii	[ERR]Write channel_num Fail.
+1145	ascii	Write channel_num Success.
+1146	ascii	cmd.exe /c shutdown -l -f
+1147	ascii	can't find explorer,this vm is logoff 
+1148	ascii	C:\Program Files (x86)\ZTEGuestOS\WriteData.exe
+1149	ascii	C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe
+1150	ascii	C:\Program Files\ZTEGuestOS\WriteData.exe
+1151	ascii	C:\Program Files\vmtool\vm_booster\VmQoEAgent.exe
+1152	ascii	report_flag":"
+1153	ascii	receive msg without report_flag
+1154	ascii	close performance collecting.
+1155	ascii	open performance collecting.
+1156	ascii	oas_flag":"
+1157	ascii	receive msg without oas_flag
+1158	ascii	close oas.
+1159	ascii	"%s" "modulename=vmtool|name=VmQoEAgent|needGuarded=0|isService=1|version=%s|path=%s|proccmd=|needDetected=0"
+1160	ascii	cmd %s 
+1161	ascii	VmQoEAgent.exe
+1162	ascii	cmd.exe  /C sc stop "VmQoEAgent"
+1163	ascii	Start
+1164	ascii	oas_interval":"
+1165	ascii	receive msg without oas_interval
+1166	ascii	interval
+1167	ascii	open oas.
+1168	ascii	"%s" "modulename=vmtool|name=VmQoEAgent|needGuarded=0|isService=1|version=%s|path=%s|proccmd=|needDetected=1"
+1169	ascii	cmd.exe  /C sc start "VmQoEAgent"
+1170	ascii	SYSTEM\CurrentControlSet\services\UI0Detect
+1171	ascii	content":"
+1172	ascii	receive msg without content
+1173	ascii	cmd.exe /c "C:\Program Files\ZTEGuestOS\IceServer\IceDetachDisplay.exe"
+1174	ascii	cmd.exe /c "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe"
+1175	ascii	receive csap ip port msg
+1176	ascii	csapip":"
+1177	ascii	Receive msg without csapip.
+1178	ascii	csapport":"
+1179	ascii	[ERR]Receive msg without csapport.
+1180	ascii	csapipv6":"
+1181	ascii	Receive msg without csap_ipv6.
+1182	ascii	cmd.exe /c "C:\Program Files\ZTEGuestOS\IceServer\IceDetachDisplay.exe" csap-addr %s %s %s
+1183	ascii	cmd.exe /c "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" csap-addr %s %s %s
+1184	ascii	cmd":"
+1185	ascii	cmd.exe /c "C:\Program Files\ZTEGuestOS\IceServer\IceDetachDisplay.exe" %s
+1186	ascii	cmd.exe /c "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" %s
+1187	ascii	{msgtype:'%d',msgid:'%s',result:'1'}
+1188	ascii	{msgtype:'%d',msgid:'%s',result:'0'}
+1189	ascii	ntpservers":"
+1190	ascii	ntpservers= %s.
+1191	ascii	ntpservers=%s
+1192	ascii	frt_ntpservers= %s.
+1193	ascii	"C:\Program Files\vmtool\vm_booster\set_ntp.bat"
+1194	ascii	ShellExecute set_ntp.bat failed: %d
+1195	ascii	ShellExecute set_ntp.bat successfully: %d
+1196	ascii	C:\Program Files (x86)\vmtool\vm_booster\set_ntp_64.bat
+1197	ascii	ShellExecute set_ntp_64.bat successfully: %d
+1198	ascii	username":"
+1199	ascii	username= %s.
+1200	ascii	password":"
+1201	ascii	net user "%s" "%s" /ADD
+1202	ascii	ShellExecute add account result: %s
+1203	ascii	ShellExecute add account failed: %d
+1204	ascii	ShellExecute add account successfully: %d
+1205	ascii	moduleno":"
+1206	ascii	parameter Error, no modeleno.
+1207	ascii	moduleno:%d, msg:%s.
+1208	ascii	{"msgtype":"%d","noteInfo":%s}
+1209	ascii	mstcs":"
+1210	ascii	mstcs flag = %d.
+1211	ascii	REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows" "NT\Terminal" "Services /v fDenyTSConnections /t REG_DWORD /d 00000000 /f
+1212	ascii	gpupdate /force
+1213	ascii	set mstcs server: cmd[%s].
+1214	ascii	REG ADD HKLM\SOFTWARE\Policies\Microsoft\Windows" "NT\Terminal" "Services /v fDenyTSConnections /t REG_DWORD /d 11111111 /f
+1215	ascii	ShellExecute set mstcs server result: %s
+1216	ascii	ShellExecute set mstcs server failed: %d
+1217	ascii	ShellExecute set mstcs server successfully: %d
+1218	ascii	unknow msg type!
+1219	ascii	res_type: 'VM_5Min'
+1220	ascii	pm_msgtruct
+1221	ascii	mac get error
+1222	ascii	pm_timer
+1223	ascii	====all mac num[%d]====
+1224	ascii	BuildMsg failed:%s,resultid[%d]
+1225	ascii	send_msg
+1226	ascii	SendMsg failed:%s,resultid[%d]
+1227	ascii	Malloc memory fail.
+1228	ascii	send_msg_qoe
+1229	ascii	BuildMsg failed:%s, resultid[%d]
+1230	ascii	SendMsg succ, ret=%d, msg=
+1231	ascii	send_msg_ex
+1232	ascii	SendMsg success:%s,resultid[%d]
+1233	ascii	copy_vm_nic
+1234	ascii	cfg_exec
+1235	ascii	message is del nic cfg, return sucess directly for windows system.
+1236	ascii	operate[%d],mac[%s],ip[%s],mask[%s],gate[%s],dns[%s],reservedns[%s],ipv6[%s],maskv6[%s],gatev6[%s],dnsv6[%s],reservednsv6[%s]
+1237	ascii	dhcp ip set success
+1238	ascii	ipv4 set success
+1239	ascii	ipv4 del success
+1240	ascii	ipv6 set success
+1241	ascii	ipv6 del success
+1242	ascii	ip result[%s],mac ip is [%s] operate[%d]
+1243	ascii	|1|102|101|10101|||%s|config ip ,set mac[%s] to [%s] failed 
+1244	ascii	ip set failure,ip result[%s],mac ip is [%s]
+1245	ascii	can not find mac
+1246	ascii	|1|102|101|10101|||%s|can't find mac ,set mac[%s] to [%s] failed 
+1247	ascii	C:\Program Files\vmtool\vm_booster\spiceinfo.ini
+1248	ascii	C:\Program Files (x86)\vmtool\vm_booster\spiceinfo.ini
+1249	ascii	get last error %d
+1250	ascii	spice_change
+1251	ascii	[Spice_addr]
+1252	ascii	ip=%s
+1253	ascii	port=%d
+1254	ascii	[MULTI_ADDRS]
+1255	ascii	DISPLAY_ADDR=%s
+1256	ascii	DISPLAY_PORT=%d
+1257	ascii	CURSOR_ADDR=%s
+1258	ascii	CURSOR_PORT=%d
+1259	ascii	PLAYBACK_ADDR=%s
+1260	ascii	PLAYBACK_PORT=%d
+1261	ascii	write file success
+1262	ascii	read_dword_reg
+1263	ascii	open reg(%s) key failed:%d
+1264	ascii	read reg key(%s) failed:%d
+1265	ascii	read %s keyvalue is %d 
+1266	ascii	tick is %u, vm is running more than one hour
+1267	ascii	get_vm_sysprep_stat
+1268	ascii	Sysprep
+1269	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment
+1270	ascii	vm is been syspreped.
+1271	ascii	vm is not syspreped.
+1272	ascii	SystemFamily
+1273	ascii	HARDWARE\DESCRIPTION\System\BIOS
+1274	ascii	uuid
+1275	ascii	vm is fast domain vm
+1276	ascii	check_fast_domain
+1277	ascii	GetComputerNameW error: %lu
+1278	ascii	getCurrentHostname
+1279	ascii	current ComputerName: %s
+1280	ascii	GetComputerNameExW (ComputerNameDnsFullyQualified) error: %lu
+1281	ascii	getCurrentFullHostname
+1282	ascii	get current computername failed, stop report thread
+1283	ascii	get_hostname
+1284	ascii	get current full computername failed
+1285	ascii	host is null or too long!
+1286	ascii	computerfullname: %s
+1287	ascii	{"msgtype":"%d","agentversion":"%s","vmid":"%s","agentstatus":"1","computername":"%s","issysprep":"%d"}
+1288	ascii	mac not found
+1289	ascii	get_net_status
+1290	ascii	alarmtype=%d;alarmnum=%d;gateway=%s;ip=%s;hostname=%s;
+1291	ascii	,netmask
+1292	ascii	gateway=
+1293	ascii	,gateway
+1294	ascii	ping -w 5000 %s
+1295	ascii	TTL=
+1296	ascii	gateway %s is disconnected, alarmnum(%d).vm ip is %s
+1297	ascii	dhcp=
+1298	ascii	get_computer_name
+1299	ascii	set computer name to [%s].
+1300	ascii	set_computer_name
+1301	ascii	message id is  [%s].
+1302	ascii	powershell set-executionpolicy remotesigned
+1303	ascii	powershell -file "C:\Program files\vmtool\vm_booster\rename.ps1" "%s"
+1304	ascii	powershell -file "C:\Program files (x86)\vmtool\vm_booster\rename.ps1" "%s"
+1305	ascii	vm rename success[%s]
+1306	ascii	vm rename failed[%s]
+1307	ascii	|1|102|101|10102|||%s|norestart set computer name[%s]to[%s] failed 
+1308	ascii	[ERR]SetComputerNameEx failed (%d)
+1309	ascii	|1|102|101|10102|||%s|set computer name[%s]to[%s] failed[%d] 
+1310	ascii	[info]set computer name success.
+1311	ascii	C:\Program Files\vmtool\vm_booster\renameinfo.ini
+1312	ascii	C:\Program Files (x86)\vmtool\vm_booster\renameinfo.ini
+1313	ascii	msgid=%s;
+1314	ascii	msgtype:'8008'
+1315	ascii	Send msg to host,msgtype = 8008.
+1316	ascii	get_vm_info
+1317	ascii	judge_get_drive_type
+1318	ascii	check %s or cd rom
+1319	ascii	CreateFile %s failed :%ld
+1320	ascii	IOCTL_STORAGE_GET_MEDIA_TYPES_EX Error: %ld
+1321	ascii	%s is cd rom
+1322	ascii	judge_change_CD_labeltoTD start 
+1323	ascii	judge_change_CD_labeltoTD
+1324	ascii	GetLogicalDriveStringsA failed 
+1325	ascii	\\.\
+1326	ascii	%s%c:
+1327	ascii	judge_change_CD_labeltoTD end 
+1328	ascii	change_mount_point start, %c to %c
+1329	ascii	change_mount_point
+1330	ascii	open_wmic_space error %d
+1331	ascii	PutInstance failed. Error code = 0x%x
+1332	ascii	change_mount_point %c to %c success
+1333	ascii	OBJ Put failed. Error code = 0x%x
+1334	ascii	penumerator get pclsobj failed code = 0x%x
+1335	ascii	penumerator is NULL 
+1336	ascii	C:\Program Files\vmtool\monitor.ini
+1337	ascii	C:\Program Files (x86)\vmtool\monitor.ini
+1338	ascii	Vmtool-setup.exe
+1339	ascii	C:\Program Files\vmtool\initcd.txt
+1340	ascii	C:\Program Files (x86)\vmtool\initcd.txt
+1341	ascii	ChangeMountPoint return %d
+1342	ascii	initcdrom
+1343	ascii	send  vm computer  info thread started...
+1344	ascii	vmagent_send_heartbeat_to_hmbooster
+1345	ascii	%d times miss heartbeat
+1346	ascii	cmd.exe  /C sc stop "MswitchWin"
+1347	ascii	cmd.exe  /C sc stop "Vmbooster"
+1348	ascii	end_time is smaller than start_time!
+1349	ascii	send  vm alarm  info thread started...
+1350	ascii	vmagent_send_alarminfo_to_hmbooster
+1351	ascii	alarmtype=%d;alarmnum=%d;
+1352	ascii	mac info is too long[%d]
+1353	ascii	record_mac_info_in_memory
+1354	ascii	vm is sysprep, can not report ip
+1355	ascii	mac_info_update
+1356	ascii	report all mac info to host_ha![%s]
+1357	ascii	needn't report mac info!
+1358	ascii	malloc for GetExtendedTcpTable failed.
+1359	ascii	get_rdp_info
+1360	ascii	rdp is connecting
+1361	ascii	msgtype:'%d',rdp:'%d',
+1362	ascii	LogonUI.exe
+1363	ascii	desktop is locked
+1364	ascii	is_win_logon
+1365	ascii	desktop is not locked
+1366	ascii	{msgtype:'%d',vmid:'%s',lockstate:'%d'}
+1367	ascii	[INFO]Thread vm_running_time_report started.
+1368	ascii	vm_running_time_report
+1369	ascii	%04d-%02d-%02d %02d:%02d:%02d.%03d
+1370	ascii	{"log":"%s|0|102|3|5|||%s|Vm has run [%d] days"}
+1371	ascii	joinDomainflag.txt found,need to restart.
+1372	ascii	{"source":4,"uuid":"%s","hostid":"%s","time":"%s","logdatas":[%s]}
+1373	ascii	joinDomainflag.txt not found,go next.
+1374	ascii	joinDNSdomain
+1375	ascii	remove joinDonmainflag failed, %s, err=%d.
+1376	ascii	joinDomain waiting, total try count: %d
+1377	ascii	joindomain.log buff is: %s
+1378	ascii	ReturnValue = 0
+1379	ascii	join domain success
+1380	ascii	try run joinDNSdomain.bat again.
+1381	ascii	"C:\Program Files\vmtool\vm_booster\joinDNSdomain.bat"
+1382	ascii	domaininfo.ini not found
+1383	ascii	domain=
+1384	ascii	domaininfo.ini info without domain
+1385	ascii	domaininfo.ini info without msgid
+1386	ascii	limit=
+1387	ascii	domaininfo.ini info without limit
+1388	ascii	joinDNSdomain.ini info limit=%d
+1389	ascii	userbind=
+1390	ascii	domaininfo.ini info without userbind
+1391	ascii	joinDNSdomain.ini info userbind=%d
+1392	ascii	Join DNS Domain Success.
+1393	ascii	userbind
+1394	ascii	net localgroup administrators /add "domain users"
+1395	ascii	GroupForDomainUser
+1396	ascii	net localgroup administrators /delete "domain users"
+1397	ascii	net localgroup administrators /add "domain admins"
+1398	ascii	net localgroup users /add "domain users"
+1399	ascii	net localgroup users /delete "domain users"
+1400	ascii	net localgroup "remote desktop users" /add "domain users"
+1401	ascii	net localgroup "power users" /add "domain users"
+1402	ascii	|1|102|101|10103|||%s|join domain[%s] failed 
+1403	ascii	C:\Program Files\vmtool\vm_booster\joinDNSDomain.bat
+1404	ascii	ping 127.0.0.1
+1405	ascii	unjoin.ini not found,go next.
+1406	ascii	unjoin.ini info without domaininfo
+1407	ascii	unjoin.ini info without msgid
+1408	ascii	 quit domain error
+1409	ascii	|1|102|101|10104|||%s|quit domain[%s]  log not found 
+1410	ascii	quitdomain.log buff is: %s
+1411	ascii	quit domain success
+1412	ascii	limit
+1413	ascii	 quit domain failed
+1414	ascii	|1|102|101|10104|||%s|unjoin domain[%s] failed 
+1415	ascii	rename.ini not found,go next.
+1416	ascii	renameinfo.ini info without msgid
+1417	ascii	rename success
+1418	ascii	"C:\Program Files (x86)\vmtool\vm_booster\joinDNSdomain.bat"
+1419	ascii	joinDNSdomain.ini info without domaininfo
+1420	ascii	joinDNSdomain.ini info without msgid
+1421	ascii	joinDNSdomain.ini info without limit
+1422	ascii	joinDNSdomain.ini info limit is %d
+1423	ascii	C:\Program Files (x86)\vmtool\vm_booster\joinDNSDomain.bat
+1424	ascii	getVappUrl%s
+1425	ascii	getUserGroupId%s
+1426	ascii	getipinfo%s
+1427	ascii	randtime is %d
+1428	ascii	send_get_vmtool_upgrade_info
+1429	ascii	now time is %04d-%02d-%02d %02d:%02d:%02d the time left TotalDtime to send message is : %lf s;
+1430	ascii	getVerServerUrl%s|%d
+1431	ascii	getiClassUrl%s
+1432	ascii	getcsapipport%s
+1433	ascii	invalid socket !
+1434	ascii	127.0.0.1
+1435	ascii	socket connect error!ErrorCode: %d
+1436	ascii	send_socket_req
+1437	ascii	socket send error!ErrorCode: %d
+1438	ascii	socket send message success, msgLength is: %d
+1439	ascii	is_base64
+1440	ascii	deal_base64_msg
+1441	ascii	drm_Base64Decode buf %s failed.
+1442	ascii	"msgtype":"
+1443	ascii	Receive msg without msgtype.
+1444	ascii	msgtype is %d
+1445	ascii	receive disk info msg!
+1446	ascii	"diskinfoList":[
+1447	ascii	diskinfoList is "%s"
+1448	ascii	open %s failed
+1449	ascii	undefine msgtype.
+1450	ascii	[ERR]socket fail.
+1451	ascii	vmbooster_listen_msg_req
+1452	ascii	[ERR]bind fail.
+1453	ascii	[ERR]listen fail.
+1454	ascii	vmbooster port 65188 socket listen success.
+1455	ascii	[ERR]accept fail.
+1456	ascii	accept success.
+1457	ascii	 Server start get connect from %x:%x
+1458	ascii	recv success,buf = [%s].
+1459	ascii	msgtype=
+1460	ascii	[ERR]Receive msg without msgtype.
+1461	ascii	msgtype:'%d';result:0
+1462	ascii	rsp:%s.
+1463	ascii	urltype=
+1464	ascii	msgtype:'%d';urltype:'%d';result:0
+1465	ascii	msgdata=
+1466	ascii	rpmsg is %s
+1467	ascii	msgtype=%d;result=0;
+1468	ascii	connect=
+1469	ascii	msgtype=%d;result=1;
+1470	ascii	domainname = %s,adminuser= %s
+1471	ascii	C:\Windows\System32\wbem\WMIC.exe computersystem where Name="%%COMPUTERNAME%%" call JoinDomainOrWorkgroup Name="%s" username="%s" password="%s" FJoinOptions=3
+1472	ascii	write join DNS Domain bat.
+1473	ascii	cmd.exe /c "C:\Program Files\vmtool\vm_booster\joinDNSdomain.bat"
+1474	ascii	cmd.exe /c "C:\Program Files (x86)\vmtool\vm_booster\joinDNSdomain.bat"
+1475	ascii	msgtype:'%d';result:1
+1476	ascii	computername=
+1477	ascii	[ERR]undefine msg type.
+1478	ascii	C:\Program Files\vmtool\vm_booster\version.ini
+1479	ascii	C:\Program Files (x86)\vmtool\vm_booster\version.ini
+1480	ascii	vmbooster_version
+1481	ascii	base
+1482	ascii	read config 'vmbooster_version' from [%s] failed!
+1483	ascii	get_vm_version
+1484	ascii	version_with_build is %s
+1485	ascii	vmtool_version is [%s]!
+1486	ascii	vdagent_version
+1487	ascii	read config 'vdagent_version' from [%s] failed!
+1488	ascii	vdagent_version is [%s]!
+1489	ascii	usbipc_version
+1490	ascii	read config 'usbipc_version' from [%s] failed!
+1491	ascii	usbipc_version is [%s]!
+1492	ascii	media_redirect_version
+1493	ascii	read config 'media_redirect_version' from [%s] failed!
+1494	ascii	media_redirect_version is [%s]!
+1495	ascii	DisplayVersion
+1496	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Virtio Driver
+1497	ascii	pvDriver version  is:%s 
+1498	ascii	pvDriver version get error.
+1499	ascii	{msgtype:'4004',vmid:'%s',vmbooster:'%s',vmagent:' ',PVDriver:'%s',vdagent:'%s',usbipc:'%s',media_redirect:'%s'}
+1500	ascii	Send vm version to host,msgtype = 4004.
+1501	ascii	report_vm_version
+1502	ascii	cmd.exe /c "C:\Program Files\ZTEGuestOS\IceServer\IceDetachDisplay.exe" uuid %s
+1503	ascii	cmd.exe /c "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" uuid %s
+1504	ascii	vmuuid_update
+1505	ascii	Microsoft Windows XP professional(32)
+1506	ascii	Microsoft Windows XP professional(64)
+1507	ascii	Microsoft Windows Server 2003(32)
+1508	ascii	Microsoft Windows Server 2003(64)
+1509	ascii	Microsoft Windows Server 2008(32)
+1510	ascii	Microsoft Windows Server 2008(64)
+1511	ascii	Microsoft Windows 7(32)
+1512	ascii	Microsoft Windows 7(64)
+1513	ascii	Microsoft Windows Server 2008 R2(64)
+1514	ascii	Microsoft Windows 8(32)
+1515	ascii	Microsoft Windows 8(64)
+1516	ascii	Microsoft Windows Server 2012(64)
+1517	ascii	Microsoft Windows Server 2012 R2(64)
+1518	ascii	get_os_info
+1519	ascii	%%SystemRoot%%\system32\wbem\wmic os get Caption
+1520	ascii	product_name is %s
+1521	ascii	get windows product version error.
+1522	ascii	Windows 11
+1523	ascii	Microsoft Windows 11(64)
+1524	ascii	Microsoft Windows 10(32)
+1525	ascii	Microsoft Windows 10(64)
+1526	ascii	Windows Server 2019
+1527	ascii	Microsoft Windows Server 2019(64)
+1528	ascii	Windows Server 2022
+1529	ascii	Microsoft Windows Server 2022(64)
+1530	ascii	Windows Server 2016
+1531	ascii	Microsoft Windows Server 2016(64)
+1532	ascii	os version major:%d;minor:%d;
+1533	ascii	GetOsString
+1534	ascii	GetOSName=%s,ReslutFlag=%d,osbit=%d
+1535	ascii	Other Windows
+1536	ascii	GetOSName false,not find!
+1537	ascii	OsName=%s;Osbit=%d;ReslutFlag=%d; 
+1538	ascii	GetOSInof successfully
+1539	ascii	buff is null,no msg!
+1540	ascii	os_info_report
+1541	ascii	report Os info to host_ha![%s]
+1542	ascii	begin vmmonitor_remove_rescan_pci thread
+1543	ascii	vmbooster_remove_rescan_pci
+1544	ascii	"C:\Program Files\vmtool\vm_booster\remove_rescan_virtio.bat"
+1545	ascii	ShellExecute remove_rescan_virtio.bat failed: %d
+1546	ascii	C:\Program Files (x86)\vmtool\vm_booster\remove_rescan_virtio.bat
+1547	ascii	ShellExecute remove_rescan_virtio.bat successfully: %d
+1548	ascii	end vmmonitor_remove_rescan_pci thread
+1549	ascii	encapsulate_specify
+1550	ascii	cmd.exe  /C call "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\UserRedirect\setup.bat"
+1551	ascii	osbit type not support.
+1552	ascii	cmd.exe  /C call "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\UserRedirect\setup.bat"
+1553	ascii	C:\Windows\System32\sysprep\unattend.xml
+1554	ascii	<CopyProfile>true</CopyProfile>
+1555	ascii	<CopyProfile>false</CopyProfile>
+1556	ascii	modify copyprofile config failed.
+1557	ascii	China Standard Time
+1558	ascii	<TimeZone>%s</TimeZone>
+1559	ascii	<TimeZone>China Standard Time</TimeZone>
+1560	ascii	modify TimeZone failed.
+1561	ascii	zh-CN
+1562	ascii	<InputLocale>%s</InputLocale>
+1563	ascii	<InputLocale>zh-CN</InputLocale>
+1564	ascii	modify InputLocale failed.
+1565	ascii	en-US
+1566	ascii	<UILanguage>%s</UILanguage>
+1567	ascii	<UILanguage>zh-CN</UILanguage>
+1568	ascii	modify UILanguage failed.
+1569	ascii	<UILanguageFallback>%s</UILanguageFallback>
+1570	ascii	<UILanguageFallback></UILanguageFallback>
+1571	ascii	modify UILanguageFallback failed.
+1572	ascii	<UserLocale>%s</UserLocale>
+1573	ascii	<UserLocale>zh-CN</UserLocale>
+1574	ascii	modify UserLocale failed.
+1575	ascii	<SystemLocale>%s</SystemLocale>
+1576	ascii	<SystemLocale>zh-CN</SystemLocale>
+1577	ascii	modify SystemLocale failed.
+1578	ascii	copy userredirect scripts to dest dir success!
+1579	ascii	copy userredirect scripts to dest dir failed!
+1580	ascii	C:\Windows\System32\sysprep\clean.cmd
+1581	ascii	call c:\sys\AddSchtasks.bat
+1582	ascii	del addschtasks failed!
+1583	ascii	vmosinfo is null,no msg!
+1584	ascii	encapsulate_join_domain
+1585	ascii	OsName=
+1586	ascii	[ERR]Get vmosinfo without vmostype.
+1587	ascii	Osbit=
+1588	ascii	[ERR]Get vmosinfo without vmosbit.
+1589	ascii	OsName=%s, Osbit=%s
+1590	ascii	[ERR]Not support this OS.
+1591	ascii	2097703
+1592	ascii	msgtypeflag":"
+1593	ascii	[ERR]Receive msg without msgtypeflag.
+1594	ascii	vmusrname":"
+1595	ascii	[ERR]Receive msg without vmusrname.
+1596	ascii	vmpasswd":"
+1597	ascii	[ERR]Receive msg without vmpasswd.
+1598	ascii	personalconfig":"
+1599	ascii	[ERR]Receive msg without personalconfig.
+1600	ascii	userredirect":"
+1601	ascii	[ERR]Receive msg without userredirect.
+1602	ascii	timezone":"
+1603	ascii	[WARNING]Receive msg without timezone.
+1604	ascii	language":"
+1605	ascii	[WARNING]Receive msg without language.
+1606	ascii	region":"
+1607	ascii	[WARNING]Receive msg without region.
+1608	ascii	Msg content is: msgtypeflag = %d, vmusrname = %s, personalconfig=%d, userredirect=%d,timezone=%s, language=%s, region=%s.
+1609	ascii	Microsoft Windows 7(64) encapsulate start
+1610	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+1611	ascii	execmd success!
+1612	ascii	execmd failed!
+1613	ascii	cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64_NoJoin.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1614	ascii	encapsulate_specify failed.
+1615	ascii	*****
+1616	ascii	/v Sysprep /t REG_DWORD /d 2 /f
+1617	ascii	/v Sysprep /t REG_DWORD /d 0 /f
+1618	ascii	set Sysprep failed
+1619	ascii	cmd.exe /c "C:\Windows\System32\sysprep\startprep.cmd"
+1620	ascii	%s encapsulate success!
+1621	ascii	Wow64EnableWow64FsRedirection failed!
+1622	ascii	Microsoft Windows 10(64) encapsulate start
+1623	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+1624	ascii	cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_64.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1625	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\JoinDomain.vbs" "C:\Windows\System32\sysprep"
+1626	ascii	call c:\windows\system32\sysprep\JoinDomain.vbs
+1627	ascii	Microsoft Windows 7(32) encapsulate start
+1628	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+1629	ascii	cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86_NoJoin.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1630	ascii	Microsoft Windows 10(32) encapsulate start
+1631	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\*.cmd" "C:\Windows\System32\sysprep"
+1632	ascii	cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\unattend_x86.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1633	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\JoinDomain.vbs" "C:\Windows\System32\sysprep"
+1634	ascii	domainname":"
+1635	ascii	[ERR]Receive msg without domainname.
+1636	ascii	domainusrname":"
+1637	ascii	[ERR]Receive msg without domainusrname.
+1638	ascii	domainpasswd":"
+1639	ascii	Msg content is: domainname = %s,domainusrname = %s
+1640	ascii	[ERR]Receive msg without domainou.
+1641	ascii	Msg content is: domainname = %s,domainusrname = %s,domainpasswd = xxx,domainou = %s
+1642	ascii	Microsoft Windows 7(64) encapsulate join domain start
+1643	ascii	cmd.exe  /C copy  /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_64.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1644	ascii	ZXVE_domain
+1645	ascii	ZXVE_usrname
+1646	ascii	<MachineObjectOU>ZXVE_ou</MachineObjectOU>
+1647	ascii	ZXVE_ou
+1648	ascii	/v Sysprep /t REG_DWORD /d 3 /f
+1649	ascii	Microsoft Windows 10(64) encapsulate join domain start
+1650	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files (x86)\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\sync_time.bat" "C:\Windows\System32\sysprep"
+1651	ascii	C:\Windows\System32\sysprep\JoinDomain.vbs
+1652	ascii	strOU
+1653	ascii	"ZXVE_ou"
+1654	ascii	"C:\Windows\System32\sysprep\sync_time.bat" -L -S
+1655	ascii	Microsoft Windows 7(32) encapsulate join domain without ou start
+1656	ascii	cmd.exe  /C copy  /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win7Encapsulate\unattend_x86.xml" "C:\Windows\System32\sysprep\unattend.xml"
+1657	ascii	Microsoft Windows 10(32) encapsulate join domain start
+1658	ascii	cmd.exe  /C xcopy /r /y "C:\Program Files\vmtool\vm_booster\EncapsulatJoinDomain\Win10Encapsulate\sync_time.bat" "C:\Windows\System32\sysprep"
+1659	ascii	2097702
+1660	ascii	[info]Connecting to host %s ...
+1661	ascii	vm_ldap_connect
+1662	ascii	[error]Ldap init failed with 0x%x.
+1663	ascii	[info]Ldap init succeeded.
+1664	ascii	[info]Setting Protocol version to 3.
+1665	ascii	[info]Ldap set option succeeded.
+1666	ascii	[error]SetOption Error:%0X
+1667	ascii	[info]Ldap connect succeeded.
+1668	ascii	[error]Ldap connect failed with 0x%x.
+1669	ascii	[info]Binding ...
+1670	ascii	[info]Ldap bind succeeded.
+1671	ascii	[error]Ldap bind was failed with 0x%x.
+1672	ascii	[error]Last ldap errorcode: 0x%x
+1673	ascii	[info]Ldap unbind succeeded.
+1674	ascii	[error]Ldap unbind was failed with 0x%x.
+1675	ascii	vm_ldap_connect_ssl
+1676	ascii	[error]Ldap sslinit failed with 0x%x.
+1677	ascii	[error]Setting Protocol version to 3 failed.
+1678	ascii	[info]Checking if SSL is enabled...
+1679	ascii	[info]SSL is enabled.
+1680	ascii	[info]SSL not enabled now. SSL being enabled...
+1681	ascii	[error]SSL enable failed.
+1682	ascii	[info]SSL enable succeeded.
+1683	ascii	[error]LDAP_OPT_SERVER_CERTIFICATE enable failed.
+1684	ascii	[info]LDAP_OPT_SERVER_CERTIFICATE enable succeeded.
+1685	ascii	[error]Ldap binding failed.
+1686	ascii	[info]Ldap binding succeeded.
+1687	ascii	vm_ldap_disconnect
+1688	ascii	[info]No need to ldap unbind.
+1689	ascii	[info]Ldap add succeeded.
+1690	ascii	vm_ldap_add_s
+1691	ascii	[error]Ldap add was failed with 0x%x.
+1692	ascii	[info]Ldap delete %s succeeded.
+1693	ascii	vm_ldap_delete_s
+1694	ascii	[error]Ldap delete %s was failed with 0x%x.
+1695	ascii	[info]Ldap modify succeeded.
+1696	ascii	vm_ldap_modify_s
+1697	ascii	[error]Ldap modify was failed with 0x%x.
+1698	ascii	[info]Ldap rename succeeded.
+1699	ascii	vm_ldap_rename_ext_s
+1700	ascii	[error]Ldap rename was failed with 0x%x.
+1701	ascii	[info]Ldap search succeeded.
+1702	ascii	vm_ldap_search_s
+1703	ascii	[error]Ldap search was failed with 0x%x.
+1704	ascii	[info]Ldap search, the number of entries is: %d.
+1705	ascii	ldap_first_entry
+1706	ascii	ldap_next_entry
+1707	ascii	[error]Ldap search, %s failed with 0x%0lx.
+1708	ascii	[info]Ldap search, %s succeeded.
+1709	ascii	[info]Ldap get values, no attribute value returned.
+1710	ascii	[info]Ldap get values, values total number:%i.
+1711	ascii	[error]Ldap get values, BAD VALUE LIST.
+1712	ascii	[info]ENTRY NUMBER: %i, ATTR: %s, VALUE[%i]: %s.
+1713	ascii	"%s":"%s",
+1714	ascii	invaild wtype parameter
+1715	ascii	write_disk_file
+1716	ascii	diskfile not exist
+1717	ascii	cleardisk_file
+1718	ascii	g_running is not true,do not format
+1719	ascii	format_disk
+1720	ascii	select disk %d
+1721	ascii	create partition primary 
+1722	ascii	format fs=ntfs quick 
+1723	ascii	rescan 
+1724	ascii	assign 
+1725	ascii	exit 
+1726	ascii	format disk %d success
+1727	ascii	format disk %d failed:%d
+1728	ascii	exec format disk failed
+1729	ascii	\\?\PhysicalDrive%d
+1730	ascii	check_partition_exist
+1731	ascii	diskindex %d IOCTL_DISK_GET_DRIVE_LAYOUT_EX Error: %ld
+1732	ascii	diskindex %d PartitionCount > 0
+1733	ascii	wmic_get_serial_number_by_diskid
+1734	ascii	get %u serialnumber(%s) success
+1735	ascii	get %u serialnumber error. Error code = 0x%x
+1736	ascii	penumerator is NULL
+1737	ascii	open_wmic_space
+1738	ascii	Failed to initialize COM library. Error code = 0x%x
+1739	ascii	Failed to initialize sercuity. Error code = 0x%x
+1740	ascii	Failed to create IWbemLocator object. Error code = 0x%x
+1741	ascii	Could not connect. Error code = 0x%x
+1742	ascii	Connected to WMI
+1743	ascii	Could not set proxy blanket. Error code = 0x%x
+1744	ascii	Query for process failed. Error code = 0x%x
+1745	ascii	exec %ws success
+1746	ascii	get_volume_label_by_disk_label
+1747	ascii	%s GetVolumeInformation failed errorno:%ld
+1748	ascii	%s volume name is empty
+1749	ascii	%s volume_label is %s
+1750	ascii	get_real_disk_size_by_disk_label
+1751	ascii	%s real_disk_size is %.2lf
+1752	ascii	%s GetDiskFreeSpaceEx failed errorno:%ld
+1753	ascii	get_ice_vm_uuid
+1754	ascii	Ice-UUID
+1755	ascii	get vm uuid is:%s 
+1756	ascii	get vm uuid error.
+1757	ascii	000000000000000000000000000000000000
+1758	ascii	send_msg_to_ice
+1759	ascii	drm_Base64Encode buf %s failed.
+1760	ascii	"%s" vmbooster %s
+1761	ascii	{"diskId":"%s","realDiskSize":"%.2lf","letterName":"%c","volumeLabel":"%s"}
+1762	ascii	diskinfo len more than %d, break
+1763	ascii	send_physical_disk_info
+1764	ascii	mdisk_info is "%s", fdisk_info is "%s" 
+1765	ascii	{"msgtype":"%d","vmId":"%s","diskinfoList":[%s]}
+1766	ascii	diskinfo is %s
+1767	ascii	get_disk_info start 
+1768	ascii	get_disk_info
+1769	ascii	%c get serialnumber(%s) success
+1770	ascii	%c get serialnumber(%s) failed
+1771	ascii	%s disk have partitions, can not report this message
+1772	ascii	%c get volume_label(%s) success
+1773	ascii	%c get disk_size(%.2lf) success
+1774	ascii	get_disk_info end 
+1775	ascii	check_volume_belong_disk
+1776	ascii	\\.\%c:
+1777	ascii	disklabel %s IOCTL_STORAGE_GET_DEVICE_NUMBER Error: %ld
+1778	ascii	disklabel %s,diskid %d diskpartition %d
+1779	ascii	select partition 1
+1780	ascii	do extend disk %d
+1781	ascii	check_format
+1782	ascii	extend NOERR
+1783	ascii	select partition 2 
+1784	ascii	select partition 3 
+1785	ascii	exec cmd to judge partition error 
+1786	ascii	do format disk %d 
+1787	ascii	clear_disk_attribute
+1788	ascii	IOCTL_DISK_GET_DISK_ATTRIBUTES  %s success attributes:%d
+1789	ascii	online disk
+1790	ascii	attributes disk clear readonly
+1791	ascii	clear_disk_attribute success
+1792	ascii	clear_disk_attribute failed:%d
+1793	ascii	exec cmd to clear disk attribute error
+1794	ascii	exec clear disk attribute %d
+1795	ascii	get %s IOCTL_DISK_GET_DISK_ATTRIBUTES failed :%ld
+1796	ascii	operate_one_disk
+1797	ascii	exec cmd to judge partition error
+1798	ascii	exec cmd to judge disk get error(%d)
+1799	ascii	exec cmd to judge disk error
+1800	ascii	recv seal_number :%s.operate_disk start
+1801	ascii	disk_operate
+1802	ascii	ret is %d, cmd is %s, buff is %s
+1803	ascii	%%SystemRoot%%\system32\wbem\wmic diskdrive get index , SerialNumber | %%SystemRoot%%\system32\findstr "%s"
+1804	ascii	%[0-9]%*[*]
+1805	ascii	operate all disk index : %d 
+1806	ascii	operate disk index : %d 
+1807	ascii	GetTickCount is %u
+1808	ascii	disk_operate_all
+1809	ascii	operate_disk start
+1810	ascii	operate_disk end
+1811	ascii	openProcessToken error
+1812	ascii	get_se_privilege
+1813	ascii	SeDebugPrivilege
+1814	ascii	lookupPrivilegevalue error
+1815	ascii	adjust error
+1816	ascii	vmbooster_deal_sock_connect
+1817	ascii	vmbooster_create_sock_and_connect
+1818	ascii	create sock failed errno:%d 
+1819	ascii	vmbooster_deal_tcp_write
+1820	ascii	socket send error!ErrorCode: %d, len : %d, msglen : %d 
+1821	ascii	socket send message success, msg is : %s, msgLength is: %d
+1822	ascii	vmbooster_deal_tcp_read
+1823	ascii	socket read error!ErrorCode: %d
+1824	ascii	socket read msgLength is: %d
+1825	ascii	socket read message success, msg is : %s, msgLength is: %d
+1826	ascii	AppMode
+1827	ascii	vmbooster_query_update_port
+1828	ascii	Identifier:22&objecttype=%d&isUpdate=confirm&#0
+1829	ascii	{"code":"zteupdate"}
+1830	ascii	query update port success ,port is %d
+1831	ascii	vmbooster_register_update_to_server
+1832	ascii	ZTE VMTOOL
+1833	ascii	ZTE 
+1834	ascii	%s not exist
+1835	ascii	version
+1836	ascii	VdesktopVersion
+1837	ascii	get version failed %s
+1838	ascii	Identifier:22&objecttype=%d&currentVersion=%s&ClientType=1&bit=%d&network=0&DCIPV6=%s&DC=%s&installInfoPath=%s&appName=ZTE VMTOOL&appNameI18n=%s&verGroup=VdesktopVersion&verKey=version&#1
+1839	ascii	register update msg is %s
+1840	ascii	send vmbooster_register_update_to_server msg success
+1841	ascii	send vmbooster_register_update_to_server msg failed
+1842	ascii	vmbooster_deal_update_server
+1843	ascii	receive update server msg is %s
+1844	ascii	DC":"
+1845	ascii	[ERR]Receive msg without url.
+1846	ascii	DCIPV6":"
+1847	ascii	[ERR]Receive msg without url_ipv6.
+1848	ascii	vmbooster_query_update_port failed, ret is %d
+1849	ascii	vmbooster_register_update_to_server failed, ret is %d
+1850	ascii	create_dword_reg
+1851	ascii	set_channel_number
+1852	ascii	channelnumber":"
+1853	ascii	get channelnumber failed
+1854	ascii	channel_number is %d
+1855	ascii	ChannelId
+1856	ascii	SOFTWARE\TopDomain\e-Learning Class\Student
+1857	ascii	set channelnumber failed
+1858	ascii	taskkill /F /IM AssistantService.exe
+1859	ascii	vmbooster_set_channel_number
+1860	ascii	channel_info is %s
+1861	ascii	{"result":"%d"}
+1862	ascii	msg_type_dispatcher
+1863	ascii	parse msgtype error
+1864	ascii	vmuuid=
+1865	ascii	receive 4100 response vmuuid is %s 
+1866	ascii	msg keep long in stock
+1867	ascii	malloc task_info_t error
+1868	ascii	tasksize is %d
+1869	ascii	deal_msgtype_msg
+1870	ascii	pop task_info is NULL 
+1871	ascii	libmswitch.dll
+1872	ascii	libswitch.dll load failed
+1873	ascii	VMBooster
+1874	ascii	error is %d
+1875	ascii	qoelog.dll
+1876	ascii	qoelog.dll load failed
+1877	ascii	Register
+1878	ascii	BuildMsg
+1879	ascii	SendMsg
+1880	ascii	RecvMsg
+1881	ascii	FreeMsg
+1882	ascii	GetProcAddress Get failed
+1883	ascii	diskpartition.dll
+1884	ascii	get diskPartitionDll symbol init_data_disk failed, error_code = %d
+1885	ascii	diskPartitionDll no found
+1886	ascii	begin send heartbeat
+1887	ascii	msg_id[%d] data_len[%d]
+1888	ascii	mh_data_len is not equ vm_nic_ex_t len,do not set ip!
+1889	ascii	rcv set ip msg!
+1890	ascii	report ip success.
+1891	ascii	report OS info success.
+1892	ascii	receive spice change msg!
+1893	ascii	rcv vm encapsulate join domain msg!
+1894	ascii	receive format or extend msg!
+1895	ascii	?deque<T> too long
+1896	ascii	list<T> too long
+1897	ascii	<5IkQ
+1898	ascii	s1q4
+1899	ascii	RSDS
+1900	ascii	F:\workspace\ZXCLOUD-iVMC-ComponentV7.25.21\ZXCLOUD-iVMC-Component\windows\Release\Vmbooster.pdb
+1901	ascii	HeapFree
+1902	ascii	HeapAlloc
+1903	ascii	GetProcessHeap
+1904	ascii	LeaveCriticalSection
+1905	ascii	EnterCriticalSection
+1906	ascii	Sleep
+1907	ascii	GetTickCount
+1908	ascii	GetProcAddress
+1909	ascii	GetModuleHandleA
+1910	ascii	InitializeCriticalSection
+1911	ascii	DeleteCriticalSection
+1912	ascii	GetProcessTimes
+1913	ascii	GetCurrentProcess
+1914	ascii	GetSystemTimeAsFileTime
+1915	ascii	GetSystemInfo
+1916	ascii	OpenProcess
+1917	ascii	GetLastError
+1918	ascii	WinExec
+1919	ascii	CreateProcessA
+1920	ascii	CloseHandle
+1921	ascii	TerminateProcess
+1922	ascii	Process32Next
+1923	ascii	Process32First
+1924	ascii	CreateToolhelp32Snapshot
+1925	ascii	QueryFullProcessImageNameA
+1926	ascii	GetCurrentProcessId
+1927	ascii	GetCurrentThreadId
+1928	ascii	CreateFileA
+1929	ascii	GetModuleFileNameA
+1930	ascii	SetUnhandledExceptionFilter
+1931	ascii	DeviceIoControl
+1932	ascii	GetDiskFreeSpaceExA
+1933	ascii	GetDriveTypeA
+1934	ascii	GetLogicalDriveStringsA
+1935	ascii	GetUserDefaultLCID
+1936	ascii	GlobalMemoryStatusEx
+1937	ascii	lstrcmpiA
+1938	ascii	GetStartupInfoA
+1939	ascii	CreatePipe
+1940	ascii	ProcessIdToSessionId
+1941	ascii	WTSGetActiveConsoleSessionId
+1942	ascii	DeleteFileA
+1943	ascii	GetComputerNameExA
+1944	ascii	MultiByteToWideChar
+1945	ascii	WideCharToMultiByte
+1946	ascii	GetComputerNameA
+1947	ascii	SetComputerNameExA
+1948	ascii	QueryDosDeviceA
+1949	ascii	GetLocalTime
+1950	ascii	GetPrivateProfileStringA
+1951	ascii	GetVersionExA
+1952	ascii	Wow64EnableWow64FsRedirection
+1953	ascii	GetVolumeInformationA
+1954	ascii	FreeLibrary
+1955	ascii	LoadLibraryA
+1956	ascii	KERNEL32.dll
+1957	ascii	MessageBoxA
+1958	ascii	PostThreadMessageA
+1959	ascii	ExitWindowsEx
+1960	ascii	GetSystemMetrics
+1961	ascii	USER32.dll
+1962	ascii	LookupAccountSidA
+1963	ascii	GetTokenInformation
+1964	ascii	OpenProcessToken
+1965	ascii	CloseServiceHandle
+1966	ascii	OpenServiceA
+1967	ascii	OpenSCManagerA
+1968	ascii	RegCreateKeyA
+1969	ascii	RegCloseKey
+1970	ascii	RegOpenKeyExA
+1971	ascii	DeleteService
+1972	ascii	ControlService
+1973	ascii	ChangeServiceConfig2A
+1974	ascii	CreateServiceA
+1975	ascii	SetServiceStatus
+1976	ascii	RegisterServiceCtrlHandlerA
+1977	ascii	StartServiceCtrlDispatcherA
+1978	ascii	RegSetValueExA
+1979	ascii	RegCreateKeyExA
+1980	ascii	RegQueryValueExA
+1981	ascii	AdjustTokenPrivileges
+1982	ascii	LookupPrivilegeValueA
+1983	ascii	CreateProcessAsUserA
+1984	ascii	SetTokenInformation
+1985	ascii	DuplicateTokenEx
+1986	ascii	ADVAPI32.dll
+1987	ascii	ShellExecuteA
+1988	ascii	SHELL32.dll
+1989	ascii	CoUninitialize
+1990	ascii	CoSetProxyBlanket
+1991	ascii	CoCreateInstance
+1992	ascii	CoInitializeSecurity
+1993	ascii	CoInitializeEx
+1994	ascii	ole32.dll
+1995	ascii	OLEAUT32.dll
+1996	ascii	GetAdaptersAddresses
+1997	ascii	GetAdaptersInfo
+1998	ascii	GetPerAdapterInfo
+1999	ascii	FreeMibTable
+2000	ascii	GetIfTable2
+2001	ascii	GetExtendedTcpTable
+2002	ascii	IPHLPAPI.DLL
+2003	ascii	strlen
+2004	ascii	strcmp
+2005	ascii	toupper
+2006	ascii	_pclose
+2007	ascii	feof
+2008	ascii	fgets
+2009	ascii	_snprintf
+2010	ascii	strerror
+2011	ascii	_errno
+2012	ascii	_popen
+2013	ascii	strncmp
+2014	ascii	__CxxFrameHandler3
+2015	ascii	memset
+2016	ascii	remove
+2017	ascii	fclose
+2018	ascii	fprintf
+2019	ascii	fopen
+2020	ascii	sscanf
+2021	ascii	strstr
+2022	ascii	sprintf
+2023	ascii	strncpy
+2024	ascii	strcpy
+2025	ascii	memcpy
+2026	ascii	??3@YAXPAX@Z
+2027	ascii	_CxxThrowException
+2028	ascii	memmove
+2029	ascii	??2@YAPAXI@Z
+2030	ascii	??0exception@std@@QAE@ABV01@@Z
+2031	ascii	??0exception@std@@QAE@ABQBD@Z
+2032	ascii	?what@exception@std@@UBEPBDXZ
+2033	ascii	??1exception@std@@UAE@XZ
+2034	ascii	fseek
+2035	ascii	ftell
+2036	ascii	fwrite
+2037	ascii	fread
+2038	ascii	__iob_func
+2039	ascii	vfprintf
+2040	ascii	strftime
+2041	ascii	_localtime64
+2042	ascii	_time64
+2043	ascii	strrchr
+2044	ascii	printf
+2045	ascii	_strnicmp
+2046	ascii	strchr
+2047	ascii	free
+2048	ascii	malloc
+2049	ascii	_endthread
+2050	ascii	isdigit
+2051	ascii	isspace
+2052	ascii	strncat
+2053	ascii	strcat
+2054	ascii	strtoul
+2055	ascii	fputs
+2056	ascii	fgetc
+2057	ascii	atol
+2058	ascii	atoi
+2059	ascii	vsprintf
+2060	ascii	_beginthread
+2061	ascii	_exit
+2062	ascii	??_U@YAPAXI@Z
+2063	ascii	memcmp
+2064	ascii	strtok
+2065	ascii	_vswprintf_c_l
+2066	ascii	tolower
+2067	ascii	rand
+2068	ascii	srand
+2069	ascii	_mktime64
+2070	ascii	_difftime64
+2071	ascii	isalnum
+2072	ascii	MSVCR100.dll
+2073	ascii	?terminate@@YAXXZ
+2074	ascii	_unlock
+2075	ascii	__dllonexit
+2076	ascii	_lock
+2077	ascii	_onexit
+2078	ascii	_except_handler4_common
+2079	ascii	_amsg_exit
+2080	ascii	__getmainargs
+2081	ascii	_cexit
+2082	ascii	_XcptFilter
+2083	ascii	_ismbblead
+2084	ascii	exit
+2085	ascii	_acmdln
+2086	ascii	_initterm
+2087	ascii	_initterm_e
+2088	ascii	_configthreadlocale
+2089	ascii	__setusermatherr
+2090	ascii	_commode
+2091	ascii	_fmode
+2092	ascii	__set_app_type
+2093	ascii	_crt_debugger_hook
+2094	ascii	?_type_info_dtor_internal_method@type_info@@QAEXXZ
+2095	ascii	_invoke_watson
+2096	ascii	_controlfp_s
+2097	ascii	?_Orphan_all@_Container_base0@std@@QAEXXZ
+2098	ascii	?_Xlength_error@std@@YAXPBD@Z
+2099	ascii	?_Xout_of_range@std@@YAXPBD@Z
+2100	ascii	?_Orphan_all@_Container_base12@std@@QAEXXZ
+2101	ascii	??1_Container_base12@std@@QAE@XZ
+2102	ascii	??0_Container_base12@std@@QAE@XZ
+2103	ascii	MSVCP100.dll
+2104	ascii	inet_ntop
+2105	ascii	inet_pton
+2106	ascii	WS2_32.dll
+2107	ascii	GetProcessMemoryInfo
+2108	ascii	PSAPI.DLL
+2109	ascii	MiniDumpWriteDump
+2110	ascii	dbghelp.dll
+2111	ascii	SHDeleteKeyA
+2112	ascii	PathFileExistsA
+2113	ascii	SHLWAPI.dll
+2114	ascii	?qoe_log_init@@YAHXZ
+2115	ascii	?qoe_log_write@@YAHPBD@Z
+2116	ascii	timeGetTime
+2117	ascii	WINMM.dll
+2118	ascii	NetApiBufferFree
+2119	ascii	NetWkstaGetInfo
+2120	ascii	NETAPI32.dll
+2121	ascii	PdhCloseQuery
+2122	ascii	PdhGetFormattedCounterValue
+2123	ascii	PdhCollectQueryData
+2124	ascii	PdhAddEnglishCounterA
+2125	ascii	PdhOpenQueryA
+2126	ascii	pdh.dll
+2127	ascii	WLDAP32.dll
+2128	ascii	CertFreeCertificateContext
+2129	ascii	CRYPT32.dll
+2130	ascii	EncodePointer
+2131	ascii	DecodePointer
+2132	ascii	InterlockedExchange
+2133	ascii	InterlockedCompareExchange
+2134	ascii	HeapSetInformation
+2135	ascii	GetStartupInfoW
+2136	ascii	UnhandledExceptionFilter
+2137	ascii	IsDebuggerPresent
+2138	ascii	IsProcessorFeaturePresent
+2139	ascii	QueryPerformanceCounter
+2140	ascii	_stricmp
+2141	ascii	_access
+2142	ascii	?456789:;<=
+2143	ascii	 !"#$%&'()*+,-./0123
+2144	ascii	.?AVbad_alloc@std@@
+2145	ascii	.?AVexception@std@@
+2146	ascii	C:\Program Files\vmtool\vm_booster\vmbooster.log
+2147	ascii	C:\Program Files\vmtool\vm_booster\vmbooster_bak.log
+2148	ascii	C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+2149	ascii	C:\Program Files (x86)\vmtool\vm_booster\vmbooster_bak.log
+2150	ascii	Vmbooster
+2151	ascii	0000@
+2152	ascii	.?AUThank_you@Define_the_symbol__ATL_MIXED@@
+2153	ascii	.?AVtype_info@@
+2154	ascii	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+2155	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+2156	ascii	    <security>
+2157	ascii	      <requestedPrivileges>
+2158	ascii	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+2159	ascii	      </requestedPrivileges>
+2160	ascii	    </security>
+2161	ascii	  </trustInfo>
+2162	ascii	</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD
+2163	ascii	0N2v2,3034383
+2164	ascii	4&404B4M4V4_4m4
+2165	ascii	555v5
+2166	ascii	5,636{6
+2167	ascii	?0?a?k?p?
+2168	ascii	0(000=0[0h0x0
+2169	ascii	161G1Q1V1
+2170	ascii	2!2'292L2\2l2r2
+2171	ascii	3 323c3m3r3
+2172	ascii	4!4F4\4
+2173	ascii	6+646C6i6
+2174	ascii	7'7,7]7g7l7
+2175	ascii	8.848F8w8
+2176	ascii	8&9:9a9g9q9v9
+2177	ascii	:N:X:]:
+2178	ascii	;K;n;~;
+2179	ascii	<C<S<Y<k<
+2180	ascii	=+>;>S>c>s>y>
+2181	ascii	?]?g?l?
+2182	ascii	0#0(0X0o0
+2183	ascii	1+1;1A1S1
+2184	ascii	2 2N2
+2185	ascii	3J3P3b3
+2186	ascii	4\4f4k4
+2187	ascii	6#6)6;6y6
+2188	ascii	7A7S7
+2189	ascii	8$8Z8z8
+2190	ascii	9N9T9f9
+2191	ascii	9(:2:7:\:n:
+2192	ascii	;>;K;Y;z;
+2193	ascii	<%<E<b<
+2194	ascii	=)=9=H=X=h=x=
+2195	ascii	>R>[>l>v>
+2196	ascii	?&?-?;?E?J?
+2197	ascii	0:0V0l0
+2198	ascii	11181S1b1q1
+2199	ascii	292@2W2]2g2l2
+2200	ascii	4'4,4
+2201	ascii	6.686=6`6g6
+2202	ascii	7;7B7N7U7c7m7r7
+2203	ascii	8,8o8
+2204	ascii	939V9l9|9
+2205	ascii	:*:1:J:
+2206	ascii	;I;S;X;g;
+2207	ascii	<$<S<Z<f<m<{<
+2208	ascii	=(=;=e=l={=
+2209	ascii	>,>Q>V>
+2210	ascii	?b?i?w?
+2211	ascii	002:2?2
+2212	ascii	404}4
+2213	ascii	4f5p5u5
+2214	ascii	6<6F6K688?8Q8X8
+2215	ascii	;d;q;
+2216	ascii	<F<S<
+2217	ascii	<F=U=
+2218	ascii	4 586>6
+2219	ascii	:H;N;h;n;
+2220	ascii	=,=5=
+2221	ascii	=6>E>
+2222	ascii	54595?5P5U5[5e5r5w5}5
+2223	ascii	6!6'616>6^6
+2224	ascii	6#7(7.7D7N7S7Y7o7
+2225	ascii	8#898I8g8s8x8
+2226	ascii	8$9z9
+2227	ascii	:):M:
+2228	ascii	:Z;_;
+2229	ascii	;V=i=
+2230	ascii	=:>A>J>R>[>d>o>{>
+2231	ascii	>3?:?C?L?d?p?
+2232	ascii	0@0H0Q0Z0e0q0z0
+2233	ascii	1;1J1q1
+2234	ascii	1V2[2m2
+2235	ascii	4.4A4T4d4t4
+2236	ascii	5!5+505G5
+2237	ascii	7&70767@7E7[7e7j7
+2238	ascii	8V8`8y8
+2239	ascii	9-939=9B9d9z9
+2240	ascii	:5:V:x:
+2241	ascii	;(;.;:;@;Q;X;u;
+2242	ascii	<W<]<n<s<y<
+2243	ascii	<#=+=1=Z=`=q=v=|=
+2244	ascii	>#>0>8>>>Z>
+2245	ascii	?0?7?Q?^?r?y?
+2246	ascii	0 0*0/0
+2247	ascii	0*14191}1
+2248	ascii	2!2;2\2
+2249	ascii	4.4P4p4~4
+2250	ascii	5$535
+2251	ascii	9D9S9h9
+2252	ascii	;";:;X;m;
+2253	ascii	<0<5<;<z<
+2254	ascii	=!='=;=[=
+2255	ascii	>*>0>D>n>
+2256	ascii	?/?N?
+2257	ascii	0#0.030M0R0j0t0y0
+2258	ascii	2&2:2
+2259	ascii	3!3P3
+2260	ascii	4.444Z4
+2261	ascii	5%5,5I5h5q5w5|5
+2262	ascii	5.6=6C6J6O6g6
+2263	ascii	7 7-7K7p7
+2264	ascii	8$8,83888Z8`8
+2265	ascii	9,969Y9d9
+2266	ascii	:a:q:v:~:
+2267	ascii	<&<,<t<y<
+2268	ascii	<e=k=t=y=
+2269	ascii	>!>2><>A>X>\>`>d>h>u>
+2270	ascii	? ?%?O?Y?c?m?w?
+2271	ascii	0$010;0]0c0t0z0
+2272	ascii	1%1-131;1A1I1S1X1
+2273	ascii	162{2
+2274	ascii	3@3M3i3
+2275	ascii	6#7-727e7o7t7
+2276	ascii	7.888=8\8w8
+2277	ascii	9%9@9J9O9~9
+2278	ascii	:G:Q:V:u:
+2279	ascii	;;;\;f;k;
+2280	ascii	;6<@<E<j<t<y<
+2281	ascii	=#>5>?>D>s>
+2282	ascii	?1?;?@?c?m?r?
+2283	ascii	0+050:0N0o0
+2284	ascii	2 3@3n3x3}3
+2285	ascii	5%555E5
+2286	ascii	6K7i7{7
+2287	ascii	8"9,9?9
+2288	ascii	<"<=<V<\<b<
+2289	ascii	<!=A=G=b=h=n=
+2290	ascii	> >&>a>
+2291	ascii	?)?7?i?u?
+2292	ascii	0#0F0J0O0T0e0l0t0
+2293	ascii	1+121K1O1T1Y1i1p1
+2294	ascii	2%2,2E2I2N2S2d2k2y2
+2295	ascii	474C4j4v4
+2296	ascii	5#5U5[5e5j5
+2297	ascii	6#6>6G6a6p6
+2298	ascii	7"727R7b7q719
+2299	ascii	9%:v:
+2300	ascii	;9;C;H;`;x;
+2301	ascii	=\=p=
+2302	ascii	=B>L>v>
+2303	ascii	?=?e?
+2304	ascii	4)464@4E4\4h4r4w4
+2305	ascii	6+6@6Q6W6i6p6
+2306	ascii	7.737J7O7f7k7
+2307	ascii	8&8O8U8}8
+2308	ascii	9"9B9\9
+2309	ascii	:%:_:m:s:
+2310	ascii	:4;:;t;
+2311	ascii	;0<6<@<K<Q<
+2312	ascii	=6=C=P=]=
+2313	ascii	>+>>>C>M>R>x>~>
+2314	ascii	?-?H?Z?u?~?
+2315	ascii	0,0;0
+2316	ascii	1.1R1i1x1
+2317	ascii	262N2X2l2
+2318	ascii	3$3=3R3{3
+2319	ascii	414F4U4o4
+2320	ascii	5!5.545?5g5
+2321	ascii	6 6.686=6u6~6
+2322	ascii	7$7,717;7A7N7S7]7c7k7p7z7
+2323	ascii	9<9L9[9m9
+2324	ascii	:#:(:.:3:9:>:D:I:O:T:Z:t:
+2325	ascii	;1;=;Q;e;
+2326	ascii	;*<x<
+2327	ascii	===U=q=
+2328	ascii	> ?G?X?_?h?p?
+2329	ascii	0E0O0U0_0d0x0
+2330	ascii	0 1/151?1D1^1n1|1
+2331	ascii	122<2B2L2Q2h2}2
+2332	ascii	3+313;3@3Z3j3{3
+2333	ascii	4$474A4F4`4i4s4x4
+2334	ascii	5%5+555:5]5}5
+2335	ascii	5)63686
+2336	ascii	647D7I7S7X7w7
+2337	ascii	8$8)8.8D8I8_8d8v8{8
+2338	ascii	: :%:@:R:
+2339	ascii	:1;;;@;
+2340	ascii	;I<S<X<
+2341	ascii	<:=w=
+2342	ascii	>1>;>@>5?<?
+2343	ascii	0'0,0B0G0p0
+2344	ascii	0:1D1I1]1p1
+2345	ascii	2(2-2s2
+2346	ascii	3 3-33393A3G3R3X3c3l3r3}3
+2347	ascii	34494t4~4
+2348	ascii	4`5e5
+2349	ascii	6'696
+2350	ascii	7&7+7V7h7{7
+2351	ascii	7%8/848L8Q8q8{8
+2352	ascii	8'9,9D9N9S9x9
+2353	ascii	:#:4:::M:_:
+2354	ascii	=:=?=\=a=~=
+2355	ascii	>?>D>z>
+2356	ascii	>C?M?R?o?
+2357	ascii	%0-020M0W0\0z0
+2358	ascii	2#2-222A2G2O2T2Z2
+2359	ascii	3%3F3K3Q3
+2360	ascii	4$4m4z4
+2361	ascii	545>5C5Y5c5h5
+2362	ascii	6/696>6V6h6
+2363	ascii	7$767
+2364	ascii	8 8=8B8a8k8p8
+2365	ascii	989>9G9M9V9`9e9}9
+2366	ascii	:0:::?:_:e:m:r:x:
+2367	ascii	;';_;i;n;
+2368	ascii	<!<&<,<O<\<l<z<
+2369	ascii	="=7=<=A=G=`=m=}=
+2370	ascii	=+>5>:>R>d>
+2371	ascii	?Z?l?
+2372	ascii	0-020R0\0a0
+2373	ascii	1"1B1L1Q1l1v1{1
+2374	ascii	2d2n2s2
+2375	ascii	3"3,313Z3_3
+2376	ascii	4(4-4I4S4X4n4z4
+2377	ascii	5m5r5
+2378	ascii	686B6G6_6q6{6
+2379	ascii	6'767>7|7
+2380	ascii	878I8;9c9
+2381	ascii	:':,:<:S:]:b:r:
+2382	ascii	;#;5;D;N;S;q;
+2383	ascii	<A<F<X<b<g<
+2384	ascii	=F=K=k=u=z=
+2385	ascii	=9>K>U>g>
+2386	ascii	0A0K0P0_0d0s0
+2387	ascii	191K1j1|1
+2388	ascii	1_2d2
+2389	ascii	3,3?3Q3j3
+2390	ascii	4A4S4d4v4
+2391	ascii	6 6K6P6X6s6}6
+2392	ascii	7V7[7c7~7
+2393	ascii	9#9B9T9
+2394	ascii	9*:4:9:Q:c:
+2395	ascii	;A;Z;d;i;
+2396	ascii	;b<g<
+2397	ascii	=B=T=c=m=r=
+2398	ascii	>O>Y>^>v>
+2399	ascii	>X?\?`?d?h?l?p?t?x?|?
+2400	ascii	0!0*030;0D0M0
+2401	ascii	1%1A1]1
+2402	ascii	1A2f2
+2403	ascii	3'31363F3O3U3_3d3
+2404	ascii	4^4k4v4
+2405	ascii	515;5@5Z5
+2406	ascii	6 6%6X6t6~6
+2407	ascii	8!8@8J8O8}8
+2408	ascii	9/9O9p9
+2409	ascii	:?:b:
+2410	ascii	;;;\;|;
+2411	ascii	<-<N<j<
+2412	ascii	=#=<=B=H=R=[=d=l=u=
+2413	ascii	>%>5>E>T>d>t>
+2414	ascii	?4?<?K?x?
+2415	ascii	O0n0
+2416	ascii	1'191A1K1P1s1
+2417	ascii	282G2T2^2c2x2
+2418	ascii	3&3A3S3r3
+2419	ascii	3%4+4A4J4g4
+2420	ascii	5L5|5
+2421	ascii	6M6W6d6l6v6{6
+2422	ascii	7=7M7r7
+2423	ascii	8S8q8
+2424	ascii	9.989=9Q9
+2425	ascii	:>:L:V:[:j:p:v:
+2426	ascii	:4;9;Z;r;|;
+2427	ascii	< <J<
+2428	ascii	= =%=Z=
+2429	ascii	>">,>1>j>
+2430	ascii	?F?P?U?
+2431	ascii	0C0`0
+2432	ascii	1N1H2
+2433	ascii	3&3@3R3
+2434	ascii	4:4S4\4v4
+2435	ascii	5+545=5D5^5p5
+2436	ascii	6$6E6N6
+2437	ascii	6l7v7{7
+2438	ascii	8/8X8d8u8z8
+2439	ascii	9:9S9Y9c9h9x9
+2440	ascii	:#:3:8:>:_:l:|:
+2441	ascii	;M;W;\;{;
+2442	ascii	;A<P<V<`<e<y<
+2443	ascii	>&>2>?>D>P>
+2444	ascii	0>0N0
+2445	ascii	1.181=1U1_1d1
+2446	ascii	2&2.232?2I2N2Z2i2u2
+2447	ascii	373]3e3j3v3
+2448	ascii	5*5?5d5y5
+2449	ascii	6!6)6/696>6O6U6`6g6m6x6
+2450	ascii	7:7^7h7m7
+2451	ascii	7(82878
+2452	ascii	8/999>9Z9z9
+2453	ascii	;Q;v;
+2454	ascii	;B<V<u<}<
+2455	ascii	=&=+=J=R=\=a=y=
+2456	ascii	>T>e>o>t>
+2457	ascii	?/?z?
+2458	ascii	0;0Z0i0v0
+2459	ascii	4!4&4]4b4h4
+2460	ascii	505:5?5R5\5a5p5
+2461	ascii	61666;6A6X6b6g6
+2462	ascii	7:7D7I7a7f7
+2463	ascii	8)8.8Q8f8p8u8
+2464	ascii	9+90959P9b9y9~9
+2465	ascii	:":':,:P:b:y:
+2466	ascii	:";4;K;];t;
+2467	ascii	<I<N<g<y<
+2468	ascii	=(=.=6=;=A=X=b=g=
+2469	ascii	>:>D>I>X>]>c>z>
+2470	ascii	?)?.?=?U?_?d?
+2471	ascii	0#0L0R0Z0_0e0|0
+2472	ascii	1/191>1Y1k1t1
+2473	ascii	232<2E2O2T2
+2474	ascii	3(32373F3^3h3m3
+2475	ascii	4!4&484=4B4_4d4i4o4
+2476	ascii	5#5(5@5E5h5r5w5
+2477	ascii	6%6*6M6W6\6
+2478	ascii	7#7;7@7E7Y7^7c7~7
+2479	ascii	8'898P8U8Z8~8
+2480	ascii	9"9'9,9P9b9y9
+2481	ascii	:.:7:E:w:|:
+2482	ascii	;&;=;B;V;\;d;i;o;
+2483	ascii	<#<(<@<E<h<r<w<
+2484	ascii	< =0=M=W=\=k=
+2485	ascii	>(>:>C>Q>z>
+2486	ascii	?:?D?I?]?g?l?
+2487	ascii	0!0B0w0
+2488	ascii	1(1Z1)2G2
+2489	ascii	2#373A3F3
+2490	ascii	4U4g4
+2491	ascii	5(5W5
+2492	ascii	6:6C6I6\6g6m6w6|6
+2493	ascii	7 7M7W7\7
+2494	ascii	8^8n8x8}8K9U9Z9z9
+2495	ascii	9':1:6:Q:V:
+2496	ascii	;!;&;^;1<F<Z<d<i<
+2497	ascii	=-=7=A=F=
+2498	ascii	= >m>~>
+2499	ascii	?I?P?Z?i?
+2500	ascii	0 0/0X0e0q0{0
+2501	ascii	1V1[1}1
+2502	ascii	2.2;2G2Q2V2t2
+2503	ascii	2&353D3S3|3
+2504	ascii	4,4'5,5L5Q5q5v5
+2505	ascii	5*676G6O6Y6^6m6
+2506	ascii	7H7R7W7k7z7
+2507	ascii	8$838B8Q8o8
+2508	ascii	9>9M9b9
+2509	ascii	:(:<:@:D:H:L:P:T:X:\:`:d:
+2510	ascii	<'<1<6<L<S<Y<a<
+2511	ascii	=%=*=B=G=L=Q=W=^=n=x=}=
+2512	ascii	>.>3>[>b>h>p>u>
+2513	ascii	>9?\?a?f?k?p?u?z?
+2514	ascii	1'1/141F1P1U1g1
+2515	ascii	1!232H2y2
+2516	ascii	3(383i3
+2517	ascii	444i4
+2518	ascii	6R6\6a6w6
+2519	ascii	6X7u7
+2520	ascii	8/8@8]8
+2521	ascii	8W9r9|9
+2522	ascii	9-:@;J;O;b;n;x;};
+2523	ascii	</<L<h<r<w<
+2524	ascii	="=*=:=?=G=Y=c=h=}=
+2525	ascii	=8>B>G>h>r>w>
+2526	ascii	?+?5?:?d?y?
+2527	ascii	030=0g0y0
+2528	ascii	1+191K1S1_1q1{1
+2529	ascii	2+252:2d2
+2530	ascii	363U3g3o3{3
+2531	ascii	4A4F4K4]4g4l4
+2532	ascii	467@7E7b7g7
+2533	ascii	8#8(878M8c8y8
+2534	ascii	959^9c9
+2535	ascii	:+:0:S:]:b:
+2536	ascii	;';,;O;i;n;
+2537	ascii	</<9<><~<
+2538	ascii	=%=*=;=A=O=Y=^=o=y=~=
+2539	ascii	=<>F>K>j>o>{>
+2540	ascii	?%?*?/?A?S?m?y?
+2541	ascii	0'0?0W0o0
+2542	ascii	1"101:1?1P1Z1_1z1
+2543	ascii	2'2,2K2P2\2~2
+2544	ascii	373<3A3S3e3
+2545	ascii	4!4=4Y4c4h4y4
+2546	ascii	595z5
+2547	ascii	6;6E6J6c6h6m6
+2548	ascii	777A7F7W7]7k7u7z7
+2549	ascii	8'81868G8Q8V8u8
+2550	ascii	9!9&9H9M9R9W9y9
+2551	ascii	:&:+:::I:h:
+2552	ascii	;#;H;M;p;z;
+2553	ascii	<-<2<U<_<d<
+2554	ascii	=G=Q=V=e=
+2555	ascii	>.>4>B>L>Q>b>l>q>
+2556	ascii	?&?+?7?Y?g?l?q?
+2557	ascii	03080=0B0d0m0r0
+2558	ascii	1-1<1[1}1
+2559	ascii	2$242>2C2T2Z2h2r2w2
+2560	ascii	3$3.333D3N3S3n3t3
+2561	ascii	464;4D4f4k4w4
+2562	ascii	5)5.5?5I5N5m5
+2563	ascii	6<6F6K6d6i6n6
+2564	ascii	7&70757N7j7
+2565	ascii	8"8'888B8G8f8k8w8
+2566	ascii	9/9=9B9G9l9x9
+2567	ascii	:::C:H:i:s:x:
+2568	ascii	;);I;e;o;t;
+2569	ascii	<!<&<A<G<U<_<d<u<
+2570	ascii	=4=9=E=g=l=u=
+2571	ascii	>5><>B>P>Z>_>p>z>
+2572	ascii	?>?G?L?m?w?|?
+2573	ascii	0-0+1:1Y1
+2574	ascii	2"2=2G2L2[2e2j2
+2575	ascii	3!3+303I3S3X3{3
+2576	ascii	4%4*4?4I4N4
+2577	ascii	5!5=5N5X5]5v5
+2578	ascii	6)6.6I6S6X6}6
+2579	ascii	7#7<7F7K7n7
+2580	ascii	8.888=8{8
+2581	ascii	8#949>9C9X9b9g9
+2582	ascii	9#:4:>:C:X:b:g:
+2583	ascii	<Y<q<
+2584	ascii	=(=9=C=H=a=p=z=
+2585	ascii	>3>N>b>y>
+2586	ascii	?'?,?A?G?d?|?
+2587	ascii	0%0-070<0
+2588	ascii	1+151:1K1U1Z1
+2589	ascii	2!202=2G2L2
+2590	ascii	3:3J3T3Y3
+2591	ascii	3I4i4u4
+2592	ascii	5(5-5t5
+2593	ascii	616;6@6b6t6~6
+2594	ascii	7#7(787U7y7
+2595	ascii	8?8X8|8
+2596	ascii	:4:>:C:z:
+2597	ascii	;);B;x;~;
+2598	ascii	<!<&<l<q<
+2599	ascii	<.=>=H=M=
+2600	ascii	>9>>>P>_>i>n>
+2601	ascii	101A1T1Y1_1
+2602	ascii	1b2t2
+2603	ascii	3(3-3?4S4]4b4
+2604	ascii	6=6G6L6
+2605	ascii	6/797>7
+2606	ascii	7'878A8F8
+2607	ascii	9*969@9J9O9o9y9~9
+2608	ascii	:(:-:F:n:
+2609	ascii	;$;Z;
+2610	ascii	<*<?<L<V<[<
+2611	ascii	=P=U=Z=
+2612	ascii	>3>=>B>S>]>b>
+2613	ascii	?V?[?t?
+2614	ascii	090C0H0W0\0a0z0
+2615	ascii	2+252:2O2[2m2
+2616	ascii	3#3r3|3
+2617	ascii	4(434C4O4U4Z4d4i4
+2618	ascii	5"5,515U5]5k5p5z5
+2619	ascii	676G6Q6V6
+2620	ascii	6:7J7T7Y7
+2621	ascii	7K8U8Z8
+2622	ascii	9%9*9]9l9r9|9
+2623	ascii	: :Z:j:t:y:
+2624	ascii	:*;<;`;
+2625	ascii	>$>6>B>H>T>Y>c>h>
+2626	ascii	?$?6?E?O?T?j?
+2627	ascii	*0:0D0I0
+2628	ascii	1$1)1L1V1[1v1{1
+2629	ascii	2J2T2Y2
+2630	ascii	3M3s3
+2631	ascii	4*44494
+2632	ascii	5*5?5I5N5f5k5
+2633	ascii	6$6)6
+2634	ascii	7W7g7q7v7
+2635	ascii	858N8X8d8j8s8
+2636	ascii	9)9/9:9D9I9e9v9
+2637	ascii	9+:1:6:C:I:Z:e:o:t:
+2638	ascii	:*;4;:;N;X;];m;s;};
+2639	ascii	< <-<2<7<D<I<N<[<`<f<o<x<
+2640	ascii	="=9=C=P=\=f=k=
+2641	ascii	>">(>4>:>F>L>
+2642	ascii	?=?G?L?
+2643	ascii	0)03080
+2644	ascii	1D1N1S1s1
+2645	ascii	2+252:2Y2p2z2
+2646	ascii	3!383B3G3
+2647	ascii	4t4z4
+2648	ascii	465E5
+2649	ascii	7f9u9
+2650	ascii	f5y5?6T869E98:>:
+2651	ascii	9V:i:
+2652	ascii	<O=v=
+2653	ascii	0a1F2Y2
+2654	ascii	>">(>.>4>:>@>F>L>R>X>^>d>j>p>v>|>
+2655	ascii	?$?*?0?6?<?B?H?N?T?Z?`?f?l?r?x?~?
+2656	ascii	0 0&0,02080>0D0J0P0V0\0l0
+2657	ascii	2$2,2C2
+2658	ascii	3V3\3b3h3n3t3z3
+2659	ascii	6 6&6,62686>6D6J6P6V6\6b6h6t6~6
+2660	ascii	7 7*7=7G7L7Q7s7x7
+2661	ascii	878b8j8s8y8
+2662	ascii	9(9.979=9B9G9L9S9Y9k9s9y9
+2663	ascii	:!:*:/:5:?:H:S:_:d:t:y:
+2664	ascii	;&;+;u;{;
+2665	ascii	<N=T=Z=
+2666	ascii	>D>L>X>^>d>j>p>v>|>
+2667	ascii	0 0g0
+2668	ascii	0&1S1]1
+2669	ascii	2:2j2
+2670	ascii	3:3b3
+2671	ascii	3'4b4
+2672	ascii	4*5h5
+2673	ascii	626Z6
+2674	ascii	6#7B7b7
+2675	ascii	8C8j8
+2676	ascii	9+9D9I9U9_9t9y9
+2677	ascii	:$:0:D:T:
+2678	ascii	p4t4x4|4
+2679	ascii	\2`2d2
+2680	ascii	1$1,141<1L1\1h1
+2681	ascii	t0x0|0
+2682	ascii	1 1T3X3
+2683	ascii	4$4(4@4P4T4h4l4|4
+2684	ascii	6$6D6L6T6`6
+2685	ascii	7 7@7L7l7x7
+2686	ascii	8$848`8h8
+2687	ascii	9(949T9`9
+2688	ascii	:0:<:l:p:x:
+2689	ascii	;0;<;\;h;
+2690	ascii	<(<P<t<
+2691	ascii	=<=D=h=|=
+2692	ascii	>4>@>h>
+2693	ascii	?<?H?P?h?t?
+2694	ascii	0$0D0P0p0|0
+2695	ascii	1(1H1h1
+2696	ascii	1$1H3L3P3T3X3\3d3h3l3P7T7X7\7`7d7h7l7t7
+2697	ascii	N0L0
+2698	ascii	#F$o
+2699	ascii	DigiCert Inc1
+2700	ascii	www.digicert.com1!0
+2701	ascii	DigiCert Trusted Root G40
+2702	ascii	210429000000Z
+2703	ascii	360428235959Z0i1
+2704	ascii	DigiCert, Inc.1A0?
+2705	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+2706	ascii	>Mp$d
+2707	ascii	}4}L
+2708	ascii	!xE.
+2709	ascii	IpB2
+2710	ascii	6*f(_
+2711	ascii	[K]taM?
+2712	ascii	m&vh
+2713	ascii	J>@G_
+2714	ascii	#!Y`
+2715	ascii	x8E0
+2716	ascii	SA|X=G
+2717	ascii	q]dL
+2718	ascii	k0i0$
+2719	ascii	http://ocsp.digicert.com0A
+2720	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2721	ascii	<0:08
+2722	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2723	ascii	:#D=
+2724	ascii	:]Hm
+2725	ascii	v~7q
+2726	ascii	!usR
+2727	ascii	ov7,
+2728	ascii	/"lA
+2729	ascii	jj@0HK4
+2730	ascii	VxN0
+2731	ascii	241111000000Z
+2732	ascii	251110235959Z0
+2733	ascii	CN1#0!
+2734	ascii	Guangdong Province1
+2735	ascii	Shenzhen1
+2736	ascii	Private Organization1
+2737	ascii	9144030027939873X71
+2738	ascii	ZTE CORPORATION1
+2739	ascii	ZTE CORPORATION0
+2740	ascii	3KB/_
+2741	ascii	4c<b
+2742	ascii	bCQY
+2743	ascii	2gx}w
+2744	ascii	Bm]JG)OF
+2745	ascii	8{:2_hF
+2746	ascii	H}If[
+2747	ascii	!Oa?
+2748	ascii	?66]
+2749	ascii	:.fs
+2750	ascii	60402
+2751	ascii	0)0'
+2752	ascii	http://www.digicert.com/CPS0
+2753	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+2754	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+2755	ascii	http://ocsp.digicert.com0\
+2756	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+2757	ascii	C%,d
+2758	ascii	_+*2
+2759	ascii	ye>ga
+2760	ascii	ZpQeg
+2761	ascii	XTB2z
+2762	ascii	>,Z,
+2763	ascii	C5/u
+2764	ascii	0}0i1
+2765	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+2766	ascii	:dkrM%
+2767	ascii	s-wX/q
+2768	ascii	::?H
+2769	ascii	cFNa
+2770	ascii	{zyJ
+2771	ascii	j6*d
+2772	ascii	GD!<D
+2773	ascii	#Tb+
+2774	ascii	qWJ/
+2775	ascii	Q-0D
+2776	ascii	20250708015608Z
+2777	ascii	DigiCert, Inc.1;09
+2778	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2779	ascii	240926000000Z
+2780	ascii	351125235959Z0B1
+2781	ascii	DigiCert1 0
+2782	ascii	DigiCert Timestamp 20240
+2783	ascii	ymIXa+
+2784	ascii	GW3K;
+2785	ascii	o~R}a
+2786	ascii	z9XxGT
+2787	ascii	<Jisu
+2788	ascii	jSDx
+2789	ascii	7!5B
+2790	ascii	/s)v
+2791	ascii	S0Q0O
+2792	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+2793	ascii	http://ocsp.digicert.com0X
+2794	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+2795	ascii	Mm*V;
+2796	ascii	Z +J
+2797	ascii	MzE @t
+2798	ascii	5dz?g
+2799	ascii	(f*^[0
+2800	ascii	220323000000Z
+2801	ascii	370322235959Z0c1
+2802	ascii	=rIQU
+2803	ascii	|jWz
+2804	ascii	!hn7!
+2805	ascii	{un'%
+2806	ascii	+Xt@(
+2807	ascii	u($A
+2808	ascii	fIRP
+2809	ascii	,W5y+
+2810	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2811	ascii	 %41g
+2812	ascii	i?Gw
+2813	ascii	',=?k
+2814	ascii	Axz8
+2815	ascii	www.digicert.com1$0"
+2816	ascii	DigiCert Assured ID Root CA0
+2817	ascii	220801000000Z
+2818	ascii	311109235959Z0b1
+2819	ascii	]J<0"0i3
+2820	ascii	t;mq
+2821	ascii	u]xf
+2822	ascii	v=Y]Bv
+2823	ascii	p,A`
+2824	ascii	RQGt
+2825	ascii	|Lu?c
+2826	ascii	 Qko
+2827	ascii	m0k0$
+2828	ascii	http://ocsp.digicert.com0C
+2829	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+2830	ascii	>0<0:
+2831	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+2832	ascii	Jz/-
+2833	ascii	5FjiT
+2834	ascii	wZ\T
+2835	ascii	~qj#k"
+2836	ascii	T-'~
+2837	ascii	0w0c1
+2838	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2839	ascii	250708015608Z0+
+2840	ascii	[E0/
+2841	ascii	/1(0&0$0"
+2842	ascii	[L+R
+2843	ascii	Wk,T
+2844	ascii	W%y5'-!
+2845	ascii	yW_:
+2846	ascii	=Kqt
+2847	ascii	e:_5
+2848	utf16le	jjjjjjj
+2849	utf16le	jjjjj
+2850	utf16le	jjjj
+2851	utf16le	jjjjjj
+2852	utf16le	jjjjjh
+2853	utf16le	SELECT * FROM Win32_Volume where DriveLetter='%c:'
+2854	utf16le	DriveLetter
+2855	utf16le	SELECT SerialNumber FROM Win32_DiskDrive where Index=%u
+2856	utf16le	SerialNumber
+2857	utf16le	ROOT\CIMV2

@@ -1,0 +1,1107 @@
+﻿========== OFFICIAL CLIENT BEHAVIOR MONITOR ==========
+START: 2026-08-24 00:02:11.932
+DURATION: 180 sec
+
+========== EVENTS ==========
+00:02:13.945 IO IceTunnel.exe PID=1496 READ+0 WRITE+180 OTHER+16235
+00:02:13.945 IO IceDisplay.exe PID=1520 READ+0 WRITE+822 OTHER+16864
+00:02:13.945 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:13.945 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:13.945 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:13.945 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:13.945 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:13.945 LOG_GROW 1481 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:13.945 LOG_GROW 1392 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:13.945 LOG_GROW 540 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:13.945 LOG_GROW 2700 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:15.211 IO IceTunnel.exe PID=1496 READ+0 WRITE+138 OTHER+12514
+00:02:15.211 LOG_GROW 138 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:15.211 LOG_GROW 830 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:16.305 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+13364
+00:02:16.305 LOG_GROW 665 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:17.401 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+13447
+00:02:17.401 LOG_GROW 595 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:18.492 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+12615
+00:02:18.492 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:19.586 IO IceTunnel.exe PID=1496 READ+0 WRITE+223 OTHER+4435
+00:02:19.586 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:19.586 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:19.586 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:19.586 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:19.586 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:19.586 LOG_GROW 223 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:19.586 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:20.821 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:21.916 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:23.010 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:24.103 LOG_GROW 87 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:24.103 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:25.197 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:25.197 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:25.197 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:25.197 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:25.197 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:25.197 LOG_GROW 129 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:25.197 LOG_GROW 156 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:26.441 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+15135
+00:02:26.441 IO IceDisplay.exe PID=1520 READ+0 WRITE+0 OTHER+10272
+00:02:26.441 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+5632
+00:02:27.529 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+15169
+00:02:27.529 IO IceDisplay.exe PID=1520 READ+0 WRITE+157 OTHER+4656
+00:02:27.529 IO VmQoEAgent.exe PID=3068 READ+100 WRITE+276 OTHER+9418
+00:02:27.529 LOG_GROW 276 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:27.529 LOG_GROW 157 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:28.627 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+13637
+00:02:28.627 IO VmQoEAgent.exe PID=3068 READ+172 WRITE+32 OTHER+11352
+00:02:28.627 LOG_GROW 91 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:28.627 LOG_GROW 752 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:29.728 IO IceTunnel.exe PID=1496 READ+0 WRITE+224 OTHER+13540
+00:02:29.728 IO VmQoEAgent.exe PID=3068 READ+54 WRITE+604 OTHER+4024
+00:02:29.728 LOG_GROW 604 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:29.728 LOG_GROW 133 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:29.728 LOG_GROW 157 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:30.823 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:30.823 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:30.823 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:30.823 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:30.823 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:30.823 LOG_GROW 95 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:30.823 LOG_GROW 157 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:32.064 IO IceTunnel.exe PID=1496 READ+0 WRITE+6157 OTHER+2469
+00:02:32.064 IO IceDisplay.exe PID=1520 READ+5998 WRITE+9063 OTHER+18496
+00:02:32.064 IO IceSound.exe PID=1536 READ+90240 WRITE+6752 OTHER+400
+00:02:32.064 IO Vdagent.exe PID=10112 READ+487 WRITE+4063 OTHER+1732
+00:02:32.064 LOG_GROW 362 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc_guard.log
+00:02:32.064 LOG_GROW 520 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:32.064 LOG_GROW 4061 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:32.064 LOG_GROW 183 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:02:32.064 LOG_GROW 954 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:02:32.064 LOG_GROW 2064 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:32.064 LOG_GROW 1836 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:02:32.064 LOG_GROW 6157 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:32.064 LOG_GROW 2056 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:02:32.064 LOG_GROW 355 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:02:32.064 LOG_GROW 8249 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:33.164 IO IceDisplay.exe PID=1520 READ+0 WRITE+9522 OTHER+1766
+00:02:33.164 IO IceSound.exe PID=1536 READ+145920 WRITE+8102 OTHER+96
+00:02:33.164 LOG_GROW 816 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:33.164 LOG_GROW 9312 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:34.260 LOG_GROW 581 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:02:34.260 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:35.354 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+3428 OTHER+5829
+00:02:35.354 LOG_GROW 3289 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:35.354 LOG_GROW 139 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:02:35.354 LOG_GROW 455 bytes  C:\Program Files (x86)\ZTEGuestOS\log\PrinterSetup.log
+00:02:35.354 LOG_GROW 1367 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:35.354 LOG_GROW 281 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:02:35.354 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:02:35.354 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:36.457 IO IceTunnel.exe PID=1496 READ+0 WRITE+8315 OTHER+7963
+00:02:36.457 IO IceDisplay.exe PID=1520 READ+8954 WRITE+47903 OTHER+24280
+00:02:36.457 IO VmQoEAgent.exe PID=3068 READ+20 WRITE+5176 OTHER+9262
+00:02:36.457 IO Vdagent.exe PID=10112 READ+9680 WRITE+25640 OTHER+16334
+00:02:36.457 NET IceTunnel.exe PID=1496 ESTABLISHED=6 EXTERNAL=4
+00:02:36.457 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:36.457 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:36.457 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:36.457 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:36.457 LOG_GROW 2884 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display_setting.log
+00:02:36.457 LOG_GROW 4159 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:36.457 LOG_GROW 24750 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:36.457 LOG_GROW 3549 bytes  C:\Program Files (x86)\ZTEGuestOS\log\approming.log
+00:02:36.457 LOG_GROW 1017 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:02:36.457 LOG_GROW 453 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:02:36.457 LOG_GROW 1494 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:36.457 LOG_GROW 1164 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:02:36.457 LOG_GROW 8315 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:36.457 LOG_GROW 1625 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:02:36.457 LOG_GROW 51462 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:37.696 IO IceTunnel.exe PID=1496 READ+0 WRITE+16440 OTHER+16838
+00:02:37.696 IO IceDisplay.exe PID=1520 READ+0 WRITE+4071 OTHER+2592
+00:02:37.696 IO IceSound.exe PID=1536 READ+40128 WRITE+845 OTHER+208
+00:02:37.696 IO VmQoEAgent.exe PID=3068 READ+6 WRITE+908 OTHER+12528
+00:02:37.696 LOG_GROW 362 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc_guard.log
+00:02:37.696 LOG_GROW 420 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:37.696 LOG_GROW 1070 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:37.696 LOG_GROW 210 bytes  C:\Program Files (x86)\ZTEGuestOS\log\approming.log
+00:02:37.696 LOG_GROW 488 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:02:37.696 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:02:37.696 LOG_GROW 821 bytes  C:\Program Files (x86)\ZTEGuestOS\log\PrinterSetup.log
+00:02:37.696 LOG_GROW 837 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:02:37.696 LOG_GROW 16440 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:37.696 LOG_GROW 8649 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:02:37.696 LOG_GROW 1386 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:02:37.696 LOG_GROW 512 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:38.792 IO IceTunnel.exe PID=1496 READ+0 WRITE+438 OTHER+18636
+00:02:38.792 IO IceDisplay.exe PID=1520 READ+0 WRITE+105912 OTHER+18352
+00:02:38.792 IO IceSound.exe PID=1536 READ+209472 WRITE+0 OTHER+80
+00:02:38.792 IO VmQoEAgent.exe PID=3068 READ+8 WRITE+1444 OTHER+12738
+00:02:38.792 IO Vdagent.exe PID=10112 READ+1373 WRITE+12790 OTHER+5216
+00:02:38.792 IO IceInput.exe PID=1912 READ+0 WRITE+7111 OTHER+2410
+00:02:38.792 LOG_GROW 673 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:02:38.792 LOG_GROW 12662 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:38.792 LOG_GROW 195 bytes  C:\Program Files (x86)\ZTEGuestOS\log\approming.log
+00:02:38.792 LOG_GROW 771 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:02:38.792 LOG_GROW 588 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_vgpu_capture.log
+00:02:38.792 LOG_GROW 7111 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:38.792 LOG_GROW 438 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:38.792 LOG_GROW 109937 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:39.906 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+12309
+00:02:39.906 IO IceDisplay.exe PID=1520 READ+0 WRITE+11911 OTHER+6864
+00:02:39.906 IO IceSound.exe PID=1536 READ+78720 WRITE+559 OTHER+160
+00:02:39.906 LOG_GROW 828 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:39.906 LOG_GROW 551 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:02:39.906 LOG_GROW 7886 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:41.006 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+16273
+00:02:41.006 IO IceDisplay.exe PID=1520 READ+0 WRITE+412 OTHER+9920
+00:02:41.006 IO IceInput.exe PID=1912 READ+0 WRITE+165 OTHER+4848
+00:02:41.006 LOG_GROW 124 bytes  C:\Program Files (x86)\ZTEGuestOS\log\PrinterSetup.log
+00:02:41.006 LOG_GROW 165 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:41.006 LOG_GROW 412 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:42.113 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+16722
+00:02:42.113 IO IceDisplay.exe PID=1520 READ+0 WRITE+415 OTHER+6960
+00:02:42.113 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:42.113 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:42.113 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:42.113 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:42.113 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:42.113 LOG_GROW 124 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:42.113 LOG_GROW 878 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:42.113 LOG_GROW 415 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:43.394 IO IceTunnel.exe PID=1496 READ+0 WRITE+132 OTHER+19977
+00:02:43.394 IO IceDisplay.exe PID=1520 READ+0 WRITE+411 OTHER+10048
+00:02:43.394 IO IceInput.exe PID=1912 READ+0 WRITE+412 OTHER+5424
+00:02:43.394 LOG_GROW 249 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:43.394 LOG_GROW 132 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:43.394 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:44.498 IO IceTunnel.exe PID=1496 READ+0 WRITE+93 OTHER+23894
+00:02:44.498 IO IceDisplay.exe PID=1520 READ+876 WRITE+410 OTHER+11776
+00:02:44.498 IO IceInput.exe PID=1912 READ+0 WRITE+224 OTHER+7024
+00:02:44.498 LOG_GROW 224 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:44.498 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:44.498 LOG_GROW 410 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:45.597 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+13069
+00:02:45.597 IO IceDisplay.exe PID=1520 READ+0 WRITE+832 OTHER+6352
+00:02:45.597 IO Vdagent.exe PID=10112 READ+28 WRITE+28 OTHER+4064
+00:02:45.597 LOG_GROW 305 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:45.597 LOG_GROW 832 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:46.701 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+15305
+00:02:46.701 IO IceDisplay.exe PID=1520 READ+0 WRITE+158 OTHER+8912
+00:02:46.701 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+4640
+00:02:46.701 LOG_GROW 158 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:47.793 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+13474
+00:02:47.793 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:47.793 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:47.793 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:47.793 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:47.793 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:47.793 LOG_GROW 892 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:47.793 LOG_GROW 134 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:47.793 LOG_GROW 156 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:49.051 IO IceTunnel.exe PID=1496 READ+0 WRITE+227 OTHER+21319
+00:02:49.051 IO IceDisplay.exe PID=1520 READ+0 WRITE+312 OTHER+6832
+00:02:49.051 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:49.051 LOG_GROW 156 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:50.143 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+18121
+00:02:50.143 IO IceDisplay.exe PID=1520 READ+0 WRITE+411 OTHER+10448
+00:02:50.143 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+5488
+00:02:50.143 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:51.248 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+11602
+00:02:51.248 LOG_GROW 156 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:52.346 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+22205
+00:02:52.346 IO IceDisplay.exe PID=1520 READ+0 WRITE+411 OTHER+9792
+00:02:52.346 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+5584
+00:02:52.346 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:53.441 IO IceTunnel.exe PID=1496 READ+0 WRITE+131 OTHER+28304
+00:02:53.441 IO IceDisplay.exe PID=1520 READ+0 WRITE+156 OTHER+11104
+00:02:53.441 IO IceInput.exe PID=1912 READ+0 WRITE+327 OTHER+6960
+00:02:53.441 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:53.441 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:53.441 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:53.441 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:53.441 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:53.441 LOG_GROW 127 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:02:53.441 LOG_GROW 327 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:53.441 LOG_GROW 131 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:53.441 LOG_GROW 365 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:54.724 IO IceTunnel.exe PID=1496 READ+0 WRITE+93 OTHER+29042
+00:02:54.724 IO IceDisplay.exe PID=1520 READ+876 WRITE+620 OTHER+10288
+00:02:54.724 IO IceInput.exe PID=1912 READ+0 WRITE+327 OTHER+6368
+00:02:54.724 LOG_GROW 327 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:54.724 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:54.724 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:55.825 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+18221
+00:02:55.825 IO IceDisplay.exe PID=1520 READ+0 WRITE+417 OTHER+7008
+00:02:55.825 LOG_GROW 417 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:56.930 IO IceTunnel.exe PID=1496 READ+0 WRITE+102 OTHER+18107
+00:02:56.930 IO IceDisplay.exe PID=1520 READ+0 WRITE+417 OTHER+5344
+00:02:56.930 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:56.930 LOG_GROW 102 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:56.930 LOG_GROW 417 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:58.030 IO IceTunnel.exe PID=1496 READ+0 WRITE+133 OTHER+16303
+00:02:58.030 IO IceDisplay.exe PID=1520 READ+0 WRITE+414 OTHER+4512
+00:02:58.030 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:58.030 LOG_GROW 133 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:58.030 LOG_GROW 829 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:02:59.138 IO IceTunnel.exe PID=1496 READ+0 WRITE+93 OTHER+16174
+00:02:59.138 IO IceDisplay.exe PID=1520 READ+0 WRITE+826 OTHER+6640
+00:02:59.138 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:02:59.138 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:02:59.138 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:02:59.138 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:02:59.138 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:02:59.138 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:02:59.138 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:02:59.138 LOG_GROW 411 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:00.417 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+20790
+00:03:00.417 LOG_GROW 126 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:00.417 LOG_GROW 159 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:01.509 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+17926
+00:03:01.509 IO IceDisplay.exe PID=1520 READ+0 WRITE+409 OTHER+7312
+00:03:01.509 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:01.509 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:02.607 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+21192
+00:03:02.607 IO IceDisplay.exe PID=1520 READ+0 WRITE+0 OTHER+8064
+00:03:02.607 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+4240
+00:03:03.702 IO IceTunnel.exe PID=1496 READ+0 WRITE+133 OTHER+32418
+00:03:03.702 IO IceDisplay.exe PID=1520 READ+0 WRITE+158 OTHER+15632
+00:03:03.702 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+10112
+00:03:03.702 LOG_GROW 226 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:03.702 LOG_GROW 158 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:04.799 IO IceTunnel.exe PID=1496 READ+0 WRITE+93 OTHER+19626
+00:03:04.799 IO IceDisplay.exe PID=1520 READ+876 WRITE+615 OTHER+13120
+00:03:04.799 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+7696
+00:03:04.799 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:04.799 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:04.799 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:04.799 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:04.799 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:04.799 LOG_GROW 615 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:06.058 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+19388
+00:03:06.058 IO IceDisplay.exe PID=1520 READ+0 WRITE+411 OTHER+7408
+00:03:06.058 IO Vdagent.exe PID=10112 READ+0 WRITE+116 OTHER+4366
+00:03:06.058 LOG_GROW 826 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:07.153 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+22814
+00:03:07.153 IO IceDisplay.exe PID=1520 READ+0 WRITE+824 OTHER+13504
+00:03:07.153 IO IceInput.exe PID=1912 READ+0 WRITE+164 OTHER+7664
+00:03:07.153 LOG_GROW 164 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:07.153 LOG_GROW 409 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:08.253 IO IceTunnel.exe PID=1496 READ+0 WRITE+133 OTHER+17630
+00:03:08.253 IO IceDisplay.exe PID=1520 READ+0 WRITE+810 OTHER+6384
+00:03:08.253 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:03:08.253 LOG_GROW 932 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:08.253 LOG_GROW 133 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:08.253 LOG_GROW 1386 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:08.253 LOG_GROW 810 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:09.347 IO IceTunnel.exe PID=1496 READ+0 WRITE+93 OTHER+20319
+00:03:09.347 IO IceDisplay.exe PID=1520 READ+0 WRITE+159 OTHER+8528
+00:03:09.347 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+4608
+00:03:09.347 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:09.347 LOG_GROW 159 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:10.451 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+17704
+00:03:10.451 IO IceDisplay.exe PID=1520 READ+0 WRITE+159 OTHER+6368
+00:03:10.451 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:10.451 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:10.451 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:10.451 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:10.451 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:10.451 LOG_GROW 159 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:11.706 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+19943
+00:03:11.706 IO IceDisplay.exe PID=1520 READ+0 WRITE+159 OTHER+9424
+00:03:11.706 IO IceInput.exe PID=1912 READ+0 WRITE+984 OTHER+4656
+00:03:11.706 LOG_GROW 1148 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:11.706 LOG_GROW 159 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:12.800 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+18557
+00:03:12.800 IO IceDisplay.exe PID=1520 READ+0 WRITE+878 OTHER+23152
+00:03:12.800 IO IceInput.exe PID=1912 READ+0 WRITE+2950 OTHER+4992
+00:03:12.800 LOG_GROW 127 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:12.800 LOG_GROW 2786 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:12.800 LOG_GROW 133 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:12.800 LOG_GROW 878 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:13.902 IO IceTunnel.exe PID=1496 READ+0 WRITE+226 OTHER+33642
+00:03:13.902 IO IceDisplay.exe PID=1520 READ+0 WRITE+158 OTHER+15040
+00:03:13.902 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+9552
+00:03:13.902 LOG_GROW 127 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:13.902 LOG_GROW 93 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:13.902 LOG_GROW 158 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:14.993 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+25084
+00:03:14.993 IO IceDisplay.exe PID=1520 READ+876 WRITE+159 OTHER+8160
+00:03:14.993 IO IceInput.exe PID=1912 READ+0 WRITE+0 OTHER+4992
+00:03:14.993 LOG_GROW 159 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:16.100 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+20081
+00:03:16.100 IO IceDisplay.exe PID=1520 READ+0 WRITE+1094 OTHER+5922
+00:03:16.100 IO Vdagent.exe PID=10112 READ+0 WRITE+990 OTHER+12304
+00:03:16.100 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:16.100 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:16.100 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:16.100 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:16.100 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:16.100 LOG_GROW 934 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:16.100 LOG_GROW 1417 bytes  C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log
+00:03:16.100 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:16.100 LOG_GROW 1094 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:17.494 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+18899
+00:03:17.494 IO IceDisplay.exe PID=1520 READ+0 WRITE+738 OTHER+3856
+00:03:17.494 LOG_GROW 127 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:17.494 LOG_GROW 882 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:18.612 IO IceTunnel.exe PID=1496 READ+0 WRITE+135 OTHER+11383
+00:03:18.612 IO IceDisplay.exe PID=1520 READ+0 WRITE+1440 OTHER+2720
+00:03:18.612 LOG_GROW 135 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:18.612 LOG_GROW 1296 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:19.715 IO IceTunnel.exe PID=1496 READ+0 WRITE+92 OTHER+13874
+00:03:19.715 IO IceDisplay.exe PID=1520 READ+0 WRITE+864 OTHER+6048
+00:03:19.715 IO Vdagent.exe PID=10112 READ+0 WRITE+990 OTHER+8256
+00:03:19.715 LOG_GROW 934 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:19.715 LOG_GROW 1420 bytes  C:\Program Files (x86)\ZTEGuestOS\log\AdAs.log
+00:03:19.715 LOG_GROW 488 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:19.715 LOG_GROW 92 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:19.715 LOG_GROW 864 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:20.824 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+8846
+00:03:20.824 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+280 OTHER+4208
+00:03:20.824 IO Vdagent.exe PID=10112 READ+225 WRITE+265 OTHER+5680
+00:03:20.824 LOG_GROW 125 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:20.824 LOG_GROW 140 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:20.824 LOG_GROW 155 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:03:20.824 LOG_GROW 326 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:20.824 LOG_GROW 594 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:21.950 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+8064
+00:03:21.950 IO IceDisplay.exe PID=1520 READ+0 WRITE+2041 OTHER+4560
+00:03:21.950 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:21.950 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:21.950 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:21.950 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:21.950 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:21.950 LOG_GROW 2905 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:23.331 IO IceTunnel.exe PID=1496 READ+0 WRITE+131 OTHER+15397
+00:03:23.331 IO IceDisplay.exe PID=1520 READ+0 WRITE+2898 OTHER+8128
+00:03:23.331 LOG_GROW 163 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:23.331 LOG_GROW 131 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:23.331 LOG_GROW 2034 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:24.434 IO IceTunnel.exe PID=1496 READ+0 WRITE+88 OTHER+8994
+00:03:24.434 IO IceDisplay.exe PID=1520 READ+876 WRITE+734 OTHER+2608
+00:03:24.434 LOG_GROW 88 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:24.434 LOG_GROW 878 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:25.541 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+7043
+00:03:25.541 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:25.541 LOG_GROW 1872 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:26.638 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+8408
+00:03:26.638 LOG_GROW 885 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:27.759 IO IceTunnel.exe PID=1496 READ+0 WRITE+91 OTHER+4730
+00:03:27.759 IO VmQoEAgent.exe PID=3068 READ+100 WRITE+373 OTHER+22058
+00:03:27.759 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:27.759 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:27.759 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:27.759 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:27.759 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:27.759 LOG_GROW 373 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:27.759 LOG_GROW 91 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:27.759 LOG_GROW 1609 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:29.134 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+7574
+00:03:29.134 IO VmQoEAgent.exe PID=3068 READ+266 WRITE+761 OTHER+15760
+00:03:29.134 LOG_GROW 613 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:29.134 LOG_GROW 1757 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:30.233 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+4618
+00:03:30.233 LOG_GROW 304 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:31.337 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:31.337 LOG_GROW 95 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:31.337 LOG_GROW 1740 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:32.436 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+6016
+00:03:32.436 LOG_GROW 1322 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:33.538 NET IceTunnel.exe PID=1496 ESTABLISHED=9 EXTERNAL=4
+00:03:33.538 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:33.538 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:33.538 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:33.538 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:33.538 LOG_GROW 1029 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:34.913 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+5165
+00:03:34.913 IO IceDisplay.exe PID=1520 READ+876 WRITE+2030 OTHER+2000
+00:03:34.913 LOG_GROW 1740 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:36.023 IO IceTunnel.exe PID=1496 READ+0 WRITE+0 OTHER+4177
+00:03:36.023 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:36.023 LOG_GROW 597 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:37.136 IO IceDisplay.exe PID=1520 READ+0 WRITE+3845 OTHER+1664
+00:03:37.136 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1669
+00:03:37.136 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:37.136 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:37.136 LOG_GROW 2966 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:38.243 IO IceDisplay.exe PID=1520 READ+0 WRITE+7381 OTHER+1872
+00:03:38.243 IO MswitchWin.exe PID=4016 READ+216 WRITE+8523 OTHER+516
+00:03:38.243 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:03:38.243 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:38.243 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:03:38.243 LOG_GROW 4644 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:38.243 LOG_GROW 5333 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:39.336 IO IceTunnel.exe PID=1496 READ+0 WRITE+2735 OTHER+1680
+00:03:39.336 IO IceDisplay.exe PID=1520 READ+0 WRITE+2671 OTHER+1456
+00:03:39.336 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+3428 OTHER+5829
+00:03:39.336 NET IceTunnel.exe PID=1496 ESTABLISHED=5 EXTERNAL=2
+00:03:39.336 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:39.336 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:39.336 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:39.336 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:39.336 LOG_GROW 6453 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:39.336 LOG_GROW 139 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:03:39.336 LOG_GROW 459 bytes  C:\Program Files (x86)\ZTEGuestOS\log\PrinterSetup.log
+00:03:39.336 LOG_GROW 486 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:03:39.336 LOG_GROW 4102 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:39.336 LOG_GROW 973 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:03:39.336 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:39.336 LOG_GROW 3598 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:40.721 IO IceTunnel.exe PID=1496 READ+0 WRITE+2734 OTHER+1968
+00:03:40.721 IO IceDisplay.exe PID=1520 READ+0 WRITE+4814 OTHER+2688
+00:03:40.721 IO IceSound.exe PID=1536 READ+59520 WRITE+585 OTHER+176
+00:03:40.721 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1685
+00:03:40.721 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:40.721 LOG_GROW 362 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc_guard.log
+00:03:40.721 LOG_GROW 577 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:03:40.721 LOG_GROW 1367 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:40.721 LOG_GROW 502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:03:40.721 LOG_GROW 1839 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:41.821 IO IceDisplay.exe PID=1520 READ+0 WRITE+1032 OTHER+3104
+00:03:41.821 IO IceSound.exe PID=1536 READ+176640 WRITE+0 OTHER+96
+00:03:41.821 LOG_GROW 887 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:42.911 LOG_GROW 124 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:03:42.911 LOG_GROW 551 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:03:42.911 LOG_GROW 1128 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:44.024 LOG_GROW 1595 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:45.120 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:45.120 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:45.120 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:45.120 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:45.120 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:45.120 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:45.120 LOG_GROW 2099 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:46.464 IO IceDisplay.exe PID=1520 READ+0 WRITE+9332 OTHER+2224
+00:03:46.464 IO MswitchWin.exe PID=4016 READ+3 WRITE+9744 OTHER+196
+00:03:46.464 IO VmQoEAgent.exe PID=3068 READ+6 WRITE+9492 OTHER+4943
+00:03:46.464 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:46.464 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:46.464 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:46.464 LOG_GROW 4758 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:47.574 IO IceDisplay.exe PID=1520 READ+0 WRITE+6519 OTHER+1776
+00:03:47.574 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+152
+00:03:47.574 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:03:47.574 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:47.574 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:47.574 LOG_GROW 4471 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:48.687 LOG_GROW 586 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:49.789 LOG_GROW 1595 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:50.894 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:50.894 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:50.894 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:50.894 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:50.894 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:50.894 LOG_GROW 1032 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:52.242 LOG_GROW 1319 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:53.334 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:53.334 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:53.334 LOG_GROW 3259 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:54.438 IO IceDisplay.exe PID=1520 READ+0 WRITE+5359 OTHER+1664
+00:03:54.438 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:03:54.438 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:03:54.438 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:54.438 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:54.438 LOG_GROW 1647 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:55.544 IO IceDisplay.exe PID=1520 READ+876 WRITE+6661 OTHER+1808
+00:03:55.544 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:03:55.544 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:03:55.544 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:55.544 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:55.544 LOG_GROW 4758 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:56.640 IO IceDisplay.exe PID=1520 READ+0 WRITE+3993 OTHER+1648
+00:03:56.640 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1669
+00:03:56.640 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:03:56.640 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:03:56.640 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:03:56.640 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:03:56.640 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:03:56.640 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:03:56.640 LOG_GROW 102 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:03:56.640 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:03:56.640 LOG_GROW 2824 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:57.995 LOG_GROW 884 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:03:59.096 LOG_GROW 1740 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:00.195 LOG_GROW 668 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_mainservice_set.log
+00:04:00.195 LOG_GROW 734 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:01.290 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:01.290 LOG_GROW 1174 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:02.383 IO IceDisplay.exe PID=1520 READ+0 WRITE+6786 OTHER+1792
+00:04:02.383 IO MswitchWin.exe PID=4016 READ+2 WRITE+6488 OTHER+136
+00:04:02.383 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6320 OTHER+3318
+00:04:02.383 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:02.383 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:02.383 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:02.383 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:02.383 LOG_GROW 6320 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:02.383 LOG_GROW 3254 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:02.383 LOG_GROW 4900 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:03.737 IO IceDisplay.exe PID=1520 READ+0 WRITE+5658 OTHER+2032
+00:04:03.737 IO MswitchWin.exe PID=4016 READ+2 WRITE+6488 OTHER+152
+00:04:03.737 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6320 OTHER+3302
+00:04:03.737 LOG_GROW 6320 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:03.737 LOG_GROW 3254 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:03.737 LOG_GROW 3448 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:04.835 IO IceDisplay.exe PID=1520 READ+876 WRITE+4263 OTHER+1712
+00:04:04.835 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3160 OTHER+1667
+00:04:04.835 LOG_GROW 3160 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:04.835 LOG_GROW 1627 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:04.835 LOG_GROW 3239 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:05.936 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:05.936 LOG_GROW 1032 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:07.038 LOG_GROW 739 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:08.150 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:08.150 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:08.150 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:08.150 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:08.150 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:04:08.150 LOG_GROW 1386 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:08.150 LOG_GROW 2483 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:09.516 LOG_GROW 129 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:04:09.516 LOG_GROW 162 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:10.620 IO IceDisplay.exe PID=1520 READ+0 WRITE+6517 OTHER+1760
+00:04:10.620 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:10.620 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:04:10.620 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:10.620 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:10.620 LOG_GROW 4614 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:11.712 IO IceDisplay.exe PID=1520 READ+0 WRITE+6664 OTHER+1792
+00:04:11.712 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+152
+00:04:11.712 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:04:11.712 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:11.712 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:11.712 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:11.712 LOG_GROW 4471 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:12.813 IO IceDisplay.exe PID=1520 READ+5998 WRITE+3813 OTHER+34248
+00:04:12.813 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1669
+00:04:12.813 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:12.813 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:12.813 LOG_GROW 2789 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:13.930 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:13.930 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:13.930 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:13.930 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:13.930 LOG_GROW 2189 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:15.313 LOG_GROW 597 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:16.426 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:16.426 LOG_GROW 1175 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:17.532 LOG_GROW 1902 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:18.635 IO IceDisplay.exe PID=1520 READ+0 WRITE+2833 OTHER+1536
+00:04:18.635 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1669
+00:04:18.635 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:18.635 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:18.635 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:19.744 IO IceDisplay.exe PID=1520 READ+0 WRITE+6662 OTHER+1792
+00:04:19.744 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:19.744 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3322
+00:04:19.744 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:19.744 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:19.744 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:19.744 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:19.744 LOG_GROW 9492 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:19.744 LOG_GROW 4887 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:19.744 LOG_GROW 6551 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:21.119 IO IceDisplay.exe PID=1520 READ+0 WRITE+6519 OTHER+2144
+00:04:21.119 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+152
+00:04:21.119 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:04:21.119 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:21.119 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:21.119 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:21.119 LOG_GROW 2534 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:22.229 LOG_GROW 885 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:23.324 IO IceDisplay.exe PID=1520 READ+26776 WRITE+8610 OTHER+37906
+00:04:23.324 LOG_GROW 1179 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:04:23.324 LOG_GROW 1171 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display_cmd.log
+00:04:23.324 LOG_GROW 1140 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_vmproxy_cmd_csap-addr.log
+00:04:23.324 LOG_GROW 1508 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:23.324 LOG_GROW 5654 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:24.430 LOG_GROW 734 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:25.535 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:25.535 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:25.535 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:25.535 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:25.535 LOG_GROW 1610 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:26.900 IO IceDisplay.exe PID=1520 READ+0 WRITE+4428 OTHER+2016
+00:04:26.900 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1685
+00:04:26.900 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:26.900 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:26.900 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:26.900 LOG_GROW 2969 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:28.016 IO IceDisplay.exe PID=1520 READ+0 WRITE+5502 OTHER+1680
+00:04:28.016 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:28.016 IO VmQoEAgent.exe PID=3068 READ+104 WRITE+6701 OTHER+25332
+00:04:28.016 LOG_GROW 6701 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:28.016 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:28.016 LOG_GROW 3454 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:29.117 IO IceDisplay.exe PID=1520 READ+0 WRITE+6647 OTHER+1792
+00:04:29.117 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:29.117 IO VmQoEAgent.exe PID=3068 READ+271 WRITE+7130 OTHER+20546
+00:04:29.117 LOG_GROW 6982 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:29.117 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:29.117 LOG_GROW 4744 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:30.227 LOG_GROW 887 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:31.339 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:31.339 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:31.339 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:31.339 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:31.339 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:31.339 LOG_GROW 95 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:31.339 LOG_GROW 1320 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:32.698 IO IceDisplay.exe PID=1520 READ+5998 WRITE+3059 OTHER+19768
+00:04:32.698 LOG_GROW 2479 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:34.870 IO IceDisplay.exe PID=1520 READ+876 WRITE+3991 OTHER+1632
+00:04:34.870 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+101191
+00:04:34.870 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:34.870 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:34.870 LOG_GROW 3112 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:35.978 IO IceDisplay.exe PID=1520 READ+0 WRITE+6656 OTHER+1872
+00:04:35.978 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+152
+00:04:35.978 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+43860
+00:04:35.978 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:35.978 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:35.978 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:35.978 LOG_GROW 4463 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:37.071 IO IceDisplay.exe PID=1520 READ+0 WRITE+5502 OTHER+1680
+00:04:37.071 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:37.071 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+42588
+00:04:37.071 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:37.071 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:37.071 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:37.071 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:37.071 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:37.071 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:37.071 LOG_GROW 3889 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:38.400 IO IceDisplay.exe PID=1520 READ+0 WRITE+2331 OTHER+1824
+00:04:38.400 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+224780
+00:04:38.400 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:04:38.400 LOG_GROW 1386 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:38.400 LOG_GROW 2041 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:39.513 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+377728
+00:04:39.513 LOG_GROW 597 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:40.623 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+326766
+00:04:40.623 LOG_GROW 129 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:04:40.623 LOG_GROW 1175 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:41.733 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+291602
+00:04:41.733 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:41.733 LOG_GROW 1902 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:42.837 IO IceDisplay.exe PID=1520 READ+5998 WRITE+3555 OTHER+19352
+00:04:42.837 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+28017
+00:04:42.837 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:42.837 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:42.837 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:42.837 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:42.837 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:42.837 LOG_GROW 122 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:04:42.837 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:42.837 LOG_GROW 2529 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:44.165 IO IceDisplay.exe PID=1520 READ+0 WRITE+6952 OTHER+2112
+00:04:44.165 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+152
+00:04:44.165 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+23278
+00:04:44.165 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:44.165 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:44.165 LOG_GROW 4744 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:45.260 IO IceDisplay.exe PID=1520 READ+876 WRITE+6229 OTHER+1888
+00:04:45.260 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:45.260 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+22374
+00:04:45.260 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:45.260 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:45.260 LOG_GROW 4036 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:46.352 IO IceTunnel.exe PID=1496 READ+0 WRITE+4096 OTHER+1232
+00:04:46.352 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:46.352 LOG_GROW 4096 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\DE_Log.txt002.logTmp
+00:04:46.352 LOG_GROW 740 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:47.447 LOG_GROW 1595 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:48.540 IO IceDisplay.exe PID=1520 READ+5998 WRITE+7671 OTHER+19790
+00:04:48.540 IO VmQoEAgent.exe PID=3068 READ+8 WRITE+795 OTHER+73101
+00:04:48.540 IO Vdagent.exe PID=10112 READ+487 WRITE+4063 OTHER+1736
+00:04:48.540 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:48.540 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:48.540 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:48.540 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:48.540 LOG_GROW 560 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:48.540 LOG_GROW 4061 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:04:48.540 LOG_GROW 235 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:04:48.540 LOG_GROW 956 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:04:48.540 LOG_GROW 1916 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+00:04:48.540 LOG_GROW 1092 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_sound.log
+00:04:48.540 LOG_GROW 1132 bytes  C:\Program Files (x86)\ZTEGuestOS\log\usbipc.log
+00:04:48.540 LOG_GROW 356 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:48.540 LOG_GROW 13562 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:49.869 IO IceDisplay.exe PID=1520 READ+0 WRITE+17072 OTHER+3104
+00:04:49.869 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+42398
+00:04:49.869 LOG_GROW 816 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:04:49.869 LOG_GROW 11036 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:50.977 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+18663
+00:04:50.977 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:50.977 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:50.977 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:50.977 LOG_GROW 1664 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:52.080 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+75705
+00:04:52.080 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:52.080 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:52.080 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:53.189 IO IceDisplay.exe PID=1520 READ+5998 WRITE+5775 OTHER+18536
+00:04:53.189 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:04:53.189 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+274172
+00:04:53.189 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:53.189 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:53.189 LOG_GROW 3727 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:54.290 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+372065
+00:04:54.290 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:04:54.290 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:04:54.290 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:04:54.290 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:04:54.290 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:04:54.290 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:04:54.290 LOG_GROW 1664 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:55.666 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+367850
+00:04:56.774 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+200888
+00:04:56.774 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:04:56.774 LOG_GROW 162 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:04:57.885 LOG_GROW 102 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:05:00.087 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:05:00.087 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:00.087 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:05:00.087 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:00.087 LOG_GROW 162 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:01.447 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:05:02.541 IO IceDisplay.exe PID=1520 READ+5998 WRITE+723 OTHER+18280
+00:05:02.541 LOG_GROW 723 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:03.649 LOG_GROW 162 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:04.743 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+73810
+00:05:05.838 IO IceDisplay.exe PID=1520 READ+0 WRITE+5046 OTHER+784
+00:05:05.838 IO MswitchWin.exe PID=4016 READ+2 WRITE+6488 OTHER+136
+00:05:05.838 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6320 OTHER+50764
+00:05:05.838 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:05:05.838 NET IceTunnel.exe PID=1496 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET IceDisplay.exe PID=1520 ESTABLISHED=5 EXTERNAL=0
+00:05:05.838 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:05.838 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:05:05.838 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:05.838 LOG_GROW 6320 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:05.838 LOG_GROW 3254 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:05.838 LOG_GROW 3160 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:07.164 IO IceDisplay.exe PID=1520 READ+0 WRITE+5208 OTHER+912
+00:05:07.164 IO MswitchWin.exe PID=4016 READ+2 WRITE+6488 OTHER+136
+00:05:07.164 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6320 OTHER+34874
+00:05:07.164 LOG_GROW 6320 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:07.164 LOG_GROW 3254 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:07.164 LOG_GROW 2998 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:08.266 IO MswitchWin.exe PID=4016 READ+215 WRITE+5271 OTHER+472
+00:05:08.266 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3160 OTHER+142959
+00:05:08.266 LOG_GROW 3160 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:08.266 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:05:08.266 LOG_GROW 3013 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:08.266 LOG_GROW 1499 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:09.353 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+150160
+00:05:09.353 LOG_GROW 1816 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:05:09.353 LOG_GROW 1114 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:11.540 IO Vdagent.exe PID=10112 READ+0 WRITE+0 OTHER+5648
+00:05:11.540 NET IceDisplay.exe PID=1520 ESTABLISHED=4 EXTERNAL=0
+00:05:11.540 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:11.540 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:11.540 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:11.540 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:11.540 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:11.540 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:11.540 NET Vdagent.exe PID=10112 ESTABLISHED=2 EXTERNAL=0
+00:05:11.540 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:12.856 IO IceDisplay.exe PID=1520 READ+11996 WRITE+2638 OTHER+51294
+00:05:12.856 IO VmQoEAgent.exe PID=3068 READ+0 WRITE+0 OTHER+4846
+00:05:12.856 LOG_GROW 13353 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display_setting.log
+00:05:12.856 LOG_GROW 143 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:05:12.856 LOG_GROW 2638 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:13.948 IO IceDisplay.exe PID=1520 READ+0 WRITE+4469 OTHER+784
+00:05:13.948 IO VmQoEAgent.exe PID=3068 READ+8 WRITE+3634 OTHER+35815
+00:05:13.948 PROCESS_START Vdagent.exe PID=7484 PPID=1528
+00:05:13.948 PROCESS_EXIT Vdagent.exe PID=10112
+00:05:13.948 LOG_GROW 728 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display_setting.log
+00:05:13.948 LOG_GROW 3451 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:13.948 LOG_GROW 14748 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:05:13.948 LOG_GROW 183 bytes  C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log
+00:05:13.948 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:13.948 LOG_GROW 3445 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:13.948 LOG_GROW 413 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log
+00:05:15.072 IO IceDisplay.exe PID=1520 READ+876 WRITE+5052 OTHER+688
+00:05:15.072 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:15.072 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+21702
+00:05:15.072 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:15.072 LOG_GROW 260 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:05:15.072 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:15.072 LOG_GROW 3004 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:16.165 IO IceDisplay.exe PID=1520 READ+0 WRITE+5052 OTHER+608
+00:05:16.165 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:16.165 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+20774
+00:05:16.165 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:16.165 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:16.165 LOG_GROW 3004 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:17.273 NET IceDisplay.exe PID=1520 ESTABLISHED=3 EXTERNAL=0
+00:05:17.273 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:17.273 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:17.273 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:17.273 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:17.273 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:17.273 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:17.273 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:18.619 LOG_GROW 292 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:18.619 LOG_GROW 551 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:05:19.712 IO Vdagent.exe PID=7484 READ+0 WRITE+0 OTHER+5648
+00:05:21.914 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1893
+00:05:21.914 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:21.914 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:21.914 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:23.007 IO IceDisplay.exe PID=1520 READ+5998 WRITE+5775 OTHER+18408
+00:05:23.007 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:23.007 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3322
+00:05:23.007 NET IceDisplay.exe PID=1520 ESTABLISHED=3 EXTERNAL=0
+00:05:23.007 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:23.007 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:23.007 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:23.007 LOG_GROW 189 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:05:23.007 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:23.007 LOG_GROW 3727 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:24.305 IO IceDisplay.exe PID=1520 READ+0 WRITE+5052 OTHER+656
+00:05:24.305 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:24.305 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:05:24.305 IO Vdagent.exe PID=7484 READ+0 WRITE+0 OTHER+5664
+00:05:24.305 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:24.305 LOG_GROW 1512 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:05:24.305 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:24.305 LOG_GROW 3004 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:24.305 LOG_GROW 927 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log
+00:05:25.417 LOG_GROW 756 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+00:05:25.417 LOG_GROW 412 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdservice.log
+00:05:27.602 IO VmQoEAgent.exe PID=3068 READ+100 WRITE+373 OTHER+22074
+00:05:27.602 LOG_GROW 373 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:28.697 IO VmQoEAgent.exe PID=3068 READ+274 WRITE+611 OTHER+11672
+00:05:28.697 IO Vdagent.exe PID=7484 READ+0 WRITE+0 OTHER+5664
+00:05:28.697 NET IceDisplay.exe PID=1520 ESTABLISHED=3 EXTERNAL=0
+00:05:28.697 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:28.697 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:28.697 LOG_GROW 463 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:29.979 IO MswitchWin.exe PID=4016 READ+2 WRITE+9202 OTHER+136
+00:05:29.979 IO VmQoEAgent.exe PID=3068 READ+57 WRITE+6701 OTHER+3757
+00:05:29.979 LOG_GROW 6701 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:29.979 LOG_GROW 4609 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:29.979 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:31.072 IO VmQoEAgent.exe PID=3068 READ+222 WRITE+3259 OTHER+1701
+00:05:31.072 LOG_GROW 3259 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:31.072 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:31.072 LOG_GROW 1502 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:32.166 IO IceDisplay.exe PID=1520 READ+0 WRITE+5052 OTHER+608
+00:05:32.166 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:32.166 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3322
+00:05:32.166 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:32.166 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:32.166 LOG_GROW 3004 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:33.259 IO IceDisplay.exe PID=1520 READ+5998 WRITE+3249 OTHER+18264
+00:05:33.259 IO VmQoEAgent.exe PID=3068 READ+2 WRITE+3164 OTHER+1669
+00:05:33.259 LOG_GROW 3164 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:33.259 LOG_GROW 1629 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:33.259 LOG_GROW 2225 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:34.353 IO Vdagent.exe PID=7484 READ+0 WRITE+0 OTHER+5664
+00:05:34.353 NET IceDisplay.exe PID=1520 ESTABLISHED=3 EXTERNAL=0
+00:05:34.353 NET IceSound.exe PID=1536 ESTABLISHED=1 EXTERNAL=0
+00:05:34.353 NET IceVGPUCapture.exe PID=1728 ESTABLISHED=1 EXTERNAL=0
+00:05:34.353 NET MswitchWin.exe PID=4016 ESTABLISHED=3 EXTERNAL=0
+00:05:34.353 NET VmBoosterMonitor.exe PID=4080 ESTABLISHED=1 EXTERNAL=0
+00:05:34.353 NET VmQoEAgent.exe PID=3068 ESTABLISHED=1 EXTERNAL=0
+00:05:34.353 NET Vmbooster.exe PID=3476 ESTABLISHED=1 EXTERNAL=0
+00:05:34.353 NET IceInput.exe PID=1912 ESTABLISHED=1 EXTERNAL=0
+00:05:36.712 IO MswitchWin.exe PID=4016 READ+2 WRITE+12749 OTHER+136
+00:05:36.712 IO VmQoEAgent.exe PID=3068 READ+126 WRITE+6936 OTHER+2568
+00:05:36.712 LOG_GROW 6904 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:36.712 LOG_GROW 6380 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:37.814 IO IceInputService.exe PID=1504 READ+0 WRITE+618 OTHER+20744
+00:05:37.814 LOG_GROW 272 bytes  C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+00:05:37.814 LOG_GROW 221 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+00:05:37.814 LOG_GROW 1386 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:37.814 LOG_GROW 1132 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input_service.log
+00:05:38.920 IO IceDisplay.exe PID=1520 READ+0 WRITE+5052 OTHER+592
+00:05:38.920 IO MswitchWin.exe PID=4016 READ+2 WRITE+6496 OTHER+136
+00:05:38.920 IO VmQoEAgent.exe PID=3068 READ+4 WRITE+6328 OTHER+3306
+00:05:38.920 IO Vdagent.exe PID=7484 READ+0 WRITE+0 OTHER+5664
+00:05:38.920 LOG_GROW 6328 bytes  C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+00:05:38.920 LOG_GROW 3258 bytes  C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+00:05:38.920 LOG_GROW 3004 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+00:05:38.920 LOG_GROW 283 bytes  C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input_service.log
+
+END: 2026-08-24 00:05:39.032

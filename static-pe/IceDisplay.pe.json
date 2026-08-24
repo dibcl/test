@@ -1,0 +1,595 @@
+{
+  "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceDisplay.exe",
+  "sha256": "610afe0851789342bf35d4d5a12d893be8a30a54a4efaa5969f7f3aaf18b5b31",
+  "size": 1277360,
+  "machine": "x86-64",
+  "bitness": 64,
+  "timestamp": 1752044158,
+  "characteristics": "0x22",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 855070,
+      "vaddr": 4096,
+      "raw_size": 855552,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 301416,
+      "vaddr": 860160,
+      "raw_size": 301568,
+      "raw_ptr": 856576
+    },
+    {
+      "name": ".data",
+      "vsize": 1036416,
+      "vaddr": 1163264,
+      "raw_size": 58368,
+      "raw_ptr": 1158144
+    },
+    {
+      "name": ".pdata",
+      "vsize": 38676,
+      "vaddr": 2203648,
+      "raw_size": 38912,
+      "raw_ptr": 1216512
+    },
+    {
+      "name": ".tls",
+      "vsize": 9,
+      "vaddr": 2244608,
+      "raw_size": 512,
+      "raw_ptr": 1255424
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 1312,
+      "vaddr": 2248704,
+      "raw_size": 1536,
+      "raw_ptr": 1255936
+    },
+    {
+      "name": ".reloc",
+      "vsize": 8728,
+      "vaddr": 2252800,
+      "raw_size": 9216,
+      "raw_ptr": 1257472
+    }
+  ],
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CopyFileExA",
+        "CreateEventA",
+        "CreateFileA",
+        "CreateFileMappingA",
+        "CreateFileW",
+        "CreateMutexA",
+        "CreateProcessA",
+        "CreateThread",
+        "CreateToolhelp32Snapshot",
+        "DecodePointer",
+        "DeleteCriticalSection",
+        "DeleteFileA",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "ExpandEnvironmentStringsA",
+        "FileTimeToLocalFileTime",
+        "FileTimeToSystemTime",
+        "FlushFileBuffers",
+        "FreeLibrary",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThread",
+        "GetCurrentThreadId",
+        "GetDiskFreeSpaceExA",
+        "GetExitCodeProcess",
+        "GetFileSize",
+        "GetLastError",
+        "GetLocalTime",
+        "GetModuleFileNameA",
+        "GetModuleHandleA",
+        "GetPrivateProfileIntA",
+        "GetPrivateProfileStringA",
+        "GetProcAddress",
+        "GetProcessId",
+        "GetSystemDirectoryW",
+        "GetSystemInfo",
+        "GetSystemTimeAsFileTime",
+        "GlobalAlloc",
+        "GlobalFree",
+        "GlobalMemoryStatusEx",
+        "InitializeCriticalSection",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "LeaveCriticalSection",
+        "LoadLibraryA",
+        "LoadLibraryW",
+        "LocalAlloc",
+        "LocalFree",
+        "MapViewOfFile",
+        "MoveFileExA",
+        "MultiByteToWideChar",
+        "OpenEventA",
+        "OpenFileMappingA",
+        "OpenMutexA",
+        "OpenProcess",
+        "OutputDebugStringA",
+        "Process32First",
+        "Process32Next",
+        "ProcessIdToSessionId",
+        "QueryPerformanceCounter",
+        "QueryPerformanceFrequency",
+        "ReadFile",
+        "ReleaseMutex",
+        "ResetEvent",
+        "SetEvent",
+        "SetLastError",
+        "SetPriorityClass",
+        "SetThreadPriority",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "SystemTimeToFileTime",
+        "TerminateProcess",
+        "UnmapViewOfFile",
+        "WTSGetActiveConsoleSessionId",
+        "WaitForMultipleObjects",
+        "WaitForSingleObject",
+        "WaitNamedPipeW",
+        "WideCharToMultiByte",
+        "WriteFile",
+        "WritePrivateProfileStringA",
+        "lstrcatW",
+        "lstrlenA"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "CloseDesktop",
+        "CreateWindowExA",
+        "DefWindowProcA",
+        "DestroyWindow",
+        "DispatchMessageA",
+        "ExitWindowsEx",
+        "GetMessageA",
+        "GetThreadDesktop",
+        "GetUserObjectInformationA",
+        "MsgWaitForMultipleObjects",
+        "OpenInputDesktop",
+        "PeekMessageA",
+        "PostQuitMessage",
+        "PostThreadMessageA",
+        "RegisterClassA",
+        "RegisterDeviceNotificationA",
+        "SetThreadDesktop",
+        "SetTimer",
+        "ShowWindow",
+        "TranslateMessage",
+        "UnregisterDeviceNotification",
+        "UpdateWindow"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "AllocateAndInitializeSid",
+        "ChangeServiceConfig2A",
+        "CloseEventLog",
+        "CloseServiceHandle",
+        "ControlService",
+        "CreateProcessAsUserA",
+        "CreateServiceA",
+        "DeleteService",
+        "DuplicateTokenEx",
+        "FreeSid",
+        "GetNamedSecurityInfoA",
+        "InitializeSecurityDescriptor",
+        "OpenEventLogA",
+        "OpenProcessToken",
+        "OpenSCManagerA",
+        "OpenServiceA",
+        "QueryServiceStatus",
+        "QueryServiceStatusEx",
+        "ReadEventLogA",
+        "RegCloseKey",
+        "RegCreateKeyExA",
+        "RegDeleteValueA",
+        "RegOpenKeyExA",
+        "RegQueryValueExA",
+        "RegSetValueExA",
+        "RegisterServiceCtrlHandlerExA",
+        "SetEntriesInAclA",
+        "SetFileSecurityA",
+        "SetSecurityDescriptorDacl",
+        "SetServiceStatus",
+        "SetTokenInformation",
+        "StartServiceA",
+        "StartServiceCtrlDispatcherA"
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "functions": [
+        "CoCreateGuid",
+        "CoCreateInstance",
+        "CoInitialize",
+        "CoInitializeEx",
+        "CoSetProxyBlanket",
+        "CoUninitialize"
+      ]
+    },
+    {
+      "dll": "oleaut32.dll",
+      "functions": [
+        "ordinal:2",
+        "ordinal:6",
+        "ordinal:8",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "WSAAddressToStringA",
+        "WSAIoctl",
+        "WSAStringToAddressA",
+        "freeaddrinfo",
+        "getaddrinfo",
+        "inet_ntop",
+        "ordinal:1",
+        "ordinal:10",
+        "ordinal:11",
+        "ordinal:111",
+        "ordinal:115",
+        "ordinal:12",
+        "ordinal:13",
+        "ordinal:14",
+        "ordinal:15",
+        "ordinal:151",
+        "ordinal:16",
+        "ordinal:17",
+        "ordinal:18",
+        "ordinal:19",
+        "ordinal:2",
+        "ordinal:20",
+        "ordinal:21",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:4",
+        "ordinal:5",
+        "ordinal:6",
+        "ordinal:8",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "libssl-3-x64.dll",
+      "functions": [
+        "OPENSSL_init_ssl",
+        "SSL_CTX_check_private_key",
+        "SSL_CTX_free",
+        "SSL_CTX_get_options",
+        "SSL_CTX_load_verify_locations",
+        "SSL_CTX_new",
+        "SSL_CTX_set_cipher_list",
+        "SSL_CTX_set_default_passwd_cb",
+        "SSL_CTX_set_info_callback",
+        "SSL_CTX_set_options",
+        "SSL_CTX_set_security_level",
+        "SSL_CTX_set_session_id_context",
+        "SSL_CTX_use_PrivateKey_file",
+        "SSL_CTX_use_certificate_file",
+        "SSL_accept",
+        "SSL_free",
+        "SSL_get_error",
+        "SSL_get_ex_data",
+        "SSL_new",
+        "SSL_read",
+        "SSL_set_bio",
+        "SSL_set_ex_data",
+        "SSL_write",
+        "TLS_method"
+      ]
+    },
+    {
+      "dll": "libcrypto-3-x64.dll",
+      "functions": [
+        "BIO_ctrl",
+        "BIO_f_base64",
+        "BIO_free",
+        "BIO_free_all",
+        "BIO_new",
+        "BIO_new_mem_buf",
+        "BIO_new_socket",
+        "BIO_push",
+        "BIO_read",
+        "BIO_s_mem",
+        "BIO_set_flags",
+        "BIO_write",
+        "BN_free",
+        "BN_new",
+        "BN_set_word",
+        "CRYPTO_malloc",
+        "ERR_error_string",
+        "ERR_get_error",
+        "EVP_CIPHER_CTX_free",
+        "EVP_CIPHER_CTX_new",
+        "EVP_CIPHER_CTX_set_padding",
+        "EVP_EncryptFinal_ex",
+        "EVP_EncryptInit_ex",
+        "EVP_EncryptUpdate",
+        "EVP_PKEY_CTX_free",
+        "EVP_PKEY_CTX_new",
+        "EVP_PKEY_CTX_new_id",
+        "EVP_PKEY_CTX_set1_rsa_keygen_pubexp",
+        "EVP_PKEY_CTX_set_rsa_keygen_bits",
+        "EVP_PKEY_CTX_set_rsa_padding",
+        "EVP_PKEY_decrypt",
+        "EVP_PKEY_decrypt_init",
+        "EVP_PKEY_free",
+        "EVP_PKEY_get_id",
+        "EVP_PKEY_keygen",
+        "EVP_PKEY_keygen_init",
+        "EVP_aes_256_cbc",
+        "d2i_PrivateKey",
+        "i2d_PUBKEY_bio"
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "functions": [
+        "MakeSureDirectoryPathExists",
+        "MiniDumpWriteDump"
+      ]
+    },
+    {
+      "dll": "version.dll",
+      "functions": [
+        "GetFileVersionInfoA",
+        "GetFileVersionInfoSizeA",
+        "VerQueryValueA"
+      ]
+    },
+    {
+      "dll": "iphlpapi.dll",
+      "functions": [
+        "GetAdaptersAddresses",
+        "GetIpAddrTable",
+        "GetIpForwardTable"
+      ]
+    },
+    {
+      "dll": "winmm.dll",
+      "functions": [
+        "timeBeginPeriod",
+        "timeEndPeriod",
+        "timeGetTime"
+      ]
+    },
+    {
+      "dll": "wtsapi32.dll",
+      "functions": [
+        "WTSFreeMemory",
+        "WTSQuerySessionInformationA"
+      ]
+    },
+    {
+      "dll": "bcrypt.dll",
+      "functions": [
+        "BCryptGenRandom"
+      ]
+    },
+    {
+      "dll": "psapi.dll",
+      "functions": [
+        "GetModuleFileNameExA"
+      ]
+    },
+    {
+      "dll": "msvcr120.dll",
+      "functions": [
+        "??2@YAPEAX_K@Z",
+        "??3@YAXPEAX@Z",
+        "?_type_info_dtor_internal_method@type_info@@QEAAXXZ",
+        "?terminate@@YAXXZ",
+        "_CxxThrowException",
+        "_XcptFilter",
+        "__C_specific_handler",
+        "__crtCaptureCurrentContext",
+        "__crtCapturePreviousContext",
+        "__crtSetUnhandledExceptionFilter",
+        "__crtTerminateProcess",
+        "__crtUnhandledException",
+        "__crt_debugger_hook",
+        "__dllonexit",
+        "__getmainargs",
+        "__initenv",
+        "__iob_func",
+        "__set_app_type",
+        "__setusermatherr",
+        "_access",
+        "_access_s",
+        "_amsg_exit",
+        "_calloc_crt",
+        "_cexit",
+        "_commode",
+        "_configthreadlocale",
+        "_errno",
+        "_exit",
+        "_fmode",
+        "_gmtime64",
+        "_initterm",
+        "_initterm_e",
+        "_localtime64",
+        "_lock",
+        "_mkdir",
+        "_mktime64",
+        "_onexit",
+        "_setjmp",
+        "_stricmp",
+        "_strlwr",
+        "_time64",
+        "_ui64toa_s",
+        "_unlock",
+        "_vsnprintf",
+        "atoi",
+        "atoll",
+        "calloc",
+        "ceil",
+        "exit",
+        "fclose",
+        "feof",
+        "ferror",
+        "fflush",
+        "fgets",
+        "floor",
+        "fopen",
+        "fprintf",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "getenv",
+        "isalnum",
+        "isalpha",
+        "isupper",
+        "log10",
+        "longjmp",
+        "malloc",
+        "memcmp",
+        "memcpy",
+        "memcpy_s",
+        "memmove",
+        "memset",
+        "printf",
+        "realloc",
+        "remove",
+        "rename",
+        "rewind",
+        "setvbuf",
+        "sprintf",
+        "sqrt",
+        "srand",
+        "sscanf",
+        "strchr",
+        "strcmp",
+        "strerror",
+        "strncmp",
+        "strncpy",
+        "strncpy_s",
+        "strnlen",
+        "strrchr",
+        "strstr",
+        "strtod",
+        "strtok",
+        "strtok_s",
+        "strtol",
+        "strtoul",
+        "swprintf_s",
+        "tolower"
+      ]
+    },
+    {
+      "dll": "pixman-1.dll",
+      "functions": [
+        "ordinal:17",
+        "ordinal:19",
+        "ordinal:20",
+        "ordinal:21",
+        "ordinal:22",
+        "ordinal:23",
+        "ordinal:26",
+        "ordinal:29",
+        "ordinal:30",
+        "ordinal:32",
+        "ordinal:35",
+        "ordinal:36",
+        "ordinal:37",
+        "ordinal:38"
+      ]
+    },
+    {
+      "dll": "swscale-3.dll",
+      "functions": [
+        "sws_freeContext",
+        "sws_getCachedContext",
+        "sws_getCachedContext_new",
+        "sws_scale",
+        "sws_scale_new"
+      ]
+    },
+    {
+      "dll": "avutil-54.dll",
+      "functions": [
+        "av_log_set_callback"
+      ]
+    },
+    {
+      "dll": "libyuv.dll",
+      "functions": [
+        "ARGBToI420",
+        "SplitARGBPlane"
+      ]
+    },
+    {
+      "dll": "vpx.dll",
+      "functions": [
+        "vpx_codec_control_",
+        "vpx_codec_destroy",
+        "vpx_codec_enc_config_default",
+        "vpx_codec_enc_config_set",
+        "vpx_codec_enc_init_ver",
+        "vpx_codec_encode",
+        "vpx_codec_get_cx_data",
+        "vpx_codec_version_str",
+        "vpx_codec_vp9_cx",
+        "vpx_img_alloc",
+        "vpx_img_free",
+        "zteVP9EncoderGetVersion"
+      ]
+    },
+    {
+      "dll": "ice-encoder.dll",
+      "functions": [
+        "ice_get_encoder_factory"
+      ]
+    },
+    {
+      "dll": "turbojpeg.dll",
+      "functions": [
+        "tjBufSize",
+        "tjCompressFromYUVPlanes",
+        "tjDecompressToYUVPlanes",
+        "tjDestroy",
+        "tjInitCompress",
+        "tjInitDecompress"
+      ]
+    },
+    {
+      "dll": "zte-lossless-encoder.dll",
+      "functions": [
+        "zte_lossless_add_trival_text_rect",
+        "zte_lossless_encoder_close",
+        "zte_lossless_encoder_encode",
+        "zte_lossless_encoder_open",
+        "zte_lossless_set_origin_yuv444"
+      ]
+    },
+    {
+      "dll": "zteh264enc_win64.dll",
+      "functions": [
+        "zteH264EncodeOneFrame",
+        "zteH264EncoderClose",
+        "zteH264EncoderCtrl",
+        "zteH264EncoderGetVersion",
+        "zteH264EncoderOpen"
+      ]
+    }
+  ],
+  "import_directory_size": 520
+}

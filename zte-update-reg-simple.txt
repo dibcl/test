@@ -1,0 +1,96 @@
+﻿========== ZTE UPDATE REGISTRY ==========
+
+========== HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall ==========
+
+[QEMU]
+DisplayName = QEMU
+DisplayIcon = C:\Program Files\qemu\qemu-uninstall.exe
+DisplayVersion = 11.1.0
+Publisher = QEMU Community
+UninstallString = "C:\Program Files\qemu\qemu-uninstall.exe"
+NoModify = 1
+NoRepair = 1
+
+========== HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall ==========
+
+[balloon]
+DisplayName = Windows Driver Packages - KVM GPL Virtio Driver Developers Balloon Device Driver
+DisplayVersion = 08/03/2018,100.76.104.16000
+InstallSource = C:\Program Files (x86)\VirtioDrivers
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[blnsrv]
+DisplayName = Windows Driver Packages - Balloon Service
+InstallSource = C:\Program Files (x86)\VirtioDrivers
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[GuestTools]
+DisplayName = GuestTools
+DisplayVersion = 3.18.56.215a7089
+HelpTelephone = 028-85342418
+InstallSource = C:\Program Files (x86)\GuestTools
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[QGA]
+QuietDisplayName = QGA
+DisplayVersion = 3.18.56.215a7089
+HelpTelephone = 028-85342418
+InstallSource = C:\Program Files (x86)\qga
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[SysGuard]
+DisplayName = 云电脑管家
+DisplayIcon = C:\Program Files (x86)\SysGuard\SysGuard.exe
+DisplayVersion = V7.25.21SP3
+Publisher = ZTE Corporation
+Language = 2052
+
+[uSmartviewUpdate]
+NSIS:Language = 2052
+DisplayName = uSmartviewUpdate
+UninstallString = 
+DisplayIcon = C:\Program Files (x86)\uSmartviewUpdate\uSmartviewUpdate.exe
+DisplayVersion = 7.24.10.01
+Publisher = uSmartviewUpdate
+
+[vioserial]
+DisplayName = Windows Driver Packages - KVM GPL Virtio Driver Developers Vioserial Device Driver
+DisplayVersion = 
+InstallSource = C:\Program Files (x86)\VirtioDrivers
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[viostor]
+DisplayName = Windows Driver Packages - KVM GPL Virtio Driver Developers Viostor Device Driver
+DisplayVersion = 08/03/2018,100.76.104.16000
+InstallSource = C:\Program Files (x86)\VirtioDrivers
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+[Virtio Driver]
+QuietDisplayName = Virtio Driver
+DisplayVersion = 3.18.34.723185c6
+HelpTelephone = 028-85342418
+InstallSource = C:\Program Files (x86)\VirtioDrivers
+NoModify = 1
+NoRepair = 1
+Publisher = ZTE
+RegCompany = ZTE
+
+========== TARGETED SEARCH ==========

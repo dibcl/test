@@ -1,0 +1,179 @@
+﻿========== ZTE UPDATE CLIENT REGISTRY ==========
+TIME: 2026-08-24 00:36:12
+
+========== MATCHING REGISTRY KEYS ==========
+
+######## ROOT: HKLM:\SOFTWARE ########
+
+========== WINDOWS TEMP UPDATE CACHE ==========
+
+----- C:\Windows\Temp -----
+
+----- C:\ProgramData -----
+
+FullName                                                                                                               
+--------                                                                                                               
+C:\ProgramData\Ecloud\win10_update_disable(禁用windows更新-微软提供)(1).bat                                                    
+C:\ProgramData\Ecloud\win10_update_enable.bat                                                                          
+C:\ProgramData\Microsoft\AppV\Setup\OfficeIntegrator.ps1                                                               
+C:\ProgramData\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}\background.png                     
+C:\ProgramData\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}\behavior.xml                       
+C:\ProgramData\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}\device.png                         
+C:\ProgramData\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}\overlay.png                        
+C:\ProgramData\Microsoft\Device Stage\Device\{113527a4-45d4-4b6f-b567-97838f1b04b0}\superbar.png                       
+C:\ProgramData\Microsoft\Device Stage\Device\{8702d817-5aad-4674-9ef3-4d3decd87120}\background.png                     
+C:\ProgramData\Microsoft\Device Stage\Device\{8702d817-5aad-4674-9ef3-4d3decd87120}\behavior.xml                       
+C:\ProgramData\Microsoft\Device Stage\Device\{8702d817-5aad-4674-9ef3-4d3decd87120}\watermark.png                      
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\folder.ico                           
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\netfol.ico                           
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\pictures.ico                         
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\resource.xml                         
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\ringtones.ico                        
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\settings.ico                         
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\sync.ico                             
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\tasks.xml                            
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\wmp.ico                              
+C:\ProgramData\Microsoft\Device Stage\Task\{07deb856-fc6e-4fb9-8add-d8f2cf8722c9}\zh-CN\resource.xml                   
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\folder.ico                           
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\print_pref.ico                       
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\print_property.ico                   
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\print_queue.ico                      
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\scan_.ico                            
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\scan_property.ico                    
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\scan_settings.ico                    
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\tasks.xml                            
+C:\ProgramData\Microsoft\Device Stage\Task\{e35be42d-f742-4d96-a50a-1775fb1a7a42}\zh-CN\resource.xml                   
+C:\ProgramData\Microsoft\DiagnosticLogCSP\Collectors\DiagnosticLogCSP_Collector_DeviceProvisioning_2026_8_23_3_19_17...
+C:\ProgramData\Microsoft\DiagnosticLogCSP\Collectors\DiagnosticLogCSP_Collector_DeviceProvisioning_2026_8_23_4_46_37...
+C:\ProgramData\Microsoft\DiagnosticLogCSP\Collectors\DiagnosticLogCSP_Collector_DeviceProvisioning_2026_8_24_0_42_52...
+C:\ProgramData\Microsoft\DiagnosticLogCSP\Collectors\DiagnosticLogCSP_Collector_DeviceProvisioning_2026_8_24_0_8_48.etl
+C:\ProgramData\Microsoft\EdgeUpdate\Log\MicrosoftEdgeUpdate.log                                                        
+C:\ProgramData\Microsoft\NetFramework\BreadcrumbStore\netcore,CliWrap                                                  
+C:\ProgramData\Microsoft\NetFramework\BreadcrumbStore\netcore,CliWrap,3.10.2                                           
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2010Win32.xml                                               
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2010Win64.xml                                               
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013BackupWin32.xml                                         
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013BackupWin64.xml                                         
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013Office365Win32.xml                                      
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013Office365Win64.xml                                      
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013Win32.xml                                               
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2013Win64.xml                                               
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2016BackupWin32.xml                                         
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2016BackupWin64.xml                                         
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2016Win32.xml                                               
+C:\ProgramData\Microsoft\UEV\InboxTemplates\MicrosoftOffice2016Win64.xml                                               
+C:\ProgramData\Microsoft\User Account Pictures\guest.bmp                                                               
+C:\ProgramData\Microsoft\User Account Pictures\guest.png                                                               
+C:\ProgramData\Microsoft\Windows\AppRepository\Microsoft.AsyncTextService_10.0.19041.4239_neutral__8wekyb3d8bbwe.xml   
+C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.AsyncTextService_10.0.19041.4239_neutral__8wekyb3d...
+C:\ProgramData\Microsoft\Windows\AppRepository\Packages\Microsoft.AsyncTextService_10.0.19041.4239_neutral__8wekyb3d...
+C:\ProgramData\Microsoft\Windows\DeviceMetadataCache\dmrc.idx                                                          
+C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\en-US\34e548a8-3268-4dde-bedf-c40f9b6c814a.devicemetadata-ms      
+C:\ProgramData\Microsoft\Windows\DeviceMetadataStore\en-US\63921eef-8415-4368-9201-f0df4af5778f.devicemetadata-ms      
+C:\ProgramData\Microsoft\Windows\OneSettings\SCCInstallService.json                                                    
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\Component Services.lnk                       
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\services.lnk                                 
+C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_b58e69eb10d1af9f4b93db7d334bf1aa1f394bd0_000000...
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Backup\mpasbase.vdm                                       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Backup\mpasdlta.vdm                                       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Backup\mpavbase.vdm                                       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Backup\mpavdlta.vdm                                       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Backup\mpengine.dll                                       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAsBase.vdm                                      
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAsDlta.vdm                                      
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAvBase.vdm                                      
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpAvDlta.vdm                                      
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\Default\MpEngine.dll                                      
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C7A3CB07-F839-44D5-BA4C-68E3BA0DF023}\mpasbase.vdm       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C7A3CB07-F839-44D5-BA4C-68E3BA0DF023}\mpasdlta.vdm       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C7A3CB07-F839-44D5-BA4C-68E3BA0DF023}\mpavbase.vdm       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C7A3CB07-F839-44D5-BA4C-68E3BA0DF023}\mpavdlta.vdm       
+C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C7A3CB07-F839-44D5-BA4C-68E3BA0DF023}\mpengine.dll       
+C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service\Unknown.Log                                            
+C:\ProgramData\USOPrivate\UpdateStore\store.db                                                                         
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.09ea7da5-391a-43e3-9f81-87518c46cfe3.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.0e390857-b69d-4da5-aed7-c687d743e11c.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.1559b6ee-4b38-47c4-8b6f-d737657853d7.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.39dd298f-6205-4ef3-ac58-17471d5f8062.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.4ddc287d-52af-48f2-ae08-81ba97005e70.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.711e4a06-2355-4fb5-93aa-ed07dc3b58d3.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.81f38bfe-4593-4582-a7f9-abc50df1bd37.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.8dced61e-9d98-4023-bbbe-454ce4c162ed.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.8fc1df82-e8b4-47f6-a7fb-9c551f3b5ab6.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.93628a30-80f3-45e7-af2c-3e22d742bf2a.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.b1a2f913-b911-4cda-8b3d-19f6d8f0d121.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.b21afbc3-3c85-49e8-a4f5-3e996a975d2e.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.bd345f9f-d117-4c53-a9ab-25e36044a98a.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.e04c9a2c-d241-4ae8-a098-29a5239a0c72.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.e6d7010d-66e4-47b1-9542-34698e441b02.1.etl             
+C:\ProgramData\USOShared\Logs\System\UpdateSessionOrchestration.e755f749-d630-486f-95e6-f6a3ed4c9c93.1.etl             
+C:\ProgramData\USOShared\Logs\User\UpdateUx.0268f0ec-e2df-4174-bdea-87c389b961a1.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.0268f0ec-e2df-4174-bdea-87c389b961a1.2.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.0268f0ec-e2df-4174-bdea-87c389b961a1.3.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.0268f0ec-e2df-4174-bdea-87c389b961a1.4.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1ad98b7e-c2f1-4f7d-8df6-5616e8f6391b.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.10.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.11.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.2.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.3.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.4.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.5.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.6.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.7.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.8.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.1f6de9db-4f7c-43ad-8844-23df841f408b.9.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.38bfc5b8-a277-4c93-a395-4e361768e24d.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.4298356c-349b-4275-a1e7-8b13a21c4fcd.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.43004d10-0153-4e73-8c54-c0ffc92f1923.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.2.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.3.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.4.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.5.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.6.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.5c899f15-7d83-4e56-a10a-5342fde08b45.7.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.61d97df4-3092-462d-8c49-e472c47d2850.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.6c28f08a-0b64-4cd2-a86f-673473147532.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.757275b1-38d3-4222-8529-24155fdb6d58.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.78d45157-12e7-432f-9eb8-9ef12f143a4d.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.8948fd54-8a2b-4c13-89e6-e4713273c9d1.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.8948fd54-8a2b-4c13-89e6-e4713273c9d1.2.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.8948fd54-8a2b-4c13-89e6-e4713273c9d1.3.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.899bba27-4960-497c-ba79-bb50c310859f.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.8d610fd9-9f86-4d04-b0aa-0aebbe220ea8.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.8e8f51a2-f1ae-4021-91fc-8efd0fc3b234.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.928aa3cf-5981-4734-92a6-9f524a6df893.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b26ab8e-407c-494a-8b9b-1cdb480656c6.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.10.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.11.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.12.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.13.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.14.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.15.etl                                
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.2.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.3.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.4.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.5.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.6.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.7.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.8.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9b84edaa-02c9-4bbb-9ed1-52194638a85c.9.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.9be3de06-c8cd-431e-80e4-cd77f147d226.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.a09c8d90-9399-4764-acd2-a9d9081ac620.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.a480594c-d057-4a95-91fa-c2c66282c2da.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.a86a43db-36c8-4802-a637-b1085e85dbad.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.a977fe14-2b8d-4274-9fd8-1334d057bdf8.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.b74dcb18-f80f-4acf-af45-c6f31b67b44c.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.b92e141d-2a8c-4305-8db3-6ccf078056e7.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.bb949d51-bec2-4c28-a869-de5c1aeda025.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.c3148a33-ad2d-4935-8c34-4fd7e297b05d.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.d4f19dee-5a1d-4388-bed2-cfed7e113b93.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.ef206740-2616-4c09-9c75-7d7883b7ce7d.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.f07ec673-375d-40ee-bccd-dd2dc9d9d78f.1.etl                                 
+C:\ProgramData\USOShared\Logs\User\UpdateUx.fbc75eca-f331-4ece-a644-0cc0e8b0623f.1.etl                                 
+
+
+
+========== UPDATE METADATA CONTENT ==========

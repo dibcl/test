@@ -1,0 +1,9 @@
+﻿========== QoE -> VMSWITCH TIME CORRELATION ==========
+
+==================================================
+QoE TIME : 2024-07-31 17:52:39.000
+QoE FILE : C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+QoE LINE :
+2024-07-31 17:52:39: buf_vminfo is {"source":4,"uuid":"90ac10de-1500-49e1-a1da-e0cbc8c8fc6a","hostid":"000000000000000000000000000000000000","time":"2024-07-31 17:52:39.611","groupid":"-1","createtime":"2024-07-31 17:52:39.611","environment":{"computername":"DESKTOP%2DGJF65P9","cpu":"AMD EPYC Processor (with IBPB)","os":"%0AMicrosoft+Windows+%5B%E7%89%88%E6%9C%AC+10%2E0%2E19044%2E4529%5D","bit":"64","mem":"8191M","mac":"fa-16-3e-11-fe-37","ip":"169.254.117.37","disk":"C:79.95GB","diskused": "C:22.88GB","version": "V7.24.10-57","targetversion": ""}}
+
+Nearby vmswitch events (+/- 10 sec):

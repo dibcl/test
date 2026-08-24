@@ -1,0 +1,369 @@
+{
+  "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\VmQoEAgent.exe",
+  "sha256": "dc547c4a93e5278d37a7c63df75b88ec9c035065d1d0c4e4ea154d57eeee7612",
+  "size": 194992,
+  "machine": "x86",
+  "bitness": 32,
+  "timestamp": 1751939672,
+  "characteristics": "0x102",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 124879,
+      "vaddr": 4096,
+      "raw_size": 124928,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 46700,
+      "vaddr": 131072,
+      "raw_size": 47104,
+      "raw_ptr": 125952
+    },
+    {
+      "name": ".data",
+      "vsize": 198956,
+      "vaddr": 180224,
+      "raw_size": 1536,
+      "raw_ptr": 173056
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 436,
+      "vaddr": 380928,
+      "raw_size": 512,
+      "raw_ptr": 174592
+    },
+    {
+      "name": ".reloc",
+      "vsize": 8784,
+      "vaddr": 385024,
+      "raw_size": 9216,
+      "raw_ptr": 175104
+    }
+  ],
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateDirectoryA",
+        "CreateFileA",
+        "CreateToolhelp32Snapshot",
+        "DecodePointer",
+        "DeleteCriticalSection",
+        "DeleteFileA",
+        "EncodePointer",
+        "EnterCriticalSection",
+        "FindClose",
+        "FindFirstFileA",
+        "FindNextFileA",
+        "FreeLibrary",
+        "GetComputerNameExA",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThreadId",
+        "GetDiskFreeSpaceExA",
+        "GetDriveTypeA",
+        "GetLastError",
+        "GetLocalTime",
+        "GetLogicalDriveStringsA",
+        "GetModuleFileNameA",
+        "GetModuleHandleA",
+        "GetNativeSystemInfo",
+        "GetPrivateProfileStringA",
+        "GetProcAddress",
+        "GetProcessHeap",
+        "GetProcessTimes",
+        "GetStartupInfoW",
+        "GetSystemInfo",
+        "GetSystemTimeAsFileTime",
+        "GetTickCount",
+        "GlobalMemoryStatusEx",
+        "HeapAlloc",
+        "HeapFree",
+        "HeapSetInformation",
+        "InitializeCriticalSection",
+        "InterlockedCompareExchange",
+        "InterlockedExchange",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "LeaveCriticalSection",
+        "LoadLibraryA",
+        "MultiByteToWideChar",
+        "OpenProcess",
+        "OutputDebugStringA",
+        "Process32First",
+        "Process32Next",
+        "QueryPerformanceCounter",
+        "RemoveDirectoryA",
+        "SetFileAttributesA",
+        "SetUnhandledExceptionFilter",
+        "Sleep",
+        "TerminateProcess",
+        "UnhandledExceptionFilter",
+        "WaitForSingleObject",
+        "WideCharToMultiByte",
+        "Wow64EnableWow64FsRedirection",
+        "WriteFile",
+        "lstrcmpiA"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "MessageBoxA",
+        "PostThreadMessageA"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "CloseServiceHandle",
+        "ControlService",
+        "CreateServiceA",
+        "DeleteService",
+        "DeregisterEventSource",
+        "OpenProcessToken",
+        "OpenSCManagerA",
+        "OpenServiceA",
+        "RegCloseKey",
+        "RegCreateKeyExA",
+        "RegEnumKeyExA",
+        "RegOpenKeyExA",
+        "RegQueryValueExA",
+        "RegSetValueExA",
+        "RegisterEventSourceA",
+        "RegisterServiceCtrlHandlerExA",
+        "ReportEventA",
+        "SetServiceStatus",
+        "StartServiceCtrlDispatcherA"
+      ]
+    },
+    {
+      "dll": "shell32.dll",
+      "functions": [
+        "SHFileOperationA",
+        "ShellExecuteExA"
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "functions": [
+        "CoCreateInstance",
+        "CoInitializeEx",
+        "CoInitializeSecurity",
+        "CoSetProxyBlanket",
+        "CoUninitialize"
+      ]
+    },
+    {
+      "dll": "oleaut32.dll",
+      "functions": [
+        "ordinal:2",
+        "ordinal:6",
+        "ordinal:7",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "msvcr100.dll",
+      "functions": [
+        "??0exception@std@@QAE@ABQBD@Z",
+        "??0exception@std@@QAE@ABV01@@Z",
+        "??1exception@std@@UAE@XZ",
+        "??2@YAPAXI@Z",
+        "??3@YAXPAX@Z",
+        "??_U@YAPAXI@Z",
+        "??_V@YAXPAX@Z",
+        "?_type_info_dtor_internal_method@type_info@@QAEXXZ",
+        "?terminate@@YAXXZ",
+        "?what@exception@std@@UBEPBDXZ",
+        "_CxxThrowException",
+        "_XcptFilter",
+        "__CxxFrameHandler3",
+        "__dllonexit",
+        "__getmainargs",
+        "__iob_func",
+        "__set_app_type",
+        "__setusermatherr",
+        "_acmdln",
+        "_amsg_exit",
+        "_beginthread",
+        "_cexit",
+        "_commode",
+        "_configthreadlocale",
+        "_controlfp_s",
+        "_crt_debugger_hook",
+        "_endthread",
+        "_errno",
+        "_except_handler4_common",
+        "_exit",
+        "_fmode",
+        "_fseeki64",
+        "_ftelli64",
+        "_initterm",
+        "_initterm_e",
+        "_invoke_watson",
+        "_ismbblead",
+        "_localtime64",
+        "_localtime64_s",
+        "_lock",
+        "_onexit",
+        "_pclose",
+        "_popen",
+        "_snprintf",
+        "_stricmp",
+        "_strnicmp",
+        "_time64",
+        "_unlock",
+        "atoi",
+        "exit",
+        "fclose",
+        "feof",
+        "fgets",
+        "fopen",
+        "fprintf",
+        "fread",
+        "free",
+        "fseek",
+        "ftell",
+        "fwrite",
+        "ldiv",
+        "malloc",
+        "memchr",
+        "memcpy",
+        "memmove",
+        "memset",
+        "printf",
+        "remove",
+        "sprintf",
+        "sprintf_s",
+        "sscanf",
+        "strchr",
+        "strerror",
+        "strftime",
+        "strncpy",
+        "strstr",
+        "strtod",
+        "strtok",
+        "toupper",
+        "vfprintf",
+        "vsprintf",
+        "vsprintf_s"
+      ]
+    },
+    {
+      "dll": "dbghelp.dll",
+      "functions": [
+        "MiniDumpWriteDump"
+      ]
+    },
+    {
+      "dll": "msvcp100.dll",
+      "functions": [
+        "?_Orphan_all@_Container_base0@std@@QAEXXZ",
+        "?_Xlength_error@std@@YAXPBD@Z",
+        "?_Xout_of_range@std@@YAXPBD@Z"
+      ]
+    },
+    {
+      "dll": "winmm.dll",
+      "functions": [
+        "timeGetTime"
+      ]
+    },
+    {
+      "dll": "setupapi.dll",
+      "functions": [
+        "SetupDiDestroyDeviceInfoList",
+        "SetupDiEnumDeviceInfo",
+        "SetupDiGetClassDevsA",
+        "SetupDiGetDeviceRegistryPropertyA"
+      ]
+    },
+    {
+      "dll": "shlwapi.dll",
+      "functions": [
+        "PathFileExistsA"
+      ]
+    },
+    {
+      "dll": "iphlpapi.dll",
+      "functions": [
+        "FreeMibTable",
+        "GetAdaptersInfo",
+        "GetExtendedTcpTable",
+        "GetExtendedUdpTable",
+        "GetIfTable2",
+        "GetPerAdapterInfo"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "inet_pton",
+        "ordinal:10",
+        "ordinal:11",
+        "ordinal:115",
+        "ordinal:116",
+        "ordinal:12",
+        "ordinal:16",
+        "ordinal:17",
+        "ordinal:18",
+        "ordinal:2",
+        "ordinal:20",
+        "ordinal:21",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:52",
+        "ordinal:57",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "pdh.dll",
+      "functions": [
+        "PdhAddEnglishCounterA",
+        "PdhCloseQuery",
+        "PdhCollectQueryData",
+        "PdhGetFormattedCounterArrayA",
+        "PdhGetFormattedCounterValue",
+        "PdhOpenQueryA",
+        "PdhRemoveCounter"
+      ]
+    },
+    {
+      "dll": "version.dll",
+      "functions": [
+        "GetFileVersionInfoA",
+        "GetFileVersionInfoSizeA",
+        "VerQueryValueA"
+      ]
+    },
+    {
+      "dll": "libcurl.dll",
+      "functions": [
+        "curl_easy_cleanup",
+        "curl_easy_init",
+        "curl_easy_perform",
+        "curl_easy_reset",
+        "curl_easy_setopt",
+        "curl_easy_strerror",
+        "curl_global_cleanup",
+        "curl_global_init",
+        "curl_slist_append",
+        "curl_slist_free_all"
+      ]
+    },
+    {
+      "dll": "netapi32.dll",
+      "functions": [
+        "NetApiBufferFree",
+        "NetWkstaGetInfo"
+      ]
+    }
+  ],
+  "import_directory_size": 380
+}

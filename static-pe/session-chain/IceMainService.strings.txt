@@ -1,0 +1,873 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	k@Ad/!/7/!/7/!/7ip
+3	ascii	7-!/7
+4	ascii	7.!/7ip
+5	ascii	7-!/7ip
+6	ascii	7<!/7ip
+7	ascii	7+!/7&Y
+8	ascii	7.!/7&Y
+9	ascii	78!/7/!.7+ /7"s
+10	ascii	7.!/7"s
+11	ascii	7.!/7/!
+12	ascii	7.!/7Rich/!/7
+13	ascii	.text
+14	ascii	`.rdata
+15	ascii	@.data
+16	ascii	.pdata
+17	ascii	@.tls
+18	ascii	.rsrc
+19	ascii	@.reloc
+20	ascii	@SUVAVH
+21	ascii	D$x3
+22	ascii	u/A8
+23	ascii	(A^^][
+24	ascii	|$ H
+25	ascii	D$hH
+26	ascii	D$(H
+27	ascii	D$`H
+28	ascii	L$PH
+29	ascii	D$0H
+30	ascii	|$@H
+31	ascii	t$8H
+32	ascii	\$pH
+33	ascii	t$xH
+34	ascii	H+\$PH
+35	ascii	t$ WH
+36	ascii	l$PL
+37	ascii	t$XL
+38	ascii	t$(L
+39	ascii	|$(H
+40	ascii	t$XH
+41	ascii	\$`H
+42	ascii	t$hH
+43	ascii	\$8H
+44	ascii	L$Q3
+45	ascii	L$PA
+46	ascii	L$P3
+47	ascii	D$PL
+48	ascii	D$0L
+49	ascii	L$8H
+50	ascii	L$PE3
+51	ascii	|$8f
+52	ascii	T$@H
+53	ascii	@SVWH
+54	ascii	T$@A
+55	ascii	L$0H
+56	ascii	\$(H
+57	ascii	L$HH3
+58	ascii	P_^[
+59	ascii	L$$3
+60	ascii	|$ UATAUAVAWH
+61	ascii	D$Pf
+62	ascii	L$(3
+63	ascii	|$0H
+64	ascii	L$`3
+65	ascii	D$df
+66	ascii	D$pM
+67	ascii	fA9|D
+68	ascii	D$@=
+69	ascii	|$@L
+70	ascii	L$HH
+71	ascii	)M H
+72	ascii	f9|B
+73	ascii	L$HD
+74	ascii	f9|r
+75	ascii	T$`E
+76	ascii	|$`H
+77	ascii	A_A^A]A\]
+78	ascii	@USVATAUAWH
+79	ascii	t7E3
+80	ascii	D$HH
+81	ascii	D$@H
+82	ascii	\$0H
+83	ascii	t$(H
+84	ascii	L$pf
+85	ascii	D$ph
+86	ascii	T$(H
+87	ascii	D$pH
+88	ascii	D$XH
+89	ascii	d$0L
+90	ascii	A_A]A\^[]
+91	ascii	@USWATAUAVAWH
+92	ascii	uED9-c
+93	ascii	L$`H
+94	ascii	D$hA
+95	ascii	D$(E3
+96	ascii	L$hA
+97	ascii	u[D9-j
+98	ascii	D$xf
+99	ascii	t'E3
+100	ascii	L$hH
+101	ascii	D$pE3
+102	ascii	D$PH
+103	ascii	D$HL
+104	ascii	l$@L
+105	ascii	D$0 
+106	ascii	l$(L
+107	ascii	D$xH
+108	ascii	M H3
+109	ascii	A_A^A]A\_[]
+110	ascii	D$@I
+111	ascii	D$ H
+112	ascii	|$0L
+113	ascii	L$@H
+114	ascii	D$HE3
+115	ascii	\$0L
+116	ascii	L$PH3
+117	ascii	`_^[
+118	ascii	D$p3
+119	ascii	D$LH
+120	ascii	D$TH
+121	ascii	D$\H
+122	ascii	l$(H
+123	ascii	D$@L
+124	ascii	D$HA
+125	ascii	L$pH3
+126	ascii	HiD$ 
+127	ascii	L$(H3
+128	ascii	{ AVH
+129	ascii	D$@0
+130	ascii	D$H3
+131	ascii	@VWAVH
+132	ascii	D$P0
+133	ascii	T$PH
+134	ascii	L$|H
+135	ascii	D$X3
+136	ascii	D$XL
+137	ascii	|$(L
+138	ascii	D$8H
+139	ascii	\$(L
+140	ascii	A^_^
+141	ascii	\$DH
+142	ascii	D$@E3
+143	ascii	T$PA
+144	ascii	t$0H
+145	ascii	D$(L
+146	ascii	\$@H
+147	ascii	l$HH
+148	ascii	t$PH
+149	ascii	t$HH
+150	ascii	T$~D
+151	ascii	D$|D
+152	ascii	T$xD
+153	ascii	T$PD
+154	ascii	D$HD
+155	ascii	L$@D
+156	ascii	T$8D
+157	ascii	L$(H
+158	ascii	D$(W
+159	ascii	L$(L
+160	ascii	T$ H
+161	ascii	L$ H
+162	ascii	L$8H3
+163	ascii	\$83
+164	ascii	@USVWATAUAVAWH
+165	ascii	d$pH
+166	ascii	A_A^A]A\_^[]
+167	ascii	L$0A
+168	ascii	L$03
+169	ascii	L$A3
+170	ascii	L$@A
+171	ascii	@VWAVAW
+172	ascii	D$@f
+173	ascii	L$1A
+174	ascii	T$0A
+175	ascii	A_A^_^
+176	ascii	<+tl</ta<=tJ
+177	ascii	T$AD
+178	ascii	\$HH
+179	ascii	L$1D
+180	ascii	UVWH
+181	ascii	0<;w
+182	ascii	T$0H
+183	ascii	D$0A
+184	ascii	L$13
+185	ascii	L$0L
+186	ascii	D$(A
+187	ascii	D$0#!
+188	ascii	UVWATAUAVAWH
+189	ascii	T$(L
+190	ascii	D8;u
+191	ascii	\$0D8|$0t
+192	ascii	A_A^A]A\_^]
+193	ascii	s5Ic
+194	ascii	\$ ATAVAWH
+195	ascii	\$XH
+196	ascii	 A_A^A\
+197	ascii	l$@H
+198	ascii	tPH+
+199	ascii	|$PH
+200	ascii	drBA
+201	ascii	D$0L+
+202	ascii	s<Ic
+203	ascii	D$1H
+204	ascii	D$9H
+205	ascii	D$AH
+206	ascii	D$IH
+207	ascii	D$QH
+208	ascii	D$YH
+209	ascii	D$if
+210	ascii	D$qH
+211	ascii	D$yH
+212	ascii	L$pL
+213	ascii	T$pH
+214	ascii	|$ AVH
+215	ascii	t$@H
+216	ascii	l$PH
+217	ascii	|$XH
+218	ascii	WAVAWH
+219	ascii	l$hH
+220	ascii	t$pH
+221	ascii	@A_A^_
+222	ascii	D$q@
+223	ascii	|$pf
+224	ascii	D$wI
+225	ascii	L$xH3
+226	ascii	A_A^_
+227	ascii	\$PH
+228	ascii	@SVH
+229	ascii	|$pE3
+230	ascii	t$xL
+231	ascii	ucE9
+232	ascii	uHD9=
+233	ascii	D$0I
+234	ascii	tFD9=yy
+235	ascii	t?D9=
+236	ascii	|$pH
+237	ascii	L$`H3
+238	ascii	@UAVH
+239	ascii	D$00
+240	ascii	D$83
+241	ascii	T$0I
+242	ascii	\$@M
+243	ascii	@UVATAVH
+244	ascii	|$PL
+245	ascii	XA^A\^]
+246	ascii	L$HE3
+247	ascii	|$HH
+248	ascii	D$@3
+249	ascii	L$@H3
+250	ascii	\$hH
+251	ascii	D$8f
+252	ascii	L$hH3
+253	ascii	\$pI
+254	ascii	8csm
+255	ascii	LcA<E3
+256	ascii	t"H+
+257	ascii	HcH<H
+258	ascii	\$ UH
+259	ascii	H3E H3E
+260	ascii	ZXVsnprintf failed, error:0x%x size:%d func:%s:%d
+261	ascii	ZXVsnprintf
+262	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:136
+263	ascii	ZXStrnlen failed, error:0x%x
+264	ascii	ZXStrnlen_s
+265	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:230
+266	ascii	Delete file %s failed, error:%d
+267	ascii	ice_remove
+268	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:302
+269	ascii	rename file %s failed, errno:%d
+270	ascii	ice_rename
+271	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:311
+272	ascii	exit:%d line:%d
+273	ascii	close file failed!
+274	ascii	ZXFile_close
+275	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:608
+276	ascii	fflush failed!
+277	ascii	ZXFflush
+278	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:618
+279	ascii	fwrite failed!
+280	ascii	ZXFwrite
+281	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:627
+282	ascii	open file failed:%s 
+283	ascii	ZXFopen
+284	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:638
+285	ascii	%s\%s
+286	ascii	ice_get_module_name
+287	ascii	ice-config.ini
+288	ascii	%s%s%s
+289	ascii	ice_get_log_fname
+290	ascii	AppMode
+291	ascii	C:\Program Files (x86)\ZTEGuestOS\ZProcessMonitor\ZProCtrl.exe
+292	ascii	start_process_monitor
+293	ascii	ZProcessMonitor
+294	ascii	"%s" --StartMonitor
+295	ascii	"%s" --StopMonitor
+296	ascii	call ZProCtrl.exe fail!!!
+297	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1508
+298	ascii	hProcess not active skip kill %p exitCode:%d !!!
+299	ascii	IceTerminateProcessEx
+300	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1541
+301	ascii	hProcess may active res:%d exitCode:%d beForce:%d!!!
+302	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1544
+303	ascii	GetProcessId Fail errno:%d!!!
+304	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1552
+305	ascii	%p code:%d
+306	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1558
+307	ascii	open pid failed
+308	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1564
+309	ascii	RtlGetVersion
+310	ascii	ntdll.dll
+311	ascii	GetNativeSystemInfo
+312	ascii	kernel32.dll
+313	ascii	WinStationQueryInformationW
+314	ascii	swprintf_s Pipe failed
+315	ascii	create_session_process_as_user
+316	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1759
+317	ascii	IceOpenProcess()failed %lu
+318	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1848
+319	ascii	no need create new process:%d
+320	ascii	ice_create_process_xp
+321	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1870
+322	ascii	Winsta0\winlogon
+323	ascii	CreateProcess failed:%s
+324	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1889
+325	ascii	path:%S
+326	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1907
+327	ascii	create_session_process_as_user #%d
+328	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1912
+329	ascii	restart process:%p dwSession:%d
+330	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1919
+331	ascii	ice_create_process_win7
+332	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1949
+333	ascii	winsta0\default
+334	ascii	ice_create_process_win7_extend
+335	ascii	OpenProcessToken error:%d
+336	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1979
+337	ascii	DuplicateTokenEx error:%d
+338	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1991
+339	ascii	SetTokenInformation error:%lu
+340	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:1999
+341	ascii	begin call CreateProcessAsUser
+342	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:2017
+343	ascii	CreateProcessAsUser error:%lu
+344	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:2021
+345	ascii	restart process:%p crtSession:%u dwSession:%u
+346	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:2029
+347	ascii	open reg fail:%lu node:%s
+348	ascii	ice_get_reg_info_ex
+349	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:3763
+350	ascii	get reg fail:%lu key_name:%s
+351	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:3769
+352	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment\
+353	ascii	 OpenSCManager failed error:%lu
+354	ascii	CheckServiceStatus
+355	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5482
+356	ascii	service %s is not exist
+357	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5490
+358	ascii	OpenService %s failed, error:%lu
+359	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5494
+360	ascii	QueryServiceStatusEx failed, error:%lu
+361	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5501
+362	ascii	service %s running
+363	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5507
+364	ascii	service %s stopped
+365	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5511
+366	ascii	service %s status %d
+367	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5515
+368	ascii	GetSystemTimePreciseAsFileTime
+369	ascii	Kernel32.dll
+370	ascii	GetTickCount64
+371	ascii	Global\vdagent_stop_event
+372	ascii	CreateEvent failed, error:%lu
+373	ascii	ice_kill_vdagent
+374	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5974
+375	ascii	call CreateToolhelp32Snapshot fail!!
+376	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5981
+377	ascii	SetEvent _agent_stop_event failed, errcode=%lu
+378	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5987
+379	ascii	Vdagent.exe
+380	ascii	hProcess:%p
+381	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:5998
+382	ascii	Begin to WaitForSingleObject...
+383	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6001
+384	ascii	exit_code=%d. ret:%d
+385	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6011
+386	ascii	GetExitCodeProcess() failed: %lu
+387	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6014
+388	ascii	Wait timeout
+389	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6018
+390	ascii	WaitForSingleObject() failed: %lu
+391	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6022
+392	ascii	End to kill agent...ret:%d
+393	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6030
+394	ascii	ice_terminate_process_ex
+395	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6055
+396	ascii	terminate process:%s session_id:%ld
+397	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6058
+398	ascii	terminate process:%s th32ProcessID:%u success
+399	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6068
+400	ascii	hProcess:%p terminate process:%s pid:%lu Fail errno:%d!!!
+401	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:6073
+402	ascii	..\log\ice_server
+403	ascii	unknown
+404	ascii	%s%s%s-exception.s%u.%u.dmp
+405	ascii	ApplicationCrashHandler
+406	ascii	Global\ice_capture_restart_event
+407	ascii	ERROR
+408	ascii	CRITICAL
+409	ascii	Warning
+410	ascii	Info
+411	ascii	Debug
+412	ascii	%s.bak
+413	ascii	ice_log_rename_file
+414	ascii	feek error!!!
+415	ascii	%02d-%02d %02d:%02d:%02d:%03ld: disk has space:%llu, limit_disk_space:%d
+416	ascii	ice_write_space_info
+417	ascii	%02d-%02d %02d:%02d:%02d:%03ld: %s%s%s-%s-%u:%u : %s: %s: 
+418	ascii	ice_logv
+419	ascii	%s_%u
+420	ascii	ice_check_duoble_running
+421	ascii	Global\nv_edid_op_lock
+422	ascii	ice_mk_dir
+423	ascii	create folder failed %s 
+424	ascii	Error writing to file
+425	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:7604
+426	ascii	log-file-size
+427	ascii	ice_log_init
+428	ascii	ice_encryptString
+429	ascii	;zxin10config
+430	ascii	ice_getEncryptType
+431	ascii	killblk_ex
+432	ascii	fgetstr_ex
+433	ascii	cutpre_ex
+434	ascii	loop_cnt1 reach max value
+435	ascii	check_cfg_file_rw_time
+436	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:8482
+437	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\base_func.c:8483
+438	ascii	ZXOSGetPrivateProfileString_
+439	ascii	linkto:{
+440	ascii	ZXOSGetPrivateProfileInt_
+441	ascii	IceTunnelService
+442	ascii	IceInputService
+443	ascii	IceDisplayService
+444	ascii	IceSoundService
+445	ascii	IceDisplay.exe
+446	ascii	IceTunnel.exe
+447	ascii	IceSound.exe
+448	ascii	IceInputService.exe
+449	ascii	AdAs.exe
+450	ascii	IceVGPUCapture.exe
+451	ascii	RedirectAgent.exe
+452	ascii	INVALID
+453	ascii	CONNECT
+454	ascii	DISCONNECT
+455	ascii	REMOTE_CONNECT
+456	ascii	REMOTE_DISCONNECT
+457	ascii	LOGON
+458	ascii	LOGOFF
+459	ascii	LOCK
+460	ascii	UNLOCK
+461	ascii	REMOTE_CONTROL
+462	ascii	idx:%u disp:%s hb
+463	ascii	ice_deal_mode_hb
+464	ascii	MainService.c:139
+465	ascii	MainService.c:143
+466	ascii	idx:%u disp:%s hb timeout
+467	ascii	MainService.c:156
+468	ascii	ice_hb_main
+469	ascii	MainService.c:176
+470	ascii	hb timeout timeout:%d
+471	ascii	MainService.c:182
+472	ascii	need restart IceVGPUCapture
+473	ascii	MainService.c:191
+474	ascii	Global\ice_display_hb_event
+475	ascii	Global\ice_tunnel_hb_event
+476	ascii	Global\ice_sound_hb_event
+477	ascii	Global\ice_inputs_hb_event
+478	ascii	Global\vdagent_hb_event
+479	ascii	CreateMutex nv_edid_op_lock failed:%d
+480	ascii	ice_init_envet
+481	ascii	MainService.c:224
+482	ascii	Create thread failed:%lu
+483	ascii	MainService.c:231
+484	ascii	call ice_service_control_handler control:%u event_type:%u
+485	ascii	ice_service_control_handler
+486	ascii	MainService.c:260
+487	ascii	MainService.c:264
+488	ascii	Stop service -- SERVICE_CONTROL_PRESHUTDOWN
+489	ascii	MainService.c:269
+490	ascii	Stop service
+491	ascii	MainService.c:274
+492	ascii	Interrogate service
+493	ascii	MainService.c:280
+494	ascii	Session %lu %s
+495	ascii	MainService.c:288
+496	ascii	Unsupported control %lu
+497	ascii	MainService.c:296
+498	ascii	IceMainService
+499	ascii	RegisterServiceCtrlHandler failed:%d!
+500	ascii	ice_reg_service
+501	ascii	MainService.c:320
+502	ascii	service stoped!!
+503	ascii	ice_unreg_service
+504	ascii	MainService.c:354
+505	ascii	OpenSCManager error %lu
+506	ascii	ice_check_all_service
+507	ascii	MainService.c:372
+508	ascii	OpenService service:%s, error %lu
+509	ascii	MainService.c:383
+510	ascii	OpenService service:%s, success
+511	ascii	MainService.c:389
+512	ascii	QueryServiceStatus service:%s, error %lu
+513	ascii	MainService.c:397
+514	ascii	QueryServiceStatus service:%s, success
+515	ascii	MainService.c:404
+516	ascii	StartService service:%s stoped, start it
+517	ascii	MainService.c:410
+518	ascii	StartService service:%s error %lu
+519	ascii	MainService.c:412
+520	ascii	ice_get_all_procs_handle
+521	ascii	MainService.c:433
+522	ascii	get process:%s handle fail!!!
+523	ascii	MainService.c:450
+524	ascii	ice_run_process
+525	ascii	call process %s fail!!!
+526	ascii	MainService.c:491
+527	ascii	process:%s handle:%p exit:%d, need restart
+528	ascii	ice_check_all_proc
+529	ascii	MainService.c:533
+530	ascii	ice_main_service.log
+531	ascii	14:55:58
+532	ascii	2025-07-09
+533	ascii	V7.25.21-13
+534	ascii	start service version:%s build:%s %s
+535	ascii	ice_main
+536	ascii	MainService.c:636
+537	ascii	log-level
+538	ascii	recv restart event
+539	ascii	MainService.c:669
+540	ascii	OpenSCManager failed!
+541	ascii	GetModuleFileName failed!
+542	ascii	System Reserved
+543	ascii	Ice Service Monitor
+544	ascii	ChangeServiceConfig2 failed!
+545	ascii	Service installed successfully!
+546	ascii	Service already exists!
+547	ascii	Service not installed successfully, error %lu.
+548	ascii	OpenService failed!
+549	ascii	QueryServiceStatus failed!
+550	ascii	Service is still running.
+551	ascii	Service removed successfully.
+552	ascii	Access denied while trying to remove service.
+553	ascii	Handle invalid while trying to remove service.
+554	ascii	Service already marked for deletion.
+555	ascii	install
+556	ascii	uninstall
+557	ascii	Use: Vdservice install / uninstall
+558	ascii	RSDS
+559	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\x64\Release\IceMainService.pdb
+560	ascii	CreateFileA
+561	ascii	FreeLibrary
+562	ascii	SetUnhandledExceptionFilter
+563	ascii	GetCurrentProcess
+564	ascii	QueryPerformanceCounter
+565	ascii	Process32First
+566	ascii	WaitForSingleObject
+567	ascii	SetEvent
+568	ascii	GetSystemTimeAsFileTime
+569	ascii	WaitNamedPipeW
+570	ascii	WriteFile
+571	ascii	InitializeCriticalSection
+572	ascii	OpenProcess
+573	ascii	GetPrivateProfileIntA
+574	ascii	GetSystemDirectoryW
+575	ascii	LoadLibraryW
+576	ascii	Sleep
+577	ascii	CreateEventA
+578	ascii	LeaveCriticalSection
+579	ascii	GetExitCodeProcess
+580	ascii	CreateProcessA
+581	ascii	TerminateProcess
+582	ascii	ReadFile
+583	ascii	CreateFileW
+584	ascii	MultiByteToWideChar
+585	ascii	GetLastError
+586	ascii	SetLastError
+587	ascii	GetProcAddress
+588	ascii	EnterCriticalSection
+589	ascii	GetLocalTime
+590	ascii	Process32Next
+591	ascii	GetProcessId
+592	ascii	ProcessIdToSessionId
+593	ascii	OpenEventA
+594	ascii	GetSystemInfo
+595	ascii	WaitForMultipleObjects
+596	ascii	GetModuleFileNameA
+597	ascii	WTSGetActiveConsoleSessionId
+598	ascii	GetModuleHandleA
+599	ascii	lstrcatW
+600	ascii	CreateMutexA
+601	ascii	CreateToolhelp32Snapshot
+602	ascii	QueryPerformanceFrequency
+603	ascii	GetCurrentThreadId
+604	ascii	OutputDebugStringA
+605	ascii	GetDiskFreeSpaceExA
+606	ascii	CloseHandle
+607	ascii	GetCurrentProcessId
+608	ascii	DeleteFileA
+609	ascii	CreateThread
+610	ascii	KERNEL32.dll
+611	ascii	PeekMessageA
+612	ascii	MsgWaitForMultipleObjects
+613	ascii	USER32.dll
+614	ascii	CreateProcessAsUserA
+615	ascii	OpenServiceA
+616	ascii	CloseServiceHandle
+617	ascii	OpenProcessToken
+618	ascii	StartServiceCtrlDispatcherA
+619	ascii	DeleteService
+620	ascii	ChangeServiceConfig2A
+621	ascii	RegQueryValueExA
+622	ascii	CreateServiceA
+623	ascii	SetTokenInformation
+624	ascii	StartServiceA
+625	ascii	RegisterServiceCtrlHandlerExA
+626	ascii	RegOpenKeyExA
+627	ascii	DuplicateTokenEx
+628	ascii	QueryServiceStatus
+629	ascii	SetServiceStatus
+630	ascii	QueryServiceStatusEx
+631	ascii	OpenSCManagerA
+632	ascii	RegCloseKey
+633	ascii	ADVAPI32.dll
+634	ascii	MiniDumpWriteDump
+635	ascii	dbghelp.dll
+636	ascii	_stricmp
+637	ascii	swprintf_s
+638	ascii	rename
+639	ascii	feof
+640	ascii	memmove
+641	ascii	strncmp
+642	ascii	rewind
+643	ascii	strstr
+644	ascii	__iob_func
+645	ascii	_access
+646	ascii	strchr
+647	ascii	fflush
+648	ascii	atoi
+649	ascii	strnlen
+650	ascii	fgets
+651	ascii	printf
+652	ascii	fopen
+653	ascii	_mkdir
+654	ascii	fprintf
+655	ascii	_vsnprintf
+656	ascii	isupper
+657	ascii	fwrite
+658	ascii	strrchr
+659	ascii	ftell
+660	ascii	fseek
+661	ascii	fclose
+662	ascii	strncpy_s
+663	ascii	exit
+664	ascii	memset
+665	ascii	MSVCR120.dll
+666	ascii	__crt_debugger_hook
+667	ascii	__crtUnhandledException
+668	ascii	__crtTerminateProcess
+669	ascii	__crtCaptureCurrentContext
+670	ascii	__crtCapturePreviousContext
+671	ascii	_XcptFilter
+672	ascii	_amsg_exit
+673	ascii	__getmainargs
+674	ascii	__set_app_type
+675	ascii	_exit
+676	ascii	_cexit
+677	ascii	_configthreadlocale
+678	ascii	__setusermatherr
+679	ascii	_initterm_e
+680	ascii	_initterm
+681	ascii	__C_specific_handler
+682	ascii	__initenv
+683	ascii	_fmode
+684	ascii	_commode
+685	ascii	_lock
+686	ascii	_unlock
+687	ascii	_calloc_crt
+688	ascii	__dllonexit
+689	ascii	_onexit
+690	ascii	?terminate@@YAXXZ
+691	ascii	__crtSetUnhandledExceptionFilter
+692	ascii	IsDebuggerPresent
+693	ascii	IsProcessorFeaturePresent
+694	ascii	EncodePointer
+695	ascii	DecodePointer
+696	ascii	C:\Program Files (x86)\ZTEGuestOS\BCRRedirect
+697	ascii	Enables Ice Service Monitor.
+698	ascii	c:\Program Files (x86)\ZTEGuestOS\AdAs
+699	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+700	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+701	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+702	ascii	    <security>
+703	ascii	      <requestedPrivileges>
+704	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+705	ascii	      </requestedPrivileges>
+706	ascii	    </security>
+707	ascii	  </trustInfo>
+708	ascii	</assembly>
+709	ascii	N0L0
+710	ascii	DigiCert Inc1
+711	ascii	www.digicert.com1!0
+712	ascii	DigiCert Trusted Root G40
+713	ascii	210429000000Z
+714	ascii	360428235959Z0i1
+715	ascii	DigiCert, Inc.1A0?
+716	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+717	ascii	>Mp$d
+718	ascii	}4}L
+719	ascii	!xE.
+720	ascii	IpB2
+721	ascii	6*f(_
+722	ascii	[K]taM?
+723	ascii	m&vh
+724	ascii	J>@G_
+725	ascii	#!Y`
+726	ascii	x8E0
+727	ascii	SA|X=G
+728	ascii	q]dL
+729	ascii	k0i0$
+730	ascii	http://ocsp.digicert.com0A
+731	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+732	ascii	<0:08
+733	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+734	ascii	:#D=
+735	ascii	:]Hm
+736	ascii	v~7q
+737	ascii	!usR
+738	ascii	ov7,
+739	ascii	/"lA
+740	ascii	jj@0HK4
+741	ascii	VxN0
+742	ascii	241111000000Z
+743	ascii	251110235959Z0
+744	ascii	CN1#0!
+745	ascii	Guangdong Province1
+746	ascii	Shenzhen1
+747	ascii	Private Organization1
+748	ascii	9144030027939873X71
+749	ascii	ZTE CORPORATION1
+750	ascii	ZTE CORPORATION0
+751	ascii	3KB/_
+752	ascii	4c<b
+753	ascii	bCQY
+754	ascii	2gx}w
+755	ascii	Bm]JG)OF
+756	ascii	8{:2_hF
+757	ascii	H}If[
+758	ascii	!Oa?
+759	ascii	?66]
+760	ascii	:.fs
+761	ascii	60402
+762	ascii	0)0'
+763	ascii	http://www.digicert.com/CPS0
+764	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+765	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+766	ascii	http://ocsp.digicert.com0\
+767	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+768	ascii	C%,d
+769	ascii	_+*2
+770	ascii	ye>ga
+771	ascii	ZpQeg
+772	ascii	XTB2z
+773	ascii	>,Z,
+774	ascii	C5/u
+775	ascii	0}0i1
+776	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+777	ascii	nwoH6nNUF*
+778	ascii	mgQg
+779	ascii	LD?]N
+780	ascii	Kk-3#;G
+781	ascii	[{/>
+782	ascii	)YX;EN
+783	ascii	&=yWS2()a
+784	ascii	20250709065912Z
+785	ascii	DigiCert, Inc.1;09
+786	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+787	ascii	240926000000Z
+788	ascii	351125235959Z0B1
+789	ascii	DigiCert1 0
+790	ascii	DigiCert Timestamp 20240
+791	ascii	ymIXa+
+792	ascii	GW3K;
+793	ascii	o~R}a
+794	ascii	z9XxGT
+795	ascii	<Jisu
+796	ascii	jSDx
+797	ascii	7!5B
+798	ascii	/s)v
+799	ascii	S0Q0O
+800	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+801	ascii	http://ocsp.digicert.com0X
+802	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+803	ascii	Mm*V;
+804	ascii	Z +J
+805	ascii	MzE @t
+806	ascii	5dz?g
+807	ascii	(f*^[0
+808	ascii	220323000000Z
+809	ascii	370322235959Z0c1
+810	ascii	=rIQU
+811	ascii	|jWz
+812	ascii	!hn7!
+813	ascii	{un'%
+814	ascii	+Xt@(
+815	ascii	u($A
+816	ascii	fIRP
+817	ascii	,W5y+
+818	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+819	ascii	 %41g
+820	ascii	i?Gw
+821	ascii	',=?k
+822	ascii	Axz8
+823	ascii	www.digicert.com1$0"
+824	ascii	DigiCert Assured ID Root CA0
+825	ascii	220801000000Z
+826	ascii	311109235959Z0b1
+827	ascii	]J<0"0i3
+828	ascii	t;mq
+829	ascii	u]xf
+830	ascii	v=Y]Bv
+831	ascii	p,A`
+832	ascii	RQGt
+833	ascii	|Lu?c
+834	ascii	 Qko
+835	ascii	m0k0$
+836	ascii	http://ocsp.digicert.com0C
+837	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+838	ascii	>0<0:
+839	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+840	ascii	Jz/-
+841	ascii	5FjiT
+842	ascii	wZ\T
+843	ascii	~qj#k"
+844	ascii	T-'~
+845	ascii	0w0c1
+846	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+847	ascii	250709065912Z0+
+848	ascii	[E0/
+849	ascii	/1(0&0$0"
+850	ascii	z'=y
+851	ascii	"=wd>B
+852	ascii	@(%2&
+853	utf16le	\winsta.dll
+854	utf16le	\\.\Pipe\TerminalServer\SystemExecSrvr\%d
+855	utf16le	Winsta0\winlogon
+856	utf16le	VS_VERSION_INFO
+857	utf16le	StringFileInfo
+858	utf16le	080404b0
+859	utf16le	CompanyName
+860	utf16le	ICE Corporation
+861	utf16le	FileDescription
+862	utf16le	IceMainService
+863	utf16le	FileVersion
+864	utf16le	V7.25.21-13
+865	utf16le	InternalName
+866	utf16le	IceMainService.exe
+867	utf16le	LegalCopyright
+868	utf16le	Copyright (C) 2017 ICE Corporation
+869	utf16le	OriginalFilename
+870	utf16le	ProductName
+871	utf16le	ProductVersion
+872	utf16le	VarFileInfo
+873	utf16le	Translation

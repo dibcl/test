@@ -1,0 +1,859 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	Rich
+3	ascii	.text
+4	ascii	`.rdata
+5	ascii	@.data
+6	ascii	.rsrc
+7	ascii	@.reloc
+8	ascii	 SVW
+9	ascii	Y_^[
+10	ascii	PSVW
+11	ascii	\SVW
+12	ascii	_^][
+13	ascii	SVWP
+14	ascii	t]j\
+15	ascii	^_[3
+16	ascii	tAj@
+17	ascii	(SVW
+18	ascii	D$$SU
+19	ascii	l$42
+20	ascii	L$$3
+21	ascii	L$42
+22	ascii	_^][3
+23	ascii	D$ SV
+24	ascii	L$ 3
+25	ascii	]^[3
+26	ascii	PQVW
+27	ascii	@SVW
+28	ascii	8_^][Y
+29	ascii	t$(U
+30	ascii	DSVW
+31	ascii	PQTj
+32	ascii	M$QP
+33	ascii	ETPj
+34	ascii	PQSVW
+35	ascii	EtSVWP
+36	ascii	MDHP
+37	ascii	EDPj
+38	ascii	E$VP
+39	ascii	lSVW
+40	ascii	u"h`
+41	ascii	j Y+
+42	ascii	t>+}
+43	ascii	8csm
+44	ascii	Genu
+45	ascii	5ineI
+46	ascii	5ntel
+47	ascii	t#=`
+48	ascii	Y__^[
+49	ascii	ht{@
+50	ascii	QtServiceStarter
+51	ascii	slotStart
+52	ascii	1slotStart()
+53	ascii	QtService: 'name' is longer than 255 characters.
+54	ascii	QtService: 'name' contains backslashes '\'.
+55	ascii	-install
+56	ascii	The service %s could not be installed
+57	ascii	The service %s has been installed under: %s
+58	ascii	The service %s is already installed
+59	ascii	-uninstall
+60	ascii	The service %s could not be uninstalled
+61	ascii	The service %s has been uninstalled.
+62	ascii	The service %s is not installed
+63	ascii	-version
+64	ascii	The service
+65	ascii	installed
+66	ascii	not installed
+67	ascii	is %s
+68	ascii	running
+69	ascii	not running
+70	ascii	 and %s
+71	ascii	-exec
+72	ascii	The service could not be executed.
+73	ascii	-terminate
+74	ascii	The service could not be stopped.
+75	ascii	-pause
+76	ascii	-resume
+77	ascii	-command
+78	ascii	-help
+79	ascii	%s -[i|u|e|t|p|r|c|v|h]
+80	ascii	-i(nstall) [account] [password]
+81	ascii	: Install the service, optionally using given account and password
+82	ascii	-u(ninstall)
+83	ascii	: Uninstall the service.
+84	ascii	-e(xec)
+85	ascii	: Run as a regular application. Useful for debugging.
+86	ascii	-t(erminate)
+87	ascii	: Stop the service.
+88	ascii	-p(ause)
+89	ascii	: Pause the service.
+90	ascii	-r(esume)
+91	ascii	: Resume a paused service.
+92	ascii	-c(ommand) num
+93	ascii	: Send command code num to the service.
+94	ascii	-v(ersion)
+95	ascii	: Print version and status information.
+96	ascii	-h(elp)   
+97	ascii	: Show this help
+98	ascii	No arguments
+99	ascii	: Start the service.
+100	ascii	The service %s could not start
+101	ascii	QtServiceControllerHandler
+102	ascii	advapi32
+103	ascii	RegisterServiceCtrlHandlerW
+104	ascii	SetServiceStatus
+105	ascii	ChangeServiceConfig2W
+106	ascii	CloseServiceHandle
+107	ascii	CreateServiceW
+108	ascii	OpenSCManagerW
+109	ascii	DeleteService
+110	ascii	OpenServiceW
+111	ascii	QueryServiceStatus
+112	ascii	StartServiceCtrlDispatcherW
+113	ascii	StartServiceW
+114	ascii	ControlService
+115	ascii	DeregisterEventSource
+116	ascii	ReportEventW
+117	ascii	RegisterEventSourceW
+118	ascii	QueryServiceConfigW
+119	ascii	QueryServiceConfig2W
+120	ascii	stopping
+121	ascii	The Service failed to start [%1]
+122	ascii	\LocalSystem
+123	ascii	start daemon service
+124	ascii	UpdateDaemon
+125	ascii	Update daemon
+126	ascii	service started
+127	ascii	service stopped
+128	ascii	service paused
+129	ascii	service resumed
+130	ascii	CreateToolhelp32Snapshot failed.
+131	ascii	uSmartviewUpdateUI.exe
+132	ascii	uSmartviewUpdate.exe
+133	ascii	Failed to open process[
+134	ascii	] token.
+135	ascii	Failed to get process[
+136	ascii	] token information size.
+137	ascii	] token information.
+138	ascii	Failed to lookup process[
+139	ascii	] account SID.
+140	ascii	CreateToolhelp32Snapshot failed with error %d
+141	ascii	OpenProcessToken error
+142	ascii	DuplicateTokenEx failed_
+143	ascii	CreateProcessAsUser failed
+144	ascii	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\uSmartviewUpdate.exe
+145	ascii	Path
+146	ascii	start process uSmartviewUpdate.exe
+147	ascii	explorer.exe
+148	ascii	need start UI process by pid:
+149	ascii	/conf/zconfig.ini
+150	ascii	Read ini config file successful
+151	ascii	 not exist
+152	ascii	/log/z_daemon_log.log
+153	ascii	Unknown property
+154	ascii	DEBUG
+155	ascii	INFO
+156	ascii	WARN
+157	ascii	FATAL
+158	ascii	ERROR
+159	ascii	%1 %2:%3
+160	ascii	%1 %2 [%3] [%4] :%5
+161	ascii	yyyy-MM-dd HH:mm:ss.zzz
+162	ascii	 open failed!
+163	ascii	/log
+164	ascii	z_daemon_log.log
+165	ascii	rename to 
+166	ascii	level
+167	ascii	slotTimeout
+168	ascii	InitializeConditionVariable
+169	ascii	SleepConditionVariableCS
+170	ascii	WakeAllConditionVariable
+171	ascii	Unknown exception
+172	ascii	bad allocation
+173	ascii	bad array new length
+174	ascii	.text$di
+175	ascii	.text$mn
+176	ascii	.text$x
+177	ascii	.text$yd
+178	ascii	.idata$5
+179	ascii	.00cfg
+180	ascii	.CRT$XCA
+181	ascii	.CRT$XCAA
+182	ascii	.CRT$XCU
+183	ascii	.CRT$XCZ
+184	ascii	.CRT$XIA
+185	ascii	.CRT$XIAA
+186	ascii	.CRT$XIAC
+187	ascii	.CRT$XIC
+188	ascii	.CRT$XIZ
+189	ascii	.CRT$XLA
+190	ascii	.CRT$XLZ
+191	ascii	.CRT$XPA
+192	ascii	.CRT$XPZ
+193	ascii	.CRT$XTA
+194	ascii	.CRT$XTZ
+195	ascii	.rdata
+196	ascii	.rdata$T
+197	ascii	.rdata$r
+198	ascii	.rdata$sxdata
+199	ascii	.rdata$zzzdbg
+200	ascii	.rtc$IAA
+201	ascii	.rtc$IZZ
+202	ascii	.rtc$TAA
+203	ascii	.rtc$TZZ
+204	ascii	.tls
+205	ascii	.tls$
+206	ascii	.tls$ZZZ
+207	ascii	.xdata$x
+208	ascii	.idata$2
+209	ascii	.idata$3
+210	ascii	.idata$4
+211	ascii	.idata$6
+212	ascii	.data
+213	ascii	.data$r
+214	ascii	.bss
+215	ascii	.rsrc$01
+216	ascii	.rsrc$02
+217	ascii	?staticMetaObject@QObject@@2UQMetaObject@@B
+218	ascii	?qBadAlloc@@YAXXZ
+219	ascii	??0QMessageLogger@@QAE@PBDH0@Z
+220	ascii	?warning@QMessageLogger@@QBAXPBDZZ
+221	ascii	?qErrnoWarning@@YAXPBDZZ
+222	ascii	??0QChar@@QAE@H@Z
+223	ascii	??0QChar@@QAE@D@Z
+224	ascii	?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+225	ascii	?deallocate@QArrayData@@SAXPAU1@II@Z
+226	ascii	?sharedNull@QArrayData@@SAPAU1@XZ
+227	ascii	??0QByteArray@@QAE@ABV0@@Z
+228	ascii	??1QByteArray@@QAE@XZ
+229	ascii	?data@QByteArray@@QAEPADXZ
+230	ascii	?constData@QByteArray@@QBEPBDXZ
+231	ascii	??0QString@@QAE@XZ
+232	ascii	??0QString@@QAE@ABV0@@Z
+233	ascii	??1QString@@QAE@XZ
+234	ascii	??4QString@@QAEAAV0@ABV0@@Z
+235	ascii	?truncate@QString@@QAEXH@Z
+236	ascii	?indexOf@QString@@QBEHVQChar@@HW4CaseSensitivity@Qt@@@Z
+237	ascii	?replace@QString@@QAEAAV1@VQChar@@0W4CaseSensitivity@Qt@@@Z
+238	ascii	?toLatin1@QString@@QGBE?AVQByteArray@@XZ
+239	ascii	?toLatin1@QString@@QHAE?AVQByteArray@@XZ
+240	ascii	?toLocal8Bit@QString@@QGBE?AVQByteArray@@XZ
+241	ascii	?fromLocal8Bit@QString@@SA?AV1@PBDH@Z
+242	ascii	?toInt@QString@@QBEHPA_NH@Z
+243	ascii	??8QString@@QBE_NVQLatin1String@@@Z
+244	ascii	?detach@QListData@@QAEPAUData@1@H@Z
+245	ascii	?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+246	ascii	?dispose@QListData@@QAEXXZ
+247	ascii	?dispose@QListData@@SAXPAUData@1@@Z
+248	ascii	?append@QListData@@QAEPAPAXXZ
+249	ascii	?remove@QListData@@QAEXH@Z
+250	ascii	?size@QListData@@QBEHXZ
+251	ascii	?at@QListData@@QBEPAPAXH@Z
+252	ascii	?begin@QListData@@QBEPAPAXXZ
+253	ascii	?end@QListData@@QBEPAPAXXZ
+254	ascii	?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+255	ascii	?qt_metacast@QObject@@UAEPAXPBD@Z
+256	ascii	?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+257	ascii	??0QObject@@QAE@PAV0@@Z
+258	ascii	??1QObject@@UAE@XZ
+259	ascii	?singleShot@QTimer@@SAXHPBVQObject@@PBD@Z
+260	ascii	?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+261	ascii	?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+262	ascii	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+263	ascii	?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+264	ascii	?event@QObject@@UAE_NPAVQEvent@@@Z
+265	ascii	?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+266	ascii	?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+267	ascii	?shared_null@QListData@@2UData@1@B
+268	ascii	?self@QCoreApplication@@0PAV1@A
+269	ascii	?qt_error_string@@YA?AVQString@@H@Z
+270	ascii	?qErrnoWarning@@YAXHPBDZZ
+271	ascii	??0QChar@@QAE@UQLatin1Char@@@Z
+272	ascii	?mid@QContainerImplHelper@QtPrivate@@SA?AW4CutResult@12@HPAH0@Z
+273	ascii	??0QByteArray@@QAE@XZ
+274	ascii	??0QString@@QAE@$$QAV0@@Z
+275	ascii	??4QString@@QAEAAV0@$$QAV0@@Z
+276	ascii	?arg@QString@@QBE?AV1@ABV1@HVQChar@@@Z
+277	ascii	?endsWith@QString@@QBE_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
+278	ascii	?insert@QString@@QAEAAV1@HVQLatin1String@@@Z
+279	ascii	?utf16@QString@@QBEPBGXZ
+280	ascii	?fromUtf16@QString@@SA?AV1@PBGH@Z
+281	ascii	?fromAscii_helper@QString@@CAPAU?$QTypedArrayData@G@@PBDH@Z
+282	ascii	?realloc@QListData@@QAEXH@Z
+283	ascii	??0QEvent@@QAE@W4Type@0@@Z
+284	ascii	??1QEvent@@UAE@XZ
+285	ascii	?postEvent@QCoreApplication@@SAXPAVQObject@@PAVQEvent@@H@Z
+286	ascii	?quit@QCoreApplication@@SAXXZ
+287	ascii	??0QLibrary@@QAE@ABVQString@@PAVQObject@@@Z
+288	ascii	??1QLibrary@@UAE@XZ
+289	ascii	?resolve@QLibrary@@QAEP6AXXZPBD@Z
+290	ascii	??0QMutex@@QAE@W4RecursionMode@0@@Z
+291	ascii	??1QMutex@@QAE@XZ
+292	ascii	?lock@QMutex@@QAEXXZ
+293	ascii	?unlock@QMutex@@QAEXXZ
+294	ascii	??0QSemaphore@@QAE@H@Z
+295	ascii	??1QSemaphore@@QAE@XZ
+296	ascii	?acquire@QSemaphore@@QAEXH@Z
+297	ascii	?tryAcquire@QSemaphore@@QAE_NHH@Z
+298	ascii	?release@QSemaphore@@QAEXH@Z
+299	ascii	??0QWaitCondition@@QAE@XZ
+300	ascii	??1QWaitCondition@@QAE@XZ
+301	ascii	?wait@QWaitCondition@@QAE_NPAVQMutex@@K@Z
+302	ascii	?wakeAll@QWaitCondition@@QAEXXZ
+303	ascii	?instance@QAbstractEventDispatcher@@SAPAV1@PAVQThread@@@Z
+304	ascii	?installNativeEventFilter@QAbstractEventDispatcher@@QAEXPAVQAbstractNativeEventFilter@@@Z
+305	ascii	??0QThread@@QAE@PAVQObject@@@Z
+306	ascii	??1QThread@@UAE@XZ
+307	ascii	?isFinished@QThread@@QBE_NXZ
+308	ascii	?isRunning@QThread@@QBE_NXZ
+309	ascii	?start@QThread@@QAEXW4Priority@1@@Z
+310	ascii	?wait@QThread@@QAE_NK@Z
+311	ascii	??0QAbstractNativeEventFilter@@QAE@XZ
+312	ascii	??1QAbstractNativeEventFilter@@UAE@XZ
+313	ascii	?event@QThread@@UAE_NPAVQEvent@@@Z
+314	ascii	?metaObject@QThread@@UBEPBUQMetaObject@@XZ
+315	ascii	?qt_metacall@QThread@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+316	ascii	?qt_metacast@QThread@@UAEPAXPBD@Z
+317	ascii	?qunsetenv@@YA_NPBD@Z
+318	ascii	?info@QMessageLogger@@QBE?AVQDebug@@XZ
+319	ascii	??BQByteArray@@QBEPBDXZ
+320	ascii	?indexOf@QString@@QBEHABV1@HW4CaseSensitivity@Qt@@@Z
+321	ascii	??0QCoreApplication@@QAE@AAHPAPADH@Z
+322	ascii	??1QCoreApplication@@UAE@XZ
+323	ascii	?exec@QCoreApplication@@SAHXZ
+324	ascii	??1QProcessEnvironment@@QAE@XZ
+325	ascii	?keys@QProcessEnvironment@@QBE?AVQStringList@@XZ
+326	ascii	?systemEnvironment@QProcessEnvironment@@SA?AV1@XZ
+327	ascii	??1QDebug@@QAE@XZ
+328	ascii	??6QDebug@@QAEAAV0@PBD@Z
+329	ascii	?compressEvent@QCoreApplication@@MAE_NPAVQEvent@@PAVQObject@@PAVQPostEventList@@@Z
+330	ascii	?event@QCoreApplication@@MAE_NPAVQEvent@@@Z
+331	ascii	?metaObject@QCoreApplication@@UBEPBUQMetaObject@@XZ
+332	ascii	?notify@QCoreApplication@@UAE_NPAVQObject@@PAVQEvent@@@Z
+333	ascii	?qt_metacall@QCoreApplication@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+334	ascii	?qt_metacast@QCoreApplication@@UAEPAXPBD@Z
+335	ascii	?debug@QMessageLogger@@QBE?AVQDebug@@XZ
+336	ascii	?info@QMessageLogger@@QBAXPBDZZ
+337	ascii	??1Connection@QMetaObject@@QAE@XZ
+338	ascii	?trimmed@QString@@QHAE?AV1@XZ
+339	ascii	?append@QString@@QAEAAV1@ABV1@@Z
+340	ascii	?fromUtf8@QString@@SA?AV1@PBDH@Z
+341	ascii	?fromWCharArray@QString@@SA?AV1@PB_WH@Z
+342	ascii	?compare@QString@@SAHABV1@0W4CaseSensitivity@Qt@@@Z
+343	ascii	??M@YA_NABVQString@@0@Z
+344	ascii	?toStdWString@QString@@QBE?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ
+345	ascii	?connectImpl@QObject@@CA?AVConnection@QMetaObject@@PBV1@PAPAX01PAVQSlotObjectBase@QtPrivate@@W4ConnectionType@Qt@@PBHPBU3@@Z
+346	ascii	??0QTimer@@QAE@PAVQObject@@@Z
+347	ascii	??1QTimer@@UAE@XZ
+348	ascii	?setInterval@QTimer@@QAEXH@Z
+349	ascii	?start@QTimer@@QAEXXZ
+350	ascii	?stop@QTimer@@QAEXXZ
+351	ascii	?timeout@QTimer@@QAEXUQPrivateSignal@1@@Z
+352	ascii	?nextNode@QMapNodeBase@@QBEPBU1@XZ
+353	ascii	?recalcMostLeftNode@QMapDataBase@@QAEXXZ
+354	ascii	?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z
+355	ascii	?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z
+356	ascii	?createData@QMapDataBase@@SAPAU1@XZ
+357	ascii	?freeData@QMapDataBase@@SAXPAU1@@Z
+358	ascii	??0QVariant@@QAE@XZ
+359	ascii	??1QVariant@@QAE@XZ
+360	ascii	?toString@QVariant@@QBE?AVQString@@XZ
+361	ascii	??6QDebug@@QAEAAV0@I@Z
+362	ascii	??6QDebug@@QAEAAV0@K@Z
+363	ascii	??0QSettings@@QAE@ABVQString@@W4Format@0@PAVQObject@@@Z
+364	ascii	??1QSettings@@UAE@XZ
+365	ascii	?value@QSettings@@QBE?AVQVariant@@ABVQString@@ABV2@@Z
+366	ascii	?metaObject@QTimer@@UBEPBUQMetaObject@@XZ
+367	ascii	?qt_metacall@QTimer@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+368	ascii	?qt_metacast@QTimer@@UAEPAXPBD@Z
+369	ascii	?timerEvent@QTimer@@MAEXPAVQTimerEvent@@@Z
+370	ascii	?staticMetaObject@QTimer@@2UQMetaObject@@B
+371	ascii	?shared_null@QMapDataBase@@2U1@B
+372	ascii	?critical@QMessageLogger@@QBE?AVQDebug@@XZ
+373	ascii	?trimmed@QString@@QGBE?AV1@XZ
+374	ascii	?append@QString@@QAEAAV1@PBD@Z
+375	ascii	?isNull@QString@@QBE_NXZ
+376	ascii	??0QVariant@@QAE@PBD@Z
+377	ascii	?allKeys@QSettings@@QBE?AVQStringList@@XZ
+378	ascii	??0QFile@@QAE@ABVQString@@@Z
+379	ascii	??1QFile@@UAE@XZ
+380	ascii	?exists@QFile@@QBE_NXZ
+381	ascii	??0QFileInfo@@QAE@ABVQFile@@@Z
+382	ascii	??1QFileInfo@@QAE@XZ
+383	ascii	??6@YA?AVQDebug@@V0@ABVQFileInfo@@@Z
+384	ascii	??6QDebug@@QAEAAV0@ABVQString@@@Z
+385	ascii	?applicationDirPath@QCoreApplication@@SA?AVQString@@XZ
+386	ascii	?qInstallMessageHandler@@YAP6AXW4QtMsgType@@ABVQMessageLogContext@@ABVQString@@@ZP6AX012@Z@Z
+387	ascii	?arg@QString@@QBE?AV1@HHHVQChar@@@Z
+388	ascii	?lastIndexOf@QString@@QBEHABV1@HW4CaseSensitivity@Qt@@@Z
+389	ascii	?right@QString@@QBE?AV1@H@Z
+390	ascii	?startsWith@QString@@QBE_NABV1@W4CaseSensitivity@Qt@@@Z
+391	ascii	?toUpper@QString@@QHAE?AV1@XZ
+392	ascii	?number@QString@@SA?AV1@HH@Z
+393	ascii	?number@QString@@SA?AV1@IH@Z
+394	ascii	??8QString@@QBE_NPBD@Z
+395	ascii	?close@QFileDevice@@UAEXXZ
+396	ascii	?flush@QFileDevice@@QAE_NXZ
+397	ascii	?remove@QFile@@QAE_NXZ
+398	ascii	?rename@QFile@@QAE_NABVQString@@@Z
+399	ascii	?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+400	ascii	?size@QFile@@UBE_JXZ
+401	ascii	??0QTextStream@@QAE@PAVQIODevice@@@Z
+402	ascii	??1QTextStream@@UAE@XZ
+403	ascii	??6QTextStream@@QAEAAV0@ABVQString@@@Z
+404	ascii	??6QTextStream@@QAEAAV0@PBD@Z
+405	ascii	??1QDateTime@@QAE@XZ
+406	ascii	?toString@QDateTime@@QBE?AVQString@@ABV2@@Z
+407	ascii	?currentDateTime@QDateTime@@SA?AV1@XZ
+408	ascii	?fileName@QFileInfo@@QBE?AVQString@@XZ
+409	ascii	?isFile@QFileInfo@@QBE_NXZ
+410	ascii	??0QDir@@QAE@ABVQString@@@Z
+411	ascii	??1QDir@@QAE@XZ
+412	ascii	?entryInfoList@QDir@@QBE?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
+413	ascii	?mkdir@QDir@@QBE_NABVQString@@@Z
+414	ascii	?exists@QDir@@QBE_NABVQString@@@Z
+415	ascii	??6QDebug@@QAEAAV0@_N@Z
+416	ascii	?currentThreadId@QThread@@SAPAXXZ
+417	ascii	Qt5Core.dll
+418	ascii	CreateProcessAsUserW
+419	ascii	OpenProcessToken
+420	ascii	DuplicateTokenEx
+421	ascii	GetTokenInformation
+422	ascii	LookupAccountSidA
+423	ascii	ADVAPI32.dll
+424	ascii	GetLastError
+425	ascii	Sleep
+426	ascii	GetModuleFileNameW
+427	ascii	CloseHandle
+428	ascii	GetCurrentProcessId
+429	ascii	TerminateProcess
+430	ascii	OpenProcess
+431	ascii	LocalAlloc
+432	ascii	LocalFree
+433	ascii	CreateToolhelp32Snapshot
+434	ascii	Process32FirstW
+435	ascii	Process32NextW
+436	ascii	EnterCriticalSection
+437	ascii	LeaveCriticalSection
+438	ascii	InitializeCriticalSectionAndSpinCount
+439	ascii	DeleteCriticalSection
+440	ascii	SetEvent
+441	ascii	ResetEvent
+442	ascii	WaitForSingleObjectEx
+443	ascii	CreateEventW
+444	ascii	GetModuleHandleW
+445	ascii	GetProcAddress
+446	ascii	UnhandledExceptionFilter
+447	ascii	SetUnhandledExceptionFilter
+448	ascii	GetCurrentProcess
+449	ascii	IsProcessorFeaturePresent
+450	ascii	IsDebuggerPresent
+451	ascii	QueryPerformanceCounter
+452	ascii	GetCurrentThreadId
+453	ascii	GetSystemTimeAsFileTime
+454	ascii	InitializeSListHead
+455	ascii	KERNEL32.dll
+456	ascii	_purecall
+457	ascii	__std_terminate
+458	ascii	_CxxThrowException
+459	ascii	__CxxFrameHandler3
+460	ascii	memcpy
+461	ascii	memset
+462	ascii	__std_exception_copy
+463	ascii	__std_exception_destroy
+464	ascii	_except_handler4_common
+465	ascii	VCRUNTIME140.dll
+466	ascii	__acrt_iob_func
+467	ascii	__stdio_common_vfprintf
+468	ascii	_invalid_parameter_noinfo_noreturn
+469	ascii	_wcsicmp
+470	ascii	_callnewh
+471	ascii	malloc
+472	ascii	_configure_narrow_argv
+473	ascii	_initialize_narrow_environment
+474	ascii	_initialize_onexit_table
+475	ascii	_register_onexit_function
+476	ascii	_crt_atexit
+477	ascii	_cexit
+478	ascii	terminate
+479	ascii	_seh_filter_exe
+480	ascii	_set_app_type
+481	ascii	__setusermatherr
+482	ascii	_get_initial_narrow_environment
+483	ascii	_initterm
+484	ascii	_initterm_e
+485	ascii	exit
+486	ascii	_exit
+487	ascii	_set_fmode
+488	ascii	__p___argc
+489	ascii	__p___argv
+490	ascii	_c_exit
+491	ascii	_register_thread_local_exe_atexit_callback
+492	ascii	_configthreadlocale
+493	ascii	_set_new_mode
+494	ascii	__p__commode
+495	ascii	free
+496	ascii	_controlfp_s
+497	ascii	api-ms-win-crt-stdio-l1-1-0.dll
+498	ascii	api-ms-win-crt-runtime-l1-1-0.dll
+499	ascii	api-ms-win-crt-string-l1-1-0.dll
+500	ascii	api-ms-win-crt-heap-l1-1-0.dll
+501	ascii	api-ms-win-crt-math-l1-1-0.dll
+502	ascii	api-ms-win-crt-locale-l1-1-0.dll
+503	ascii	.?AVQtServiceController@@
+504	ascii	.?AVQtServiceBase@@
+505	ascii	.?AVQtServiceStarter@@
+506	ascii	.?AVQObject@@
+507	ascii	.?AVQEvent@@
+508	ascii	.?AVQtServiceControllerHandler@@
+509	ascii	.?AVHandlerThread@@
+510	ascii	.?AVQThread@@
+511	ascii	.?AVQtServiceAppEventFilter@@
+512	ascii	.?AVQAbstractNativeEventFilter@@
+513	ascii	.?AVQCoreApplication@@
+514	ascii	.?AV?$QtService@VQCoreApplication@@@@
+515	ascii	.?AVMyService@@
+516	ascii	.?AVQTimer@@
+517	ascii	.?AVUpdateDaemon@@
+518	ascii	.?AVtype_info@@
+519	ascii	.?AVbad_alloc@std@@
+520	ascii	.?AVexception@std@@
+521	ascii	.?AVbad_array_new_length@std@@
+522	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+523	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+524	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+525	ascii	    <security>
+526	ascii	      <requestedPrivileges>
+527	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+528	ascii	      </requestedPrivileges>
+529	ascii	    </security>
+530	ascii	  </trustInfo>
+531	ascii	  <dependency>
+532	ascii	    <dependentAssembly>
+533	ascii	      <assemblyIdentity type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*' />
+534	ascii	    </dependentAssembly>
+535	ascii	  </dependency>
+536	ascii	</assembly>
+537	ascii	0#0)0.030:0A0Q0V0f0x0
+538	ascii	1%121E1c1v1
+539	ascii	2"2F2U2
+540	ascii	273B3
+541	ascii	4)484D4g4
+542	ascii	565H5
+543	ascii	6@6`6o6
+544	ascii	767H7b7o7
+545	ascii	8&888R8_8t8}8
+546	ascii	9(9B9S9h9w9
+547	ascii	:::I:Y:v:
+548	ascii	:W;b;p;
+549	ascii	<#<)<1<I<]<q<
+550	ascii	=%=9=M=a=u=
+551	ascii	>8>D>P>V>g>r>
+552	ascii	?K?Q?_?
+553	ascii	0*0;0I0R0X0i0r0
+554	ascii	101<1B1J1_1h1t1
+555	ascii	2@2I2Y2_2r2
+556	ascii	3+3[3l3}3
+557	ascii	4#4,474q4
+558	ascii	565W5v5
+559	ascii	6'767
+560	ascii	768H8b8x8
+561	ascii	829G9
+562	ascii	98:F:v:
+563	ascii	;+;I;e;v;
+564	ascii	<1<<<U<
+565	ascii	<!=d=m=v=
+566	ascii	>'>O>U>}>
+567	ascii	>#?)?.?A?G?Y?_?
+568	ascii	0"0Q0W0\0o0u0
+569	ascii	1I1^1l1
+570	ascii	2[2n2
+571	ascii	2<3L3T3a3h3
+572	ascii	3+404F4X4o4~4
+573	ascii	4:5O5_5i5
+574	ascii	6 646H6O6r6
+575	ascii	7(707D7X7_7
+576	ascii	8*8@8I8S8l8|8
+577	ascii	9/959@9d9
+578	ascii	:%:-:F:Z:a:
+579	ascii	;$;/;:;@;K;`;o;v;|;
+580	ascii	<"<6<V<g<
+581	ascii	?R?g?
+582	ascii	0.0@0W0_0p0
+583	ascii	0<1J1w1
+584	ascii	2E2Z2d2z2
+585	ascii	3+3B3v3
+586	ascii	4(4D4c4i4p4z4
+587	ascii	525I5X5^5
+588	ascii	5?6R6Z6g6{6
+589	ascii	7!7(70777?7F7N7U7]7d7l7s7{7
+590	ascii	828E8u8
+591	ascii	9&989N9e9t9
+592	ascii	:3:d:l:q:}:
+593	ascii	;8;L;S;Y;f;
+594	ascii	<$<,<1<@<I<f<u<
+595	ascii	<5===B=Q=Z=v=
+596	ascii	>$>F>T>
+597	ascii	?6?C?a?k?
+598	ascii	0&171P1W1{1
+599	ascii	2#202?2O2g2p2y2
+600	ascii	3"3_3r3
+601	ascii	4(4U4q4
+602	ascii	5(5?5G5L5R5a5i5q5z5
+603	ascii	6'6=6T6\6a6g6v6~6
+604	ascii	7&7/7D7P7Y7j7s7
+605	ascii	8W8\8b8u8
+606	ascii	9O:f:x:
+607	ascii	: ;7;?;K;Q;Y;a;j;s;
+608	ascii	=L=T=Y=e=n=w=
+609	ascii	>.>;>A>
+610	ascii	?$?R?
+611	ascii	040<0J0P0X0e0s0y0
+612	ascii	1$101D1v1
+613	ascii	2+2;2S2a2v2
+614	ascii	4&484[4h4y4
+615	ascii	5'5/5B5
+616	ascii	6!6;6M6h6p6
+617	ascii	7-7?7Q7Z7h7z7
+618	ascii	8-8P8
+619	ascii	9.9C9K9P9`9h9v9
+620	ascii	:6:D:e:~:
+621	ascii	;!;+;8;E;h;n;{;
+622	ascii	<0<M<e<y<
+623	ascii	=9=K=R=c=p=
+624	ascii	>&>4>U>b>h>}>
+625	ascii	?+?=?D?U?b?y?
+626	ascii	W0b0n0w0
+627	ascii	161E1Z1b1w1
+628	ascii	242=2K2`2i2t2
+629	ascii	323?3H3Q3}3
+630	ascii	4)404D4O4_4v4
+631	ascii	5-5C5L5U5^5g5p5y5
+632	ascii	6"6+646=6T6Z6c6l6u6~6
+633	ascii	7(7:7K7e7|7
+634	ascii	8#8,868A8J8P8`8q8
+635	ascii	9)909I9X9c9|9
+636	ascii	; ;&;,;2;v;
+637	ascii	;)<_<
+638	ascii	=!=3===
+639	ascii	=7>P>c>o>~>
+640	ascii	?$?3?8?Y?_?d?o?y?
+641	ascii	0,050@0H0R0Z0e0k0q0{0
+642	ascii	2G3r3
+643	ascii	5+515A5g5~5
+644	ascii	6.646:6@6F6L6S6Z6a6h6o6v6}6
+645	ascii	7 7;7F7
+646	ascii	7'8;8B8r8{8
+647	ascii	: :h:q:
+648	ascii	;';=;w;
+649	ascii	<&<+<><Q<W<]<c<i<o<u<{<
+650	ascii	=#=)=/=5=;=E=`=t=
+651	ascii	>2>R>r>
+652	ascii	?'?0?9?B?K?a?
+653	ascii	\0u0~0
+654	ascii	1"181U1^1t1
+655	ascii	2-2Z2
+656	ascii	2!353F3O3X3a3r3
+657	ascii	3$4:4U4k4
+658	ascii	5'5@5W5h5q5
+659	ascii	5!656>6G6X6{6
+660	ascii	7%7*7R7u7
+661	ascii	8'80898J8S8\8e8n8
+662	ascii	9&9N9h9r9
+663	ascii	:*:4:=:F:i:
+664	ascii	;';0;9;B;K;T;];b;
+665	ascii	<!<'<,<7<F<S<e<
+666	ascii	4t5x5|5
+667	ascii	:X<\<`<d<h<l<p<t<x<|<
+668	ascii	= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=x=|=
+669	ascii	> >$>(>,>0>4>8><>@>D>H>L>P>T>X>
+670	ascii	T2X2
+671	ascii	34383<3P3T3X3t3x3
+672	ascii	3@4D4H4L4d4h4x4|4
+673	ascii	50545L5\5`5t5x5
+674	ascii	6 6$6(606H6L6d6t6x6|6
+675	ascii	7$7(7,747L7\7`7p7t7x7
+676	ascii	848D8H8X8\8`8h8
+677	ascii	9 9$94989<9D9\9l9p9
+678	ascii	> >(>x>
+679	ascii	?(?4?<?\?p?|?
+680	ascii	0<0P0`0
+681	ascii	1 1(10181@1H1P1X1`1h1p1x1
+682	ascii	2,2@2L2T2
+683	ascii	343<3T3`3
+684	ascii	4 4(40484@4H4P4X4d4
+685	ascii	4 5@5H5P5X5`5h5t5
+686	ascii	6$6,646<6D6L6T6\6d6l6x6
+687	ascii	7$707T7t7|7
+688	ascii	8$8,848<8D8P8p8x8
+689	ascii	9$9,949<9D9L9T9\9d9l9t9|9
+690	ascii	:$:,:4:<:H:h:p:x:
+691	ascii	;$;,;4;<;D;L;T;\;d;l;t;|;
+692	ascii	<$<,<4<<<D<L<T<`<
+693	ascii	= =(=0=8=@=H=P=X=`=h=p=x=
+694	ascii	>$><>@>`>|>
+695	ascii	?$?,?0?4?<?P?
+696	ascii	0 0$04080<0x0
+697	ascii	141P1h1
+698	ascii	2$2<2X2p2
+699	ascii	N0L0
+700	ascii	DigiCert Inc1
+701	ascii	www.digicert.com1!0
+702	ascii	DigiCert Trusted Root G40
+703	ascii	210429000000Z
+704	ascii	360428235959Z0i1
+705	ascii	DigiCert, Inc.1A0?
+706	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+707	ascii	>Mp$d
+708	ascii	}4}L
+709	ascii	!xE.
+710	ascii	IpB2
+711	ascii	6*f(_
+712	ascii	[K]taM?
+713	ascii	m&vh
+714	ascii	J>@G_
+715	ascii	#!Y`
+716	ascii	x8E0
+717	ascii	SA|X=G
+718	ascii	q]dL
+719	ascii	k0i0$
+720	ascii	http://ocsp.digicert.com0A
+721	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+722	ascii	<0:08
+723	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+724	ascii	:#D=
+725	ascii	:]Hm
+726	ascii	v~7q
+727	ascii	!usR
+728	ascii	ov7,
+729	ascii	/"lA
+730	ascii	jj@0HK4
+731	ascii	VxN0
+732	ascii	210617000000Z
+733	ascii	240821235959Z0q1
+734	ascii	GuangDong Province1
+735	ascii	ShenZhen1
+736	ascii	ZTE CORPORATION1
+737	ascii	ZTE CORPORATION0
+738	ascii	?Fv(
+739	ascii	7zc_
+740	ascii	G'i 
+741	ascii	^Z\):
+742	ascii	A9+y
+743	ascii	L"-#}
+744	ascii	_-u3
+745	ascii	k54'
+746	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+747	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+748	ascii	70503
+749	ascii	0)0'
+750	ascii	http://www.digicert.com/CPS0
+751	ascii	http://ocsp.digicert.com0\
+752	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+753	ascii	`}q(Ic
+754	ascii	&+9X
+755	ascii	0}0i1
+756	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+757	ascii	4*9e
+758	ascii	^^),
+759	ascii	w\jQ
+760	ascii	3^.Y
+761	ascii	J` [m
+762	ascii	#H@M
+763	ascii	.+Q{
+764	ascii	-v K
+765	ascii	m]q<f
+766	ascii	f-M%
+767	ascii	20240302090757Z
+768	ascii	DigiCert, Inc.1;09
+769	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+770	ascii	230714000000Z
+771	ascii	341013235959Z0H1
+772	ascii	DigiCert, Inc.1 0
+773	ascii	DigiCert Timestamp 20230
+774	ascii	H-^Eu
+775	ascii	x)9k
+776	ascii	{s>2
+777	ascii	!IQ~
+778	ascii	/s)v
+779	ascii	S0Q0O
+780	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+781	ascii	http://ocsp.digicert.com0X
+782	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+783	ascii	a7hIw
+784	ascii	.%x%
+785	ascii	w}uE
+786	ascii	y8H_
+787	ascii	|s1U
+788	ascii	l2|X/gGe
+789	ascii	(f*^[0
+790	ascii	220323000000Z
+791	ascii	370322235959Z0c1
+792	ascii	=rIQU
+793	ascii	|jWz
+794	ascii	!hn7!
+795	ascii	{un'%
+796	ascii	+Xt@(
+797	ascii	u($A
+798	ascii	fIRP
+799	ascii	,W5y+
+800	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+801	ascii	 %41g
+802	ascii	i?Gw
+803	ascii	',=?k
+804	ascii	Axz8
+805	ascii	www.digicert.com1$0"
+806	ascii	DigiCert Assured ID Root CA0
+807	ascii	220801000000Z
+808	ascii	311109235959Z0b1
+809	ascii	]J<0"0i3
+810	ascii	t;mq
+811	ascii	u]xf
+812	ascii	v=Y]Bv
+813	ascii	p,A`
+814	ascii	RQGt
+815	ascii	|Lu?c
+816	ascii	 Qko
+817	ascii	m0k0$
+818	ascii	http://ocsp.digicert.com0C
+819	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+820	ascii	>0<0:
+821	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+822	ascii	Jz/-
+823	ascii	5FjiT
+824	ascii	wZ\T
+825	ascii	~qj#k"
+826	ascii	T-'~
+827	ascii	0w0c1
+828	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+829	ascii	240302090757Z0+
+830	ascii	/1(0&0$0"
+831	ascii	@WhA6o
+832	ascii	VPg6
+833	ascii	t6oK
+834	ascii	GP{(
+835	ascii	is!'
+836	ascii	ROMC
+837	ascii	]-=0
+838	ascii	rCL)
+839	utf16le	@jjj
+840	utf16le	jjjjjj
+841	utf16le	api-ms-win-core-synch-l1-2-0.dll
+842	utf16le	kernel32.dll
+843	utf16le	VS_VERSION_INFO
+844	utf16le	StringFileInfo
+845	utf16le	040904b0
+846	utf16le	CompanyName
+847	utf16le	ZTE Corporation
+848	utf16le	FileDescription
+849	utf16le	uSmartView Update
+850	utf16le	FileVersion
+851	utf16le	7.24.10.01
+852	utf16le	LegalCopyright
+853	utf16le	ZTE Corporation. All rights reserved.
+854	utf16le	OriginalFilename
+855	utf16le	UpdateDaemon.exe
+856	utf16le	ProductName
+857	utf16le	ProductVersion
+858	utf16le	VarFileInfo
+859	utf16le	Translation

@@ -1,0 +1,191 @@
+﻿========== CURRENT PROCESSES ==========
+
+PROCESS: MswitchWin.exe
+PID: 4016
+ParentPID: 732
+Path: C:\Program Files (x86)\vmtool\vm_booster\MswitchWin.exe
+CommandLine: "C:\Program Files (x86)\vmtool\vm_booster\MswitchWin.exe"
+StartTime: 08/23/2026 23:40:21
+ParentName: services.exe
+ParentPath: 
+
+PROCESS: Vmbooster.exe
+PID: 3476
+ParentPID: 732
+Path: C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe
+CommandLine: "C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe"
+StartTime: 08/23/2026 23:40:21
+ParentName: services.exe
+ParentPath: 
+
+PROCESS: VmBoosterMonitor.exe
+PID: 4080
+ParentPID: 732
+Path: C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe
+CommandLine: "C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe"
+StartTime: 08/23/2026 23:40:21
+ParentName: services.exe
+ParentPath: 
+
+PROCESS: VmQoEAgent.exe
+PID: 3068
+ParentPID: 732
+Path: C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe
+CommandLine: "C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe"
+StartTime: 08/23/2026 23:40:21
+ParentName: services.exe
+ParentPath: 
+
+========== SERVICES ==========
+
+
+Name        : MswitchWin
+DisplayName : MswitchWin
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\MswitchWin.exe"
+
+Name        : Vmbooster
+DisplayName : Vmbooster
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\Vmbooster.exe"
+
+Name        : VmBoosterMonitor
+DisplayName : VmBoosterMonitor
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\VmBoosterMonitor.exe"
+
+Name        : VmQoEAgent
+DisplayName : VmQoEAgent
+State       : Running
+StartMode   : Auto
+StartName   : LocalSystem
+PathName    : "C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe"
+
+
+
+
+========== SERVICE DEPENDENCIES ==========
+
+SERVICE: MswitchWin
+Status: Running
+RequiredServices: 
+DependentServices: 
+
+SERVICE: Vmbooster
+Status: Running
+RequiredServices: 
+DependentServices: 
+
+SERVICE: VmBoosterMonitor
+Status: Running
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmicguestinterface
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmicheartbeat
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmickvpexchange
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmicrdv
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmicshutdown
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmictimesync
+Status: Stopped
+RequiredServices: VmGid
+DependentServices: 
+
+SERVICE: vmicvmsession
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: vmicvss
+Status: Stopped
+RequiredServices: 
+DependentServices: 
+
+SERVICE: VmQoEAgent
+Status: Running
+RequiredServices: 
+DependentServices: 
+
+========== SCHEDULED TASKS ==========
+
+========== RUN KEYS ==========
+
+HKLM:\Software\Microsoft\Windows\CurrentVersion\Run
+
+
+SecurityHealth         : C:\Windows\system32\SecurityHealthSystray.exe
+SysguardSystemOptimize : c:\sysopttmp\userstartup.exe
+pcas_agent             : C:\Program Files (x86)\pcas\pcas_agent.exe
+PSPath                 : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Curr
+                         entVersion\Run
+PSParentPath           : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Curr
+                         entVersion
+PSChildName            : Run
+PSDrive                : HKLM
+PSProvider             : Microsoft.PowerShell.Core\Registry
+
+
+
+
+
+HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Run
+
+
+Ecloud Computer Manager.exe : C:\Program Files\Ecloud\ComputerManager\Ecloud Computer Manager.exe /silent
+AssistantService            : sc start AssistantService
+ExternalVdesktopAgent       : sc start ExternalVdesktopAgent
+PSPath                      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\WOW6432Node\Micro
+                              soft\Windows\CurrentVersion\Run
+PSParentPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\Software\WOW6432Node\Micro
+                              soft\Windows\CurrentVersion
+PSChildName                 : Run
+PSDrive                     : HKLM
+PSProvider                  : Microsoft.PowerShell.Core\Registry
+
+
+
+
+
+HKCU:\Software\Microsoft\Windows\CurrentVersion\Run
+
+
+GameViewer                                               : "D:\UU\GameViewer\GameViewer.exe" --auto-run
+MicrosoftEdgeAutoLaunch_98769996E24836F99EC8617644423B4C : "C:\Program Files (x86)\Microsoft\Edge\Application\m
+                                                           sedge.exe" --no-startup-window --win-session-start
+PSPath                                                   : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USE
+                                                           R\Software\Microsoft\Windows\CurrentVersion\Run
+PSParentPath                                             : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USE
+                                                           R\Software\Microsoft\Windows\CurrentVersion
+PSChildName                                              : Run
+PSDrive                                                  : HKCU
+PSProvider                                               : Microsoft.PowerShell.Core\Registry
+
+
+
+

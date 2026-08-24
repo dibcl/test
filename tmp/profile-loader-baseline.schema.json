@@ -1,0 +1,611 @@
+{
+  "component_names": [
+    "vmbooster",
+    "vmagent",
+    "PVDriver",
+    "vdagent",
+    "usbipc",
+    "media_redirect"
+  ],
+  "fixed_defaults": {
+    "4002.agentstatus": "1",
+    "4002.data_len": 512,
+    "4002.msgtype": "4002",
+    "4004.data_len": 512,
+    "4004.msgtype": "4004",
+    "4004.vmagent": " ",
+    "9050.environment.targetversion": "",
+    "9050.hostid": "000000000000000000000000000000000000",
+    "9050.source": 4,
+    "9054.mothod": "1",
+    "9054.source": 4
+  },
+  "fixture_alignment": {
+    "4002": {
+      "aligned": true,
+      "extra_paths": [],
+      "missing_paths": [],
+      "order_mismatches": {},
+      "type_mismatches": {}
+    },
+    "4004": {
+      "aligned": true,
+      "extra_paths": [],
+      "missing_paths": [],
+      "order_mismatches": {},
+      "type_mismatches": {}
+    },
+    "8047": {
+      "aligned": true,
+      "extra_paths": [],
+      "missing_paths": [],
+      "order_mismatches": {},
+      "type_mismatches": {}
+    },
+    "9050": {
+      "aligned": true,
+      "extra_paths": [],
+      "missing_paths": [],
+      "order_mismatches": {},
+      "type_mismatches": {}
+    },
+    "9054": {
+      "aligned": true,
+      "extra_paths": [],
+      "missing_paths": [],
+      "order_mismatches": {},
+      "type_mismatches": {}
+    }
+  },
+  "latest_observed_versions": {
+    "PVDriver": "3.18.34.723185c6",
+    "guesttools_environment": "V7.25.21SP3pv",
+    "media_redirect": "",
+    "usbipc": "",
+    "vdagent": "",
+    "vmbooster": "V7.25.21SP3pv",
+    "vmbooster_heartbeat": "V7.25.21SP3pv"
+  },
+  "messages": {
+    "4002": {
+      "data_len_values": [
+        512
+      ],
+      "format": "json",
+      "object_key_orders": {
+        "$": [
+          [
+            "msgtype",
+            "agentversion",
+            "vmid",
+            "agentstatus",
+            "computername",
+            "issysprep"
+          ]
+        ]
+      },
+      "parse_errors": 0,
+      "paths": {
+        "$": [
+          "object"
+        ],
+        "$.agentstatus": [
+          "string"
+        ],
+        "$.agentversion": [
+          "string"
+        ],
+        "$.computername": [
+          "string"
+        ],
+        "$.issysprep": [
+          "string"
+        ],
+        "$.msgtype": [
+          "string"
+        ],
+        "$.vmid": [
+          "string"
+        ]
+      },
+      "samples": 27250,
+      "serial_escape_expansion_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "string_formats": {
+        "$.agentstatus": [
+          "integer_text"
+        ],
+        "$.agentversion": [
+          "version_like"
+        ],
+        "$.computername": [
+          "empty",
+          "string"
+        ],
+        "$.issysprep": [
+          "integer_text"
+        ],
+        "$.msgtype": [
+          "integer_text"
+        ],
+        "$.vmid": [
+          "zero36"
+        ]
+      }
+    },
+    "4004": {
+      "data_len_values": [
+        256,
+        512
+      ],
+      "format": "plaintext_object",
+      "object_key_orders": {
+        "$": [
+          [
+            "msgtype",
+            "vmid",
+            "vmbooster",
+            "vmagent",
+            "PVDriver",
+            "vdagent",
+            "usbipc",
+            "media_redirect"
+          ]
+        ]
+      },
+      "parse_errors": 0,
+      "paths": {
+        "$": [
+          "object"
+        ],
+        "$.PVDriver": [
+          "string"
+        ],
+        "$.media_redirect": [
+          "string"
+        ],
+        "$.msgtype": [
+          "string"
+        ],
+        "$.usbipc": [
+          "string"
+        ],
+        "$.vdagent": [
+          "string"
+        ],
+        "$.vmagent": [
+          "string"
+        ],
+        "$.vmbooster": [
+          "string"
+        ],
+        "$.vmid": [
+          "string"
+        ]
+      },
+      "samples": 176,
+      "serial_escape_expansion_values": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "string_formats": {
+        "$.PVDriver": [
+          "version_like"
+        ],
+        "$.media_redirect": [
+          "empty"
+        ],
+        "$.msgtype": [
+          "integer_text"
+        ],
+        "$.usbipc": [
+          "empty"
+        ],
+        "$.vdagent": [
+          "empty"
+        ],
+        "$.vmagent": [
+          "string"
+        ],
+        "$.vmbooster": [
+          "version_like"
+        ],
+        "$.vmid": [
+          "zero36"
+        ]
+      }
+    },
+    "8047": {
+      "data_len_values": [
+        80,
+        81
+      ],
+      "format": "plaintext_object",
+      "object_key_orders": {
+        "$": [
+          [
+            "msgtype",
+            "msgid",
+            "vmuuid"
+          ]
+        ]
+      },
+      "parse_errors": 0,
+      "paths": {
+        "$": [
+          "object"
+        ],
+        "$.msgid": [
+          "string"
+        ],
+        "$.msgtype": [
+          "string"
+        ],
+        "$.vmuuid": [
+          "string"
+        ]
+      },
+      "samples": 17,
+      "serial_escape_expansion_values": [
+        0,
+        1,
+        2
+      ],
+      "string_formats": {
+        "$.msgid": [
+          "integer_text"
+        ],
+        "$.msgtype": [
+          "integer_text"
+        ],
+        "$.vmuuid": [
+          "uuid"
+        ]
+      }
+    },
+    "9050": {
+      "data_len_values": [
+        488,
+        489,
+        491,
+        517,
+        519,
+        520,
+        538,
+        541
+      ],
+      "format": "json",
+      "object_key_orders": {
+        "$": [
+          [
+            "source",
+            "uuid",
+            "hostid",
+            "time",
+            "groupid",
+            "createtime",
+            "environment"
+          ]
+        ],
+        "$.environment": [
+          [
+            "computername",
+            "cpu",
+            "os",
+            "bit",
+            "mem",
+            "mac",
+            "ip",
+            "disk",
+            "diskused",
+            "version",
+            "targetversion"
+          ]
+        ]
+      },
+      "parse_errors": 0,
+      "paths": {
+        "$": [
+          "object"
+        ],
+        "$.createtime": [
+          "string"
+        ],
+        "$.environment": [
+          "object"
+        ],
+        "$.environment.bit": [
+          "string"
+        ],
+        "$.environment.computername": [
+          "string"
+        ],
+        "$.environment.cpu": [
+          "string"
+        ],
+        "$.environment.disk": [
+          "string"
+        ],
+        "$.environment.diskused": [
+          "string"
+        ],
+        "$.environment.ip": [
+          "string"
+        ],
+        "$.environment.mac": [
+          "string"
+        ],
+        "$.environment.mem": [
+          "string"
+        ],
+        "$.environment.os": [
+          "string"
+        ],
+        "$.environment.targetversion": [
+          "string"
+        ],
+        "$.environment.version": [
+          "string"
+        ],
+        "$.groupid": [
+          "string"
+        ],
+        "$.hostid": [
+          "string"
+        ],
+        "$.source": [
+          "integer"
+        ],
+        "$.time": [
+          "string"
+        ],
+        "$.uuid": [
+          "string"
+        ]
+      },
+      "samples": 77,
+      "serial_escape_expansion_values": [
+        0
+      ],
+      "string_formats": {
+        "$.createtime": [
+          "datetime"
+        ],
+        "$.environment.bit": [
+          "integer_text"
+        ],
+        "$.environment.computername": [
+          "string",
+          "url_encoded_or_literal_plus"
+        ],
+        "$.environment.cpu": [
+          "string"
+        ],
+        "$.environment.disk": [
+          "string"
+        ],
+        "$.environment.diskused": [
+          "string"
+        ],
+        "$.environment.ip": [
+          "empty",
+          "version_like"
+        ],
+        "$.environment.mac": [
+          "empty",
+          "string",
+          "version_like"
+        ],
+        "$.environment.mem": [
+          "memory_mb"
+        ],
+        "$.environment.os": [
+          "url_encoded_or_literal_plus"
+        ],
+        "$.environment.targetversion": [
+          "empty"
+        ],
+        "$.environment.version": [
+          "version_like"
+        ],
+        "$.groupid": [
+          "string"
+        ],
+        "$.hostid": [
+          "zero36"
+        ],
+        "$.time": [
+          "datetime"
+        ],
+        "$.uuid": [
+          "uuid",
+          "zero36"
+        ]
+      }
+    },
+    "9054": {
+      "data_len_values": [
+        363,
+        438,
+        644,
+        745,
+        1123,
+        1369,
+        1611,
+        1820,
+        2028,
+        2079,
+        2081,
+        2237,
+        2358,
+        2361,
+        2386,
+        2538
+      ],
+      "format": "json",
+      "object_key_orders": {
+        "$": [
+          [
+            "source",
+            "uuid",
+            "hostid",
+            "createtime",
+            "mothod",
+            "softwares"
+          ]
+        ],
+        "$.softwares[*]": [
+          [
+            "name",
+            "type",
+            "publisher",
+            "installtime",
+            "size",
+            "version",
+            "operate"
+          ]
+        ]
+      },
+      "parse_errors": 0,
+      "paths": {
+        "$": [
+          "object"
+        ],
+        "$.createtime": [
+          "string"
+        ],
+        "$.hostid": [
+          "string"
+        ],
+        "$.mothod": [
+          "string"
+        ],
+        "$.softwares": [
+          "array"
+        ],
+        "$.softwares[*]": [
+          "object"
+        ],
+        "$.softwares[*].installtime": [
+          "string"
+        ],
+        "$.softwares[*].name": [
+          "string"
+        ],
+        "$.softwares[*].operate": [
+          "string"
+        ],
+        "$.softwares[*].publisher": [
+          "string"
+        ],
+        "$.softwares[*].size": [
+          "string"
+        ],
+        "$.softwares[*].type": [
+          "string"
+        ],
+        "$.softwares[*].version": [
+          "string"
+        ],
+        "$.source": [
+          "integer"
+        ],
+        "$.uuid": [
+          "string"
+        ]
+      },
+      "samples": 251,
+      "serial_escape_expansion_values": [
+        0
+      ],
+      "string_formats": {
+        "$.createtime": [
+          "datetime"
+        ],
+        "$.hostid": [
+          "zero36"
+        ],
+        "$.mothod": [
+          "integer_text"
+        ],
+        "$.softwares[*].installtime": [
+          "empty",
+          "integer_text",
+          "string"
+        ],
+        "$.softwares[*].name": [
+          "string",
+          "url_encoded_or_literal_plus"
+        ],
+        "$.softwares[*].operate": [
+          "integer_text"
+        ],
+        "$.softwares[*].publisher": [
+          "empty",
+          "string",
+          "url_encoded_or_literal_plus"
+        ],
+        "$.softwares[*].size": [
+          "integer_text"
+        ],
+        "$.softwares[*].type": [
+          "integer_text"
+        ],
+        "$.softwares[*].version": [
+          "empty",
+          "string",
+          "version_like"
+        ],
+        "$.uuid": [
+          "uuid",
+          "zero36"
+        ]
+      }
+    }
+  },
+  "redacted": true,
+  "schema_version": 1,
+  "source": {
+    "kind": "local_vmswitch_log",
+    "path": "C:\\Program Files (x86)\\vmtool\\vm_booster\\vmswitch.log",
+    "sha256": "a066ccda1dbf913b6c517532119be9ca3c80fe088d0c5f74ca1558b6898af0fb"
+  },
+  "standard_versions": {
+    "PVDriver": [
+      "3.18.34.723185c6"
+    ],
+    "guesttools_environment": [
+      "V7.24.10-57",
+      "V7.24.10-SP5",
+      "V7.24.30SP1-20",
+      "V7.24.42SP3",
+      "V7.24.42SP3-12",
+      "V7.25.21SP3",
+      "V7.25.21SP3pv"
+    ],
+    "vmbooster": [
+      "V7.24.10-57",
+      "V7.24.10-SP5",
+      "V7.24.30SP1-20",
+      "V7.24.42SP3-12",
+      "V7.25.21SP3",
+      "V7.25.21SP3pv"
+    ],
+    "vmbooster_heartbeat": [
+      "V7.24.10-57",
+      "V7.24.10-SP5",
+      "V7.24.30SP1-20",
+      "V7.24.42SP3-12",
+      "V7.25.21SP3",
+      "V7.25.21SP3pv"
+    ]
+  }
+}

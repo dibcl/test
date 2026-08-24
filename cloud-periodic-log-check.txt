@@ -1,0 +1,50 @@
+﻿========== PERIODIC LOG CANDIDATES ==========
+
+C:\Program Files (x86)\vmtool\vm_booster\vmbooster.log
+Writes   : 2
+Avg(sec) : 30.383
+Min(sec) : 30.383
+Max(sec) : 30.383
+Deltas   : 221,221
+
+C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_input.log
+Writes   : 5
+Avg(sec) : 11.465
+Min(sec) : 3.728
+Max(sec) : 27.703
+Deltas   : 6981,360,129,195,129
+
+C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_tunnel.log
+Writes   : 2
+Avg(sec) : 52.814
+Min(sec) : 52.814
+Max(sec) : 52.814
+Deltas   : 12166,102
+
+C:\Program Files (x86)\vmtool\vm_booster\vmswitch.log
+Writes   : 2
+Avg(sec) : 30.384
+Min(sec) : 30.384
+Max(sec) : 30.384
+Deltas   : 1386,1386
+
+C:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_display.log
+Writes   : 7
+Avg(sec) : 8.979
+Min(sec) : 3.754
+Max(sec) : 10.161
+Deltas   : 46773,726,726,726,726,726,1567
+
+C:\Program Files (x86)\ZTEGuestOS\log\vdagent.log
+Writes   : 10
+Avg(sec) : 5.689
+Min(sec) : 0.53
+Max(sec) : 33.584
+Deltas   : 1483,426,426,284,852,1278,852,150,121,142
+
+C:\Program Files (x86)\vmtool\vm_booster\QoEAgent.log
+Writes   : 3
+Avg(sec) : 1.869
+Min(sec) : 0.529
+Max(sec) : 3.21
+Deltas   : 373,95,657

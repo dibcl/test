@@ -1,0 +1,96 @@
+{
+  "deterministic": true,
+  "fixtures": [
+    {
+      "files": {
+        "payload": "4002.payload.bin",
+        "raw": "4002.raw.bin",
+        "serial": "4002.serial.bin"
+      },
+      "int_msgid": 4002,
+      "lengths": {
+        "payload": 512,
+        "raw": 640,
+        "serial": 641
+      },
+      "sha256": {
+        "payload": "48e4cf22631be6629fff3140eabc3d2a18ab801a5b67b9810e8f42b387923901",
+        "raw": "38d4324d726dfe05b4a439f750e757e90f199978bbe189c214106189030228e5",
+        "serial": "d65965512fda3e0e292cfb03a679c472730db3ae78815e62d42259063adaebe5"
+      }
+    },
+    {
+      "files": {
+        "payload": "4004.payload.bin",
+        "raw": "4004.raw.bin",
+        "serial": "4004.serial.bin"
+      },
+      "int_msgid": 4004,
+      "lengths": {
+        "payload": 512,
+        "raw": 640,
+        "serial": 641
+      },
+      "sha256": {
+        "payload": "bb2ecfb060e73cfe819c55943a1e4b574513f55a9b94b8ebf71f9665dbf2051d",
+        "raw": "db3989e85218cc9fb6e9f134fab474e4c272f7bad414720e27433b8005602c72",
+        "serial": "077b43e1f747c77ee7b0d542470af9531c0825801756b10943d8e96d415ea792"
+      }
+    },
+    {
+      "files": {
+        "payload": "8047.payload.bin",
+        "raw": "8047.raw.bin",
+        "serial": "8047.serial.bin"
+      },
+      "int_msgid": 8047,
+      "lengths": {
+        "payload": 81,
+        "raw": 209,
+        "serial": 210
+      },
+      "sha256": {
+        "payload": "7fed2d8c3cf1a8c4ae8c0b4e13e63f34bed99ad8c11c44a0b207fcb76535c183",
+        "raw": "3662a340c27f9bcdfc296982973149c330af74ba6fe97bbc968a8787a5641031",
+        "serial": "4c3e54a30c3d23a0c971e5362994da01c9862dacc86f6c96e3f429a77f329aca"
+      }
+    },
+    {
+      "files": {
+        "payload": "9050.payload.bin",
+        "raw": "9050.raw.bin",
+        "serial": "9050.serial.bin"
+      },
+      "int_msgid": 9050,
+      "lengths": {
+        "payload": 480,
+        "raw": 608,
+        "serial": 609
+      },
+      "sha256": {
+        "payload": "7477e4a96e390f2e689995ad0b33bb10887b5839996c63e604d04b1ecfd873be",
+        "raw": "a12619fa5f8df391911f1e01514ad9f2f3eab5539a7bbfa3df9421b1bfd76523",
+        "serial": "e96104f943debd4a20d3f26ce8c1da7edb7a119009110d7683aed28724c67678"
+      }
+    },
+    {
+      "files": {
+        "payload": "9054.payload.bin",
+        "raw": "9054.raw.bin",
+        "serial": "9054.serial.bin"
+      },
+      "int_msgid": 9054,
+      "lengths": {
+        "payload": 299,
+        "raw": 427,
+        "serial": 428
+      },
+      "sha256": {
+        "payload": "f78332d6d28db419b3e6954723a9cba19be2d13b87da88dc44920b2e7ea655ea",
+        "raw": "e4e8e1f9ab0ebf17a58495a5ff9cfb11278662241d8e9e8a0c8b564578d3cf89",
+        "serial": "bf85034a8e9de185d5927202d6f7bd8c1706de53b81be37180da4d05041a250c"
+      }
+    }
+  ],
+  "test_mode": true
+}

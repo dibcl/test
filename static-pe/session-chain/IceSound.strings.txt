@@ -1,0 +1,2279 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	O]OEO\
+3	ascii	LEOR
+4	ascii	LGOR
+5	ascii	LxOC
+6	ascii	LyOT
+7	ascii	O]O|O\
+8	ascii	O]OCOQ
+9	ascii	O]OFOQ
+10	ascii	ORichP
+11	ascii	.text
+12	ascii	`.rdata
+13	ascii	@.data
+14	ascii	.pdata
+15	ascii	@.tls
+16	ascii	.rsrc
+17	ascii	@.reloc
+18	ascii	@SUVAVH
+19	ascii	D$x3
+20	ascii	u/A8
+21	ascii	(A^^][
+22	ascii	|$ H
+23	ascii	D$hH
+24	ascii	D$(H
+25	ascii	D$`H
+26	ascii	L$PH
+27	ascii	D$0H
+28	ascii	|$@H
+29	ascii	t$8H
+30	ascii	\$pH
+31	ascii	t$xH
+32	ascii	H+\$PH
+33	ascii	t$ WH
+34	ascii	l$PL
+35	ascii	t$XL
+36	ascii	t$(L
+37	ascii	|$(H
+38	ascii	t$XH
+39	ascii	\$`H
+40	ascii	t$hH
+41	ascii	t$ H
+42	ascii	WATAUAVAWH
+43	ascii	\$PH
+44	ascii	l$`H
+45	ascii	 A_A^A]A\_
+46	ascii	\$@H
+47	ascii	L$ WH
+48	ascii	t$@H+
+49	ascii	D$pH
+50	ascii	D$(L
+51	ascii	L$ L
+52	ascii	t$@H
+53	ascii	\$HH
+54	ascii	D$@3
+55	ascii	L$0A
+56	ascii	L$0H
+57	ascii	L$(H
+58	ascii	L$@H3
+59	ascii	T$PA
+60	ascii	D$HH
+61	ascii	D$@L
+62	ascii	D$8H
+63	ascii	D$PL
+64	ascii	D$PH
+65	ascii	L$0L
+66	ascii	L$8H3
+67	ascii	\$8H
+68	ascii	L$Q3
+69	ascii	L$PA
+70	ascii	L$P3
+71	ascii	D$0L
+72	ascii	L$8H
+73	ascii	L$PE3
+74	ascii	|$8f
+75	ascii	T$@H
+76	ascii	\$(H
+77	ascii	L$HH3
+78	ascii	L$$3
+79	ascii	L$ H
+80	ascii	D$ f
+81	ascii	L$PH3
+82	ascii	|$ UATAUAVAWH
+83	ascii	D$Pf
+84	ascii	L$(3
+85	ascii	|$0H
+86	ascii	L$`3
+87	ascii	D$df
+88	ascii	D$pM
+89	ascii	fA9|D
+90	ascii	D$@=
+91	ascii	|$@L
+92	ascii	L$HH
+93	ascii	)M H
+94	ascii	f9|B
+95	ascii	L$HD
+96	ascii	f9|r
+97	ascii	T$`E
+98	ascii	|$`H
+99	ascii	A_A^A]A\]
+100	ascii	@UVATAUAVAWH
+101	ascii	D$@H
+102	ascii	\$0I
+103	ascii	t$(H
+104	ascii	A_A^A]A\^]
+105	ascii	L$pf
+106	ascii	D$ph
+107	ascii	T$(H
+108	ascii	D$XH
+109	ascii	|$0L
+110	ascii	@USWATAUAVAWH
+111	ascii	uED9-g
+112	ascii	L$`H
+113	ascii	D$hA
+114	ascii	D$(E3
+115	ascii	L$hA
+116	ascii	u[D9-n
+117	ascii	D$xf
+118	ascii	t'E3
+119	ascii	L$hH
+120	ascii	D$pE3
+121	ascii	D$HL
+122	ascii	l$@L
+123	ascii	D$0 
+124	ascii	l$(L
+125	ascii	D$xH
+126	ascii	M H3
+127	ascii	A_A^A]A\_[]
+128	ascii	\$0H
+129	ascii	D$8L
+130	ascii	D$03
+131	ascii	D$(E
+132	ascii	L$XH3
+133	ascii	@SUVWAVH
+134	ascii	D$X3
+135	ascii	D$P|7
+136	ascii	L$DE
+137	ascii	T$HH
+138	ascii	\$(L
+139	ascii	D$ L
+140	ascii	`A^_^][
+141	ascii	D$PE3
+142	ascii	\$0E3
+143	ascii	@SVWH
+144	ascii	D$@A
+145	ascii	D$ H
+146	ascii	L$@H
+147	ascii	D$HE3
+148	ascii	\$0L
+149	ascii	`_^[
+150	ascii	L$4L
+151	ascii	|$45H
+152	ascii	D$P3
+153	ascii	D$  
+154	ascii	D$1H
+155	ascii	D$9H
+156	ascii	D$If
+157	ascii	D$(W
+158	ascii	t$HH
+159	ascii	L$HA
+160	ascii	L$@L
+161	ascii	D$@|7
+162	ascii	L$hH3
+163	ascii	|$PH
+164	ascii	D$p3
+165	ascii	D$LH
+166	ascii	D$TH
+167	ascii	D$\H
+168	ascii	l$(H
+169	ascii	D$HA
+170	ascii	L$pH3
+171	ascii	L$(H3
+172	ascii	L$$H
+173	ascii	HiD$ 
+174	ascii	|$ AVH
+175	ascii	l$8H
+176	ascii	tQE3
+177	ascii	D9CHt#H
+178	ascii	\$DH
+179	ascii	D$@E3
+180	ascii	t$0H
+181	ascii	l$HH
+182	ascii	t$PH
+183	ascii	T$~D
+184	ascii	D$|D
+185	ascii	T$xD
+186	ascii	T$PD
+187	ascii	D$HD
+188	ascii	L$@D
+189	ascii	T$8D
+190	ascii	L$(L
+191	ascii	T$ H
+192	ascii	\$83
+193	ascii	@USVWATAUAVAWH
+194	ascii	d$pH
+195	ascii	A_A^A]A\_^[]
+196	ascii	L$03
+197	ascii	L$A3
+198	ascii	L$@A
+199	ascii	L$ M
+200	ascii	@VWAVAW
+201	ascii	D$@f
+202	ascii	L$1A
+203	ascii	T$0A
+204	ascii	A_A^_^
+205	ascii	<+tl</ta<=tJ
+206	ascii	T$AD
+207	ascii	L$1D
+208	ascii	UVWH
+209	ascii	0<;w
+210	ascii	T$0H
+211	ascii	D$0A
+212	ascii	L$13
+213	ascii	D$(A
+214	ascii	D$0#!
+215	ascii	UVWATAUAVAWH
+216	ascii	|$ Hc
+217	ascii	T$(L
+218	ascii	drUM
+219	ascii	[<[t
+220	ascii	D8#u
+221	ascii	\$0D8d$0t
+222	ascii	t-Hc
+223	ascii	A_A^A]A\_^]
+224	ascii	s5Ic
+225	ascii	\$ ATAVAWH
+226	ascii	\$XH
+227	ascii	 A_A^A\
+228	ascii	l$@H
+229	ascii	tPH+
+230	ascii	drBA
+231	ascii	D8;u
+232	ascii	\$0D8|$0t
+233	ascii	D$0L+
+234	ascii	s<Ic
+235	ascii	D$AH
+236	ascii	D$IH
+237	ascii	D$QH
+238	ascii	D$YH
+239	ascii	D$if
+240	ascii	D$qH
+241	ascii	D$yH
+242	ascii	L$pL
+243	ascii	T$pH
+244	ascii	uKHc
+245	ascii	@SWAWH
+246	ascii	0Hc|$pI
+247	ascii	0A__[
+248	ascii	l$PH
+249	ascii	|$ A
+250	ascii	t$`H
+251	ascii	|$XH
+252	ascii	|$HH
+253	ascii	\$0f
+254	ascii	@SUVWATAUAVAWH
+255	ascii	L$PL
+256	ascii	D$HfA
+257	ascii	D$`I
+258	ascii	|$xE3
+259	ascii	D$pA
+260	ascii	d$ L
+261	ascii	L$0I+
+262	ascii	A_A^A]A\_^][
+263	ascii	D$hL
+264	ascii	L$`E
+265	ascii	D$`J
+266	ascii	\$ AVH
+267	ascii	l$0H
+268	ascii	t$ AWH
+269	ascii	@SAWH
+270	ascii	(A_[
+271	ascii	d$ A
+272	ascii	d$ H
+273	ascii	|$P3
+274	ascii	t$HL
+275	ascii	eu-H
+276	ascii	eu*H
+277	ascii	D$pD
+278	ascii	D$ A
+279	ascii	@SAVAWH
+280	ascii	D9{0~(I
+281	ascii	 ;{0|
+282	ascii	C@H;
+283	ascii	l$@I
+284	ascii	 A_A^[
+285	ascii	u@Hc
+286	ascii	tGHcS0L
+287	ascii	|$8H
+288	ascii	HcK0H
+289	ascii	Q8H;S0u-A
+290	ascii	H+C H;
+291	ascii	K L+
+292	ascii	t$83
+293	ascii	|$ ATAVAWH
+294	ascii	9~0~JE3
+295	ascii	 ;~0|
+296	ascii	|$XA
+297	ascii	LcA H
+298	ascii	9Q$t
+299	ascii	t$p@2
+300	ascii	t!H+
+301	ascii	l$XH
+302	ascii	|$hH
+303	ascii	L$`H3
+304	ascii	D$83
+305	ascii	@8-1
+306	ascii	ti9i
+307	ascii	@(H;
+308	ascii	x(;s(v,H
+309	ascii	REDQH
+310	ascii	WAVAWH
+311	ascii	E8y u
+312	ascii	M9y8t-A
+313	ascii	 A_A^_
+314	ascii	@WAWH
+315	ascii	l$HE3
+316	ascii	t$ E
+317	ascii	t$PA
+318	ascii	u4D:s4u.D
+319	ascii	t$PL
+320	ascii	l$Ht
+321	ascii	(A__
+322	ascii	t$x|J
+323	ascii	t$pA
+324	ascii	@}DD9s0t.D
+325	ascii	t$p3
+326	ascii	l$ht
+327	ascii	\$`I
+328	ascii	@Hcz
+329	ascii	D$06
+330	ascii	L$0D
+331	ascii	t$pH
+332	ascii	@A_A^_
+333	ascii	9K u
+334	ascii	I9H v
+335	ascii	D$@I
+336	ascii	T$8H
+337	ascii	I;A rB
+338	ascii	|$xff
+339	ascii	@(D+
+340	ascii	;;|$@u"
+341	ascii	|$xH
+342	ascii	T$@A
+343	ascii	|$pH
+344	ascii	t$ht8
+345	ascii	\$@L
+346	ascii	d$XL
+347	ascii	l$HA
+348	ascii	yHE3
+349	ascii	l$HL
+350	ascii	t$H3
+351	ascii	s&ff
+352	ascii	t$XE3
+353	ascii	t$hL
+354	ascii	d$`L
+355	ascii	|$PL
+356	ascii	d$`H
+357	ascii	L$`L
+358	ascii	D$D@
+359	ascii	\$ UVWH
+360	ascii	uAH9
+361	ascii	@UAVH
+362	ascii	(A^]
+363	ascii	C0D;
+364	ascii	u6@:k4u0D
+365	ascii	\$@3
+366	ascii	@SUVWAVAWH
+367	ascii	D$`L
+368	ascii	T$RA
+369	ascii	D$V%
+370	ascii	L$VI
+371	ascii	fHM;d$
+372	ascii	T$PH
+373	ascii	xA_A^_^][
+374	ascii	$+C H
+375	ascii	D$0|
+376	ascii	t$0L
+377	ascii	l$hH
+378	ascii	@A_A^A\
+379	ascii	=REDQtJ
+380	ascii	D$0REDQ
+381	ascii	AHH;@
+382	ascii	9REDQt
+383	ascii	VWAWH
+384	ascii	=REDQ
+385	ascii	sHM;v
+386	ascii	l$p3
+387	ascii	PA__^
+388	ascii	@UWAWH
+389	ascii	D$0/
+390	ascii	k fD
+391	ascii	\$`L
+392	ascii	@A__]
+393	ascii	\$PI
+394	ascii	9yHt)H9y
+395	ascii	H;PHv?H
+396	ascii	;QPt?H
+397	ascii	_HHiD$ 
+398	ascii	 H;[
+399	ascii	L$ E3
+400	ascii	HHH;
+401	ascii	H9hP
+402	ascii	D9p<
+403	ascii	H@D9p8t&L9p
+404	ascii	L;BHv>H
+405	ascii	s"fff
+406	ascii	D$(3
+407	ascii	T$"A
+408	ascii	T$ A
+409	ascii	t$ WATAUAVAWH
+410	ascii	l$$A
+411	ascii	p $#
+412	ascii	L$ D
+413	ascii	L$(D
+414	ascii	t$,D
+415	ascii	l$@D
+416	ascii	d$DE
+417	ascii	T$0E
+418	ascii	L$<D
+419	ascii	t$HD
+420	ascii	QZ^&E
+421	ascii	D$(D
+422	ascii	L$4A
+423	ascii	D$0D
+424	ascii	D$<D
+425	ascii	L$4D
+426	ascii	D$ E
+427	ascii	D$4A
+428	ascii	A_A^A]A\_
+429	ascii	UWAVH
+430	ascii	L$(A
+431	ascii	x264H
+432	ascii	M7H3
+433	ascii	A^_]
+434	ascii	l$ WH
+435	ascii	L$HL
+436	ascii	D$DH
+437	ascii	HcD$DH
+438	ascii	9k t
+439	ascii	LcD$H
+440	ascii	t$03
+441	ascii	@WATAUAVH
+442	ascii	)t$@
+443	ascii	)|$0
+444	ascii	(|$0
+445	ascii	(t$@L
+446	ascii	XA^A]A\_
+447	ascii	t$ UWATAVAWH
+448	ascii	D9f0
+449	ascii	G0D9 t.I
+450	ascii	G@L9 t-I
+451	ascii	A,@t
+452	ascii	d$@D
+453	ascii	@,@t
+454	ascii	\$pI
+455	ascii	A_A^A\_]
+456	ascii	@UVWATAVH
+457	ascii	)t$p
+458	ascii	|$`D
+459	ascii	D$@D
+460	ascii	(t$pH
+461	ascii	A^A\_^]
+462	ascii	x UATAUAVAWH
+463	ascii	d$@L
+464	ascii	d$(E3
+465	ascii	d$ E3
+466	ascii	uzI;
+467	ascii	C Hc
+468	ascii	T$tA
+469	ascii	L$H3
+470	ascii	D9n0u;
+471	ascii	T$@L
+472	ascii	l$XD
+473	ascii	T$dD9m
+474	ascii	T$@I
+475	ascii	@USWAWH
+476	ascii	L$83
+477	ascii	T$0E3
+478	ascii	M'H3
+479	ascii	A__[]
+480	ascii	|$ UAVAWH
+481	ascii	D$rH
+482	ascii	D$XA
+483	ascii	A_A^]
+484	ascii	L$cA
+485	ascii	D$0IR
+486	ascii	D$]H
+487	ascii	D$4H
+488	ascii	D$Yf
+489	ascii	tT95
+490	ascii	L$P<
+491	ascii	t$ A
+492	ascii	D$0p
+493	ascii	D$(n
+494	ascii	\$PHk
+495	ascii	8GCt,H
+496	ascii	T$0D
+497	ascii	G2H+
+498	ascii	s$ff
+499	ascii	l$hfff
+500	ascii	l$h3
+501	ascii	s#fff
+502	ascii	@UAWH
+503	ascii	T$4D
+504	ascii	L$0f
+505	ascii	l$XL
+506	ascii	t$PD;
+507	ascii	|$hA
+508	ascii	D$8Hc
+509	ascii	T$4A
+510	ascii	xA_]
+511	ascii	M/|T
+512	ascii	MGH3
+513	ascii	l$P|4H
+514	ascii	|$8D
+515	ascii	|$(L
+516	ascii	A_A^_
+517	ascii	\$0H;
+518	ascii	l$ VWATAVAWH
+519	ascii	T$@D
+520	ascii	L$8D
+521	ascii	d$xD
+522	ascii	|$pD
+523	ascii	L$PD
+524	ascii	d$pD
+525	ascii	A_A^A\_^
+526	ascii	l$pH
+527	ascii	D$PA
+528	ascii	A^_^][
+529	ascii	L$`A
+530	ascii	|$XE
+531	ascii	H= N
+532	ascii	HiD$h
+533	ascii	H+L$XH
+534	ascii	t(Mc
+535	ascii	l$PD
+536	ascii	+v|3
+537	ascii	l$P3
+538	ascii	H+D$XH
+539	ascii	D$(6
+540	ascii	D$(v
+541	ascii	D$ @
+542	ascii	L$ A
+543	ascii	T$ L
+544	ascii	UATAUAVAWH
+545	ascii	T$\H
+546	ascii	D$aH
+547	ascii	D$iH
+548	ascii	D$yf
+549	ascii	|$@0u
+550	ascii	|$A1u
+551	ascii	|$C0
+552	ascii	C0D8 
+553	ascii	F9d8
+554	ascii	D$(M
+555	ascii	tZD8
+556	ascii	d$@H
+557	ascii	|$@0u9
+558	ascii	|$A1u2
+559	ascii	|$C0u+
+560	ascii	|$I1D
+561	ascii	9|((tD
+562	ascii	@SWH
+563	ascii	t$@D
+564	ascii	D$H3
+565	ascii	D$Jf
+566	ascii	D$NH
+567	ascii	t$@L
+568	ascii	L$B3
+569	ascii	uAIc
+570	ascii	D$DL
+571	ascii	L$R3
+572	ascii	L$XH
+573	ascii	VWAVH
+574	ascii	l$pL
+575	ascii	l$0L
+576	ascii	PA^_^
+577	ascii	taH9A
+578	ascii	HiD$@
+579	ascii	\$hH
+580	ascii	@A^_^][
+581	ascii	\$xH
+582	ascii	|$PD
+583	ascii	VUUUL
+584	ascii	T$0L
+585	ascii	t$hD
+586	ascii	D$PD
+587	ascii	T$8L
+588	ascii	\$0A
+589	ascii	L$ 3
+590	ascii	L$DH
+591	ascii	L$Df
+592	ascii	T$`A
+593	ascii	|$x|O
+594	ascii	HiD$P
+595	ascii	t$ WATAUAVAW
+596	ascii	T$HL
+597	ascii	tgD8k
+598	ascii	l$0A
+599	ascii	D8|$@tFH
+600	ascii	G@H;
+601	ascii	|$@3
+602	ascii	L$pD
+603	ascii	L$xL
+604	ascii	l$ptC
+605	ascii	D$(@
+606	ascii	t$x@8k
+607	ascii	\$ UH
+608	ascii	t$DH
+609	ascii	|$x|2
+610	ascii	t$p@8k
+611	ascii	tY9k
+612	ascii	t$Pu
+613	ascii	T$HD
+614	ascii	@SUVWH
+615	ascii	D$zf
+616	ascii	\$8D
+617	ascii	_^][
+618	ascii	|$tH
+619	ascii	L$xH3
+620	ascii	\$@;
+621	ascii	@8-o\
+622	ascii	l$H@
+623	ascii	|$x|3
+624	ascii	t$X|=
+625	ascii	D$Zf
+626	ascii	D$PHc
+627	ascii	x_^][
+628	ascii	D$BH
+629	ascii	D$@C
+630	ascii	D$(*
+631	ascii	u@D9
+632	ascii	\$03
+633	ascii	T$`H
+634	ascii	)D$P3
+635	ascii	D$bH
+636	ascii	D$jH
+637	ascii	D$zH
+638	ascii	9D$@
+639	ascii	t E3
+640	ascii	D$8D
+641	ascii	Lcs*
+642	ascii	@8=s=
+643	ascii	@8=-=
+644	ascii	L$TH
+645	ascii	T$PE3
+646	ascii	|$T@
+647	ascii	L$a3
+648	ascii	D$0.
+649	ascii	A^_^
+650	ascii	Y(|1
+651	ascii	Y(|2
+652	ascii	L$0;
+653	ascii	9X t
+654	ascii	9X$t
+655	ascii	t$X3
+656	ascii	t]A8
+657	ascii	l$ VH
+658	ascii	u:9-
+659	ascii	T$hD
+660	ascii	D$`D
+661	ascii	L$XD
+662	ascii	D$8A
+663	ascii	k VH
+664	ascii	ur9-
+665	ascii	@UWAVH
+666	ascii	L$@E3
+667	ascii	L$pE3
+668	ascii	L$xH
+669	ascii	fD;{
+670	ascii	D$0J
+671	ascii	KPE3
+672	ascii	fA;@
+673	ascii	IPE3
+674	ascii	t$`L
+675	ascii	t$h$
+676	ascii	l$xH
+677	ascii	K8D+
+678	ascii	8\$@H
+679	ascii	L$QH
+680	ascii	L$YH
+681	ascii	L$aH
+682	ascii	L$iH
+683	ascii	L$qH
+684	ascii	L$yH
+685	ascii	l$`L
+686	ascii	d$hH
+687	ascii	t$`3
+688	ascii	8csm
+689	ascii	LcA<E3
+690	ascii	t"H+
+691	ascii	HcH<H
+692	ascii	H3E H3E
+693	ascii	ZXVsnprintf failed, error:0x%x size:%d func:%s:%d
+694	ascii	ZXVsnprintf
+695	ascii	..\base_func.c:136
+696	ascii	ZXStrnlen failed, error:0x%x
+697	ascii	ZXStrnlen_s
+698	ascii	..\base_func.c:230
+699	ascii	Delete file %s failed, error:%d
+700	ascii	ice_remove
+701	ascii	..\base_func.c:302
+702	ascii	rename file %s failed, errno:%d
+703	ascii	ice_rename
+704	ascii	..\base_func.c:311
+705	ascii	exit:%d line:%d
+706	ascii	close file failed!
+707	ascii	ZXFile_close
+708	ascii	..\base_func.c:608
+709	ascii	fflush failed!
+710	ascii	ZXFflush
+711	ascii	..\base_func.c:618
+712	ascii	fwrite failed!
+713	ascii	ZXFwrite
+714	ascii	..\base_func.c:627
+715	ascii	open file failed:%s 
+716	ascii	ZXFopen
+717	ascii	..\base_func.c:638
+718	ascii	ice_build_cfg_res_string
+719	ascii	error or buf size is small[%d][%d]
+720	ascii	..\base_func.c:661
+721	ascii	ice_get_module_name
+722	ascii	ice-config.ini
+723	ascii	%s%s%s
+724	ascii	ice_get_log_fname
+725	ascii	ice_get_session_uname
+726	ascii	%s%s%s%ssid_%u
+727	ascii	ice_get_log_fpath
+728	ascii	AppMode
+729	ascii	C:\Program Files (x86)\ZTEGuestOS\ZProcessMonitor\ZProCtrl.exe
+730	ascii	start_process_monitor
+731	ascii	ZProcessMonitor
+732	ascii	"%s" --StartMonitor
+733	ascii	"%s" --StopMonitor
+734	ascii	call ZProCtrl.exe fail!!!
+735	ascii	..\base_func.c:1508
+736	ascii	hProcess not active skip kill %p exitCode:%d !!!
+737	ascii	IceTerminateProcessEx
+738	ascii	..\base_func.c:1541
+739	ascii	hProcess may active res:%d exitCode:%d beForce:%d!!!
+740	ascii	..\base_func.c:1544
+741	ascii	GetProcessId Fail errno:%d!!!
+742	ascii	..\base_func.c:1552
+743	ascii	%p code:%d
+744	ascii	..\base_func.c:1558
+745	ascii	open pid failed
+746	ascii	..\base_func.c:1564
+747	ascii	RtlGetVersion
+748	ascii	ntdll.dll
+749	ascii	GetNativeSystemInfo
+750	ascii	kernel32.dll
+751	ascii	WinStationQueryInformationW
+752	ascii	swprintf_s Pipe failed
+753	ascii	create_session_process_as_user
+754	ascii	..\base_func.c:1759
+755	ascii	IceOpenProcess()failed %lu
+756	ascii	..\base_func.c:1848
+757	ascii	no need create new process:%d
+758	ascii	ice_create_process_xp
+759	ascii	..\base_func.c:1870
+760	ascii	Winsta0\winlogon
+761	ascii	CreateProcess failed:%s
+762	ascii	..\base_func.c:1889
+763	ascii	path:%S
+764	ascii	..\base_func.c:1907
+765	ascii	create_session_process_as_user #%d
+766	ascii	..\base_func.c:1912
+767	ascii	restart process:%p dwSession:%d
+768	ascii	..\base_func.c:1919
+769	ascii	ice_create_process_win7
+770	ascii	..\base_func.c:1949
+771	ascii	winsta0\default
+772	ascii	ice_create_process_win7_extend
+773	ascii	OpenProcessToken error:%d
+774	ascii	..\base_func.c:1979
+775	ascii	DuplicateTokenEx error:%d
+776	ascii	..\base_func.c:1991
+777	ascii	SetTokenInformation error:%lu
+778	ascii	..\base_func.c:1999
+779	ascii	begin call CreateProcessAsUser
+780	ascii	..\base_func.c:2017
+781	ascii	CreateProcessAsUser error:%lu
+782	ascii	..\base_func.c:2021
+783	ascii	restart process:%p crtSession:%u dwSession:%u
+784	ascii	..\base_func.c:2029
+785	ascii	getaddrinfo failed with error: %d
+786	ascii	ice_get_ip_by_name
+787	ascii	..\base_func.c:2509
+788	ascii	Global\IceInputShareMem_%u
+789	ascii	ice_create_open_input_share_mem
+790	ascii	Could not create mapping file, error code:%lu
+791	ascii	..\base_func.c:2639
+792	ascii	Could not open mapping file, error code:%lu
+793	ascii	..\base_func.c:2645
+794	ascii	craete_and_open_ok
+795	ascii	..\base_func.c:2650
+796	ascii	open file failed, error:%lu
+797	ascii	make link to:%s:%d
+798	ascii	ice_sock_make_connection
+799	ascii	..\base_func.c:3538
+800	ascii	connect to main modue fail,fd%d dport:%d
+801	ascii	..\base_func.c:3567
+802	ascii	open/create reg fail:%lu node:%s
+803	ascii	ice_save_reg_info
+804	ascii	..\base_func.c:3739
+805	ascii	set reg fail:%lu, key:%s
+806	ascii	..\base_func.c:3746
+807	ascii	open reg fail:%lu node:%s
+808	ascii	ice_get_reg_info_ex
+809	ascii	..\base_func.c:3763
+810	ascii	get reg fail:%lu key_name:%s
+811	ascii	..\base_func.c:3769
+812	ascii	SYSTEM\CurrentControlSet\Services\VDI_SYS_CFG
+813	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment\
+814	ascii	SYSTEM\CurrentControlSet\Control\Video\
+815	ascii	Origin-Cloud-Type
+816	ascii	PcMode
+817	ascii	pc farm:%d
+818	ascii	ice_get_pc_mode
+819	ascii	..\base_func.c:3910
+820	ascii	None-vGpu-License
+821	ascii	OpenFtLog
+822	ascii	ServerIP
+823	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Tool.exe
+824	ascii	SYSTEM\CurrentControlSet\services\IceCconfig
+825	ascii	Ice-Port
+826	ascii	IceDispalyPort_%u
+827	ascii	Ice-UUID
+828	ascii	ice_get_display_app_port
+829	ascii	session_id:%u get:port:%u
+830	ascii	..\base_func.c:4642
+831	ascii	ConsoleSessionApp
+832	ascii	PublicMode
+833	ascii	mapfile_%d_extend
+834	ascii	ice_get_video_mapfile_type
+835	ascii	Client-External-Online
+836	ascii	camera-switch
+837	ascii	OpenSCManager error:%lu
+838	ascii	ice_check_vmboostr_service
+839	ascii	..\base_func.c:5385
+840	ascii	Vmbooster
+841	ascii	ZTE Vmbooster
+842	ascii	VmBoosterMonitor
+843	ascii	 OpenSCManager failed error:%lu
+844	ascii	CheckServiceStatus
+845	ascii	..\base_func.c:5482
+846	ascii	service %s is not exist
+847	ascii	..\base_func.c:5490
+848	ascii	OpenService %s failed, error:%lu
+849	ascii	..\base_func.c:5494
+850	ascii	QueryServiceStatusEx failed, error:%lu
+851	ascii	..\base_func.c:5501
+852	ascii	service %s running
+853	ascii	..\base_func.c:5507
+854	ascii	service %s stopped
+855	ascii	..\base_func.c:5511
+856	ascii	service %s status %d
+857	ascii	..\base_func.c:5515
+858	ascii	func:%s line:%d OpenEvent Event failed:%lu
+859	ascii	ice_send_event_once_ex
+860	ascii	..\base_func.c:5534
+861	ascii	send event:%s
+862	ascii	..\base_func.c:5539
+863	ascii	SetEvent failed:%lu
+864	ascii	..\base_func.c:5546
+865	ascii	GetSystemTimePreciseAsFileTime
+866	ascii	Kernel32.dll
+867	ascii	GetTickCount64
+868	ascii	deal sock send fail send_len:%d
+869	ascii	ice_send_tcp_info
+870	ascii	..\base_func.c:6155
+871	ascii	..\log\ice_server
+872	ascii	unknown
+873	ascii	%s%s%s-exception.s%u.%u.dmp
+874	ascii	ApplicationCrashHandler
+875	ascii	ERROR
+876	ascii	CRITICAL
+877	ascii	Warning
+878	ascii	Info
+879	ascii	Debug
+880	ascii	%s.bak
+881	ascii	ice_log_rename_file
+882	ascii	feek error!!!
+883	ascii	%02d-%02d %02d:%02d:%02d:%03ld: disk has space:%llu, limit_disk_space:%d
+884	ascii	ice_write_space_info
+885	ascii	%02d-%02d %02d:%02d:%02d:%03ld: %s%s%s-%s-%u:%u : %s: %s: 
+886	ascii	ice_logv
+887	ascii	%s_%u
+888	ascii	ice_check_duoble_running
+889	ascii	ice_mk_dir
+890	ascii	create folder failed %s 
+891	ascii	Error writing to file
+892	ascii	..\base_func.c:7604
+893	ascii	log-file-size
+894	ascii	ice_log_init
+895	ascii	127.0.0.1
+896	ascii	ice_encryptString
+897	ascii	;zxin10config
+898	ascii	ice_getEncryptType
+899	ascii	killblk_ex
+900	ascii	fgetstr_ex
+901	ascii	cutpre_ex
+902	ascii	loop_cnt1 reach max value
+903	ascii	check_cfg_file_rw_time
+904	ascii	..\base_func.c:8482
+905	ascii	..\base_func.c:8483
+906	ascii	ZXOSGetPrivateProfileString_
+907	ascii	linkto:{
+908	ascii	ZXOSGetPrivateProfileInt_
+909	ascii	GetPrivateProfileString_Link
+910	ascii	ZXOS_GetPrivateProfileString
+911	ascii	time failed, errno:%lu
+912	ascii	ZXTime
+913	ascii	..\base_func.c:9984
+914	ascii	line:%d http update critical error:%d exit!!!
+915	ascii	_sock_deal_http_critical_error
+916	ascii	..\sock_func.c:187
+917	ascii	find the key val, but it's too long[%s] key[%s]
+918	ascii	scok_get_http_head
+919	ascii	..\sock_func.c:229
+920	ascii	.zip
+921	ascii	C:\Program Files\ZTEGuestOS\ice_update.iso
+922	ascii	C:\Program Files\ZTEGuestOS\ice_update.zip
+923	ascii	C:\Program Files (x86)\ZTEGuestOS\ice_update.iso
+924	ascii	C:\Program Files (x86)\ZTEGuestOS\ice_update.zip
+925	ascii	get too long header %d:%s
+926	ascii	sock_be_get_whole_head
+927	ascii	..\sock_func.c:299
+928	ascii	HTTP/1
+929	ascii	get htto header error %d:%s
+930	ascii	..\sock_func.c:306
+931	ascii	Content-Length:
+932	ascii	get Content-Length fai %s!!!
+933	ascii	..\sock_func.c:315
+934	ascii	open file:%s fail!!
+935	ascii	..\sock_func.c:336
+936	ascii	parse http url fail:%s
+937	ascii	sock_make_http_req
+938	ascii	..\sock_func.c:352
+939	ascii	GET %s HTTP/1.1
+940	ascii	Host:%s:%d
+941	ascii	Accept-Encoding:gzip,deflate
+942	ascii	get port fail
+943	ascii	sock_make_connection
+944	ascii	..\sock_func.c:389
+945	ascii	parse url fail:%s
+946	ascii	..\sock_func.c:403
+947	ascii	trying too many times :%d
+948	ascii	..\sock_func.c:408
+949	ascii	call malloc fail!!
+950	ascii	sock_get_msg_struct
+951	ascii	..\sock_func.c:449
+952	ascii	sock_get_sending_buf
+953	ascii	..\sock_func.c:482
+954	ascii	init-ok
+955	ascii	sock_session_init
+956	ascii	..\sock_func.c:512
+957	ascii	sock close  line:%d fd:%d be_main_session:%d be_checked:%d
+958	ascii	sock_deal_link_close_ex
+959	ascii	..\sock_func.c:623
+960	ascii	ice-sock ctrl_msg:%d msg_size;%d
+961	ascii	sock_get_user_info
+962	ascii	..\sock_func.c:660
+963	ascii	get info magic error:%x magic:%x
+964	ascii	..\sock_func.c:663
+965	ascii	111worker->user_msg->sock_info.be_header:%d worker->user_msg->sock_info.read_pos:%d empty:%d i:%d worker->user_msg->sock_info.msg_size:%d worker->sock_header.ctrl_msg:%d
+966	ascii	..\sock_func.c:718
+967	ascii	worker->user_msg->sock_info.info malloc fail:%lu
+968	ascii	..\sock_func.c:728
+969	ascii	get too bigger header:%d support max size:%d
+970	ascii	sock_deal_get_msg_header
+971	ascii	..\sock_func.c:769
+972	ascii	ice msg_type:%d msg_size;%d
+973	ascii	..\sock_func.c:773
+974	ascii	recv ctrl  msg:%d
+975	ascii	sock_deal_get_msg_body
+976	ascii	..\sock_func.c:797
+977	ascii	..\sock_func.c:822
+978	ascii	send msg_id:%d msg_type:%d msg_size:%d to worker mode
+979	ascii	..\sock_func.c:837
+980	ascii	send msg to worker thread fail!!!
+981	ascii	..\sock_func.c:846
+982	ascii	get read_bytes:%d biger than sock_info->lase_size%d
+983	ascii	sock_deal_msg_info
+984	ascii	..\sock_func.c:864
+985	ascii	write file fail len:%d!!!!
+986	ascii	sock_deal_http_read
+987	ascii	..\sock_func.c:1058
+988	ascii	version download ok!!
+989	ascii	..\sock_func.c:1072
+990	ascii	read buf be_main_session:%d fd:%d is null msg_size:%d read_pos:%d
+991	ascii	sock_get_record_buf_func
+992	ascii	..\sock_func.c:1089
+993	ascii	read fail:%d,bytes:%d want:%d
+994	ascii	sock_deal_scok_read
+995	ascii	..\sock_func.c:1167
+996	ascii	bytes:%d read_len:%d
+997	ascii	..\sock_func.c:1178
+998	ascii	make link ok to main mode: SOCK_THREAD_CONN LinkHeader_t:%d
+999	ascii	sock_deal_connect_init
+1000	ascii	..\sock_func.c:1229
+1001	ascii	make link ok to dest[%s:%d] mode: SOCK_THREAD_CONN
+1002	ascii	..\sock_func.c:1237
+1003	ascii	make http connection to csap mode success: SOCK_THREAD_CONN 
+1004	ascii	..\sock_func.c:1248
+1005	ascii	get sock ack timeout !!!
+1006	ascii	sock_check_common_sock
+1007	ascii	..\sock_func.c:1442
+1008	ascii	get sock connect timeout !!!
+1009	ascii	..\sock_func.c:1447
+1010	ascii	get sock ack timeout !!!, no ack times:%d
+1011	ascii	sock_thread_func
+1012	ascii	..\sock_func.c:1486
+1013	ascii	no ack too many times, exit
+1014	ascii	..\sock_func.c:1491
+1015	ascii	..\sock_func.c:1492
+1016	ascii	_sock_pre_init_func
+1017	ascii	call CREATE_THREAD fail!!
+1018	ascii	_sock_thread_init
+1019	ascii	..\sock_func.c:1563
+1020	ascii	bytes:%d send_header:%d msg_size:%d error:%d
+1021	ascii	_scok_send_msg
+1022	ascii	..\sock_func.c:1642
+1023	ascii	..\sock_func.c:1660
+1024	ascii	..\sock_func.c:1672
+1025	ascii	session:%p g_scok_session:%p
+1026	ascii	_sock_init_func_ex
+1027	ascii	..\sock_func.c:1693
+1028	ascii	input session is invalid! session->ss_flag:%u, %u
+1029	ascii	_sock_disconnect_ex
+1030	ascii	..\sock_func.c:1732
+1031	ascii	input session is invalid! session->ss_flag:%u, %u msg_size:%d
+1032	ascii	_sock_send_func_ex
+1033	ascii	..\sock_func.c:1773
+1034	ascii	fd:%d bytes:%d msg_size:%d error:%d
+1035	ascii	..\sock_func.c:1788
+1036	ascii	..\sock_func.c:1800
+1037	ascii	input session is invalid! session->ss_flag:%u, %u data_len:%d
+1038	ascii	_sock_read_func_ex
+1039	ascii	..\sock_func.c:1825
+1040	ascii	..\sock_func.c:1839
+1041	ascii	call spice_new0 fail 
+1042	ascii	spice_timer_queue_add
+1043	ascii	..\timer_queue.c:150
+1044	ascii	..\timer_queue.c:151
+1045	ascii	show
+1046	ascii	zerolatency
+1047	ascii	main
+1048	ascii	%u_ZTE_x264_%u
+1049	ascii	calc_x264_code_session
+1050	ascii	Error: x264_encoder_open failed!
+1051	ascii	create_x264_encoder
+1052	ascii	desktop_recorder.c:171
+1053	ascii	[WUDI] stride[%d] size[%d %d]
+1054	ascii	desktop_recorder.c:181
+1055	ascii	Error: Malloc yuv_ptr failed when create desktop recorder!
+1056	ascii	desktop_recorder.c:189
+1057	ascii	avformat_alloc_output_context2 fail
+1058	ascii	create_ffmpeg_muxer
+1059	ascii	desktop_recorder.c:481
+1060	ascii	->(avformat_new_stream video_stream)
+1061	ascii	Failed
+1062	ascii	desktop_recorder.c:492
+1063	ascii	Could not find encoder for '%s'
+1064	ascii	desktop_recorder.c:527
+1065	ascii	->(avformat_new_stream audio_stream)
+1066	ascii	desktop_recorder.c:532
+1067	ascii	->(avcodec_open audio encoder)
+1068	ascii	ERROR:
+1069	ascii	desktop_recorder.c:575
+1070	ascii	Error allocating an audio encoded frame
+1071	ascii	desktop_recorder.c:584
+1072	ascii	desktop_recorder.c:594
+1073	ascii	Could not allocate resampler context
+1074	ascii	desktop_recorder.c:603
+1075	ascii	Could not init resampler context
+1076	ascii	desktop_recorder.c:608
+1077	ascii	Error: occurred when avformat_write_header!!!!![%d]
+1078	ascii	desktop_recorder.c:638
+1079	ascii	Warning: The input parameter fps is 0 when create a desktop recorder!
+1080	ascii	create_desktop_recorder
+1081	ascii	desktop_recorder.c:656
+1082	ascii	Error: Malloc Desktop_recoder failed when create a desktop recorder!
+1083	ascii	desktop_recorder.c:663
+1084	ascii	Error: create_x264_encoder failed!
+1085	ascii	desktop_recorder.c:692
+1086	ascii	src_width[%d] src_height[%d] src_format[%d] stream_width[%d]stream_height[%d] fps[%d] crf[%d] keyint_max[%d]
+1087	ascii	desktop_recorder.c:698
+1088	ascii	Error: sws_getCachedContext_new failed!
+1089	ascii	desktop_recorder.c:706
+1090	ascii	Error: create_ffmpeg_muxer failed!
+1091	ascii	desktop_recorder.c:713
+1092	ascii	Error: Malloc bitstream_buffer failed when create a desktop recorder!
+1093	ascii	desktop_recorder.c:725
+1094	ascii	Warning: call x264_encoder_encode failed
+1095	ascii	desktop_record_one_frame
+1096	ascii	desktop_recorder.c:792
+1097	ascii	call x264_encoder_encode failed--- frame_size too long bitstream_buffer_len[%d] frame_size[%d]!!!!!!
+1098	ascii	desktop_recorder.c:797
+1099	ascii	Error: Can not get extradata from the first video packet!!!!!
+1100	ascii	desktop_recorder.c:833
+1101	ascii	Error: Malloc extradata failed!!!
+1102	ascii	desktop_recorder.c:842
+1103	ascii	Error muxing packet!!!!!!!!!!!!!!
+1104	ascii	desktop_recorder.c:863
+1105	ascii	Error: Function desktop_record_audio_frame can not be called when set is_record_audio to be 0
+1106	ascii	desktop_record_audio_frame
+1107	ascii	desktop_recorder.c:884
+1108	ascii	Error: desktop_record_audio_frame the received audio sample number[%d] is not equal to required[%d]
+1109	ascii	desktop_recorder.c:890
+1110	ascii	Error while audio sample converting
+1111	ascii	desktop_recorder.c:903
+1112	ascii	Error encoding audio frame: %s
+1113	ascii	desktop_recorder.c:922
+1114	ascii	Error muxing audio packet
+1115	ascii	desktop_recorder.c:927
+1116	ascii	Error: Can not get AVFormatContext when call get_recorder_file_size!!!!!!!!!!!!!!
+1117	ascii	get_recorder_file_size
+1118	ascii	desktop_recorder.c:940
+1119	ascii	Error: Can not get valid recorder file size!!!!!!!!!!!!!!
+1120	ascii	desktop_recorder.c:948
+1121	ascii	enter destroy_desktop_recorder
+1122	ascii	destroy_desktop_recorder
+1123	ascii	desktop_recorder.c:958
+1124	ascii	enter avctx_aud!=NULL
+1125	ascii	desktop_recorder.c:975
+1126	ascii	desktop_recorder.c:977
+1127	ascii	desktop_recorder.c:983
+1128	ascii	desktop_recorder.c:986
+1129	ascii	Finish muxing audio packet
+1130	ascii	desktop_recorder.c:989
+1131	ascii	Error occur when muxing audio packet
+1132	ascii	desktop_recorder.c:995
+1133	ascii	desktop_recorder.c:1000
+1134	ascii	desktop_recorder.c:1014
+1135	ascii	desktop_recorder.c:1031
+1136	ascii	ice_screen_recorder.c
+1137	ascii	proxy-cmd  screen-recorder
+1138	ascii	IceDisplaySetting.exe
+1139	ascii	%s %s %s
+1140	ascii	ice_send_msg2vmagent
+1141	ascii	call IceDisplaySetting fail!!!
+1142	ascii	ice_screen_recorder.c:81
+1143	ascii	IceDisplaySetting timeout or fail exitCode:, stop process!!!
+1144	ascii	ice_screen_recorder.c:97
+1145	ascii	rcd_start_msg_send2svr
+1146	ascii	send start msg successfully
+1147	ascii	ice_screen_recorder.c:132
+1148	ascii	send %d msg successfully
+1149	ascii	rcd_msg_send2svr
+1150	ascii	ice_screen_recorder.c:142
+1151	ascii	old-map:%p
+1152	ascii	ice_init_share_memory
+1153	ascii	ice_screen_recorder.c:153
+1154	ascii	unmap old file
+1155	ascii	ice_screen_recorder.c:155
+1156	ascii	c:\Windows\System32\video_%d%s.dat
+1157	ascii	cmd-offset:%d surface-offset:%d pvideo:%p pframe:%p
+1158	ascii	ice_screen_recorder.c:194
+1159	ascii	map file failed
+1160	ascii	ice_screen_recorder.c:198
+1161	ascii	ice_screen_recorder.c:204
+1162	ascii	open share memory success!!
+1163	ascii	ice_screen_recorder.c:208
+1164	ascii	message error, count:%d!!, count
+1165	ascii	ice_process_surface_message
+1166	ascii	ice_screen_recorder.c:217
+1167	ascii	count:%d surface-info, type:%d surface_id:%d
+1168	ascii	ice_screen_recorder.c:222
+1169	ascii	unknown driver message type:%d
+1170	ascii	ice_screen_recorder.c:251
+1171	ascii	Null ice message!
+1172	ascii	ice_handle_driver_commands
+1173	ascii	ice_screen_recorder.c:261
+1174	ascii	worker->mapfile_type=%d ice_get_video_mapfile_type(worker->id)=%d 
+1175	ascii	ice_screen_recorder.c:268
+1176	ascii	init share memory fail
+1177	ascii	ice_screen_recorder.c:275
+1178	ascii	old_msg_count:%d curr_msg_count:%d server-tm:%s driver-tm:%s
+1179	ascii	ice_screen_recorder.c:284
+1180	ascii	Unsupported surface format
+1181	ascii	surface_format_to_image_type
+1182	ascii	ice_screen_recorder.c:325
+1183	ascii	unsupported format %d
+1184	ascii	x264_get_avpixelfmt
+1185	ascii	ice_screen_recorder.c:404
+1186	ascii	Alloc memory for g_ice_record_init failed!
+1187	ascii	ice_record_get_init_data
+1188	ascii	ice_screen_recorder.c:488
+1189	ascii	ice_screen_recorder.c:489
+1190	ascii	g_ice_record_count:%d g_ice_record_count++
+1191	ascii	ice_record_push_desktop
+1192	ascii	ice_screen_recorder.c:515
+1193	ascii	dump surface image, format type not support[%d]
+1194	ascii	ice_record_get_surface_image
+1195	ascii	ice_screen_recorder.c:536
+1196	ascii	Invalid worker screen size: %d, %d
+1197	ascii	ice_screen_recorder.c:543
+1198	ascii	call ice_record_push_desktop res[%d] fail!!
+1199	ascii	ice_screen_recorder.c:569
+1200	ascii	web_time:%d-%d-%d_%d-%d-%d
+1201	ascii	ice_record_get_web_begin_time
+1202	ascii	ice_screen_recorder.c:627
+1203	ascii	ice_record_set_param
+1204	ascii	ice record still running
+1205	ascii	ice_record_begin
+1206	ascii	ice_screen_recorder.c:657
+1207	ascii	call CREATE_THREAD fail
+1208	ascii	ice_screen_recorder.c:669
+1209	ascii	call func at: file:%s line:%d
+1210	ascii	ice_record_stop
+1211	ascii	ice_screen_recorder.c:707
+1212	ascii	running_cnt++ ice_sleep 50
+1213	ascii	ice_screen_recorder.c:717
+1214	ascii	record thread  exit!!!
+1215	ascii	ice_screen_recorder.c:722
+1216	ascii	record end!!
+1217	ascii	ice_screen_recorder.c:733
+1218	ascii	record sid[%s] result[%d] message[%s] code[%s] file[%s] line[%d]
+1219	ascii	ice_record_set_result
+1220	ascii	ice_screen_recorder.c:744
+1221	ascii	record timeout sid[%s]
+1222	ascii	ice_record_be_success
+1223	ascii	ice_screen_recorder.c:769
+1224	ascii	g_ice_record_count:%d g_ice_record_count--
+1225	ascii	ice_record_get_desktop
+1226	ascii	ice_screen_recorder.c:790
+1227	ascii	get_recorder_file_size [%ld]
+1228	ascii	ice_record_destroy_recorder
+1229	ascii	ice_screen_recorder.c:808
+1230	ascii	%s/%04d-%04d-%02d-%02d_%02d-%02d-%02d.mp4
+1231	ascii	ice_record_create_encoder
+1232	ascii	record_create %d-%d stride:%d ice_fmt:%d be_gray:%d scale:%d fps:%d-%d crf:%d keyint_max:%d filename:%s
+1233	ascii	ice_screen_recorder.c:879
+1234	ascii	record_create fail!!!!! %d-%d stride:%d ice_fmt:%d be_gray:%d scale:%d fps:%d-%d crf:%d filename:%s
+1235	ascii	ice_screen_recorder.c:883
+1236	ascii	change desktop stream
+1237	ascii	ice_record_check_data
+1238	ascii	ice_screen_recorder.c:900
+1239	ascii	record file size >1G ,restart record screen
+1240	ascii	ice_screen_recorder.c:908
+1241	ascii	call desktop_record_one_frame fail [%d]
+1242	ascii	ice_record_desktop_data
+1243	ascii	ice_screen_recorder.c:936
+1244	ascii	{msgtype:'8011',msgid:'%s',result:'%d',ctime:'%d-%02d-%02d %02d:%02d:%02d',filesize:'%llu',message:'%s',code:'%s'}
+1245	ascii	ice_record_send_report
+1246	ascii	send msg[%s] to vmagent
+1247	ascii	ice_screen_recorder.c:1004
+1248	ascii	screen_record_hb_timeout
+1249	ascii	ice_record_proc
+1250	ascii	ice_screen_recorder.c:1028
+1251	ascii	record screen success
+1252	ascii	ice_screen_recorder.c:1036
+1253	ascii	call encoder fail
+1254	ascii	ice_record_proc thread  exit be_running[%d] sid[%s] t_size[%llu] pts[%d]!!!
+1255	ascii	ice_screen_recorder.c:1115
+1256	ascii	enter ice_deal_record_timeout
+1257	ascii	ice_deal_record_timeout
+1258	ascii	ice_screen_recorder.c:1124
+1259	ascii	client disconnect time-out
+1260	ascii	ice_screen_recorder.c:1141
+1261	ascii	ice record stopped, remove timer
+1262	ascii	ice_record_timer_func
+1263	ascii	ice_screen_recorder.c:1255
+1264	ascii	parse cmd, get name fail--[%s]
+1265	ascii	ice_parse_screen_recorder
+1266	ascii	ice_screen_recorder.c:1334
+1267	ascii	parse cmd, get val fail--[%s]
+1268	ascii	ice_screen_recorder.c:1342
+1269	ascii	record_time
+1270	ascii	path
+1271	ascii	fname
+1272	ascii	min_space
+1273	ascii	scale
+1274	ascii	gray
+1275	ascii	sound
+1276	ascii	force_record
+1277	ascii	ctrl_record
+1278	ascii	be_sid = %d || receive info error none sid, [%s]
+1279	ascii	ice_screen_recorder.c:1403
+1280	ascii	parse info fail, some param not set
+1281	ascii	ice_screen_recorder.c:1410
+1282	ascii	%s/%s/%s.rec
+1283	ascii	ice_parse_screen_recorder success
+1284	ascii	ice_screen_recorder.c:1433
+1285	ascii	ice_snd_codec_create
+1286	ascii	ice_snd_codec.c:207
+1287	ascii	parse cfg fail, data input is null error
+1288	ascii	support-core-dump
+1289	ascii	mrs-conf
+1290	ascii	desktop-monitor-count
+1291	ascii	log-level
+1292	ascii	reset-timer-peroid
+1293	ascii	8388608
+1294	ascii	desktop-stream-rat
+1295	ascii	not-used-freetime
+1296	ascii	desktop-dve-quality
+1297	ascii	dve-ref-num
+1298	ascii	desktop-idr-interval
+1299	ascii	65000
+1300	ascii	use-desktop-dupl
+1301	ascii	desktop-dve-mask
+1302	ascii	protocol-type
+1303	ascii	scale-screen
+1304	ascii	enable-network-cards
+1305	ascii	disable-lowlevel-tls
+1306	ascii	use-debugview
+1307	ascii	set-interesting
+1308	ascii	autocad-enc-mode
+1309	ascii	use-zip-lossless
+1310	ascii	multi-screen-video
+1311	ascii	multi-screen-video-width
+1312	ascii	multi-screen-video-hight
+1313	ascii	vapp-wait-display-run
+1314	ascii	1500
+1315	ascii	exclusive-pro
+1316	ascii	,OVERWATCH.EXE,
+1317	ascii	ice-vm-id
+1318	ascii	dve-log-level
+1319	ascii	dump-desktop-h264
+1320	ascii	dump-desktop-raw
+1321	ascii	dump-h264-maxsize
+1322	ascii	playback-compression
+1323	ascii	playback-optimization
+1324	ascii	dump-playback-pcm
+1325	ascii	playback-opus-rate
+1326	ascii	playback-complexity
+1327	ascii	sound-log
+1328	ascii	sound-dump-data
+1329	ascii	sound-dump-time
+1330	ascii	support-change-dirver
+1331	ascii	win7-rap-iceaudio
+1332	ascii	sound-app-optimize
+1333	ascii	record-support-change
+1334	ascii	audio-msg-mode
+1335	ascii	audio-volume
+1336	ascii	sz-disable-driver-name
+1337	ascii	Audio Controller
+1338	ascii	record-dve-quality
+1339	ascii	parse cfg fail, input val error val[%s] error
+1340	ascii	ice_parse_cfg_boolean_param
+1341	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:737
+1342	ascii	recv driver name cmd [%s] g_cfg_be_init[%d]!!!!
+1343	ascii	parse_cfg_driver_name
+1344	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:791
+1345	ascii	parse cfg fail, current_pro input is null error
+1346	ascii	inside_parse_str_name_cfg
+1347	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1107
+1348	ascii	,%s,
+1349	ascii	input cfg_index parse error fail, cfg_index[%d] 
+1350	ascii	parse_cfg_comm_call
+1351	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1184
+1352	ascii	desktop-stream-scene
+1353	ascii	ice_parse_str_cfg
+1354	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1227
+1355	ascii	NULL
+1356	ascii	using default key[%s] val[%s]
+1357	ascii	read_all_cfg
+1358	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1260
+1359	ascii	get file key[%s] val[%s]
+1360	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1270
+1361	ascii	no-auth
+1362	ascii	charge
+1363	ascii	get default key[%s] val[%s]
+1364	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1276
+1365	ascii	parse cfg fail, name[%s] be_val:%d param error
+1366	ascii	parse_cfg_call_func
+1367	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1302
+1368	ascii	parse cfg fail, not find func name[%s] error
+1369	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1312
+1370	ascii	parse cfg get name[%s] val[%s]
+1371	ascii	parse_all_cfg
+1372	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1367
+1373	ascii	call cfg fail[%s] pos[%s]
+1374	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1370
+1375	ascii	parse cfg fail[%s] pos[%s]
+1376	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1379
+1377	ascii	csap-ip
+1378	ascii	get csap ip error
+1379	ascii	load_csap_cfg
+1380	ascii	ice_snd_worker.c:387
+1381	ascii	screen-record-server-port
+1382	ascii	csap config ip[%s] port[%d]
+1383	ascii	ice_snd_worker.c:395
+1384	ascii	sound channel config:
+1385	ascii	V7.25.21-13
+1386	ascii	version : %s
+1387	ascii	log-level : %d
+1388	ascii	sound-log : %d
+1389	ascii	playback-compression : %s
+1390	ascii	playback-optimization : %s
+1391	ascii	dump-playback-pcm : %s
+1392	ascii	playback-opus-rate : %d
+1393	ascii	playback-complexity : %d
+1394	ascii	sound-dump-data : %s
+1395	ascii	support-change-dirver : %s
+1396	ascii	win7-rap-iceaudio : %s
+1397	ascii	sound-app-optimize : %s
+1398	ascii	record-support-change : %s
+1399	ascii	audio-msg-mode : %d
+1400	ascii	audio-volume : %d
+1401	ascii	record-dve-quality : %d
+1402	ascii	not connected, channel[%p]
+1403	ascii	snd_disconnect_channel
+1404	ascii	ice_snd_worker.c:477
+1405	ascii	playback_channel[%p] disconnect ok
+1406	ascii	ice_snd_worker.c:487
+1407	ascii	record_channel[%p] disconnect ok
+1408	ascii	ice_snd_worker.c:505
+1409	ascii	channel_type[%p] unknown
+1410	ascii	ice_snd_worker.c:529
+1411	ascii	volume change,%d -> %d valume rate change,%f -> %f
+1412	ascii	ice_change_record_volume
+1413	ascii	ice_snd_worker.c:567
+1414	ascii	rematrix_volume
+1415	ascii	swr_init fail(set volume)
+1416	ascii	ice_snd_worker.c:577
+1417	ascii	 msg.mes:%d
+1418	ascii	ice_send_tc_sound_mes_to_main_channel
+1419	ascii	ice_snd_worker.c:623
+1420	ascii	snd_channel_send_message_to_main_channel
+1421	ascii	no record stuck
+1422	ascii	snd_record_report_record_stuck
+1423	ascii	ice_snd_worker.c:649
+1424	ascii	record stuck %d,%d,%llu,%llu,%d
+1425	ascii	ice_snd_worker.c:656
+1426	ascii	cout:%d, average:%llu, mse:%llu
+1427	ascii	test_snd_record_deal_snd_detect
+1428	ascii	ice_snd_worker.c:721
+1429	ascii	sum_loss:%llu, sum_average:%llu, sum_mse:%llu
+1430	ascii	ice_snd_worker.c:738
+1431	ascii	time:%d, loss:%d, average:%llu, mse:%llu, count:%d
+1432	ascii	ice_snd_worker.c:747
+1433	ascii	send %d record_data, data pices:%d
+1434	ascii	ice_stat_record_data
+1435	ascii	ice_snd_worker.c:807
+1436	ascii	1min send %d record_data, data pices:%d
+1437	ascii	ice_snd_worker.c:822
+1438	ascii	C:\record_raw_dump.pcm
+1439	ascii	record_channel is NULL
+1440	ascii	snd_record_handle_write_opus
+1441	ascii	ice_snd_worker.c:910
+1442	ascii	parsed is NULL
+1443	ascii	ice_snd_worker.c:916
+1444	ascii	Error data size is 0
+1445	ascii	ice_snd_worker.c:952
+1446	ascii	record decode error
+1447	ascii	ice_snd_worker.c:960
+1448	ascii	C:\record_32_dump.pcm
+1449	ascii	C:\record_16_dump.pcm
+1450	ascii	record,error mode[%d]
+1451	ascii	ice_snd_worker.c:982
+1452	ascii	new frames[%d] read_pos[%d] write_pos[%d]
+1453	ascii	ice_snd_worker.c:1004
+1454	ascii	ice_snd_worker.c:1008
+1455	ascii	snd_record_handle_write_opus_xp
+1456	ascii	ice_snd_worker.c:1037
+1457	ascii	ice_snd_worker.c:1043
+1458	ascii	ice_snd_worker.c:1075
+1459	ascii	ice_snd_worker.c:1083
+1460	ascii	record sample rate[%d %d]channel_layout[%d,%d]sample_fmt[%d,%d]
+1461	ascii	ice_snd_worker.c:1096
+1462	ascii	ice_snd_worker.c:1113
+1463	ascii	ice_snd_worker.c:1136
+1464	ascii	m malloc fail
+1465	ascii	snd_playback_send_start
+1466	ascii	ice_snd_worker.c:1163
+1467	ascii	user_id or link_id is NULL
+1468	ascii	ice_snd_worker.c:1173
+1469	ascii	ice_snd_worker.c:1177
+1470	ascii	snd_playback_send_stop
+1471	ascii	ice_snd_worker.c:1207
+1472	ascii	ice_snd_worker.c:1216
+1473	ascii	ice_snd_worker.c:1224
+1474	ascii	ice_snd_channel_send_migrate
+1475	ascii	ice_snd_worker.c:1257
+1476	ascii	playback:user_id or link_id is NULL
+1477	ascii	ice_snd_worker.c:1269
+1478	ascii	record:user_id or link_id is NULL
+1479	ascii	ice_snd_worker.c:1277
+1480	ascii	ice_snd_worker.c:1282
+1481	ascii	ice_snd_playback_send_latency
+1482	ascii	ice_snd_worker.c:1309
+1483	ascii	ice_snd_worker.c:1319
+1484	ascii	ice_snd_worker.c:1323
+1485	ascii	ice_playback_send_mode
+1486	ascii	ice_snd_worker.c:1346
+1487	ascii	ice_snd_worker.c:1356
+1488	ascii	ice_snd_worker.c:1360
+1489	ascii	ice_snd_playback_send_heartbeat
+1490	ascii	ice_snd_worker.c:1385
+1491	ascii	ice_snd_worker.c:1394
+1492	ascii	ice_snd_worker.c:1398
+1493	ascii	snd_record_send_start
+1494	ascii	ice_snd_worker.c:1420
+1495	ascii	ice_snd_worker.c:1430
+1496	ascii	ice_snd_worker.c:1434
+1497	ascii	snd_record_send_stop
+1498	ascii	ice_snd_worker.c:1460
+1499	ascii	ice_snd_worker.c:1469
+1500	ascii	ice_snd_worker.c:1472
+1501	ascii	snd_record_send_heartbeat
+1502	ascii	ice_snd_worker.c:1505
+1503	ascii	ice_snd_worker.c:1514
+1504	ascii	ice_snd_worker.c:1518
+1505	ascii	in_channel_layout
+1506	ascii	in_sample_rate
+1507	ascii	in_sample_fmt
+1508	ascii	out_channel_layout
+1509	ascii	out_sample_rate
+1510	ascii	out_sample_fmt
+1511	ascii	playback in[%ld] channel_layout[%d]
+1512	ascii	playback_change_rate
+1513	ascii	ice_snd_worker.c:1555
+1514	ascii	playback out[%ld] channel_layout[2]
+1515	ascii	ice_snd_worker.c:1556
+1516	ascii	audio_dll change playback_sample_rate failed
+1517	ascii	ice_snd_worker.c:1561
+1518	ascii	record in[%d] channel_layout[2]
+1519	ascii	record_change_rate
+1520	ascii	ice_snd_worker.c:1579
+1521	ascii	record out[%d] channel_layout[%d]
+1522	ascii	ice_snd_worker.c:1580
+1523	ascii	audio_dll change record_sample_rate failed
+1524	ascii	ice_snd_worker.c:1585
+1525	ascii	send %d playback_data, data pices:%d
+1526	ascii	ice_stat_send_playback_data
+1527	ascii	ice_snd_worker.c:1630
+1528	ascii	1min send %d playback_data, data pices:%d
+1529	ascii	ice_snd_worker.c:1638
+1530	ascii	ice_playback_volume_xp
+1531	ascii	ice_snd_worker.c:1661
+1532	ascii	first times
+1533	ascii	ice_snd_worker.c:1677
+1534	ascii	value[%d] times[%d]
+1535	ascii	ice_snd_worker.c:1680
+1536	ascii	volume changed,init ok
+1537	ascii	ice_snd_worker.c:1688
+1538	ascii	ice_snd_worker.c:1691
+1539	ascii	ice_playback_volume
+1540	ascii	ice_snd_worker.c:1703
+1541	ascii	ice_snd_worker.c:1712
+1542	ascii	playback sample rate[%d %d] channel_layout[%d %d] sample_fmt[%d,%d]
+1543	ascii	ice_playback_playback_change_rate
+1544	ascii	ice_snd_worker.c:1728
+1545	ascii	C:\playback_16_int.pcm
+1546	ascii	C:\playback_32_float.pcm
+1547	ascii	ice_snd_playback_480_send_write
+1548	ascii	ice_snd_worker.c:1781
+1549	ascii	complexity[%d]
+1550	ascii	ice_snd_worker.c:1822
+1551	ascii	ERROR: encode failed------
+1552	ascii	ice_snd_worker.c:1828
+1553	ascii	snd encode result:%d
+1554	ascii	ice_snd_worker.c:1837
+1555	ascii	snd_send_playback_write 48000 failed
+1556	ascii	snd_playback_send
+1557	ascii	ice_snd_worker.c:1913
+1558	ascii	snd_record_send,record_channel is NULL
+1559	ascii	snd_record_send
+1560	ascii	ice_snd_worker.c:1961
+1561	ascii	__new_channel
+1562	ascii	ice_snd_worker.c:2005
+1563	ascii	playback_channel is NULL
+1564	ascii	ice_server_playback_start
+1565	ascii	ice_snd_worker.c:2032
+1566	ascii	system_version:%d start time:%d
+1567	ascii	ice_snd_worker.c:2051
+1568	ascii	send to rap ice_runing:%d
+1569	ascii	ice_snd_worker.c:2059
+1570	ascii	ice_server_playback_stop
+1571	ascii	ice_snd_worker.c:2081
+1572	ascii	ice_snd_worker.c:2087
+1573	ascii	send to rap playback_channel->be_ice_runing:%d
+1574	ascii	ice_snd_worker.c:2105
+1575	ascii	send SND_PLAYBACK_SEND_DATA failed
+1576	ascii	audio_put_samples
+1577	ascii	ice_snd_worker.c:2153
+1578	ascii	gap_ms:%d         samples_rate:%d  audio_playback_property.change_flag:%d
+1579	ascii	ice_get_playback_conut_every
+1580	ascii	ice_snd_worker.c:2177
+1581	ascii	sample is NULL
+1582	ascii	ice_server_playback_put_samples
+1583	ascii	ice_snd_worker.c:2231
+1584	ascii	playback start not init
+1585	ascii	ice_snd_worker.c:2238
+1586	ascii	client disconnect
+1587	ascii	ice_snd_worker.c:2248
+1588	ascii	C:\playback_dump.pcm
+1589	ascii	audio_record_property.sample_fmt:%d
+1590	ascii	spice_server_set_sample_rate
+1591	ascii	ice_snd_worker.c:2314
+1592	ascii	playback change[%d %d %d]-->[%d %d %d]
+1593	ascii	ice_snd_worker.c:2328
+1594	ascii	record change[%d %d %d]-->[%d %d %d]
+1595	ascii	ice_snd_worker.c:2330
+1596	ascii	AV_SAMPLE_FMT_S16[%d] AV_SAMPLE_FMT_FLT[%d]
+1597	ascii	ice_snd_worker.c:2331
+1598	ascii	create encoder failed
+1599	ascii	snd_set_playback_peer
+1600	ascii	ice_snd_worker.c:2371
+1601	ascii	client connect,playback_channel[%p] frame0[%p] frame1[%p] frame2[%p] playback_sample_rate[%d] layout[%d] fmt[%d] mode[%d] be_ice_runing:%d
+1602	ascii	ice_snd_worker.c:2384
+1603	ascii	playback_property[%d %d %d]
+1604	ascii	ice_snd_worker.c:2390
+1605	ascii	snd_set_playback_peer_qemu
+1606	ascii	ice_snd_worker.c:2432
+1607	ascii	client connect,playback_channel[%p] frame0[%p] frame1[%p] frame2[%p] playback_sample_rate[%d] layout[%d] fmt[%d] mode[%d]
+1608	ascii	ice_snd_worker.c:2446
+1609	ascii	ice_snd_worker.c:2452
+1610	ascii	net_env:%d g_net_env:%d
+1611	ascii	ice_load_net_env
+1612	ascii	ice_snd_worker.c:2466
+1613	ascii	ice_server_record_start
+1614	ascii	ice_snd_worker.c:2483
+1615	ascii	record start:%d
+1616	ascii	ice_snd_worker.c:2490
+1617	ascii	send to rap record_channel->be_ice_runing:%d
+1618	ascii	ice_snd_worker.c:2502
+1619	ascii	ice_server_record_stop
+1620	ascii	ice_snd_worker.c:2530
+1621	ascii	g_tc_record
+1622	ascii	ice_snd_worker.c:2536
+1623	ascii	ice_snd_worker.c:2543
+1624	ascii	ice_snd_worker.c:2549
+1625	ascii	record_channel disconnect
+1626	ascii	spice_server_record_get_samples_xp
+1627	ascii	ice_snd_worker.c:2578
+1628	ascii	C:\record_write_audio.pcm
+1629	ascii	audio_dll get len[%d], read_pos[%d] read_pos_new[%d]
+1630	ascii	ice_snd_worker.c:2600
+1631	ascii	spice_server_record_get_samples_others
+1632	ascii	ice_snd_worker.c:2615
+1633	ascii	get len[%d], read_pos[%d] read_pos_new[%d]
+1634	ascii	ice_snd_worker.c:2637
+1635	ascii	channel_layout:%d,samples_rate:%d,sample_fmt:%d be_ice_ruinng:%d
+1636	ascii	snd_set_record_peer
+1637	ascii	ice_snd_worker.c:2679
+1638	ascii	unsupported mode[%d] st[%d]
+1639	ascii	ice_snd_worker.c:2707
+1640	ascii	snd_create_avframe
+1641	ascii	ice_snd_worker.c:2733
+1642	ascii	ice_snd_worker.c:2742
+1643	ascii	swr_alloc fail
+1644	ascii	snd_create_swr_context
+1645	ascii	ice_snd_worker.c:2758
+1646	ascii	swr_init fail
+1647	ascii	ice_snd_worker.c:2773
+1648	ascii	snd_create_xp_record_swr_context
+1649	ascii	ice_snd_worker.c:2790
+1650	ascii	ice_snd_worker.c:2806
+1651	ascii	in samples new[%d] out samples[%d]
+1652	ascii	snd_convert_frames_to_float
+1653	ascii	ice_snd_worker.c:2861
+1654	ascii	ice_snd_worker.c:2865
+1655	ascii	src frames[%d] dst frames[%d]
+1656	ascii	snd_convert_frames_float_to_16
+1657	ascii	ice_snd_worker.c:2890
+1658	ascii	ice_snd_worker.c:2895
+1659	ascii	init sound channels sucess
+1660	ascii	init_snd_channels
+1661	ascii	ice_snd_worker.c:2918
+1662	ascii	send SND_PLAYBACK_START failed
+1663	ascii	audio_call_playback_start
+1664	ascii	ice_snd_worker.c:2943
+1665	ascii	send audio_call_record_stop failed
+1666	ascii	audio_call_playback_stop
+1667	ascii	ice_snd_worker.c:2949
+1668	ascii	audio_call_record_start
+1669	ascii	ice_snd_worker.c:2955
+1670	ascii	audio_call_record_stop
+1671	ascii	ice_snd_worker.c:2961
+1672	ascii	snd_register_snd_cbs
+1673	ascii	ice_snd_worker.c:2976
+1674	ascii	ice_sound.log
+1675	ascii	14:55:29
+1676	ascii	2025-07-09
+1677	ascii	vdesktop-server version: %s (build on: %s %s)
+1678	ascii	snd_worker_init_log
+1679	ascii	ice_snd_worker.c:3011
+1680	ascii	qemu mode
+1681	ascii	snd_disconnect_client
+1682	ascii	ice_snd_worker.c:3021
+1683	ascii	init->be_recording==0
+1684	ascii	deal_msg
+1685	ascii	ice_snd_worker.c:3041
+1686	ascii	ICE_RECORD_HAVE_SPACE
+1687	ascii	ice_snd_worker.c:3048
+1688	ascii	ICE_RECORD_SPACE_LIMMIT
+1689	ascii	ice_snd_worker.c:3054
+1690	ascii	nospace
+1691	ascii	ICE_RECORD_HB
+1692	ascii	ice_snd_worker.c:3060
+1693	ascii	invalid msg
+1694	ascii	ice_snd_worker.c:3066
+1695	ascii	ice_record_get_init_data failed!!
+1696	ascii	init_screen_record
+1697	ascii	ice_snd_worker.c:3082
+1698	ascii	recv SOCK_THREAD_CONN
+1699	ascii	deal_sock_inside_msg_rdscreen
+1700	ascii	ice_snd_worker.c:3120
+1701	ascii	recv SOCK_THREAD_DISCONN
+1702	ascii	ice_snd_worker.c:3125
+1703	ascii	deal_sock_inside_msg
+1704	ascii	ice_snd_worker.c:3148
+1705	ascii	ice_snd_worker.c:3153
+1706	ascii	Unparse Json Fail
+1707	ascii	init_rdscreen_parse
+1708	ascii	init->session:%p  g_rcd_screen_svr_ip=%d  g_rcd_screen_svr_port=%d
+1709	ascii	ice_snd_worker.c:3199
+1710	ascii	fail res[%d] sid[%s]!!!
+1711	ascii	ice_snd_worker.c:3212
+1712	ascii	pind->id:%d
+1713	ascii	snd_record_deal_pong_msg
+1714	ascii	ice_snd_worker.c:3228
+1715	ascii	time:%d, loss:%d, variance:%d
+1716	ascii	ice_snd_worker.c:3236
+1717	ascii	channel logon,channel type[%d] user_id[%d]
+1718	ascii	ice_deal_ctrl_msg
+1719	ascii	ice_snd_worker.c:3259
+1720	ascii	ice_snd_worker.c:3274
+1721	ascii	MAIN_MSG_CLINET_LOGOUT:client logout,not found type[%u] userid[%u] link_id[%u]
+1722	ascii	ice_snd_worker.c:3304
+1723	ascii	channel logout,channel type[%d] user_id[%d] link_id[%d]
+1724	ascii	ice_snd_worker.c:3313
+1725	ascii	--show
+1726	ascii	g_SpiceCfg->protocol_type=%d,tmp_protocol_type=%d g_SpiceCfg->sound_app_optimize:%d  tmp_soundapp:%d
+1727	ascii	ice_snd_worker.c:3373
+1728	ascii	ice_snd_worker.c:3374
+1729	ascii	enter MAIN_MSG_SCREEN_RECORD
+1730	ascii	ice_snd_worker.c:3381
+1731	ascii	SPICE_CHANNEL_PLAYBACK
+1732	ascii	ice_snd_worker.c:3395
+1733	ascii	MAIN_MSG_TC_PLAYBACK
+1734	ascii	ice_snd_worker.c:3402
+1735	ascii	ice_snd_worker.c:3415
+1736	ascii	error message_event[%d]
+1737	ascii	ice_snd_worker.c:3420
+1738	ascii	SPICE_MSGC_RECORD_MODE,mode[%d]
+1739	ascii	deal_client_msg
+1740	ascii	ice_snd_worker.c:3448
+1741	ascii	ice_snd_worker.c:3459
+1742	ascii	SPICE_MSGC_RECORD_START_MARK,time[%d]
+1743	ascii	ice_snd_worker.c:3473
+1744	ascii	deal_client_msg,error msg_type
+1745	ascii	ice_snd_worker.c:3498
+1746	ascii	init_audio_cfg
+1747	ascii	in sound_log:%d protocol_type:%d be_pc_mode:%d
+1748	ascii	init_audio
+1749	ascii	ice_snd_worker.c:3549
+1750	ascii	ice_snd_worker.c:3569
+1751	ascii	INVALID
+1752	ascii	CONNECT
+1753	ascii	DISCONNECT
+1754	ascii	REMOTE_CONNECT
+1755	ascii	REMOTE_DISCONNECT
+1756	ascii	LOGON
+1757	ascii	LOGOFF
+1758	ascii	LOCK
+1759	ascii	UNLOCK
+1760	ascii	REMOTE_CONTROL
+1761	ascii	call ice_service_control_handler control:%u event_type:%u
+1762	ascii	ice_service_control_handler
+1763	ascii	ice_snd_worker.c:3619
+1764	ascii	ice_snd_worker.c:3623
+1765	ascii	svr shutdown
+1766	ascii	Stop service
+1767	ascii	ice_snd_worker.c:3631
+1768	ascii	Interrogate service
+1769	ascii	ice_snd_worker.c:3638
+1770	ascii	Session %lu %s
+1771	ascii	ice_snd_worker.c:3644
+1772	ascii	Unsupported control %lu
+1773	ascii	ice_snd_worker.c:3648
+1774	ascii	IceSoundService
+1775	ascii	RegisterServiceCtrlHandler failed!
+1776	ascii	ice_reg_service
+1777	ascii	ice_snd_worker.c:3673
+1778	ascii	OpenSCManager failed!
+1779	ascii	GetModuleFileName failed!
+1780	ascii	System Reserved
+1781	ascii	Ice Sound
+1782	ascii	ChangeServiceConfig2 failed!
+1783	ascii	Service installed successfully!
+1784	ascii	Service already exists!
+1785	ascii	Service not installed successfully, error %lu.
+1786	ascii	OpenService failed!
+1787	ascii	QueryServiceStatus failed!
+1788	ascii	Service is still running.
+1789	ascii	Service removed successfully.
+1790	ascii	Access denied while trying to remove service.
+1791	ascii	Handle invalid while trying to remove service.
+1792	ascii	Service already marked for deletion.
+1793	ascii	display channel record_time[%d] force_record[%d]
+1794	ascii	ice_record_pre_check
+1795	ascii	ice_snd_worker.c:3810
+1796	ascii	g_ice_record_begin=%d   record_time=%d 
+1797	ascii	ice_snd_worker.c:3824
+1798	ascii	the work runing sid[%s]
+1799	ascii	ice_snd_worker.c:3825
+1800	ascii	the stop work not match sid[%s] sid[%s]
+1801	ascii	ice_snd_worker.c:3838
+1802	ascii	have-gpu
+1803	ascii	ICE worker is null!
+1804	ascii	ice_record_simulate
+1805	ascii	ice_snd_worker.c:3866
+1806	ascii	ice record info record_time[%d] min_space[%d] sid[%s] filename[%s] timer_ms[%d]scale[%d]fps[%d] be_sound[%d] be_gray[%d] force_record[%d] be_ctrl_record[%d]
+1807	ascii	ice_snd_worker.c:3889
+1808	ascii	ice_snd_worker.c:3900
+1809	ascii	protocol type:%s , g_SpiceCfg->support_change_dirver:%d version:%d g_SpiceCfg->win7_rap_iceaudio:%d ice_check_vmboostr_service:%d
+1810	ascii	check_be_qemu_mode
+1811	ascii	ice_snd_worker.c:3924
+1812	ascii	\\.\Global\com.zte.spiceaudio.0
+1813	ascii	Failed opening %s, error %lu
+1814	ascii	ice_snd_worker.c:3940
+1815	ascii	virtio init success, setup playback and record chanls
+1816	ascii	msg_from_virtio_process
+1817	ascii	ice_snd_worker.c:3964
+1818	ascii	ice_main
+1819	ascii	ice_snd_worker.c:4014
+1820	ascii	MAIN_MSG_EXIT
+1821	ascii	ice_snd_worker.c:4074
+1822	ascii	case SCREEN_RECORD_STOP
+1823	ascii	ice_snd_worker.c:4111
+1824	ascii	connect timeout
+1825	ascii	Global\ice_sound_hb_event
+1826	ascii	install
+1827	ascii	uninstall
+1828	ascii	Use: Vdservice install / uninstall
+1829	ascii	ice_get_msg_buf_ex
+1830	ascii	ice_virtio_dev.c:74
+1831	ascii	ice_get_msg_buf line:%d alloc mem:%d
+1832	ascii	ice_virtio_dev.c:76
+1833	ascii	ice_init_virtio_dev
+1834	ascii	ice_virtio_dev.c:109
+1835	ascii	Init virtio port success! %p recv_msgs:%u
+1836	ascii	ice_virtio_dev.c:122
+1837	ascii	read msg header magic:%u flags:%u msgtype:%u msg_len:%u recv_msgs:%u
+1838	ascii	ice_deal_read_done
+1839	ascii	ice_virtio_dev.c:185
+1840	ascii	resend record start msg
+1841	ascii	ice_virtio_dev.c:196
+1842	ascii	resend record stop msg
+1843	ascii	ice_virtio_dev.c:200
+1844	ascii	receive rst message
+1845	ascii	ice_virtio_dev.c:207
+1846	ascii	ice_virtio_dev.c:208
+1847	ascii	pDev close, so return!
+1848	ascii	ice_read_completion
+1849	ascii	ice_virtio_dev.c:227
+1850	ascii	vio_serial read completion error %lu
+1851	ascii	ice_virtio_dev.c:232
+1852	ascii	vio_serial read error %lu
+1853	ascii	ice_virtio_dev.c:248
+1854	ascii	vio_serial read suc, but error %lu
+1855	ascii	ice_virtio_dev.c:256
+1856	ascii	pDev close, so return!%d, %d
+1857	ascii	ice_virtio_write
+1858	ascii	ice_virtio_dev.c:273
+1859	ascii	WriteFile filed:%d
+1860	ascii	ice_virtio_dev.c:302
+1861	ascii	ice_virtio_dev.c:309
+1862	ascii	desktop_flag:0x%x
+1863	ascii	ice_deal_timer_func
+1864	ascii	ice_virtio_dev.c:457
+1865	ascii	ice_deal_virtio_dev_io
+1866	ascii	ice_virtio_dev.c:481
+1867	ascii	ice_virtio_dev.c:494
+1868	ascii	no_hb_times:%u client_online:%d
+1869	ascii	ice_virtio_hb_check
+1870	ascii	ice_virtio_dev.c:516
+1871	ascii	ice_virtio_dev.c:519
+1872	ascii	ice_virtio_dev_init
+1873	ascii	ice_virtio_dev.c:587
+1874	ascii	ice_virtio_dev.c:593
+1875	ascii	msg too big :%u send_list_cnt:%u be_aborted:%u
+1876	ascii	ice_virtio_dev_send_msg
+1877	ascii	ice_virtio_dev.c:614
+1878	ascii	RSDS
+1879	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\x64\Release\IceSound.pdb
+1880	ascii	CreateFileA
+1881	ascii	SetPriorityClass
+1882	ascii	MapViewOfFile
+1883	ascii	UnmapViewOfFile
+1884	ascii	FreeLibrary
+1885	ascii	SetUnhandledExceptionFilter
+1886	ascii	GetCurrentProcess
+1887	ascii	QueryPerformanceCounter
+1888	ascii	SetEvent
+1889	ascii	GetCurrentThread
+1890	ascii	GetSystemTimeAsFileTime
+1891	ascii	WaitNamedPipeW
+1892	ascii	WriteFile
+1893	ascii	InitializeCriticalSection
+1894	ascii	OpenProcess
+1895	ascii	GetPrivateProfileIntA
+1896	ascii	GetSystemDirectoryW
+1897	ascii	LoadLibraryW
+1898	ascii	Sleep
+1899	ascii	CreateEventA
+1900	ascii	LeaveCriticalSection
+1901	ascii	GetExitCodeProcess
+1902	ascii	CreateProcessA
+1903	ascii	TerminateProcess
+1904	ascii	ReadFile
+1905	ascii	CreateFileW
+1906	ascii	MultiByteToWideChar
+1907	ascii	SetThreadPriority
+1908	ascii	GetLastError
+1909	ascii	SetLastError
+1910	ascii	GetProcAddress
+1911	ascii	EnterCriticalSection
+1912	ascii	GetPrivateProfileStringA
+1913	ascii	GetLocalTime
+1914	ascii	GetProcessId
+1915	ascii	ProcessIdToSessionId
+1916	ascii	CreateFileMappingA
+1917	ascii	OpenEventA
+1918	ascii	GetSystemInfo
+1919	ascii	GetModuleFileNameA
+1920	ascii	WTSGetActiveConsoleSessionId
+1921	ascii	GetModuleHandleA
+1922	ascii	lstrcatW
+1923	ascii	CreateMutexA
+1924	ascii	QueryPerformanceFrequency
+1925	ascii	GetCurrentThreadId
+1926	ascii	OutputDebugStringA
+1927	ascii	GetDiskFreeSpaceExA
+1928	ascii	CloseHandle
+1929	ascii	GetCurrentProcessId
+1930	ascii	OpenFileMappingA
+1931	ascii	DeleteFileA
+1932	ascii	CreateThread
+1933	ascii	WaitForSingleObjectEx
+1934	ascii	GetOverlappedResult
+1935	ascii	ReadFileEx
+1936	ascii	KERNEL32.dll
+1937	ascii	PeekMessageA
+1938	ascii	PostThreadMessageA
+1939	ascii	GetMessageA
+1940	ascii	USER32.dll
+1941	ascii	CreateProcessAsUserA
+1942	ascii	OpenServiceA
+1943	ascii	CloseServiceHandle
+1944	ascii	OpenProcessToken
+1945	ascii	RegSetValueExA
+1946	ascii	RegQueryValueExA
+1947	ascii	SetTokenInformation
+1948	ascii	RegCreateKeyExA
+1949	ascii	RegOpenKeyExA
+1950	ascii	DuplicateTokenEx
+1951	ascii	QueryServiceStatusEx
+1952	ascii	OpenSCManagerA
+1953	ascii	RegCloseKey
+1954	ascii	StartServiceCtrlDispatcherA
+1955	ascii	DeleteService
+1956	ascii	ChangeServiceConfig2A
+1957	ascii	CreateServiceA
+1958	ascii	RegisterServiceCtrlHandlerExA
+1959	ascii	QueryServiceStatus
+1960	ascii	SetServiceStatus
+1961	ascii	ADVAPI32.dll
+1962	ascii	WSAAddressToStringA
+1963	ascii	freeaddrinfo
+1964	ascii	getaddrinfo
+1965	ascii	WS2_32.dll
+1966	ascii	MiniDumpWriteDump
+1967	ascii	dbghelp.dll
+1968	ascii	WTSQuerySessionInformationA
+1969	ascii	WTSFreeMemory
+1970	ascii	WTSAPI32.dll
+1971	ascii	_stricmp
+1972	ascii	swprintf_s
+1973	ascii	rename
+1974	ascii	_mktime64
+1975	ascii	feof
+1976	ascii	memmove
+1977	ascii	strncmp
+1978	ascii	free
+1979	ascii	malloc
+1980	ascii	rewind
+1981	ascii	strstr
+1982	ascii	__iob_func
+1983	ascii	_access
+1984	ascii	strchr
+1985	ascii	fflush
+1986	ascii	atoi
+1987	ascii	strnlen
+1988	ascii	tolower
+1989	ascii	fgets
+1990	ascii	printf
+1991	ascii	fopen
+1992	ascii	_mkdir
+1993	ascii	fprintf
+1994	ascii	_vsnprintf
+1995	ascii	isupper
+1996	ascii	memcpy_s
+1997	ascii	fwrite
+1998	ascii	strrchr
+1999	ascii	ftell
+2000	ascii	_localtime64
+2001	ascii	fseek
+2002	ascii	fclose
+2003	ascii	strncpy_s
+2004	ascii	_time64
+2005	ascii	exit
+2006	ascii	calloc
+2007	ascii	realloc
+2008	ascii	strncpy
+2009	ascii	_difftime64
+2010	ascii	strtok_s
+2011	ascii	memset
+2012	ascii	memcpy
+2013	ascii	MSVCR120.dll
+2014	ascii	__crt_debugger_hook
+2015	ascii	__crtUnhandledException
+2016	ascii	__crtTerminateProcess
+2017	ascii	__crtCaptureCurrentContext
+2018	ascii	__crtCapturePreviousContext
+2019	ascii	_XcptFilter
+2020	ascii	_amsg_exit
+2021	ascii	__getmainargs
+2022	ascii	__set_app_type
+2023	ascii	_exit
+2024	ascii	_cexit
+2025	ascii	_configthreadlocale
+2026	ascii	__setusermatherr
+2027	ascii	_initterm_e
+2028	ascii	_initterm
+2029	ascii	__C_specific_handler
+2030	ascii	__initenv
+2031	ascii	_fmode
+2032	ascii	_commode
+2033	ascii	_lock
+2034	ascii	_unlock
+2035	ascii	_calloc_crt
+2036	ascii	__dllonexit
+2037	ascii	_onexit
+2038	ascii	?terminate@@YAXXZ
+2039	ascii	__crtSetUnhandledExceptionFilter
+2040	ascii	sws_getCachedContext
+2041	ascii	sws_freeContext
+2042	ascii	sws_scale
+2043	ascii	swscale-3.dll
+2044	ascii	av_frame_alloc
+2045	ascii	av_samples_set_silence
+2046	ascii	av_get_channel_layout_nb_channels
+2047	ascii	av_frame_free
+2048	ascii	av_realloc
+2049	ascii	av_frame_get_buffer
+2050	ascii	av_strerror
+2051	ascii	av_malloc
+2052	ascii	av_opt_set_sample_fmt
+2053	ascii	av_opt_set_int
+2054	ascii	av_opt_set_double
+2055	ascii	avutil-54.dll
+2056	ascii	swr_convert
+2057	ascii	swr_free
+2058	ascii	swr_init
+2059	ascii	swr_alloc_set_opts
+2060	ascii	swr_alloc
+2061	ascii	swresample-1.dll
+2062	ascii	av_stream_set_r_frame_rate
+2063	ascii	av_register_all
+2064	ascii	avio_seek
+2065	ascii	avformat_new_stream
+2066	ascii	av_write_trailer
+2067	ascii	av_interleaved_write_frame
+2068	ascii	avformat_alloc_output_context2
+2069	ascii	avformat_free_context
+2070	ascii	av_dump_format
+2071	ascii	avio_alloc_context
+2072	ascii	avformat_write_header
+2073	ascii	avformat-56.dll
+2074	ascii	avcodec_encode_audio2
+2075	ascii	avcodec_find_encoder
+2076	ascii	avcodec_get_name
+2077	ascii	av_init_packet
+2078	ascii	avcodec_open2
+2079	ascii	avcodec_close
+2080	ascii	avcodec-56.dll
+2081	ascii	ice_get_encoder_factory
+2082	ascii	opus_decoder_destroy
+2083	ascii	opus_decoder_create
+2084	ascii	opus_encoder_create
+2085	ascii	opus_decode_float
+2086	ascii	opus_encoder_destroy
+2087	ascii	opus_encoder_ctl
+2088	ascii	opus_encode_float
+2089	ascii	register_snd_cbs
+2090	ascii	AudioStart
+2091	ascii	register_audio_cfgs
+2092	ascii	IceAudio.dll
+2093	ascii	IsDebuggerPresent
+2094	ascii	IsProcessorFeaturePresent
+2095	ascii	EncodePointer
+2096	ascii	DecodePointer
+2097	ascii	floor
+2098	ascii	sqrt
+2099	ascii	strcmp
+2100	ascii	ice-encoder.dll
+2101	ascii	opus.dll
+2102	ascii	Enables Ice sound configuration.
+2103	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+2104	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+2105	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+2106	ascii	    <security>
+2107	ascii	      <requestedPrivileges>
+2108	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+2109	ascii	      </requestedPrivileges>
+2110	ascii	    </security>
+2111	ascii	  </trustInfo>
+2112	ascii	</assembly>
+2113	ascii	N0L0
+2114	ascii	qiBxSf
+2115	ascii	DigiCert Inc1
+2116	ascii	www.digicert.com1!0
+2117	ascii	DigiCert Trusted Root G40
+2118	ascii	210429000000Z
+2119	ascii	360428235959Z0i1
+2120	ascii	DigiCert, Inc.1A0?
+2121	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+2122	ascii	>Mp$d
+2123	ascii	}4}L
+2124	ascii	!xE.
+2125	ascii	IpB2
+2126	ascii	6*f(_
+2127	ascii	[K]taM?
+2128	ascii	m&vh
+2129	ascii	J>@G_
+2130	ascii	#!Y`
+2131	ascii	x8E0
+2132	ascii	SA|X=G
+2133	ascii	q]dL
+2134	ascii	k0i0$
+2135	ascii	http://ocsp.digicert.com0A
+2136	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2137	ascii	<0:08
+2138	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2139	ascii	:#D=
+2140	ascii	:]Hm
+2141	ascii	v~7q
+2142	ascii	!usR
+2143	ascii	ov7,
+2144	ascii	/"lA
+2145	ascii	jj@0HK4
+2146	ascii	VxN0
+2147	ascii	241111000000Z
+2148	ascii	251110235959Z0
+2149	ascii	CN1#0!
+2150	ascii	Guangdong Province1
+2151	ascii	Shenzhen1
+2152	ascii	Private Organization1
+2153	ascii	9144030027939873X71
+2154	ascii	ZTE CORPORATION1
+2155	ascii	ZTE CORPORATION0
+2156	ascii	3KB/_
+2157	ascii	4c<b
+2158	ascii	bCQY
+2159	ascii	2gx}w
+2160	ascii	Bm]JG)OF
+2161	ascii	8{:2_hF
+2162	ascii	H}If[
+2163	ascii	!Oa?
+2164	ascii	?66]
+2165	ascii	:.fs
+2166	ascii	60402
+2167	ascii	0)0'
+2168	ascii	http://www.digicert.com/CPS0
+2169	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+2170	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+2171	ascii	http://ocsp.digicert.com0\
+2172	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+2173	ascii	C%,d
+2174	ascii	_+*2
+2175	ascii	ye>ga
+2176	ascii	ZpQeg
+2177	ascii	XTB2z
+2178	ascii	>,Z,
+2179	ascii	C5/u
+2180	ascii	0}0i1
+2181	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+2182	ascii	Iwgf@
+2183	ascii	nmPL
+2184	ascii	o_ic
+2185	ascii	0v7i
+2186	ascii	N?~.
+2187	ascii	sR5y
+2188	ascii	20250709065918Z
+2189	ascii	DigiCert, Inc.1;09
+2190	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2191	ascii	240926000000Z
+2192	ascii	351125235959Z0B1
+2193	ascii	DigiCert1 0
+2194	ascii	DigiCert Timestamp 20240
+2195	ascii	ymIXa+
+2196	ascii	GW3K;
+2197	ascii	o~R}a
+2198	ascii	z9XxGT
+2199	ascii	<Jisu
+2200	ascii	jSDx
+2201	ascii	7!5B
+2202	ascii	/s)v
+2203	ascii	S0Q0O
+2204	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+2205	ascii	http://ocsp.digicert.com0X
+2206	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+2207	ascii	Mm*V;
+2208	ascii	Z +J
+2209	ascii	MzE @t
+2210	ascii	5dz?g
+2211	ascii	(f*^[0
+2212	ascii	220323000000Z
+2213	ascii	370322235959Z0c1
+2214	ascii	=rIQU
+2215	ascii	|jWz
+2216	ascii	!hn7!
+2217	ascii	{un'%
+2218	ascii	+Xt@(
+2219	ascii	u($A
+2220	ascii	fIRP
+2221	ascii	,W5y+
+2222	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2223	ascii	 %41g
+2224	ascii	i?Gw
+2225	ascii	',=?k
+2226	ascii	Axz8
+2227	ascii	www.digicert.com1$0"
+2228	ascii	DigiCert Assured ID Root CA0
+2229	ascii	220801000000Z
+2230	ascii	311109235959Z0b1
+2231	ascii	]J<0"0i3
+2232	ascii	t;mq
+2233	ascii	u]xf
+2234	ascii	v=Y]Bv
+2235	ascii	p,A`
+2236	ascii	RQGt
+2237	ascii	|Lu?c
+2238	ascii	 Qko
+2239	ascii	m0k0$
+2240	ascii	http://ocsp.digicert.com0C
+2241	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+2242	ascii	>0<0:
+2243	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+2244	ascii	Jz/-
+2245	ascii	5FjiT
+2246	ascii	wZ\T
+2247	ascii	~qj#k"
+2248	ascii	T-'~
+2249	ascii	0w0c1
+2250	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2251	ascii	250709065918Z0+
+2252	ascii	[E0/
+2253	ascii	/1(0&0$0"
+2254	ascii	wsGz#u(G
+2255	ascii	pa#w4{
+2256	ascii	;-hv
+2257	ascii	4b-~qO
+2258	ascii	s|b~mV
+2259	utf16le	\winsta.dll
+2260	utf16le	\\.\Pipe\TerminalServer\SystemExecSrvr\%d
+2261	utf16le	Winsta0\winlogon
+2262	utf16le	VS_VERSION_INFO
+2263	utf16le	StringFileInfo
+2264	utf16le	080404b0
+2265	utf16le	CompanyName
+2266	utf16le	ICE Corporation
+2267	utf16le	FileDescription
+2268	utf16le	IceSound
+2269	utf16le	FileVersion
+2270	utf16le	V7.25.21-13
+2271	utf16le	InternalName
+2272	utf16le	IceSound.exe
+2273	utf16le	LegalCopyright
+2274	utf16le	Copyright (C) 2017 ICE Corporation
+2275	utf16le	OriginalFilename
+2276	utf16le	ProductName
+2277	utf16le	ProductVersion
+2278	utf16le	VarFileInfo
+2279	utf16le	Translation

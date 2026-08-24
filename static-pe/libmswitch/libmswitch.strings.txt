@@ -1,0 +1,577 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	RichXlN
+3	ascii	|e7e
+4	ascii	.text
+5	ascii	`.rdata
+6	ascii	@.data
+7	ascii	.rsrc
+8	ascii	@.reloc
+9	ascii	[[[[
+10	ascii	9[[[[t
+11	ascii	u+j$
+12	ascii	u h@
+13	ascii	woVW
+14	ascii	@uoW
+15	ascii	u[9=P
+16	ascii	u WPS
+17	ascii	u&WVS
+18	ascii	oV f
+19	ascii	o^0f
+20	ascii	of@f
+21	ascii	onPf
+22	ascii	ov`f
+23	ascii	o~pf
+24	ascii	FGIu
+25	ascii	X^_]
+26	ascii	uNSW
+27	ascii	@u^V
+28	ascii	t%HHt
+29	ascii	HHtXHHt
+30	ascii	HHty+
+31	ascii	RPSW
+32	ascii	90tW
+33	ascii	?If90t
+34	ascii	PPPPP
+35	ascii	Y__^[
+36	ascii	9csm
+37	ascii	uTVWhEZ
+38	ascii	<v*V
+39	ascii	^SSSSS
+40	ascii	j@j ^V
+41	ascii	SWf9M
+42	ascii	j@j 
+43	ascii	u,9E
+44	ascii	~,WPV
+45	ascii	98t^
+46	ascii	tVPV
+47	ascii	t/9U
+48	ascii	Y;=0
+49	ascii	t?VSP
+50	ascii	Y[_^
+51	ascii	>"u&
+52	ascii	< tK<
+53	ascii	wf93t
+54	ascii	f90u
+55	ascii	VVV+
+56	ascii	@PSVV
+57	ascii	t*VV
+58	ascii	_^[]
+59	ascii	to=h
+60	ascii	Y_^[]
+61	ascii	Fpt"
+62	ascii	QSWVj
+63	ascii	N+D$
+64	ascii	URPQQh
+65	ascii	L$,3
+66	ascii	UVWS
+67	ascii	[_^]
+68	ascii	SVWj
+69	ascii	Y_^[
+70	ascii	j h(
+71	ascii	t!Ht
+72	ascii	t'Ou
+73	ascii	VVhU
+74	ascii	9]$u
+75	ascii	9](SS
+76	ascii	t"SS9] u
+77	ascii	9] SS
+78	ascii	v4;5
+79	ascii	vL;5
+80	ascii	SVWUj
+81	ascii	]_^[
+82	ascii	;t$,v-
+83	ascii	UQPXY]Y[
+84	ascii	~%9M
+85	ascii	r 8^
+86	ascii	PPPPPPPP
+87	ascii	t&:a
+88	ascii	$WCNOW$
+89	ascii	$WCRANGE$
+90	ascii	$WCURL$
+91	ascii	lookup_entity_by_modid: param 2 is NULL
+92	ascii	127.0.0.1
+93	ascii	Client: WSAStartup() failed with error %d
+94	ascii	Client: socket() failed with error %d, try again.
+95	ascii	OpenPort
+96	ascii	SYSTEM\CurrentControlSet\services\MswitchWin
+97	ascii	Client: get server port failed: %d, still use base to connect.
+98	ascii	Client: connect() failed: %d, try again.
+99	ascii	param sock is not legal, sock=%d
+100	ascii	param msg is NULL
+101	ascii	param buflen is NULL
+102	ascii	lib send pack fail, err=%d
+103	ascii	param buffer is NULL
+104	ascii	param buflen is not valid
+105	ascii	lib recv msg head fail, err=%d
+106	ascii	lib recv msg head's length invalid, %d
+107	ascii	lib recv msg head's magic invalid, %08x
+108	ascii	lib recv 1 msg only with msg head, total len: %d, data-len in msg-head :%d 
+109	ascii	lib recv msg too long, message length %d, buffer length %d
+110	ascii	lib recv msg data fail, return msg-head(total len: %d ), err='%d
+111	ascii	lib recv msg data's length is not correct, real data-len: %d , data-len in msg-head: %d 
+112	ascii	lib recv 1 msg, total len: %d 
+113	ascii	register from %d mod
+114	ascii	send msg to 'message switch' length %d is illegal, dst_socket(mswitch)=%lu
+115	ascii	alloc memory failed for agent regist rsp msg, regist fail,mem size=%d
+116	ascii	recv agent regist rsp failed, len=%d
+117	ascii	recv agent regist rsp msg length %d is not legal, want=%d
+118	ascii	recv agent regist rsp msg, length %d, msgid=%d, msgtype=%d, src_mod=%d, dst_mod=%d
+119	ascii	agent regist to message switch failure!
+120	ascii	try_register_thread
+121	ascii	%s:parameter is NULL
+122	ascii	try_register_thread is running ... mod %d
+123	ascii	Register first,please!
+124	ascii	try Register is running!
+125	ascii	thread malloc failed
+126	ascii	thread create failed
+127	ascii	Register param uuid is NULL
+128	ascii	Send Msg, try to reconncet.
+129	ascii	Send Msg, module entity not exist.
+130	ascii	Send Msg Sock = -1
+131	ascii	Send Msg buffer is NULL
+132	ascii	Send Msg too long, give up, max length=%d, buffer length=%d
+133	ascii	SendMsg ret %d
+134	ascii	Recv Msg, try to reconncet.
+135	ascii	Recv Msg, module entity not exist.
+136	ascii	Recv Msg Sock = -1
+137	ascii	Recv Msg buffer is NULL
+138	ascii	Recv Msg too long, give up, max length=%d, buffer length=%d
+139	ascii	Recv Msg, memory allocate failed.
+140	ascii	RecvMsg ret %d
+141	ascii	recv msg too long, give up, recv length=%d, buffer length=%d
+142	ascii	RecvMsgTimeout, try to reconncet.
+143	ascii	RecvMsgTimeout, module entity not exist.
+144	ascii	RecvMsgTimeout Sock = -1
+145	ascii	RecvMsgTimeout buffer is NULL
+146	ascii	RecvMsgTimeout too long, give up, max length=%d, buffer length=%d
+147	ascii	RecvMsgTimeout, argument 'timeout' invalid.
+148	ascii	FreeMsg: socket %d is running.
+149	ascii	(null)
+150	ascii	( 8PX
+151	ascii	700WP
+152	ascii	`h````
+153	ascii	xpxxxx
+154	ascii	CorExitProcess
+155	ascii	FlsFree
+156	ascii	FlsSetValue
+157	ascii	FlsGetValue
+158	ascii	FlsAlloc
+159	ascii	HH:mm:ss
+160	ascii	dddd, MMMM dd, yyyy
+161	ascii	MM/dd/yy
+162	ascii	December
+163	ascii	November
+164	ascii	October
+165	ascii	September
+166	ascii	August
+167	ascii	July
+168	ascii	June
+169	ascii	April
+170	ascii	March
+171	ascii	February
+172	ascii	January
+173	ascii	Saturday
+174	ascii	Friday
+175	ascii	Thursday
+176	ascii	Wednesday
+177	ascii	Tuesday
+178	ascii	Monday
+179	ascii	Sunday
+180	ascii	('8PW
+181	ascii	700PP
+182	ascii	`h`hhh
+183	ascii	xppwpp
+184	ascii	GetProcessWindowStation
+185	ascii	GetUserObjectInformationW
+186	ascii	GetLastActivePopup
+187	ascii	GetActiveWindow
+188	ascii	MessageBoxW
+189	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+190	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+191	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+192	ascii	RSDS4)L
+193	ascii	D:\soft\git\Git\code\bank\ivmc\vmc\vpsrc\mswitch_win\dll\Release\libmswitch.pdb
+194	ascii	WS2_32.dll
+195	ascii	RegCloseKey
+196	ascii	RegQueryValueExA
+197	ascii	RegOpenKeyExA
+198	ascii	ADVAPI32.dll
+199	ascii	LeaveCriticalSection
+200	ascii	InitializeCriticalSection
+201	ascii	EnterCriticalSection
+202	ascii	CreateThread
+203	ascii	Sleep
+204	ascii	HeapAlloc
+205	ascii	GetLastError
+206	ascii	HeapFree
+207	ascii	GetCurrentThreadId
+208	ascii	DecodePointer
+209	ascii	GetCommandLineA
+210	ascii	IsProcessorFeaturePresent
+211	ascii	UnhandledExceptionFilter
+212	ascii	SetUnhandledExceptionFilter
+213	ascii	IsDebuggerPresent
+214	ascii	EncodePointer
+215	ascii	TerminateProcess
+216	ascii	GetCurrentProcess
+217	ascii	GetProcAddress
+218	ascii	GetModuleHandleW
+219	ascii	ExitProcess
+220	ascii	WriteFile
+221	ascii	GetStdHandle
+222	ascii	GetModuleFileNameW
+223	ascii	HeapCreate
+224	ascii	HeapDestroy
+225	ascii	SetHandleCount
+226	ascii	InitializeCriticalSectionAndSpinCount
+227	ascii	GetFileType
+228	ascii	GetStartupInfoW
+229	ascii	DeleteCriticalSection
+230	ascii	TlsAlloc
+231	ascii	TlsGetValue
+232	ascii	TlsSetValue
+233	ascii	TlsFree
+234	ascii	InterlockedIncrement
+235	ascii	SetLastError
+236	ascii	InterlockedDecrement
+237	ascii	GetModuleFileNameA
+238	ascii	FreeEnvironmentStringsW
+239	ascii	WideCharToMultiByte
+240	ascii	GetEnvironmentStringsW
+241	ascii	QueryPerformanceCounter
+242	ascii	GetTickCount
+243	ascii	GetCurrentProcessId
+244	ascii	GetSystemTimeAsFileTime
+245	ascii	GetCPInfo
+246	ascii	GetACP
+247	ascii	GetOEMCP
+248	ascii	IsValidCodePage
+249	ascii	RtlUnwind
+250	ascii	LoadLibraryW
+251	ascii	HeapReAlloc
+252	ascii	GetConsoleCP
+253	ascii	GetConsoleMode
+254	ascii	FlushFileBuffers
+255	ascii	LCMapStringW
+256	ascii	MultiByteToWideChar
+257	ascii	GetStringTypeW
+258	ascii	SetFilePointer
+259	ascii	HeapSize
+260	ascii	CloseHandle
+261	ascii	WriteConsoleW
+262	ascii	SetStdHandle
+263	ascii	CreateFileW
+264	ascii	KERNEL32.dll
+265	ascii	libmswitch.dll
+266	ascii	BuildMsg
+267	ascii	FreeMsg
+268	ascii	H_UUID
+269	ascii	Libmswitch_BuildTime
+270	ascii	Libmswitch_FullVersion
+271	ascii	Libmswitch_Url
+272	ascii	RecvMsg
+273	ascii	RecvMsgTimeout
+274	ascii	Register
+275	ascii	SendMsg
+276	ascii	                          
+277	ascii	abcdefghijklmnopqrstuvwxyz
+278	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+279	ascii	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+280	ascii	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+281	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+282	ascii	    <security>
+283	ascii	      <requestedPrivileges>
+284	ascii	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+285	ascii	      </requestedPrivileges>
+286	ascii	    </security>
+287	ascii	  </trustInfo>
+288	ascii	</assembly>
+289	ascii	00Z0r0
+290	ascii	0)1/1Z1`1
+291	ascii	2C3\4i4
+292	ascii	7%7+7B7O7T7Y7q7w7
+293	ascii	8$8f8~8
+294	ascii	849O9j9
+295	ascii	;'<r<
+296	ascii	<#=[=m=s=x=
+297	ascii	=I>f>
+298	ascii	?I?N?
+299	ascii	0m0s0
+300	ascii	1"151\1
+301	ascii	323E3l3
+302	ascii	6)6O6m6t6x6|6
+303	ascii	6R7]7x7
+304	ascii	8 8$8(8,8v8|8
+305	ascii	9,:[:a:p:
+306	ascii	:_;f;
+307	ascii	<$<1<=<M<T<c<o<|<
+308	ascii	=8=G=P=t=
+309	ascii	='>?>G>P>
+310	ascii	?,?D?
+311	ascii	-121u1
+312	ascii	132;2P2[2C3
+313	ascii	82:u:
+314	ascii	30:0G0M0
+315	ascii	1\2d2|2
+316	ascii	3#3)30373>3E3L3S3Z3b3j3r3~3
+317	ascii	4r5z5
+318	ascii	6*626B6H6Y6
+319	ascii	8 8;8C8I8W8
+320	ascii	8G9u9
+321	ascii	:1:7:a:
+322	ascii	;>;V;t;
+323	ascii	<+<1<F<f<
+324	ascii	< =)=5=n=w=
+325	ascii	0@0G0`0t0z0
+326	ascii	0N1n1y1
+327	ascii	272L2r2
+328	ascii	3!4)4u4
+329	ascii	5#5)51585=5E5N5Z5_5d5j5n5t5y5
+330	ascii	6 6&6>6Y6h6
+331	ascii	9r9x9
+332	ascii	:#:(:I:N:
+333	ascii	< <(<0<<<e<m<
+334	ascii	<.=k=
+335	ascii	?=?J?T?b?k?u?
+336	ascii	1$1m1
+337	ascii	1p2|2
+338	ascii	3!3'30353D3k3
+339	ascii	5Y6s6
+340	ascii	7U8[8a8
+341	ascii	:#:W;u;
+342	ascii	<X=]=o=
+343	ascii	>F>L>Q>_>d>i>n>~>
+344	ascii	?A?F?M?R?Y?^?l?
+345	ascii	d0s0
+346	ascii	1B1G1L1c1
+347	ascii	2$2.242>2D2N2W2b2g2p2z2
+348	ascii	5]5c5m5
+349	ascii	5$6<6
+350	ascii	7@8`8P9y9
+351	ascii	=1=r=
+352	ascii	=.>`>
+353	ascii	?,?L?
+354	ascii	808B8T8f8x8
+355	ascii	889E9^9|9
+356	ascii	:1;=;
+357	ascii	<Q<W<t<
+358	ascii	<.=V=
+359	ascii	<0d0}0
+360	ascii	0,1:1{1
+361	ascii	T1X1\1`1l1p1
+362	ascii	D4L4T4\4d4l4t4|4
+363	ascii	3H4h4
+364	ascii	505P5\5x5
+365	ascii	6 6@6`6
+366	ascii	0 080`0h0
+367	ascii	; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+368	ascii	< <$<(<,<0<4<8<<<@<D<H<L<P<
+369	ascii	= =$=(=,=0=4=8=<=@=D=H=L=P=T=X=h=l=p=t=x=|=
+370	ascii	N0L0
+371	ascii	DigiCert Inc1
+372	ascii	www.digicert.com1!0
+373	ascii	DigiCert Trusted Root G40
+374	ascii	210429000000Z
+375	ascii	360428235959Z0i1
+376	ascii	DigiCert, Inc.1A0?
+377	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+378	ascii	>Mp$d
+379	ascii	}4}L
+380	ascii	!xE.
+381	ascii	IpB2
+382	ascii	6*f(_
+383	ascii	[K]taM?
+384	ascii	m&vh
+385	ascii	J>@G_
+386	ascii	#!Y`
+387	ascii	x8E0
+388	ascii	SA|X=G
+389	ascii	q]dL
+390	ascii	k0i0$
+391	ascii	http://ocsp.digicert.com0A
+392	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+393	ascii	<0:08
+394	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+395	ascii	:#D=
+396	ascii	:]Hm
+397	ascii	v~7q
+398	ascii	!usR
+399	ascii	ov7,
+400	ascii	/"lA
+401	ascii	jj@0HK4
+402	ascii	VxN0
+403	ascii	210617000000Z
+404	ascii	240821235959Z0q1
+405	ascii	GuangDong Province1
+406	ascii	ShenZhen1
+407	ascii	ZTE CORPORATION1
+408	ascii	ZTE CORPORATION0
+409	ascii	?Fv(
+410	ascii	7zc_
+411	ascii	G'i 
+412	ascii	^Z\):
+413	ascii	A9+y
+414	ascii	L"-#}
+415	ascii	_-u3
+416	ascii	k54'
+417	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+418	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0>
+419	ascii	70503
+420	ascii	0)0'
+421	ascii	http://www.digicert.com/CPS0
+422	ascii	http://ocsp.digicert.com0\
+423	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+424	ascii	`}q(Ic
+425	ascii	&+9X
+426	ascii	0}0i1
+427	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+428	ascii	zmbx
+429	ascii	ZHdg\Y
+430	ascii	hZp8q
+431	ascii	20231024063603Z
+432	ascii	DigiCert, Inc.1;09
+433	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+434	ascii	230714000000Z
+435	ascii	341013235959Z0H1
+436	ascii	DigiCert, Inc.1 0
+437	ascii	DigiCert Timestamp 20230
+438	ascii	H-^Eu
+439	ascii	x)9k
+440	ascii	{s>2
+441	ascii	!IQ~
+442	ascii	/s)v
+443	ascii	S0Q0O
+444	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+445	ascii	http://ocsp.digicert.com0X
+446	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+447	ascii	a7hIw
+448	ascii	.%x%
+449	ascii	w}uE
+450	ascii	y8H_
+451	ascii	|s1U
+452	ascii	l2|X/gGe
+453	ascii	(f*^[0
+454	ascii	220323000000Z
+455	ascii	370322235959Z0c1
+456	ascii	=rIQU
+457	ascii	|jWz
+458	ascii	!hn7!
+459	ascii	{un'%
+460	ascii	+Xt@(
+461	ascii	u($A
+462	ascii	fIRP
+463	ascii	,W5y+
+464	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+465	ascii	 %41g
+466	ascii	i?Gw
+467	ascii	',=?k
+468	ascii	Axz8
+469	ascii	www.digicert.com1$0"
+470	ascii	DigiCert Assured ID Root CA0
+471	ascii	220801000000Z
+472	ascii	311109235959Z0b1
+473	ascii	]J<0"0i3
+474	ascii	t;mq
+475	ascii	u]xf
+476	ascii	v=Y]Bv
+477	ascii	p,A`
+478	ascii	RQGt
+479	ascii	|Lu?c
+480	ascii	 Qko
+481	ascii	m0k0$
+482	ascii	http://ocsp.digicert.com0C
+483	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+484	ascii	>0<0:
+485	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+486	ascii	Jz/-
+487	ascii	5FjiT
+488	ascii	wZ\T
+489	ascii	~qj#k"
+490	ascii	T-'~
+491	ascii	0w0c1
+492	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+493	ascii	231024063603Z0+
+494	ascii	/1(0&0$0"
+495	ascii	@WhA6o
+496	ascii	eMe0
+497	ascii	:)X+Q
+498	ascii	~B?d
+499	ascii	Nck!K
+500	ascii	_O6*
+501	ascii	PDEE
+502	ascii	5U*$>
+503	ascii	s2<I 
+504	ascii	ZNF)
+505	utf16le	(null)
+506	utf16le	mscoree.dll
+507	utf16le	runtime error 
+508	utf16le	TLOSS error
+509	utf16le	SING error
+510	utf16le	DOMAIN error
+511	utf16le	R6033
+512	utf16le	- Attempt to use MSIL code from this assembly during native code initialization
+513	utf16le	This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
+514	utf16le	R6032
+515	utf16le	- not enough space for locale information
+516	utf16le	R6031
+517	utf16le	- Attempt to initialize the CRT more than once.
+518	utf16le	This indicates a bug in your application.
+519	utf16le	R6030
+520	utf16le	- CRT not initialized
+521	utf16le	R6028
+522	utf16le	- unable to initialize heap
+523	utf16le	R6027
+524	utf16le	- not enough space for lowio initialization
+525	utf16le	R6026
+526	utf16le	- not enough space for stdio initialization
+527	utf16le	R6025
+528	utf16le	- pure virtual function call
+529	utf16le	R6024
+530	utf16le	- not enough space for _onexit/atexit table
+531	utf16le	R6019
+532	utf16le	- unable to open console device
+533	utf16le	R6018
+534	utf16le	- unexpected heap error
+535	utf16le	R6017
+536	utf16le	- unexpected multithread lock error
+537	utf16le	R6016
+538	utf16le	- not enough space for thread data
+539	utf16le	R6010
+540	utf16le	- abort() has been called
+541	utf16le	R6009
+542	utf16le	- not enough space for environment
+543	utf16le	R6008
+544	utf16le	- not enough space for arguments
+545	utf16le	R6002
+546	utf16le	- floating point support not loaded
+547	utf16le	Microsoft Visual C++ Runtime Library
+548	utf16le	<program name unknown>
+549	utf16le	Runtime Error!
+550	utf16le	Program: 
+551	utf16le	KERNEL32.DLL
+552	utf16le	HH:mm:ss
+553	utf16le	dddd, MMMM dd, yyyy
+554	utf16le	MM/dd/yy
+555	utf16le	December
+556	utf16le	November
+557	utf16le	October
+558	utf16le	September
+559	utf16le	August
+560	utf16le	July
+561	utf16le	June
+562	utf16le	April
+563	utf16le	March
+564	utf16le	February
+565	utf16le	January
+566	utf16le	Saturday
+567	utf16le	Friday
+568	utf16le	Thursday
+569	utf16le	Wednesday
+570	utf16le	Tuesday
+571	utf16le	Monday
+572	utf16le	Sunday
+573	utf16le	WUSER32.DLL
+574	utf16le	         (((((                  H
+575	utf16le	         h((((                  H
+576	utf16le	                                 H
+577	utf16le	CONOUT$

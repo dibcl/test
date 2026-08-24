@@ -1,0 +1,85 @@
+﻿========== Z DRIVE AUDIT ==========
+TIME: 2026-08-24 00:29:58
+
+========== LOGICAL DISK ==========
+
+
+DeviceID     : Z:
+DriveType    : 5
+VolumeName   : CDROM
+FileSystem   : CDFS
+Size         : 358400
+FreeSpace    : 0
+ProviderName : 
+
+
+
+
+========== VOLUME ==========
+
+
+DriveLetter       : Z
+FileSystemLabel   : CDROM
+FileSystemType    : Unknown
+DriveType         : CD-ROM
+HealthStatus      : Healthy
+OperationalStatus : OK
+Size              : 358400
+SizeRemaining     : 0
+
+
+
+
+========== CDROM DEVICES ==========
+
+
+Drive       : Z:
+Caption     : QEMU QEMU DVD-ROM ATA Device
+MediaLoaded : True
+Name        : QEMU QEMU DVD-ROM ATA Device
+PNPDeviceID : IDE\CDROMQEMU_QEMU_DVD-ROM_______________________2.5+____\5&3A2A5854&0&1.0.0
+
+
+
+
+========== Z ROOT CONTENTS ==========
+
+========== Z RECURSIVE CONTENTS ==========
+
+========== SMALL TEXT FILE CONTENTS ==========
+
+========== MOUNTVOL ==========
+创建、删除或列出卷装入点。
+
+MOUNTVOL [drive:]path VolumeName
+MOUNTVOL [drive:]path /D
+MOUNTVOL [drive:]path /L
+MOUNTVOL [drive:]path /P
+MOUNTVOL /R
+MOUNTVOL /N
+MOUNTVOL /E
+
+    path        指定装入点将驻留的现有 NTFS 目录。
+    VolumeName  指定装入点的目标的卷名称。
+    /D          从指定的目录中删除卷装入点。
+    /L          列出指定目录的已装入的卷名称。
+    /P          从指定目录删除卷装入点，卸下此卷并使此卷无法装入。你可以创建
+                一个卷来再次使此卷可以装入。
+    /R          删除不在系统中的、卷的装入点目录和注册表设置。
+    /N          禁用新卷的自动装入。
+    /E          再次启用新卷的自动装入。
+
+当前装入点的 VolumeName 可能值为:
+
+    \\?\Volume{5f4f861b-0000-0000-0000-100000000000}\
+        *** 无装入点 ***
+
+    \\?\Volume{1fb07030-0000-0000-0000-100000000000}\
+        D:\
+
+    \\?\Volume{5f4f861b-0000-0000-0000-300300000000}\
+        C:\
+
+    \\?\Volume{f1ac00aa-7b04-11ef-bcf6-806e6f6e6963}\
+        Z:\
+

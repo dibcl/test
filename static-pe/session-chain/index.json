@@ -1,0 +1,56 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceVGPUCapture.exe",
+    "json": "static-pe\\session-chain\\IceVGPUCapture.pe.json",
+    "strings": "static-pe\\session-chain\\IceVGPUCapture.strings.txt",
+    "sha256": "853a833eac64c79db64f465665037efdb7da7ab85f8c6468c2e577cdec857ad1",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 4495
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceMainService.exe",
+    "json": "static-pe\\session-chain\\IceMainService.pe.json",
+    "strings": "static-pe\\session-chain\\IceMainService.strings.txt",
+    "sha256": "b5d40100abf9d7b6e0a1dc1ee7dd5a28998156a8f0d3305fcd5715145276d2c4",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 873
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceInput.exe",
+    "json": "static-pe\\session-chain\\IceInput.pe.json",
+    "strings": "static-pe\\session-chain\\IceInput.strings.txt",
+    "sha256": "1fbede280fdcb19c52900366a3f55c120ceaff9b42cd4275e78b75ea5bbf9d96",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 3179
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\IceServer\\IceSound.exe",
+    "json": "static-pe\\session-chain\\IceSound.pe.json",
+    "strings": "static-pe\\session-chain\\IceSound.strings.txt",
+    "sha256": "ddf21efc355cf8a6611a590d8922f3bb1af1044fa07b3d6c36ba9a9cf662a6e6",
+    "machine": "x86-64",
+    "bitness": 64,
+    "string_count": 2279
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+    "json": "static-pe\\session-chain\\Vdagent.pe.json",
+    "strings": "static-pe\\session-chain\\Vdagent.strings.txt",
+    "sha256": "9e47974eac77c34550a8db923e565105be3085bb616e654a3a8b316746ed339e",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 14350
+  },
+  {
+    "path": "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdservice.exe",
+    "json": "static-pe\\session-chain\\Vdservice.pe.json",
+    "strings": "static-pe\\session-chain\\Vdservice.strings.txt",
+    "sha256": "77275baf30e05820766fb40749b5f3b6d70cb603459878d505c634de58f7cd8e",
+    "machine": "x86",
+    "bitness": 32,
+    "string_count": 1228
+  }
+]

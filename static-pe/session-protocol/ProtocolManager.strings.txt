@@ -1,0 +1,1161 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	,Xqw,
+3	ascii	,Xqi,
+4	ascii	,Xql,
+5	ascii	,Rich
+6	ascii	.text
+7	ascii	`.rdata
+8	ascii	@.data
+9	ascii	.pdata
+10	ascii	@.tls
+11	ascii	.rsrc
+12	ascii	@.reloc
+13	ascii	HiD$0
+14	ascii	T$`A
+15	ascii	D$8H
+16	ascii	D$`H
+17	ascii	|$0H
+18	ascii	D$(H
+19	ascii	D$@H
+20	ascii	L$8H
+21	ascii	T$PH
+22	ascii	L$(A
+23	ascii	L$`H
+24	ascii	@USWATAWH
+25	ascii	D$0H
+26	ascii	D$1H
+27	ascii	D$9H
+28	ascii	D$AH
+29	ascii	D$IH
+30	ascii	D$QH
+31	ascii	D$YH
+32	ascii	D$if
+33	ascii	D$pH
+34	ascii	D$qH
+35	ascii	D$yH
+36	ascii	L$0L
+37	ascii	tIH+
+38	ascii	L$pL
+39	ascii	T$pH
+40	ascii	L$0M
+41	ascii	A_A\_[]
+42	ascii	T$@A
+43	ascii	VWATAUAVH
+44	ascii	d$pH
+45	ascii	l$XL
+46	ascii	|$hL
+47	ascii	D$xL
+48	ascii	D$xH
+49	ascii	\$PA
+50	ascii	E80twA
+51	ascii	\$PH
+52	ascii	|$hH
+53	ascii	 A^A]A\_^
+54	ascii	L$ L
+55	ascii	UWAUAVH
+56	ascii	t$0L
+57	ascii	d$(L
+58	ascii	|$ M
+59	ascii	\$`A
+60	ascii	\$`H
+61	ascii	|$ H
+62	ascii	8A^A]_]
+63	ascii	fA90
+64	ascii	L$xH
+65	ascii	T$(H
+66	ascii	<+tl</ta<=tJ
+67	ascii	T$AD
+68	ascii	\$HH
+69	ascii	@VWAVAW
+70	ascii	L$@H
+71	ascii	D$@f
+72	ascii	D$(W
+73	ascii	L$1A
+74	ascii	T$0A
+75	ascii	A_A^_^
+76	ascii	UVWATAUAVAWH
+77	ascii	drBA
+78	ascii	T$(L
+79	ascii	|$(H
+80	ascii	L$0A
+81	ascii	t$(H
+82	ascii	[<[t
+83	ascii	D8;u
+84	ascii	\$0D8|$0t
+85	ascii	D$0L+
+86	ascii	A_A^A]A\_^]
+87	ascii	s<Ic
+88	ascii	L$(H
+89	ascii	@USVWATAUAVAWH
+90	ascii	|$ Hc
+91	ascii	drhH
+92	ascii	D$(A
+93	ascii	L$@A
+94	ascii	] D8e t
+95	ascii	D8#u
+96	ascii	\$@D8d$@t
+97	ascii	T$@H
+98	ascii	t&Hc
+99	ascii	D$(L
+100	ascii	A_A^A]A\_^[]
+101	ascii	s5Ic
+102	ascii	WAVAWH
+103	ascii	t$PH
+104	ascii	\$XH
+105	ascii	l$`H
+106	ascii	0A_A^_
+107	ascii	D$hH
+108	ascii	D$(I
+109	ascii	T$ L
+110	ascii	L$PE3
+111	ascii	|$@H
+112	ascii	t$8H
+113	ascii	\$pH
+114	ascii	t$xH
+115	ascii	H+\$PH
+116	ascii	w<E3
+117	ascii	L$ H
+118	ascii	L$03
+119	ascii	L$@E3
+120	ascii	H+\$@
+121	ascii	D$p3
+122	ascii	D$oH
+123	ascii	T$0H;
+124	ascii	L$pH3
+125	ascii	D$0#!
+126	ascii	t$ WH
+127	ascii	D$0L
+128	ascii	|$ AVH
+129	ascii	D$@L
+130	ascii	D$@H;
+131	ascii	l$hH
+132	ascii	t$pH
+133	ascii	|$xH
+134	ascii	@SVWH
+135	ascii	L$13
+136	ascii	L$0H
+137	ascii	L$1D
+138	ascii	D$PA
+139	ascii	|$0L
+140	ascii	D$PH
+141	ascii	D$XH
+142	ascii	D$PE3
+143	ascii	T$ f
+144	ascii	L$8L
+145	ascii	T$0H
+146	ascii	2r"H
+147	ascii	@SUVWAVH
+148	ascii	l$0H
+149	ascii	l$0L
+150	ascii	|$(L
+151	ascii	A^_^][
+152	ascii	\$@H
+153	ascii	l$HH
+154	ascii	\$(H
+155	ascii	t$0H
+156	ascii	\$8H
+157	ascii	\$83
+158	ascii	t$HH
+159	ascii	|$`H
+160	ascii	l$PL
+161	ascii	t$XL
+162	ascii	t$XH
+163	ascii	t$hH
+164	ascii	@SUVWH
+165	ascii	L$BE3
+166	ascii	D$@D
+167	ascii	t$8L
+168	ascii	D$@A
+169	ascii	_^][
+170	ascii	T$~D
+171	ascii	D$|D
+172	ascii	T$xD
+173	ascii	T$PD
+174	ascii	D$HD
+175	ascii	L$@D
+176	ascii	T$8D
+177	ascii	UVWH
+178	ascii	0<;w
+179	ascii	D$0A
+180	ascii	L$Q3
+181	ascii	L$PH
+182	ascii	L$PA
+183	ascii	T$8H
+184	ascii	|$ ATAVAWH
+185	ascii	L$wH
+186	ascii	L$xL
+187	ascii	l$(H
+188	ascii	L$yL
+189	ascii	\$0A
+190	ascii	\$`I
+191	ascii	A_A^A\
+192	ascii	\$0L
+193	ascii	\$0H
+194	ascii	K E3
+195	ascii	L$@3
+196	ascii	t$ AWH
+197	ascii	|$PL
+198	ascii	t$X3
+199	ascii	|$8H
+200	ascii	x AVH
+201	ascii	>D95
+202	ascii	l$XH
+203	ascii	t$`H
+204	ascii	|$h3
+205	ascii	D$ L
+206	ascii	t$P3
+207	ascii	D$(D
+208	ascii	@SVH
+209	ascii	t$xL
+210	ascii	|$pA
+211	ascii	D$Yf
+212	ascii	D$0%
+213	ascii	|$pL
+214	ascii	L$hH3
+215	ascii	\$P3
+216	ascii	|$PH
+217	ascii	D$PL
+218	ascii	VWATAVAWH
+219	ascii	\$XD
+220	ascii	T$8fH
+221	ascii	~L$(H
+222	ascii	d$(H
+223	ascii	H>fA
+224	ascii	D$0I
+225	ascii	A_A^A\_^
+226	ascii	t$83
+227	ascii	\$pI
+228	ascii	T$0L
+229	ascii	t$XI
+230	ascii	D$ H
+231	ascii	SUVWATAUAVAWH
+232	ascii	L$HD
+233	ascii	T$DH
+234	ascii	D81u
+235	ascii	L$XL
+236	ascii	D$8D
+237	ascii	A_A^A]A\_^][
+238	ascii	D89u
+239	ascii	T$`H
+240	ascii	CT$`H
+241	ascii	)D$@
+242	ascii	)L$PH
+243	ascii	d$ L
+244	ascii	l$pL
+245	ascii	UAVAWH
+246	ascii	D$xA
+247	ascii	L$pD
+248	ascii	T$hD
+249	ascii	\$`D
+250	ascii	A_A^]
+251	ascii	|$@3
+252	ascii	\$H3
+253	ascii	\$@I
+254	ascii	SVWAVH
+255	ascii	8A^_^[
+256	ascii	l$8H
+257	ascii	t$@H
+258	ascii	@UVWATAUAVAWH
+259	ascii	D$aH
+260	ascii	D$iH
+261	ascii	D$yf
+262	ascii	D$P%
+263	ascii	H98t
+264	ascii	D$XE3
+265	ascii	T$PI
+266	ascii	D$ A
+267	ascii	D$h3
+268	ascii	\$0f
+269	ascii	L$QD
+270	ascii	D$@E3
+271	ascii	T$@E
+272	ascii	T$PA
+273	ascii	t$(L
+274	ascii	L$XH
+275	ascii	\$h|+H
+276	ascii	L$HH3
+277	ascii	D$H3
+278	ascii	D$Bf
+279	ascii	L$(L
+280	ascii	T$8A
+281	ascii	\$hH
+282	ascii	L$A3
+283	ascii	D$03
+284	ascii	\$PI
+285	ascii	\$ H
+286	ascii	@UWAVAWH
+287	ascii	d$8L
+288	ascii	d$03
+289	ascii	d$0%/
+290	ascii	d$Af
+291	ascii	D$LH
+292	ascii	D$TH
+293	ascii	D$TL
+294	ascii	A_A^_]
+295	ascii	;;t7
+296	ascii	AVAWH
+297	ascii	t$HD
+298	ascii	A_A^
+299	ascii	ATAVAWH
+300	ascii	D$xP
+301	ascii	D$`v
+302	ascii	D$XR
+303	ascii	D$HF
+304	ascii	D$(giy
+305	ascii	D$hD
+306	ascii	L$`D
+307	ascii	T$XD
+308	ascii	t$8A
+309	ascii	D$`D
+310	ascii	L$XD
+311	ascii	|$px
+312	ascii	VWAVH
+313	ascii	@A^_^
+314	ascii	|$HA
+315	ascii	` AUAVAWH
+316	ascii	rZI9>t
+317	ascii	d$XH
+318	ascii	 A_A^A]
+319	ascii	L$ t
+320	ascii	LcA<E3
+321	ascii	t"H+
+322	ascii	HcH<H
+323	ascii	\$ UH
+324	ascii	H3E H3E
+325	ascii	8csm
+326	ascii	@SVAVH
+327	ascii	|$0fff
+328	ascii	L$!D
+329	ascii	@A^^[
+330	ascii	@VWH
+331	ascii	ZXVsnprintf failed, error:0x%x size:%d func:%s:%d
+332	ascii	ZXVsnprintf
+333	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:136
+334	ascii	ZXVsnprintf failed, error:0x%x
+335	ascii	ZXWvsnprintf
+336	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:149
+337	ascii	ZXStrnlen failed, error:0x%x
+338	ascii	ZXStrnlen_s
+339	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:230
+340	ascii	ZXWStrnlen_s
+341	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:245
+342	ascii	Delete file %s failed, error:%d
+343	ascii	ice_remove
+344	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:302
+345	ascii	rename file %s failed, errno:%d
+346	ascii	ice_rename
+347	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:311
+348	ascii	exit:%d line:%d
+349	ascii	close file failed!
+350	ascii	ZXFile_close
+351	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:608
+352	ascii	fflush failed!
+353	ascii	ZXFflush
+354	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:618
+355	ascii	fwrite failed!
+356	ascii	ZXFwrite
+357	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:627
+358	ascii	open file failed:%s 
+359	ascii	ZXFopen
+360	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:638
+361	ascii	ice_get_module_name
+362	ascii	ice-config.ini
+363	ascii	%s%s%s
+364	ascii	ice_get_log_fname
+365	ascii	MultiByteToWideChar failed:%d
+366	ascii	WideCharToMultiByte failed:%d
+367	ascii	ice_utf8_2_ansi
+368	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:1335
+369	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:1341
+370	ascii	calc_session_key
+371	ascii	function:%s, line:%d
+372	ascii	show_ssl_error_ex
+373	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2160
+374	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2163
+375	ascii	outlen:%d out of range data_len:%d
+376	ascii	pkey is null
+377	ascii	evp_pkey_rsa_private_decrypt
+378	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2383
+379	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2414
+380	ascii	outlen:%d
+381	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2422
+382	ascii	load rsa privatekey failed
+383	ascii	ice_load_rsa_private_key
+384	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:2438
+385	ascii	Could not open mapping file, error code:%lu shname:%s
+386	ascii	open reg fail %lu
+387	ascii	open reg fail:%lu node:%s
+388	ascii	ice_get_reg_info_ex
+389	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:3763
+390	ascii	get reg fail:%lu key_name:%s
+391	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:3769
+392	ascii	ProtocolPort
+393	ascii	SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\ICEProtocol
+394	ascii	GetSystemTimePreciseAsFileTime
+395	ascii	Kernel32.dll
+396	ascii	GetTickCount64
+397	ascii	..\log\ice_server
+398	ascii	unknown
+399	ascii	%s%s%s-exception.s%u.%u.dmp
+400	ascii	ApplicationCrashHandler
+401	ascii	%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
+402	ascii	ERROR
+403	ascii	CRITICAL
+404	ascii	Warning
+405	ascii	Info
+406	ascii	Debug
+407	ascii	%s.bak
+408	ascii	ice_log_rename_file
+409	ascii	feek error!!!
+410	ascii	%02d-%02d %02d:%02d:%02d:%03ld: disk has space:%llu, limit_disk_space:%d
+411	ascii	ice_write_space_info
+412	ascii	%02d-%02d %02d:%02d:%02d:%03ld: %s%s%s-%s-%u:%u : %s: %s: 
+413	ascii	ice_logv
+414	ascii	%s_%u
+415	ascii	ice_check_duoble_running
+416	ascii	ice_mk_dir
+417	ascii	create folder failed %s 
+418	ascii	Error writing to file
+419	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:7604
+420	ascii	log-file-size
+421	ascii	ice_log_init
+422	ascii	ice_encryptString
+423	ascii	;zxin10config
+424	ascii	ice_getEncryptType
+425	ascii	killblk_ex
+426	ascii	fgetstr_ex
+427	ascii	cutpre_ex
+428	ascii	loop_cnt1 reach max value
+429	ascii	check_cfg_file_rw_time
+430	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:8482
+431	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\../base_func.c:8483
+432	ascii	ZXOSGetPrivateProfileString_
+433	ascii	linkto:{
+434	ascii	ZXOSGetPrivateProfileInt_
+435	ascii	DLL_PROCESS_DETACH
+436	ascii	DLL_PROCESS_ATTACH
+437	ascii	DLL_THREAD_ATTACH
+438	ascii	DLL_THREAD_DETACH
+439	ascii	UnKnown dwReason
+440	ascii	DllMain
+441	ascii	ice_rds.log
+442	ascii	14:55:26
+443	ascii	2025-07-09
+444	ascii	V7.25.21-13
+445	ascii	version:%s build on: %s %s
+446	ascii	dllmain.cpp:52
+447	ascii	dwReason:%d str:%s ProcessId:%u ThreadId:%u
+448	ascii	dllmain.cpp:58
+449	ascii	cRef:%d
+450	ascii	IceProtocolConnection::AddRef
+451	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:70
+452	ascii	IceProtocolConnection::Release
+453	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:78
+454	ascii	query uuid:%S
+455	ascii	IceProtocolConnection::QueryInterface
+456	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:94
+457	ascii	query IWRdsProtocolConnection
+458	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:104
+459	ascii	query IWRdsWddmIddProps
+460	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:111
+461	ascii	ppv is null
+462	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolConnection.h:138
+463	ascii	IceProtocolConnection::IceProtocolConnection
+464	ascii	user_name:%s domain:%s, resolution:%d x %d, desktop:%d, %p
+465	ascii	IceProtocolConnection.cpp:142
+466	ascii	SessionID:%d, %p
+467	ascii	IceProtocolConnection::~IceProtocolConnection
+468	ascii	IceProtocolConnection.cpp:151
+469	ascii	SessionID:%lu, be snd msg:%d
+470	ascii	IceProtocolConnection::GetLogonErrorRedirector
+471	ascii	IceProtocolConnection.cpp:164
+472	ascii	IceProtocolConnection::AcceptConnection
+473	ascii	IceProtocolConnection.cpp:173
+474	ascii	IceProtocolConnection::GetClientData
+475	ascii	IceProtocolConnection.cpp:181
+476	ascii	NumMonitors:%u, rimaryMonitor:%u
+477	ascii	IceProtocolConnection::GetClientMonitorData
+478	ascii	IceProtocolConnection.cpp:289
+479	ascii	IceProtocolConnection::GetUserCredentials
+480	ascii	IceProtocolConnection.cpp:297
+481	ascii	IceProtocolConnection::GetLicenseConnection
+482	ascii	IceProtocolConnection.cpp:317
+483	ascii	IceProtocolConnection::AuthenticateClientToSession
+484	ascii	IceProtocolConnection.cpp:328
+485	ascii	IceProtocolConnection::NotifySessionId
+486	ascii	IceProtocolConnection.cpp:336
+487	ascii	open pointer device success
+488	ascii	IceProtocolConnection::GetInputHandles
+489	ascii	IceProtocolConnection.cpp:353
+490	ascii	open pointer device failed:%lu
+491	ascii	IceProtocolConnection.cpp:359
+492	ascii	SessionId:%lu
+493	ascii	IceProtocolConnection.cpp:364
+494	ascii	IceProtocolConnection::GetVideoHandle
+495	ascii	IceProtocolConnection.cpp:371
+496	ascii	open video device success
+497	ascii	IceProtocolConnection.cpp:377
+498	ascii	open video device failed:%lu
+499	ascii	IceProtocolConnection.cpp:383
+500	ascii	IceProtocolConnection::ConnectNotify
+501	ascii	IceProtocolConnection.cpp:392
+502	ascii	IceProtocolConnection::IsUserAllowedToLogon
+503	ascii	IceProtocolConnection.cpp:402
+504	ascii	SessionID:%lu
+505	ascii	IceProtocolConnection::SessionArbitrationEnumeration
+506	ascii	IceProtocolConnection.cpp:412
+507	ascii	IceProtocolConnection::LogonNotify
+508	ascii	IceProtocolConnection.cpp:423
+509	ascii	IceProtocolConnection::PreDisconnect
+510	ascii	IceProtocolConnection.cpp:433
+511	ascii	ret:%d, %d
+512	ascii	IceProtocolConnection.cpp:438
+513	ascii	IceProtocolConnection::DisconnectNotify
+514	ascii	IceProtocolConnection.cpp:445
+515	ascii	session closed:%lu
+516	ascii	IceProtocolConnection::Close
+517	ascii	IceProtocolConnection.cpp:458
+518	ascii	release m_ConnectionCallback
+519	ascii	IceProtocolConnection.cpp:463
+520	ascii	SessionID:%lu, ulError:%lu
+521	ascii	IceProtocolConnection::SetErrorInfo
+522	ascii	IceProtocolConnection.cpp:518
+523	ascii	%s[bStatic:%d]
+524	ascii	IceProtocolConnection::CreateVirtualChannel
+525	ascii	IceProtocolConnection.cpp:533
+526	ascii	%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X
+527	ascii	IceProtocolConnection::QueryProperty
+528	ascii	property uuid:%s
+529	ascii	IceProtocolConnection.cpp:550
+530	ascii	9bf4fa97-c883-4c2a-80ab-5a39c9af00db
+531	ascii	query audio enumerator:%d
+532	ascii	IceProtocolConnection.cpp:554
+533	ascii	return audio enumerator dll,%S[%d]
+534	ascii	IceProtocolConnection.cpp:568
+535	ascii	IceProtocolConnection::GetShadowConnection
+536	ascii	IceProtocolConnection.cpp:600
+537	ascii	IceProtocolConnection::NotifyCommandProcessCreated
+538	ascii	IceProtocolConnection.cpp:611
+539	ascii	IceProtocolConnection::CreateSession
+540	ascii	IceProtocolConnection.cpp:621
+541	ascii	create connection success, connection id:%ul
+542	ascii	IceProtocolConnection.cpp:642
+543	ascii	IceProtocolConnection::CloseSession
+544	ascii	IceProtocolConnection.cpp:653
+545	ascii	IceProtocolConnection.cpp:657
+546	ascii	IceProtocolConnection::SendAPPProxySessionState
+547	ascii	IceProtocolConnection.cpp:668
+548	ascii	wait result user cnt:%d
+549	ascii	IceProtocolConnection::NotifyAPPProxySessionState
+550	ascii	IceProtocolConnection.cpp:696
+551	ascii	SessionID:%lu, %S, %d
+552	ascii	IceProtocolConnection::GetHardwareId
+553	ascii	IceProtocolConnection.cpp:712
+554	ascii	SessionId:%lu, DriverHandle:%p
+555	ascii	IceProtocolConnection::OnDriverLoad
+556	ascii	IceProtocolConnection.cpp:720
+557	ascii	IceProtocolConnection::OnDriverUnload
+558	ascii	IceProtocolConnection.cpp:728
+559	ascii	Enabled:%u
+560	ascii	IceProtocolConnection::EnableWddmIdd
+561	ascii	IceProtocolConnection.cpp:734
+562	ascii	IceProtocolLicenseConnection::AddRef
+563	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLicenseConnection.h:18
+564	ascii	IceProtocolLicenseConnection::Release
+565	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLicenseConnection.h:25
+566	ascii	IceProtocolLicenseConnection::QueryInterface
+567	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLicenseConnection.h:42
+568	ascii	IceProtocolLicenseConnection::IceProtocolLicenseConnection
+569	ascii	IceProtocolLicenseConnection.cpp:7
+570	ascii	IceProtocolLicenseConnection::~IceProtocolLicenseConnection
+571	ascii	IceProtocolLicenseConnection.cpp:14
+572	ascii	pcbLicenseCapabilities:%d
+573	ascii	IceProtocolLicenseConnection::RequestLicensingCapabilities
+574	ascii	IceProtocolLicenseConnection.cpp:21
+575	ascii	WIN-SOEJJM2TQ8C
+576	ascii	IceProtocolLicenseConnection::SendClientLicense
+577	ascii	IceProtocolLicenseConnection.cpp:41
+578	ascii	cbClientLicense:%d
+579	ascii	IceProtocolLicenseConnection.cpp:43
+580	ascii	IceProtocolLicenseConnection::RequestClientLicense
+581	ascii	IceProtocolLicenseConnection.cpp:58
+582	ascii	ulComplete:%d
+583	ascii	IceProtocolLicenseConnection::ProtocolComplete
+584	ascii	IceProtocolLicenseConnection.cpp:79
+585	ascii	IceProtocolListener::AddRef
+586	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolListener.h:31
+587	ascii	IceProtocolListener::Release
+588	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolListener.h:39
+589	ascii	IceProtocolListener::QueryInterface
+590	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolListener.h:52
+591	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolListener.h:61
+592	ascii	find user:%s
+593	ascii	AddWaitCreatingResultInfo
+594	ascii	IceProtocolListener.cpp:52
+595	ascii	user:%s, found:%d, total:%u
+596	ascii	IceProtocolListener.cpp:68
+597	ascii	del %s
+598	ascii	DelWaitCreatingResultInfo
+599	ascii	IceProtocolListener.cpp:83
+600	ascii	free_connection_slot
+601	ascii	IceProtocolListener.cpp:122
+602	ascii	free connection slot for session:%d, index:%d
+603	ascii	IceProtocolListener.cpp:129
+604	ascii	IceProtocolListener.cpp:136
+605	ascii	listener name:%S
+606	ascii	IceProtocolListener::IceProtocolListener
+607	ascii	IceProtocolListener.cpp:153
+608	ascii	IceProtocolListener::~IceProtocolListener
+609	ascii	IceProtocolListener.cpp:164
+610	ascii	IceProtocolListener.cpp:194
+611	ascii	get reg fail %lu key_name:%S
+612	ascii	IceProtocolListener.cpp:200
+613	ascii	audio enumerator dll:%S
+614	ascii	ice_get_audio_enumerator
+615	ascii	IceProtocolListener.cpp:218
+616	ascii	call sock return fail[%lu]!!!
+617	ascii	tn_aio_listen
+618	ascii	IceProtocolListener.cpp:232
+619	ascii	call setsockopt return fail code:%lu!!!
+620	ascii	IceProtocolListener.cpp:241
+621	ascii	protocol port:%d
+622	ascii	IceProtocolListener.cpp:246
+623	ascii	0.0.0.0
+624	ascii	call bind return fail errno[%lu]!!!
+625	ascii	IceProtocolListener.cpp:256
+626	ascii	call listen return fail- port[%lu]!!!
+627	ascii	IceProtocolListener.cpp:265
+628	ascii	listen success
+629	ascii	IceProtocolListener.cpp:270
+630	ascii	receive create session request, user id:%d ,thread id:%d
+631	ascii	create_session
+632	ascii	IceProtocolListener.cpp:301
+633	ascii	allocated connection slot index:%d
+634	ascii	IceProtocolListener.cpp:304
+635	ascii	no connection slot, return error, send ret:%d
+636	ascii	IceProtocolListener.cpp:313
+637	ascii	descryption user info failed, return error, send ret:%d
+638	ascii	IceProtocolListener.cpp:328
+639	ascii	user %s tid:%u, uid:%u is creating session , need wait
+640	ascii	IceProtocolListener.cpp:346
+641	ascii	Create Session for user:%s failed, send ret:%d
+642	ascii	IceProtocolListener.cpp:361
+643	ascii	Create Session for user:%s success
+644	ascii	IceProtocolListener.cpp:372
+645	ascii	Create Session for user:%s failed
+646	ascii	create_session_user
+647	ascii	IceProtocolListener.cpp:384
+648	ascii	IceProtocolListener.cpp:389
+649	ascii	recv error:%d, need len:%d, read len:%d WSAGetLastError:%d
+650	ascii	sock_read_func
+651	ascii	IceProtocolListener.cpp:455
+652	ascii	recv app msg error
+653	ascii	deal_app_proxy_msg
+654	ascii	IceProtocolListener.cpp:506
+655	ascii	app proxy cmd:%d, data len:%d
+656	ascii	IceProtocolListener.cpp:510
+657	ascii	rsa:%p
+658	ascii	IceProtocolListener.cpp:520
+659	ascii	rsa info error
+660	ascii	IceProtocolListener.cpp:523
+661	ascii	recv HB msg, send ret:%d
+662	ascii	IceProtocolListener.cpp:529
+663	ascii	recv create session msg
+664	ascii	IceProtocolListener.cpp:535
+665	ascii	bad name_len:%d or pwd_len:%d
+666	ascii	IceProtocolListener.cpp:538
+667	ascii	recv create session user msg
+668	ascii	IceProtocolListener.cpp:546
+669	ascii	recv msg: name:%s, pass:%s, dom:%s 
+670	ascii	IceProtocolListener.cpp:548
+671	ascii	get connect from [%s]
+672	ascii	sock_thread_func
+673	ascii	IceProtocolListener.cpp:664
+674	ascii	exit sock_thread_func
+675	ascii	IceProtocolListener.cpp:679
+676	ascii	IceProtocolListener::StartListen
+677	ascii	IceProtocolListener.cpp:686
+678	ascii	listen socket failed,return
+679	ascii	IceProtocolListener.cpp:696
+680	ascii	open share memory failed, will exit
+681	ascii	IceProtocolListener.cpp:707
+682	ascii	IceProtocolListener::StopListen
+683	ascii	IceProtocolListener.cpp:724
+684	ascii	exit process
+685	ascii	IceProtocolListener.cpp:736
+686	ascii	string too long
+687	ascii	invalid string position
+688	ascii	list<T> too long
+689	ascii	IceProtocolLogonErrorRedirector::AddRef
+690	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLogonErrorRedirector.h:21
+691	ascii	IceProtocolLogonErrorRedirector::Release
+692	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLogonErrorRedirector.h:28
+693	ascii	IceProtocolLogonErrorRedirector::QueryInterface
+694	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolLogonErrorRedirector.h:45
+695	ascii	IceProtocolLogonErrorRedirector::IceProtocolLogonErrorRedirector
+696	ascii	IceProtocolLogonErrorRedirector.cpp:8
+697	ascii	IceProtocolLogonErrorRedirector::~IceProtocolLogonErrorRedirector
+698	ascii	IceProtocolLogonErrorRedirector.cpp:17
+699	ascii	IceProtocolLogonErrorRedirector::OnBeginPainting
+700	ascii	IceProtocolLogonErrorRedirector.cpp:22
+701	ascii	IceProtocolLogonErrorRedirector::RedirectStatus
+702	ascii	IceProtocolLogonErrorRedirector.cpp:33
+703	ascii	pszMessage:%s
+704	ascii	IceProtocolLogonErrorRedirector::RedirectMessage
+705	ascii	IceProtocolLogonErrorRedirector.cpp:54
+706	ascii	ntsStatus:%x, ntsSubstatus:%x
+707	ascii	IceProtocolLogonErrorRedirector::RedirectLogonError
+708	ascii	IceProtocolLogonErrorRedirector.cpp:75
+709	ascii	IceProtocolLogonErrorRedirector.cpp:79
+710	ascii	Initialize
+711	ascii	CIceProtocolManager::Initialize
+712	ascii	IceProtocolManager.cpp:18
+713	ascii	CIceProtocolManager::CreateListener
+714	ascii	IceProtocolManager.cpp:26
+715	ascii	service status:%d, drain status:%d
+716	ascii	CIceProtocolManager::NotifyServiceStateChange
+717	ascii	IceProtocolManager.cpp:39
+718	ascii	SessionId:%u
+719	ascii	CIceProtocolManager::NotifySessionOfServiceStart
+720	ascii	IceProtocolManager.cpp:46
+721	ascii	CIceProtocolManager::NotifySessionOfServiceStop
+722	ascii	IceProtocolManager.cpp:53
+723	ascii	SessionId:%u EventId:%d
+724	ascii	CIceProtocolManager::NotifySessionStateChange
+725	ascii	IceProtocolManager.cpp:68
+726	ascii	CIceProtocolManager::NotifySettingsChange
+727	ascii	IceProtocolManager.cpp:76
+728	ascii	CIceProtocolManager::Uninitialize
+729	ascii	IceProtocolManager.cpp:82
+730	ascii	g_FreeMsgsList size:%d
+731	ascii	GetMsgStruct
+732	ascii	msg.cpp:78
+733	ascii	alloc new msg
+734	ascii	msg.cpp:87
+735	ascii	GetMsgStruct failed
+736	ascii	SendMsg
+737	ascii	msg.cpp:129
+738	ascii	socket_write_thread
+739	ascii	msg.cpp:151
+740	ascii	iSnd:%d
+741	ascii	msg.cpp:164
+742	ascii	send failed, iSnd:%d WSAGetLastError:%d
+743	ascii	msg.cpp:167
+744	ascii	msg.cpp:175
+745	ascii	no msg, return
+746	ascii	SendInprocessMsg
+747	ascii	msg.cpp:186
+748	ascii	wstr len:%d, utf8len:%d
+749	ascii	msg.cpp:197
+750	ascii	utf8 str:%s
+751	ascii	msg.cpp:216
+752	ascii	init--ProtocolManager
+753	ascii	CIceProtocolManager::CIceProtocolManager
+754	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:29
+755	ascii	uninit--~CIceProtocolManager
+756	ascii	CIceProtocolManager::~CIceProtocolManager
+757	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:39
+758	ascii	CIceProtocolManager::AddRef
+759	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:45
+760	ascii	CIceProtocolManager::Release
+761	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:57
+762	ascii	CIceProtocolManager::QueryInterface
+763	ascii	IID_IWRdsProtocolManager:%s
+764	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:83
+765	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:85
+766	ascii	query IWRdsProtocolManager
+767	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:94
+768	ascii	query E_NOINTERFACE
+769	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:100
+770	ascii	CIceProtocolManager::ReleaseMarshalData
+771	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:154
+772	ascii	CIceProtocolManager::DisconnectObject
+773	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:162
+774	ascii	CIceProtocolManager::GetClassForHandler
+775	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:175
+776	ascii	CIceProtocolManager::AddConnection
+777	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:186
+778	ascii	CIceProtocolManager::ReleaseConnection
+779	ascii	e:\git\workspace\ice-server\v7.25.21\share\1\ice-server\build\server\protocolmanager\IceProtocolManager.h:198
+780	ascii	CZTEProvider_CreateInstance
+781	ascii	ProtocolManager.cpp:69
+782	ascii	ProtocolManager.cpp:73
+783	ascii	CClassFactory::QueryInterface
+784	ascii	ProtocolManager.cpp:119
+785	ascii	query IID_IClassFactory
+786	ascii	ProtocolManager.cpp:127
+787	ascii	query NULL
+788	ascii	ProtocolManager.cpp:134
+789	ascii	query E_INVALIDARG
+790	ascii	ProtocolManager.cpp:141
+791	ascii	0x%x-0x%x-0x%x-0x%x%x-0x%x%x%x%x%x%x
+792	ascii	CClassFactory::CreateInstance
+793	ascii	ProtocolManager.cpp:152
+794	ascii	DllGetClassObject
+795	ascii	ProtocolManager.cpp:226
+796	ascii	ProtocolManager.cpp:229
+797	ascii	0x%x, ppv:%p ProcessId:%u
+798	ascii	ProtocolManager.cpp:233
+799	ascii	ice_open_shm
+800	ascii	rsa.cpp:41
+801	ascii	OpenFileMappingA failed, error code:%lu shname:%s
+802	ascii	rsa.cpp:46
+803	ascii	rsa.cpp:55
+804	ascii	shm addr:%p
+805	ascii	rsa.cpp:61
+806	ascii	RSDS
+807	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\x64\Release\ProtocolManager.pdb
+808	ascii	ProtocolManager.dll
+809	ascii	DllCanUnloadNow
+810	ascii	CreateFileA
+811	ascii	CreateFileW
+812	ascii	DeleteFileA
+813	ascii	GetDiskFreeSpaceExA
+814	ascii	OutputDebugStringA
+815	ascii	CloseHandle
+816	ascii	SetUnhandledExceptionFilter
+817	ascii	GetLastError
+818	ascii	QueryPerformanceCounter
+819	ascii	QueryPerformanceFrequency
+820	ascii	InitializeCriticalSection
+821	ascii	EnterCriticalSection
+822	ascii	LeaveCriticalSection
+823	ascii	DeleteCriticalSection
+824	ascii	SetEvent
+825	ascii	CreateMutexA
+826	ascii	Sleep
+827	ascii	GetCurrentProcess
+828	ascii	GetCurrentProcessId
+829	ascii	CreateThread
+830	ascii	GetCurrentThreadId
+831	ascii	GetSystemTimeAsFileTime
+832	ascii	GetLocalTime
+833	ascii	MapViewOfFile
+834	ascii	UnmapViewOfFile
+835	ascii	GetModuleFileNameA
+836	ascii	GetModuleHandleA
+837	ascii	GetProcAddress
+838	ascii	LocalAlloc
+839	ascii	CreateFileMappingA
+840	ascii	OpenFileMappingA
+841	ascii	GetPrivateProfileIntA
+842	ascii	MultiByteToWideChar
+843	ascii	WideCharToMultiByte
+844	ascii	DecodePointer
+845	ascii	InitializeCriticalSectionEx
+846	ascii	CreateEventW
+847	ascii	KERNEL32.dll
+848	ascii	MsgWaitForMultipleObjects
+849	ascii	wsprintfW
+850	ascii	USER32.dll
+851	ascii	RegCloseKey
+852	ascii	RegOpenKeyExA
+853	ascii	RegQueryValueExA
+854	ascii	RegOpenKeyExW
+855	ascii	RegQueryValueExW
+856	ascii	ADVAPI32.dll
+857	ascii	StringFromCLSID
+858	ascii	ole32.dll
+859	ascii	WS2_32.dll
+860	ascii	EVP_PKEY_get_id
+861	ascii	EVP_PKEY_free
+862	ascii	d2i_PrivateKey
+863	ascii	EVP_PKEY_CTX_new
+864	ascii	EVP_PKEY_CTX_free
+865	ascii	EVP_PKEY_decrypt_init
+866	ascii	EVP_PKEY_decrypt
+867	ascii	EVP_PKEY_CTX_set_rsa_padding
+868	ascii	ERR_get_error
+869	ascii	ERR_error_string
+870	ascii	libcrypto-3-x64.dll
+871	ascii	MiniDumpWriteDump
+872	ascii	dbghelp.dll
+873	ascii	__iob_func
+874	ascii	fclose
+875	ascii	feof
+876	ascii	fflush
+877	ascii	fgets
+878	ascii	fopen
+879	ascii	fprintf
+880	ascii	fseek
+881	ascii	ftell
+882	ascii	fwrite
+883	ascii	printf
+884	ascii	rename
+885	ascii	rewind
+886	ascii	_vsnprintf
+887	ascii	_vsnwprintf
+888	ascii	isupper
+889	ascii	memcpy_s
+890	ascii	strnlen
+891	ascii	memmove
+892	ascii	strchr
+893	ascii	_stricmp
+894	ascii	strncmp
+895	ascii	strncpy_s
+896	ascii	strrchr
+897	ascii	strstr
+898	ascii	exit
+899	ascii	atoi
+900	ascii	free
+901	ascii	_mkdir
+902	ascii	_access
+903	ascii	memset
+904	ascii	??3@YAXPEAX@Z
+905	ascii	??2@YAPEAX_K@Z
+906	ascii	__CxxFrameHandler3
+907	ascii	_CxxThrowException
+908	ascii	memcmp
+909	ascii	memcpy
+910	ascii	__crt_debugger_hook
+911	ascii	__crtUnhandledException
+912	ascii	__crtTerminateProcess
+913	ascii	__crtCaptureCurrentContext
+914	ascii	__crtCapturePreviousContext
+915	ascii	MSVCR120.dll
+916	ascii	?terminate@@YAXXZ
+917	ascii	__C_specific_handler
+918	ascii	_lock
+919	ascii	_unlock
+920	ascii	_calloc_crt
+921	ascii	__dllonexit
+922	ascii	_onexit
+923	ascii	__CppXcptFilter
+924	ascii	_amsg_exit
+925	ascii	_malloc_crt
+926	ascii	_initterm
+927	ascii	_initterm_e
+928	ascii	?_type_info_dtor_internal_method@type_info@@QEAAXXZ
+929	ascii	__clean_type_info_names_internal
+930	ascii	?_Xbad_alloc@std@@YAXXZ
+931	ascii	?_Xlength_error@std@@YAXPEBD@Z
+932	ascii	?_Xout_of_range@std@@YAXPEBD@Z
+933	ascii	MSVCP120.dll
+934	ascii	OutputDebugStringW
+935	ascii	IsDebuggerPresent
+936	ascii	IsProcessorFeaturePresent
+937	ascii	EncodePointer
+938	ascii	c:\Program Files (x86)\ZTEGuestOS\log\ice_server\ice_system_test.log
+939	ascii	Global\IceRemoteApp_0_shmem
+940	ascii	.?AUIUnknown@@
+941	ascii	.?AUIWRdsProtocolConnection@@
+942	ascii	.?AUIWRdsWddmIddProps@@
+943	ascii	.?AVIceProtocolConnection@@
+944	ascii	.?AUIWRdsProtocolLicenseConnection@@
+945	ascii	.?AVIceProtocolLicenseConnection@@
+946	ascii	.?AUIWRdsProtocolListener@@
+947	ascii	.?AVIceProtocolListener@@
+948	ascii	.?AUIWRdsProtocolLogonErrorRedirector@@
+949	ascii	.?AVIceProtocolLogonErrorRedirector@@
+950	ascii	.?AUIClassFactory@@
+951	ascii	.?AUIWRdsProtocolManager@@
+952	ascii	.?AVCIceProtocolManager@@
+953	ascii	.?AVCClassFactory@@
+954	ascii	.?AVtype_info@@
+955	ascii	OYu@b
+956	ascii	gCg)R
+957	ascii	HKCR
+958	ascii	ProtocolManager.math.1 = s 'IceProtocolManager Class'
+959	ascii	CLSID = s '{7E24E0E6-B101-472E-9AB5-EF80C95CCD18}'
+960	ascii	ProtocolManager.math = s 'IceProtocolManager Class'
+961	ascii	CurVer = s 'ProtocolManager.math.1'
+962	ascii	NoRemove CLSID
+963	ascii	ForceRemove {7E24E0E6-B101-472E-9AB5-EF80C95CCD18} = s 'IceProtocolManager Class'
+964	ascii	ProgID = s 'ProtocolManager.math.1'
+965	ascii	VersionIndependentProgID = s 'ProtocolManager.math'
+966	ascii	ForceRemove Programmable
+967	ascii	InprocServer32 = s '%MODULE%'
+968	ascii	val ThreadingModel = s 'Apartment'
+969	ascii	TypeLib = s '{B46777B4-141B-4587-AF69-AB0F8AD7DA5D}'
+970	ascii	Version = s '1.0'
+971	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+972	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+973	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+974	ascii	    <security>
+975	ascii	      <requestedPrivileges>
+976	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+977	ascii	      </requestedPrivileges>
+978	ascii	    </security>
+979	ascii	  </trustInfo>
+980	ascii	</assembly>
+981	ascii	N0L0
+982	ascii	DigiCert Inc1
+983	ascii	www.digicert.com1!0
+984	ascii	DigiCert Trusted Root G40
+985	ascii	210429000000Z
+986	ascii	360428235959Z0i1
+987	ascii	DigiCert, Inc.1A0?
+988	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+989	ascii	>Mp$d
+990	ascii	}4}L
+991	ascii	!xE.
+992	ascii	IpB2
+993	ascii	6*f(_
+994	ascii	[K]taM?
+995	ascii	m&vh
+996	ascii	J>@G_
+997	ascii	#!Y`
+998	ascii	x8E0
+999	ascii	SA|X=G
+1000	ascii	q]dL
+1001	ascii	k0i0$
+1002	ascii	http://ocsp.digicert.com0A
+1003	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+1004	ascii	<0:08
+1005	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+1006	ascii	:#D=
+1007	ascii	:]Hm
+1008	ascii	v~7q
+1009	ascii	!usR
+1010	ascii	ov7,
+1011	ascii	/"lA
+1012	ascii	jj@0HK4
+1013	ascii	VxN0
+1014	ascii	241111000000Z
+1015	ascii	251110235959Z0
+1016	ascii	CN1#0!
+1017	ascii	Guangdong Province1
+1018	ascii	Shenzhen1
+1019	ascii	Private Organization1
+1020	ascii	9144030027939873X71
+1021	ascii	ZTE CORPORATION1
+1022	ascii	ZTE CORPORATION0
+1023	ascii	3KB/_
+1024	ascii	4c<b
+1025	ascii	bCQY
+1026	ascii	2gx}w
+1027	ascii	Bm]JG)OF
+1028	ascii	8{:2_hF
+1029	ascii	H}If[
+1030	ascii	!Oa?
+1031	ascii	?66]
+1032	ascii	:.fs
+1033	ascii	60402
+1034	ascii	0)0'
+1035	ascii	http://www.digicert.com/CPS0
+1036	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+1037	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+1038	ascii	http://ocsp.digicert.com0\
+1039	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+1040	ascii	C%,d
+1041	ascii	_+*2
+1042	ascii	ye>ga
+1043	ascii	ZpQeg
+1044	ascii	XTB2z
+1045	ascii	>,Z,
+1046	ascii	C5/u
+1047	ascii	0}0i1
+1048	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+1049	ascii	S(!!Y} p{
+1050	ascii	LCb,
+1051	ascii	`po&j
+1052	ascii	^7Pm
+1053	ascii	]Y^P
+1054	ascii	eJA)
+1055	ascii	P-KE
+1056	ascii	&Wpl
+1057	ascii	f$67
+1058	ascii	\*KU
+1059	ascii	+]Cj
+1060	ascii	&W6e
+1061	ascii	20250709065953Z
+1062	ascii	DigiCert, Inc.1;09
+1063	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+1064	ascii	240926000000Z
+1065	ascii	351125235959Z0B1
+1066	ascii	DigiCert1 0
+1067	ascii	DigiCert Timestamp 20240
+1068	ascii	ymIXa+
+1069	ascii	GW3K;
+1070	ascii	o~R}a
+1071	ascii	z9XxGT
+1072	ascii	<Jisu
+1073	ascii	jSDx
+1074	ascii	7!5B
+1075	ascii	/s)v
+1076	ascii	S0Q0O
+1077	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+1078	ascii	http://ocsp.digicert.com0X
+1079	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+1080	ascii	Mm*V;
+1081	ascii	Z +J
+1082	ascii	MzE @t
+1083	ascii	5dz?g
+1084	ascii	(f*^[0
+1085	ascii	220323000000Z
+1086	ascii	370322235959Z0c1
+1087	ascii	=rIQU
+1088	ascii	|jWz
+1089	ascii	!hn7!
+1090	ascii	{un'%
+1091	ascii	+Xt@(
+1092	ascii	u($A
+1093	ascii	fIRP
+1094	ascii	,W5y+
+1095	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+1096	ascii	 %41g
+1097	ascii	i?Gw
+1098	ascii	',=?k
+1099	ascii	Axz8
+1100	ascii	www.digicert.com1$0"
+1101	ascii	DigiCert Assured ID Root CA0
+1102	ascii	220801000000Z
+1103	ascii	311109235959Z0b1
+1104	ascii	]J<0"0i3
+1105	ascii	t;mq
+1106	ascii	u]xf
+1107	ascii	v=Y]Bv
+1108	ascii	p,A`
+1109	ascii	RQGt
+1110	ascii	|Lu?c
+1111	ascii	 Qko
+1112	ascii	m0k0$
+1113	ascii	http://ocsp.digicert.com0C
+1114	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+1115	ascii	>0<0:
+1116	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+1117	ascii	Jz/-
+1118	ascii	5FjiT
+1119	ascii	wZ\T
+1120	ascii	~qj#k"
+1121	ascii	T-'~
+1122	ascii	0w0c1
+1123	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+1124	ascii	250709065953Z0+
+1125	ascii	[E0/
+1126	ascii	/1(0&0$0"
+1127	ascii	.L:z
+1128	ascii	G'hK
+1129	ascii	GjyZX^I
+1130	ascii	}Ob#
+1131	ascii	($Xo
+1132	ascii	^KW$
+1133	ascii	Ws{A
+1134	utf16le	icedd
+1135	utf16le	ICEVideo
+1136	utf16le	\\.\GLOBALROOT\Device\ICEPointer
+1137	utf16le	\\.\GLOBALROOT\Device\ICEVideo0
+1138	utf16le	iceidd
+1139	utf16le	rdpendp.dll
+1140	utf16le	AudioEnumeratorDll
+1141	utf16le	SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\ICEProtocol\
+1142	utf16le	ERROR : Unable to initialize critical section in CAtlBaseModule
+1143	utf16le	REGISTRY
+1144	utf16le	VS_VERSION_INFO
+1145	utf16le	StringFileInfo
+1146	utf16le	080404B0
+1147	utf16le	CompanyName
+1148	utf16le	TODO:  <
+1149	utf16le	FileDescription
+1150	utf16le	FileVersion
+1151	utf16le	1.0.0.1
+1152	utf16le	LegalCopyright
+1153	utf16le	TODO:  (C) <
+1154	utf16le	InternalName
+1155	utf16le	ProtocolManager.dll
+1156	utf16le	OriginalFilename
+1157	utf16le	ProductName
+1158	utf16le	ProductVersion
+1159	utf16le	VarFileInfo
+1160	utf16le	Translation
+1161	utf16le	ProtocolManager

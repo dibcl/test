@@ -1,0 +1,2836 @@
+{
+  "path": "C:\\Program Files (x86)\\ZTEGuestOS\\vdservice\\Vdagent.exe",
+  "sha256": "9e47974eac77c34550a8db923e565105be3085bb616e654a3a8b316746ed339e",
+  "size": 2124208,
+  "machine": "x86",
+  "bitness": 32,
+  "timestamp": 1751938841,
+  "characteristics": "0x103",
+  "sections": [
+    {
+      "name": ".text",
+      "vsize": 1552423,
+      "vaddr": 4096,
+      "raw_size": 1552896,
+      "raw_ptr": 1024
+    },
+    {
+      "name": ".rdata",
+      "vsize": 532559,
+      "vaddr": 1560576,
+      "raw_size": 532992,
+      "raw_ptr": 1553920
+    },
+    {
+      "name": ".data",
+      "vsize": 49448,
+      "vaddr": 2097152,
+      "raw_size": 25088,
+      "raw_ptr": 2086912
+    },
+    {
+      "name": ".rsrc",
+      "vsize": 1232,
+      "vaddr": 2150400,
+      "raw_size": 1536,
+      "raw_ptr": 2112000
+    }
+  ],
+  "imports": [
+    {
+      "dll": "winmm.dll",
+      "functions": [
+        "mixerClose",
+        "mixerGetControlDetailsW",
+        "mixerGetLineControlsW",
+        "mixerGetLineInfoW",
+        "mixerSetControlDetails"
+      ]
+    },
+    {
+      "dll": "version.dll",
+      "functions": [
+        "GetFileVersionInfoSizeW",
+        "GetFileVersionInfoW",
+        "VerQueryValueW"
+      ]
+    },
+    {
+      "dll": "ws2_32.dll",
+      "functions": [
+        "inet_ntop",
+        "ordinal:1",
+        "ordinal:10",
+        "ordinal:11",
+        "ordinal:111",
+        "ordinal:115",
+        "ordinal:116",
+        "ordinal:12",
+        "ordinal:13",
+        "ordinal:14",
+        "ordinal:15",
+        "ordinal:151",
+        "ordinal:16",
+        "ordinal:17",
+        "ordinal:18",
+        "ordinal:19",
+        "ordinal:2",
+        "ordinal:20",
+        "ordinal:21",
+        "ordinal:22",
+        "ordinal:23",
+        "ordinal:3",
+        "ordinal:4",
+        "ordinal:6",
+        "ordinal:8",
+        "ordinal:9"
+      ]
+    },
+    {
+      "dll": "wtsapi32.dll",
+      "functions": [
+        "WTSEnumerateProcessesW",
+        "WTSFreeMemory",
+        "WTSQuerySessionInformationW",
+        "WTSQueryUserToken",
+        "WTSRegisterSessionNotification",
+        "WTSUnRegisterSessionNotification"
+      ]
+    },
+    {
+      "dll": "hookdemo.dll",
+      "functions": [
+        "SetHook",
+        "StopHOOK"
+      ]
+    },
+    {
+      "dll": "qoelog_vdagent.dll",
+      "functions": [
+        "?qoe_log_init@@YAHXZ",
+        "?qoe_log_write@@YAHPBD@Z"
+      ]
+    },
+    {
+      "dll": "log4cplusu.dll",
+      "functions": [
+        "??0Logger@log4cplus@@QAE@XZ",
+        "??1Logger@log4cplus@@UAE@XZ",
+        "??4Logger@log4cplus@@QAEAAV01@ABV01@@Z",
+        "?doConfigure@PropertyConfigurator@log4cplus@@SAXABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AAVHierarchy@2@I@Z",
+        "?getDefaultHierarchy@Logger@log4cplus@@SAAAVHierarchy@2@XZ",
+        "?getInstance@Logger@log4cplus@@SA?AV12@ABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z",
+        "?getLogLog@LogLog@helpers@log4cplus@@SAPAV123@XZ",
+        "?get_macro_body_oss@detail@log4cplus@@YAAAV?$basic_ostringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ",
+        "?initialize@log4cplus@@YAXXZ",
+        "?isEnabledFor@Logger@log4cplus@@QBE_NH@Z",
+        "?macro_forced_log@detail@log4cplus@@YAXABVLogger@2@HABV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@PBDH2@Z",
+        "?setInternalDebugging@LogLog@helpers@log4cplus@@QAEX_N@Z"
+      ]
+    },
+    {
+      "dll": "setupapi.dll",
+      "functions": [
+        "SetupDiDestroyDeviceInfoList",
+        "SetupDiEnumDeviceInfo",
+        "SetupDiEnumDeviceInterfaces",
+        "SetupDiGetClassDevsA",
+        "SetupDiGetClassDevsW",
+        "SetupDiGetDeviceInterfaceDetailA",
+        "SetupDiGetDeviceInterfaceDetailW",
+        "SetupDiGetDeviceRegistryPropertyA",
+        "SetupDiGetDeviceRegistryPropertyW"
+      ]
+    },
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "AssignProcessToJobObject",
+        "CloseHandle",
+        "CompareStringA",
+        "CompareStringW",
+        "CreateDirectoryA",
+        "CreateEventW",
+        "CreateFileA",
+        "CreateFileMappingW",
+        "CreateFileW",
+        "CreateJobObjectA",
+        "CreateProcessA",
+        "CreateProcessW",
+        "CreateThread",
+        "CreateToolhelp32Snapshot",
+        "DeleteCriticalSection",
+        "DeleteFileA",
+        "DeleteFileW",
+        "DeviceIoControl",
+        "EnterCriticalSection",
+        "EnumSystemLocalesA",
+        "ExitProcess",
+        "ExitThread",
+        "ExpandEnvironmentStringsW",
+        "FileTimeToLocalFileTime",
+        "FileTimeToSystemTime",
+        "FindClose",
+        "FindFirstFileA",
+        "FindFirstFileW",
+        "FindNextFileW",
+        "FindResourceExW",
+        "FindResourceW",
+        "FlushConsoleInputBuffer",
+        "FlushFileBuffers",
+        "FormatMessageA",
+        "FreeEnvironmentStringsW",
+        "FreeLibrary",
+        "GetACP",
+        "GetCPInfo",
+        "GetCommandLineW",
+        "GetComputerNameA",
+        "GetComputerNameW",
+        "GetConsoleCP",
+        "GetConsoleMode",
+        "GetConsoleOutputCP",
+        "GetCurrentDirectoryA",
+        "GetCurrentProcess",
+        "GetCurrentProcessId",
+        "GetCurrentThreadId",
+        "GetDateFormatA",
+        "GetDiskFreeSpaceExA",
+        "GetDriveTypeA",
+        "GetEnvironmentStringsW",
+        "GetExitCodeProcess",
+        "GetFileAttributesA",
+        "GetFileAttributesW",
+        "GetFileType",
+        "GetFullPathNameA",
+        "GetFullPathNameW",
+        "GetLastError",
+        "GetLocalTime",
+        "GetLocaleInfoA",
+        "GetLocaleInfoW",
+        "GetModuleFileNameA",
+        "GetModuleFileNameW",
+        "GetModuleHandleA",
+        "GetModuleHandleW",
+        "GetOEMCP",
+        "GetPrivateProfileIntA",
+        "GetPrivateProfileIntW",
+        "GetPrivateProfileStringA",
+        "GetPrivateProfileStringW",
+        "GetProcAddress",
+        "GetProcessHeap",
+        "GetProcessId",
+        "GetProcessTimes",
+        "GetStartupInfoA",
+        "GetStartupInfoW",
+        "GetStdHandle",
+        "GetStringTypeA",
+        "GetStringTypeW",
+        "GetSystemDirectoryA",
+        "GetSystemDirectoryW",
+        "GetSystemInfo",
+        "GetSystemTimeAsFileTime",
+        "GetTickCount",
+        "GetTimeFormatA",
+        "GetTimeZoneInformation",
+        "GetUserDefaultLCID",
+        "GetVersion",
+        "GetVersionExA",
+        "GetVersionExW",
+        "GetWindowsDirectoryW",
+        "GlobalAlloc",
+        "GlobalFree",
+        "GlobalLock",
+        "GlobalMemoryStatus",
+        "GlobalSize",
+        "GlobalUnlock",
+        "HeapAlloc",
+        "HeapCreate",
+        "HeapDestroy",
+        "HeapFree",
+        "HeapReAlloc",
+        "HeapSize",
+        "InitializeCriticalSection",
+        "InitializeCriticalSectionAndSpinCount",
+        "InterlockedCompareExchange",
+        "InterlockedDecrement",
+        "InterlockedExchange",
+        "InterlockedIncrement",
+        "IsDebuggerPresent",
+        "IsValidCodePage",
+        "IsValidLocale",
+        "LCMapStringA",
+        "LCMapStringW",
+        "LeaveCriticalSection",
+        "LoadLibraryA",
+        "LoadLibraryExW",
+        "LoadLibraryW",
+        "LoadResource",
+        "LocalAlloc",
+        "LocalFree",
+        "LockResource",
+        "MapViewOfFile",
+        "MultiByteToWideChar",
+        "OpenEventW",
+        "OpenFileMappingW",
+        "OpenProcess",
+        "OutputDebugStringW",
+        "Process32FirstW",
+        "Process32NextW",
+        "ProcessIdToSessionId",
+        "QueryFullProcessImageNameW",
+        "QueryPerformanceCounter",
+        "RaiseException",
+        "ReadConsoleInputA",
+        "ReadFile",
+        "ReadFileEx",
+        "ReadProcessMemory",
+        "RemoveDirectoryW",
+        "ResetEvent",
+        "RtlUnwind",
+        "SetConsoleCtrlHandler",
+        "SetConsoleMode",
+        "SetEndOfFile",
+        "SetEnvironmentVariableA",
+        "SetEvent",
+        "SetFileAttributesW",
+        "SetFilePointer",
+        "SetHandleCount",
+        "SetInformationJobObject",
+        "SetLastError",
+        "SetPriorityClass",
+        "SetProcessShutdownParameters",
+        "SetProcessWorkingSetSize",
+        "SetStdHandle",
+        "SetUnhandledExceptionFilter",
+        "SizeofResource",
+        "Sleep",
+        "SleepEx",
+        "TerminateProcess",
+        "Thread32First",
+        "Thread32Next",
+        "TlsAlloc",
+        "TlsFree",
+        "TlsGetValue",
+        "TlsSetValue",
+        "UnhandledExceptionFilter",
+        "UnmapViewOfFile",
+        "VerSetConditionMask",
+        "VerifyVersionInfoW",
+        "VirtualAlloc",
+        "VirtualAllocEx",
+        "VirtualFree",
+        "VirtualFreeEx",
+        "WTSGetActiveConsoleSessionId",
+        "WaitForSingleObject",
+        "WideCharToMultiByte",
+        "WriteConsoleA",
+        "WriteConsoleW",
+        "WriteFile",
+        "WriteFileEx",
+        "WritePrivateProfileStringA",
+        "WritePrivateProfileStringW",
+        "lstrcatW",
+        "lstrcmpA",
+        "lstrcmpW",
+        "lstrcmpiW",
+        "lstrlenA",
+        "lstrlenW"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "AttachThreadInput",
+        "CallNextHookEx",
+        "ChangeDisplaySettingsExW",
+        "ClientToScreen",
+        "CloseClipboard",
+        "CloseDesktop",
+        "CountClipboardFormats",
+        "CreateWindowExW",
+        "DefWindowProcW",
+        "DestroyWindow",
+        "DispatchMessageW",
+        "DisplayConfigGetDeviceInfo",
+        "DisplayConfigSetDeviceInfo",
+        "DrawTextW",
+        "EmptyClipboard",
+        "EnumChildWindows",
+        "EnumClipboardFormats",
+        "EnumDisplayDevicesW",
+        "EnumDisplaySettingsExW",
+        "EnumDisplaySettingsW",
+        "EnumWindows",
+        "ExitWindowsEx",
+        "FindWindowExW",
+        "FindWindowW",
+        "GetAsyncKeyState",
+        "GetCaretPos",
+        "GetClassNameA",
+        "GetClassNameW",
+        "GetClientRect",
+        "GetClipboardData",
+        "GetClipboardFormatNameA",
+        "GetClipboardOwner",
+        "GetCursorPos",
+        "GetDC",
+        "GetDesktopWindow",
+        "GetDisplayConfigBufferSizes",
+        "GetFocus",
+        "GetForegroundWindow",
+        "GetIconInfo",
+        "GetKeyboardLayout",
+        "GetMonitorInfoW",
+        "GetParent",
+        "GetProcessWindowStation",
+        "GetSystemMetrics",
+        "GetUserObjectInformationW",
+        "GetWindow",
+        "GetWindowLongW",
+        "GetWindowPlacement",
+        "GetWindowRect",
+        "GetWindowTextA",
+        "GetWindowTextW",
+        "GetWindowThreadProcessId",
+        "InternalGetWindowText",
+        "IsClipboardFormatAvailable",
+        "IsIconic",
+        "IsWindow",
+        "IsWindowVisible",
+        "KillTimer",
+        "LoadKeyboardLayoutW",
+        "LockWorkStation",
+        "MessageBoxA",
+        "MonitorFromPoint",
+        "MsgWaitForMultipleObjectsEx",
+        "OpenClipboard",
+        "OpenInputDesktop",
+        "PeekMessageW",
+        "PostMessageW",
+        "QueryDisplayConfig",
+        "RegisterClassW",
+        "RegisterClipboardFormatW",
+        "ReleaseDC",
+        "SendInput",
+        "SendMessageW",
+        "SetClipboardData",
+        "SetCursorPos",
+        "SetForegroundWindow",
+        "SetThreadDesktop",
+        "SetTimer",
+        "SetWindowPos",
+        "SetWindowsHookExW",
+        "ShowWindow",
+        "ShowWindowAsync",
+        "SwitchToThisWindow",
+        "SystemParametersInfoA",
+        "SystemParametersInfoW",
+        "TranslateMessage",
+        "UnhookWindowsHookEx",
+        "WaitForInputIdle",
+        "WindowFromPoint",
+        "keybd_event",
+        "mouse_event",
+        "wsprintfA"
+      ]
+    },
+    {
+      "dll": "gdi32.dll",
+      "functions": [
+        "BitBlt",
+        "CombineRgn",
+        "CreateBitmap",
+        "CreateCompatibleBitmap",
+        "CreateCompatibleDC",
+        "CreateDCW",
+        "CreateDIBPatternBrushPt",
+        "CreateDIBSection",
+        "CreateFontIndirectW",
+        "CreateRectRgn",
+        "CreateRectRgnIndirect",
+        "DeleteDC",
+        "DeleteObject",
+        "ExtEscape",
+        "ExtSelectClipRgn",
+        "GetClipBox",
+        "GetDIBits",
+        "GetDeviceCaps",
+        "GetObjectW",
+        "GetStockObject",
+        "PatBlt",
+        "RealizePalette",
+        "RectVisible",
+        "RestoreDC",
+        "SaveDC",
+        "SelectObject",
+        "SetBkColor",
+        "SetBkMode",
+        "SetBrushOrgEx",
+        "SetDIBitsToDevice",
+        "SetStretchBltMode",
+        "SetTextColor",
+        "StretchBlt",
+        "StretchDIBits"
+      ]
+    },
+    {
+      "dll": "advapi32.dll",
+      "functions": [
+        "AdjustTokenPrivileges",
+        "ChangeServiceConfigW",
+        "CloseServiceHandle",
+        "ControlService",
+        "CreateProcessAsUserW",
+        "CryptAcquireContextA",
+        "CryptGenRandom",
+        "CryptReleaseContext",
+        "DeregisterEventSource",
+        "DuplicateTokenEx",
+        "ImpersonateLoggedOnUser",
+        "InitializeSecurityDescriptor",
+        "LookupPrivilegeValueW",
+        "OpenProcessToken",
+        "OpenSCManagerW",
+        "OpenServiceW",
+        "QueryServiceConfigW",
+        "QueryServiceStatus",
+        "RegCloseKey",
+        "RegCreateKeyExA",
+        "RegCreateKeyExW",
+        "RegDeleteValueW",
+        "RegEnumKeyExW",
+        "RegOpenCurrentUser",
+        "RegOpenKeyExA",
+        "RegOpenKeyExW",
+        "RegOpenKeyW",
+        "RegQueryInfoKeyW",
+        "RegQueryValueExA",
+        "RegQueryValueExW",
+        "RegSetValueExA",
+        "RegSetValueExW",
+        "RegisterEventSourceA",
+        "ReportEventA",
+        "RevertToSelf",
+        "SetSecurityDescriptorDacl",
+        "StartServiceW"
+      ]
+    },
+    {
+      "dll": "shell32.dll",
+      "functions": [
+        "CommandLineToArgvW",
+        "DragQueryFileW",
+        "SHFileOperationW",
+        "SHGetFileInfoW",
+        "SHGetFolderPathA",
+        "ShellExecuteExW",
+        "ShellExecuteW",
+        "ordinal:727"
+      ]
+    },
+    {
+      "dll": "shlwapi.dll",
+      "functions": [
+        "PathAppendW",
+        "PathFileExistsW",
+        "StrCmpW"
+      ]
+    },
+    {
+      "dll": "iphlpapi.dll",
+      "functions": [
+        "CancelIPChangeNotify",
+        "GetAdaptersAddresses",
+        "GetAdaptersInfo",
+        "NotifyAddrChange"
+      ]
+    },
+    {
+      "dll": "userenv.dll",
+      "functions": [
+        "CreateEnvironmentBlock",
+        "DestroyEnvironmentBlock"
+      ]
+    },
+    {
+      "dll": "netapi32.dll",
+      "functions": [
+        "DsRoleFreeMemory",
+        "DsRoleGetPrimaryDomainInformation",
+        "NetLocalGroupAddMembers",
+        "NetLocalGroupDelMembers",
+        "NetUserAdd",
+        "NetUserGetInfo",
+        "NetUserSetInfo"
+      ]
+    },
+    {
+      "dll": "psapi.dll",
+      "functions": [
+        "EnumProcessModulesEx",
+        "GetModuleFileNameExW",
+        "GetProcessMemoryInfo"
+      ]
+    },
+    {
+      "dll": "comctl32.dll",
+      "functions": [
+        "ImageList_GetIcon"
+      ]
+    },
+    {
+      "dll": "libcurl.dll",
+      "functions": [
+        "curl_easy_cleanup",
+        "curl_easy_init",
+        "curl_easy_perform",
+        "curl_easy_setopt",
+        "curl_global_cleanup",
+        "curl_global_init",
+        "curl_slist_append",
+        "curl_slist_free_all"
+      ]
+    },
+    {
+      "dll": "hid.dll",
+      "functions": [
+        "HidD_FreePreparsedData",
+        "HidD_GetAttributes",
+        "HidD_GetHidGuid",
+        "HidD_GetPreparsedData",
+        "HidD_SetNumInputBuffers",
+        "HidP_GetCaps"
+      ]
+    },
+    {
+      "dll": "dwmapi.dll",
+      "functions": [
+        "DwmGetWindowAttribute"
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "name": "??0CxFile@@QAE@ABV0@@Z",
+      "ordinal": 1,
+      "rva": "0x44790"
+    },
+    {
+      "name": "??0CxFile@@QAE@XZ",
+      "ordinal": 2,
+      "rva": "0x44750"
+    },
+    {
+      "name": "??0CxIOFile@@QAE@ABV0@@Z",
+      "ordinal": 3,
+      "rva": "0x44aa0"
+    },
+    {
+      "name": "??0CxIOFile@@QAE@PAU_iobuf@@@Z",
+      "ordinal": 4,
+      "rva": "0x44810"
+    },
+    {
+      "name": "??0CxImage@@QAE@ABV0@_N11@Z",
+      "ordinal": 5,
+      "rva": "0x49fe0"
+    },
+    {
+      "name": "??0CxImage@@QAE@K@Z",
+      "ordinal": 6,
+      "rva": "0x49360"
+    },
+    {
+      "name": "??0CxImage@@QAE@KKKK@Z",
+      "ordinal": 7,
+      "rva": "0x49e50"
+    },
+    {
+      "name": "??0CxImage@@QAE@PAEKK@Z",
+      "ordinal": 8,
+      "rva": "0x48f80"
+    },
+    {
+      "name": "??0CxImage@@QAE@PAU_iobuf@@K@Z",
+      "ordinal": 9,
+      "rva": "0x49290"
+    },
+    {
+      "name": "??0CxImage@@QAE@PAVCxFile@@K@Z",
+      "ordinal": 10,
+      "rva": "0x48f50"
+    },
+    {
+      "name": "??0CxImage@@QAE@PB_WK@Z",
+      "ordinal": 11,
+      "rva": "0x49260"
+    },
+    {
+      "name": "??0CxImageGIF@@QAE@ABV0@@Z",
+      "ordinal": 12,
+      "rva": "0x478b0"
+    },
+    {
+      "name": "??0CxImageGIF@@QAE@XZ",
+      "ordinal": 13,
+      "rva": "0x47880"
+    },
+    {
+      "name": "??0CxMemFile@@QAE@ABV0@@Z",
+      "ordinal": 14,
+      "rva": "0x44b00"
+    },
+    {
+      "name": "??0CxMemFile@@QAE@PAEK@Z",
+      "ordinal": 15,
+      "rva": "0x4a020"
+    },
+    {
+      "name": "??0CxPoint2@@QAE@ABV0@@Z",
+      "ordinal": 16,
+      "rva": "0x6ca40"
+    },
+    {
+      "name": "??0CxPoint2@@QAE@MM@Z",
+      "ordinal": 17,
+      "rva": "0x6ca20"
+    },
+    {
+      "name": "??0CxPoint2@@QAE@XZ",
+      "ordinal": 18,
+      "rva": "0x6ca10"
+    },
+    {
+      "name": "??0CxRect2@@QAE@ABV0@@Z",
+      "ordinal": 19,
+      "rva": "0x6cb10"
+    },
+    {
+      "name": "??0CxRect2@@QAE@MMMM@Z",
+      "ordinal": 20,
+      "rva": "0x6cae0"
+    },
+    {
+      "name": "??0CxRect2@@QAE@XZ",
+      "ordinal": 21,
+      "rva": "0x6cac0"
+    },
+    {
+      "name": "??1CxFile@@UAE@XZ",
+      "ordinal": 22,
+      "rva": "0x44760"
+    },
+    {
+      "name": "??1CxIOFile@@UAE@XZ",
+      "ordinal": 23,
+      "rva": "0x476f0"
+    },
+    {
+      "name": "??1CxImage@@UAE@XZ",
+      "ordinal": 24,
+      "rva": "0xc330"
+    },
+    {
+      "name": "??1CxImageGIF@@UAE@XZ",
+      "ordinal": 25,
+      "rva": "0x47e80"
+    },
+    {
+      "name": "??1CxMemFile@@UAE@XZ",
+      "ordinal": 26,
+      "rva": "0x4a2f0"
+    },
+    {
+      "name": "??4CxFile@@QAEAAV0@ABV0@@Z",
+      "ordinal": 27,
+      "rva": "0x447a0"
+    },
+    {
+      "name": "??4CxIOFile@@QAEAAV0@ABV0@@Z",
+      "ordinal": 28,
+      "rva": "0x44ac0"
+    },
+    {
+      "name": "??4CxImage@@QAEAAV0@ABV0@@Z",
+      "ordinal": 29,
+      "rva": "0x49fc0"
+    },
+    {
+      "name": "??4CxImageGIF@@QAEAAV0@ABV0@@Z",
+      "ordinal": 30,
+      "rva": "0x47b50"
+    },
+    {
+      "name": "??4CxMemFile@@QAEAAV0@ABV0@@Z",
+      "ordinal": 31,
+      "rva": "0x44b30"
+    },
+    {
+      "name": "??4CxPoint2@@QAEAAV0@ABV0@@Z",
+      "ordinal": 32,
+      "rva": "0x4b050"
+    },
+    {
+      "name": "??4CxRect2@@QAEAAV0@ABV0@@Z",
+      "ordinal": 33,
+      "rva": "0x4b070"
+    },
+    {
+      "name": "??_7CxFile@@6B@",
+      "ordinal": 34,
+      "rva": "0x17d860"
+    },
+    {
+      "name": "??_7CxIOFile@@6B@",
+      "ordinal": 35,
+      "rva": "0x17d89c"
+    },
+    {
+      "name": "??_7CxImage@@6B@",
+      "ordinal": 36,
+      "rva": "0x17d914"
+    },
+    {
+      "name": "??_7CxImageGIF@@6B@",
+      "ordinal": 37,
+      "rva": "0x17d990"
+    },
+    {
+      "name": "??_7CxMemFile@@6B@",
+      "ordinal": 38,
+      "rva": "0x17d8d8"
+    },
+    {
+      "name": "??_FCxIOFile@@QAEXXZ",
+      "ordinal": 39,
+      "rva": "0x44ae0"
+    },
+    {
+      "name": "??_FCxImage@@QAEXXZ",
+      "ordinal": 40,
+      "rva": "0x44bd0"
+    },
+    {
+      "name": "??_FCxMemFile@@QAEXXZ",
+      "ordinal": 41,
+      "rva": "0x44b60"
+    },
+    {
+      "name": "??_OCxImage@@QAEXAAV0@@Z",
+      "ordinal": 42,
+      "rva": "0x44be0"
+    },
+    {
+      "name": "?AdaptiveThreshold@CxImage@@QAE_NJJPAV1@JM@Z",
+      "ordinal": 43,
+      "rva": "0x63440"
+    },
+    {
+      "name": "?AddAveragingCont@CxImage@@IAEXABUtagRGBQUAD@@MAAM111@Z",
+      "ordinal": 44,
+      "rva": "0x56e00"
+    },
+    {
+      "name": "?Alloc@CxMemFile@@IAE_NK@Z",
+      "ordinal": 45,
+      "rva": "0x4a290"
+    },
+    {
+      "name": "?AlphaClear@CxImage@@QAEXXZ",
+      "ordinal": 46,
+      "rva": "0x55e40"
+    },
+    {
+      "name": "?AlphaCopy@CxImage@@QAE_NAAV1@@Z",
+      "ordinal": 47,
+      "rva": "0x55f40"
+    },
+    {
+      "name": "?AlphaCreate@CxImage@@QAE_NXZ",
+      "ordinal": 48,
+      "rva": "0x55e90"
+    },
+    {
+      "name": "?AlphaDelete@CxImage@@QAEXXZ",
+      "ordinal": 49,
+      "rva": "0x55ee0"
+    },
+    {
+      "name": "?AlphaFlip@CxImage@@QAE_NXZ",
+      "ordinal": 50,
+      "rva": "0x564e0"
+    },
+    {
+      "name": "?AlphaFromTransparency@CxImage@@QAE_NXZ",
+      "ordinal": 51,
+      "rva": "0x56910"
+    },
+    {
+      "name": "?AlphaGet@CxImage@@QAEEJJ@Z",
+      "ordinal": 52,
+      "rva": "0x560a0"
+    },
+    {
+      "name": "?AlphaGetMax@CxImage@@QBEEXZ",
+      "ordinal": 53,
+      "rva": "0x55df0"
+    },
+    {
+      "name": "?AlphaGetPointer@CxImage@@QAEPAEJJ@Z",
+      "ordinal": 54,
+      "rva": "0x560e0"
+    },
+    {
+      "name": "?AlphaInvert@CxImage@@QAEXXZ",
+      "ordinal": 55,
+      "rva": "0x55f10"
+    },
+    {
+      "name": "?AlphaIsValid@CxImage@@QAE_NXZ",
+      "ordinal": 56,
+      "rva": "0x55e10"
+    },
+    {
+      "name": "?AlphaMirror@CxImage@@QAE_NXZ",
+      "ordinal": 57,
+      "rva": "0x56590"
+    },
+    {
+      "name": "?AlphaPaletteClear@CxImage@@QAEXXZ",
+      "ordinal": 58,
+      "rva": "0x56140"
+    },
+    {
+      "name": "?AlphaPaletteEnable@CxImage@@QAEX_N@Z",
+      "ordinal": 59,
+      "rva": "0x55e20"
+    },
+    {
+      "name": "?AlphaPaletteIsEnabled@CxImage@@QAE_NXZ",
+      "ordinal": 60,
+      "rva": "0x55e30"
+    },
+    {
+      "name": "?AlphaPaletteIsValid@CxImage@@QAE_NXZ",
+      "ordinal": 61,
+      "rva": "0x56190"
+    },
+    {
+      "name": "?AlphaPaletteSplit@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 62,
+      "rva": "0x567a0"
+    },
+    {
+      "name": "?AlphaSet@CxImage@@QAEXE@Z",
+      "ordinal": 63,
+      "rva": "0x55e60"
+    },
+    {
+      "name": "?AlphaSet@CxImage@@QAEXJJE@Z",
+      "ordinal": 64,
+      "rva": "0x56060"
+    },
+    {
+      "name": "?AlphaSet@CxImage@@QAE_NAAV1@@Z",
+      "ordinal": 65,
+      "rva": "0x55fc0"
+    },
+    {
+      "name": "?AlphaSetMax@CxImage@@QAEXE@Z",
+      "ordinal": 66,
+      "rva": "0x55e00"
+    },
+    {
+      "name": "?AlphaSplit@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 67,
+      "rva": "0x56640"
+    },
+    {
+      "name": "?AlphaStrip@CxImage@@QAEXXZ",
+      "ordinal": 68,
+      "rva": "0x561d0"
+    },
+    {
+      "name": "?Bitfield2RGB@CxImage@@IAEXPAEKKKE@Z",
+      "ordinal": 69,
+      "rva": "0x496f0"
+    },
+    {
+      "name": "?BlendPalette@CxImage@@QAEXKJ@Z",
+      "ordinal": 70,
+      "rva": "0x53600"
+    },
+    {
+      "name": "?BlendPixelColor@CxImage@@QAEXJJUtagRGBQUAD@@M_N@Z",
+      "ordinal": 71,
+      "rva": "0x55a30"
+    },
+    {
+      "name": "?BlindAlphaGet@CxImage@@IAEEJJ@Z",
+      "ordinal": 72,
+      "rva": "0x56120"
+    },
+    {
+      "name": "?BlindGetPixelColor@CxImage@@IAE?AUtagRGBQUAD@@JJ_N@Z",
+      "ordinal": 73,
+      "rva": "0x53020"
+    },
+    {
+      "name": "?BlindGetPixelIndex@CxImage@@IAEEJJ@Z",
+      "ordinal": 74,
+      "rva": "0x52e60"
+    },
+    {
+      "name": "?BlindGetPixelPointer@CxImage@@IAEPAXJJ@Z",
+      "ordinal": 75,
+      "rva": "0x539f0"
+    },
+    {
+      "name": "?BlindSelectionGet@CxImage@@IAEEJJ@Z",
+      "ordinal": 76,
+      "rva": "0x6b700"
+    },
+    {
+      "name": "?BlindSelectionIsInside@CxImage@@IAE_NJJ@Z",
+      "ordinal": 77,
+      "rva": "0x6b310"
+    },
+    {
+      "name": "?BlindSetPixelColor@CxImage@@IAEXJJUtagRGBQUAD@@_N@Z",
+      "ordinal": 78,
+      "rva": "0x55920"
+    },
+    {
+      "name": "?BlindSetPixelIndex@CxImage@@IAEXJJE@Z",
+      "ordinal": 79,
+      "rva": "0x530f0"
+    },
+    {
+      "name": "?Blt@CxImage@@QAEJPAUHDC__@@JJ@Z",
+      "ordinal": 80,
+      "rva": "0x44d00"
+    },
+    {
+      "name": "?Center@CxRect2@@QBE?AVCxPoint2@@XZ",
+      "ordinal": 81,
+      "rva": "0x6cc40"
+    },
+    {
+      "name": "?CheckFormat@CxImage@@QAE_NPAEKK@Z",
+      "ordinal": 82,
+      "rva": "0x488e0"
+    },
+    {
+      "name": "?CheckFormat@CxImage@@QAE_NPAVCxFile@@K@Z",
+      "ordinal": 83,
+      "rva": "0x48890"
+    },
+    {
+      "name": "?CircleTransform@CxImage@@QAE_NHJM@Z",
+      "ordinal": 84,
+      "rva": "0x51310"
+    },
+    {
+      "name": "?Clear@CxImage@@QAEXE@Z",
+      "ordinal": 85,
+      "rva": "0x49560"
+    },
+    {
+      "name": "?Close@CxIOFile@@UAE_NXZ",
+      "ordinal": 86,
+      "rva": "0x44870"
+    },
+    {
+      "name": "?Close@CxMemFile@@UAE_NXZ",
+      "ordinal": 87,
+      "rva": "0x4a050"
+    },
+    {
+      "name": "?Colorize@CxImage@@QAE_NEEM@Z",
+      "ordinal": 88,
+      "rva": "0x5baf0"
+    },
+    {
+      "name": "?Combine@CxImage@@QAE_NPAV1@000J@Z",
+      "ordinal": 89,
+      "rva": "0x5e7c0"
+    },
+    {
+      "name": "?CompareColors@CxImage@@KAHPBX0@Z",
+      "ordinal": 90,
+      "rva": "0x499a0"
+    },
+    {
+      "name": "?Contour@CxImage@@QAE_NXZ",
+      "ordinal": 91,
+      "rva": "0x5f120"
+    },
+    {
+      "name": "?ConvertColorSpace@CxImage@@QAE_NJJ@Z",
+      "ordinal": 92,
+      "rva": "0x62880"
+    },
+    {
+      "name": "?Copy@CxImage@@QAEXABV1@_N11@Z",
+      "ordinal": 93,
+      "rva": "0x49e90"
+    },
+    {
+      "name": "?CopyInfo@CxImage@@IAEXABV1@@Z",
+      "ordinal": 94,
+      "rva": "0x494a0"
+    },
+    {
+      "name": "?CopyToHandle@CxImage@@QAEPAXXZ",
+      "ordinal": 95,
+      "rva": "0x44db0"
+    },
+    {
+      "name": "?Create@CxImage@@QAEPAXKKKK@Z",
+      "ordinal": 96,
+      "rva": "0x49a10"
+    },
+    {
+      "name": "?CreateFromArray@CxImage@@QAE_NPAEKKKK_N@Z",
+      "ordinal": 97,
+      "rva": "0x49bd0"
+    },
+    {
+      "name": "?CreateFromHANDLE@CxImage@@QAE_NPAX@Z",
+      "ordinal": 98,
+      "rva": "0x44e00"
+    },
+    {
+      "name": "?CreateFromHBITMAP@CxImage@@QAE_NPAUHBITMAP__@@PAUHPALETTE__@@@Z",
+      "ordinal": 99,
+      "rva": "0x45420"
+    },
+    {
+      "name": "?CreateFromHICON@CxImage@@QAE_NPAUHICON__@@@Z",
+      "ordinal": 100,
+      "rva": "0x45510"
+    },
+    {
+      "name": "?CreateFromMatrix@CxImage@@QAE_NPAPAEKKKK_N@Z",
+      "ordinal": 101,
+      "rva": "0x49d20"
+    },
+    {
+      "name": "?Crop@CxImage@@QAE_NABUtagRECT@@PAV1@@Z",
+      "ordinal": 102,
+      "rva": "0x52ba0"
+    },
+    {
+      "name": "?Crop@CxImage@@QAE_NJJJJPAV1@@Z",
+      "ordinal": 103,
+      "rva": "0x504b0"
+    },
+    {
+      "name": "?CropRotatedRectangle@CxImage@@QAE_NJJJJMPAV1@@Z",
+      "ordinal": 104,
+      "rva": "0x528e0"
+    },
+    {
+      "name": "?CrossSection@CxRect2@@QBE?AV1@ABV1@@Z",
+      "ordinal": 105,
+      "rva": "0x6cb60"
+    },
+    {
+      "name": "?DFT@CxImage@@IAE_NHJPAN000@Z",
+      "ordinal": 106,
+      "rva": "0x5e480"
+    },
+    {
+      "name": "?Decode@CxImage@@QAE_NPAEKK@Z",
+      "ordinal": 107,
+      "rva": "0x49010"
+    },
+    {
+      "name": "?Decode@CxImage@@QAE_NPAU_iobuf@@K@Z",
+      "ordinal": 108,
+      "rva": "0x49090"
+    },
+    {
+      "name": "?Decode@CxImage@@QAE_NPAVCxFile@@K@Z",
+      "ordinal": 109,
+      "rva": "0x483f0"
+    },
+    {
+      "name": "?Decode@CxImageGIF@@QAE_NPAU_iobuf@@@Z",
+      "ordinal": 110,
+      "rva": "0x489b0"
+    },
+    {
+      "name": "?Decode@CxImageGIF@@QAE_NPAVCxFile@@@Z",
+      "ordinal": 111,
+      "rva": "0x68b70"
+    },
+    {
+      "name": "?DecodeExtension@CxImageGIF@@IAE_NPAVCxFile@@@Z",
+      "ordinal": 112,
+      "rva": "0x676d0"
+    },
+    {
+      "name": "?DecreaseBpp@CxImage@@QAE_NK_NPAUtagRGBQUAD@@K@Z",
+      "ordinal": 113,
+      "rva": "0x4e6f0"
+    },
+    {
+      "name": "?Destroy@CxImage@@QAE_NXZ",
+      "ordinal": 114,
+      "rva": "0x49380"
+    },
+    {
+      "name": "?DestroyFrames@CxImage@@QAE_NXZ",
+      "ordinal": 115,
+      "rva": "0x49430"
+    },
+    {
+      "name": "?Dilate@CxImage@@QAE_NJ@Z",
+      "ordinal": 116,
+      "rva": "0x5cc50"
+    },
+    {
+      "name": "?Distance@CxPoint2@@QAEMMM@Z",
+      "ordinal": 117,
+      "rva": "0x6ca90"
+    },
+    {
+      "name": "?Distance@CxPoint2@@QAEMV1@@Z",
+      "ordinal": 118,
+      "rva": "0x6ca60"
+    },
+    {
+      "name": "?Dither@CxImage@@QAE_NJ@Z",
+      "ordinal": 119,
+      "rva": "0x4efc0"
+    },
+    {
+      "name": "?Draw2@CxImage@@QAEJPAUHDC__@@ABUtagRECT@@@Z",
+      "ordinal": 120,
+      "rva": "0x477e0"
+    },
+    {
+      "name": "?Draw2@CxImage@@QAEJPAUHDC__@@JJJJ@Z",
+      "ordinal": 121,
+      "rva": "0x464d0"
+    },
+    {
+      "name": "?Draw@CxImage@@QAEJPAUHDC__@@ABUtagRECT@@PAU3@_N@Z",
+      "ordinal": 122,
+      "rva": "0x477a0"
+    },
+    {
+      "name": "?Draw@CxImage@@QAEJPAUHDC__@@JJJJPAUtagRECT@@_N@Z",
+      "ordinal": 123,
+      "rva": "0x45740"
+    },
+    {
+      "name": "?DrawLine@CxImage@@QAEXHHHHK@Z",
+      "ordinal": 124,
+      "rva": "0x55dc0"
+    },
+    {
+      "name": "?DrawLine@CxImage@@QAEXHHHHUtagRGBQUAD@@_N@Z",
+      "ordinal": 125,
+      "rva": "0x55c90"
+    },
+    {
+      "name": "?DrawString@CxImage@@QAEJPAUHDC__@@JJPB_WUtagRGBQUAD@@1JJEE_N@Z",
+      "ordinal": 126,
+      "rva": "0x46900"
+    },
+    {
+      "name": "?DrawStringEx@CxImage@@QAEJPAUHDC__@@JJPAUtagCxTextInfo@1@_N@Z",
+      "ordinal": 127,
+      "rva": "0x46c60"
+    },
+    {
+      "name": "?Dump@CxImage@@QAEKPAE@Z",
+      "ordinal": 128,
+      "rva": "0x4ab80"
+    },
+    {
+      "name": "?DumpSize@CxImage@@QAEKXZ",
+      "ordinal": 129,
+      "rva": "0x4aaa0"
+    },
+    {
+      "name": "?Edge@CxImage@@QAE_NJ@Z",
+      "ordinal": 130,
+      "rva": "0x5cf10"
+    },
+    {
+      "name": "?Enable@CxImage@@QAEX_N@Z",
+      "ordinal": 131,
+      "rva": "0x4a8c0"
+    },
+    {
+      "name": "?Encode2RGBA@CxImage@@QAE_NAAPAEAAJ_N@Z",
+      "ordinal": 132,
+      "rva": "0x48db0"
+    },
+    {
+      "name": "?Encode2RGBA@CxImage@@QAE_NPAVCxFile@@_N@Z",
+      "ordinal": 133,
+      "rva": "0x48330"
+    },
+    {
+      "name": "?Encode@CxImage@@QAE_NAAPAEAAJK@Z",
+      "ordinal": 134,
+      "rva": "0x48c30"
+    },
+    {
+      "name": "?Encode@CxImage@@QAE_NPAU_iobuf@@K@Z",
+      "ordinal": 135,
+      "rva": "0x48ba0"
+    },
+    {
+      "name": "?Encode@CxImage@@QAE_NPAU_iobuf@@PAPAV1@HK@Z",
+      "ordinal": 136,
+      "rva": "0x48d10"
+    },
+    {
+      "name": "?Encode@CxImage@@QAE_NPAVCxFile@@K@Z",
+      "ordinal": 137,
+      "rva": "0x47f10"
+    },
+    {
+      "name": "?Encode@CxImage@@QAE_NPAVCxFile@@PAPAV1@HK@Z",
+      "ordinal": 138,
+      "rva": "0x481e0"
+    },
+    {
+      "name": "?Encode@CxImageGIF@@QAE_NPAU_iobuf@@@Z",
+      "ordinal": 139,
+      "rva": "0x48a40"
+    },
+    {
+      "name": "?Encode@CxImageGIF@@QAE_NPAU_iobuf@@PAPAVCxImage@@H_N@Z",
+      "ordinal": 140,
+      "rva": "0x48ad0"
+    },
+    {
+      "name": "?Encode@CxImageGIF@@QAE_NPAVCxFile@@@Z",
+      "ordinal": 141,
+      "rva": "0x6a440"
+    },
+    {
+      "name": "?Encode@CxImageGIF@@QAE_NPAVCxFile@@PAPAVCxImage@@H_N2@Z",
+      "ordinal": 142,
+      "rva": "0x6a150"
+    },
+    {
+      "name": "?EncodeBody@CxImageGIF@@IAEXPAVCxFile@@_N@Z",
+      "ordinal": 143,
+      "rva": "0x69d60"
+    },
+    {
+      "name": "?EncodeComment@CxImageGIF@@IAEXPAVCxFile@@@Z",
+      "ordinal": 144,
+      "rva": "0x67c00"
+    },
+    {
+      "name": "?EncodeExtension@CxImageGIF@@IAEXPAVCxFile@@@Z",
+      "ordinal": 145,
+      "rva": "0x67b50"
+    },
+    {
+      "name": "?EncodeHeader@CxImageGIF@@IAEXPAVCxFile@@@Z",
+      "ordinal": 146,
+      "rva": "0x686c0"
+    },
+    {
+      "name": "?EncodeLoopExtension@CxImageGIF@@IAEXPAVCxFile@@@Z",
+      "ordinal": 147,
+      "rva": "0x68790"
+    },
+    {
+      "name": "?EncodeRGB@CxImageGIF@@IAE_NPAVCxFile@@@Z",
+      "ordinal": 148,
+      "rva": "0x69ec0"
+    },
+    {
+      "name": "?EncodeSafeCheck@CxImage@@IAE_NPAVCxFile@@@Z",
+      "ordinal": 149,
+      "rva": "0x47ea0"
+    },
+    {
+      "name": "?Eof@CxIOFile@@UAE_NXZ",
+      "ordinal": 150,
+      "rva": "0x449c0"
+    },
+    {
+      "name": "?Eof@CxMemFile@@UAE_NXZ",
+      "ordinal": 151,
+      "rva": "0x4a1c0"
+    },
+    {
+      "name": "?Erode@CxImage@@QAE_NJ@Z",
+      "ordinal": 152,
+      "rva": "0x5c990"
+    },
+    {
+      "name": "?Error@CxIOFile@@UAEJXZ",
+      "ordinal": 153,
+      "rva": "0x449e0"
+    },
+    {
+      "name": "?Error@CxMemFile@@UAEJXZ",
+      "ordinal": 154,
+      "rva": "0x4a1e0"
+    },
+    {
+      "name": "?Expand@CxImage@@QAE_NJJJJUtagRGBQUAD@@PAV1@@Z",
+      "ordinal": 155,
+      "rva": "0x50b70"
+    },
+    {
+      "name": "?Expand@CxImage@@QAE_NJJUtagRGBQUAD@@PAV1@@Z",
+      "ordinal": 156,
+      "rva": "0x510b0"
+    },
+    {
+      "name": "?FFT2@CxImage@@QAE_NPAV1@000J_N1@Z",
+      "ordinal": 157,
+      "rva": "0x646a0"
+    },
+    {
+      "name": "?FFT@CxImage@@IAE_NHHPAN0@Z",
+      "ordinal": 158,
+      "rva": "0x5e200"
+    },
+    {
+      "name": "?Filter@CxImage@@QAE_NPAJJJJ@Z",
+      "ordinal": 159,
+      "rva": "0x5c160"
+    },
+    {
+      "name": "?Flip@CxImage@@QAE_N_N0@Z",
+      "ordinal": 160,
+      "rva": "0x4b490"
+    },
+    {
+      "name": "?FloodFill@CxImage@@QAE_NJJUtagRGBQUAD@@EE_NE@Z",
+      "ordinal": 161,
+      "rva": "0x65a10"
+    },
+    {
+      "name": "?Flush@CxIOFile@@UAE_NXZ",
+      "ordinal": 162,
+      "rva": "0x449a0"
+    },
+    {
+      "name": "?Flush@CxMemFile@@UAE_NXZ",
+      "ordinal": 163,
+      "rva": "0x4a1b0"
+    },
+    {
+      "name": "?Free@CxMemFile@@IAEXXZ",
+      "ordinal": 164,
+      "rva": "0x4a2e0"
+    },
+    {
+      "name": "?FreeMemory@CxImage@@QAEXPAX@Z",
+      "ordinal": 165,
+      "rva": "0x499f0"
+    },
+    {
+      "name": "?Gamma@CxImage@@QAE_NM@Z",
+      "ordinal": 166,
+      "rva": "0x643b0"
+    },
+    {
+      "name": "?GammaRGB@CxImage@@QAE_NMMM@Z",
+      "ordinal": 167,
+      "rva": "0x64490"
+    },
+    {
+      "name": "?GaussianBlur@CxImage@@QAE_NMPAV1@@Z",
+      "ordinal": 168,
+      "rva": "0x60e30"
+    },
+    {
+      "name": "?GetAreaColorInterpolated@CxImage@@QAE?AUtagRGBQUAD@@MMMMW4InterpolationMethod@1@W4OverflowMethod@1@QAU2@@Z",
+      "ordinal": 169,
+      "rva": "0x59900"
+    },
+    {
+      "name": "?GetBits@CxImage@@QAEPAEK@Z",
+      "ordinal": 170,
+      "rva": "0x494c0"
+    },
+    {
+      "name": "?GetBpp@CxImage@@QBEGXZ",
+      "ordinal": 171,
+      "rva": "0x4a620"
+    },
+    {
+      "name": "?GetBuffer@CxMemFile@@QAEPAE_N@Z",
+      "ordinal": 172,
+      "rva": "0x4a0c0"
+    },
+    {
+      "name": "?GetC@CxIOFile@@UAEJXZ",
+      "ordinal": 173,
+      "rva": "0x44a30"
+    },
+    {
+      "name": "?GetC@CxMemFile@@UAEJXZ",
+      "ordinal": 174,
+      "rva": "0x4a200"
+    },
+    {
+      "name": "?GetClrImportant@CxImage@@QBEKXZ",
+      "ordinal": 175,
+      "rva": "0x53980"
+    },
+    {
+      "name": "?GetCodecOption@CxImage@@QAEKK@Z",
+      "ordinal": 176,
+      "rva": "0x4afe0"
+    },
+    {
+      "name": "?GetColorType@CxImage@@QAEEXZ",
+      "ordinal": 177,
+      "rva": "0x4a490"
+    },
+    {
+      "name": "?GetComment@CxImageGIF@@QAEXPAD@Z",
+      "ordinal": 178,
+      "rva": "0x68410"
+    },
+    {
+      "name": "?GetDIB@CxImage@@QBEPAXXZ",
+      "ordinal": 179,
+      "rva": "0x4a5d0"
+    },
+    {
+      "name": "?GetDisposalMethod@CxImage@@QBEEXZ",
+      "ordinal": 180,
+      "rva": "0x4a910"
+    },
+    {
+      "name": "?GetEffWidth@CxImage@@QBEKXZ",
+      "ordinal": 181,
+      "rva": "0x4a600"
+    },
+    {
+      "name": "?GetEscape@CxImage@@QBEJXZ",
+      "ordinal": 182,
+      "rva": "0x4a870"
+    },
+    {
+      "name": "?GetFlags@CxImage@@QBEKXZ",
+      "ordinal": 183,
+      "rva": "0x4a590"
+    },
+    {
+      "name": "?GetFrame@CxImage@@QBEJXZ",
+      "ordinal": 184,
+      "rva": "0x4a8e0"
+    },
+    {
+      "name": "?GetFrame@CxImage@@QBEPAV1@J@Z",
+      "ordinal": 185,
+      "rva": "0x4a940"
+    },
+    {
+      "name": "?GetFrameDelay@CxImage@@QBEKXZ",
+      "ordinal": 186,
+      "rva": "0x4a740"
+    },
+    {
+      "name": "?GetHeight@CxImage@@QBEKXZ",
+      "ordinal": 187,
+      "rva": "0x4a5e0"
+    },
+    {
+      "name": "?GetJpegQuality@CxImage@@QBEEXZ",
+      "ordinal": 188,
+      "rva": "0x4a7a0"
+    },
+    {
+      "name": "?GetJpegQualityF@CxImage@@QBEMXZ",
+      "ordinal": 189,
+      "rva": "0x4a7e0"
+    },
+    {
+      "name": "?GetJpegScale@CxImage@@QBEEXZ",
+      "ordinal": 190,
+      "rva": "0x4a840"
+    },
+    {
+      "name": "?GetLastError@CxImage@@QAEPBDXZ",
+      "ordinal": 191,
+      "rva": "0x4aa90"
+    },
+    {
+      "name": "?GetLayer@CxImage@@QAEPAV1@J@Z",
+      "ordinal": 192,
+      "rva": "0x664c0"
+    },
+    {
+      "name": "?GetLoops@CxImageGIF@@QAEJXZ",
+      "ordinal": 193,
+      "rva": "0x683e0"
+    },
+    {
+      "name": "?GetNearestIndex@CxImage@@QAEEUtagRGBQUAD@@@Z",
+      "ordinal": 194,
+      "rva": "0x53290"
+    },
+    {
+      "name": "?GetNumColors@CxImage@@QBEKXZ",
+      "ordinal": 195,
+      "rva": "0x4a610"
+    },
+    {
+      "name": "?GetNumFrames@CxImage@@QBEJXZ",
+      "ordinal": 196,
+      "rva": "0x4a8d0"
+    },
+    {
+      "name": "?GetNumLayers@CxImage@@QBEJXZ",
+      "ordinal": 197,
+      "rva": "0x661c0"
+    },
+    {
+      "name": "?GetNumTypes@CxImage@@SAKXZ",
+      "ordinal": 198,
+      "rva": "0x4a670"
+    },
+    {
+      "name": "?GetOffset@CxImage@@QAEXPAJ0@Z",
+      "ordinal": 199,
+      "rva": "0x4a760"
+    },
+    {
+      "name": "?GetPalette@CxImage@@QBEPAUtagRGBQUAD@@XZ",
+      "ordinal": 200,
+      "rva": "0x52cd0"
+    },
+    {
+      "name": "?GetPaletteColor@CxImage@@QAE?AUtagRGBQUAD@@E@Z",
+      "ordinal": 201,
+      "rva": "0x52cf0"
+    },
+    {
+      "name": "?GetPaletteColor@CxImage@@QAE_NEPAE00@Z",
+      "ordinal": 202,
+      "rva": "0x53450"
+    },
+    {
+      "name": "?GetPaletteSize@CxImage@@QAEKXZ",
+      "ordinal": 203,
+      "rva": "0x52bc0"
+    },
+    {
+      "name": "?GetParent@CxImage@@QBEPAV1@XZ",
+      "ordinal": 204,
+      "rva": "0x661b0"
+    },
+    {
+      "name": "?GetPixelColor@CxImage@@QAE?AUtagRGBQUAD@@JJ_N@Z",
+      "ordinal": 205,
+      "rva": "0x52f10"
+    },
+    {
+      "name": "?GetPixelColorInterpolated@CxImage@@QAE?AUtagRGBQUAD@@MMW4InterpolationMethod@1@W4OverflowMethod@1@QAU2@@Z",
+      "ordinal": 206,
+      "rva": "0x57a90"
+    },
+    {
+      "name": "?GetPixelColorWithOverflow@CxImage@@QAE?AUtagRGBQUAD@@JJW4OverflowMethod@1@QAU2@@Z",
+      "ordinal": 207,
+      "rva": "0x56cc0"
+    },
+    {
+      "name": "?GetPixelGray@CxImage@@QAEEJJ@Z",
+      "ordinal": 208,
+      "rva": "0x530b0"
+    },
+    {
+      "name": "?GetPixelIndex@CxImage@@QAEEJJ@Z",
+      "ordinal": 209,
+      "rva": "0x52d50"
+    },
+    {
+      "name": "?GetProgress@CxImage@@QBEJXZ",
+      "ordinal": 210,
+      "rva": "0x4a860"
+    },
+    {
+      "name": "?GetRetreiveAllFrames@CxImage@@QBE_NXZ",
+      "ordinal": 211,
+      "rva": "0x4a920"
+    },
+    {
+      "name": "?GetS@CxIOFile@@UAEPADPADH@Z",
+      "ordinal": 212,
+      "rva": "0x44a50"
+    },
+    {
+      "name": "?GetS@CxMemFile@@UAEPADPADH@Z",
+      "ordinal": 213,
+      "rva": "0x4a230"
+    },
+    {
+      "name": "?GetSize@CxImage@@QAEJXZ",
+      "ordinal": 214,
+      "rva": "0x49520"
+    },
+    {
+      "name": "?GetTransColor@CxImage@@QAE?AUtagRGBQUAD@@XZ",
+      "ordinal": 215,
+      "rva": "0x4a3e0"
+    },
+    {
+      "name": "?GetTransIndex@CxImage@@QBEJXZ",
+      "ordinal": 216,
+      "rva": "0x4a420"
+    },
+    {
+      "name": "?GetTransparentMask@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 217,
+      "rva": "0x55b50"
+    },
+    {
+      "name": "?GetType@CxImage@@QBEKXZ",
+      "ordinal": 218,
+      "rva": "0x4a630"
+    },
+    {
+      "name": "?GetTypeIdFromIndex@CxImage@@SAKK@Z",
+      "ordinal": 219,
+      "rva": "0x4a6e0"
+    },
+    {
+      "name": "?GetTypeIdFromName@CxImage@@SAKPB_W@Z",
+      "ordinal": 220,
+      "rva": "0x4a680"
+    },
+    {
+      "name": "?GetTypeIndexFromId@CxImage@@SAKK@Z",
+      "ordinal": 221,
+      "rva": "0x4a710"
+    },
+    {
+      "name": "?GetVersion@CxImage@@SAPB_WXZ",
+      "ordinal": 222,
+      "rva": "0x4afd0"
+    },
+    {
+      "name": "?GetVersionNumber@CxImage@@SA?BMXZ",
+      "ordinal": 223,
+      "rva": "0x4afc0"
+    },
+    {
+      "name": "?GetWidth@CxImage@@QBEKXZ",
+      "ordinal": 224,
+      "rva": "0x4a5f0"
+    },
+    {
+      "name": "?GetXDPI@CxImage@@QBEJXZ",
+      "ordinal": 225,
+      "rva": "0x4a4b0"
+    },
+    {
+      "name": "?GetYDPI@CxImage@@QBEJXZ",
+      "ordinal": 226,
+      "rva": "0x4a4c0"
+    },
+    {
+      "name": "?Ghost@CxImage@@IAEXPBV1@@Z",
+      "ordinal": 227,
+      "rva": "0x49680"
+    },
+    {
+      "name": "?GifMix@CxImageGIF@@IAEXAAVCxImage@@AAUtag_image@1@@Z",
+      "ordinal": 228,
+      "rva": "0x68430"
+    },
+    {
+      "name": "?GifNextPixel@CxImageGIF@@IAEHXZ",
+      "ordinal": 229,
+      "rva": "0x67c80"
+    },
+    {
+      "name": "?GrayScale@CxImage@@QAE_NXZ",
+      "ordinal": 230,
+      "rva": "0x4b090"
+    },
+    {
+      "name": "?HSLtoRGB@CxImage@@SA?AUtagRGBQUAD@@K@Z",
+      "ordinal": 231,
+      "rva": "0x642a0"
+    },
+    {
+      "name": "?HSLtoRGB@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 232,
+      "rva": "0x5b1e0"
+    },
+    {
+      "name": "?Height@CxRect2@@QBEMXZ",
+      "ordinal": 233,
+      "rva": "0x6cca0"
+    },
+    {
+      "name": "?HuePalette@CxImage@@QAEXM@Z",
+      "ordinal": 234,
+      "rva": "0x5ba30"
+    },
+    {
+      "name": "?HueToRGB@CxImage@@KAMMMM@Z",
+      "ordinal": 235,
+      "rva": "0x5b110"
+    },
+    {
+      "name": "?IncreaseBpp@CxImage@@QAE_NK@Z",
+      "ordinal": 236,
+      "rva": "0x4eb90"
+    },
+    {
+      "name": "?InitTextInfo@CxImage@@QAEXPAUtagCxTextInfo@1@@Z",
+      "ordinal": 237,
+      "rva": "0x47550"
+    },
+    {
+      "name": "?IsEnabled@CxImage@@QBE_NXZ",
+      "ordinal": 238,
+      "rva": "0x4a8b0"
+    },
+    {
+      "name": "?IsGrayScale@CxImage@@QAE_NXZ",
+      "ordinal": 239,
+      "rva": "0x536c0"
+    },
+    {
+      "name": "?IsIndexed@CxImage@@QBE_NXZ",
+      "ordinal": 240,
+      "rva": "0x4a480"
+    },
+    {
+      "name": "?IsInside@CxImage@@QAE_NJJ@Z",
+      "ordinal": 241,
+      "rva": "0x49530"
+    },
+    {
+      "name": "?IsPowerof2@CxImage@@IAE_NJ@Z",
+      "ordinal": 242,
+      "rva": "0x5e1d0"
+    },
+    {
+      "name": "?IsSamePalette@CxImage@@QAE_NAAV1@_N@Z",
+      "ordinal": 243,
+      "rva": "0x538e0"
+    },
+    {
+      "name": "?IsTransparent@CxImage@@QAE_NJJ@Z",
+      "ordinal": 244,
+      "rva": "0x53840"
+    },
+    {
+      "name": "?IsTransparent@CxImage@@QBE_NXZ",
+      "ordinal": 245,
+      "rva": "0x4a470"
+    },
+    {
+      "name": "?IsValid@CxImage@@QBE_NXZ",
+      "ordinal": 246,
+      "rva": "0x4a8a0"
+    },
+    {
+      "name": "?Jitter@CxImage@@QAE_NJ@Z",
+      "ordinal": 247,
+      "rva": "0x5f400"
+    },
+    {
+      "name": "?KernelBSpline@CxImage@@SAMM@Z",
+      "ordinal": 248,
+      "rva": "0x56e70"
+    },
+    {
+      "name": "?KernelBessel@CxImage@@SAMM@Z",
+      "ordinal": 249,
+      "rva": "0x57730"
+    },
+    {
+      "name": "?KernelBessel_J1@CxImage@@SAMM@Z",
+      "ordinal": 250,
+      "rva": "0x57420"
+    },
+    {
+      "name": "?KernelBessel_Order1@CxImage@@SAMM@Z",
+      "ordinal": 251,
+      "rva": "0x575f0"
+    },
+    {
+      "name": "?KernelBessel_P1@CxImage@@SAMM@Z",
+      "ordinal": 252,
+      "rva": "0x574e0"
+    },
+    {
+      "name": "?KernelBessel_Q1@CxImage@@SAMM@Z",
+      "ordinal": 253,
+      "rva": "0x57560"
+    },
+    {
+      "name": "?KernelBlackman@CxImage@@SAMM@Z",
+      "ordinal": 254,
+      "rva": "0x573b0"
+    },
+    {
+      "name": "?KernelBox@CxImage@@SAMM@Z",
+      "ordinal": 255,
+      "rva": "0x571a0"
+    },
+    {
+      "name": "?KernelCatrom@CxImage@@SAMM@Z",
+      "ordinal": 256,
+      "rva": "0x57940"
+    },
+    {
+      "name": "?KernelCubic@CxImage@@SAMM@Z",
+      "ordinal": 257,
+      "rva": "0x56fc0"
+    },
+    {
+      "name": "?KernelGaussian@CxImage@@SAMM@Z",
+      "ordinal": 258,
+      "rva": "0x57780"
+    },
+    {
+      "name": "?KernelGeneralizedCubic@CxImage@@SAMMM@Z",
+      "ordinal": 259,
+      "rva": "0x57050"
+    },
+    {
+      "name": "?KernelHamming@CxImage@@SAMM@Z",
+      "ordinal": 260,
+      "rva": "0x572d0"
+    },
+    {
+      "name": "?KernelHanning@CxImage@@SAMM@Z",
+      "ordinal": 261,
+      "rva": "0x57250"
+    },
+    {
+      "name": "?KernelHermite@CxImage@@SAMM@Z",
+      "ordinal": 262,
+      "rva": "0x571d0"
+    },
+    {
+      "name": "?KernelLanczosSinc@CxImage@@SAMMM@Z",
+      "ordinal": 263,
+      "rva": "0x57100"
+    },
+    {
+      "name": "?KernelLinear@CxImage@@SAMM@Z",
+      "ordinal": 264,
+      "rva": "0x56f60"
+    },
+    {
+      "name": "?KernelMitchell@CxImage@@SAMM@Z",
+      "ordinal": 265,
+      "rva": "0x57850"
+    },
+    {
+      "name": "?KernelPower@CxImage@@SAMMM@Z",
+      "ordinal": 266,
+      "rva": "0x57a40"
+    },
+    {
+      "name": "?KernelQuadratic@CxImage@@SAMM@Z",
+      "ordinal": 267,
+      "rva": "0x577c0"
+    },
+    {
+      "name": "?KernelSinc@CxImage@@SAMM@Z",
+      "ordinal": 268,
+      "rva": "0x57360"
+    },
+    {
+      "name": "?LayerCreate@CxImage@@QAE_NJ@Z",
+      "ordinal": 269,
+      "rva": "0x661d0"
+    },
+    {
+      "name": "?LayerDelete@CxImage@@QAE_NJ@Z",
+      "ordinal": 270,
+      "rva": "0x66340"
+    },
+    {
+      "name": "?LayerDeleteAll@CxImage@@QAEXXZ",
+      "ordinal": 271,
+      "rva": "0x66450"
+    },
+    {
+      "name": "?LayerDrawAll@CxImage@@QAEJPAUHDC__@@ABUtagRECT@@PAU3@_N@Z",
+      "ordinal": 272,
+      "rva": "0x47840"
+    },
+    {
+      "name": "?LayerDrawAll@CxImage@@QAEJPAUHDC__@@JJJJPAUtagRECT@@_N@Z",
+      "ordinal": 273,
+      "rva": "0x47630"
+    },
+    {
+      "name": "?Light@CxImage@@QAE_NJJ@Z",
+      "ordinal": 274,
+      "rva": "0x642c0"
+    },
+    {
+      "name": "?Load@CxImage@@QAE_NPB_WK@Z",
+      "ordinal": 275,
+      "rva": "0x49170"
+    },
+    {
+      "name": "?LoadResource@CxImage@@QAE_NPAUHRSRC__@@KPAUHINSTANCE__@@@Z",
+      "ordinal": 276,
+      "rva": "0x48e90"
+    },
+    {
+      "name": "?Lut@CxImage@@QAE_NPAE000@Z",
+      "ordinal": 277,
+      "rva": "0x61df0"
+    },
+    {
+      "name": "?Lut@CxImage@@QAE_NPAE@Z",
+      "ordinal": 278,
+      "rva": "0x61b20"
+    },
+    {
+      "name": "?MakeBitmap@CxImage@@QAEPAUHBITMAP__@@PAUHDC__@@@Z",
+      "ordinal": 279,
+      "rva": "0x45370"
+    },
+    {
+      "name": "?Mean@CxImage@@QAEMXZ",
+      "ordinal": 280,
+      "rva": "0x5bf00"
+    },
+    {
+      "name": "?Median@CxImage@@QAE_NJ@Z",
+      "ordinal": 281,
+      "rva": "0x5dd20"
+    },
+    {
+      "name": "?Mirror@CxImage@@QAE_N_N0@Z",
+      "ordinal": 282,
+      "rva": "0x4b570"
+    },
+    {
+      "name": "?Mix@CxImage@@QAEXAAV1@W4ImageOpType@1@JJ_N@Z",
+      "ordinal": 283,
+      "rva": "0x5d250"
+    },
+    {
+      "name": "?MixFrom@CxImage@@QAEXAAV1@JJ@Z",
+      "ordinal": 284,
+      "rva": "0x5d9f0"
+    },
+    {
+      "name": "?Negative@CxImage@@QAE_NXZ",
+      "ordinal": 285,
+      "rva": "0x4c500"
+    },
+    {
+      "name": "?Noise@CxImage@@QAE_NJ@Z",
+      "ordinal": 286,
+      "rva": "0x5dfe0"
+    },
+    {
+      "name": "?Open@CxIOFile@@QAE_NPB_W0@Z",
+      "ordinal": 287,
+      "rva": "0x44830"
+    },
+    {
+      "name": "?Open@CxMemFile@@QAE_NXZ",
+      "ordinal": 288,
+      "rva": "0x4a080"
+    },
+    {
+      "name": "?OptimalThreshold@CxImage@@QAEHJPAUtagRECT@@PAV1@@Z",
+      "ordinal": 289,
+      "rva": "0x62a40"
+    },
+    {
+      "name": "?OverflowCoordinates@CxImage@@QAEXAAJ0W4OverflowMethod@1@@Z",
+      "ordinal": 290,
+      "rva": "0x56970"
+    },
+    {
+      "name": "?OverflowCoordinates@CxImage@@QAEXAAM0W4OverflowMethod@1@@Z",
+      "ordinal": 291,
+      "rva": "0x56a70"
+    },
+    {
+      "name": "?PutC@CxFile@@UAE_NE@Z",
+      "ordinal": 292,
+      "rva": "0x44770"
+    },
+    {
+      "name": "?PutC@CxIOFile@@UAE_NE@Z",
+      "ordinal": 293,
+      "rva": "0x44a00"
+    },
+    {
+      "name": "?PutC@CxMemFile@@UAE_NE@Z",
+      "ordinal": 294,
+      "rva": "0x4a390"
+    },
+    {
+      "name": "?Putword@CxImageGIF@@IAEXHPAVCxFile@@@Z",
+      "ordinal": 295,
+      "rva": "0x67ce0"
+    },
+    {
+      "name": "?QIShrink@CxImage@@QAE_NJJQAV1@_N@Z",
+      "ordinal": 296,
+      "rva": "0x51700"
+    },
+    {
+      "name": "?RGBQUADtoRGB@CxImage@@SAKUtagRGBQUAD@@@Z",
+      "ordinal": 297,
+      "rva": "0x53430"
+    },
+    {
+      "name": "?RGBtoBGR@CxImage@@IAEXPAEH@Z",
+      "ordinal": 298,
+      "rva": "0x533a0"
+    },
+    {
+      "name": "?RGBtoHSL@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 299,
+      "rva": "0x5afa0"
+    },
+    {
+      "name": "?RGBtoRGBQUAD@CxImage@@SA?AUtagRGBQUAD@@K@Z",
+      "ordinal": 300,
+      "rva": "0x53400"
+    },
+    {
+      "name": "?RGBtoXYZ@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 301,
+      "rva": "0x5b910"
+    },
+    {
+      "name": "?RGBtoYIQ@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 302,
+      "rva": "0x5b6c0"
+    },
+    {
+      "name": "?RGBtoYUV@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 303,
+      "rva": "0x5b4c0"
+    },
+    {
+      "name": "?Read@CxIOFile@@UAEIPAXII@Z",
+      "ordinal": 304,
+      "rva": "0x448a0"
+    },
+    {
+      "name": "?Read@CxMemFile@@UAEIPAXII@Z",
+      "ordinal": 305,
+      "rva": "0x4a0e0"
+    },
+    {
+      "name": "?RedEyeRemove@CxImage@@QAE_NM@Z",
+      "ordinal": 306,
+      "rva": "0x61ff0"
+    },
+    {
+      "name": "?Repair@CxImage@@QAE_NMJJ@Z",
+      "ordinal": 307,
+      "rva": "0x65360"
+    },
+    {
+      "name": "?RepairChannel@CxImage@@IAE_NPAV1@M@Z",
+      "ordinal": 308,
+      "rva": "0x5e970"
+    },
+    {
+      "name": "?Resample2@CxImage@@QAE_NJJW4InterpolationMethod@1@W4OverflowMethod@1@QAV1@_N@Z",
+      "ordinal": 309,
+      "rva": "0x4e1a0"
+    },
+    {
+      "name": "?Resample@CxImage@@QAE_NJJHPAV1@@Z",
+      "ordinal": 310,
+      "rva": "0x4d0d0"
+    },
+    {
+      "name": "?Rotate180@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 311,
+      "rva": "0x4cec0"
+    },
+    {
+      "name": "?Rotate2@CxImage@@QAE_NMPAV1@W4InterpolationMethod@1@W4OverflowMethod@1@PAUtagRGBQUAD@@_N4@Z",
+      "ordinal": 312,
+      "rva": "0x51c90"
+    },
+    {
+      "name": "?Rotate@CxImage@@QAE_NMPAV1@@Z",
+      "ordinal": 313,
+      "rva": "0x4c700"
+    },
+    {
+      "name": "?RotateLeft@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 314,
+      "rva": "0x4b770"
+    },
+    {
+      "name": "?RotateRight@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 315,
+      "rva": "0x4be50"
+    },
+    {
+      "name": "?Saturate@CxImage@@QAE_NJJ@Z",
+      "ordinal": 316,
+      "rva": "0x62200"
+    },
+    {
+      "name": "?Save@CxImage@@QAE_NPB_WK@Z",
+      "ordinal": 317,
+      "rva": "0x49120"
+    },
+    {
+      "name": "?Scanf@CxIOFile@@UAEJPBDPAX@Z",
+      "ordinal": 318,
+      "rva": "0x44a70"
+    },
+    {
+      "name": "?Scanf@CxMemFile@@UAEJPBDPAX@Z",
+      "ordinal": 319,
+      "rva": "0x4a280"
+    },
+    {
+      "name": "?Seek@CxIOFile@@UAE_NJH@Z",
+      "ordinal": 320,
+      "rva": "0x44900"
+    },
+    {
+      "name": "?Seek@CxMemFile@@UAE_NJH@Z",
+      "ordinal": 321,
+      "rva": "0x4a150"
+    },
+    {
+      "name": "?SelectionAddColor@CxImage@@QAE_NUtagRGBQUAD@@E@Z",
+      "ordinal": 322,
+      "rva": "0x6c780"
+    },
+    {
+      "name": "?SelectionAddEllipse@CxImage@@QAE_NUtagRECT@@E@Z",
+      "ordinal": 323,
+      "rva": "0x6bbc0"
+    },
+    {
+      "name": "?SelectionAddPixel@CxImage@@QAE_NJJE@Z",
+      "ordinal": 324,
+      "rva": "0x6c8a0"
+    },
+    {
+      "name": "?SelectionAddPolygon@CxImage@@QAE_NPAUtagPOINT@@JE@Z",
+      "ordinal": 325,
+      "rva": "0x6bff0"
+    },
+    {
+      "name": "?SelectionAddRect@CxImage@@QAE_NUtagRECT@@E@Z",
+      "ordinal": 326,
+      "rva": "0x6ba10"
+    },
+    {
+      "name": "?SelectionClear@CxImage@@QAE_NE@Z",
+      "ordinal": 327,
+      "rva": "0x6b1e0"
+    },
+    {
+      "name": "?SelectionCopy@CxImage@@QAE_NAAV1@@Z",
+      "ordinal": 328,
+      "rva": "0x6b340"
+    },
+    {
+      "name": "?SelectionCreate@CxImage@@QAE_NXZ",
+      "ordinal": 329,
+      "rva": "0x6b9e0"
+    },
+    {
+      "name": "?SelectionDelete@CxImage@@QAE_NXZ",
+      "ordinal": 330,
+      "rva": "0x6b270"
+    },
+    {
+      "name": "?SelectionFlip@CxImage@@QAE_NXZ",
+      "ordinal": 331,
+      "rva": "0x6b760"
+    },
+    {
+      "name": "?SelectionGet@CxImage@@QAEEJJ@Z",
+      "ordinal": 332,
+      "rva": "0x6b580"
+    },
+    {
+      "name": "?SelectionGetBox@CxImage@@QAEXAAUtagRECT@@@Z",
+      "ordinal": 333,
+      "rva": "0x6b1b0"
+    },
+    {
+      "name": "?SelectionGetPointer@CxImage@@QAEPAEJJ@Z",
+      "ordinal": 334,
+      "rva": "0x6b720"
+    },
+    {
+      "name": "?SelectionInvert@CxImage@@QAE_NXZ",
+      "ordinal": 335,
+      "rva": "0x6bfc0"
+    },
+    {
+      "name": "?SelectionIsInside@CxImage@@QAE_NJJ@Z",
+      "ordinal": 336,
+      "rva": "0x6b2c0"
+    },
+    {
+      "name": "?SelectionIsValid@CxImage@@QAE_NXZ",
+      "ordinal": 337,
+      "rva": "0x6b1a0"
+    },
+    {
+      "name": "?SelectionMirror@CxImage@@QAE_NXZ",
+      "ordinal": 338,
+      "rva": "0x6b830"
+    },
+    {
+      "name": "?SelectionRebuildBox@CxImage@@QAEXXZ",
+      "ordinal": 339,
+      "rva": "0x6b5c0"
+    },
+    {
+      "name": "?SelectionSet@CxImage@@IAEXJJE@Z",
+      "ordinal": 340,
+      "rva": "0x6b540"
+    },
+    {
+      "name": "?SelectionSet@CxImage@@QAE_NAAV1@@Z",
+      "ordinal": 341,
+      "rva": "0x6c940"
+    },
+    {
+      "name": "?SelectionSplit@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 342,
+      "rva": "0x6b3e0"
+    },
+    {
+      "name": "?SelectionToHRGN@CxImage@@QAE_NAAPAUHRGN__@@@Z",
+      "ordinal": 343,
+      "rva": "0x6b900"
+    },
+    {
+      "name": "?SelectiveBlur@CxImage@@QAE_NMEPAV1@@Z",
+      "ordinal": 344,
+      "rva": "0x61340"
+    },
+    {
+      "name": "?SetClrImportant@CxImage@@QAEXK@Z",
+      "ordinal": 345,
+      "rva": "0x53990"
+    },
+    {
+      "name": "?SetCodecOption@CxImage@@QAE_NKK@Z",
+      "ordinal": 346,
+      "rva": "0x4b010"
+    },
+    {
+      "name": "?SetComment@CxImageGIF@@QAEXPBD@Z",
+      "ordinal": 347,
+      "rva": "0x683f0"
+    },
+    {
+      "name": "?SetDisposalMethod@CxImage@@QAEXE@Z",
+      "ordinal": 348,
+      "rva": "0x4a900"
+    },
+    {
+      "name": "?SetEscape@CxImage@@QAEXJ@Z",
+      "ordinal": 349,
+      "rva": "0x4a890"
+    },
+    {
+      "name": "?SetFlags@CxImage@@QAEXK_N@Z",
+      "ordinal": 350,
+      "rva": "0x4a5a0"
+    },
+    {
+      "name": "?SetFrame@CxImage@@QAEXJ@Z",
+      "ordinal": 351,
+      "rva": "0x4a8f0"
+    },
+    {
+      "name": "?SetFrameDelay@CxImage@@QAEXK@Z",
+      "ordinal": 352,
+      "rva": "0x4a750"
+    },
+    {
+      "name": "?SetGrayPalette@CxImage@@QAEXXZ",
+      "ordinal": 353,
+      "rva": "0x535b0"
+    },
+    {
+      "name": "?SetJpegQuality@CxImage@@QAEXE@Z",
+      "ordinal": 354,
+      "rva": "0x4a7f0"
+    },
+    {
+      "name": "?SetJpegQualityF@CxImage@@QAEXM@Z",
+      "ordinal": 355,
+      "rva": "0x4a810"
+    },
+    {
+      "name": "?SetJpegScale@CxImage@@QAEXE@Z",
+      "ordinal": 356,
+      "rva": "0x4a850"
+    },
+    {
+      "name": "?SetLoops@CxImageGIF@@QAEXH@Z",
+      "ordinal": 357,
+      "rva": "0x683d0"
+    },
+    {
+      "name": "?SetOffset@CxImage@@QAEXJJ@Z",
+      "ordinal": 358,
+      "rva": "0x4a780"
+    },
+    {
+      "name": "?SetPalette@CxImage@@QAEXKPAE00@Z",
+      "ordinal": 359,
+      "rva": "0x53490"
+    },
+    {
+      "name": "?SetPalette@CxImage@@QAEXPAUrgb_color@1@K@Z",
+      "ordinal": 360,
+      "rva": "0x53500"
+    },
+    {
+      "name": "?SetPalette@CxImage@@QAEXPAUtagRGBQUAD@@K@Z",
+      "ordinal": 361,
+      "rva": "0x53560"
+    },
+    {
+      "name": "?SetPaletteColor@CxImage@@QAEXEEEEE@Z",
+      "ordinal": 362,
+      "rva": "0x52bd0"
+    },
+    {
+      "name": "?SetPaletteColor@CxImage@@QAEXEK@Z",
+      "ordinal": 363,
+      "rva": "0x52c80"
+    },
+    {
+      "name": "?SetPaletteColor@CxImage@@QAEXEUtagRGBQUAD@@@Z",
+      "ordinal": 364,
+      "rva": "0x52c20"
+    },
+    {
+      "name": "?SetPixelColor@CxImage@@QAEXJJK@Z",
+      "ordinal": 365,
+      "rva": "0x55d90"
+    },
+    {
+      "name": "?SetPixelColor@CxImage@@QAEXJJUtagRGBQUAD@@_N@Z",
+      "ordinal": 366,
+      "rva": "0x559a0"
+    },
+    {
+      "name": "?SetPixelIndex@CxImage@@QAEXJJE@Z",
+      "ordinal": 367,
+      "rva": "0x531a0"
+    },
+    {
+      "name": "?SetProgress@CxImage@@QAEXJ@Z",
+      "ordinal": 368,
+      "rva": "0x4a880"
+    },
+    {
+      "name": "?SetRetreiveAllFrames@CxImage@@QAEX_N@Z",
+      "ordinal": 369,
+      "rva": "0x4a930"
+    },
+    {
+      "name": "?SetStdPalette@CxImage@@QAEXXZ",
+      "ordinal": 370,
+      "rva": "0x53a20"
+    },
+    {
+      "name": "?SetTransColor@CxImage@@QAEXUtagRGBQUAD@@@Z",
+      "ordinal": 371,
+      "rva": "0x4a450"
+    },
+    {
+      "name": "?SetTransIndex@CxImage@@QAEXJ@Z",
+      "ordinal": 372,
+      "rva": "0x4a430"
+    },
+    {
+      "name": "?SetType@CxImage@@QAE_NK@Z",
+      "ordinal": 373,
+      "rva": "0x4a640"
+    },
+    {
+      "name": "?SetXDPI@CxImage@@QAEXJ@Z",
+      "ordinal": 374,
+      "rva": "0x4a4d0"
+    },
+    {
+      "name": "?SetYDPI@CxImage@@QAEXJ@Z",
+      "ordinal": 375,
+      "rva": "0x4a530"
+    },
+    {
+      "name": "?ShiftRGB@CxImage@@QAE_NJJJ@Z",
+      "ordinal": 376,
+      "rva": "0x5dae0"
+    },
+    {
+      "name": "?Size@CxIOFile@@UAEJXZ",
+      "ordinal": 377,
+      "rva": "0x44950"
+    },
+    {
+      "name": "?Size@CxMemFile@@UAEJXZ",
+      "ordinal": 378,
+      "rva": "0x4a1a0"
+    },
+    {
+      "name": "?Skew@CxImage@@QAE_NMMJJ_N@Z",
+      "ordinal": 379,
+      "rva": "0x50890"
+    },
+    {
+      "name": "?Solarize@CxImage@@QAE_NE_N@Z",
+      "ordinal": 380,
+      "rva": "0x624d0"
+    },
+    {
+      "name": "?SplitCMYK@CxImage@@QAE_NPAV1@000@Z",
+      "ordinal": 381,
+      "rva": "0x5ac60"
+    },
+    {
+      "name": "?SplitHSL@CxImage@@QAE_NPAV1@00@Z",
+      "ordinal": 382,
+      "rva": "0x64030"
+    },
+    {
+      "name": "?SplitRGB@CxImage@@QAE_NPAV1@00@Z",
+      "ordinal": 383,
+      "rva": "0x5aa00"
+    },
+    {
+      "name": "?SplitXYZ@CxImage@@QAE_NPAV1@00@Z",
+      "ordinal": 384,
+      "rva": "0x63dc0"
+    },
+    {
+      "name": "?SplitYIQ@CxImage@@QAE_NPAV1@00@Z",
+      "ordinal": 385,
+      "rva": "0x63b50"
+    },
+    {
+      "name": "?SplitYUV@CxImage@@QAE_NPAV1@00@Z",
+      "ordinal": 386,
+      "rva": "0x638e0"
+    },
+    {
+      "name": "?Startup@CxImage@@IAEXK@Z",
+      "ordinal": 387,
+      "rva": "0x492c0"
+    },
+    {
+      "name": "?Stretch@CxImage@@QAEJPAUHDC__@@ABUtagRECT@@K@Z",
+      "ordinal": 388,
+      "rva": "0x47810"
+    },
+    {
+      "name": "?Stretch@CxImage@@QAEJPAUHDC__@@JJJJK@Z",
+      "ordinal": 389,
+      "rva": "0x467a0"
+    },
+    {
+      "name": "?Surface@CxRect2@@QBEMXZ",
+      "ordinal": 390,
+      "rva": "0x6cb40"
+    },
+    {
+      "name": "?SwapIndex@CxImage@@QAEXEE@Z",
+      "ordinal": 391,
+      "rva": "0x53710"
+    },
+    {
+      "name": "?SwapRGB2BGR@CxImage@@QAEXXZ",
+      "ordinal": 392,
+      "rva": "0x537c0"
+    },
+    {
+      "name": "?Tell@CxIOFile@@UAEJXZ",
+      "ordinal": 393,
+      "rva": "0x44930"
+    },
+    {
+      "name": "?Tell@CxMemFile@@UAEJXZ",
+      "ordinal": 394,
+      "rva": "0x4a190"
+    },
+    {
+      "name": "?TextBlur@CxImage@@QAE_NEEE_N0PAV1@@Z",
+      "ordinal": 395,
+      "rva": "0x60b40"
+    },
+    {
+      "name": "?Threshold2@CxImage@@QAE_NE_NUtagRGBQUAD@@0@Z",
+      "ordinal": 396,
+      "rva": "0x5a800"
+    },
+    {
+      "name": "?Threshold@CxImage@@QAE_NE@Z",
+      "ordinal": 397,
+      "rva": "0x5a410"
+    },
+    {
+      "name": "?Threshold@CxImage@@QAE_NPAV1@@Z",
+      "ordinal": 398,
+      "rva": "0x5a5c0"
+    },
+    {
+      "name": "?Thumbnail@CxImage@@QAE_NJJUtagRGBQUAD@@PAV1@@Z",
+      "ordinal": 399,
+      "rva": "0x51110"
+    },
+    {
+      "name": "?Tile@CxImage@@QAEJPAUHDC__@@PAUtagRECT@@@Z",
+      "ordinal": 400,
+      "rva": "0x46810"
+    },
+    {
+      "name": "?Transfer@CxImage@@QAE_NAAV1@_N@Z",
+      "ordinal": 401,
+      "rva": "0x495b0"
+    },
+    {
+      "name": "?UnDump@CxImage@@QAEKPBE@Z",
+      "ordinal": 402,
+      "rva": "0x4ad00"
+    },
+    {
+      "name": "?UnsharpMask@CxImage@@QAE_NMMH@Z",
+      "ordinal": 403,
+      "rva": "0x617a0"
+    },
+    {
+      "name": "?Width@CxRect2@@QBEMXZ",
+      "ordinal": 404,
+      "rva": "0x6cc90"
+    },
+    {
+      "name": "?Write@CxIOFile@@UAEIPBXII@Z",
+      "ordinal": 405,
+      "rva": "0x448d0"
+    },
+    {
+      "name": "?Write@CxMemFile@@UAEIPBXII@Z",
+      "ordinal": 406,
+      "rva": "0x4a310"
+    },
+    {
+      "name": "?XYZtoRGB@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 407,
+      "rva": "0x5b7f0"
+    },
+    {
+      "name": "?YIQtoRGB@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 408,
+      "rva": "0x5b5b0"
+    },
+    {
+      "name": "?YUVtoRGB@CxImage@@SA?AUtagRGBQUAD@@U2@@Z",
+      "ordinal": 409,
+      "rva": "0x5b3c0"
+    },
+    {
+      "name": "?bihtoh@CxImage@@IAEXPAUtagBITMAPINFOHEADER@@@Z",
+      "ordinal": 410,
+      "rva": "0x4a9e0"
+    },
+    {
+      "name": "?blur_line@CxImage@@IAEXPAM0HPAE1HJ@Z",
+      "ordinal": 411,
+      "rva": "0x5fa90"
+    },
+    {
+      "name": "?blur_text@CxImage@@IAEXEEEPAV1@0E@Z",
+      "ordinal": 412,
+      "rva": "0x60420"
+    },
+    {
+      "name": "?char_out@CxImageGIF@@IAEXH@Z",
+      "ordinal": 413,
+      "rva": "0x68810"
+    },
+    {
+      "name": "?cl_hash@CxImageGIF@@IAEXJ@Z",
+      "ordinal": 414,
+      "rva": "0x67d10"
+    },
+    {
+      "name": "?compressLZW@CxImageGIF@@IAEXHPAVCxFile@@@Z",
+      "ordinal": 415,
+      "rva": "0x699d0"
+    },
+    {
+      "name": "?compressNONE@CxImageGIF@@IAEXHPAVCxFile@@@Z",
+      "ordinal": 416,
+      "rva": "0x698c0"
+    },
+    {
+      "name": "?compressRLE@CxImageGIF@@IAEXHPAVCxFile@@@Z",
+      "ordinal": 417,
+      "rva": "0x69c30"
+    },
+    {
+      "name": "?decoder@CxImageGIF@@IAEFPAVCxFile@@PAVCImageIterator@@FAAH@Z",
+      "ordinal": 418,
+      "rva": "0x68020"
+    },
+    {
+      "name": "?flush_char@CxImageGIF@@IAEXXZ",
+      "ordinal": 419,
+      "rva": "0x67d70"
+    },
+    {
+      "name": "?gen_convolve_matrix@CxImage@@IAEHMPAPAM@Z",
+      "ordinal": 420,
+      "rva": "0x5f6c0"
+    },
+    {
+      "name": "?gen_lookup_table@CxImage@@IAEPAMPAMH@Z",
+      "ordinal": 421,
+      "rva": "0x5f9a0"
+    },
+    {
+      "name": "?get_byte@CxImageGIF@@IAEHPAVCxFile@@@Z",
+      "ordinal": 422,
+      "rva": "0x67920"
+    },
+    {
+      "name": "?get_next_code@CxImageGIF@@IAEFPAVCxFile@@@Z",
+      "ordinal": 423,
+      "rva": "0x67e60"
+    },
+    {
+      "name": "?get_num_frames@CxImageGIF@@IAEHPAVCxFile@@PAUtag_TabCol@1@PAUtag_dscgif@1@@Z",
+      "ordinal": 424,
+      "rva": "0x68840"
+    },
+    {
+      "name": "?init_exp@CxImageGIF@@IAEFF@Z",
+      "ordinal": 425,
+      "rva": "0x67dc0"
+    },
+    {
+      "name": "?ntohl@CxImage@@IAEJJ@Z",
+      "ordinal": 426,
+      "rva": "0x4a9a0"
+    },
+    {
+      "name": "?ntohs@CxImage@@IAEFF@Z",
+      "ordinal": 427,
+      "rva": "0x4a970"
+    },
+    {
+      "name": "?out_line@CxImageGIF@@IAEHPAVCImageIterator@@PAEH@Z",
+      "ordinal": 428,
+      "rva": "0x67990"
+    },
+    {
+      "name": "?output@CxImageGIF@@IAEXF@Z",
+      "ordinal": 429,
+      "rva": "0x69510"
+    },
+    {
+      "name": "?rle_block_flush@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 430,
+      "rva": "0x68620"
+    },
+    {
+      "name": "?rle_block_out@CxImageGIF@@IAEXEPAUtag_RLE@1@@Z",
+      "ordinal": 431,
+      "rva": "0x685f0"
+    },
+    {
+      "name": "?rle_clear@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 432,
+      "rva": "0x68520"
+    },
+    {
+      "name": "?rle_compute_triangle_count@CxImageGIF@@IAEIII@Z",
+      "ordinal": 433,
+      "rva": "0x68b00"
+    },
+    {
+      "name": "?rle_flush@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 434,
+      "rva": "0x69bc0"
+    },
+    {
+      "name": "?rle_flush_clearorrep@CxImageGIF@@IAEXHPAUtag_RLE@1@@Z",
+      "ordinal": 435,
+      "rva": "0x69860"
+    },
+    {
+      "name": "?rle_flush_fromclear@CxImageGIF@@IAEXHPAUtag_RLE@1@@Z",
+      "ordinal": 436,
+      "rva": "0x696b0"
+    },
+    {
+      "name": "?rle_flush_withtable@CxImageGIF@@IAEXHPAUtag_RLE@1@@Z",
+      "ordinal": 437,
+      "rva": "0x69750"
+    },
+    {
+      "name": "?rle_isqrt@CxImageGIF@@IAEII@Z",
+      "ordinal": 438,
+      "rva": "0x68550"
+    },
+    {
+      "name": "?rle_output@CxImageGIF@@IAEXHPAUtag_RLE@1@@Z",
+      "ordinal": 439,
+      "rva": "0x68640"
+    },
+    {
+      "name": "?rle_output_flush@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 440,
+      "rva": "0x68690"
+    },
+    {
+      "name": "?rle_output_plain@CxImageGIF@@IAEXHPAUtag_RLE@1@@Z",
+      "ordinal": 441,
+      "rva": "0x68a70"
+    },
+    {
+      "name": "?rle_reset_out_clear@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 442,
+      "rva": "0x68ad0"
+    },
+    {
+      "name": "?rle_write_block@CxImageGIF@@IAEXPAUtag_RLE@1@@Z",
+      "ordinal": 443,
+      "rva": "0x685a0"
+    },
+    {
+      "name": "?seek_next_image@CxImageGIF@@IAEJPAVCxFile@@J@Z",
+      "ordinal": 444,
+      "rva": "0x68350"
+    }
+  ],
+  "import_directory_size": 460,
+  "export_directory_size": 20079
+}

@@ -1,0 +1,2498 @@
+1	ascii	!This program cannot be run in DOS mode.
+2	ascii	RichV
+3	ascii	.text
+4	ascii	`.rdata
+5	ascii	@.data
+6	ascii	.pdata
+7	ascii	@.tls
+8	ascii	.rsrc
+9	ascii	@.reloc
+10	ascii	t$ AWH
+11	ascii	D$X8
+12	ascii	L$`L
+13	ascii	D$XH
+14	ascii	|$0H
+15	ascii	\$8H
+16	ascii	t$@L
+17	ascii	t$HH
+18	ascii	D$hH
+19	ascii	D$(H
+20	ascii	D$`H
+21	ascii	L$PH
+22	ascii	D$0H
+23	ascii	|$@H
+24	ascii	t$8H
+25	ascii	\$pH
+26	ascii	t$xH
+27	ascii	H+\$PH
+28	ascii	w:E3
+29	ascii	\$(H
+30	ascii	t$ WH
+31	ascii	l$PL
+32	ascii	t$XL
+33	ascii	t$(H
+34	ascii	|$(L
+35	ascii	t$XH
+36	ascii	\$`H
+37	ascii	t$hH
+38	ascii	CHH+
+39	ascii	H9K`rA
+40	ascii	D$8H
+41	ascii	\$PH
+42	ascii	@SVWAWH
+43	ascii	l$XL
+44	ascii	d$`3
+45	ascii	l$hA
+46	ascii	|$PH
+47	ascii	t$ f
+48	ascii	|$PM
+49	ascii	t$ L
+50	ascii	l$hL
+51	ascii	d$`H
+52	ascii	l$XH
+53	ascii	(A__^[
+54	ascii	L$1D
+55	ascii	L$0A
+56	ascii	|$ AVH
+57	ascii	D95k
+58	ascii	|$(H
+59	ascii	;uSmaue
+60	ascii	D$pE3
+61	ascii	t$`H
+62	ascii	|$hH
+63	ascii	\$ UVWH
+64	ascii	L$B3
+65	ascii	D$@D
+66	ascii	l$8H
+67	ascii	l$0L
+68	ascii	D$@A
+69	ascii	\$@H
+70	ascii	L$Q3
+71	ascii	L$PA
+72	ascii	L$P3
+73	ascii	D$PL
+74	ascii	D$8L
+75	ascii	L$@H
+76	ascii	L$PE3
+77	ascii	|$@f
+78	ascii	T$0H
+79	ascii	T$`H
+80	ascii	L$$3
+81	ascii	@USWATAUAVAWH
+82	ascii	uED9-
+83	ascii	L$`H
+84	ascii	D$xA
+85	ascii	D$(E3
+86	ascii	D9l$puyH
+87	ascii	L$xA
+88	ascii	D$hA
+89	ascii	u[D9-
+90	ascii	t'E3
+91	ascii	L$xH
+92	ascii	D$PH
+93	ascii	D$HL
+94	ascii	l$@L
+95	ascii	D$0 
+96	ascii	l$(L
+97	ascii	D$hL
+98	ascii	D$pH
+99	ascii	M H3
+100	ascii	A_A^A]A\_[]
+101	ascii	D$p3
+102	ascii	D$if
+103	ascii	D$oH
+104	ascii	T$0H;
+105	ascii	L$pH3
+106	ascii	L$(H
+107	ascii	T$HH
+108	ascii	L$HH
+109	ascii	D$HH
+110	ascii	D$PM
+111	ascii	~|E3
+112	ascii	D$`M
+113	ascii	L$ WH
+114	ascii	D$hH=
+115	ascii	L$hE3
+116	ascii	D$0?
+117	ascii	\$hH
+118	ascii	D$0L
+119	ascii	\$P3
+120	ascii	SVAVH
+121	ascii	T$PD
+122	ascii	0A^^[
+123	ascii	T$PA
+124	ascii	T$`E3
+125	ascii	|$XI
+126	ascii	|$XH
+127	ascii	VWAUAVAWH
+128	ascii	l$8L
+129	ascii	d$0D
+130	ascii	\$pL
+131	ascii	D$ L
+132	ascii	\$pI
+133	ascii	d$0H
+134	ascii	@A_A^A]_^H
+135	ascii	@A_A^A]_^
+136	ascii	|$`A
+137	ascii	t$ht
+138	ascii	UVWATAUAVAWH
+139	ascii	l$@H
+140	ascii	D$AH
+141	ascii	D$IH
+142	ascii	D$QH
+143	ascii	D$YH
+144	ascii	D$aH
+145	ascii	D$iH
+146	ascii	D$yf
+147	ascii	D$@H
+148	ascii	D$@I
+149	ascii	D$@L
+150	ascii	t$(L
+151	ascii	D$(A
+152	ascii	f9*u+f9j
+153	ascii	u%f9j
+154	ascii	fD9b
+155	ascii	@8l$@
+156	ascii	A_A^A]A\_^]
+157	ascii	L$13
+158	ascii	L$0L
+159	ascii	t$ D
+160	ascii	WAVAWH
+161	ascii	D$pA
+162	ascii	D$pL
+163	ascii	l$hH
+164	ascii	@A_A^_
+165	ascii	T$0A
+166	ascii	l$ VWAVH
+167	ascii	D$X3
+168	ascii	D$P|7
+169	ascii	L$DD
+170	ascii	\$(L
+171	ascii	L$XH3
+172	ascii	\$`I
+173	ascii	A^_^
+174	ascii	D$XI
+175	ascii	D$ H
+176	ascii	L$XH
+177	ascii	|$0L
+178	ascii	D$`E3
+179	ascii	\$0E3
+180	ascii	L$`D
+181	ascii	t$0L
+182	ascii	l$pH
+183	ascii	D$pI
+184	ascii	D$PA
+185	ascii	\$XH
+186	ascii	\$0L
+187	ascii	D$(W
+188	ascii	D$`L
+189	ascii	D$`A
+190	ascii	L$PH3
+191	ascii	D$(L
+192	ascii	@USVWAVAWH
+193	ascii	L$(L
+194	ascii	A_A^_^[]
+195	ascii	T$0L
+196	ascii	L$8A
+197	ascii	D$0|3
+198	ascii	L$HL
+199	ascii	L$@L
+200	ascii	D$@|7
+201	ascii	L$hH3
+202	ascii	D$0@
+203	ascii	T$0t
+204	ascii	D$ @
+205	ascii	@SUW
+206	ascii	l$0H
+207	ascii	l$(H
+208	ascii	D$LH
+209	ascii	D$TH
+210	ascii	D$\H
+211	ascii	D$HA
+212	ascii	L$0H
+213	ascii	HiD$0
+214	ascii	s WH
+215	ascii	T$@H
+216	ascii	@USVAVAWH
+217	ascii	L$x3
+218	ascii	D$RH
+219	ascii	D$ZH
+220	ascii	D$bf
+221	ascii	D$@@
+222	ascii	f9t$Xu:f9t$Zu3f9t$\u,f9t$^u%f9t$`u
+223	ascii	f9D$bu
+224	ascii	D$L 
+225	ascii	\$xH
+226	ascii	T$pH
+227	ascii	L$ L
+228	ascii	A_A^^[]
+229	ascii	t$@H
+230	ascii	\$0H
+231	ascii	T$@L
+232	ascii	D$8D
+233	ascii	L$ H
+234	ascii	|$8L
+235	ascii	D$(U
+236	ascii	D$(s
+237	ascii	L$`A
+238	ascii	L$8H
+239	ascii	T$PH
+240	ascii	T$zD
+241	ascii	D$xD
+242	ascii	T$rD
+243	ascii	T$HD
+244	ascii	L$8D
+245	ascii	|$`H
+246	ascii	L$@A
+247	ascii	l$HH
+248	ascii	t$PH
+249	ascii	T$~D
+250	ascii	D$|D
+251	ascii	T$xD
+252	ascii	D$HD
+253	ascii	L$@D
+254	ascii	T$8D
+255	ascii	L$8L
+256	ascii	2r"H
+257	ascii	t$0H
+258	ascii	\$83
+259	ascii	@USVWATAUAVAWH
+260	ascii	D$xH
+261	ascii	d$pH
+262	ascii	A_A^A]A\_^[]
+263	ascii	L$03
+264	ascii	L$A3
+265	ascii	ZICEA
+266	ascii	D$8M
+267	ascii	3\$8
+268	ascii	l$PH
+269	ascii	UVWH
+270	ascii	t$pL
+271	ascii	D$0+
+272	ascii	|$8H
+273	ascii	|$xL
+274	ascii	t$p3
+275	ascii	T$(H
+276	ascii	P_^]
+277	ascii	D$0Z
+278	ascii	D$BH
+279	ascii	VWATAVAWH
+280	ascii	l$p3
+281	ascii	l$xL
+282	ascii	d$(H
+283	ascii	l$pL
+284	ascii	l$xH
+285	ascii	@A_A^A\_^
+286	ascii	T$(L
+287	ascii	@VWAVAW
+288	ascii	D$@f
+289	ascii	L$1A
+290	ascii	A_A^_^
+291	ascii	<+tl</ta<=tJ
+292	ascii	T$AD
+293	ascii	\$HH
+294	ascii	0<;w
+295	ascii	D$0A
+296	ascii	@SVWH
+297	ascii	D$0#!
+298	ascii	|$ Hc
+299	ascii	drUM
+300	ascii	D8#u
+301	ascii	\$0D8d$0t
+302	ascii	t-Hc
+303	ascii	s5Ic
+304	ascii	\$ ATAVAWH
+305	ascii	 A_A^A\
+306	ascii	tPH+
+307	ascii	drBA
+308	ascii	[<[t
+309	ascii	D8;u
+310	ascii	\$0D8|$0t
+311	ascii	D$0L+
+312	ascii	s<Ic
+313	ascii	@USVWAVH
+314	ascii	D$1H
+315	ascii	D$9H
+316	ascii	D$qH
+317	ascii	D$yH
+318	ascii	L$pL
+319	ascii	L$0M
+320	ascii	A^_^[]
+321	ascii	@USVWAUAVAWH
+322	ascii	t$DD
+323	ascii	t$@f
+324	ascii	|$ L
+325	ascii	L$hA
+326	ascii	Hc|$HH
+327	ascii	\$LH
+328	ascii	@8t$D
+329	ascii	|$PL
+330	ascii	|$PI
+331	ascii	A_A^A]_^[]
+332	ascii	uGHc
+333	ascii	\$ WATAWH
+334	ascii	0Hc|$pI
+335	ascii	0A_A\_
+336	ascii	|$ I
+337	ascii	0A_A^_
+338	ascii	l$`H
+339	ascii	L$AD
+340	ascii	D$0I
+341	ascii	L$@3
+342	ascii	|$ UH
+343	ascii	\$ H
+344	ascii	\$0E
+345	ascii	MOH3
+346	ascii	fD;H
+347	ascii	D$XA
+348	ascii	T$8H
+349	ascii	D$8z
+350	ascii	|$ ATAVAWH
+351	ascii	\$@I
+352	ascii	C(9C,
+353	ascii	d$PH
+354	ascii	t7fff
+355	ascii	;C(uYL
+356	ascii	 A_A^A\_^
+357	ascii	|$XL
+358	ascii	t$PL
+359	ascii	T$XH
+360	ascii	|$HH+|$@
+361	ascii	@SUVWAVAWH
+362	ascii	T$H9
+363	ascii	D$P0
+364	ascii	L$|I
+365	ascii	d$(L
+366	ascii	|$HL
+367	ascii	A_A^_^][
+368	ascii	L$HA
+369	ascii	D$(E
+370	ascii	SUVWATAVH
+371	ascii	s,E9 t
+372	ascii	HA^A\_^][
+373	ascii	D$`3
+374	ascii	|$pH
+375	ascii	u^F9
+376	ascii	uCD9%
+377	ascii	tAD9%
+378	ascii	uCD9%@
+379	ascii	uCD9%O
+380	ascii	|$pL
+381	ascii	L$`H3
+382	ascii	*!Nb
+383	ascii	D$XH+
+384	ascii	l$ WH
+385	ascii	D$lL
+386	ascii	l$0A
+387	ascii	|$ AV
+388	ascii	t:Hc
+389	ascii	D$lH
+390	ascii	D$DI
+391	ascii	L$@I
+392	ascii	D$PH+
+393	ascii	D$LI
+394	ascii	L$HI
+395	ascii	l$(3
+396	ascii	f9D$6t
+397	ascii	D$6f
+398	ascii	|$Pfff
+399	ascii	t$X3
+400	ascii	|$HH
+401	ascii	L$PL
+402	ascii	90uWH
+403	ascii	L$dD;
+404	ascii	D$RD
+405	ascii	T$dA
+406	ascii	D$RL
+407	ascii	D$dH
+408	ascii	D$Yf
+409	ascii	D$_u"H
+410	ascii	t<9\$0v0H
+411	ascii	8\$@
+412	ascii	t<9|$0v0H
+413	ascii	@8|$@
+414	ascii	|OHc
+415	ascii	D$8K
+416	ascii	t$pH
+417	ascii	|$x3
+418	ascii	@A_A^A\
+419	ascii	UATAWH
+420	ascii	D$QI
+421	ascii	3u^H
+422	ascii	t.fff
+423	ascii	l$@D
+424	ascii	A_A\]
+425	ascii	SUVWAVH
+426	ascii	|$HD
+427	ascii	A^_^][
+428	ascii	WATAUAVAWH
+429	ascii	l$HD
+430	ascii	d$@H
+431	ascii	A_A^A]A\_
+432	ascii	 A_A^_
+433	ascii	t$ AVH
+434	ascii	|$`3
+435	ascii	PA^H
+436	ascii	D$h<
+437	ascii	t$ WATAWH
+438	ascii	D$0D
+439	ascii	A_A\_
+440	ascii	A9yT
+441	ascii	A8yhI
+442	ascii	[ WH
+443	ascii	L$HD
+444	ascii	t$@@
+445	ascii	t<9t$@v0H
+446	ascii	@8t$Pt.A
+447	ascii	VWAVH
+448	ascii	\$PL
+449	ascii	tfD9q
+450	ascii	0A^_^
+451	ascii	t$ WATAVH
+452	ascii	T$@E
+453	ascii	|$(D
+454	ascii	A^A\_
+455	ascii	L$PD
+456	ascii	D$Pfff
+457	ascii	L$0D
+458	ascii	!{$3
+459	ascii	tMSH
+460	ascii	C@Hc
+461	ascii	l$ VAVAWH
+462	ascii	|$PD
+463	ascii	pA_A^^
+464	ascii	PA^_^
+465	ascii	twHcK
+466	ascii	t?D9=
+467	ascii	|$xH
+468	ascii	D$@d
+469	ascii	D$0P
+470	ascii	D$pH+G H=p
+471	ascii	D$8A
+472	ascii	@UWAUAWH
+473	ascii	t$@f;o
+474	ascii	\$xL
+475	ascii	u"f;o
+476	ascii	\$xI
+477	ascii	HA_A]_]
+478	ascii	\$@tQ
+479	ascii	t$`3
+480	ascii	L+I@Hi
+481	ascii	H+A@H=@
+482	ascii	L$p3
+483	ascii	@_^]
+484	ascii	L$hL
+485	ascii	IA;<
+486	ascii	@VATAVH
+487	ascii	PA^A\^
+488	ascii	l$HL
+489	ascii	tWHc
+490	ascii	H+K@H;
+491	ascii	t3H;
+492	ascii	L9sHv
+493	ascii	d$pL
+494	ascii	d$XL
+495	ascii	|$@L
+496	ascii	t$HL
+497	ascii	d$XH
+498	ascii	d$HH
+499	ascii	@SAUH
+500	ascii	t$h3
+501	ascii	d$@L
+502	ascii	HA][
+503	ascii	L$pH
+504	ascii	?TUNNt4
+505	ascii	D$pHc
+506	ascii	L$T3
+507	ascii	L$`f
+508	ascii	D$T|F
+509	ascii	P_^[
+510	ascii	L$0E3
+511	ascii	L$0t
+512	ascii	D$03
+513	ascii	D$80
+514	ascii	T$HI
+515	ascii	L$HH3
+516	ascii	|$ UATAUAVAWH
+517	ascii	d$`D
+518	ascii	T$`D
+519	ascii	T$`A
+520	ascii	D$(m
+521	ascii	A_A^A]A\]
+522	ascii	H+{PH
+523	ascii	CPH9C`rA
+524	ascii	D$0i
+525	ascii	D$0X
+526	ascii	D$0R
+527	ascii	D$0REDQ
+528	ascii	L$TA
+529	ascii	D$@REDQ
+530	ascii	D$LB
+531	ascii	D$4H
+532	ascii	 t&H
+533	ascii	t$8L
+534	ascii	T$8L
+535	ascii	\$`|3H
+536	ascii	\$`3
+537	ascii	D$ 0
+538	ascii	t$ WAVAWH
+539	ascii	K@Hc
+540	ascii	l$x|EH
+541	ascii	@SUVWATH
+542	ascii	L$r3
+543	ascii	D$(@
+544	ascii	L$ M
+545	ascii	d$83
+546	ascii	d$0L
+547	ascii	T$@D
+548	ascii	A\_^][
+549	ascii	REDQH
+550	ascii	t$P3
+551	ascii	D$PD
+552	ascii	L$HE
+553	ascii	D$PE
+554	ascii	tS9p
+555	ascii	@SUAVH
+556	ascii	|$hL
+557	ascii	L9s0
+558	ascii	L9s0tu
+559	ascii	t$`A
+560	ascii	@A^][
+561	ascii	L$XA
+562	ascii	L$8H3
+563	ascii	D$^H
+564	ascii	L$@E
+565	ascii	d$ UAVAWH
+566	ascii	D$`f
+567	ascii	\$(@
+568	ascii	D$ ?
+569	ascii	A_A^]
+570	ascii	T$ L
+571	ascii	T$DD
+572	ascii	L$LH
+573	ascii	T$TI
+574	ascii	L$83
+575	ascii	H+D$@H
+576	ascii	@UVAVAWH
+577	ascii	L$A@
+578	ascii	l$(A
+579	ascii	A_A^^]
+580	ascii	UAVAWH
+581	ascii	M7H3
+582	ascii	D$Rf
+583	ascii	uZD95HM
+584	ascii	D$J|:
+585	ascii	T$HA
+586	ascii	tsD95oL
+587	ascii	D$@Hc
+588	ascii	ugD95
+589	ascii	tXD95cK
+590	ascii	UWAVH
+591	ascii	D$bH
+592	ascii	D$jH
+593	ascii	D$rf
+594	ascii	L$TH
+595	ascii	D$b|;A
+596	ascii	D$PHc
+597	ascii	A^_]
+598	ascii	|$@{u4
+599	ascii	T$Pt
+600	ascii	T$P3
+601	ascii	D$0|
+602	ascii	@USVAVH
+603	ascii	L$@M
+604	ascii	d$8L
+605	ascii	A^^[]
+606	ascii	@UVATAUAWH
+607	ascii	D$af
+608	ascii	D$gE2
+609	ascii	d$xH
+610	ascii	D$qf
+611	ascii	D$XL
+612	ascii	t+H+
+613	ascii	t$L+
+614	ascii	MPH3
+615	ascii	A_A]A\^]
+616	ascii	@USWH
+617	ascii	<=t;< t
+618	ascii	tD< t$<
+619	ascii	|$@Cu&
+620	ascii	|$AFu
+621	ascii	|$BGu
+622	ascii	|$C_u
+623	ascii	D$@,a<
+624	ascii	L$9f
+625	ascii	L$?L
+626	ascii	L$@H3
+627	ascii	MGH3
+628	ascii	|$ AUAVAWH
+629	ascii	\$PI
+630	ascii	A_A^A]
+631	ascii	D$If
+632	ascii	|$@S
+633	ascii	@USVWAWH
+634	ascii	9_,u&
+635	ascii	9_0~~
+636	ascii	H+G H=
+637	ascii	d$xD
+638	ascii	D$pD
+639	ascii	L$hD
+640	ascii	t$XD
+641	ascii	A__^[]
+642	ascii	|$8fA
+643	ascii	UATAUAVAWH
+644	ascii	T$@E3
+645	ascii	uRD85
+646	ascii	H=0u
+647	ascii	r6L9t$Xu
+648	ascii	D95*z
+649	ascii	UWAWH
+650	ascii	MaE3
+651	ascii	L$a3
+652	ascii	D8}`u
+653	ascii	D8|$`uQ
+654	ascii	D$8@
+655	ascii	A__]
+656	ascii	T$0E3
+657	ascii	L$pI
+658	ascii	T$|D
+659	ascii	D$zD
+660	ascii	T$vD
+661	ascii	` AUAVAWH
+662	ascii	rZI9>t
+663	ascii	 A_A^A]
+664	ascii	L$ t
+665	ascii	LcA<E3
+666	ascii	t"H+
+667	ascii	HcH<H
+668	ascii	\$ UH
+669	ascii	H3E H3E
+670	ascii	ZXVsnprintf failed, error:0x%x size:%d func:%s:%d
+671	ascii	ZXVsnprintf
+672	ascii	..\base_func.c:136
+673	ascii	ZXStrnlen failed, error:0x%x
+674	ascii	ZXStrnlen_s
+675	ascii	..\base_func.c:230
+676	ascii	Delete file %s failed, error:%d
+677	ascii	ice_remove
+678	ascii	..\base_func.c:302
+679	ascii	rename file %s failed, errno:%d
+680	ascii	ice_rename
+681	ascii	..\base_func.c:311
+682	ascii	message:%d
+683	ascii	ice_check_thread_hb
+684	ascii	..\base_func.c:435
+685	ascii	thread:%s exit, timeout:%llu, %llu
+686	ascii	..\base_func.c:437
+687	ascii	exit:%d line:%d
+688	ascii	..\base_func.c:438
+689	ascii	close file failed!
+690	ascii	ZXFile_close
+691	ascii	..\base_func.c:608
+692	ascii	fflush failed!
+693	ascii	ZXFflush
+694	ascii	..\base_func.c:618
+695	ascii	fwrite failed!
+696	ascii	ZXFwrite
+697	ascii	..\base_func.c:627
+698	ascii	open file failed:%s 
+699	ascii	ZXFopen
+700	ascii	..\base_func.c:638
+701	ascii	LocalAlloc Error %u
+702	ascii	InitializeSecurityDescriptor Error %u
+703	ascii	SetSecurityDescriptorDacl Error %u
+704	ascii	%s%s
+705	ascii	ice_write_cfg_int
+706	ascii	ice_get_module_name
+707	ascii	num:%d magic:0x%x
+708	ascii	tn_deal_ientry_ping
+709	ascii	..\base_func.c:1225
+710	ascii	sendto failed:%d
+711	ascii	..\base_func.c:1229
+712	ascii	ice-config.ini
+713	ascii	%s%s%s
+714	ascii	ice_get_log_fname
+715	ascii	ice_get_session_uname
+716	ascii	MultiByteToWideChar failed:%d
+717	ascii	ice_ansii_2_utf8
+718	ascii	..\base_func.c:1310
+719	ascii	WideCharToMultiByte failed:%d
+720	ascii	..\base_func.c:1316
+721	ascii	AppMode
+722	ascii	C:\Program Files (x86)\ZTEGuestOS\ZProcessMonitor\ZProCtrl.exe
+723	ascii	start_process_monitor
+724	ascii	ZProcessMonitor
+725	ascii	"%s" --StartMonitor
+726	ascii	"%s" --StopMonitor
+727	ascii	call ZProCtrl.exe fail!!!
+728	ascii	..\base_func.c:1508
+729	ascii	hProcess not active skip kill %p exitCode:%d !!!
+730	ascii	IceTerminateProcessEx
+731	ascii	..\base_func.c:1541
+732	ascii	hProcess may active res:%d exitCode:%d beForce:%d!!!
+733	ascii	..\base_func.c:1544
+734	ascii	GetProcessId Fail errno:%d!!!
+735	ascii	..\base_func.c:1552
+736	ascii	%p code:%d
+737	ascii	..\base_func.c:1558
+738	ascii	open pid failed
+739	ascii	..\base_func.c:1564
+740	ascii	RtlGetVersion
+741	ascii	ntdll.dll
+742	ascii	GetNativeSystemInfo
+743	ascii	kernel32.dll
+744	ascii	no need create new process:%d
+745	ascii	ice_create_process_win7
+746	ascii	..\base_func.c:1949
+747	ascii	winsta0\default
+748	ascii	ice_create_process_win7_extend
+749	ascii	OpenProcessToken error:%d
+750	ascii	..\base_func.c:1979
+751	ascii	DuplicateTokenEx error:%d
+752	ascii	..\base_func.c:1991
+753	ascii	SetTokenInformation error:%lu
+754	ascii	..\base_func.c:1999
+755	ascii	begin call CreateProcessAsUser
+756	ascii	..\base_func.c:2017
+757	ascii	CreateProcessAsUser error:%lu
+758	ascii	..\base_func.c:2021
+759	ascii	restart process:%p crtSession:%u dwSession:%u
+760	ascii	..\base_func.c:2029
+761	ascii	calc_session_key
+762	ascii	function:%s, line:%d
+763	ascii	show_ssl_error_ex
+764	ascii	..\base_func.c:2160
+765	ascii	..\base_func.c:2163
+766	ascii	evp_pkey_rsa_keygen
+767	ascii	BN_new failed
+768	ascii	..\base_func.c:2191
+769	ascii	evp_pkey_get_der_public_key
+770	ascii	pub_key len:%d
+771	ascii	..\base_func.c:2251
+772	ascii	private key len:%d buf_size:%d, out of range
+773	ascii	evp_pkey_get_der_private_key
+774	ascii	..\base_func.c:2278
+775	ascii	priv_key len:%d
+776	ascii	..\base_func.c:2284
+777	ascii	evp_pkey rsa key generate failed
+778	ascii	evp_pkey_generate_key
+779	ascii	..\base_func.c:2295
+780	ascii	evp_pkey_get_der_public_key failed
+781	ascii	..\base_func.c:2302
+782	ascii	..\base_func.c:2315
+783	ascii	outlen:%d out of range data_len:%d
+784	ascii	pkey is null
+785	ascii	evp_pkey_rsa_private_decrypt
+786	ascii	..\base_func.c:2383
+787	ascii	..\base_func.c:2414
+788	ascii	outlen:%d
+789	ascii	..\base_func.c:2422
+790	ascii	Could not create mapping file, error code:%lu shname:%s
+791	ascii	Could not open mapping file, error code:%lu shname:%s
+792	ascii	Global\IceRemoteApp_%u_shmem
+793	ascii	getaddrinfo failed with error: %d
+794	ascii	ice_get_ip_by_name
+795	ascii	..\base_func.c:2509
+796	ascii	get GetIpAddrTable fail:%u
+797	ascii	MyGetIpForwardTable
+798	ascii	..\base_func.c:2696
+799	ascii	get_local_ip
+800	ascii	get local ip failed, type = 4!
+801	ascii	ice_get_local_ip_by_route
+802	ascii	..\base_func.c:2754
+803	ascii	get local ip failed, type = 3!
+804	ascii	..\base_func.c:2765
+805	ascii	get local ip failedm, type = 0!
+806	ascii	..\base_func.c:2775
+807	ascii	addr:%s len:%d,%d addrv6:%s len:%d,%d 
+808	ascii	ice_get_local_ip_all
+809	ascii	..\base_func.c:2792
+810	ascii	127.0.0
+811	ascii	169.254
+812	ascii	local_ip;%s ip:%s
+813	ascii	ice_get_ipvinfo_from_adapters
+814	ascii	..\base_func.c:3170
+815	ascii	00IPv6 address: %s
+816	ascii	..\base_func.c:3176
+817	ascii	ice_change_string_len
+818	ascii	Call to GetAdaptersAddresses failed with error: %d
+819	ascii	ice_get_local_ipinfo
+820	ascii	..\base_func.c:3253
+821	ascii	error get ip
+822	ascii	..\base_func.c:3269
+823	ascii	addr:%s addr_len:%d strlen_s(addr, addr_len):%d
+824	ascii	..\base_func.c:3278
+825	ascii	ice_get_local_ip
+826	ascii	make link to:%s:%d
+827	ascii	ice_sock_make_connection
+828	ascii	..\base_func.c:3538
+829	ascii	connect to main modue fail,fd%d dport:%d
+830	ascii	..\base_func.c:3567
+831	ascii	open reg fail %lu
+832	ascii	ice_del_reg_info
+833	ascii	..\base_func.c:3713
+834	ascii	del reg fail %lu, key:%s
+835	ascii	..\base_func.c:3719
+836	ascii	open/create reg fail:%lu node:%s
+837	ascii	ice_save_reg_info
+838	ascii	..\base_func.c:3739
+839	ascii	set reg fail:%lu, key:%s
+840	ascii	..\base_func.c:3746
+841	ascii	open reg fail:%lu node:%s
+842	ascii	ice_get_reg_info_ex
+843	ascii	..\base_func.c:3763
+844	ascii	get reg fail:%lu key_name:%s
+845	ascii	..\base_func.c:3769
+846	ascii	SYSTEM\CurrentControlSet\Services\VDI_SYS_CFG
+847	ascii	SYSTEM\CurrentControlSet\Control\Session Manager\Environment\
+848	ascii	ServerIP
+849	ascii	SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\Tool.exe
+850	ascii	ServerIPv6
+851	ascii	SYSTEM\Software\RDS_APP
+852	ascii	ProtocolPort
+853	ascii	SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\ICEProtocol
+854	ascii	app-run-ticks
+855	ascii	SYSTEM\CurrentControlSet\services\IceCconfig
+856	ascii	DoNotOpenAtLogon
+857	ascii	SOFTWARE\Policies\Microsoft\Windows\Server\ServerManager
+858	ascii	%02d-%02d %02d:%02d:%02d
+859	ascii	ice_save_last_reg_suc_time
+860	ascii	timestamp:%s
+861	ascii	..\base_func.c:4275
+862	ascii	Ice-Last-Regsuctime
+863	ascii	SOFTWARE\Policies\Microsoft\Windows\System
+864	ascii	Ice-Port
+865	ascii	IceDispalyPort_%u
+866	ascii	ice_del_app_server_port
+867	ascii	del reg sid:%u
+868	ascii	..\base_func.c:4328
+869	ascii	IceDispalyUdpPort_%u
+870	ascii	sys_cpu_mem
+871	ascii	Ice-UUID
+872	ascii	Ice-Private-ID
+873	ascii	Ice-Global-ID
+874	ascii	InsightHttpServiceIp
+875	ascii	SYSTEM\CurrentControlSet\services\VmQoEAgent\
+876	ascii	InsightHttpsServiceIp
+877	ascii	InsightHttpServiceIpV6
+878	ascii	InsightHttpsServiceIpV6
+879	ascii	%s:%s
+880	ascii	ice_save_insight_addr
+881	ascii	got osa http ip msg: [%s]
+882	ascii	..\base_func.c:4533
+883	ascii	got osa https ip msg: [%s]
+884	ascii	..\base_func.c:4544
+885	ascii	[%s]:%s
+886	ascii	got osa http ipv6 msg: [%s]
+887	ascii	..\base_func.c:4556
+888	ascii	got osa https ipv6 msg: [%s]
+889	ascii	..\base_func.c:4568
+890	ascii	ice_save_display_app_port
+891	ascii	IceDispalyType
+892	ascii	ice_get_display_app_udp_port
+893	ascii	get:udp port:%u
+894	ascii	..\base_func.c:4631
+895	ascii	ice_get_display_app_port
+896	ascii	session_id:%u get:port:%u
+897	ascii	..\base_func.c:4642
+898	ascii	WaitJoinDomain
+899	ascii	AdAsJoin
+900	ascii	ConsoleSessionApp
+901	ascii	ADAS-Port
+902	ascii	CFG_VERSIONSERVER_URL
+903	ascii	CFG_VERSIONSERVER_URL_IPV6
+904	ascii	AudioEnumeratorDll
+905	ascii	iceendp.dll
+906	ascii	software\proxy\
+907	ascii	DOMAIN_NAME
+908	ascii	port
+909	ascii	MachineProfilePath
+910	ascii	CompatibleRUPSecurity
+911	ascii	AddAdminGroupToRUP
+912	ascii	open file fail:%s
+913	ascii	ssl_get_dec_file
+914	ascii	..\base_func.c:5290
+915	ascii	read file fail tmp_len:%d %s
+916	ascii	..\base_func.c:5297
+917	ascii	load file fail %s
+918	ascii	..\base_func.c:5306
+919	ascii	try to write file fail res:%d ,%s
+920	ascii	..\base_func.c:5316
+921	ascii	try to open file fail:%s
+922	ascii	..\base_func.c:5322
+923	ascii	 OpenSCManager failed error:%lu
+924	ascii	CheckServiceStatus
+925	ascii	..\base_func.c:5482
+926	ascii	service %s is not exist
+927	ascii	..\base_func.c:5490
+928	ascii	OpenService %s failed, error:%lu
+929	ascii	..\base_func.c:5494
+930	ascii	QueryServiceStatusEx failed, error:%lu
+931	ascii	..\base_func.c:5501
+932	ascii	service %s running
+933	ascii	..\base_func.c:5507
+934	ascii	service %s stopped
+935	ascii	..\base_func.c:5511
+936	ascii	service %s status %d
+937	ascii	..\base_func.c:5515
+938	ascii	GetSystemTimePreciseAsFileTime
+939	ascii	Kernel32.dll
+940	ascii	GetTickCount64
+941	ascii	call CreateToolhelp32Snapshot fail!!
+942	ascii	C:\Program Files (x86)\ZTEGuestOS\installinfo.ini
+943	ascii	version
+944	ascii	VdesktopVersion
+945	ascii	make sock  failed errno:%d 
+946	ascii	ice_sock_connect_to_server
+947	ascii	..\base_func.c:6133
+948	ascii	deal sock send fail send_len:%d
+949	ascii	ice_send_tcp_info
+950	ascii	..\base_func.c:6155
+951	ascii	zteupdate
+952	ascii	len:%d msg:%s
+953	ascii	app_deal_update_msg
+954	ascii	..\base_func.c:6188
+955	ascii	pH:%s
+956	ascii	..\base_func.c:6195
+957	ascii	result:%d
+958	ascii	..\base_func.c:6200
+959	ascii	tn_sock_ip
+960	ascii	connection  failed errno:%d ip[%s] dport[%d]
+961	ascii	ice_deal_sock_connect_ex
+962	ascii	..\base_func.c:6264
+963	ascii	connection  to dest timeout tv_ms:%d ip[%s] dport[%d]
+964	ascii	..\base_func.c:6291
+965	ascii	ims list flag:%d error 0x[%x]
+966	ascii	ims_list_insert_tail
+967	ascii	..\base_func.c:6373
+968	ascii	add tail,list:%p count:%d head:%p ph:%p
+969	ascii	..\base_func.c:6388
+970	ascii	ims list flag:%d error 0x[%x], head:%p
+971	ascii	ims_list_get_first
+972	ascii	..\base_func.c:6424
+973	ascii	list:%p head:%p next:%p count:%d
+974	ascii	..\base_func.c:6429
+975	ascii	ims_del_list_info
+976	ascii	..\base_func.c:6485
+977	ascii	ims_list_free_all_item
+978	ascii	..\base_func.c:6515
+979	ascii	ims_destory_list
+980	ascii	..\base_func.c:6536
+981	ascii	ims_get_tail_item
+982	ascii	..\base_func.c:6558
+983	ascii	..\log\ice_server
+984	ascii	unknown
+985	ascii	%s%s%s-exception.s%u.%u.dmp
+986	ascii	ApplicationCrashHandler
+987	ascii	%04d-%02d-%02d %02d:%02d:%02d.%03d
+988	ascii	ice_qoe_log
+989	ascii	%s|%d|208|%d|%d|%s|%s|%s|%s
+990	ascii	ERROR
+991	ascii	CRITICAL
+992	ascii	Warning
+993	ascii	Info
+994	ascii	Debug
+995	ascii	%s.bak
+996	ascii	ice_log_rename_file
+997	ascii	feek error!!!
+998	ascii	%02d-%02d %02d:%02d:%02d:%03ld: disk has space:%llu, limit_disk_space:%d
+999	ascii	ice_write_space_info
+1000	ascii	%02d-%02d %02d:%02d:%02d:%03ld: %s%s%s-%s-%u:%u : %s: %s: 
+1001	ascii	ice_logv
+1002	ascii	%s_%u
+1003	ascii	ice_check_duoble_running
+1004	ascii	ice_mk_dir
+1005	ascii	create folder failed %s 
+1006	ascii	Error writing to file
+1007	ascii	..\base_func.c:7604
+1008	ascii	log-file-size
+1009	ascii	ice_log_init
+1010	ascii	x264
+1011	ascii	Check:
+1012	ascii	error check1, msg:%s
+1013	ascii	deal_dec_check_code
+1014	ascii	..\base_func.c:7773
+1015	ascii	real_msg_len:%d
+1016	ascii	..\base_func.c:7781
+1017	ascii	error check code,code1:%u code2:%u
+1018	ascii	..\base_func.c:7786
+1019	ascii	input bufsize is:%d, msg_len:%d
+1020	ascii	ice_simple_enc
+1021	ascii	..\base_func.c:7812
+1022	ascii	%s%u
+1023	ascii	 msg:%s msg_len:%d flag:%s check code:%d
+1024	ascii	..\base_func.c:7819
+1025	ascii	error len1
+1026	ascii	ice_simple_dec
+1027	ascii	..\base_func.c:7846
+1028	ascii	udp_msg:%s key:%d,msg-len:%d
+1029	ascii	..\base_func.c:7856
+1030	ascii	ice_send_vdi_func
+1031	ascii	..\base_func.c:7881
+1032	ascii	send udp msg to %s:%d fail:errno %d
+1033	ascii	..\base_func.c:7893
+1034	ascii	127.0.0.1
+1035	ascii	not found key[%s]],msg[%s]
+1036	ascii	find_key_value
+1037	ascii	..\base_func.c:7958
+1038	ascii	size[%d] is not enough than value[%d]
+1039	ascii	..\base_func.c:7965
+1040	ascii	ice_deal_tcp_write
+1041	ascii	..\base_func.c:7984
+1042	ascii	ice_create_sock_and_connect
+1043	ascii	..\base_func.c:7996
+1044	ascii	create socket failed!
+1045	ascii	ice_send_general_passthrough_msg
+1046	ascii	..\base_func.c:8015
+1047	ascii	send ack date failed!
+1048	ascii	..\base_func.c:8022
+1049	ascii	send date succeed: dport = [%d]
+1050	ascii	..\base_func.c:8026
+1051	ascii	data_buf is small:%d
+1052	ascii	ice_send_adas_passthrough_msg
+1053	ascii	..\base_func.c:8038
+1054	ascii	ice_encryptString
+1055	ascii	;zxin10config
+1056	ascii	ice_getEncryptType
+1057	ascii	killblk_ex
+1058	ascii	fgetstr_ex
+1059	ascii	cutpre_ex
+1060	ascii	loop_cnt1 reach max value
+1061	ascii	check_cfg_file_rw_time
+1062	ascii	..\base_func.c:8482
+1063	ascii	..\base_func.c:8483
+1064	ascii	ZXOSGetPrivateProfileString_
+1065	ascii	linkto:{
+1066	ascii	ZXOSGetPrivateProfileInt_
+1067	ascii	ice_get_write_type
+1068	ascii	ZXOSWritePrivateProfileString_
+1069	ascii	%s=%s
+1070	ascii	[%s]
+1071	ascii	GetPrivateProfileString_Link
+1072	ascii	ZXOS_GetPrivateProfileString
+1073	ascii	open src file failed, error: %s
+1074	ascii	ice_encry_ex
+1075	ascii	..\base_func.c:9492
+1076	ascii	open dst file failed, error: %s
+1077	ascii	..\base_func.c:9502
+1078	ascii	file have been encried
+1079	ascii	..\base_func.c:9511
+1080	ascii	file not encry
+1081	ascii	..\base_func.c:9519
+1082	ascii	read file fail
+1083	ascii	..\base_func.c:9527
+1084	ascii	txt have not header
+1085	ascii	..\base_func.c:9532
+1086	ascii	encode config file failed
+1087	ascii	..\base_func.c:9549
+1088	ascii	encode config file succeed
+1089	ascii	..\base_func.c:9553
+1090	ascii	time failed, errno:%lu
+1091	ascii	ZXTime
+1092	ascii	..\base_func.c:9984
+1093	ascii	GetNamedSecurityInfo Error %u, error:%d
+1094	ascii	ice_file_sa_assign
+1095	ascii	..\base_func.c:10005
+1096	ascii	AllocateAndInitializeSid Error %u
+1097	ascii	..\base_func.c:10014
+1098	ascii	SetEntriesInAcl Error %u
+1099	ascii	..\base_func.c:10031
+1100	ascii	..\base_func.c:10040
+1101	ascii	..\base_func.c:10046
+1102	ascii	..\base_func.c:10056
+1103	ascii	Failed to set file permissions:%d
+1104	ascii	..\base_func.c:10069
+1105	ascii	assign file security success
+1106	ascii	..\base_func.c:10075
+1107	ascii	reboot-flag
+1108	ascii	shutdown-flag
+1109	ascii	Failed to read event log !
+1110	ascii	Read_event
+1111	ascii	..\IceDisplay\main_channel\system_event.c:49
+1112	ascii	not find reboot/shutdown event sec:%u
+1113	ascii	..\IceDisplay\main_channel\system_event.c:59
+1114	ascii	find event system up sec:%u need break
+1115	ascii	..\IceDisplay\main_channel\system_event.c:65
+1116	ascii	power off
+1117	ascii	restart
+1118	ascii	reboot
+1119	ascii	shutdown
+1120	ascii	get %s, event:%s %.4hd-%.2hd-%.2hd %.2hd:%.2hd:%.2hd shutdown:%s, reboot:%s
+1121	ascii	..\IceDisplay\main_channel\system_event.c:97
+1122	ascii	not get reboot/shutdown info res:%d error:%lu,%d, needed:%d 
+1123	ascii	..\IceDisplay\main_channel\system_event.c:109
+1124	ascii	System
+1125	ascii	call OpenEventLog fail error:%lu
+1126	ascii	get_restart_shutdown_event
+1127	ascii	..\IceDisplay\main_channel\system_event.c:122
+1128	ascii	TermService
+1129	ascii	wlidsvc
+1130	ascii	process:IceDisplay handle:%p exit:%x session_id:%u, need restart loggingoff:%d
+1131	ascii	app_check_active_session_display_proc
+1132	ascii	app_monitor.c:46
+1133	ascii	D#explorer.exe
+1134	ascii	rdpclip.exe
+1135	ascii	get %s, pid:%u session_id fail error:%lu
+1136	ascii	app_trminate_process
+1137	ascii	app_monitor.c:66
+1138	ascii	IceTerminateProcess:%s in session:%u dwSession:%u
+1139	ascii	app_monitor.c:77
+1140	ascii	kill szExeFile:%s
+1141	ascii	app_monitor.c:81
+1142	ascii	session id:%d, protocol name:%s
+1143	ascii	app_check_be_ice_session
+1144	ascii	app_monitor.c:100
+1145	ascii	ICEP
+1146	ascii	session id:%d, WTSQuerySessionInformation failed err:%d
+1147	ascii	app_monitor.c:107
+1148	ascii	Failed to open process. Error: %lu
+1149	ascii	app_get_proc_create_time_be_long
+1150	ascii	app_monitor.c:119
+1151	ascii	secondsDiff:%lu ,%lu
+1152	ascii	app_monitor.c:143
+1153	ascii	Failed GetProcessTimes. Error: %lu
+1154	ascii	app_monitor.c:152
+1155	ascii	app_get_all_process_and_session
+1156	ascii	app_monitor.c:173
+1157	ascii	csrss.exe
+1158	ascii	get csrss.exe pid:%u session_id fail error:%lu
+1159	ascii	app_monitor.c:194
+1160	ascii	IceDisplay.exe
+1161	ascii	get %s pid:%u session_id fail error:%lu
+1162	ascii	app_monitor.c:209
+1163	ascii	session:%u not ice session
+1164	ascii	app_deal_init_session_info
+1165	ascii	app_monitor.c:234
+1166	ascii	not find %s in session:%u
+1167	ascii	app_check_all_process_and_session
+1168	ascii	app_monitor.c:291
+1169	ascii	inside check, session disc:%u
+1170	ascii	app_monitor.c:314
+1171	ascii	OpenSCManager error %lu
+1172	ascii	ice_app_check_services
+1173	ascii	app_monitor.c:335
+1174	ascii	OpenService service:%s, error %lu
+1175	ascii	app_monitor.c:345
+1176	ascii	OpenService service:%s, success
+1177	ascii	app_monitor.c:351
+1178	ascii	QueryServiceStatus service:%s, error %lu
+1179	ascii	app_monitor.c:359
+1180	ascii	QueryServiceStatus service:%s, success
+1181	ascii	app_monitor.c:366
+1182	ascii	StartService service:%s stoped, start it
+1183	ascii	app_monitor.c:372
+1184	ascii	StartService service:%s error %lu
+1185	ascii	app_monitor.c:374
+1186	ascii	get time error!
+1187	ascii	is_15days_ago
+1188	ascii	app_monitor.c:400
+1189	ascii	%s%s%s%s*.log
+1190	ascii	isDelete
+1191	ascii	%s%s*.*
+1192	ascii	DeleteDirectory
+1193	ascii	delet directory faild
+1194	ascii	path: %s
+1195	ascii	%s%ssid_*
+1196	ascii	delete_logDir_15days_ago
+1197	ascii	delete_files
+1198	ascii	C:\Windows\System32\vappvideo
+1199	ascii	delete_log_files
+1200	ascii	..\log
+1201	ascii	%s%svdagent_*.*
+1202	ascii	app_monitor_thread
+1203	ascii	init app_monitor_thread:%u
+1204	ascii	app_monitor.c:607
+1205	ascii	INVALID
+1206	ascii	CONNECT
+1207	ascii	DISCONNECT
+1208	ascii	REMOTE_CONNECT
+1209	ascii	REMOTE_DISCONNECT
+1210	ascii	LOGON
+1211	ascii	LOGOFF
+1212	ascii	LOCK
+1213	ascii	UNLOCK
+1214	ascii	REMOTE_CONTROL
+1215	ascii	IceAudio.dll
+1216	ascii	got IceAudio path:%s
+1217	ascii	ice_load_sound_log
+1218	ascii	app_proxy.c:67
+1219	ascii	load IceAudio library fail!:%d
+1220	ascii	app_proxy.c:70
+1221	ascii	load IceAudio library succeed!
+1222	ascii	app_proxy.c:74
+1223	ascii	ice_init_udp_log
+1224	ascii	load ice_init_udp_log func fail!:%d
+1225	ascii	app_proxy.c:78
+1226	ascii	ice_set_udp_log_level
+1227	ascii	load g_ice_set_udp_log_level func fail!:%d
+1228	ascii	app_proxy.c:87
+1229	ascii	udp_sock:%d
+1230	ascii	_proxy_thread_init_func
+1231	ascii	app_proxy.c:106
+1232	ascii	*port:%d
+1233	ascii	app_proxy.c:115
+1234	ascii	set log-level:%d
+1235	ascii	_proxy_reset_log_level
+1236	ascii	app_proxy.c:126
+1237	ascii	0000user_name:%s
+1238	ascii	_proxy_exit_event_notify
+1239	ascii	app_proxy.c:147
+1240	ascii	call ice_service_control_handler control:%u event_type:%u
+1241	ascii	_proxy_service_control
+1242	ascii	app_proxy.c:177
+1243	ascii	app_proxy.c:181
+1244	ascii	event_type control %d
+1245	ascii	app_proxy.c:188
+1246	ascii	Stop service
+1247	ascii	app_proxy.c:198
+1248	ascii	Session %u %s
+1249	ascii	app_proxy.c:213
+1250	ascii	Unsupported control %u
+1251	ascii	app_proxy.c:218
+1252	ascii	IceDisplaySetting.exe
+1253	ascii	%s %s
+1254	ascii	Detach_Non_Microsoft_Displays
+1255	ascii	run process:%s cmd:%s
+1256	ascii	app_proxy.c:248
+1257	ascii	call IceDisplaySetting fail!!!
+1258	ascii	app_proxy.c:252
+1259	ascii	detach-appmode
+1260	ascii	Using existing session, initiating authentication...
+1261	ascii	Authentication successful
+1262	ascii	Authentication failed
+1263	ascii	Launching business module within the session...
+1264	ascii	Establishing connection to the session...
+1265	ascii	Successfully connected to the session
+1266	ascii	Session created successfully
+1267	ascii	Failed to create session
+1268	ascii	Session creation timed out
+1269	ascii	Initiating user session creation...
+1270	ascii	Waiting for the release of the existing session with the same user name...
+1271	ascii	There are no Remote Desktop License Servers available. Please contact the server administrator.
+1272	ascii	-N/T
+1273	ascii	R!jWW.
+1274	ascii	^(u7b
+1275	ascii	zLhb
+1276	ascii	Unknown msg code num[%d]
+1277	ascii	ice_get_logon_describe_info
+1278	ascii	Get describe msg fail code num[%d]
+1279	ascii	desc_info:%d %s
+1280	ascii	app_tcp.c:556
+1281	ascii	stop sending inprocess msg
+1282	ascii	ice_send_logon_describe_info_ex
+1283	ascii	app_tcp.c:587
+1284	ascii	user_name:%s user_id:%u info_len:%u info:%s
+1285	ascii	app_tcp.c:591
+1286	ascii	SessionFlags: %u
+1287	ascii	ice_get_session_be_unlock
+1288	ascii	app_tcp.c:612
+1289	ascii	call WTSQuerySessionInformation fail:%u
+1290	ascii	app_tcp.c:628
+1291	ascii	user_name:%s
+1292	ascii	ice_set_user_exit_flag
+1293	ascii	app_tcp.c:695
+1294	ascii	min_touch_index:%llu(%d) user:%s
+1295	ascii	app_tcp.c:712
+1296	ascii	ice_be_session_ref
+1297	ascii	sid:%u user_name:%s refs:%d,%d
+1298	ascii	app_tcp.c:836
+1299	ascii	ice_deal_ref_by_session_id_ex
+1300	ascii	--line:%d deal sid:%u user_name:%s ref:%d refs:%d
+1301	ascii	app_tcp.c:872
+1302	ascii	ice_get_session_id_by_name_ex
+1303	ascii	app_tcp.c:908
+1304	ascii	new session idx:%d sessionsNum:%d max_session_index:%d user_name:%s sid:%u
+1305	ascii	ice_set_session_display_proc
+1306	ascii	app_tcp.c:982
+1307	ascii	ice_set_session_info
+1308	ascii	error!! input session_id:%u user_name is empty
+1309	ascii	ice_set_session_conn_info
+1310	ascii	app_tcp.c:1014
+1311	ascii	new session idx:%d sessionsNum:%d max_session_index:%d user_name:%s sid:%u be_unlock:%u
+1312	ascii	app_tcp.c:1045
+1313	ascii	session buf full BufSize:%u, max:%u
+1314	ascii	app_tcp.c:1049
+1315	ascii	session:%u locked, need try unlock
+1316	ascii	ice_deal_try_unlock_session
+1317	ascii	app_tcp.c:1099
+1318	ascii	session:%u locked, not need try unlock
+1319	ascii	app_tcp.c:1108
+1320	ascii	ice_set_logon_session_username
+1321	ascii	app_tcp.c:1120
+1322	ascii	get session:%u username:%s be_unlock:%u
+1323	ascii	app_tcp.c:1125
+1324	ascii	session:%u disc
+1325	ascii	ice_set_session_disc
+1326	ascii	app_tcp.c:1141
+1327	ascii	free shmem buf idx:%u
+1328	ascii	ice_check_mem_timeout
+1329	ascii	app_tcp.c:1182
+1330	ascii	get shmem buf idx:%u
+1331	ascii	ice_get_mem_buf
+1332	ascii	app_tcp.c:1206
+1333	ascii	none share mem buf
+1334	ascii	app_tcp.c:1211
+1335	ascii	D:P(A;OICI;GA;;;SY)(A;OICI;GA;;;BA)(A;OICI;GA;;;IU)
+1336	ascii	alloc share mem buf for :%s fail
+1337	ascii	ice_create_share_mem
+1338	ascii	app_tcp.c:1235
+1339	ascii	app_tcp.c:1249
+1340	ascii	app_tcp.c:1258
+1341	ascii	set mem for sid:%u
+1342	ascii	app_tcp.c:1268
+1343	ascii	g_ice_private_key_len:%d
+1344	ascii	ice_save_provate_key_by_shmem
+1345	ascii	app_tcp.c:1281
+1346	ascii	line:%d sock:%d error fdStat:0x%x fdType:0x%x fdTypeEx:0x%x
+1347	ascii	tn_set_socket_flag_ex
+1348	ascii	app_tcp.c:1322
+1349	ascii	line:%d clear fdStat:0x%x flag:0x%x
+1350	ascii	tn_clear_socket_flag_ex
+1351	ascii	app_tcp.c:1335
+1352	ascii	hp_get_sock_stru allot mem fail!!!
+1353	ascii	tn_get_sock_stru
+1354	ascii	app_tcp.c:1383
+1355	ascii	call GetResFromCache get cache failll!!!!
+1356	ascii	tn_get_sock_cache_buf
+1357	ascii	app_tcp.c:1413
+1358	ascii	call GetResFromCache get cache faill cache1Stat:%u sCache1Stat:%u!!!!
+1359	ascii	tn_get_sock_cache_buf_by_size_ex
+1360	ascii	app_tcp.c:1449
+1361	ascii	force re-try read fd:%d sock_id:%u
+1362	ascii	tn_deal_read_func
+1363	ascii	app_tcp.c:1501
+1364	ascii	bytes:%d read_len:%d
+1365	ascii	app_tcp.c:1516
+1366	ascii	fd:%u need_len:%d read_len:%d
+1367	ascii	app_tcp.c:1527
+1368	ascii	need_len:%d read_len:%d sock[%d] read buf fail,read-len:%d errno:%d
+1369	ascii	app_tcp.c:1540
+1370	ascii	fd:%d read_len:%d, write_pos:%d cache_len:%d
+1371	ascii	tn_deal_sock_write_func
+1372	ascii	app_tcp.c:1554
+1373	ascii	ssl[%d] sock[%d] write_pos:%d recvlen:%d bytes:%d errno:%d err:%s ssl_error[%d]!!!!
+1374	ascii	app_tcp.c:1580
+1375	ascii	sock[%d]  pSorc:%d write_pos:%d read_len:%d write buf may full [%s][%d]
+1376	ascii	app_tcp.c:1586
+1377	ascii	clear fd:%d read falg, pair cached:%d
+1378	ascii	tn_default_read_deal_func
+1379	ascii	app_tcp.c:1617
+1380	ascii	fd:%u recv:%d, pair fd:%u cache_data_len:%d
+1381	ascii	app_tcp.c:1620
+1382	ascii	ssl_password_cb
+1383	ascii	app_tcp.c
+1384	ascii	Could not allocate new SSL context
+1385	ascii	tn_init_ssl
+1386	ascii	app_tcp.c:1731
+1387	ascii	options:0x%x ssl_options:0x%x 0x%x TLS1_AD_NO_RENEGOTIATION:0x%x
+1388	ascii	app_tcp.c:1741
+1389	ascii	ALL:!aNULL:!ADH:!eNULL:!LOW:!EXP:!RC4+RSA:!MEDIUM:+HIGH:!RC4
+1390	ascii	%s%sice_info_%u.lib
+1391	ascii	Error: initialize_ctx--SSL_CTX_use_certificate_file[%s],sacertfile[%s]
+1392	ascii	app_tcp.c:1766
+1393	ascii	Could not use private key file
+1394	ascii	app_tcp.c:1778
+1395	ascii	Loaded CA certificates
+1396	ascii	app_tcp.c:1788
+1397	ascii	Could not use CA file 
+1398	ascii	app_tcp.c:1791
+1399	ascii	Error: initialize_ctx--Private key does not match the certificate public key
+1400	ascii	app_tcp.c:1799
+1401	ascii	ZTE_ICE
+1402	ascii	SSL CTX INIT OK
+1403	ascii	app_tcp.c:1824
+1404	ascii	init ssl fail -- close the ssl sock
+1405	ascii	app_tcp.c:1830
+1406	ascii	sock:%p %d is set to write, will send data
+1407	ascii	tn_deal_sock_event
+1408	ascii	app_tcp.c:1889
+1409	ascii	sock[%d]socket connect fail close--!!!!
+1410	ascii	app_tcp.c:1900
+1411	ascii	send auth user_id:%u thread_id:%u proc_link:%d
+1412	ascii	tn_deal_auth_req
+1413	ascii	app_tcp.c:1911
+1414	ascii	auth req timeout user_id:%u thread_id:%u
+1415	ascii	app_tcp.c:1917
+1416	ascii	create session:%u , user_id:%u, err_code:%u thread_id:%u
+1417	ascii	tn_deal_msg_from_rds_in_thread
+1418	ascii	app_tcp.c:1937
+1419	ascii	get session des session_id:%u, user_id:%u, msg_len:%u thread_id:%u
+1420	ascii	app_tcp.c:1943
+1421	ascii	recv unknown msg:%u
+1422	ascii	app_tcp.c:1948
+1423	ascii	msg_type:%d self:%u
+1424	ascii	tn_deal_sock_sync_cmd
+1425	ascii	app_tcp.c:1989
+1426	ascii	session num:%u
+1427	ascii	deal_pro_sock_remove
+1428	ascii	app_tcp.c:2066
+1429	ascii	app_tcp.c:2067
+1430	ascii	sock[%d] id:%d remove, type[%d] sock count:%d session_id:%d
+1431	ascii	tn_remove_sock
+1432	ascii	app_tcp.c:2081
+1433	ascii	mk link to display fail retry user_name:%s session_id:%u
+1434	ascii	app_tcp.c:2093
+1435	ascii	sock count[%d] sCont:%d
+1436	ascii	app_tcp.c:2115
+1437	ascii	sock[%d] type[%d] fdStat[%d] user_id[%u] timeout:%llu,%llu!!!!
+1438	ascii	tn_check_sock_tout
+1439	ascii	app_tcp.c:2130
+1440	ascii	user_name:%s, user_dom:%s fd:%d auth fail
+1441	ascii	tn_send_create_session_msg
+1442	ascii	app_tcp.c:2157
+1443	ascii	WTSEnumerateSessions fail %d
+1444	ascii	tn_check_session_be_running
+1445	ascii	app_tcp.c:2180
+1446	ascii	check session id:%u State:%d nCount:%u
+1447	ascii	app_tcp.c:2195
+1448	ascii	need recreate session user_name:%s session_id:%u
+1449	ascii	tn_check_link_port
+1450	ascii	app_tcp.c:2267
+1451	ascii	self:%u cache1Stat:%u cache2Stat:%u sCache1Stat:%u
+1452	ascii	tn_check_thread_mem
+1453	ascii	app_tcp.c:2311
+1454	ascii	sock[%d] close all socket set
+1455	ascii	tn_check_socket_list
+1456	ascii	app_tcp.c:2394
+1457	ascii	alloc cache fail, pThread-id:%d sCache1Stat:%u, cache1Stat:%u
+1458	ascii	ice_send_data_2_client
+1459	ascii	app_tcp.c:2446
+1460	ascii	ice_run_proc_by_session_id
+1461	ascii	run process:%s session_id:%u
+1462	ascii	app_tcp.c:2474
+1463	ascii	not tunnel
+1464	ascii	tn_deal_tunnel_socketinfo
+1465	ascii	app_tcp.c:2502
+1466	ascii	not find work thread sock:%d
+1467	ascii	ice_init_sock
+1468	ascii	app_tcp.c:2525
+1469	ascii	call sock_set_fcntl fail-- [%s] code:%d!!!
+1470	ascii	app_tcp.c:2533
+1471	ascii	get client connect fd:%d from: %s:%d to thread id:%d
+1472	ascii	app_tcp.c:2552
+1473	ascii	add sock fd:%d to list, thread id:%d fail
+1474	ascii	app_tcp.c:2556
+1475	ascii	recv msg size error read_len:%d, min_size:%u
+1476	ascii	tn_add_client_data
+1477	ascii	app_tcp.c:2568
+1478	ascii	send client data to ice-display:%d link.port:%d pSocket->session_id:%d
+1479	ascii	app_tcp.c:2579
+1480	ascii	some error port:%u link, self:%u session:%u user_name:%s
+1481	ascii	tn_deal_mk_connect_to_display
+1482	ascii	app_tcp.c:2608
+1483	ascii	mk link, fd:%u self:%u dport:%u session:%u user_name:%s
+1484	ascii	app_tcp.c:2617
+1485	ascii	alloc ice_init_sock_stru fail self:%u cache2Stat:%u
+1486	ascii	app_tcp.c:2634
+1487	ascii	mk link fail, self:%u dport:%u session:%u user_name:%s
+1488	ascii	app_tcp.c:2639
+1489	ascii	GetFileAttributes failed: %u
+1490	ascii	ice_set_file_hidden
+1491	ascii	app_tcp.c:2658
+1492	ascii	SetFileAttributes failed: %u
+1493	ascii	app_tcp.c:2665
+1494	ascii	C:\Users\%s\ice\config.ini
+1495	ascii	create_user_config_dir
+1496	ascii	type
+1497	ascii	Default
+1498	ascii	create dir for:%s
+1499	ascii	app_tcp.c:2687
+1500	ascii	C:\Users\%s\ice
+1501	ascii	create config file:%s
+1502	ascii	app_tcp.c:2696
+1503	ascii	[Default]
+1504	ascii	type=1
+1505	ascii	tn_deal_create_session_res
+1506	ascii	Create session fail, error code: %u.
+1507	ascii	find sock fail---user_id:%u session_id:%u
+1508	ascii	tn_deal_auth_res_in_thread
+1509	ascii	app_tcp.c:2740
+1510	ascii	auth fai fd:%d err:%u user_id:%u thread_id:%u session_id:%u uname:%s
+1511	ascii	app_tcp.c:2757
+1512	ascii	pSocket->session_id:%u session_id:%u
+1513	ascii	app_tcp.c:2766
+1514	ascii	user %s, session id changed :%u --> %u
+1515	ascii	app_tcp.c:2777
+1516	ascii	alloc cache fail  id:%d
+1517	ascii	tn_insert_auth_res_2_thread_list
+1518	ascii	app_tcp.c:2806
+1519	ascii	auth res:%u user_id:%u thread_id:%u session_id:%u cmd:%u msg_len:%d cache_res_num:%u be_try_unlock:%u
+1520	ascii	tn_deal_auth_res_2_thread
+1521	ascii	app_tcp.c:2828
+1522	ascii	thread_id:%u is error
+1523	ascii	app_tcp.c:2845
+1524	ascii	cache too may auth:%d
+1525	ascii	app_tcp.c:2851
+1526	ascii	recv process msg:%s
+1527	ascii	tn_deal_session_desc_in_thread
+1528	ascii	app_tcp.c:2874
+1529	ascii	app_tcp.c:2878
+1530	ascii	fd:%d read header:%d buf:%u
+1531	ascii	tn_deal_pro_auth_res_data
+1532	ascii	app_tcp.c:2891
+1533	ascii	recv cmd:%u session:%u thread_id:%u, user_id:%u
+1534	ascii	app_tcp.c:2896
+1535	ascii	fd[%d] magic:[%u %u] cmd:%d len:%d link_id:%d header[%d] user_id[%u]
+1536	ascii	tn_deal_pro_header_flag
+1537	ascii	app_tcp.c:2911
+1538	ascii	read header info error:%u %u, len:%d cmd:%d be_app_init:%d
+1539	ascii	app_tcp.c:2915
+1540	ascii	hb msg none body:%u
+1541	ascii	app_tcp.c:2930
+1542	ascii	res msg too bigger:%u,%u
+1543	ascii	app_tcp.c:2942
+1544	ascii	recv unknown cmd:%u data_len:%u
+1545	ascii	app_tcp.c:2948
+1546	ascii	accept fail:%d
+1547	ascii	tn_deal_accept_func
+1548	ascii	app_tcp.c:3002
+1549	ascii	get sockname error:%d
+1550	ascii	tn_get_band_port
+1551	ascii	app_tcp.c:3016
+1552	ascii	band tcp port fail:%u, fd:%u
+1553	ascii	ice_creat_listenfd_port
+1554	ascii	app_tcp.c:3028
+1555	ascii	thread [%u] ID[%u] init OK  !!!!
+1556	ascii	tn_init_thread
+1557	ascii	app_tcp.c:3073
+1558	ascii	tunnel_socket_thread
+1559	ascii	init thread:%u
+1560	ascii	ice_check_thread
+1561	ascii	app_tcp.c:3113
+1562	ascii	error create ice_check_thread
+1563	ascii	tn_init_all_thread
+1564	ascii	app_tcp.c:3147
+1565	ascii	app_tcp.c:3148
+1566	ascii	error create app_monitor_thread
+1567	ascii	app_tcp.c:3153
+1568	ascii	app_tcp.c:3154
+1569	ascii	app_tcp.c:3159
+1570	ascii	app_tcp.c:3160
+1571	ascii	init thread count [%d]
+1572	ascii	app_tcp.c:3170
+1573	ascii	call TN_MALLOC fail
+1574	ascii	app_tcp.c:3176
+1575	ascii	app_tcp.c:3177
+1576	ascii	tn_server_set_tls
+1577	ascii	get fd:%u link
+1578	ascii	ice_handle_read_link_done
+1579	ascii	app_tcp.c:3313
+1580	ascii	num_caps:%d caps_offset : %d num_channel_caps:%d
+1581	ascii	app_tcp.c:3318
+1582	ascii	uuid miss match local:%s,%s
+1583	ascii	app_tcp.c:3326
+1584	ascii	session_key:%.4s**** main_channel_caps:0x%x
+1585	ascii	app_tcp.c:3337
+1586	ascii	send link ack error
+1587	ascii	app_tcp.c:3345
+1588	ascii	alloc auth info cache fail  id:%d, fd:%d user_id:%u
+1589	ascii	tn_add_auth_info_2_cache
+1590	ascii	app_tcp.c:3360
+1591	ascii	deal fd:%u user_id:%u thread:%u to cache
+1592	ascii	app_tcp.c:3368
+1593	ascii	tn_insert_auth_info_2_thread_0_list
+1594	ascii	app_tcp.c:3385
+1595	ascii	deal user_id:%u thread:%u
+1596	ascii	app_tcp.c:3388
+1597	ascii	user_name:%s input session key:%.4s**** ok
+1598	ascii	tn_check_auth_session_key_info
+1599	ascii	app_tcp.c:3431
+1600	ascii	user_name:%s input session key:%.4s****,%.4s**** miss match
+1601	ascii	app_tcp.c:3435
+1602	ascii	proc just proc_time:%lu touch:%lu
+1603	ascii	tn_deal_session_created
+1604	ascii	app_tcp.c:3467
+1605	ascii	user_name:%s, user_dom:%s auth fail fd:%d
+1606	ascii	tn_deal_session_auth
+1607	ascii	app_tcp.c:3482
+1608	ascii	user_name:%s, user_dom:%s fd:%d begin chek pwd
+1609	ascii	app_tcp.c:3497
+1610	ascii	user_name:%s, user_dom:%s auth fail:%lu fd:%d
+1611	ascii	app_tcp.c:3503
+1612	ascii	user_name:%s, user_dom:%s auth ok
+1613	ascii	app_tcp.c:3509
+1614	ascii	res:%d name_len:%d, pwd_len:%d, dom_len:%d wdr_len:%d fd:%d
+1615	ascii	tn_deal_session_auth_info
+1616	ascii	app_tcp.c:3545
+1617	ascii	begin user_name:%s user_id:%u check fd:%d be_sDesktop:%u be_support_desc:%d
+1618	ascii	app_tcp.c:3574
+1619	ascii	user_name:%s user_id:%u fd:%d need delay:%llu
+1620	ascii	app_tcp.c:3585
+1621	ascii	header magic mismatch
+1622	ascii	tn_deal_ice_header_flag
+1623	ascii	app_tcp.c:3618
+1624	ascii	version mismatch
+1625	ascii	app_tcp.c:3629
+1626	ascii	read_len:%d need_data_pos:%d
+1627	ascii	app_tcp.c:3634
+1628	ascii	set modify minor_version for app
+1629	ascii	app_tcp.c:3639
+1630	ascii	header bad size %u read_len:%d
+1631	ascii	app_tcp.c:3645
+1632	ascii	need_len[%d]
+1633	ascii	app_tcp.c:3651
+1634	ascii	read_len:%d need:%d
+1635	ascii	tn_deal_tunnel_data
+1636	ascii	app_tcp.c:3685
+1637	ascii	rread_len:%d need:%d
+1638	ascii	tn_deal_tunnel_header_flag
+1639	ascii	app_tcp.c:3729
+1640	ascii	read header info error:%u %u, len:%d cmd:%d
+1641	ascii	app_tcp.c:3737
+1642	ascii	tn_deal_mklink_header_flag
+1643	ascii	app_tcp.c:3769
+1644	ascii	app_tcp.c:3773
+1645	ascii	error data_len is 0
+1646	ascii	tn_deal_svr_link_write_func_
+1647	ascii	app_tcp.c:3798
+1648	ascii	pSock:%p fd:%d id:%d block, cache_len:%d
+1649	ascii	tn_deal_send_data_len
+1650	ascii	app_tcp.c:3869
+1651	ascii	getsockopt failed: %d
+1652	ascii	tn_deal_mk_link_res
+1653	ascii	app_tcp.c:3884
+1654	ascii	fd:%d mk link fail code:%
+1655	ascii	app_tcp.c:3889
+1656	ascii	fd:%d session:%u user_name:%s mk link success
+1657	ascii	app_tcp.c:3894
+1658	ascii	pro(fd:%d) conn success
+1659	ascii	app_tcp.c:3908
+1660	ascii	set fd:%d read
+1661	ascii	tn_check_sock_after_write
+1662	ascii	app_tcp.c:3935
+1663	ascii	pSock:%p id:%d block
+1664	ascii	tn_deal_svr_link_write_func
+1665	ascii	app_tcp.c:3964
+1666	ascii	getpeername error:%d
+1667	ascii	tn_get_client_addr
+1668	ascii	app_tcp.c:3989
+1669	ascii	getsockname error:%d
+1670	ascii	app_tcp.c:3996
+1671	ascii	SSL_accept failed,return_code:%d errno:%d ssl_error=%d, in ssl.h
+1672	ascii	tn_deal_ssl_accept_func
+1673	ascii	app_tcp.c:4028
+1674	ascii	may thread ctx alloc fail
+1675	ascii	tn_init_ssl_connection
+1676	ascii	app_tcp.c:4055
+1677	ascii	could not allocate ssl bio socket
+1678	ascii	app_tcp.c:4062
+1679	ascii	could not allocate ssl context
+1680	ascii	app_tcp.c:4069
+1681	ascii	SSL_accept failed, error=%d
+1682	ascii	app_tcp.c:4091
+1683	ascii	deal sock fd:%d ssl:%d, dest_port:%d thread id:%d
+1684	ascii	ice_init_sock_stru
+1685	ascii	app_tcp.c:4142
+1686	ascii	icedd
+1687	ascii	InstalledDisplayDrivers
+1688	ascii	SYSTEM\CurrentControlSet\Services\icedd\Device0\
+1689	ascii	max-app-session
+1690	ascii	ice_auth_log_path
+1691	ascii	C:\Windows\System32\icacls.exe
+1692	ascii	%s "C:\Program Files (x86)\ZTEGuestOS\log" /grant "NETWORK SERVICE":(OI)(CI)(F) /T
+1693	ascii	app_tcp.c:4175
+1694	ascii	%s "C:\Windows\System32\vappvideo" /grant "domain users":(OI)(CI)(F) /T
+1695	ascii	app_tcp.c:4183
+1696	ascii	stat-res-duration
+1697	ascii	C_HTTP_AP
+1698	ascii	ice_app_proxy.log
+1699	ascii	14:55:36
+1700	ascii	2025-07-09
+1701	ascii	V7.25.21-13
+1702	ascii	version:%s,build on: %s %s, win_version:%d,%d
+1703	ascii	init_tcp_proxy
+1704	ascii	app_tcp.c:4226
+1705	ascii	auth-buf-size:%d use_console_session:%u
+1706	ascii	app_tcp.c:4227
+1707	ascii	ice_info_c.dat
+1708	ascii	ice_info_k.dat
+1709	ascii	ssl-pwd
+1710	ascii	proxy
+1711	ascii	link-timeout
+1712	ascii	cannot get process exitcode!!!
+1713	ascii	app_tcp.c:4268
+1714	ascii	icacls auth exitCode:%d
+1715	ascii	app_tcp.c:4270
+1716	ascii	parse cfg fail, data input is null error
+1717	ascii	support-core-dump
+1718	ascii	show
+1719	ascii	mrs-conf
+1720	ascii	desktop-monitor-count
+1721	ascii	log-level
+1722	ascii	reset-timer-peroid
+1723	ascii	8388608
+1724	ascii	desktop-stream-rat
+1725	ascii	not-used-freetime
+1726	ascii	desktop-dve-quality
+1727	ascii	dve-ref-num
+1728	ascii	desktop-idr-interval
+1729	ascii	65000
+1730	ascii	use-desktop-dupl
+1731	ascii	desktop-dve-mask
+1732	ascii	protocol-type
+1733	ascii	scale-screen
+1734	ascii	enable-network-cards
+1735	ascii	disable-lowlevel-tls
+1736	ascii	use-debugview
+1737	ascii	set-interesting
+1738	ascii	autocad-enc-mode
+1739	ascii	use-zip-lossless
+1740	ascii	multi-screen-video
+1741	ascii	multi-screen-video-width
+1742	ascii	multi-screen-video-hight
+1743	ascii	vapp-wait-display-run
+1744	ascii	1500
+1745	ascii	exclusive-pro
+1746	ascii	,OVERWATCH.EXE,
+1747	ascii	ice-vm-id
+1748	ascii	dve-log-level
+1749	ascii	dump-desktop-h264
+1750	ascii	dump-desktop-raw
+1751	ascii	dump-h264-maxsize
+1752	ascii	parse cfg fail, input val error val[%s] error
+1753	ascii	ice_parse_cfg_boolean_param
+1754	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:737
+1755	ascii	parse cfg fail, current_pro input is null error
+1756	ascii	inside_parse_str_name_cfg
+1757	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1107
+1758	ascii	,%s,
+1759	ascii	ice_parse_str_cfg
+1760	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\ice_config.h:1227
+1761	ascii	GetSystemTimes()error:%d
+1762	ascii	app_get_cpu_stat
+1763	ascii	app_udp.c:175
+1764	ascii	GetSystemTimes() error:%d
+1765	ascii	app_udp.c:185
+1766	ascii	call GlobalMemoryStatusEx fail :%lu
+1767	ascii	app_get_mem_stat
+1768	ascii	app_udp.c:213
+1769	ascii	invalid udp fd
+1770	ascii	ice_send_udp_msg
+1771	ascii	app_udp.c:255
+1772	ascii	::ffff:%s
+1773	ascii	tmp_ip:%s, port:%d
+1774	ascii	app_udp.c:265
+1775	ascii	ipv6 --- call get addr fail [%d,%s]!!!
+1776	ascii	app_udp.c:271
+1777	ascii	app_udp.c:288
+1778	ascii	app_send_udp_msg_to_csap
+1779	ascii	g_csap_ip_type:%d, g_csap_port_type:%d, g_local_ip_type:%d
+1780	ascii	ice_send_udp_msg_to_csap
+1781	ascii	app_udp.c:318
+1782	ascii	sessionkey g_ipport_stat:%d g_csap_port_type:%d g_csap_port_type:%d
+1783	ascii	app_udp.c:329
+1784	ascii	csap-ip
+1785	ascii	csap-ipv6
+1786	ascii	0.0.0.0
+1787	ascii	ip_buff:%s,%s, csap_ip:%s,%s
+1788	ascii	ice_load_csap_cfg
+1789	ascii	app_udp.c:364
+1790	ascii	csap-port
+1791	ascii	csap config ip[%s] port[%d]
+1792	ascii	app_udp.c:372
+1793	ascii	get csap ip error
+1794	ascii	app_udp.c:376
+1795	ascii	csap config ipv6[%s] port[%d]
+1796	ascii	app_udp.c:389
+1797	ascii	get csap ipv6 error
+1798	ascii	app_udp.c:392
+1799	ascii	call sock return fail[%s]code:%d!!!
+1800	ascii	tn_app_aio_listen
+1801	ascii	app_udp.c:420
+1802	ascii	call tn_aio_listen port[%u] sin_port[%d] beUDP:%d success!!!
+1803	ascii	app_udp.c:435
+1804	ascii	call bind return fail errno:%d [%s] port[%u]!!!
+1805	ascii	app_udp.c:440
+1806	ascii	call sock_set_fcntl fail-- [%s] port[%u] code:%d!!!
+1807	ascii	app_udp.c:448
+1808	ascii	call listen return fail- [%s] port[%u]!!!
+1809	ascii	app_udp.c:468
+1810	ascii	call tn_aio_listen port[%u] fd[%d] beUDP:%d success!!!
+1811	ascii	app_udp.c:473
+1812	ascii	tn_app_aio_listen6
+1813	ascii	app_udp.c:487
+1814	ascii	call setsockopt return fail[%s]code:%d!!!
+1815	ascii	app_udp.c:494
+1816	ascii	app_udp.c:502
+1817	ascii	call tn_aio_listen port[%u] beUDP:%d success!!!
+1818	ascii	app_udp.c:510
+1819	ascii	app_udp.c:514
+1820	ascii	app_udp.c:521
+1821	ascii	app_udp.c:535
+1822	ascii	ice_deal_run_proc_by_cmd
+1823	ascii	app_udp.c:554
+1824	ascii	app_udp.c:558
+1825	ascii	process stop code is ICE_DRUN_CODE!!!
+1826	ascii	app_udp.c:572
+1827	ascii	IceDisplaySetting timeout or fail exitCode try:%d exitCode:%d, stop process!!!
+1828	ascii	app_udp.c:575
+1829	ascii	vm-uuid
+1830	ascii	get vm uuid success
+1831	ascii	app_udp_get_vm_uuid
+1832	ascii	app_udp.c:589
+1833	ascii	get vm uuid fail just read it
+1834	ascii	app_udp.c:597
+1835	ascii	uuid_buf:%s
+1836	ascii	app_udp.c:602
+1837	ascii	band udp port:%u, fd:%u
+1838	ascii	app_udp_init
+1839	ascii	app_udp.c:620
+1840	ascii	bangd udp port fail
+1841	ascii	app_udp.c:635
+1842	ascii	app_udp.c:636
+1843	ascii	Key:%s
+1844	ascii	Cmd:Set-Key-Ack
+1845	ascii	ID:%s
+1846	ascii	serialNum:%s
+1847	ascii	ice_send_session_key_ack
+1848	ascii	-----------csap ip:%s port:%d-----------req message:%s
+1849	ascii	app_udp.c:653
+1850	ascii	call ice_simple_enc fail res:%d
+1851	ascii	app_udp.c:657
+1852	ascii	decode:%s
+1853	ascii	base64_decode
+1854	ascii	app_udp.c:688
+1855	ascii	utf8_to_ansi
+1856	ascii	g_be_appmode:%d user_name:%s
+1857	ascii	ice_prase_profile_data
+1858	ascii	app_udp.c:711
+1859	ascii	data:%s  data_len:%d
+1860	ascii	app_udp.c:714
+1861	ascii	src_data is null
+1862	ascii	app_udp.c:726
+1863	ascii	dec_data is null
+1864	ascii	app_udp.c:735
+1865	ascii	src_len:%d dec_len:%d dec_data:%s
+1866	ascii	app_udp.c:747
+1867	ascii	upm-%s
+1868	ascii	AppName:%s
+1869	ascii	app_udp.c:758
+1870	ascii	parse name, get name fail--[%s]
+1871	ascii	app_udp.c:765
+1872	ascii	parse val, name:%s get val fail--[%s]
+1873	ascii	app_udp.c:773
+1874	ascii	will write cfg, name:%s value:%s
+1875	ascii	app_udp.c:778
+1876	ascii	C:\Program Files (x86)\ZTEGuestOS\vdservice\approming.ini
+1877	ascii	renew
+1878	ascii	isVapp
+1879	ascii	msg:%s
+1880	ascii	parse_session_key_msg
+1881	ascii	app_udp.c:800
+1882	ascii	Key:
+1883	ascii	uuid[%s] is different,local[%s]
+1884	ascii	app_udp.c:809
+1885	ascii	RawKey:
+1886	ascii	not found key[%s]
+1887	ascii	app_udp.c:815
+1888	ascii	seq_no:
+1889	ascii	User:
+1890	ascii	session_key[%s] id:%s not find username
+1891	ascii	app_udp.c:823
+1892	ascii	serialNum:
+1893	ascii	receive csap set session key|%s|0|0|
+1894	ascii	profile_data is null
+1895	ascii	app_udp.c:837
+1896	ascii	DataUpmInfo:
+1897	ascii	profile_data strlen_a(profile_data):%d
+1898	ascii	app_udp.c:844
+1899	ascii	user_name:%s session_key:%.4s****
+1900	ascii	app_udp.c:850
+1901	ascii	Cmd:Get-Conf
+1902	ascii	Type:%s
+1903	ascii	ID:%d
+1904	ascii	send_conf_req
+1905	ascii	-----------send conf-req,csap ip:%s port:%d-----------req message:%s
+1906	ascii	app_udp.c:871
+1907	ascii	-----------before message, len:%d ip:%s port:%d
+1908	ascii	app_udp.c:873
+1909	ascii	app_udp.c:876
+1910	ascii	parse_reg_msg
+1911	ascii	app_udp.c:901
+1912	ascii	regid[%s]
+1913	ascii	app_udp.c:907
+1914	ascii	reg id error,req[%d] response[%d]
+1915	ascii	app_udp.c:915
+1916	ascii	MachineProfilePath:
+1917	ascii	CompatibleRUPSecurity:
+1918	ascii	AddAdminGroupToRUP:
+1919	ascii	Global-ID:
+1920	ascii	app_udp.c:952
+1921	ascii	Private-ID:
+1922	ascii	app_udp.c:957
+1923	ascii	g_global_id_tmp = %s,%s,g_private_id_tmp=%s,%s g_ipport_stat:%d
+1924	ascii	app_udp.c:961
+1925	ascii	global
+1926	ascii	private
+1927	ascii	conf msg[%s]
+1928	ascii	parse_conf_msg
+1929	ascii	app_udp.c:1013
+1930	ascii	uuid[%s] is not different,local[%s]
+1931	ascii	app_udp.c:1023
+1932	ascii	app_udp.c:1029
+1933	ascii	app_udp.c:1034
+1934	ascii	global_id[%s]
+1935	ascii	app_udp.c:1043
+1936	ascii	 private_id[%s]
+1937	ascii	app_udp.c:1052
+1938	ascii	global_id[%s] private_id[%s]
+1939	ascii	app_udp.c:1054
+1940	ascii	g_global_id_tmp[%s] g_private_id_tmp[%s]
+1941	ascii	app_udp.c:1055
+1942	ascii	id is not equal,[%d] != [%d]
+1943	ascii	app_udp.c:1060
+1944	ascii	conf message error, empty
+1945	ascii	app_udp.c:1067
+1946	ascii	app_udp.c:1078
+1947	ascii	app_udp.c:1086
+1948	ascii	app_udp.c:1096
+1949	ascii	namevalue:%s=%s 
+1950	ascii	app_udp.c:1100
+1951	ascii	write cfg fail:%s=%s  g_cfg_file=%s 
+1952	ascii	app_udp.c:1103
+1953	ascii	OasIpv6Address
+1954	ascii	OasIpAddress
+1955	ascii	OasPort
+1956	ascii	OasHttpsPort
+1957	ascii	not found port sid:%u
+1958	ascii	app_send_msg_2_display
+1959	ascii	app_udp.c:1140
+1960	ascii	send for sid:%u port:%u
+1961	ascii	app_udp.c:1143
+1962	ascii	SID:
+1963	ascii	key[sid] not found cmd:%s
+1964	ascii	app_deal_trans_msg_2_display
+1965	ascii	app_udp.c:1155
+1966	ascii	parse_ADAS_Passthrough
+1967	ascii	app_udp.c:1179
+1968	ascii	Type:
+1969	ascii	Data:
+1970	ascii	adas_port = %d,data_len = %d
+1971	ascii	app_udp.c:1195
+1972	ascii	data :%s, vpservice data_len = %d
+1973	ascii	app_udp.c:1200
+1974	ascii	error code[%d]
+1975	ascii	app_deal_udp_from_csap
+1976	ascii	app_udp.c:1217
+1977	ascii	Cmd:
+1978	ascii	key[cmd] not found
+1979	ascii	app_udp.c:1223
+1980	ascii	Set-Key
+1981	ascii	Get-Conf-Ack
+1982	ascii	App-Reg-Ack
+1983	ascii	General-Passthrough
+1984	ascii	get sid:%u try exit, refs:%d user_name:%s port:%u
+1985	ascii	app_deal_session_exit
+1986	ascii	app_udp.c:1260
+1987	ascii	Cmd:Exit-Ack
+1988	ascii	Sid:%s
+1989	ascii	Res:%s
+1990	ascii	call ice_simple_enc fail:%d
+1991	ascii	app_udp.c:1279
+1992	ascii	error code[%d] decode msg from port:%u
+1993	ascii	app_get_msg_sid
+1994	ascii	app_udp.c:1296
+1995	ascii	key[sid] not found from port:%d
+1996	ascii	app_udp.c:1302
+1997	ascii	app_udp.c:1311
+1998	ascii	send_passthrough_msg
+1999	ascii	len:%d  data:%s
+2000	ascii	app_udp.c:1337
+2001	ascii	app_udp.c:1340
+2002	ascii	recv udp msg fail: %d
+2003	ascii	app_deal_udp_read_func
+2004	ascii	app_udp.c:1361
+2005	ascii	recv udp msg get client ip fail: %d
+2006	ascii	app_udp.c:1375
+2007	ascii	Cmd:General-Passthrough
+2008	ascii	pro connection failed
+2009	ascii	app_udp_send_reg_2_csap
+2010	ascii	app_udp.c:1510
+2011	ascii	Reboot
+2012	ascii	Shutdown
+2013	ascii	Running
+2014	ascii	Restart
+2015	ascii	reg no response,times[%d], g_csap_ip_type:%d, g_csap_port_type:%d
+2016	ascii	app_udp.c:1527
+2017	ascii	check-fw
+2018	ascii	uuid or g_csap_udp_ip is empty
+2019	ascii	app_udp.c:1542
+2020	ascii	get local ip fail
+2021	ascii	app_udp.c:1548
+2022	ascii	Cmd:App-Reg
+2023	ascii	ID:%u
+2024	ascii	Proxy-Port:%u
+2025	ascii	Ice-Port:1
+2026	ascii	Ice-sPort:2
+2027	ascii	Ice-Ip:%s
+2028	ascii	Ice-Ipv6:%s
+2029	ascii	Sessions:%u
+2030	ascii	Status:%s
+2031	ascii	Cpu:%d
+2032	ascii	MaxCpu:%d
+2033	ascii	MinCpu:%d
+2034	ascii	Mem:%d
+2035	ascii	MaxMem:%d
+2036	ascii	MinMem:%d
+2037	ascii	Domain:%d
+2038	ascii	app_udp.c:1582
+2039	ascii	'%.2f','%.2f','%d'
+2040	ascii	cpu_usage,mem_usage,session_num
+2041	ascii	virtual_server_performance
+2042	ascii	send reg msg session:%u stat:%s
+2043	ascii	app_udp.c:1601
+2044	ascii	get csap addr:%s:%u
+2045	ascii	app_check_query_csap_event
+2046	ascii	app_udp.c:1617
+2047	ascii	Global\ice_query_csap_event
+2048	ascii	proxy-cmd  query-csap
+2049	ascii	ticks:%lld %lld
+2050	ascii	app_deal_first_reg
+2051	ascii	app_udp.c:1698
+2052	ascii	app_udp_thread
+2053	ascii	init app_udp_thread:%u be_first_run:%u
+2054	ascii	app_udp.c:1720
+2055	ascii	url:%s  version:%s
+2056	ascii	app_reg_winserver_info_to_update
+2057	ascii	app_udp.c:1793
+2058	ascii	Identifier:22&objecttype=%d&currentVersion=%s&ClientType=1&bit=%d&network=0&DCIPV6=%s&DC=%s&installInfoPath=%s&verGroup=VdesktopVersion&verKey=version&noUI=1&nologin=1&#1
+2059	ascii	update_info:%s, type:%d
+2060	ascii	app_udp.c:1802
+2061	ascii	send fail
+2062	ascii	app_udp.c:1806
+2063	ascii	Identifier:22&objecttype=5&isUpdate=confirm$#0
+2064	ascii	app_send_update_confirm
+2065	ascii	send confirm msg :%s
+2066	ascii	app_udp.c:1818
+2067	ascii	app_udp.c:1823
+2068	ascii	app_deal_winserver_update
+2069	ascii	app_udp.c:1834
+2070	ascii	sockfd:%d
+2071	ascii	app_udp.c:1847
+2072	ascii	send sucess update_port_real:%d
+2073	ascii	app_udp.c:1859
+2074	ascii	ice_get_first_ip
+2075	ascii	ice_create_virtual_server_table
+2076	ascii	msgtype=9056{"tablename":"%s","columnname":"time,createtime,host_id,host_name,host_ip,%s","datas":[{"row":"'%s','%s','%s','%s','%s',%s"}]}
+2077	ascii	get ice_ip(ice_get_local_ip) error
+2078	ascii	ice_qoe_virtual_server_table
+2079	ascii	app_udp.c:1921
+2080	ascii	app_udp.c:1928
+2081	ascii	ZZZZZZZZZZZZZZZZ
+2082	ascii	RSDSX
+2083	ascii	(N4L
+2084	ascii	E:\Git\workspace\ice-server\V7.25.21\share\1\ICE-Server\build\server\x64\Release\AppProxy.pdb
+2085	ascii	AppProxy.dll
+2086	ascii	ice_app_proxy_func_factory
+2087	ascii	CreateFileA
+2088	ascii	SetPriorityClass
+2089	ascii	MapViewOfFile
+2090	ascii	UnmapViewOfFile
+2091	ascii	MoveFileExA
+2092	ascii	FreeLibrary
+2093	ascii	SetUnhandledExceptionFilter
+2094	ascii	SystemTimeToFileTime
+2095	ascii	GetCurrentProcess
+2096	ascii	QueryPerformanceCounter
+2097	ascii	Process32First
+2098	ascii	GetCurrentThread
+2099	ascii	GetSystemTimeAsFileTime
+2100	ascii	InitializeCriticalSection
+2101	ascii	OpenProcess
+2102	ascii	GlobalAlloc
+2103	ascii	GetPrivateProfileIntA
+2104	ascii	WideCharToMultiByte
+2105	ascii	Sleep
+2106	ascii	CreateEventA
+2107	ascii	LeaveCriticalSection
+2108	ascii	GetExitCodeProcess
+2109	ascii	GetComputerNameExA
+2110	ascii	TerminateProcess
+2111	ascii	MultiByteToWideChar
+2112	ascii	SetThreadPriority
+2113	ascii	FindFirstFileA
+2114	ascii	GetLastError
+2115	ascii	GetProcAddress
+2116	ascii	EnterCriticalSection
+2117	ascii	GlobalFree
+2118	ascii	FindClose
+2119	ascii	GetPrivateProfileStringA
+2120	ascii	GetLocalTime
+2121	ascii	LoadLibraryA
+2122	ascii	Process32Next
+2123	ascii	ProcessIdToSessionId
+2124	ascii	GetProcessId
+2125	ascii	CreateFileMappingA
+2126	ascii	LocalAlloc
+2127	ascii	WritePrivateProfileStringA
+2128	ascii	GetSystemInfo
+2129	ascii	GetModuleFileNameA
+2130	ascii	FindNextFileA
+2131	ascii	WTSGetActiveConsoleSessionId
+2132	ascii	GetModuleHandleA
+2133	ascii	CreateMutexA
+2134	ascii	CreateToolhelp32Snapshot
+2135	ascii	QueryPerformanceFrequency
+2136	ascii	OutputDebugStringA
+2137	ascii	GetCurrentThreadId
+2138	ascii	GetDiskFreeSpaceExA
+2139	ascii	CloseHandle
+2140	ascii	GetCurrentProcessId
+2141	ascii	LocalFree
+2142	ascii	DeleteFileA
+2143	ascii	CreateThread
+2144	ascii	GetProcessTimes
+2145	ascii	RemoveDirectoryA
+2146	ascii	GetSystemTime
+2147	ascii	GetFileAttributesA
+2148	ascii	SetFileAttributesA
+2149	ascii	GetUserDefaultUILanguage
+2150	ascii	GetSystemTimes
+2151	ascii	GlobalMemoryStatusEx
+2152	ascii	KERNEL32.dll
+2153	ascii	MsgWaitForMultipleObjects
+2154	ascii	USER32.dll
+2155	ascii	CreateProcessAsUserA
+2156	ascii	OpenServiceA
+2157	ascii	CloseServiceHandle
+2158	ascii	OpenProcessToken
+2159	ascii	SetEntriesInAclA
+2160	ascii	RegSetValueExA
+2161	ascii	RegQueryValueExA
+2162	ascii	RegDeleteKeyA
+2163	ascii	InitializeSecurityDescriptor
+2164	ascii	SetTokenInformation
+2165	ascii	StartServiceA
+2166	ascii	SetSecurityDescriptorDacl
+2167	ascii	RegCreateKeyExA
+2168	ascii	RegOpenKeyExA
+2169	ascii	DuplicateTokenEx
+2170	ascii	RegDeleteValueA
+2171	ascii	AllocateAndInitializeSid
+2172	ascii	QueryServiceStatusEx
+2173	ascii	OpenSCManagerA
+2174	ascii	FreeSid
+2175	ascii	SetFileSecurityA
+2176	ascii	RegCloseKey
+2177	ascii	GetNamedSecurityInfoA
+2178	ascii	OpenEventLogA
+2179	ascii	ReadEventLogA
+2180	ascii	CloseEventLog
+2181	ascii	QueryServiceStatus
+2182	ascii	ConvertStringSecurityDescriptorToSecurityDescriptorA
+2183	ascii	LogonUserA
+2184	ascii	ADVAPI32.dll
+2185	ascii	WSAAddressToStringA
+2186	ascii	freeaddrinfo
+2187	ascii	getaddrinfo
+2188	ascii	inet_ntop
+2189	ascii	WSAStringToAddressA
+2190	ascii	WSAIoctl
+2191	ascii	WS2_32.dll
+2192	ascii	SSL_CTX_set_session_id_context
+2193	ascii	TLS_method
+2194	ascii	SSL_accept
+2195	ascii	SSL_get_error
+2196	ascii	SSL_CTX_get_options
+2197	ascii	SSL_CTX_load_verify_locations
+2198	ascii	SSL_new
+2199	ascii	OPENSSL_init_ssl
+2200	ascii	SSL_CTX_set_default_passwd_cb
+2201	ascii	SSL_CTX_use_PrivateKey_file
+2202	ascii	SSL_CTX_use_certificate_file
+2203	ascii	SSL_CTX_new
+2204	ascii	SSL_write
+2205	ascii	SSL_free
+2206	ascii	SSL_CTX_free
+2207	ascii	SSL_read
+2208	ascii	SSL_CTX_set_options
+2209	ascii	SSL_CTX_set_cipher_list
+2210	ascii	SSL_set_bio
+2211	ascii	SSL_CTX_check_private_key
+2212	ascii	libssl-3-x64.dll
+2213	ascii	BN_free
+2214	ascii	BIO_free
+2215	ascii	ERR_error_string
+2216	ascii	i2d_PrivateKey_bio
+2217	ascii	BN_set_word
+2218	ascii	EVP_PKEY_get_id
+2219	ascii	EVP_PKEY_decrypt_init
+2220	ascii	EVP_PKEY_CTX_set_rsa_padding
+2221	ascii	EVP_PKEY_keygen_init
+2222	ascii	EVP_PKEY_CTX_new
+2223	ascii	EVP_PKEY_CTX_set1_rsa_keygen_pubexp
+2224	ascii	i2d_PUBKEY_bio
+2225	ascii	EVP_PKEY_keygen
+2226	ascii	EVP_PKEY_CTX_set_rsa_keygen_bits
+2227	ascii	BN_new
+2228	ascii	BIO_new
+2229	ascii	ERR_get_error
+2230	ascii	BIO_ctrl
+2231	ascii	EVP_PKEY_CTX_new_id
+2232	ascii	EVP_PKEY_free
+2233	ascii	BIO_s_mem
+2234	ascii	EVP_PKEY_CTX_free
+2235	ascii	EVP_PKEY_decrypt
+2236	ascii	BIO_new_socket
+2237	ascii	CRYPTO_malloc
+2238	ascii	BIO_push
+2239	ascii	BIO_set_flags
+2240	ascii	BIO_read
+2241	ascii	BIO_free_all
+2242	ascii	BIO_new_mem_buf
+2243	ascii	BIO_f_base64
+2244	ascii	libcrypto-3-x64.dll
+2245	ascii	MiniDumpWriteDump
+2246	ascii	dbghelp.dll
+2247	ascii	GetIpForwardTable
+2248	ascii	GetIpAddrTable
+2249	ascii	GetAdaptersAddresses
+2250	ascii	IPHLPAPI.DLL
+2251	ascii	WTSQuerySessionInformationA
+2252	ascii	WTSFreeMemory
+2253	ascii	WTSEnumerateSessionsA
+2254	ascii	WTSAPI32.dll
+2255	ascii	BCryptGenRandom
+2256	ascii	bcrypt.dll
+2257	ascii	_stricmp
+2258	ascii	rename
+2259	ascii	feof
+2260	ascii	memmove
+2261	ascii	strncmp
+2262	ascii	free
+2263	ascii	malloc
+2264	ascii	strerror
+2265	ascii	rewind
+2266	ascii	strstr
+2267	ascii	__iob_func
+2268	ascii	_access
+2269	ascii	strchr
+2270	ascii	fflush
+2271	ascii	atoi
+2272	ascii	_errno
+2273	ascii	strnlen
+2274	ascii	tolower
+2275	ascii	fgets
+2276	ascii	atoll
+2277	ascii	printf
+2278	ascii	fopen
+2279	ascii	_mkdir
+2280	ascii	setvbuf
+2281	ascii	fread
+2282	ascii	fprintf
+2283	ascii	_vsnprintf
+2284	ascii	isupper
+2285	ascii	memcpy_s
+2286	ascii	ferror
+2287	ascii	fwrite
+2288	ascii	strrchr
+2289	ascii	ftell
+2290	ascii	_localtime64
+2291	ascii	fseek
+2292	ascii	fclose
+2293	ascii	strncpy_s
+2294	ascii	_time64
+2295	ascii	exit
+2296	ascii	calloc
+2297	ascii	memset
+2298	ascii	MSVCR120.dll
+2299	ascii	__crt_debugger_hook
+2300	ascii	__crtUnhandledException
+2301	ascii	__crtTerminateProcess
+2302	ascii	__crtCaptureCurrentContext
+2303	ascii	__crtCapturePreviousContext
+2304	ascii	__CppXcptFilter
+2305	ascii	_amsg_exit
+2306	ascii	_malloc_crt
+2307	ascii	_initterm
+2308	ascii	_initterm_e
+2309	ascii	__C_specific_handler
+2310	ascii	_lock
+2311	ascii	_unlock
+2312	ascii	_calloc_crt
+2313	ascii	__dllonexit
+2314	ascii	_onexit
+2315	ascii	__clean_type_info_names_internal
+2316	ascii	IsDebuggerPresent
+2317	ascii	IsProcessorFeaturePresent
+2318	ascii	EncodePointer
+2319	ascii	DecodePointer
+2320	ascii	strcmp
+2321	ascii	c:\Program Files (x86)\ZTEGuestOS\IceServer\ice-config-test.ini
+2322	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+2323	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+2324	ascii	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+2325	ascii	    <security>
+2326	ascii	      <requestedPrivileges>
+2327	ascii	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+2328	ascii	      </requestedPrivileges>
+2329	ascii	    </security>
+2330	ascii	  </trustInfo>
+2331	ascii	</assembly>
+2332	ascii	N0L0
+2333	ascii	GeG8
+2334	ascii	:x:;
+2335	ascii	DigiCert Inc1
+2336	ascii	www.digicert.com1!0
+2337	ascii	DigiCert Trusted Root G40
+2338	ascii	210429000000Z
+2339	ascii	360428235959Z0i1
+2340	ascii	DigiCert, Inc.1A0?
+2341	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+2342	ascii	>Mp$d
+2343	ascii	}4}L
+2344	ascii	!xE.
+2345	ascii	IpB2
+2346	ascii	6*f(_
+2347	ascii	[K]taM?
+2348	ascii	m&vh
+2349	ascii	J>@G_
+2350	ascii	#!Y`
+2351	ascii	x8E0
+2352	ascii	SA|X=G
+2353	ascii	q]dL
+2354	ascii	k0i0$
+2355	ascii	http://ocsp.digicert.com0A
+2356	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+2357	ascii	<0:08
+2358	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+2359	ascii	:#D=
+2360	ascii	:]Hm
+2361	ascii	v~7q
+2362	ascii	!usR
+2363	ascii	ov7,
+2364	ascii	/"lA
+2365	ascii	jj@0HK4
+2366	ascii	VxN0
+2367	ascii	241111000000Z
+2368	ascii	251110235959Z0
+2369	ascii	CN1#0!
+2370	ascii	Guangdong Province1
+2371	ascii	Shenzhen1
+2372	ascii	Private Organization1
+2373	ascii	9144030027939873X71
+2374	ascii	ZTE CORPORATION1
+2375	ascii	ZTE CORPORATION0
+2376	ascii	3KB/_
+2377	ascii	4c<b
+2378	ascii	bCQY
+2379	ascii	2gx}w
+2380	ascii	Bm]JG)OF
+2381	ascii	8{:2_hF
+2382	ascii	H}If[
+2383	ascii	!Oa?
+2384	ascii	?66]
+2385	ascii	:.fs
+2386	ascii	60402
+2387	ascii	0)0'
+2388	ascii	http://www.digicert.com/CPS0
+2389	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+2390	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0
+2391	ascii	http://ocsp.digicert.com0\
+2392	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+2393	ascii	C%,d
+2394	ascii	_+*2
+2395	ascii	ye>ga
+2396	ascii	ZpQeg
+2397	ascii	XTB2z
+2398	ascii	>,Z,
+2399	ascii	C5/u
+2400	ascii	0}0i1
+2401	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+2402	ascii	 ,/v
+2403	ascii	3@EK
+2404	ascii	szX%
+2405	ascii	5|45
+2406	ascii	`l'D
+2407	ascii	$0g.
+2408	ascii	3TE)
+2409	ascii	.1[;
+2410	ascii	:y`V
+2411	ascii	20250709070005Z
+2412	ascii	DigiCert, Inc.1;09
+2413	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+2414	ascii	240926000000Z
+2415	ascii	351125235959Z0B1
+2416	ascii	DigiCert1 0
+2417	ascii	DigiCert Timestamp 20240
+2418	ascii	ymIXa+
+2419	ascii	GW3K;
+2420	ascii	o~R}a
+2421	ascii	z9XxGT
+2422	ascii	<Jisu
+2423	ascii	jSDx
+2424	ascii	7!5B
+2425	ascii	/s)v
+2426	ascii	S0Q0O
+2427	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+2428	ascii	http://ocsp.digicert.com0X
+2429	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+2430	ascii	Mm*V;
+2431	ascii	Z +J
+2432	ascii	MzE @t
+2433	ascii	5dz?g
+2434	ascii	(f*^[0
+2435	ascii	220323000000Z
+2436	ascii	370322235959Z0c1
+2437	ascii	=rIQU
+2438	ascii	|jWz
+2439	ascii	!hn7!
+2440	ascii	{un'%
+2441	ascii	+Xt@(
+2442	ascii	u($A
+2443	ascii	fIRP
+2444	ascii	,W5y+
+2445	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+2446	ascii	 %41g
+2447	ascii	i?Gw
+2448	ascii	',=?k
+2449	ascii	Axz8
+2450	ascii	www.digicert.com1$0"
+2451	ascii	DigiCert Assured ID Root CA0
+2452	ascii	220801000000Z
+2453	ascii	311109235959Z0b1
+2454	ascii	]J<0"0i3
+2455	ascii	t;mq
+2456	ascii	u]xf
+2457	ascii	v=Y]Bv
+2458	ascii	p,A`
+2459	ascii	RQGt
+2460	ascii	|Lu?c
+2461	ascii	 Qko
+2462	ascii	m0k0$
+2463	ascii	http://ocsp.digicert.com0C
+2464	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+2465	ascii	>0<0:
+2466	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+2467	ascii	Jz/-
+2468	ascii	5FjiT
+2469	ascii	wZ\T
+2470	ascii	~qj#k"
+2471	ascii	T-'~
+2472	ascii	0w0c1
+2473	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+2474	ascii	250709070005Z0+
+2475	ascii	[E0/
+2476	ascii	/1(0&0$0"
+2477	ascii	vv4V
+2478	ascii	Mac`
+2479	ascii	~gu]
+2480	ascii	@{w+d
+2481	utf16le	VS_VERSION_INFO
+2482	utf16le	StringFileInfo
+2483	utf16le	080404b0
+2484	utf16le	CompanyName
+2485	utf16le	ICE Corporation
+2486	utf16le	FileDescription
+2487	utf16le	AppProxy
+2488	utf16le	FileVersion
+2489	utf16le	V7.25.21-13
+2490	utf16le	InternalName
+2491	utf16le	AppProxy.dll
+2492	utf16le	LegalCopyright
+2493	utf16le	Copyright (C) 2017 ICE Corporation
+2494	utf16le	OriginalFilename
+2495	utf16le	ProductName
+2496	utf16le	ProductVersion
+2497	utf16le	VarFileInfo
+2498	utf16le	Translation

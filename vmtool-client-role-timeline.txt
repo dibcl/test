@@ -1,0 +1,272 @@
+﻿========== VMTOOL CLIENT ROLE TIMELINE ==========
+
+========== libmswitch.dll ==========
+
+========== MswitchWin.exe ==========
+
+========== QoEAgent.log ==========
+2026-08-23 23:40:21: vm qoeagent begin
+2026-08-23 23:40:22: service init begin
+2026-08-23 23:40:22: service register begin
+2026-08-23 23:40:23: WTS_SESSION_LOGON, IsLogOn=1
+2026-08-23 23:40:27: resgister ok.
+2026-08-23 23:40:27: ====all mac num[1]====
+2026-08-23 23:40:27: init ok.
+2026-08-23 23:40:27: VM_Key(C:\Program Files (x86)\vmtool\vm_booster\VM_Key.log) not exist
+2026-08-23 23:40:27: SendMsg succ, ret=326, msg=<REDACTED>
+2026-08-23 23:40:27: VmStartTime info is :{"source":4,"uuid":"000000000000000000000000000000000000","hostid":"000000000000000000000000000000000000","time":"2026-08-23 23:40:27.323","logdatas":[{"log":"VmStartTime:2026-08-23 23:40:27.323"}]}
+2026-08-23 23:40:27: enter thread vmqoe_check_gateway_alarm.
+2026-08-23 23:40:27: enter thread vmqoe_check_abnormal_info.
+2026-08-23 23:40:27: send [VDAR] register info
+2026-08-23 23:40:27: send register info to vdagent success
+2026-08-23 23:40:27: recv from vdagent [84]
+2026-08-23 23:40:27: data->msg_len(0)  real_msg_len(0)
+2026-08-23 23:40:27: data->flags is 1
+2026-08-23 23:40:27: recv VD_RECV_REG msg.
+2026-08-23 23:40:28: ShellExecute stop qoe agent result: 
+2026-08-23 23:40:28: vmqoe bind 38875 port success
+2026-08-23 23:40:28: Authorized application C:\Program Files (x86)\vmtool\vm_booster\VmQoEAgent.exe is enabled in the firewall.
+2026-08-23 23:40:28: computerfullname: YD-TY-01
+2026-08-23 23:40:28: result is  C:       60969480192   85844815872   
+2026-08-23 23:40:28: fmt_disksize_str = C:79.95GB,,fmt_diskused_str = C:23.17GB,
+2026-08-23 23:40:28: result is  D:       508292403200  536869842944  
+2026-08-23 23:40:28: fmt_disksize_str = C:79.95GB,D:500.00GB,,fmt_diskused_str = C:23.17GB,D:26.61GB,
+2026-08-23 23:40:28: result is  (null)
+2026-08-23 23:40:28: version_with_build is [V7.25.21SP3pv-9]!
+2026-08-23 23:40:28: vmtool_version is [V7.25.21SP3pv]!
+2026-08-23 23:40:28: [INFO]Get Vm uuid is:fbfd4bbb-7596-4379-b646-c9ec2245a0a5 
+2026-08-23 23:40:28: buf_vminfo is {"source":4,"uuid":"fbfd4bbb-7596-4379-b646-c9ec2245a0a5","hostid":"000000000000000000000000000000000000","time":"2026-08-23 23:40:28.698","groupid":"-1","createtime":"2026-08-23 23:40:28.698","environment":{"computername":"YD%2DTY%2D01","cpu":"Intel Xeon Processor (Icelake)","os":"%0AMicrosoft+Windows+%5B%E7%89%88%E6%9C%AC+10%2E0%2E19044%2E4529%5D","bit":"64","mem":"16383M","mac":"fa-16-3e-a6-71-6d","ip":"172.20.176.122","disk":"C:79.95GB,D:500.00GB","diskused": "C:23.17GB,D:26.61GB","version": "V7.25.21SP3pv","targetversion": ""}}
+2026-08-23 23:40:28: SendMsg succ, ret=666, msg=<REDACTED>
+2026-08-23 23:40:28: [INFO]Get Vm uuid is:fbfd4bbb-7596-4379-b646-c9ec2245a0a5 
+2026-08-23 23:40:28: SendMsg succ, ret=1948, msg=<REDACTED>
+2026-08-23 23:40:28: Wow6432Node software count is 10
+2026-08-23 23:40:28: [INFO]Get Vm uuid is:fbfd4bbb-7596-4379-b646-c9ec2245a0a5 
+2026-08-23 23:40:28: SendMsg succ, ret=1251, msg=<REDACTED>
+2026-08-23 23:40:28: NOT Wow6432Node software count is 6
+2026-08-23 23:40:28: [INFO]Get Vm uuid is:fbfd4bbb-7596-4379-b646-c9ec2245a0a5 
+2026-08-23 23:40:28: Connected to WMI
+2026-08-23 23:40:28: KB5037587 State :6/21/2024
+2026-08-23 23:40:28: KB5037592 State :6/21/2024
+2026-08-23 23:40:28: KB5003791 State :10/6/2021
+2026-08-23 23:40:28: KB5011048 State :6/21/2024
+2026-08-23 23:40:28: KB5011050 State :6/21/2024
+2026-08-23 23:40:28: KB5026037 State :6/17/2024
+2026-08-23 23:40:28: KB5039211 State :6/21/2024
+2026-08-23 23:40:28: KB5037995 State :6/21/2024
+2026-08-23 23:40:28: KB5005699 State :10/6/2021
+2026-08-23 23:40:28: SendMsg succ, ret=1497, msg=<REDACTED>
+2026-08-23 23:40:28: msg is {"source":4,"uuid":"fbfd4bbb-7596-4379-b646-c9ec2245a0a5","hostid":"000000000000000000000000000000000000","createtime":"2026-08-23 23:40:28.698","mothod":"1","softwares":[{"name":"KB5037587","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5037592","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5003791","type":"2","publisher":"Microsoft Corporation","installtime":"10/6/2021","size":"0","version":" ","operate":"1"},{"name":"KB5011048","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5011050","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5026037","type":"2","publisher":"Microsoft Corporation","installtime":"6/17/2024","size":"0","version":" ","operate":"1"},{"name":"KB5039211","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5037995","type":"2","publisher":"Microsoft Corporation","installtime":"6/21/2024","size":"0","version":" ","operate":"1"},{"name":"KB5005699","type":"2","publisher":"Microsoft Corporation","installtime":"10/6/2021","size":"0","version":" ","operate":"1"}]}
+2026-08-23 23:40:38: recvdata is 2026-08-23 23:40:38.748|0|208|1|18|||fbfd4bbb-7596-4379-b646-c9ec2245a0a5|msgtype=9060{"resourceSpans": [{"resource":{"attributes":[{"key": "service.name","value": {"stringValue": "ICE"}}]},"scopeSpans": [{"scope": {"name": "ICE"},"spans": [{"attributes":[{"key": "module_name","value": {"stringValue": "ICE"}},{"key": "trace_level","value": {"stringValue": "1"}},{"key": "result_code","value": {"stringValue": "0"}},{"key": "source","value": {"stringValue": "4"}},{"key": "uuid","value": {"stringValue": "fbfd4bbb-7596-4379-b646-c9ec2245a0a5"}},{"key": "time","value": {"stringValue": "2026-08-23T23:40:38.748+08:00"}},{"key": "createtime","value": {"stringValue": "2026-08-23T23:40:38.732+08:00"}},{"key": "log_type","value": {"stringValue": "0"}},{"key": "serviceId","value": {"stringValue": "401"}},{"key": "process_id","value": {"stringValue": "2"}},{"key": "subprocess_id","value": {"stringValue": "1"}},{"key": "in_paras","value": {"stringValue": "Key:fbfd4bbb-7596-4379-b646-c9ec2245a0a5\nCmd:Set-Key\nID:1028\nseq_no:11\n"}},{"key": "out_paras","value": {"stringValue": "Key:fbfd4bbb-7596-4379-b646-c9ec2245a0a5
+2026-08-23 23:40:38: SendMsg succ, ret=1614, msg=<REDACTED>
+2026-08-23 23:40:40: recvdata is 2026-08-23 23:40:40.945|0|209|2|3||||tunnel_ssl_connection success|00026991-5b13-4d81-9f6f-8b1b6592083a|0|0|207
+2026-08-23 23:40:40: recvdata is 2026-08-23 23:40:40.945|0|208|2|3|||fbfd4bbb-7596-4379-b646-c9ec2245a0a5|Authentication Successed|00026991-5b13-4d81-9f6f-8b1b6592083a|0|0|
+2026-08-23 23:40:40: recvdata is 2026-08-23 23:40:40.945|0|208|1|18|||fbfd4bbb-7596-4379-b646-c9ec2245a0a5|msgtype=9060{"resourceSpans": [{"resource":{"attributes":[{"key": "service.name","value": {"stringValue": "ICE"}}]},"scopeSpans": [{"scope": {"name": "ICE"},"spans": [{"attributes":[{"key": "module_name","value": {"stringValue": "ICE"}},{"key": "trace_level","value": {"stringValue": "1"}},{"key": "result_code","value": {"stringValue": "0"}},{"key": "source","value": {"stringValue": "4"}},{"key": "uuid","value": {"stringValue": "fbfd4bbb-7596-4379-b646-c9ec2245a0a5"}},{"key": "time","value": {"stringValue": "2026-08-23T23:40:40.945+08:00"}},{"key": "createtime","value": {"stringValue": "2026-08-23T23:40:40.945+08:00"}},{"key": "log_type","value": {"stringValue": "0"}},{"key": "serviceId","value": {"stringValue": "401"}},{"key": "process_id","value": {"stringValue": "2"}},{"key": "subprocess_id","value": {"stringValue": "1"}},{"key": "in_paras","value": {"stringValue": "Authentication |fbfd4bbb-7596-4379-b646-c9ec2245a0a5|0|0|beebb419c4f9334312a186f1ced790fd|d2ce26646a034ae8|"}},{"key": "out_paras","value": {"stringValue": ""}},{"key": "result_message","value": {"stringValue": "Authentication Successed"}}],"endTimeUnixNano": "1787499640945531700","flags": 1,"kind": 3,"name": "Authentication","parentSpanId": "d2ce26646a034ae8","spanId": "20da51748bef4d59","startTimeUnixNano": "1787499640945459400","traceId": "beebb419c4f9334312a186f1ced790fd"}]}]}]}
+2026-08-23 23:40:40: SendMsg succ, ret=1484, msg=<REDACTED>
+2026-08-23 23:40:41: recvdata is 2026-08-23 23:40:41.704|0|5|3|1||||Agent stopped
+2026-08-23 23:40:41: recvdata is 2026-08-23 23:40:41.812|0|208|2|3||716AF8CC-F57B-413C-9679-AB609C0D19CD|fbfd4bbb-7596-4379-b646-c9ec2245a0a5|client login success
+2026-08-23 23:40:42: recvdata is 2026-08-23 23:40:42.019|0|208|2|3|||fbfd4bbb-7596-4379-b646-c9ec2245a0a5|Display Channel Link Success|00026991-5b13-4d81-9f6f-8b1b6592083a|0|0|
+2026-08-23 23:40:42: vdagent is exited, need register
+2026-08-23 23:40:42: wait 5 seconds for vdagent ...
+2026-08-23 23:40:42: recvdata is 2026-08-23 23:40:42.074|0|5|3|1||||Agent started in session 1
+2026-08-23 23:40:42: recvdata is 2026-08-23 23:40:42.099|0|5|3|22||||client has capability for multi-screen adaptation.
+2026-08-23 23:40:42: recvdata is 2026-08-23 23:40:42.138|0|5|3|29||||IP:172.20.176.122,fe80::f816:3eff:fea6:716d
+2026-08-23 23:40:42: recvdata is 2026-08-23 23:40:42.936|0|6|4|1||||receive success: bus_num=3,dev_num=1,isImport=16,ip=0, username = 
+2026-08-23 23:40:43: recvdata is 2026-08-23 23:40:43.639|0|6|4|1||||receive success: bus_num=0,dev_num=2,isImport=12,ip=0, username = 
+2026-08-23 23:40:43: recvdata is 2026-08-23 23:40:43.649|0|6|19|1||||printer:[Microsoft Print to PDF_cp],result: redirect success. redirect type 2
+2026-08-23 23:40:44: recvdata is 2026-08-23 23:40:44.125|0|208|16|1|||fbfd4bbb-7596-4379-b646-c9ec2245a0a5|Current Client Spuuort Full Process Tracking|6274c790-e9b2-407f-8e8a-b8e8d842c895|0|0|5
+2026-08-23 23:40:44: recvdata is 2026-08-23 23:40:44.309|0|5|16|1||||ChangeWddmDispMode: add new mode 3072x1920x32 success!|6274c790-e9b2-407f-8e8a-b8e8d842c895|0|0
+2026-08-23 23:40:44: recvdata is 2026-08-23 23:40:44.398|0|5|16|1||||Set display \\.\DISPLAY1 mode 3072x1920 display_id 0.|6274c790-e9b2-407f-8e8a-b8e8d842c895|0|0
+2026-08-23 23:40:44: recvdata is 2026-08-23 23:40:44.420|0|5|16|1||||handle_mon_config reply errcode=1.|6274c790-e9b2-407f-8e8a-b8e8d842c895|0|0
+
+========== QoEAgent_bak.log ==========
+
+========== qoelog.dll ==========
+
+========== Vmbooster.exe ==========
+
+========== vmbooster.log ==========
+2026-08-23 23:40:21: Device size of is 536870912000(Byte), 500.00(Gb)
+2026-08-23 23:40:21: partition start offset is 1048576/0.00, partition end offset is 536870894592/500.00, maximumoffset is 536870912000/500.00
+2026-08-23 23:40:21: start to initial 1/1(disk no./partition no.) and extend file system
+2026-08-23 23:40:21: parition has been extended
+2026-08-23 23:40:21: extend file system of data disk 1 succeed.
+2026-08-23 23:40:21: extend file system of data disk 2 failed, error_code = 6.
+2026-08-23 23:40:27: [info][VMBooster.cpp:1857][init]resgister ok.
+2026-08-23 23:40:37: [info][VMBooster.cpp:5975][get_vm_version]version_with_build is V7.25.21SP3pv-9
+2026-08-23 23:40:37: [info][VMBooster.cpp:5982][get_vm_version]vmtool_version is [V7.25.21SP3pv]!
+2026-08-23 23:40:37: [info][VMBooster.cpp:5987][get_vm_version]read config 'vdagent_version' from [C:\Program Files (x86)\vmtool\vm_booster\version.ini] failed!
+2026-08-23 23:40:37: [info][VMBooster.cpp:5989][get_vm_version]vdagent_version is []!
+2026-08-23 23:40:37: [info][VMBooster.cpp:5993][get_vm_version]read config 'usbipc_version' from [C:\Program Files (x86)\vmtool\vm_booster\version.ini] failed!
+2026-08-23 23:40:37: [info][VMBooster.cpp:5995][get_vm_version]usbipc_version is []!
+2026-08-23 23:40:37: [info][VMBooster.cpp:5999][get_vm_version]read config 'media_redirect_version' from [C:\Program Files (x86)\vmtool\vm_booster\version.ini] failed!
+2026-08-23 23:40:37: [info][VMBooster.cpp:6001][get_vm_version]media_redirect_version is []!
+2026-08-23 23:40:37: [info][VMBooster.cpp:6006][get_vm_version]pvDriver version  is:3.18.34.723185c6 
+2026-08-23 23:40:37: [info][VMBooster.cpp:1774][init_log_level]read reg ret:0, info:1, toint:1
+2026-08-23 23:40:37: [info][VMBooster.cpp:4106][getCurrentHostname]current ComputerName: YD-TY-01
+2026-08-23 23:40:37: [info][VMBooster.cpp:4125][getCurrentFullHostname]current ComputerName: YD-TY-01
+2026-08-23 23:40:37: [info][VMBooster.cpp:4156][get_hostname]computerfullname: YD-TY-01
+2026-08-23 23:40:37: [info][VMBooster.cpp:4063][check_fast_domain]vm is fast domain vm
+2026-08-23 23:40:37: [error][VMBooster.cpp:4000][read_dword_reg]read reg key(Sysprep) failed:2
+2026-08-23 23:40:37: [info][VMBooster.cpp:4042][get_vm_sysprep_stat]vm is not syspreped.
+2026-08-23 23:40:37: [info][VMBooster.cpp:8708][disk_operate_all]GetTickCount is 20234
+2026-08-23 23:40:37: [info][VMBooster.cpp:4630][vmagent_send_alarminfo_to_hmbooster]send  vm alarm  info thread started...
+2026-08-23 23:40:37: [info][VMBooster.cpp:4361][get_vm_info]Send msg to host,msgtype = 8008.
+2026-08-23 23:40:37: [info][VMBooster.cpp:4811][vm_running_time_report][INFO]Thread vm_running_time_report started.
+2026-08-23 23:40:37: [info][VMBooster.cpp:5154][joinDNSdomain]joinDomainflag.txt not found,go next.
+2026-08-23 23:40:37: [info][VMBooster.cpp:5718][vmbooster_listen_msg_req]vmbooster port 65188 socket listen success.
+2026-08-23 23:40:37: [info][VMBooster.cpp:4603][vmagent_send_heartbeat_to_hmbooster]send  vm computer  info thread started...
+2026-08-23 23:40:37: [info][VMBooster.cpp:5211][joinDNSdomain]domaininfo.ini not found
+2026-08-23 23:40:37: [info][VMBooster.cpp:5350][joinDNSdomain]unjoin.ini not found,go next.
+2026-08-23 23:40:37: [info][VMBooster.cpp:5416][joinDNSdomain]rename.ini not found,go next.
+2026-08-23 23:40:37: [info][VMBooster.cpp:3621][pm_timer]====all mac num[1]====
+2026-08-23 23:40:37: [info][VMBooster.cpp:6329][GetOsString]os version major:10;minor:0;
+2026-08-23 23:40:37: [info][config_ip.cpp:1034][GetNicString]ip 172.20.176.122
+2026-08-23 23:40:37: [info][config_ip.cpp:1102][GetNicString]mac_addr:FA:16:3E:A6:71:6D  ai:FA:16:3E:A6:71:6D
+2026-08-23 23:40:37: [info][config_ip.cpp:1177][GetNicString]NumIpv6 is 0
+2026-08-23 23:40:37: [info][VMBooster.cpp:3740][send_msg_ex]SendMsg success:ip=172.20.176.122,gateway=172.20.176.1,netmask=255.255.254.0,mac=fa:16:3e:a6:71:6d,dns=211.136.20.203,reservedns=211.136.17.107,dhcp=1,dhcpv6=1,gatewayv6=,netmaskv6=,dnsv6=,reservednsv6=;,resultid[315]
+2026-08-23 23:40:37: [info][VMBooster.cpp:4716][mac_info_update]report all mac info to host_ha![ip=172.20.176.122,gateway=172.20.176.1,netmask=255.255.254.0,mac=fa:16:3e:a6:71:6d,dns=211.136.20.203,reservedns=211.136.17.107,dhcp=1,dhcpv6=1,gatewayv6=,netmaskv6=,dnsv6=,reservednsv6=;]
+2026-08-23 23:40:37: [info][config_ip.cpp:883][get_privacy]is_win_10_add is 1
+2026-08-23 23:40:37: [info][config_ip.cpp:61][shell_rst]cmd is "C:\Program Files (x86)\vmtool\vm_booster\set_ipv6_random.bat" powershell
+2026-08-23 23:40:37: [info][VMBooster.cpp:6233][get_os_info]product_name is Caption                           
+2026-08-23 23:40:37: [info][VMBooster.cpp:6378][GetOsString]GetOSName=Microsoft Windows 10(64),ReslutFlag=1,osbit=1
+2026-08-23 23:40:37: [info][VMBooster.cpp:6396][GetOsString]GetOSInof successfully
+2026-08-23 23:40:37: [info][VMBooster.cpp:3740][send_msg_ex]SendMsg success:OsName=Microsoft Windows 10(64);Osbit=1;ReslutFlag=1; ,resultid[182]
+2026-08-23 23:40:37: [info][VMBooster.cpp:6419][os_info_report]report Os info to host_ha![OsName=Microsoft Windows 10(64);Osbit=1;ReslutFlag=1; ]
+2026-08-23 23:40:37: [info][VMBooster.cpp:9227][VMBooster]begin send heartbeat
+2026-08-23 23:40:37: [info][VMBooster.cpp:9237][VMBooster]msg_id[0] data_len[78]
+2026-08-23 23:40:37: [info][VMBooster.cpp:6411][os_info_report]buff is null,no msg!
+2026-08-23 23:40:37: [info][VMBooster.cpp:9237][VMBooster]msg_id[0] data_len[71]
+2026-08-23 23:40:37: [info][VMBooster.cpp:9087][msg_type_dispatcher]receive 4100 response vmuuid is fbfd4bbb-7596-4379-b646-c9ec2245a0a5 
+2026-08-23 23:40:37: [info][VMBooster.cpp:6411][os_info_report]buff is null,no msg!
+2026-08-23 23:40:37: [info][VMBooster.cpp:9237][VMBooster]msg_id[0] data_len[92]
+2026-08-23 23:40:37: [info][VMBooster.cpp:6411][os_info_report]buff is null,no msg!
+2026-08-23 23:40:37: [info][VMBooster.cpp:2166][DealProcessMsg]cmd to exec is cmd.exe /c "C:\Program Files (x86)\ZTEGuestOS\IceServer\IceDetachDisplay.exe" uuid fbfd4bbb-7596-4379-b646-c9ec2245a0a5
+2026-08-23 23:40:37: [info][VMBooster.cpp:2220][DealProcessMsg]pipeinfo:hRead=0 hWrite=0 processinfo:hProcess=916 hThread=912 dwProcessid=10312 dwThreadid=10316 
+2026-08-23 23:40:38: [info][VMBooster.cpp:9127][deal_msgtype_msg]tasksize is 2
+2026-08-23 23:40:38: [info][VMBooster.cpp:2380][msg_deal_by_msgtype]msg type is 8009, msgid is 
+2026-08-23 23:40:38: [info][VMBooster.cpp:2570][msg_deal_by_msgtype]receive MSG_TYPE_VM_INFO_RSP
+2026-08-23 23:40:38: [info][VMBooster.cpp:2579][msg_deal_by_msgtype]set gselfuuid = fbfd4bbb-7596-4379-b646-c9ec2245a0a5
+2026-08-23 23:40:38: [info][VMBooster.cpp:9127][deal_msgtype_msg]tasksize is 1
+2026-08-23 23:40:38: [info][VMBooster.cpp:2380][msg_deal_by_msgtype]msg type is 1400, msgid is 
+2026-08-23 23:40:38: [info][VMBooster.cpp:9237][VMBooster]msg_id[8454849] data_len[187]
+2026-08-23 23:40:38: [info][VMBooster.cpp:9257][VMBooster]report ip success.
+2026-08-23 23:40:38: [info][VMBooster.cpp:6411][os_info_report]buff is null,no msg!
+2026-08-23 23:40:38: [info][VMBooster.cpp:9237][VMBooster]msg_id[8454855] data_len[54]
+2026-08-23 23:40:38: [info][VMBooster.cpp:9260][VMBooster]report OS info success.
+2026-08-23 23:40:39: [info][config_ip.cpp:891][get_privacy]cmd:"C:\Program Files (x86)\vmtool\vm_booster\set_ipv6_random.bat" powershell, buf:"privacy is not enabled"
+2026-08-23 23:40:42: [info][VMBooster.cpp:5730][vmbooster_listen_msg_req]accept success.
+2026-08-23 23:40:42: [info][VMBooster.cpp:5744][vmbooster_listen_msg_req]recv success,buf = [msgtype=8067;connect=1;].
+2026-08-23 23:40:42: [info][VMBooster.cpp:5826][vmbooster_listen_msg_req]rsp:msgtype=8068;result=0;.
+2026-08-23 23:40:42: [info][VMBooster.cpp:3740][send_msg_ex]SendMsg success:1,resultid[129]
+
+========== VmBoosterMonitor.exe ==========
+
+========== vmbooster_bak.log ==========
+
+========== VmQoEAgent.exe ==========
+
+========== vmswitch.log ==========
+2026-08-23 23:40:21 F[InitVirtioSerialPort:663] L[INFO]Open vioserial device=\\.\Global\com.vmswitch.0 success
+2026-08-23 23:40:21 F[CustomMainProcess:1752] L[INFO]init com port success!
+2026-08-23 23:40:21 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:21 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:22 F[mswitch_entry:1822] L[ERROR]error is :0
+2026-08-23 23:40:22 F[mswitch_entry:1825] L[ERROR]error is :183
+2026-08-23 23:40:22 F[mswitch_agent_task:1488] L[INFO]CreateSockSucc 472
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=0, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=1, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=2, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=3, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=4, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=5, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=6, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=7, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=8, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_alloc:106] L[INFO]client alloc,i=9, clientfd=-1, clienttick=0
+2026-08-23 23:40:23 F[client_add:129] L[INFO]client add,i=0, clientfd=476, clienttick=0, fd=476
+2026-08-23 23:40:23 F[mswitch_agent_task:1534] L[INFO]accept agentsock=476, port=49675, i=0, maxi=0, clientfd=476, clienttick=0
+2026-08-23 23:40:23 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 476, err=0
+2026-08-23 23:40:23 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=476
+2026-08-23 23:40:23 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 476
+2026-08-23 23:40:23 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 476
+2026-08-23 23:40:23 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=476, msi_tid=456,msi_src_sock=476 
+2026-08-23 23:40:23 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+2026-08-23 23:40:27 F[client_add:129] L[INFO]client add,i=0, clientfd=492, clienttick=0, fd=492
+2026-08-23 23:40:27 F[mswitch_agent_task:1534] L[INFO]accept agentsock=492, port=49749, i=0, maxi=0, clientfd=492, clienttick=0
+2026-08-23 23:40:27 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 492, err=0
+2026-08-23 23:40:27 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=492
+2026-08-23 23:40:27 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 492
+2026-08-23 23:40:27 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 492
+2026-08-23 23:40:27 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=492, msi_tid=496,msi_src_sock=492 
+2026-08-23 23:40:27 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+2026-08-23 23:40:27 F[client_add:129] L[INFO]client add,i=0, clientfd=508, clienttick=0, fd=508
+2026-08-23 23:40:27 F[mswitch_agent_task:1534] L[INFO]accept agentsock=508, port=49751, i=0, maxi=0, clientfd=508, clienttick=0
+2026-08-23 23:40:27 F[mswitch_agent_task:1548] L[INFO]recv msg for register,agentsock 508, err=0
+2026-08-23 23:40:27 F[client_del:146] L[INFO]client del,i=0, clientfd=-1, clienttick=0, fd=508
+2026-08-23 23:40:27 F[mswitch_agent_task:1565] L[INFO]accept register msg,sock 508
+2026-08-23 23:40:27 F[mswitch_message_for_register:1359] L[INFO]msg for register,sock 508
+2026-08-23 23:40:27 F[mswitch_message_for_register:1434] L[INFO]thread create succ, sock=508, msi_tid=512,msi_src_sock=508 
+2026-08-23 23:40:27 F[mswitch_agent_transmit_thread:1260] L[INFO]SockOpt Recvbuff Value: 65536
+2026-08-23 23:40:27 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=327, dst_type=1, int_msgid=9055, dst_mod=10, data_len=198,msg=<REDACTED>
+2026-08-23 23:40:28 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=667, dst_type=1, int_msgid=9050, dst_mod=10, data_len=538,msg=<REDACTED>
+2026-08-23 23:40:28 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1949, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1820,msg=<REDACTED>
+2026-08-23 23:40:28 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1252, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1123,msg=<REDACTED>
+2026-08-23 23:40:29 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1498, dst_type=1, int_msgid=9054, dst_mod=10, data_len=1369,msg=<REDACTED>
+2026-08-23 23:40:37 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=154, dst_type=1, int_msgid=8059, dst_mod=-2147483648, data_len=23,msg=<REDACTED>
+2026-08-23 23:40:37 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=145, dst_type=1, int_msgid=8008, dst_mod=-2147483648, data_len=16,msg=<REDACTED>
+2026-08-23 23:40:37 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=641, dst_type=1, int_msgid=4002, dst_mod=-2147483648, data_len=512,msg=<REDACTED>
+2026-08-23 23:40:37 F[ReadFromSerialPort:871] L[INFO]Read complete 210
+2026-08-23 23:40:37 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=210
+2026-08-23 23:40:37 F[ReadFromSerialPort:894] L[INFO]Succ Read:206 Bytes
+2026-08-23 23:40:37 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+2026-08-23 23:40:37 F[CRC_Recieve:1009] L[INFO]Readmsg:206, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+2026-08-23 23:40:37 F[CustomMainProcess:1789] L[INFO]recv data len 206 transmit by socket.
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=78, data=<REDACTED>
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+2026-08-23 23:40:37 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:37 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:37 F[ReadFromSerialPort:871] L[INFO]Read complete 203
+2026-08-23 23:40:37 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=203
+2026-08-23 23:40:37 F[ReadFromSerialPort:894] L[INFO]Succ Read:199 Bytes
+2026-08-23 23:40:37 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+2026-08-23 23:40:37 F[CRC_Recieve:1009] L[INFO]Readmsg:199, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+2026-08-23 23:40:37 F[CustomMainProcess:1789] L[INFO]recv data len 199 transmit by socket.
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=71, data=<REDACTED>
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+2026-08-23 23:40:37 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:37 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:37 F[ReadFromSerialPort:871] L[INFO]Read complete 226
+2026-08-23 23:40:37 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=226
+2026-08-23 23:40:37 F[ReadFromSerialPort:894] L[INFO]Succ Read:220 Bytes
+2026-08-23 23:40:37 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+2026-08-23 23:40:37 F[CRC_Recieve:1009] L[INFO]Readmsg:220, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+2026-08-23 23:40:37 F[CustomMainProcess:1789] L[INFO]recv data len 220 transmit by socket.
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=0, dst_mod=-2147483647, data_len=92, data=<REDACTED>
+2026-08-23 23:40:37 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+2026-08-23 23:40:37 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:37 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:37 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=317, dst_type=1, int_msgid=8454847, dst_mod=6, data_len=187,msg=<REDACTED>
+2026-08-23 23:40:37 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=186, dst_type=1, int_msgid=8454853, dst_mod=6, data_len=54,msg=<REDACTED>
+2026-08-23 23:40:38 F[ReadFromSerialPort:871] L[INFO]Read complete 317
+2026-08-23 23:40:38 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=317
+2026-08-23 23:40:38 F[ReadFromSerialPort:894] L[INFO]Succ Read:315 Bytes
+2026-08-23 23:40:38 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+2026-08-23 23:40:38 F[CRC_Recieve:1009] L[INFO]Readmsg:315, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+2026-08-23 23:40:38 F[CustomMainProcess:1789] L[INFO]recv data len 315 transmit by socket.
+2026-08-23 23:40:38 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454849, dst_mod=-2147483647, data_len=187, data=<REDACTED>
+2026-08-23 23:40:38 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+2026-08-23 23:40:38 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:38 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:38 F[ReadFromSerialPort:871] L[INFO]Read complete 186
+2026-08-23 23:40:38 F[ReadFromSerialPort:887] L[INFO]Read File Succ,Rbytes=186
+2026-08-23 23:40:38 F[ReadFromSerialPort:894] L[INFO]Succ Read:182 Bytes
+2026-08-23 23:40:38 F[ReadFromSerialPort:906] L[INFO]LeaveRLock
+2026-08-23 23:40:38 F[CRC_Recieve:1009] L[INFO]Readmsg:182, magic_code:0x5b5b5b5b, dst_mod:-2147483647, msg=<REDACTED>
+2026-08-23 23:40:38 F[CustomMainProcess:1789] L[INFO]recv data len 182 transmit by socket.
+2026-08-23 23:40:38 F[mswitch_transmit_message_by_socket:1702] L[INFO]send_msg dst_type=2, int_msgid=8454855, dst_mod=-2147483647, data_len=54, data=<REDACTED>
+2026-08-23 23:40:38 F[mswitch_transmit_message_by_socket:1715] L[INFO]send_msg=<REDACTED>
+2026-08-23 23:40:38 F[ReadFromSerialPort:818] L[INFO]EnterRLock
+2026-08-23 23:40:38 F[ReadFromSerialPort:849] L[INFO]Read File, curr_size=51200
+2026-08-23 23:40:38 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1619, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1486,msg=<REDACTED>
+2026-08-23 23:40:40 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=1485, dst_type=1, int_msgid=9060, dst_mod=10, data_len=1356,msg=<REDACTED>
+2026-08-23 23:40:42 F[CRC_Send:967] L[INFO]WriteSerialPort succ, ret=130, dst_type=1, int_msgid=8454852, dst_mod=6, data_len=1,msg=<REDACTED>
