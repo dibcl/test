@@ -64,6 +64,22 @@ class RegistryTests(unittest.TestCase):
         )
         self.assertIsInstance(provider, HybridSyntheticNetworkProvider)
 
+    def test_live_system_requires_explicit_diagnostic_opt_in(self) -> None:
+        with self.assertRaisesRegex(ValueError, "diagnostic-only"):
+            build_provider({"provider": {"type": "live_system"}})
+        with self.assertRaisesRegex(ValueError, "diagnostic-only"):
+            build_provider({"provider": {"type": "live"}})
+
+        provider = build_provider({
+            "provider": {
+                "type": "live_system",
+                "diagnostic_only": True,
+                "process_limit": 3,
+            }
+        })
+        self.assertIsInstance(provider, LiveSystemProvider)
+        self.assertEqual(provider.process_limit, 3)
+
     def test_runtime_profile_has_no_legacy_placeholder_tokens(self) -> None:
         text = RUNTIME_FIXTURE.read_text(encoding="utf-8")
         forbidden = (
