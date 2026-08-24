@@ -150,11 +150,108 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
         )
 
 
-class LiveSystemProvider(BaseMetricsProvider):
-    """Collect live host metrics through psutil.
+class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
+    """Synthetic system metrics plus aggregate live network throughput.
 
-    This provider emits generic runtime observations only. It does not construct
-    proprietary frames or attach instance identity material to outbound data.
+    CPU, memory, disk and process data remain profile-backed/synthetic. The only
+    live host observation is the aggregate byte counters returned by
+    psutil.net_io_counters(pernic=False), which are converted to receive/send
+    rates. No hostname, interface name, IP address, MAC address, route, DNS,
+    package list, disk usage, CPU state, memory state or process list is read.
+
+    This provider is intended for privacy-isolated lab/runtime testing. It does
+    not construct proprietary management-plane messages.
+    """
+
+    name = "hybrid-synthetic-network"
+
+    def __init__(self, profile_path: str | Path) -> None:
+        super().__init__(profile_path)
+        self._last_net = None
+        self._last_time: float | None = None
+
+    async def start(self) -> None:
+        import psutil
+
+        self._last_net = psutil.net_io_counters(pernic=False)
+        self._last_time = time.monotonic()
+
+    async def health_check(self) -> ProviderHealth:
+        base = await super().health_check()
+        if not base.healthy:
+            return base
+        try:
+            import psutil
+
+            counters = psutil.net_io_counters(pernic=False)
+            if counters is None:
+                raise RuntimeError("aggregate network counters unavailable")
+        except Exception as exc:
+            return ProviderHealth(False, f"aggregate network counters unavailable: {exc}")
+        return ProviderHealth(
+            True,
+            "synthetic metrics + aggregate live network ready",
+            {
+                "path": str(self.path),
+                "live_scope": "aggregate_network_counters_only",
+            },
+        )
+
+    def _collect_network(self) -> dict[str, Any]:
+        import psutil
+
+        net = psutil.net_io_counters(pernic=False)
+        if net is None:
+            raise RuntimeError("aggregate network counters unavailable")
+        now = time.monotonic()
+
+        rx_rate = None
+        tx_rate = None
+        if self._last_net is not None and self._last_time is not None:
+            delta = max(now - self._last_time, 0.001)
+            rx_rate = max(0.0, (net.bytes_recv - self._last_net.bytes_recv) / delta)
+            tx_rate = max(0.0, (net.bytes_sent - self._last_net.bytes_sent) / delta)
+
+        self._last_net = net
+        self._last_time = now
+        return {
+            "bytes_sent": net.bytes_sent,
+            "bytes_recv": net.bytes_recv,
+            "tx_bytes_per_second": tx_rate,
+            "rx_bytes_per_second": rx_rate,
+            "scope": "aggregate",
+        }
+
+    async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
+        self.cpu = self._walk(self.cpu, self.cpu_cfg)
+        self.memory = self._walk(self.memory, self.mem_cfg)
+        self.disk = self._walk(self.disk, self.disk_cfg)
+        network = await asyncio.to_thread(self._collect_network)
+
+        return TelemetrySnapshot(
+            observed_at=clock.now().isoformat(),
+            provider=self.name,
+            metrics={
+                "cpu": {"percent": round(self.cpu, 2), "source": "synthetic"},
+                "memory": {"percent": round(self.memory, 2), "source": "synthetic"},
+                "disk_io": {"synthetic_rate": round(self.disk, 2), "source": "synthetic"},
+                "network_io": network,
+                "process_snapshot": self.profile.get("process_snapshot", {}),
+            },
+            metadata={
+                "profile": str(self.path),
+                "mode": "synthetic-with-live-network",
+                "live_scope": "aggregate_network_counters_only",
+            },
+        )
+
+
+class LiveSystemProvider(BaseMetricsProvider):
+    """Collect live host metrics through psutil for diagnostics.
+
+    Unlike HybridSyntheticNetworkProvider, this diagnostic provider inspects
+    live CPU, memory, disk, process and hostname state. Do not use it when the
+    runtime must remain isolated from host identity/state.
     """
 
     name = "live-system"
@@ -268,5 +365,5 @@ class LiveSystemProvider(BaseMetricsProvider):
             observed_at=clock.now().isoformat(),
             provider=self.name,
             metrics=metrics,
-            metadata={"mode": "live"},
+            metadata={"mode": "live-diagnostic"},
         )
