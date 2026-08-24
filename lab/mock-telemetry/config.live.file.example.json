@@ -1,0 +1,15 @@
+{
+  "provider": {
+    "type": "live_system",
+    "process_limit": 20
+  },
+  "clock": {
+    "type": "real"
+  },
+  "transport": {
+    "type": "file_dump",
+    "path": "lab/mock-telemetry/out/live.jsonl"
+  },
+  "interval_seconds": 1,
+  "duration_seconds": 30
+}
