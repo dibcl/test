@@ -169,6 +169,7 @@ def build_settings(cfg: Mapping[str, Any]) -> AgentSettings:
         interval_seconds=float(cfg.get("interval_seconds", 1.0)),
         duration_seconds=float(duration) if duration is not None else None,
         schema_version=int(cfg.get("schema_version", 1)),
+        provider_health_timeout=float(cfg.get("provider_health_timeout", 5.0)),
     )
     settings.validate()
     return settings
