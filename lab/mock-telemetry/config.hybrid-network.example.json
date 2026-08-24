@@ -1,7 +1,7 @@
 {
   "provider": {
     "type": "hybrid_network",
-    "profile": "lab/mock-telemetry/baseline.synthetic.json"
+    "profile": "lab/mock-telemetry/baseline.runtime.json"
   },
   "clock": {
     "type": "real"
