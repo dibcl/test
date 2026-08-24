@@ -11,6 +11,7 @@ from telemetry.clocks import SimulatedClock
 from telemetry.config import build_provider, build_settings, build_transport
 from telemetry.model import TelemetrySnapshot
 from telemetry.providers import BaseMetricsProvider, FrozenProfileProvider, SyntheticMetricsProvider
+from telemetry.runtime import TelemetryRuntime
 from telemetry.transports import FileDumpTransport, MemoryTransport
 
 
@@ -106,6 +107,25 @@ class AgentTests(unittest.IsolatedAsyncioTestCase):
         self.assertIs(agent.provider, new)
         self.assertEqual(new.started, 1)
         self.assertEqual(old.stopped, 1)
+
+    async def test_runtime_switches_provider_from_config(self) -> None:
+        runtime = TelemetryRuntime(
+            {
+                "profile": str(FIXTURE),
+                "transport": {"type": "memory"},
+                "clock": {"type": "simulated", "start": "2030-01-01T00:00:00+00:00"},
+                "duration_seconds": 0,
+            }
+        )
+        self.assertIsInstance(runtime.agent.provider, FrozenProfileProvider)
+
+        await runtime.switch_provider(
+            {"type": "synthetic", "profile": str(FIXTURE)}
+        )
+
+        self.assertIsInstance(runtime.agent.provider, SyntheticMetricsProvider)
+        self.assertEqual(runtime.config["provider"]["type"], "synthetic")
+        self.assertNotIn("profile", runtime.config)
 
     async def test_file_dump_writes_ndjson(self) -> None:
         provider = FrozenProfileProvider(FIXTURE)
