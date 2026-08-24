@@ -2,7 +2,7 @@
   "provider": {
     "type": "live_system",
     "process_limit": 20,
-    "disk_path": "/"
+    "disk_path": "."
   },
   "clock": {
     "type": "real"
