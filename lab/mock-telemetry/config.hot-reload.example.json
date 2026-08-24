@@ -1,0 +1,19 @@
+{
+  "provider": {
+    "type": "synthetic",
+    "profile": "lab/mock-telemetry/baseline.synthetic.json"
+  },
+  "clock": {
+    "type": "real"
+  },
+  "transport": {
+    "type": "file_dump",
+    "path": "lab/mock-telemetry/out/hot-reload.jsonl"
+  },
+  "interval_seconds": 1,
+  "provider_health_timeout": 5,
+  "reload": {
+    "enabled": true,
+    "poll_seconds": 1
+  }
+}
