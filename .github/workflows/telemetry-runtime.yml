@@ -84,8 +84,8 @@ jobs:
       - name: Run full unit suite on Debian 13
         run: .venv/bin/python -m unittest discover -s tests -v
 
-      - name: Run live-system provider smoke test
+      - name: Run hybrid-network provider smoke test
         run: |
-          .venv/bin/python -c 'import json,pathlib; cfg={"provider":{"type":"live_system","process_limit":5},"clock":{"type":"real"},"transport":{"type":"file_dump","path":"/tmp/debian-live.jsonl"},"interval_seconds":1,"duration_seconds":0}; pathlib.Path("/tmp/debian-smoke.json").write_text(json.dumps(cfg),encoding="utf-8")'
+          .venv/bin/python -c 'import json,pathlib; cfg={"provider":{"type":"hybrid_network","profile":"baseline.synthetic.json"},"clock":{"type":"real"},"transport":{"type":"file_dump","path":"/tmp/debian-hybrid.jsonl"},"interval_seconds":1,"duration_seconds":1}; pathlib.Path("/tmp/debian-smoke.json").write_text(json.dumps(cfg),encoding="utf-8")'
           .venv/bin/python run_agent.py --config /tmp/debian-smoke.json
-          .venv/bin/python -c 'import json,pathlib; rows=pathlib.Path("/tmp/debian-live.jsonl").read_text(encoding="utf-8").splitlines(); assert len(rows)==1, rows; obj=json.loads(rows[0]); assert obj["provider"]=="live-system", obj; m=obj["metrics"]; required={"cpu","memory","disk","disk_io","network_io","process_snapshot"}; assert required.issubset(m), m.keys(); print("Debian 13 live-system smoke OK", {"provider":obj["provider"],"metric_keys":sorted(m.keys()),"processes":len(m["process_snapshot"])})'
+          .venv/bin/python -c 'import json,pathlib; rows=pathlib.Path("/tmp/debian-hybrid.jsonl").read_text(encoding="utf-8").splitlines(); assert len(rows)>=1, rows; obj=json.loads(rows[-1]); assert obj["provider"]=="hybrid-synthetic-network", obj; m=obj["metrics"]; required={"cpu","memory","disk_io","network_io","process_snapshot"}; assert required.issubset(m), m.keys(); assert "host" not in m; assert "environment" not in m; assert m["cpu"].get("source")=="synthetic"; assert m["memory"].get("source")=="synthetic"; assert m["disk_io"].get("source")=="synthetic"; n=m["network_io"]; assert n.get("scope")=="aggregate"; assert "bytes_sent" in n and "bytes_recv" in n; print("Debian 13 hybrid-network smoke OK", {"provider":obj["provider"],"metric_keys":sorted(m.keys()),"live_scope":obj["metadata"].get("live_scope")})'
