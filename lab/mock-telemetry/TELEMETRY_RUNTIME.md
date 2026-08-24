@@ -58,6 +58,16 @@ TCP/UDP destinations are restricted to loopback/private/link-local addresses by
 default. Public destinations require an explicit `allow_public` configuration
 opt-in.
 
+Example configurations are included for offline file output, LAN TCP, and LAN
+UDP:
+
+- `config.live.file.example.json`
+- `config.live.tcp.example.json`
+- `config.live.udp.example.json`
+
+The LAN examples use RFC1918 addresses only and are inert until a test listener
+is supplied at the configured address.
+
 ## Runtime envelope schema
 
 Every provider produces `TelemetrySnapshot`; the agent converts it into the
