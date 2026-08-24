@@ -2,14 +2,17 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 
-from telemetry.config import load_config
 from telemetry.runtime import TelemetryRuntime
 
 
 async def async_main(config_path: str) -> None:
-    runtime = TelemetryRuntime(load_config(config_path))
-    await runtime.run()
+    runtime = TelemetryRuntime.from_file(config_path)
+    try:
+        await runtime.run()
+    finally:
+        print(json.dumps(runtime.status.to_dict(), ensure_ascii=False))
 
 
 def main() -> None:
