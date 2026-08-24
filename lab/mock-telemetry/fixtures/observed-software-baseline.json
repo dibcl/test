@@ -1,0 +1,148 @@
+{
+  "source": "observed-current-windows-guest-telemetry",
+  "captured_at": "2026-08-24T00:24:25+08:00",
+  "notes": [
+    "Derived from captured current-instance telemetry logs.",
+    "Clash Verge intentionally omitted from this baseline.",
+    "Audit/reference fixture only; not wired into proprietary payload builders."
+  ],
+  "software": [
+    {
+      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Balloon Device Driver",
+      "publisher": "ZTE",
+      "installtime": "",
+      "version": "08/03/2018,100.76.104.16000"
+    },
+    {
+      "name": "Windows Driver Packages - Balloon Service",
+      "publisher": "ZTE",
+      "installtime": "",
+      "version": ""
+    },
+    {
+      "name": "GuestTools",
+      "publisher": "ZTE",
+      "installtime": "",
+      "version": "3.18.56.215a7089"
+    },
+    {
+      "name": "Microsoft Edge",
+      "publisher": "Microsoft Corporation",
+      "installtime": "20260823",
+      "version": ""
+    },
+    {
+      "name": "Microsoft Edge WebView2 Runtime",
+      "publisher": "Microsoft Corporation",
+      "installtime": "20260823",
+      "version": ""
+    },
+    {
+      "name": "云电脑管家",
+      "publisher": "ZTE Corporation",
+      "installtime": "",
+      "version": "V7.25.21SP3"
+    },
+    {
+      "name": "uSmartviewUpdate",
+      "publisher": "uSmartviewUpdate",
+      "installtime": "",
+      "version": "7.24.10.01"
+    },
+    {
+      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Vioserial Device Driver",
+      "publisher": "ZTE",
+      "installtime": "",
+      "version": ""
+    },
+    {
+      "name": "Windows Driver Packages - KVM GPL Virtio Driver Developers Viostor Device Driver",
+      "publisher": "ZTE",
+      "installtime": "",
+      "version": "08/03/2018,100.76.104.16000"
+    },
+    {
+      "name": "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211",
+      "publisher": "Microsoft Corporation",
+      "installtime": "",
+      "version": "14.44.35211.0"
+    },
+    {
+      "name": "7-Zip 25.01 (x64)",
+      "publisher": "Igor Pavlov",
+      "installtime": "",
+      "version": "25.01"
+    },
+    {
+      "name": "QEMU",
+      "publisher": "QEMU Community",
+      "installtime": "",
+      "version": "11.1.0"
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211",
+      "publisher": "Microsoft Corporation",
+      "installtime": "20260823",
+      "version": ""
+    },
+    {
+      "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211",
+      "publisher": "Microsoft Corporation",
+      "installtime": "20260823",
+      "version": ""
+    },
+    {
+      "name": "Microsoft Visual C++ 2010 x64 Redistributable - 10.0.30319",
+      "publisher": "Microsoft Corporation",
+      "installtime": "20250604",
+      "version": ""
+    }
+  ],
+  "kb": [
+    {
+      "name": "KB5037587",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5037592",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5003791",
+      "publisher": "Microsoft Corporation",
+      "installtime": "10/6/2021"
+    },
+    {
+      "name": "KB5011048",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5011050",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5026037",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/17/2024"
+    },
+    {
+      "name": "KB5039211",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5037995",
+      "publisher": "Microsoft Corporation",
+      "installtime": "6/21/2024"
+    },
+    {
+      "name": "KB5005699",
+      "publisher": "Microsoft Corporation",
+      "installtime": "10/6/2021"
+    }
+  ]
+}
