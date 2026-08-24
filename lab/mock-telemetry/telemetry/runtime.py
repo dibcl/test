@@ -96,8 +96,6 @@ class ConfigFileWatcher:
                 if not isinstance(decoded, dict):
                     raise ValueError("top-level config must be an object")
             except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
-                # Do not advance the digest: a writer may still be replacing the
-                # file, and the next poll should retry the same path.
                 self.runtime.record_reload_failure(f"config parse failed: {exc}")
                 continue
 
@@ -106,8 +104,6 @@ class ConfigFileWatcher:
             except Exception as exc:
                 self.runtime.record_reload_failure(f"config apply failed: {exc}")
             finally:
-                # A complete JSON document that was rejected should not trigger
-                # the same failed activation every poll until the file changes.
                 self._last_digest = digest
 
 
@@ -232,15 +228,22 @@ class TelemetryRuntime:
         self.desired_config = dict(new_config)
         self._restart_required = self._requires_restart(new_config)
 
+        switch_result: ProviderSwitchResult | None = None
         if new_provider_cfg != old_provider_cfg:
-            await self.switch_provider(new_provider_cfg)
+            switch_result = await self.switch_provider(new_provider_cfg)
 
         if "reload" in new_config:
             self.config["reload"] = new_config["reload"]
 
         self._successful_reloads += 1
-        if self._state == RuntimeState.DEGRADED and self._last_error is None:
-            self._state = RuntimeState.RUNNING if self.agent.running else RuntimeState.READY
+
+        # A valid configuration supersedes an earlier reload/parse error. Keep a
+        # cleanup warning from the current switch, but otherwise return from
+        # DEGRADED to the normal active state.
+        if switch_result is None or switch_result.cleanup_error is None:
+            self._last_error = None
+            if self._state == RuntimeState.DEGRADED:
+                self._state = RuntimeState.RUNNING if self.agent.running else RuntimeState.READY
 
     def _reload_settings(self) -> tuple[bool, float]:
         raw = self.config.get("reload", {})
