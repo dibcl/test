@@ -28,11 +28,16 @@
     "svchost.exe",
     "IceTunnel.exe",
     "IceDisplay.exe",
+    "IceInput.exe",
+    "IceSound.exe",
+    "Vdagent.exe",
     "MswitchWin.exe",
     "Vmbooster.exe",
+    "VmBoosterMonitor.exe",
     "VmQoEAgent.exe",
     "uSmartviewUpdate.exe",
-    "UsbIpc.exe"
+    "UsbIpc.exe",
+    "MMRHookService.exe"
   ],
   "numeric_ranges": {
     "cpu_percent": [0.0, 100.0],
