@@ -1,16 +1,12 @@
 {
   "provider": {
     "type": "live_system",
+    "diagnostic_only": true,
     "process_limit": 20,
     "disk_path": "."
   },
-  "clock": {
-    "type": "real"
-  },
-  "transport": {
-    "type": "file_dump",
-    "path": "lab/mock-telemetry/out/live.jsonl"
-  },
+  "clock": {"type": "real"},
+  "transport": {"type": "file_dump", "path": "lab/mock-telemetry/out/live.jsonl"},
   "schema_version": 1,
   "interval_seconds": 1,
   "duration_seconds": 30
