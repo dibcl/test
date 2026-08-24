@@ -154,7 +154,7 @@ def validate_envelope(envelope: dict[str, Any], contract: dict[str, Any]) -> Non
                 value = _number(row[field], f"{group}[{index}].{field}")
                 if value is not None and value < 0:
                     raise FidelityError(f"{group}[{index}].{field} must be non-negative")
-    if processes.get("keyprocess") not in allowed_names and processes.get("keyprocess") != "MMRHookService.exe":
+    if processes.get("keyprocess") not in allowed_names:
         raise FidelityError(f"undeclared keyprocess: {processes.get('keyprocess')!r}")
 
 
