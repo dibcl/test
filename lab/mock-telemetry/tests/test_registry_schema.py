@@ -18,12 +18,12 @@ from telemetry.providers import (
     LiveSystemProvider,
 )
 from telemetry.registry import Registry
-from telemetry.transports import MemoryTransport
 
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = json.loads((ROOT / "runtime-envelope.schema.json").read_text(encoding="utf-8"))
 FIXTURE = ROOT / "baseline.synthetic.json"
+RUNTIME_FIXTURE = ROOT / "baseline.runtime.json"
 
 
 class ConstantProvider(BaseMetricsProvider):
@@ -60,9 +60,22 @@ class RegistryTests(unittest.TestCase):
 
     def test_hybrid_provider_is_registered(self) -> None:
         provider = build_provider(
-            {"provider": {"type": "hybrid_network", "profile": str(FIXTURE)}}
+            {"provider": {"type": "hybrid_network", "profile": str(RUNTIME_FIXTURE)}}
         )
         self.assertIsInstance(provider, HybridSyntheticNetworkProvider)
+
+    def test_runtime_profile_has_no_legacy_placeholder_tokens(self) -> None:
+        text = RUNTIME_FIXTURE.read_text(encoding="utf-8")
+        forbidden = (
+            "Synthetic App",
+            "SyntheticProcess",
+            "TEST-WIN10",
+            "KB0000001",
+            "192.0.2.10",
+            "02-00-00-00-00-10",
+        )
+        for token in forbidden:
+            self.assertNotIn(token, text)
 
 
 class SchemaTests(unittest.IsolatedAsyncioTestCase):
@@ -94,7 +107,7 @@ class SchemaTests(unittest.IsolatedAsyncioTestCase):
         self.assertLessEqual(len(envelope["metrics"]["process_snapshot"]), 5)
 
     async def test_hybrid_provider_reads_only_aggregate_network_state(self) -> None:
-        provider = HybridSyntheticNetworkProvider(FIXTURE)
+        provider = HybridSyntheticNetworkProvider(RUNTIME_FIXTURE)
         clock = SimulatedClock(datetime(2030, 1, 1, tzinfo=timezone.utc))
         first = SimpleNamespace(bytes_sent=1000, bytes_recv=2000)
         second = SimpleNamespace(bytes_sent=1300, bytes_recv=2600)
@@ -108,6 +121,7 @@ class SchemaTests(unittest.IsolatedAsyncioTestCase):
             patch("psutil.disk_io_counters", side_effect=forbidden),
             patch("psutil.process_iter", side_effect=forbidden),
             patch("socket.gethostname", side_effect=forbidden),
+            patch("socket.if_nameindex", side_effect=forbidden),
         ):
             await provider.start()
             provider._last_time = 100.0
@@ -124,9 +138,44 @@ class SchemaTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(metrics["disk_io"]["source"], "synthetic")
         self.assertEqual(metrics["network_io"]["tx_bytes_per_second"], 150.0)
         self.assertEqual(metrics["network_io"]["rx_bytes_per_second"], 300.0)
-        self.assertEqual(metrics["network_io"]["scope"], "aggregate")
+        self.assertEqual(metrics["network_io"]["scope"], "aggregate-rate-only")
+        self.assertNotIn("bytes_sent", metrics["network_io"])
+        self.assertNotIn("bytes_recv", metrics["network_io"])
         self.assertNotIn("host", metrics)
         self.assertNotIn("environment", metrics)
+
+    async def test_hybrid_provider_emits_rich_synthetic_windows_shape(self) -> None:
+        provider = HybridSyntheticNetworkProvider(RUNTIME_FIXTURE)
+        clock = SimulatedClock(datetime(2030, 1, 1, tzinfo=timezone.utc))
+        first = SimpleNamespace(bytes_sent=10_000, bytes_recv=20_000)
+        second = SimpleNamespace(bytes_sent=11_000, bytes_recv=22_000)
+
+        with patch("psutil.net_io_counters", side_effect=[first, second]):
+            await provider.start()
+            provider._last_time = 100.0
+            with patch("telemetry.providers.time.monotonic", return_value=101.0):
+                snapshot = await provider.snapshot(clock)
+
+        metrics = snapshot.metrics
+        self.assertEqual(len(metrics["cpu"]["per_core"]), 8)
+        self.assertIn("paged_pool_mb", metrics["memory"])
+        self.assertIn("nonpaged_pool_mb", metrics["memory"])
+        self.assertEqual(len(metrics["disk_io"]["per_disk"]), 2)
+
+        processes = metrics["process_snapshot"]
+        for key in (
+            "process",
+            "process_memory",
+            "process_handle",
+            "process_diskio",
+            "process_netio",
+            "keyprocess",
+        ):
+            self.assertIn(key, processes)
+        names = {item["name"] for item in processes["process"]}
+        self.assertIn("System", names)
+        self.assertTrue(any(name in names for name in ("IceDisplay.exe", "Vmbooster.exe", "MswitchWin.exe")))
+        self.assertEqual(processes["source"], "synthetic-declared-process-pool")
 
 
 if __name__ == "__main__":
