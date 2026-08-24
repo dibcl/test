@@ -1,6 +1,7 @@
 {
   "provider": {
     "type": "live_system",
+    "diagnostic_only": true,
     "process_limit": 10,
     "disk_path": "."
   },
