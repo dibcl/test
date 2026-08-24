@@ -1,0 +1,47 @@
+{
+  "required_metric_keys": [
+    "cpu",
+    "memory",
+    "disk_io",
+    "network_io",
+    "process_snapshot"
+  ],
+  "required_cpu_keys": ["percent", "per_core", "source"],
+  "required_memory_keys": ["percent", "paged_pool_mb", "nonpaged_pool_mb", "source"],
+  "required_disk_keys": ["activity_rate", "per_disk", "source"],
+  "required_network_keys": ["tx_bytes_per_second", "rx_bytes_per_second", "scope", "source"],
+  "required_process_keys": [
+    "process",
+    "process_memory",
+    "process_handle",
+    "process_diskio",
+    "process_netio",
+    "keyprocess",
+    "source"
+  ],
+  "forbidden_metric_keys": ["host", "environment", "software_batches"],
+  "forbidden_network_keys": [
+    "bytes_sent",
+    "bytes_recv",
+    "hostname",
+    "interface",
+    "interface_name",
+    "ip",
+    "mac",
+    "gateway",
+    "netmask",
+    "dns",
+    "route"
+  ],
+  "expected_sources": {
+    "cpu": "synthetic",
+    "memory": "synthetic",
+    "disk_io": "synthetic",
+    "process_snapshot": "synthetic-declared-process-pool",
+    "network_io": "live"
+  },
+  "notes": [
+    "This contract checks the generic runtime only; it does not validate or emit proprietary management-plane frames.",
+    "The live-data boundary is aggregate network rate only."
+  ]
+}
