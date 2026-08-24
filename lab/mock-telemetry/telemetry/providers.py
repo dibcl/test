@@ -14,6 +14,8 @@ from .model import TelemetrySnapshot
 
 
 class BaseMetricsProvider(ABC):
+    """Common asynchronous data-source contract for the telemetry runtime."""
+
     name = "base"
 
     async def start(self) -> None:
@@ -28,6 +30,8 @@ class BaseMetricsProvider(ABC):
 
 
 class FrozenProfileProvider(BaseMetricsProvider):
+    """Replay the existing profile format without requiring test-mode gates."""
+
     name = "frozen-profile"
 
     def __init__(self, profile_path: str | Path) -> None:
@@ -45,19 +49,32 @@ class FrozenProfileProvider(BaseMetricsProvider):
         return json.loads(json.dumps(item))
 
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
+        # Preserve legacy profile sections as generic data. This runtime does
+        # not interpret them as proprietary protocol messages.
+        metrics = {
+            "environment": self.profile.get("environment", {}),
+            "software_batches": self.profile.get("software_batches", []),
+            "performance": self._next_performance(),
+            "process_snapshot": self.profile.get("process_snapshot", {}),
+            "activity_events": self.profile.get("activity_events", []),
+            "connectivity_rows": self.profile.get("connectivity_rows", []),
+            "ice_traces": self.profile.get("ice_traces", []),
+        }
         return TelemetrySnapshot(
             observed_at=clock.now().isoformat(),
             provider=self.name,
-            metrics={
-                "environment": self.profile.get("environment", {}),
-                "performance": self._next_performance(),
-                "process_snapshot": self.profile.get("process_snapshot", {}),
+            metrics=metrics,
+            metadata={
+                "profile": str(self.path),
+                "mode": "frozen",
+                "legacy_test_mode": self.profile.get("identity", {}).get("test_mode"),
             },
-            metadata={"profile": str(self.path), "mode": "frozen"},
         )
 
 
 class SyntheticMetricsProvider(BaseMetricsProvider):
+    """Generate deterministic dynamic metrics from a profile's dynamics block."""
+
     name = "synthetic"
 
     def __init__(self, profile_path: str | Path) -> None:
@@ -81,7 +98,10 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
         smoothing = float(cfg.get("smoothing", 0.3))
         candidate = value * (1.0 - smoothing) + mean * smoothing + self.random.gauss(0, sigma)
         if self.random.random() < float(cfg.get("spike_probability", 0)):
-            candidate += self.random.uniform(float(cfg.get("spike_min", 0)), float(cfg.get("spike_max", 0)))
+            candidate += self.random.uniform(
+                float(cfg.get("spike_min", 0)),
+                float(cfg.get("spike_max", 0)),
+            )
         return max(float(cfg.get("min", 0)), min(float(cfg.get("max", 100)), candidate))
 
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
@@ -104,10 +124,19 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
 
 
 class LiveSystemProvider(BaseMetricsProvider):
+    """Collect live host metrics through psutil.
+
+    This provider emits generic runtime observations only. It does not construct
+    proprietary frames or attach instance identity material to outbound data.
+    """
+
     name = "live-system"
 
-    def __init__(self, process_limit: int = 20) -> None:
+    def __init__(self, process_limit: int = 20, disk_path: str | Path | None = None) -> None:
+        if process_limit < 0:
+            raise ValueError("process_limit must be >= 0")
         self.process_limit = process_limit
+        self.disk_path = str(disk_path) if disk_path is not None else (Path.cwd().anchor or "/")
         self._last_net = None
         self._last_time: float | None = None
 
@@ -124,7 +153,7 @@ class LiveSystemProvider(BaseMetricsProvider):
         cpu = psutil.cpu_percent(interval=None, percpu=False)
         cpu_per_core = psutil.cpu_percent(interval=None, percpu=True)
         mem = psutil.virtual_memory()
-        disk = psutil.disk_usage("/")
+        disk = psutil.disk_usage(self.disk_path)
         disk_io = psutil.disk_io_counters()
         net = psutil.net_io_counters()
         now = time.monotonic()
@@ -139,17 +168,21 @@ class LiveSystemProvider(BaseMetricsProvider):
         self._last_time = now
 
         processes = []
-        for proc in psutil.process_iter(attrs=["pid", "name", "cpu_percent", "memory_info", "num_threads"]):
+        for proc in psutil.process_iter(
+            attrs=["pid", "name", "cpu_percent", "memory_info", "num_threads"]
+        ):
             try:
                 info = proc.info
                 rss = info["memory_info"].rss if info["memory_info"] else 0
-                processes.append({
-                    "pid": info["pid"],
-                    "name": info["name"],
-                    "cpu_percent": info["cpu_percent"] or 0.0,
-                    "rss_bytes": rss,
-                    "threads": info["num_threads"] or 0,
-                })
+                processes.append(
+                    {
+                        "pid": info["pid"],
+                        "name": info["name"],
+                        "cpu_percent": info["cpu_percent"] or 0.0,
+                        "rss_bytes": rss,
+                        "threads": info["num_threads"] or 0,
+                    }
+                )
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 continue
         processes.sort(key=lambda item: item["rss_bytes"], reverse=True)
@@ -164,14 +197,15 @@ class LiveSystemProvider(BaseMetricsProvider):
                 "percent": mem.percent,
             },
             "disk": {
+                "path": self.disk_path,
                 "total_bytes": disk.total,
                 "used_bytes": disk.used,
                 "free_bytes": disk.free,
                 "percent": disk.percent,
             },
             "disk_io": {
-                "read_bytes": getattr(disk_io, "read_bytes", 0),
-                "write_bytes": getattr(disk_io, "write_bytes", 0),
+                "read_bytes": getattr(disk_io, "read_bytes", 0) if disk_io else 0,
+                "write_bytes": getattr(disk_io, "write_bytes", 0) if disk_io else 0,
             },
             "network_io": {
                 "bytes_sent": net.bytes_sent,
