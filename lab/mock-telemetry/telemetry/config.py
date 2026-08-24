@@ -11,6 +11,7 @@ from .clocks import BaseClock, RealClock, SimulatedClock
 from .providers import (
     BaseMetricsProvider,
     FrozenProfileProvider,
+    HybridSyntheticNetworkProvider,
     LiveSystemProvider,
     SyntheticMetricsProvider,
 )
@@ -28,6 +29,12 @@ def _register_defaults() -> None:
     PROVIDER_REGISTRY.register(
         "synthetic",
         lambda cfg: SyntheticMetricsProvider(cfg["profile"]),
+        replace=True,
+    )
+    PROVIDER_REGISTRY.register(
+        "hybrid_network",
+        lambda cfg: HybridSyntheticNetworkProvider(cfg["profile"]),
+        aliases=("hybrid", "synthetic_live_network"),
         replace=True,
     )
     PROVIDER_REGISTRY.register(
