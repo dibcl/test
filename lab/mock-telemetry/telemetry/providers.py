@@ -25,11 +25,7 @@ class BaseMetricsProvider(ABC):
         pass
 
     async def health_check(self) -> ProviderHealth:
-        """Return a side-effect-free readiness result.
-
-        Providers with external dependencies should override this method rather
-        than forcing the agent to take a sample just to determine readiness.
-        """
+        """Return a side-effect-free readiness result."""
         return ProviderHealth(True, "provider ready")
 
     @abstractmethod
@@ -68,8 +64,6 @@ class FrozenProfileProvider(BaseMetricsProvider):
         return json.loads(json.dumps(item))
 
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
-        # Preserve legacy profile sections as generic data. This runtime does
-        # not interpret them as proprietary protocol messages.
         metrics = {
             "environment": self.profile.get("environment", {}),
             "software_batches": self.profile.get("software_batches", []),
@@ -151,22 +145,25 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
 
 
 class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
-    """Synthetic system metrics plus aggregate live network throughput.
+    """Synthetic system state plus aggregate live network throughput only.
 
-    CPU, memory, disk and process data remain profile-backed/synthetic. The only
-    live host observation is the aggregate byte counters returned by
-    psutil.net_io_counters(pernic=False), which are converted to receive/send
-    rates. No hostname, interface name, IP address, MAC address, route, DNS,
-    package list, disk usage, CPU state, memory state or process list is read.
-
-    This provider is intended for privacy-isolated lab/runtime testing. It does
-    not construct proprietary management-plane messages.
+    The provider deliberately avoids host identity and host-state discovery. It
+    never reads hostname, interface names, addresses, routes, DNS, CPU, memory,
+    disks, packages, or processes. The only live input is the aggregate network
+    byte counters used internally to calculate RX/TX rates.
     """
 
     name = "hybrid-synthetic-network"
 
     def __init__(self, profile_path: str | Path) -> None:
         super().__init__(profile_path)
+        cfg = self.profile.get("dynamics", {})
+        shape = self.profile.get("runtime_shape", {})
+        self.cpu_cores = max(1, int(shape.get("cpu_cores", 8)))
+        self.process_pool = tuple(dict(item) for item in cfg.get("process_pool", []))
+        self.key_process = str(shape.get("key_process", "MMRHookService.exe"))
+        self.disk_layout = tuple(dict(item) for item in shape.get("disk_layout", []))
+        self.memory_shape = dict(shape.get("memory", {}))
         self._last_net = None
         self._last_time: float | None = None
 
@@ -180,6 +177,8 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
         base = await super().health_check()
         if not base.healthy:
             return base
+        if not self.process_pool:
+            return ProviderHealth(False, "runtime profile requires dynamics.process_pool")
         try:
             import psutil
 
@@ -190,10 +189,12 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
             return ProviderHealth(False, f"aggregate network counters unavailable: {exc}")
         return ProviderHealth(
             True,
-            "synthetic metrics + aggregate live network ready",
+            "synthetic system state + aggregate live network ready",
             {
                 "path": str(self.path),
-                "live_scope": "aggregate_network_counters_only",
+                "live_scope": "aggregate_network_rate_only",
+                "cpu_cores": self.cpu_cores,
+                "process_templates": len(self.process_pool),
             },
         )
 
@@ -215,11 +216,92 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
         self._last_net = net
         self._last_time = now
         return {
-            "bytes_sent": net.bytes_sent,
-            "bytes_recv": net.bytes_recv,
             "tx_bytes_per_second": tx_rate,
             "rx_bytes_per_second": rx_rate,
-            "scope": "aggregate",
+            "scope": "aggregate-rate-only",
+            "source": "live",
+        }
+
+    def _cpu_snapshot(self) -> dict[str, Any]:
+        per_core = []
+        for index in range(self.cpu_cores):
+            bias = ((index % 4) - 1.5) * 0.35
+            value = self.cpu + bias + self.random.gauss(0.0, 1.6)
+            per_core.append(round(max(0.0, min(100.0, value)), 2))
+        return {
+            "percent": round(self.cpu, 2),
+            "per_core": per_core,
+            "source": "synthetic",
+        }
+
+    def _memory_snapshot(self) -> dict[str, Any]:
+        paged_base = float(self.memory_shape.get("paged_pool_mb", 440.0))
+        nonpaged_base = float(self.memory_shape.get("nonpaged_pool_mb", 228.0))
+        return {
+            "percent": round(self.memory, 2),
+            "paged_pool_mb": round(max(0.0, paged_base + self.random.gauss(0.0, 4.0)), 1),
+            "nonpaged_pool_mb": round(max(0.0, nonpaged_base + self.random.gauss(0.0, 2.0)), 1),
+            "source": "synthetic",
+        }
+
+    def _disk_snapshot(self) -> dict[str, Any]:
+        disks = []
+        layout = self.disk_layout or ({"name": "C", "size_gb": 80.0, "used_percent": 35.0, "weight": 1.0},)
+        for item in layout:
+            weight = max(0.01, float(item.get("weight", 1.0)))
+            activity = max(0.0, self.disk * weight + self.random.gauss(0.0, 0.8))
+            used = float(item.get("used_percent", 35.0)) + self.random.gauss(0.0, 0.08)
+            disks.append({
+                "name": str(item.get("name", "disk")),
+                "size_gb": round(float(item.get("size_gb", 0.0)), 2),
+                "used_percent": round(max(0.0, min(100.0, used)), 2),
+                "activity_rate": round(activity, 3),
+            })
+        return {
+            "activity_rate": round(self.disk, 3),
+            "per_disk": disks,
+            "source": "synthetic",
+        }
+
+    def _process_snapshot(self) -> dict[str, Any]:
+        rows = []
+        weights = [max(0.01, float(item.get("cpu_weight", 1.0))) for item in self.process_pool]
+        total_weight = sum(weights)
+        for index, item in enumerate(self.process_pool):
+            primary = bool(item.get("primary", False))
+            pid_base = int(item.get("pid_base", 1000 + index * 100))
+            pid_jitter = 0 if primary else self.random.randint(0, max(0, int(item.get("pid_jitter", 16))))
+            cpu = max(0.0, self.cpu * weights[index] / total_weight + self.random.gauss(0.0, 0.12))
+            rss_mb = max(1.0, float(item.get("rss_mb", 32.0)) * (1.0 + self.random.gauss(0.0, 0.015)))
+            handles = max(1, int(item.get("handles", 200)) + self.random.randint(-8, 8))
+            threads = max(1, int(item.get("threads", 8)) + (0 if primary else self.random.randint(-1, 1)))
+            disk_total = max(0.0, self.disk * float(item.get("disk_weight", 0.2)) * 1024.0 + self.random.gauss(0.0, 64.0))
+            net_total = max(0.0, float(item.get("net_baseline", 32.0)) + self.random.gauss(0.0, 8.0))
+            rows.append({
+                "name": str(item["name"]),
+                "pid": pid_base + pid_jitter,
+                "cpu_percent": round(cpu, 3),
+                "rss_mb": round(rss_mb, 2),
+                "handles": handles,
+                "threads": threads,
+                "disk_io_rate": round(disk_total, 2),
+                "network_io_rate": round(net_total, 2),
+            })
+
+        by_cpu = sorted(rows, key=lambda item: item["cpu_percent"], reverse=True)
+        by_memory = sorted(rows, key=lambda item: item["rss_mb"], reverse=True)
+        by_handles = sorted(rows, key=lambda item: item["handles"], reverse=True)
+        by_disk = sorted(rows, key=lambda item: item["disk_io_rate"], reverse=True)
+        by_network = sorted(rows, key=lambda item: item["network_io_rate"], reverse=True)
+
+        return {
+            "process": by_cpu[:10],
+            "process_memory": by_memory[:10],
+            "process_handle": by_handles[:10],
+            "process_diskio": by_disk[:10],
+            "process_netio": by_network[:10],
+            "keyprocess": self.key_process,
+            "source": "synthetic-declared-process-pool",
         }
 
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
@@ -232,27 +314,22 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
             observed_at=clock.now().isoformat(),
             provider=self.name,
             metrics={
-                "cpu": {"percent": round(self.cpu, 2), "source": "synthetic"},
-                "memory": {"percent": round(self.memory, 2), "source": "synthetic"},
-                "disk_io": {"synthetic_rate": round(self.disk, 2), "source": "synthetic"},
+                "cpu": self._cpu_snapshot(),
+                "memory": self._memory_snapshot(),
+                "disk_io": self._disk_snapshot(),
                 "network_io": network,
-                "process_snapshot": self.profile.get("process_snapshot", {}),
+                "process_snapshot": self._process_snapshot(),
             },
             metadata={
                 "profile": str(self.path),
-                "mode": "synthetic-with-live-network",
-                "live_scope": "aggregate_network_counters_only",
+                "mode": "synthetic-system-with-live-network-rate",
+                "live_scope": "aggregate_network_rate_only",
             },
         )
 
 
 class LiveSystemProvider(BaseMetricsProvider):
-    """Collect live host metrics through psutil for diagnostics.
-
-    Unlike HybridSyntheticNetworkProvider, this diagnostic provider inspects
-    live CPU, memory, disk, process and hostname state. Do not use it when the
-    runtime must remain isolated from host identity/state.
-    """
+    """Collect live host metrics through psutil for diagnostics only."""
 
     name = "live-system"
 
