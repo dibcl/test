@@ -89,6 +89,10 @@ shape; it is not mutated into a runtime transport schema. Compatibility is
 instead maintained by the frozen provider mapping the old profile sections into
 the generic envelope.
 
+This separation is deliberate: runtime schema evolution can proceed without
+rewriting captured evidence, while legacy profile fixtures remain readable by
+the frozen adapter.
+
 ## Registry-based extension
 
 Provider, transport, and clock creation use registries rather than a growing
