@@ -1,0 +1,16 @@
+{
+  "provider": {
+    "type": "hybrid_network",
+    "profile": "lab/mock-telemetry/baseline.synthetic.json"
+  },
+  "clock": {
+    "type": "real"
+  },
+  "transport": {
+    "type": "file_dump",
+    "path": "lab/mock-telemetry/out/hybrid-network.jsonl"
+  },
+  "interval_seconds": 1,
+  "duration_seconds": 30,
+  "schema_version": 1
+}
