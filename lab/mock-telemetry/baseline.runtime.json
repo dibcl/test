@@ -3,8 +3,9 @@
     "purpose": "host-isolated runtime fidelity profile",
     "notes": [
       "System state is declared/synthetic; only aggregate network rate is live.",
-      "No hostname, interface, address, route, DNS, package or process discovery is performed.",
-      "Process names are limited to non-sensitive Windows/system/guest-tool examples observed in the lab corpus."
+      "No hostname, interface, address, route, DNS, package or host-process discovery is performed.",
+      "Process names are limited to non-sensitive Windows/system/guest-tool examples observed in the lab corpus.",
+      "No end-user application names are included in the declared process pool."
     ]
   },
   "runtime_shape": {
@@ -21,61 +22,26 @@
   },
   "dynamics": {
     "seed": 20260825,
-    "cpu": {
-      "mean": 7.0,
-      "initial": 5.5,
-      "min": 0.3,
-      "max": 42.0,
-      "sigma": 2.2,
-      "smoothing": 0.28,
-      "spike_probability": 0.055,
-      "spike_min": 8.0,
-      "spike_max": 24.0
-    },
-    "memory": {
-      "mean": 33.5,
-      "initial": 33.2,
-      "min": 31.0,
-      "max": 46.0,
-      "sigma": 0.45,
-      "smoothing": 0.16,
-      "spike_probability": 0.01,
-      "spike_min": 1.0,
-      "spike_max": 3.5
-    },
-    "disk_io": {
-      "mean": 4.0,
-      "initial": 2.5,
-      "min": 0.0,
-      "max": 160.0,
-      "sigma": 2.4,
-      "smoothing": 0.35,
-      "spike_probability": 0.07,
-      "spike_min": 18.0,
-      "spike_max": 75.0
-    },
-    "network_io": {
-      "mean": 1.0,
-      "initial": 1.0,
-      "min": 0.0,
-      "max": 1.0,
-      "sigma": 0.0,
-      "smoothing": 1.0,
-      "spike_probability": 0.0,
-      "spike_min": 0.0,
-      "spike_max": 0.0
-    },
+    "cpu": {"mean": 7.0, "initial": 5.5, "min": 0.3, "max": 42.0, "sigma": 2.2, "smoothing": 0.28, "spike_probability": 0.055, "spike_min": 8.0, "spike_max": 24.0},
+    "memory": {"mean": 33.5, "initial": 33.2, "min": 31.0, "max": 46.0, "sigma": 0.45, "smoothing": 0.16, "spike_probability": 0.01, "spike_min": 1.0, "spike_max": 3.5},
+    "disk_io": {"mean": 4.0, "initial": 2.5, "min": 0.0, "max": 160.0, "sigma": 2.4, "smoothing": 0.35, "spike_probability": 0.07, "spike_min": 18.0, "spike_max": 75.0},
+    "network_io": {"mean": 1.0, "initial": 1.0, "min": 0.0, "max": 1.0, "sigma": 0.0, "smoothing": 1.0, "spike_probability": 0.0, "spike_min": 0.0, "spike_max": 0.0},
     "process_pool": [
       {"name": "System", "primary": true, "pid_base": 4, "pid_jitter": 0, "rss_mb": 0.2, "handles": 3300, "threads": 220, "cpu_weight": 0.35, "disk_weight": 0.7, "net_baseline": 2.0},
       {"name": "explorer.exe", "primary": false, "pid_base": 4200, "pid_jitter": 48, "rss_mb": 150.0, "handles": 2500, "threads": 70, "cpu_weight": 0.55, "disk_weight": 0.1, "net_baseline": 2.0},
       {"name": "svchost.exe", "primary": false, "pid_base": 900, "pid_jitter": 120, "rss_mb": 28.0, "handles": 1100, "threads": 24, "cpu_weight": 0.45, "disk_weight": 0.18, "net_baseline": 120.0},
       {"name": "IceTunnel.exe", "primary": false, "pid_base": 1500, "pid_jitter": 28, "rss_mb": 34.0, "handles": 260, "threads": 15, "cpu_weight": 0.9, "disk_weight": 0.04, "net_baseline": 760.0},
       {"name": "IceDisplay.exe", "primary": false, "pid_base": 1550, "pid_jitter": 28, "rss_mb": 82.0, "handles": 280, "threads": 20, "cpu_weight": 1.2, "disk_weight": 0.2, "net_baseline": 520.0},
+      {"name": "IceInput.exe", "primary": false, "pid_base": 1600, "pid_jitter": 24, "rss_mb": 13.0, "handles": 205, "threads": 10, "cpu_weight": 0.18, "disk_weight": 0.01, "net_baseline": 14.0},
+      {"name": "IceSound.exe", "primary": false, "pid_base": 1650, "pid_jitter": 24, "rss_mb": 12.0, "handles": 175, "threads": 10, "cpu_weight": 0.16, "disk_weight": 0.01, "net_baseline": 32.0},
+      {"name": "Vdagent.exe", "primary": false, "pid_base": 7000, "pid_jitter": 48, "rss_mb": 32.0, "handles": 260, "threads": 14, "cpu_weight": 0.22, "disk_weight": 0.02, "net_baseline": 45.0},
       {"name": "MswitchWin.exe", "primary": false, "pid_base": 4050, "pid_jitter": 24, "rss_mb": 22.0, "handles": 210, "threads": 12, "cpu_weight": 0.35, "disk_weight": 0.02, "net_baseline": 95.0},
       {"name": "Vmbooster.exe", "primary": false, "pid_base": 2350, "pid_jitter": 24, "rss_mb": 20.0, "handles": 190, "threads": 12, "cpu_weight": 0.3, "disk_weight": 0.02, "net_baseline": 74.0},
+      {"name": "VmBoosterMonitor.exe", "primary": false, "pid_base": 3300, "pid_jitter": 24, "rss_mb": 10.0, "handles": 145, "threads": 8, "cpu_weight": 0.18, "disk_weight": 0.01, "net_baseline": 8.0},
       {"name": "VmQoEAgent.exe", "primary": false, "pid_base": 3200, "pid_jitter": 24, "rss_mb": 21.0, "handles": 390, "threads": 18, "cpu_weight": 0.38, "disk_weight": 0.08, "net_baseline": 40.0},
       {"name": "uSmartviewUpdate.exe", "primary": false, "pid_base": 5200, "pid_jitter": 24, "rss_mb": 18.0, "handles": 210, "threads": 9, "cpu_weight": 0.12, "disk_weight": 0.02, "net_baseline": 28.0},
-      {"name": "UsbIpc.exe", "primary": false, "pid_base": 1600, "pid_jitter": 24, "rss_mb": 16.0, "handles": 180, "threads": 10, "cpu_weight": 0.14, "disk_weight": 0.01, "net_baseline": 18.0}
+      {"name": "UsbIpc.exe", "primary": false, "pid_base": 1700, "pid_jitter": 24, "rss_mb": 16.0, "handles": 180, "threads": 10, "cpu_weight": 0.14, "disk_weight": 0.01, "net_baseline": 18.0},
+      {"name": "MMRHookService.exe", "primary": false, "pid_base": 4100, "pid_jitter": 24, "rss_mb": 6.0, "handles": 270, "threads": 8, "cpu_weight": 0.2, "disk_weight": 0.01, "net_baseline": 4.0}
     ]
   },
   "process_snapshot": {}
