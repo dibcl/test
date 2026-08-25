@@ -10,6 +10,8 @@ from enum import Enum
 from pathlib import Path
 from typing import Any
 
+from message_adapters import build_message_adapter
+
 from .agent import TelemetryAgent
 from .config import build_clock, build_provider, build_settings, build_transport, load_config
 from .model import ProviderSwitchResult
@@ -144,6 +146,7 @@ class TelemetryRuntime:
         "duration_seconds",
         "schema_version",
         "provider_health_timeout",
+        "message_adapter",
     }
 
     def __init__(
@@ -160,6 +163,7 @@ class TelemetryRuntime:
             transport=build_transport(self.config),
             clock=build_clock(self.config),
             settings=build_settings(self.config),
+            message_adapter=build_message_adapter(self.config),
         )
         self._state = RuntimeState.READY
         self._generation = 0

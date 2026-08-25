@@ -12,6 +12,31 @@
     "type": "file_dump",
     "path": "out/windows-validation.jsonl"
   },
+  "message_adapter": {
+    "type": "windows_protocol",
+    "agentversion": "V7.25.21SP3pv",
+    "agentstatus": "1",
+    "issysprep": "0",
+    "versions": {
+      "vmbooster": "V7.25.21SP3pv",
+      "PVDriver": "3.18.34.723185c6",
+      "vdagent": "",
+      "usbipc": "",
+      "media_redirect": ""
+    },
+    "environment": {
+      "bit": "64",
+      "diskused": "",
+      "targetversion": ""
+    },
+    "schedule": {
+      "heartbeat_seconds": 30,
+      "version_seconds": 7200,
+      "performance_sample_seconds": 60,
+      "qoe_batch_seconds": 300,
+      "process_seconds": 300
+    }
+  },
   "interval_seconds": 1,
   "duration_seconds": 30,
   "schema_version": 1

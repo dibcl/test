@@ -4,6 +4,8 @@ import asyncio
 import math
 from dataclasses import dataclass
 
+from message_adapters.model import MessageAdapter
+
 from .clocks import BaseClock
 from .model import ProviderHealth, ProviderSwitchResult, TelemetrySnapshot
 from .providers import BaseMetricsProvider
@@ -37,12 +39,14 @@ class TelemetryAgent:
         transport: BaseTransport,
         clock: BaseClock,
         settings: AgentSettings,
+        message_adapter: MessageAdapter | None = None,
     ) -> None:
         settings.validate()
         self._provider = provider
         self._transport = transport
         self._clock = clock
         self._settings = settings
+        self._message_adapter = message_adapter
         self._provider_lock = asyncio.Lock()
         self._stop_event = asyncio.Event()
         self._running = False
@@ -147,9 +151,17 @@ class TelemetryAgent:
 
             while not self._stop_event.is_set():
                 snapshot = await self._collect()
-                await self._transport.send(
-                    snapshot.to_envelope(schema_version=self._settings.schema_version)
-                )
+                if self._message_adapter is None:
+                    messages = [
+                        snapshot.to_envelope(schema_version=self._settings.schema_version)
+                    ]
+                else:
+                    messages = [
+                        item.to_dict()
+                        for item in self._message_adapter.messages_for(snapshot, elapsed)
+                    ]
+                for message in messages:
+                    await self._transport.send(message)
 
                 if (
                     self._settings.duration_seconds is not None
