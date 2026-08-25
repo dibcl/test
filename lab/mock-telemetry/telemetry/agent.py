@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import math
 from dataclasses import dataclass
 
 from .clocks import BaseClock
@@ -17,14 +18,16 @@ class AgentSettings:
     provider_health_timeout: float = 5.0
 
     def validate(self) -> None:
-        if self.interval_seconds <= 0:
-            raise ValueError("interval_seconds must be > 0")
-        if self.duration_seconds is not None and self.duration_seconds < 0:
-            raise ValueError("duration_seconds must be >= 0")
-        if self.schema_version < 1:
-            raise ValueError("schema_version must be >= 1")
-        if self.provider_health_timeout <= 0:
-            raise ValueError("provider_health_timeout must be > 0")
+        if not math.isfinite(self.interval_seconds) or self.interval_seconds <= 0:
+            raise ValueError("interval_seconds must be finite and > 0")
+        if self.duration_seconds is not None and (
+            not math.isfinite(self.duration_seconds) or self.duration_seconds < 0
+        ):
+            raise ValueError("duration_seconds must be finite and >= 0")
+        if isinstance(self.schema_version, bool) or not isinstance(self.schema_version, int) or self.schema_version < 1:
+            raise ValueError("schema_version must be an integer >= 1")
+        if not math.isfinite(self.provider_health_timeout) or self.provider_health_timeout <= 0:
+            raise ValueError("provider_health_timeout must be finite and > 0")
 
 
 class TelemetryAgent:
