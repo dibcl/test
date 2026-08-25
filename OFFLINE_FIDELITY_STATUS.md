@@ -25,6 +25,10 @@ It does **not** mean byte-for-byte equivalence with a production Guest managemen
 - [x] Prototype TCP transports are loopback-only; the former external override is rejected.
 - [x] QGA test behavior defaults to the observed time-query/sync surface; unsupported OS/file/exec/shutdown commands return a deterministic `CommandNotFound` test response, and fixture network interfaces are opt-in only.
 - [x] `live_system` host scanning requires explicit `diagnostic_only: true`; the intended hybrid path cannot silently fall back to it.
+- [x] Runtime TCP/UDP uses the exact DNS resolution that passed network policy checks; there is no validate-then-resolve race.
+- [x] `allow_public`, reload toggles, schema versions and scheduling settings use strict types rather than truthy/string coercion.
+- [x] Simulated clocks require timezone-aware timestamps and all sleep/scheduling intervals reject negative or non-finite values.
+- [x] Repeated unchanged malformed reload files are reported once, recovery to the last known-good bytes clears only the active reload error, and watcher stop is interruptible.
 - [x] Runtime tests and prototype offline tests are part of CI on Windows and Ubuntu, plus a Debian 13 smoke lane.
 - [x] Tracked Python bytecode/cache trees were removed from the feature branch and `.gitignore` prevents regeneration from being recommitted.
 
@@ -32,8 +36,8 @@ It does **not** mean byte-for-byte equivalence with a production Guest managemen
 
 Feature branch validation point:
 
-- validated commit: `f44e5fd03ef528cf07e1eeca723d9924503f8bea`
-- GitHub Actions workflow: `Telemetry Runtime Tests`, run `#265`
+- validated commit: `346b085f9e1f6fbe501d52b2458aaf46ca281d36`
+- GitHub Actions workflow: `Telemetry Runtime Tests`, run `#286`
 - result: `success`
 - Windows runtime: Python 3.11 / 3.13 — pass
 - Windows prototype offline suite: Python 3.11 / 3.13 — pass
