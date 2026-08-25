@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import math
 from collections.abc import Mapping
 from datetime import datetime
 from pathlib import Path
@@ -19,6 +20,33 @@ from .registry import CLOCK_REGISTRY, PROVIDER_REGISTRY, TRANSPORT_REGISTRY, Reg
 from .transports import BaseTransport, FileDumpTransport, MemoryTransport, TcpTransport, UdpTransport
 
 
+def _strict_bool(value: Any, label: str) -> bool:
+    if not isinstance(value, bool):
+        raise ValueError(f"{label} must be a boolean")
+    return value
+
+
+def _strict_int(value: Any, label: str) -> int:
+    if isinstance(value, bool) or not isinstance(value, int):
+        raise ValueError(f"{label} must be an integer")
+    return value
+
+
+def _strict_float(value: Any, label: str) -> float:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise ValueError(f"{label} must be a number")
+    result = float(value)
+    if not math.isfinite(result):
+        raise ValueError(f"{label} must be finite")
+    return result
+
+
+def _strict_type_name(value: Any, label: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"{label} must be a non-empty string")
+    return value
+
+
 def _build_live_system(cfg: Mapping[str, Any]) -> LiveSystemProvider:
     """Build the invasive diagnostic collector only with an explicit opt-in.
 
@@ -31,7 +59,7 @@ def _build_live_system(cfg: Mapping[str, Any]) -> LiveSystemProvider:
             "live_system is diagnostic-only; set provider.diagnostic_only=true explicitly"
         )
     return LiveSystemProvider(
-        process_limit=int(cfg.get("process_limit", 20)),
+        process_limit=_strict_int(cfg.get("process_limit", 20), "provider.process_limit"),
         disk_path=cfg.get("disk_path"),
     )
 
@@ -72,9 +100,9 @@ def _register_defaults() -> None:
         "tcp",
         lambda cfg: TcpTransport(
             host=str(cfg.get("host", "127.0.0.1")),
-            port=int(cfg["port"]),
-            timeout=float(cfg.get("timeout", 5.0)),
-            allow_public=bool(cfg.get("allow_public", False)),
+            port=_strict_int(cfg["port"], "transport.port"),
+            timeout=_strict_float(cfg.get("timeout", 5.0), "transport.timeout"),
+            allow_public=_strict_bool(cfg.get("allow_public", False), "transport.allow_public"),
         ),
         aliases=("loopback_tcp",),
         replace=True,
@@ -83,18 +111,25 @@ def _register_defaults() -> None:
         "udp",
         lambda cfg: UdpTransport(
             host=str(cfg.get("host", "127.0.0.1")),
-            port=int(cfg["port"]),
-            allow_public=bool(cfg.get("allow_public", False)),
+            port=_strict_int(cfg["port"], "transport.port"),
+            allow_public=_strict_bool(cfg.get("allow_public", False), "transport.allow_public"),
         ),
         replace=True,
     )
 
     CLOCK_REGISTRY.register("real", lambda cfg: RealClock(), replace=True)
+
+    def build_simulated(cfg: Mapping[str, Any]) -> SimulatedClock:
+        start = cfg.get("start")
+        if start is None:
+            return SimulatedClock()
+        if not isinstance(start, str) or not start.strip():
+            raise ValueError("clock.start must be a non-empty ISO-8601 string")
+        return SimulatedClock(datetime.fromisoformat(start))
+
     CLOCK_REGISTRY.register(
         "simulated",
-        lambda cfg: SimulatedClock(
-            datetime.fromisoformat(str(cfg["start"])) if cfg.get("start") else None
-        ),
+        build_simulated,
         aliases=("fake",),
         replace=True,
     )
@@ -152,7 +187,7 @@ def build_provider(
         provider_cfg = {"type": "frozen_profile", "profile": cfg["profile"]}
     if not isinstance(provider_cfg, Mapping):
         raise ValueError("provider must be an object")
-    provider_type = str(provider_cfg.get("type", "frozen_profile"))
+    provider_type = _strict_type_name(provider_cfg.get("type", "frozen_profile"), "provider.type")
     return registry.build(provider_type, provider_cfg)
 
 
@@ -163,7 +198,7 @@ def build_transport(
     transport_cfg = cfg.get("transport", {"type": "memory"})
     if not isinstance(transport_cfg, Mapping):
         raise ValueError("transport must be an object")
-    kind = str(transport_cfg.get("type", "memory"))
+    kind = _strict_type_name(transport_cfg.get("type", "memory"), "transport.type")
     return registry.build(kind, transport_cfg)
 
 
@@ -174,17 +209,19 @@ def build_clock(
     clock_cfg = cfg.get("clock", {"type": "real"})
     if not isinstance(clock_cfg, Mapping):
         raise ValueError("clock must be an object")
-    kind = str(clock_cfg.get("type", "real"))
+    kind = _strict_type_name(clock_cfg.get("type", "real"), "clock.type")
     return registry.build(kind, clock_cfg)
 
 
 def build_settings(cfg: Mapping[str, Any]) -> AgentSettings:
     duration = cfg.get("duration_seconds")
     settings = AgentSettings(
-        interval_seconds=float(cfg.get("interval_seconds", 1.0)),
-        duration_seconds=float(duration) if duration is not None else None,
-        schema_version=int(cfg.get("schema_version", 1)),
-        provider_health_timeout=float(cfg.get("provider_health_timeout", 5.0)),
+        interval_seconds=_strict_float(cfg.get("interval_seconds", 1.0), "interval_seconds"),
+        duration_seconds=_strict_float(duration, "duration_seconds") if duration is not None else None,
+        schema_version=_strict_int(cfg.get("schema_version", 1), "schema_version"),
+        provider_health_timeout=_strict_float(
+            cfg.get("provider_health_timeout", 5.0), "provider_health_timeout"
+        ),
     )
     settings.validate()
     return settings
