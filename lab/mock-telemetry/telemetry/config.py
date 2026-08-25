@@ -18,6 +18,7 @@ from .providers import (
 )
 from .registry import CLOCK_REGISTRY, PROVIDER_REGISTRY, TRANSPORT_REGISTRY, Registry
 from .transports import BaseTransport, FileDumpTransport, MemoryTransport, TcpTransport, UdpTransport
+from .windows_validation import WindowsValidationProvider
 
 
 def _strict_bool(value: Any, label: str) -> bool:
@@ -80,6 +81,12 @@ def _register_defaults() -> None:
         "hybrid_network",
         lambda cfg: HybridSyntheticNetworkProvider(cfg["profile"]),
         aliases=("hybrid", "synthetic_live_network"),
+        replace=True,
+    )
+    PROVIDER_REGISTRY.register(
+        "windows_validation",
+        lambda cfg: WindowsValidationProvider(cfg["profile"], cfg["local_env"]),
+        aliases=("windows_current", "current_windows"),
         replace=True,
     )
     PROVIDER_REGISTRY.register(
