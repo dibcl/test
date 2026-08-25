@@ -93,9 +93,12 @@ class ConfigFileWatcher:
                     self._last_read_error = message
                 continue
 
+            had_read_error = self._last_read_error is not None
             self._last_read_error = None
             digest = self._digest(raw)
             if digest == self._last_digest:
+                if self._last_failed_digest is not None or had_read_error:
+                    self.runtime.clear_reload_failure()
                 self._last_failed_digest = None
                 continue
 
@@ -151,6 +154,7 @@ class TelemetryRuntime:
         self._failed_reloads = 0
         self._restart_required = False
         self._last_error: str | None = None
+        self._reload_failure_active = False
         self._watcher: ConfigFileWatcher | None = None
         self._watcher_task: asyncio.Task[None] | None = None
 
@@ -191,9 +195,19 @@ class TelemetryRuntime:
 
     def record_reload_failure(self, message: str) -> None:
         self._failed_reloads += 1
+        self._reload_failure_active = True
         self._last_error = message
         if self._state not in {RuntimeState.STOPPING, RuntimeState.STOPPED, RuntimeState.FAILED}:
             self._state = RuntimeState.DEGRADED
+
+    def clear_reload_failure(self) -> None:
+        """Clear only an active watcher/reload failure, preserving other errors."""
+        if not self._reload_failure_active:
+            return
+        self._reload_failure_active = False
+        self._last_error = None
+        if self._state == RuntimeState.DEGRADED:
+            self._state = RuntimeState.RUNNING if self.agent.running else RuntimeState.READY
 
     async def switch_provider(
         self,
@@ -247,6 +261,7 @@ class TelemetryRuntime:
             self.config["reload"] = new_config["reload"]
 
         self._successful_reloads += 1
+        self._reload_failure_active = False
 
         # A valid configuration supersedes an earlier reload/parse error. Keep a
         # cleanup warning from the current switch, but otherwise return from
