@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import ipaddress
 import json
+import math
 import socket
 from abc import ABC, abstractmethod
 from pathlib import Path
@@ -64,10 +65,14 @@ class NetworkPolicy:
     """
 
     def __init__(self, allow_public: bool = False) -> None:
+        if not isinstance(allow_public, bool):
+            raise ValueError("allow_public must be a boolean")
         self.allow_public = allow_public
 
     async def resolve(self, host: str, port: int, socktype: int) -> list[tuple[Any, ...]]:
-        if not 1 <= port <= 65535:
+        if not isinstance(host, str) or not host.strip():
+            raise ValueError("host must be a non-empty string")
+        if isinstance(port, bool) or not isinstance(port, int) or not 1 <= port <= 65535:
             raise ValueError(f"invalid port: {port}")
         loop = asyncio.get_running_loop()
         infos = await loop.run_in_executor(
@@ -90,9 +95,13 @@ class NetworkPolicy:
 
 class TcpTransport(BaseTransport):
     def __init__(self, host: str, port: int, timeout: float = 5.0, allow_public: bool = False) -> None:
+        if not isinstance(timeout, (int, float)) or isinstance(timeout, bool):
+            raise ValueError("timeout must be a number")
+        self.timeout = float(timeout)
+        if not math.isfinite(self.timeout) or self.timeout <= 0:
+            raise ValueError("timeout must be finite and > 0")
         self.host = host
         self.port = port
-        self.timeout = timeout
         self.policy = NetworkPolicy(allow_public=allow_public)
         self.reader = None
         self.writer = None
