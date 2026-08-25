@@ -43,9 +43,28 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
       - name: Compile runtime
-        run: python -m compileall telemetry run_agent.py fidelity_audit.py
+        run: python -m compileall telemetry run_agent.py fidelity_audit.py windows_validation_audit.py
       - name: Run runtime unit tests
         run: python -m unittest discover -s tests -v
+      - name: Run tracked local-env Windows validation smoke
+        if: matrix.os == 'windows-latest' && matrix.python-version == '3.13'
+        shell: pwsh
+        run: |
+          $cfg = @{
+            provider = @{
+              type = 'windows_validation'
+              profile = 'baseline.runtime.json'
+              local_env = 'local_env.json'
+            }
+            clock = @{ type = 'real' }
+            transport = @{ type = 'file_dump'; path = 'out/windows-ci-validation.jsonl' }
+            interval_seconds = 1
+            duration_seconds = 1
+            schema_version = 1
+          }
+          $cfg | ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 windows-ci-validation.json
+          python run_agent.py --config windows-ci-validation.json
+          python windows_validation_audit.py out/windows-ci-validation.jsonl --local-env local_env.json
 
   prototype-offline-test:
     strategy:
@@ -91,7 +110,7 @@ jobs:
           .venv/bin/python -m pip install --upgrade pip
           .venv/bin/python -m pip install -r requirements.txt
       - name: Compile on Debian 13
-        run: .venv/bin/python -m compileall telemetry run_agent.py fidelity_audit.py
+        run: .venv/bin/python -m compileall telemetry run_agent.py fidelity_audit.py windows_validation_audit.py
       - name: Run full runtime suite on Debian 13
         run: .venv/bin/python -m unittest discover -s tests -v
       - name: Run hybrid-network provider smoke test
