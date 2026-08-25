@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 import json
+import math
 from collections.abc import Mapping
 from dataclasses import asdict, dataclass
 from enum import Enum
@@ -45,7 +46,7 @@ class RuntimeStatus:
 class ConfigFileWatcher:
     """Poll a local JSON config and apply provider-only live changes.
 
-    The watcher uses ordinary wall-clock sleeps even when the telemetry agent is
+    The watcher uses ordinary wall-clock waits even when the telemetry agent is
     running on a simulated clock. A malformed partial write is retried when its
     content changes, while an unchanged malformed file is reported only once.
     A syntactically valid but rejected configuration is also recorded once for
@@ -58,8 +59,8 @@ class ConfigFileWatcher:
         path: str | Path,
         poll_seconds: float = 1.0,
     ) -> None:
-        if poll_seconds <= 0:
-            raise ValueError("reload poll_seconds must be > 0")
+        if not math.isfinite(poll_seconds) or poll_seconds <= 0:
+            raise ValueError("reload poll_seconds must be finite and > 0")
         self.runtime = runtime
         self.path = Path(path)
         self.poll_seconds = poll_seconds
@@ -75,13 +76,25 @@ class ConfigFileWatcher:
     async def stop(self) -> None:
         self._stop_event.set()
 
+    async def _wait_for_poll(self) -> bool:
+        """Return False when stop was requested, True when the poll interval elapsed."""
+        try:
+            await asyncio.wait_for(self._stop_event.wait(), timeout=self.poll_seconds)
+            return False
+        except asyncio.TimeoutError:
+            return True
+
     async def run(self) -> None:
-        if self.path.exists():
-            self._last_digest = self._digest(await asyncio.to_thread(self.path.read_bytes))
+        try:
+            if self.path.exists():
+                self._last_digest = self._digest(await asyncio.to_thread(self.path.read_bytes))
+        except OSError as exc:
+            message = f"config read failed: {exc}"
+            self.runtime.record_reload_failure(message)
+            self._last_read_error = message
 
         while not self._stop_event.is_set():
-            await asyncio.sleep(self.poll_seconds)
-            if self._stop_event.is_set():
+            if not await self._wait_for_poll():
                 break
 
             try:
@@ -277,10 +290,15 @@ class TelemetryRuntime:
             return False, 1.0
         if not isinstance(raw, Mapping):
             raise ValueError("reload must be an object")
-        enabled = bool(raw.get("enabled", False))
-        poll_seconds = float(raw.get("poll_seconds", 1.0))
-        if poll_seconds <= 0:
-            raise ValueError("reload.poll_seconds must be > 0")
+        enabled = raw.get("enabled", False)
+        if not isinstance(enabled, bool):
+            raise ValueError("reload.enabled must be a boolean")
+        poll_value = raw.get("poll_seconds", 1.0)
+        if isinstance(poll_value, bool) or not isinstance(poll_value, (int, float)):
+            raise ValueError("reload.poll_seconds must be a number")
+        poll_seconds = float(poll_value)
+        if not math.isfinite(poll_seconds) or poll_seconds <= 0:
+            raise ValueError("reload.poll_seconds must be finite and > 0")
         return enabled, poll_seconds
 
     async def _start_watcher(self) -> None:
