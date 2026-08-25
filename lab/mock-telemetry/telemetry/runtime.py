@@ -46,9 +46,10 @@ class ConfigFileWatcher:
     """Poll a local JSON config and apply provider-only live changes.
 
     The watcher uses ordinary wall-clock sleeps even when the telemetry agent is
-    running on a simulated clock. A malformed partial write is retried on the
-    next poll; a syntactically valid but rejected configuration is recorded once
-    for that file content and leaves the current provider running.
+    running on a simulated clock. A malformed partial write is retried when its
+    content changes, while an unchanged malformed file is reported only once.
+    A syntactically valid but rejected configuration is also recorded once for
+    that file content and leaves the current provider running.
     """
 
     def __init__(
@@ -64,6 +65,8 @@ class ConfigFileWatcher:
         self.poll_seconds = poll_seconds
         self._stop_event = asyncio.Event()
         self._last_digest: str | None = None
+        self._last_failed_digest: str | None = None
+        self._last_read_error: str | None = None
 
     @staticmethod
     def _digest(raw: bytes) -> str:
@@ -84,11 +87,16 @@ class ConfigFileWatcher:
             try:
                 raw = await asyncio.to_thread(self.path.read_bytes)
             except OSError as exc:
-                self.runtime.record_reload_failure(f"config read failed: {exc}")
+                message = f"config read failed: {exc}"
+                if message != self._last_read_error:
+                    self.runtime.record_reload_failure(message)
+                    self._last_read_error = message
                 continue
 
+            self._last_read_error = None
             digest = self._digest(raw)
             if digest == self._last_digest:
+                self._last_failed_digest = None
                 continue
 
             try:
@@ -96,9 +104,12 @@ class ConfigFileWatcher:
                 if not isinstance(decoded, dict):
                     raise ValueError("top-level config must be an object")
             except (UnicodeDecodeError, json.JSONDecodeError, ValueError) as exc:
-                self.runtime.record_reload_failure(f"config parse failed: {exc}")
+                if digest != self._last_failed_digest:
+                    self.runtime.record_reload_failure(f"config parse failed: {exc}")
+                    self._last_failed_digest = digest
                 continue
 
+            self._last_failed_digest = None
             try:
                 await self.runtime.apply_config(decoded)
             except Exception as exc:
