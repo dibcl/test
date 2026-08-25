@@ -9,6 +9,7 @@ from typing import Any
 
 from .agent import AgentSettings
 from .clocks import BaseClock, RealClock, SimulatedClock
+from .mswitch_frame_transport import MswitchFrameTransport
 from .providers import (
     BaseMetricsProvider,
     FrozenProfileProvider,
@@ -123,6 +124,22 @@ def _register_defaults() -> None:
             port=_strict_int(cfg["port"], "transport.port"),
             allow_public=_strict_bool(cfg.get("allow_public", False), "transport.allow_public"),
         ),
+        replace=True,
+    )
+    TRANSPORT_REGISTRY.register(
+        "mswitch_frame",
+        lambda cfg: MswitchFrameTransport(
+            host=str(cfg.get("host", "127.0.0.1")),
+            port=_strict_int(cfg["port"], "transport.port"),
+            uuid=_strict_type_name(cfg["uuid"], "transport.uuid"),
+            mode=_strict_type_name(cfg.get("mode", "json_debug"), "transport.mode"),
+            timeout=_strict_float(cfg.get("timeout", 5.0), "transport.timeout"),
+            dst_type=_strict_int(cfg.get("dst_type", 1), "transport.dst_type"),
+            dst_type_by_module=cfg.get("dst_type_by_module"),
+            msgtype_by_id=cfg.get("msgtype_by_id"),
+            ack_by_request=cfg.get("ack_by_request"),
+        ),
+        aliases=("mswitch",),
         replace=True,
     )
 

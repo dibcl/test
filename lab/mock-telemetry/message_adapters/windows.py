@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from collections.abc import Mapping
 from datetime import datetime
+import json
+from pathlib import Path
 from typing import TYPE_CHECKING, Any
 from urllib.parse import quote_plus
 
@@ -15,6 +17,28 @@ VMBOOSTER_MODULE = 0x80000001
 QOE_MODULE = 0x80000011
 HOST_MODULE = 0x80000000
 QOE_TARGET = 10
+ZERO_VMID = "0" * 36
+SOFTWARE_BATCH_ORDER = ("native", "wow6432node", "kb")
+DISK_FIELD_KEYS = (
+    "activity_rate",
+    "read_iops",
+    "write_iops",
+    "read_bytes_per_second",
+    "write_bytes_per_second",
+    "read_latency_ms",
+    "write_latency_ms",
+    "queue_length",
+    "busy_percent",
+)
+PER_DISK_FIELD_KEYS = (
+    "activity_rate",
+    "read_iops",
+    "write_iops",
+    "read_bytes_per_second",
+    "write_bytes_per_second",
+    "read_latency_ms",
+    "write_latency_ms",
+)
 
 
 def _text(value: Any, label: str, *, allow_empty: bool = False) -> str:
@@ -29,6 +53,39 @@ def _number(value: Any) -> str:
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError("protocol metric value must be numeric")
     return f"{float(value):.3f}".rstrip("0").rstrip(".") or "0"
+
+
+def _windows_urlencode(value: str) -> str:
+    return quote_plus(value, safe="").replace("-", "%2D").replace(".", "%2E")
+
+
+def _software_batches(config: Mapping[str, Any]) -> tuple[tuple[dict[str, str], ...], ...]:
+    profile_path = _text(config.get("software_profile", ""), "software_profile")
+    source = Path(profile_path)
+    value = json.loads(source.read_text(encoding="utf-8"))
+    batches = value.get("batches") if isinstance(value, dict) else None
+    if not isinstance(batches, list):
+        raise ValueError("message_adapter.software_profile must contain batches")
+
+    indexed: dict[str, tuple[dict[str, str], ...]] = {}
+    required = ("name", "type", "publisher", "installtime", "size", "version", "operate")
+    for batch in batches:
+        if not isinstance(batch, dict) or not isinstance(batch.get("label"), str):
+            raise ValueError("software batch must contain a label")
+        rows = batch.get("softwares")
+        if not isinstance(rows, list):
+            raise ValueError("software batch must contain softwares")
+        checked: list[dict[str, str]] = []
+        for row in rows:
+            if not isinstance(row, dict) or any(not isinstance(row.get(key), str) for key in required):
+                raise ValueError("software rows must contain the complete string schema")
+            checked.append({key: row[key] for key in required})
+        indexed[batch["label"]] = tuple(checked)
+
+    missing = [label for label in SOFTWARE_BATCH_ORDER if label not in indexed]
+    if missing:
+        raise ValueError(f"software profile missing batches: {missing}")
+    return tuple(indexed[label] for label in SOFTWARE_BATCH_ORDER)
 
 
 class WindowsMessageEncoder:
@@ -65,6 +122,7 @@ class WindowsMessageEncoder:
             "environment.targetversion",
             allow_empty=True,
         )
+        self.software_batches = _software_batches(config)
 
     @staticmethod
     def _stamp(observed_at: str) -> str:
@@ -104,7 +162,7 @@ class WindowsMessageEncoder:
         payload = {
             "msgtype": "4002",
             "agentversion": self.agentversion,
-            "vmid": env["VMID"],
+            "vmid": ZERO_VMID,
             "agentstatus": self.agentstatus,
             "computername": env["COMPUTERNAME"],
             "issysprep": self.issysprep,
@@ -116,7 +174,7 @@ class WindowsMessageEncoder:
         stamp = self._stamp(snapshot.observed_at)
         payload = {
             "msgtype": "4004",
-            "vmid": env["VMID"],
+            "vmid": ZERO_VMID,
             "vmbooster": self.vmbooster,
             "vmagent": " ",
             "PVDriver": self.pvdriver,
@@ -137,12 +195,12 @@ class WindowsMessageEncoder:
             "groupid": "-1",
             "createtime": stamp,
             "environment": {
-                "computername": quote_plus(env["COMPUTERNAME"]),
+                "computername": _windows_urlencode(env["COMPUTERNAME"]),
                 "cpu": env["CPU"],
-                "os": quote_plus(env["OS"]),
+                "os": _windows_urlencode("\n" + env["OS"]),
                 "bit": self.bit,
                 "mem": env["MEM"],
-                "mac": env["MAC"],
+                "mac": env["MAC"].lower(),
                 "ip": env.get("IP", ""),
                 "disk": env["DISK"],
                 "diskused": self.diskused,
@@ -151,6 +209,28 @@ class WindowsMessageEncoder:
             },
         }
         return self._message(9050, QOE_MODULE, QOE_TARGET, stamp, payload)
+
+    def software_9054(self, snapshot: TelemetrySnapshot) -> list[ProtocolMessage]:
+        env = self._local_environment(snapshot)
+        stamp = self._stamp(snapshot.observed_at)
+        messages: list[ProtocolMessage] = []
+        for batch in self.software_batches:
+            softwares = []
+            for item in batch:
+                row = dict(item)
+                row["name"] = _windows_urlencode(row["name"])
+                row["publisher"] = _windows_urlencode(row["publisher"])
+                softwares.append(row)
+            payload = {
+                "source": 4,
+                "uuid": env["UUID"],
+                "hostid": env["HOSTID"],
+                "createtime": stamp,
+                "mothod": "1",
+                "softwares": softwares,
+            }
+            messages.append(self._message(9054, QOE_MODULE, QOE_TARGET, stamp, payload))
+        return messages
 
     def performance_sample(self, snapshot: TelemetrySnapshot) -> dict[str, Any]:
         metrics = snapshot.metrics
@@ -165,26 +245,15 @@ class WindowsMessageEncoder:
         handles = sum(int(item.get("handles", 0)) for item in processes.get("process_handle", []))
         tx = network.get("tx_bytes_per_second")
         rx = network.get("rx_bytes_per_second")
-        activity = _number(disk.get("activity_rate"))
-        disk_columns = [activity] * 9
+        disk_columns = [_number(disk.get(key, 0)) for key in DISK_FIELD_KEYS]
         per_disk = []
         for item in disk.get("per_disk", []):
-            per_disk.append(
-                "|".join(
-                    [
-                        str(item.get("name", "disk")),
-                        _number(item.get("size_gb", 0)),
-                        _number(item.get("used_percent", 0)),
-                        _number(item.get("activity_rate", 0)),
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                    ]
-                )
-            )
+            per_disk.append("|".join([
+                str(item.get("name", "disk")),
+                _number(item.get("size_gb", 0)),
+                _number(item.get("used_percent", 0)),
+                *[_number(item.get(key, 0)) for key in PER_DISK_FIELD_KEYS],
+            ]))
         return {
             "createtime": stamp,
             "cpu": float(cpu["percent"]),
@@ -206,7 +275,7 @@ class WindowsMessageEncoder:
                 }
             ],
             "disk": "|".join(disk_columns),
-            "perdisk": ";".join(per_disk),
+            "perdisk": ",".join(per_disk),
         }
 
     def performance_9051(
@@ -233,17 +302,24 @@ class WindowsMessageEncoder:
             str(item["pid"]),
         ]
         if group in {"process", "process_memory", "process_handle"}:
+            memory = float(item.get("rss_mb", 0))
+            if group == "process_memory":
+                memory = round(memory * 1024)
             values = [
                 _number(item.get("cpu_percent", 0)),
-                _number(item.get("rss_mb", 0)),
+                _number(memory),
                 str(int(item.get("handles", 0))),
             ]
         elif group == "process_diskio":
-            total = _number(item.get("disk_io_rate", 0))
-            values = [total, total, "0"]
+            total = float(item.get("disk_io_rate", 0))
+            read = float(item.get("disk_read_rate", total * 0.65))
+            write = float(item.get("disk_write_rate", max(0.0, total - read)))
+            values = [_number(total), _number(read), _number(write)]
         else:
-            total = _number(item.get("network_io_rate", 0))
-            values = [total, total, "0"]
+            total = float(item.get("network_io_rate", 0))
+            tx = float(item.get("network_tx_rate", total * 0.45))
+            rx = float(item.get("network_rx_rate", max(0.0, total - tx)))
+            values = [_number(total), _number(tx), _number(rx)]
         return {"data": "|".join([*base, *values])}
 
     def process_9052(self, snapshot: TelemetrySnapshot) -> ProtocolMessage:

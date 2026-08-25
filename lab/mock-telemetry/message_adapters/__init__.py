@@ -4,6 +4,7 @@ from collections.abc import Mapping
 from typing import Any
 
 from .model import MessageAdapter, ProtocolMessage
+from .mswitch_frame import MswitchFrameEncoder
 from .scheduler import TelemetryMessageScheduler
 from .windows import WindowsMessageEncoder
 
@@ -26,6 +27,7 @@ def build_message_adapter(config: Mapping[str, Any]) -> MessageAdapter | None:
 __all__ = [
     "MessageAdapter",
     "ProtocolMessage",
+    "MswitchFrameEncoder",
     "TelemetryMessageScheduler",
     "WindowsMessageEncoder",
     "build_message_adapter",

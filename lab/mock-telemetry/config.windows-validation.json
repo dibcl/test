@@ -17,6 +17,7 @@
     "agentversion": "V7.25.21SP3pv",
     "agentstatus": "1",
     "issysprep": "0",
+    "software_profile": "fixtures/observed-software-baseline.json",
     "versions": {
       "vmbooster": "V7.25.21SP3pv",
       "PVDriver": "3.18.34.723185c6",
@@ -26,15 +27,17 @@
     },
     "environment": {
       "bit": "64",
-      "diskused": "",
+      "diskused": "C:23.17GB,D:26.61GB",
       "targetversion": ""
     },
     "schedule": {
       "heartbeat_seconds": 30,
       "version_seconds": 7200,
+      "version_startup_delay_seconds": 29,
       "performance_sample_seconds": 60,
       "qoe_batch_seconds": 300,
-      "process_seconds": 300
+      "process_seconds": 300,
+      "process_offset_seconds": 7
     }
   },
   "interval_seconds": 1,
