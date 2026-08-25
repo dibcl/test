@@ -2,7 +2,8 @@
   "provider": {
     "type": "windows_validation",
     "profile": "baseline.runtime.json",
-    "local_env": "local_env.json"
+    "local_env": "local_env.json",
+    "state_path": "out/windows-runtime-state.json"
   },
   "clock": {
     "type": "real"

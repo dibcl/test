@@ -74,18 +74,20 @@ def _register_defaults() -> None:
     )
     PROVIDER_REGISTRY.register(
         "synthetic",
-        lambda cfg: SyntheticMetricsProvider(cfg["profile"]),
+        lambda cfg: SyntheticMetricsProvider(cfg["profile"], cfg.get("state_path")),
         replace=True,
     )
     PROVIDER_REGISTRY.register(
         "hybrid_network",
-        lambda cfg: HybridSyntheticNetworkProvider(cfg["profile"]),
+        lambda cfg: HybridSyntheticNetworkProvider(cfg["profile"], cfg.get("state_path")),
         aliases=("hybrid", "synthetic_live_network"),
         replace=True,
     )
     PROVIDER_REGISTRY.register(
         "windows_validation",
-        lambda cfg: WindowsValidationProvider(cfg["profile"], cfg["local_env"]),
+        lambda cfg: WindowsValidationProvider(
+            cfg["profile"], cfg["local_env"], cfg.get("state_path")
+        ),
         aliases=("windows_current", "current_windows"),
         replace=True,
     )

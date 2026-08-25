@@ -22,8 +22,13 @@ class WindowsValidationProvider(HybridSyntheticNetworkProvider):
 
     name = "windows-validation"
 
-    def __init__(self, profile_path: str | Path, local_env_path: str | Path) -> None:
-        super().__init__(profile_path)
+    def __init__(
+        self,
+        profile_path: str | Path,
+        local_env_path: str | Path,
+        state_path: str | Path | None = None,
+    ) -> None:
+        super().__init__(profile_path, state_path)
         self.local_env_path = Path(local_env_path)
         self.local_environment = load_local_environment(self.local_env_path)
 

@@ -11,6 +11,7 @@ from typing import Any
 
 from .clocks import BaseClock
 from .model import ProviderHealth, TelemetrySnapshot
+from .process_state import ProcessIdentityState
 
 
 class BaseMetricsProvider(ABC):
@@ -90,8 +91,9 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
 
     name = "synthetic"
 
-    def __init__(self, profile_path: str | Path) -> None:
+    def __init__(self, profile_path: str | Path, state_path: str | Path | None = None) -> None:
         self.path = Path(profile_path)
+        self.state_path = Path(state_path) if state_path is not None else None
         with self.path.open("r", encoding="utf-8") as fp:
             self.profile = json.load(fp)
         cfg = self.profile.get("dynamics", {})
@@ -104,6 +106,10 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
         self.memory = float(self.mem_cfg.get("initial", 40.0))
         self.network = float(self.net_cfg.get("initial", 1.0))
         self.disk = float(self.disk_cfg.get("initial", 1.0))
+        self.process_state = ProcessIdentityState.load(self.state_path)
+        self.cpu = self.process_state.dynamic_metrics.get("cpu", self.cpu)
+        self.memory = self.process_state.dynamic_metrics.get("memory", self.memory)
+        self.disk = self.process_state.dynamic_metrics.get("disk_io", self.disk)
 
     async def health_check(self) -> ProviderHealth:
         if not self.path.is_file():
@@ -125,11 +131,31 @@ class SyntheticMetricsProvider(BaseMetricsProvider):
             )
         return max(float(cfg.get("min", 0)), min(float(cfg.get("max", 100)), candidate))
 
+    def _continuous_walk(self, value: float, cfg: dict[str, Any]) -> float:
+        mean = float(cfg.get("mean", value))
+        sigma = max(0.0, float(cfg.get("sigma", 1.0)))
+        smoothing = max(0.0, min(1.0, float(cfg.get("smoothing", 0.3))))
+        target = mean + self.random.gauss(0.0, sigma)
+        delta = (target - value) * smoothing
+        max_step = max(0.01, float(cfg.get("max_step", sigma * max(smoothing, 0.1))))
+        delta = max(-max_step, min(max_step, delta))
+        candidate = value + delta
+        return max(float(cfg.get("min", 0)), min(float(cfg.get("max", 100)), candidate))
+
+    def _save_runtime_state(self) -> None:
+        self.process_state.update_dynamic_metrics(
+            cpu=self.cpu,
+            memory=self.memory,
+            disk_io=self.disk,
+        )
+        self.process_state.save(self.state_path)
+
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
-        self.cpu = self._walk(self.cpu, self.cpu_cfg)
-        self.memory = self._walk(self.memory, self.mem_cfg)
+        self.cpu = self._continuous_walk(self.cpu, self.cpu_cfg)
+        self.memory = self._continuous_walk(self.memory, self.mem_cfg)
         self.network = self._walk(self.network, self.net_cfg)
-        self.disk = self._walk(self.disk, self.disk_cfg)
+        self.disk = self._continuous_walk(self.disk, self.disk_cfg)
+        self._save_runtime_state()
         return TelemetrySnapshot(
             observed_at=clock.now().isoformat(),
             provider=self.name,
@@ -155,8 +181,8 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
 
     name = "hybrid-synthetic-network"
 
-    def __init__(self, profile_path: str | Path) -> None:
-        super().__init__(profile_path)
+    def __init__(self, profile_path: str | Path, state_path: str | Path | None = None) -> None:
+        super().__init__(profile_path, state_path)
         cfg = self.profile.get("dynamics", {})
         shape = self.profile.get("runtime_shape", {})
         self.cpu_cores = max(1, int(shape.get("cpu_cores", 8)))
@@ -226,7 +252,7 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
         per_core = []
         for index in range(self.cpu_cores):
             bias = ((index % 4) - 1.5) * 0.35
-            value = self.cpu + bias + self.random.gauss(0.0, 1.6)
+            value = self.cpu + bias
             per_core.append(round(max(0.0, min(100.0, value)), 2))
         return {
             "percent": round(self.cpu, 2),
@@ -237,10 +263,11 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
     def _memory_snapshot(self) -> dict[str, Any]:
         paged_base = float(self.memory_shape.get("paged_pool_mb", 440.0))
         nonpaged_base = float(self.memory_shape.get("nonpaged_pool_mb", 228.0))
+        memory_delta = self.memory - float(self.mem_cfg.get("mean", self.memory))
         return {
             "percent": round(self.memory, 2),
-            "paged_pool_mb": round(max(0.0, paged_base + self.random.gauss(0.0, 4.0)), 1),
-            "nonpaged_pool_mb": round(max(0.0, nonpaged_base + self.random.gauss(0.0, 2.0)), 1),
+            "paged_pool_mb": round(max(0.0, paged_base + memory_delta * 0.8), 1),
+            "nonpaged_pool_mb": round(max(0.0, nonpaged_base + memory_delta * 0.4), 1),
             "source": "synthetic",
         }
 
@@ -249,8 +276,8 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
         layout = self.disk_layout or ({"name": "C", "size_gb": 80.0, "used_percent": 35.0, "weight": 1.0},)
         for item in layout:
             weight = max(0.01, float(item.get("weight", 1.0)))
-            activity = max(0.0, self.disk * weight + self.random.gauss(0.0, 0.8))
-            used = float(item.get("used_percent", 35.0)) + self.random.gauss(0.0, 0.08)
+            activity = max(0.0, self.disk * weight)
+            used = float(item.get("used_percent", 35.0))
             disks.append({
                 "name": str(item.get("name", "disk")),
                 "size_gb": round(float(item.get("size_gb", 0.0)), 2),
@@ -271,6 +298,8 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
             primary = bool(item.get("primary", False))
             pid_base = int(item.get("pid_base", 1000 + index * 100))
             pid_jitter = 0 if primary else self.random.randint(0, max(0, int(item.get("pid_jitter", 16))))
+            process_name = str(item["name"])
+            pid = self.process_state.get_pid(process_name, pid_base + pid_jitter)
             cpu = max(0.0, self.cpu * weights[index] / total_weight + self.random.gauss(0.0, 0.12))
             rss_mb = max(1.0, float(item.get("rss_mb", 32.0)) * (1.0 + self.random.gauss(0.0, 0.015)))
             handles = max(1, int(item.get("handles", 200)) + self.random.randint(-8, 8))
@@ -278,8 +307,8 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
             disk_total = max(0.0, self.disk * float(item.get("disk_weight", 0.2)) * 1024.0 + self.random.gauss(0.0, 64.0))
             net_total = max(0.0, float(item.get("net_baseline", 32.0)) + self.random.gauss(0.0, 8.0))
             rows.append({
-                "name": str(item["name"]),
-                "pid": pid_base + pid_jitter,
+                "name": process_name,
+                "pid": pid,
                 "cpu_percent": round(cpu, 3),
                 "rss_mb": round(rss_mb, 2),
                 "handles": handles,
@@ -305,10 +334,12 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
         }
 
     async def snapshot(self, clock: BaseClock) -> TelemetrySnapshot:
-        self.cpu = self._walk(self.cpu, self.cpu_cfg)
-        self.memory = self._walk(self.memory, self.mem_cfg)
-        self.disk = self._walk(self.disk, self.disk_cfg)
+        self.cpu = self._continuous_walk(self.cpu, self.cpu_cfg)
+        self.memory = self._continuous_walk(self.memory, self.mem_cfg)
+        self.disk = self._continuous_walk(self.disk, self.disk_cfg)
         network = await asyncio.to_thread(self._collect_network)
+        process_snapshot = self._process_snapshot()
+        self._save_runtime_state()
 
         return TelemetrySnapshot(
             observed_at=clock.now().isoformat(),
@@ -318,7 +349,7 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
                 "memory": self._memory_snapshot(),
                 "disk_io": self._disk_snapshot(),
                 "network_io": network,
-                "process_snapshot": self._process_snapshot(),
+                "process_snapshot": process_snapshot,
             },
             metadata={
                 "profile": str(self.path),

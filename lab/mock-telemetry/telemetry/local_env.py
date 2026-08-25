@@ -59,6 +59,7 @@ def load_local_environment(path: str | Path) -> dict[str, str]:
         raise LocalEnvironmentError(f"local environment contains unsupported fields: {extra}")
 
     result = {key: _require_string(value, key) for key in REQUIRED_FIELDS}
+    result["OS"] = result["OS"].replace("鐗堟湰", "版本")
 
     for key in ("VMID", "UUID"):
         try:
