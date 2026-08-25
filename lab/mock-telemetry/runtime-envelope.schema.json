@@ -27,6 +27,7 @@
       "type": "object",
       "properties": {
         "environment": {"type": "object"},
+        "local_environment": {"type": "object"},
         "software_batches": {"type": "array"},
         "performance": {"type": "object"},
         "process_snapshot": {},
