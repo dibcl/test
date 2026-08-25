@@ -23,8 +23,25 @@ It does **not** mean byte-for-byte equivalence with a production Guest managemen
 - [x] Software/KB evidence is retained as a reference-only, batch-aware fixture with the user-requested sensitive software filter explicitly recorded.
 - [x] Real identity values are not accepted by the payload-profile renderer; only validated TEST_* values can render test payload profiles.
 - [x] Prototype TCP transports are loopback-only; the former external override is rejected.
-- [x] QGA test behavior defaults to the observed time-query/sync surface; OS/file/exec/shutdown commands are not emulated, and fixture network interfaces are opt-in only.
+- [x] QGA test behavior defaults to the observed time-query/sync surface; unsupported OS/file/exec/shutdown commands return a deterministic `CommandNotFound` test response, and fixture network interfaces are opt-in only.
+- [x] `live_system` host scanning requires explicit `diagnostic_only: true`; the intended hybrid path cannot silently fall back to it.
 - [x] Runtime tests and prototype offline tests are part of CI on Windows and Ubuntu, plus a Debian 13 smoke lane.
+- [x] Tracked Python bytecode/cache trees were removed from the feature branch and `.gitignore` prevents regeneration from being recommitted.
+
+## Final automated validation
+
+Feature branch validation point:
+
+- validated commit: `f44e5fd03ef528cf07e1eeca723d9924503f8bea`
+- GitHub Actions workflow: `Telemetry Runtime Tests`, run `#265`
+- result: `success`
+- Windows runtime: Python 3.11 / 3.13 — pass
+- Windows prototype offline suite: Python 3.11 / 3.13 — pass
+- Ubuntu runtime: Python 3.11 / 3.13 — pass
+- Ubuntu prototype offline suite: Python 3.11 / 3.13 — pass
+- Debian 13: runtime suite + hybrid fidelity smoke + prototype offline suite — pass
+
+The subsequent documentation-only status commit does not change runtime/prototype code covered by the validation point above.
 
 ## Evidence-to-code separation
 
