@@ -1,15 +1,15 @@
 {
   "provider": {
     "type": "windows_validation",
-    "profile": "lab/mock-telemetry/baseline.runtime.json",
-    "local_env": "lab/mock-telemetry/local_env.json"
+    "profile": "baseline.runtime.json",
+    "local_env": "local_env.json"
   },
   "clock": {
     "type": "real"
   },
   "transport": {
     "type": "file_dump",
-    "path": "lab/mock-telemetry/out/windows-validation.jsonl"
+    "path": "out/windows-validation.jsonl"
   },
   "interval_seconds": 1,
   "duration_seconds": 30,
