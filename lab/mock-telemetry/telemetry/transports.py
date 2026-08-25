@@ -57,12 +57,16 @@ class NetworkPolicy:
 
     Public destinations are blocked unless explicitly enabled. Loopback,
     private, and link-local addresses are accepted for isolated/LAN tests.
+
+    Resolution is returned to the caller so the transport connects to exactly
+    the addresses that were policy-checked. This avoids a validate-then-resolve
+    DNS race where a hostname could change between the two operations.
     """
 
     def __init__(self, allow_public: bool = False) -> None:
         self.allow_public = allow_public
 
-    async def validate(self, host: str, port: int, socktype: int) -> None:
+    async def resolve(self, host: str, port: int, socktype: int) -> list[tuple[Any, ...]]:
         if not 1 <= port <= 65535:
             raise ValueError(f"invalid port: {port}")
         loop = asyncio.get_running_loop()
@@ -70,12 +74,18 @@ class NetworkPolicy:
             None,
             lambda: socket.getaddrinfo(host, port, type=socktype),
         )
-        if self.allow_public:
-            return
-        for info in infos:
-            ip = ipaddress.ip_address(info[4][0])
-            if not (ip.is_loopback or ip.is_private or ip.is_link_local):
-                raise ValueError(f"public address blocked by policy: {ip}")
+        if not infos:
+            raise OSError(f"no addresses resolved for {host!r}")
+        if not self.allow_public:
+            for info in infos:
+                ip = ipaddress.ip_address(info[4][0])
+                if not (ip.is_loopback or ip.is_private or ip.is_link_local):
+                    raise ValueError(f"public address blocked by policy: {ip}")
+        return list(infos)
+
+    async def validate(self, host: str, port: int, socktype: int) -> None:
+        """Compatibility helper for callers that only need policy validation."""
+        await self.resolve(host, port, socktype)
 
 
 class TcpTransport(BaseTransport):
@@ -88,11 +98,24 @@ class TcpTransport(BaseTransport):
         self.writer = None
 
     async def open(self) -> None:
-        await self.policy.validate(self.host, self.port, socket.SOCK_STREAM)
-        self.reader, self.writer = await asyncio.wait_for(
-            asyncio.open_connection(self.host, self.port),
-            timeout=self.timeout,
-        )
+        infos = await self.policy.resolve(self.host, self.port, socket.SOCK_STREAM)
+        loop = asyncio.get_running_loop()
+        last_error: BaseException | None = None
+
+        for family, socktype, proto, _, sockaddr in infos:
+            sock = socket.socket(family, socktype, proto)
+            sock.setblocking(False)
+            try:
+                await asyncio.wait_for(loop.sock_connect(sock, sockaddr), timeout=self.timeout)
+                self.reader, self.writer = await asyncio.open_connection(sock=sock)
+                return
+            except BaseException as exc:
+                last_error = exc
+                sock.close()
+                if isinstance(exc, asyncio.CancelledError):
+                    raise
+
+        raise OSError(f"unable to connect to any validated address for {self.host!r}") from last_error
 
     async def send(self, message: dict[str, Any]) -> None:
         if self.writer is None:
@@ -115,17 +138,17 @@ class UdpTransport(BaseTransport):
         self.port = port
         self.policy = NetworkPolicy(allow_public=allow_public)
         self.sock: socket.socket | None = None
+        self._sockaddr = None
 
     async def open(self) -> None:
-        await self.policy.validate(self.host, self.port, socket.SOCK_DGRAM)
-        infos = socket.getaddrinfo(self.host, self.port, type=socket.SOCK_DGRAM)
+        infos = await self.policy.resolve(self.host, self.port, socket.SOCK_DGRAM)
         family, socktype, proto, _, sockaddr = infos[0]
         self._sockaddr = sockaddr
         self.sock = socket.socket(family, socktype, proto)
         self.sock.setblocking(False)
 
     async def send(self, message: dict[str, Any]) -> None:
-        if self.sock is None:
+        if self.sock is None or self._sockaddr is None:
             raise RuntimeError("transport not opened")
         payload = json.dumps(message, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
         loop = asyncio.get_running_loop()
@@ -135,3 +158,4 @@ class UdpTransport(BaseTransport):
         if self.sock:
             self.sock.close()
             self.sock = None
+        self._sockaddr = None
