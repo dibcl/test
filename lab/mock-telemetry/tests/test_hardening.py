@@ -10,6 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from telemetry.clocks import RealClock, SimulatedClock
+from telemetry.config import build_clock, build_settings, build_transport
 from telemetry.runtime import ConfigFileWatcher, RuntimeState, TelemetryRuntime
 from telemetry.transports import NetworkPolicy, TcpTransport, UdpTransport
 
@@ -22,12 +23,60 @@ class ClockHardeningTests(unittest.IsolatedAsyncioTestCase):
     def test_simulated_clock_rejects_naive_start(self) -> None:
         with self.assertRaisesRegex(ValueError, "timezone-aware"):
             SimulatedClock(datetime(2030, 1, 1))
+        with self.assertRaisesRegex(ValueError, "timezone-aware"):
+            build_clock({"clock": {"type": "simulated", "start": "2030-01-01T00:00:00"}})
 
     async def test_clocks_reject_negative_and_nonfinite_sleep(self) -> None:
         for clock in (RealClock(), SimulatedClock()):
             for value in (-1.0, float("nan"), float("inf")):
                 with self.assertRaises(ValueError):
                     await clock.sleep(value)
+
+
+class StrictConfigTests(unittest.TestCase):
+    def test_settings_reject_bool_fractional_and_nonfinite_values(self) -> None:
+        bad_configs = (
+            {"interval_seconds": True},
+            {"interval_seconds": float("nan")},
+            {"duration_seconds": float("inf")},
+            {"schema_version": True},
+            {"schema_version": 1.5},
+            {"provider_health_timeout": float("nan")},
+        )
+        for config in bad_configs:
+            with self.subTest(config=config):
+                with self.assertRaises(ValueError):
+                    build_settings(config)
+
+    def test_transport_boolean_cannot_be_enabled_by_truthy_string(self) -> None:
+        for kind in ("tcp", "udp"):
+            with self.subTest(kind=kind):
+                with self.assertRaisesRegex(ValueError, "allow_public.*boolean"):
+                    build_transport({
+                        "transport": {
+                            "type": kind,
+                            "host": "127.0.0.1",
+                            "port": 19050,
+                            "allow_public": "false",
+                        }
+                    })
+
+    def test_live_tcp_timeout_must_be_finite_positive_number(self) -> None:
+        for value in (True, 0, -1, float("nan"), float("inf")):
+            with self.subTest(value=value):
+                with self.assertRaises(ValueError):
+                    TcpTransport("127.0.0.1", 19050, timeout=value)
+
+    def test_reload_settings_require_real_boolean_and_finite_poll(self) -> None:
+        base = {"profile": str(FIXTURE), "transport": {"type": "memory"}, "duration_seconds": 0}
+        runtime = TelemetryRuntime({**base, "reload": {"enabled": "false"}})
+        with self.assertRaisesRegex(ValueError, "reload.enabled.*boolean"):
+            runtime._reload_settings()
+        runtime = TelemetryRuntime({**base, "reload": {"enabled": True, "poll_seconds": float("nan")}})
+        with self.assertRaisesRegex(ValueError, "poll_seconds.*finite"):
+            runtime._reload_settings()
+        with self.assertRaisesRegex(ValueError, "poll_seconds.*finite"):
+            ConfigFileWatcher(TelemetryRuntime(base), "unused.json", float("inf"))
 
 
 class NetworkHardeningTests(unittest.IsolatedAsyncioTestCase):
@@ -111,6 +160,17 @@ class ConfigWatcherHardeningTests(unittest.IsolatedAsyncioTestCase):
             finally:
                 await watcher.stop()
                 await task
+
+    async def test_watcher_stop_does_not_wait_for_long_poll_interval(self) -> None:
+        base = {"profile": str(FIXTURE), "transport": {"type": "memory"}, "duration_seconds": 0}
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "runtime.json"
+            path.write_text(json.dumps(base), encoding="utf-8")
+            watcher = ConfigFileWatcher(TelemetryRuntime(base), path, poll_seconds=60.0)
+            task = asyncio.create_task(watcher.run())
+            await asyncio.sleep(0)
+            await watcher.stop()
+            await asyncio.wait_for(task, timeout=1.0)
 
 
 if __name__ == "__main__":
