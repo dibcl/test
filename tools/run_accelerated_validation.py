@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import hashlib
 import json
 import os
 import statistics
@@ -167,6 +168,127 @@ def _frame_length_summary(path: Path) -> dict[str, dict[str, float | int | None]
     return {str(key): _stats(value) for key, value in sorted(grouped.items())}
 
 
+def _millisecond_distribution(messages: list[dict[str, Any]]) -> dict[str, Any]:
+    grouped: dict[str, list[int]] = {}
+    performance: list[int] = []
+    for item in messages:
+        msgid = str(item["int_msgid"])
+        grouped.setdefault(msgid, []).append(
+            datetime.fromisoformat(str(item["emitted_at"])).microsecond // 1000
+        )
+        if int(item["int_msgid"]) == 9051:
+            performance.extend(
+                datetime.fromisoformat(str(sample["createtime"])).microsecond // 1000
+                for sample in item["payload"]["performance"]
+            )
+
+    def describe(values: list[int]) -> dict[str, Any]:
+        counts = Counter(values)
+        circular_increments = [
+            float((right - left) % 1000) for left, right in zip(values, values[1:])
+        ]
+        return {
+            "count": len(values),
+            "distinct_count": len(counts),
+            "min": min(values) if values else None,
+            "max": max(values) if values else None,
+            "span": max(values) - min(values) if values else None,
+            "stddev": statistics.pstdev(values) if len(values) > 1 else 0.0,
+            "circular_phase_increment": _stats(circular_increments),
+            "most_common": [
+                {"millisecond": value, "count": count}
+                for value, count in counts.most_common(10)
+            ],
+        }
+
+    return {
+        "emitted_at_by_msgid": {
+            key: describe(values) for key, values in sorted(grouped.items())
+        },
+        "performance_createtime": describe(performance),
+    }
+
+
+def _paired_9051_9052_delays(messages: list[dict[str, Any]]) -> dict[str, Any]:
+    performance = [
+        datetime.fromisoformat(str(item["emitted_at"]))
+        for item in messages if int(item["int_msgid"]) == 9051
+    ]
+    process = [
+        datetime.fromisoformat(str(item["emitted_at"]))
+        for item in messages if int(item["int_msgid"]) == 9052
+    ]
+    return _stats([
+        (process_time - performance_time).total_seconds()
+        for performance_time, process_time in zip(performance, process)
+    ])
+
+
+def _process_ecology(messages: list[dict[str, Any]]) -> dict[str, Any]:
+    groups = (
+        "process", "process_memory", "process_handle", "process_diskio", "process_netio"
+    )
+    snapshots = [
+        item["payload"] for item in messages if int(item["int_msgid"]) == 9052
+    ]
+    result: dict[str, Any] = {}
+    for group in groups:
+        name_sets: list[set[str]] = []
+        pids_by_name: dict[str, set[int]] = {}
+        duplicate_slots: list[float] = []
+        duplicate_families: list[float] = []
+        for snapshot in snapshots:
+            names: set[str] = set()
+            snapshot_pids: dict[str, set[int]] = {}
+            for row in snapshot[group]:
+                fields = str(row["data"]).split("|")
+                name = fields[0]
+                pid = int(fields[1])
+                names.add(name)
+                pids_by_name.setdefault(name, set()).add(pid)
+                snapshot_pids.setdefault(name, set()).add(pid)
+            name_sets.append(names)
+            duplicate_slots.append(float(sum(
+                max(0, len(values) - 1) for values in snapshot_pids.values()
+            )))
+            duplicate_families.append(float(sum(
+                len(values) > 1 for values in snapshot_pids.values()
+            )))
+        jaccards = [
+            len(left & right) / len(left | right) if left | right else 1.0
+            for left, right in zip(name_sets, name_sets[1:])
+        ]
+        result[group] = {
+            "snapshot_count": len(name_sets),
+            "unique_process_names": len(pids_by_name),
+            "unique_pids": len({pid for values in pids_by_name.values() for pid in values}),
+            "same_name_multiple_pid_count": sum(len(values) > 1 for values in pids_by_name.values()),
+            "same_name_multiple_pid_names": sorted(
+                name for name, values in pids_by_name.items() if len(values) > 1
+            ),
+            "concurrent_same_name_multi_pid_snapshot_count": sum(
+                value > 0 for value in duplicate_slots
+            ),
+            "concurrent_same_name_multi_pid_snapshot_ratio": (
+                sum(value > 0 for value in duplicate_slots) / len(duplicate_slots)
+                if duplicate_slots else 0.0
+            ),
+            "duplicate_slots_per_snapshot": _stats(duplicate_slots),
+            "duplicate_family_count_per_snapshot": _stats(duplicate_families),
+            "consecutive_process_set_jaccard": _stats(jaccards),
+        }
+    core = ("IceDisplay", "IceTunnel", "VmQoEAgent", "MswitchWin")
+    core_pids: dict[str, set[int]] = {name: set() for name in core}
+    for snapshot in snapshots:
+        for group in groups:
+            for row in snapshot[group]:
+                fields = str(row["data"]).split("|")
+                if fields[0] in core_pids:
+                    core_pids[fields[0]].add(int(fields[1]))
+    result["core_pid_counts"] = {name: len(values) for name, values in core_pids.items()}
+    return result
+
+
 class OfflineCaptureTransport(BaseTransport):
     def __init__(self, output: Path, uuid: str, cutoff: datetime) -> None:
         self.output = output
@@ -274,9 +396,48 @@ def _summary(
     }
 
 
-def _write_report(output: Path, real_logs: list[Path], summary: dict[str, Any]) -> None:
+def _sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def _real_source_provenance(
+    real_logs: list[Path], package_relative_paths: list[Path] | None = None,
+) -> list[dict[str, str]]:
+    if package_relative_paths is not None and len(package_relative_paths) != len(real_logs):
+        raise ValueError("--real-package-relative must be supplied once per --real-log")
+    aliases = package_relative_paths or [
+        Path("02_real_fresh_2h") / path.name for path in real_logs
+    ]
+    return [
+        {
+            "original_source_path": str(path.resolve()),
+            "package_relative_path": alias.as_posix(),
+            "sha256": _sha256(path),
+        }
+        for path, alias in zip(real_logs, aliases)
+    ]
+
+
+def _write_report(
+    output: Path,
+    real_logs: list[Path],
+    real_sources: list[dict[str, str]],
+    summary: dict[str, Any],
+) -> None:
     result = compare(real_logs, [output / "messages.jsonl"])
     result["accelerated_summary"] = summary
+    result["provenance"] = {
+        "effective_seed": summary["run_seed"],
+        "generated_from": str((output / "messages.jsonl").resolve()),
+        "messages_sha256": summary["provenance"]["messages"]["sha256"],
+        "mswitch_raw_sha256": summary["provenance"]["mswitch_raw"]["sha256"],
+        "summary_source": str((output / "summary.json").resolve()),
+        "real_sources": real_sources,
+    }
     counts = summary["message_counts"]
     result["assessment"] = {
         "message_count_close": abs(int(counts.get("4002", 0)) - 240) <= 1,
@@ -303,6 +464,10 @@ def _write_report(output: Path, real_logs: list[Path], summary: dict[str, Any]) 
     markdown = f"""# Accelerated 2h comparison
 
 - Message count: {summary['message_count']} ({summary['message_counts']})
+- Effective seed: {summary['run_seed']}
+- Generated from: {summary['provenance']['messages']['path']}
+- Messages SHA256: {summary['provenance']['messages']['sha256']}
+- Mswitch raw SHA256: {summary['provenance']['mswitch_raw']['sha256']}
 - 4002 cadence: mean {summary['period_seconds']['4002']['mean']:.3f}s, stddev {summary['period_seconds']['4002']['stddev']:.3f}s
 - CPU: mean {d['cpu']['mean']:.3f}, min {d['cpu']['min']:.3f}, max {d['cpu']['max']:.3f}
 - Memory: mean {d['memory']['mean']:.3f}, min {d['memory']['min']:.3f}, max {d['memory']['max']:.3f}
@@ -345,18 +510,67 @@ async def run(args: argparse.Namespace) -> None:
     register_transport("accelerated_capture", lambda _cfg: capture, replace=True)
     config["transport"] = {"type": "accelerated_capture"}
     runtime = TelemetryRuntime(config)
+    wall_started_at = datetime.now().astimezone()
     wall_start = time.perf_counter()
     await runtime.run()
     real_elapsed = time.perf_counter() - wall_start
+    wall_ended_at = datetime.now().astimezone()
+    real_sources = _real_source_provenance(
+        args.real_log, getattr(args, "real_package_relative", None)
+    )
     summary = _summary(capture.messages, real_elapsed, float(config["duration_seconds"]))
     summary["frame_payload_length"] = _frame_length_summary(args.output / "mswitch.raw")
+    summary["timestamp_milliseconds"] = _millisecond_distribution(capture.messages)
+    summary["paired_9051_9052_delay_seconds"] = _paired_9051_9052_delays(
+        capture.messages
+    )
+    summary["process_ecology"] = _process_ecology(capture.messages)
+    summary["run_seed"] = getattr(runtime.agent.provider, "run_seed", None)
+    summary["wall_started_at"] = wall_started_at.isoformat()
+    summary["wall_ended_at"] = wall_ended_at.isoformat()
+    summary["provenance"] = {
+        "effective_seed": summary["run_seed"],
+        "generated_from": str((args.output / "messages.jsonl").resolve()),
+        "messages": {
+            "path": str((args.output / "messages.jsonl").resolve()),
+            "sha256": _sha256(args.output / "messages.jsonl"),
+        },
+        "mswitch_raw": {
+            "path": str((args.output / "mswitch.raw").resolve()),
+            "sha256": _sha256(args.output / "mswitch.raw"),
+        },
+        "real_sources": real_sources,
+    }
     (args.output / "runtime-status.json").write_text(
         json.dumps(runtime.status.to_dict(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     (args.output / "summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    _write_report(args.output, args.real_log, summary)
+    _write_report(args.output, args.real_log, real_sources, summary)
+    provenance = {
+        "effective_seed": summary["run_seed"],
+        "messages": summary["provenance"]["messages"],
+        "mswitch_raw": summary["provenance"]["mswitch_raw"],
+        "real_sources": real_sources,
+        "summary": {
+            "path": str((args.output / "summary.json").resolve()),
+            "sha256": _sha256(args.output / "summary.json"),
+            "generated_from": str((args.output / "messages.jsonl").resolve()),
+        },
+        "validation_report": {
+            "path": str((args.output / "accelerated_compare_report.json").resolve()),
+            "sha256": _sha256(args.output / "accelerated_compare_report.json"),
+            "generated_from": [
+                str((args.output / "messages.jsonl").resolve()),
+                str((args.output / "summary.json").resolve()),
+                *[source["package_relative_path"] for source in real_sources],
+            ],
+        },
+    }
+    (args.output / "provenance.json").write_text(
+        json.dumps(provenance, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 
@@ -365,6 +579,10 @@ def main() -> int:
     parser.add_argument("--config", type=Path, default=RUNTIME_ROOT / "config.windows-validation-accelerated.json")
     parser.add_argument("--output", type=Path, default=RUNTIME_ROOT / "out" / "accelerated-2h")
     parser.add_argument("--real-log", type=Path, action="append", required=True)
+    parser.add_argument(
+        "--real-package-relative", type=Path, action="append",
+        help="package-relative alias paired positionally with each --real-log",
+    )
     args = parser.parse_args()
     asyncio.run(run(args))
     return 0

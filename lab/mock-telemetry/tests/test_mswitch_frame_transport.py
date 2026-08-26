@@ -76,7 +76,7 @@ class MswitchFrameEncoderTests(unittest.TestCase):
 
     def test_non_fixed_json_payload_uses_exact_utf8_length(self) -> None:
         message = ProtocolMessage(
-            int_msgid=9050,
+            int_msgid=9051,
             source_module=0x80000011,
             destination_module=10,
             emitted_at="2030-01-01 00:00:00.000",
@@ -89,6 +89,47 @@ class MswitchFrameEncoderTests(unittest.TestCase):
         ).encode("utf-8")
         self.assertEqual(header.data_len, len(expected))
         self.assertEqual(raw[HEADER_SIZE:], expected)
+
+    def test_9050_preserves_three_observed_spaces_and_exact_wire_length(self) -> None:
+        payload = {
+            "source": 4,
+            "uuid": "fbfd4bbb-7596-4379-b646-c9ec2245a0a5",
+            "hostid": "0" * 36,
+            "time": "2026-08-25 18:29:36.509",
+            "groupid": "-1",
+            "createtime": "2026-08-25 18:29:36.509",
+            "environment": {
+                "computername": "YD%2DTY%2D01",
+                "cpu": "Intel Xeon Processor (Icelake)",
+                "os": "%0AMicrosoft+Windows+%5B%E7%89%88%E6%9C%AC+10%2E0%2E19044%2E4529%5D",
+                "bit": "64",
+                "mem": "16383M",
+                "mac": "fa-16-3e-a6-71-6d",
+                "ip": "172.20.176.122",
+                "disk": "C:79.95GB,D:500.00GB",
+                "diskused": "C:29.03GB,D:40.20GB",
+                "version": "V7.25.21SP3pv",
+                "targetversion": "",
+            },
+        }
+        message = ProtocolMessage(
+            int_msgid=9050,
+            source_module=0x80000011,
+            destination_module=10,
+            emitted_at="2026-08-25 18:29:36.509",
+            payload=payload,
+        )
+        raw = decode_serial_frame(MswitchFrameEncoder(TEST_UUID).encode(message))
+        header = MswitchHeader.parse(raw)
+        wire = raw[HEADER_SIZE:]
+        compact = json.dumps(payload, ensure_ascii=True, separators=(",", ":")).encode("utf-8")
+
+        self.assertEqual(header.data_len, 538)
+        self.assertEqual(len(wire), len(compact) + 3)
+        self.assertEqual(wire.count(b'"diskused": '), 1)
+        self.assertEqual(wire.count(b'"version": '), 1)
+        self.assertEqual(wire.count(b'"targetversion": '), 1)
+        self.assertEqual(json.loads(wire), payload)
 
     def test_4004_reuses_confirmed_plaintext_shape_and_fixed_size(self) -> None:
         message = ProtocolMessage(

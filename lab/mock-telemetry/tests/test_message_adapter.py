@@ -160,6 +160,26 @@ class MessageAdapterTests(unittest.TestCase):
         self.assertFalse(any(item.int_msgid == 4004 for item in before_repeat))
         self.assertEqual(sum(item.int_msgid == 4004 for item in repeat), 1)
 
+    def test_accelerated_process_timestamp_is_paired_to_last_9051(self) -> None:
+        scheduler = TelemetryMessageScheduler(WindowsMessageEncoder(CONFIG), {})
+        scheduler.messages_for(snapshot(0), 0)
+        emitted = []
+        for second in range(1, 308):
+            current = snapshot(second)
+            if second == 307:
+                current.metadata["process_pair_delay_seconds"] = 7.034
+            emitted.extend(scheduler.messages_for(current, second))
+
+        performance = next(item for item in emitted if item.int_msgid == 9051)
+        process = next(item for item in emitted if item.int_msgid == 9052)
+        delay = (
+            datetime.fromisoformat(process.emitted_at)
+            - datetime.fromisoformat(performance.emitted_at)
+        ).total_seconds()
+        self.assertEqual(delay, 7.034)
+        self.assertEqual(process.payload["time"], process.emitted_at)
+        self.assertEqual(process.payload["createtime"], process.emitted_at)
+
     def test_protocol_field_semantics_match_observed_rows(self) -> None:
         encoder = WindowsMessageEncoder(CONFIG)
         sample = encoder.performance_sample(snapshot(60))

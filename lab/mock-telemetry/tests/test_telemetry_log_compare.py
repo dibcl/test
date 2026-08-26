@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 
@@ -12,8 +13,8 @@ TOOLS = ROOT / "tools"
 if str(TOOLS) not in sys.path:
     sys.path.insert(0, str(TOOLS))
 
-from telemetry_log_compare import compare
-from run_accelerated_validation import _cpu_memory_checks
+from telemetry_log_compare import Event, compare, process_trend
+from run_accelerated_validation import _cpu_memory_checks, _real_source_provenance, _sha256
 
 
 def protocol_row(second: int, msgid: int, payload: dict) -> dict:
@@ -28,6 +29,61 @@ def protocol_row(second: int, msgid: int, payload: dict) -> dict:
 
 
 class TelemetryLogCompareTests(unittest.TestCase):
+    def test_process_trend_preserves_concurrent_same_name_pid_identities(self) -> None:
+        events = [
+            Event(
+                timestamp=datetime.fromisoformat("2030-01-01T00:00:00+00:00"),
+                msgid=9052,
+                direction="guest_to_host",
+                payload={"process": [
+                    {"data": "foo|100|1.0|100|5"},
+                    {"data": "foo|200|0.9|90|4"},
+                    {"data": "bar|300|0.8|80|3"},
+                ]},
+            ),
+            Event(
+                timestamp=datetime.fromisoformat("2030-01-01T00:05:00+00:00"),
+                msgid=9052,
+                direction="guest_to_host",
+                payload={"process": [
+                    {"data": "foo|100|1.0|100|5"},
+                    {"data": "foo|250|0.9|90|4"},
+                    {"data": "bar|300|0.8|80|3"},
+                ]},
+            ),
+        ]
+
+        result = process_trend(events)
+
+        self.assertEqual(result["unique_process_name_count"], 2)
+        self.assertEqual(result["unique_pid_count"], 4)
+        self.assertEqual(result["pid_transition_count"], 4)
+        self.assertEqual(result["pid_change_count"], 2)
+        self.assertLessEqual(result["pid_change_share"], 1.0)
+
+    def test_real_source_provenance_binds_bytes_and_package_path(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "vmswitch.log"
+            path.write_bytes(b"official-real-bytes\n")
+            result = _real_source_provenance(
+                [path], [Path("02_real_fresh_2h/vmswitch_fresh_2h.log")]
+            )
+        self.assertEqual(result[0]["original_source_path"], str(path.resolve()))
+        self.assertEqual(
+            result[0]["package_relative_path"],
+            "02_real_fresh_2h/vmswitch_fresh_2h.log",
+        )
+        self.assertEqual(len(result[0]["sha256"]), 64)
+
+    def test_validation_provenance_hashes_exact_file_bytes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "evidence.bin"
+            path.write_bytes(b"messages\nframes\x00")
+            self.assertEqual(
+                _sha256(path),
+                "253a232fc51f3c9b4500648474d3978b2be7b7da65c390de1f0517b035e43ef9",
+            )
+
     def test_accelerated_validator_detects_exact_per_core_boundary(self) -> None:
         result = _cpu_memory_checks(
             [40.0, 41.0],
@@ -98,7 +154,7 @@ class TelemetryLogCompareTests(unittest.TestCase):
         self.assertEqual(heartbeat_period["real_seconds"]["p50"], 30.0)
         self.assertEqual(heartbeat_period["runtime_seconds"]["p50"], 32.0)
         self.assertEqual(heartbeat_period["median_delta_seconds"], 2.0)
-        self.assertEqual(result["process_trends"]["real"]["pid_change_count"], 1)
+        self.assertEqual(result["process_trends"]["real"]["pid_change_count"], 2)
         self.assertEqual(result["process_trends"]["runtime"]["pid_change_count"], 0)
         self.assertEqual(
             result["process_trends"]["runtime"]["process_presence_top10"][0],

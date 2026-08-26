@@ -394,21 +394,25 @@ def process_trend(events: list[Event]) -> dict[str, Any]:
     jaccard: list[float] = []
     pid_transitions = 0
     pid_changes = 0
-    previous: dict[str, int] | None = None
+    previous: dict[str, set[int]] | None = None
     for _, groups in snapshots:
         for group, rows in groups.items():
             counts[group].append(len(rows))
-        current = dict(groups.get("process", []))
+        current: dict[str, set[int]] = defaultdict(set)
+        for name, pid in groups.get("process", []):
+            current[name].add(pid)
         all_names.update(current)
-        all_pids.update(current.values())
+        all_pids.update(pid for pids in current.values() for pid in pids)
         presence.update(current.keys())
         if previous is not None:
             left_names, right_names = set(previous), set(current)
             union = left_names | right_names
             jaccard.append(len(left_names & right_names) / len(union) if union else 1.0)
             for name in left_names & right_names:
-                pid_transitions += 1
-                pid_changes += int(previous[name] != current[name])
+                left_pids = previous[name]
+                right_pids = current[name]
+                pid_transitions += len(left_pids | right_pids)
+                pid_changes += len(left_pids ^ right_pids)
         previous = current
     snapshot_count = len(snapshots)
     return {

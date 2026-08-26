@@ -17,10 +17,27 @@ MAX_MESSAGE_SIZE = 0xC800
 SERIAL_ESCAPE = 0x5C
 SERIAL_DELIMITER = 0x3B
 FIXED_WIRE_PAYLOAD_SIZES = {4002: 512, 4004: 512}
+ENVIRONMENT_SPACED_KEYS = ("diskused", "version", "targetversion")
 
 
 class MswitchFrameError(ValueError):
     pass
+
+
+def _environment_payload(payload: dict[str, object]) -> bytes:
+    """Preserve the three spaces emitted by the observed VmQoEAgent 9050 writer."""
+    encoded = json.dumps(
+        payload,
+        ensure_ascii=True,
+        separators=(",", ":"),
+        sort_keys=False,
+    )
+    for key in ENVIRONMENT_SPACED_KEYS:
+        marker = f'"{key}":'
+        if encoded.count(marker) != 1:
+            raise MswitchFrameError(f"9050 payload must contain exactly one {key} field")
+        encoded = encoded.replace(marker, marker + " ", 1)
+    return encoded.encode("utf-8")
 
 
 @dataclass(frozen=True, slots=True)
@@ -139,6 +156,8 @@ class MswitchFrameEncoder:
     def _payload(message: ProtocolMessage) -> bytes:
         if message.int_msgid == 4004:
             payload = _version_payload(message.payload)
+        elif message.int_msgid == 9050:
+            payload = _environment_payload(message.payload)
         else:
             payload = json.dumps(
                 message.payload,

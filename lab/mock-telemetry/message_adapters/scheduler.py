@@ -3,6 +3,7 @@ from __future__ import annotations
 import math
 from collections import deque
 from collections.abc import Mapping
+from datetime import datetime, timedelta
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
@@ -51,6 +52,7 @@ class TelemetryMessageScheduler:
         self._next_process = self.process_seconds + self.process_offset_seconds
         self._process_sequence = 1
         self._performance_samples: deque[dict[str, Any]] = deque(maxlen=5)
+        self._last_qoe_emitted_at: str | None = None
 
     @staticmethod
     def _advance(next_due: float, interval: float, elapsed: float) -> float:
@@ -95,18 +97,32 @@ class TelemetryMessageScheduler:
 
         if elapsed_seconds >= self._next_qoe_batch:
             if len(self._performance_samples) == self._performance_samples.maxlen:
-                messages.append(
-                    self.encoder.performance_9051(
-                        snapshot,
-                        list(self._performance_samples),
-                    )
+                performance_message = self.encoder.performance_9051(
+                    snapshot,
+                    list(self._performance_samples),
                 )
+                messages.append(performance_message)
+                self._last_qoe_emitted_at = performance_message.emitted_at
             self._next_qoe_batch = self._advance(
                 self._next_qoe_batch, self.qoe_batch_seconds, elapsed_seconds
             )
 
         if elapsed_seconds >= self._next_process:
-            messages.append(self.encoder.process_9052(snapshot))
+            process_observed_at = None
+            paired_delay = snapshot.metadata.get("process_pair_delay_seconds")
+            if (
+                self._last_qoe_emitted_at is not None
+                and isinstance(paired_delay, (int, float))
+                and not isinstance(paired_delay, bool)
+                and math.isfinite(float(paired_delay))
+            ):
+                process_observed_at = (
+                    datetime.fromisoformat(self._last_qoe_emitted_at)
+                    + timedelta(seconds=float(paired_delay))
+                ).isoformat()
+            messages.append(
+                self.encoder.process_9052(snapshot, observed_at=process_observed_at)
+            )
             self._process_sequence += 1
             jitter = self.process_jitter_seconds * math.sin(self._process_sequence * 2.399)
             self._next_process = (

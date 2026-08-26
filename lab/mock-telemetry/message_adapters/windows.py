@@ -374,9 +374,14 @@ class WindowsMessageEncoder:
             values = [_integer(total), _integer(tx), _integer(rx)]
         return {"data": "|".join([*base, *values])}
 
-    def process_9052(self, snapshot: TelemetrySnapshot) -> ProtocolMessage:
+    def process_9052(
+        self,
+        snapshot: TelemetrySnapshot,
+        *,
+        observed_at: str | None = None,
+    ) -> ProtocolMessage:
         env = self._local_environment(snapshot)
-        stamp = self._stamp(snapshot.observed_at)
+        stamp = self._stamp(observed_at or snapshot.observed_at)
         source = snapshot.metrics["process_snapshot"]
         groups = (
             "process",
