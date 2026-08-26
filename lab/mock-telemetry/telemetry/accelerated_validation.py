@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import math
 import random
 from pathlib import Path
 from typing import Any
@@ -31,6 +30,8 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
         self.process_state = ProcessIdentityState()
         self._cpu_target = self._sample_cpu_target()
         self._memory_target = self._sample_memory_target()
+        self._cpu_soft_ceiling = self.random.uniform(57.0, 58.3)
+        self._memory_soft_ceiling = self.random.uniform(57.0, 58.3)
         self.cpu_cores = [
             max(3.0, self._cpu_target + self.random.gauss(0.0, 1.1))
             for _ in range(int(shape["cpu_cores"]))
@@ -45,6 +46,13 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
         self.proc_disk: dict[str, float] = {}
         self.proc_net: dict[str, float] = {}
         self.proc_rss: dict[str, float] = {}
+        self.ephemeral_catalog = (
+            {"name": "SearchApp", "pid_base": 7980, "rss_mb": 164.0, "handles": 1120, "cpu_weight": 0.18, "disk_weight": 0.01, "net_baseline": 4.0},
+            {"name": "RuntimeBroker", "pid_base": 6840, "rss_mb": 42.0, "handles": 410, "cpu_weight": 0.24, "disk_weight": 0.015, "net_baseline": 6.0},
+            {"name": "CompatTelRunner", "pid_base": 3788, "rss_mb": 18.0, "handles": 150, "cpu_weight": 0.3, "disk_weight": 0.025, "net_baseline": 2.0},
+        )
+        self.ephemeral_processes: dict[str, tuple[dict[str, Any], float]] = {}
+        self._next_ephemeral_attempt = self.random.uniform(420.0, 1200.0)
         self._started_at: float | None = None
         self._step = 0
         self.behavior_state = "IDLE"
@@ -109,6 +117,17 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
     def _approach(self, value: float, target: float, rate: float, noise: float) -> float:
         return value + (target - value) * rate + self.random.gauss(0.0, noise)
 
+    def _reflect_soft_upper(self, value: float, upper: float) -> float:
+        if value <= upper:
+            return value
+        return upper - self.random.uniform(0.25, 1.5) - (value - upper) * self.random.uniform(0.3, 0.9)
+
+    def _wander_soft_ceiling(self, value: float) -> float:
+        proposal = value + self.random.gauss(0.0, 0.012)
+        if not 57.0 < proposal < 58.35:
+            return self.random.uniform(57.1, 58.25)
+        return proposal
+
     def _update_system(self, state: str) -> None:
         if self.random.random() < 0.004:
             self._cpu_target = self._sample_cpu_target()
@@ -119,9 +138,15 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
             self._cpu_impulse += self.random.uniform(7.0, 20.0)
         self._cpu_impulse *= 0.92
         raw_cpu_target = self._cpu_target + self._cpu_impulse
+        self._cpu_soft_ceiling = self._wander_soft_ceiling(self._cpu_soft_ceiling)
+        self._memory_soft_ceiling = self._wander_soft_ceiling(self._memory_soft_ceiling)
         cpu_target = raw_cpu_target
-        if raw_cpu_target > 58.0:
-            cpu_target = 58.0 + 0.48 * (1.0 - math.exp(-(raw_cpu_target - 58.0) / 5.0))
+        if raw_cpu_target > 58.5:
+            cpu_target = (
+                58.5
+                - self.random.uniform(0.35, 1.5)
+                - min(4.0, (raw_cpu_target - 58.5) * 0.25)
+            )
         cpu_noise = 0.08 + cpu_target * 0.0045
         hot_core = (self._step // 37) % len(self.cpu_cores)
         for index, value in enumerate(self.cpu_cores):
@@ -129,9 +154,15 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
             target = cpu_target * factor
             if cpu_target > 47.0 and index in {hot_core, (hot_core + 3) % len(self.cpu_cores)}:
                 target *= 1.12
-            self.cpu_cores[index] = max(2.75, min(58.49, self._approach(value, target, 0.025, cpu_noise)))
+            proposal = self._approach(value, target, 0.025, cpu_noise)
+            self.cpu_cores[index] = max(
+                2.75, self._reflect_soft_upper(proposal, self._cpu_soft_ceiling)
+            )
 
-        self.memory = max(29.8, min(58.49, self._approach(self.memory, self._memory_target, 0.002, 0.0045)))
+        memory_proposal = self._approach(self.memory, self._memory_target, 0.002, 0.0045)
+        self.memory = max(
+            29.8, self._reflect_soft_upper(memory_proposal, self._memory_soft_ceiling)
+        )
         self.paged_pool = max(142.0, min(168.0, self._approach(self.paged_pool, 144.0 + self.memory * 0.22, 0.003, 0.012)))
         self.nonpaged_pool = max(134.0, min(158.0, self._approach(self.nonpaged_pool, 134.5 + self.memory * 0.19, 0.003, 0.010)))
 
@@ -158,36 +189,83 @@ class AcceleratedWindowsValidationProvider(BaseMetricsProvider):
 
     def _process_snapshot(self, state: str, elapsed: float) -> dict[str, Any]:
         rows = []
-        burst_chance = {"IDLE": 0.0008, "LIGHT": 0.002, "NORMAL": 0.004, "ACTIVE": 0.009, "SHORT_BURST": 0.018}[state]
+        activity_chance = {
+            "IDLE": 0.00005,
+            "LIGHT": 0.0001,
+            "NORMAL": 0.00018,
+            "ACTIVE": 0.0004,
+            "SHORT_BURST": 0.0012,
+        }[state]
         cpu_total = sum(self.cpu_cores) / len(self.cpu_cores)
-        minute = (elapsed / 60.0) % 120.0
-        ephemeral = []
-        if 20 <= minute < 40:
-            ephemeral.append({"name": "SearchApp", "pid_base": 7980, "rss_mb": 164.0, "handles": 1120, "cpu_weight": 0.18, "disk_weight": 0.01, "net_baseline": 4.0})
-        if 74 <= minute < 96:
-            ephemeral.append({"name": "dwm", "pid_base": 2488, "rss_mb": 166.0, "handles": 930, "cpu_weight": 0.2, "disk_weight": 0.01, "net_baseline": 3.0})
-        active_pool = [*self.process_pool, *ephemeral]
+        expired = [name for name, (_, deadline) in self.ephemeral_processes.items() if elapsed >= deadline]
+        for name in expired:
+            self.ephemeral_processes.pop(name, None)
+            self.proc_cpu.pop(name, None)
+            self.proc_disk.pop(name, None)
+            self.proc_net.pop(name, None)
+            self.proc_rss.pop(name, None)
+        if elapsed >= self._next_ephemeral_attempt:
+            self._next_ephemeral_attempt = elapsed + self.random.uniform(420.0, 1200.0)
+            spawn_probability = {
+                "IDLE": 0.2,
+                "LIGHT": 0.38,
+                "NORMAL": 0.55,
+                "ACTIVE": 0.7,
+                "SHORT_BURST": 0.75,
+            }[state]
+            available = [item for item in self.ephemeral_catalog if item["name"] not in self.ephemeral_processes]
+            if available and len(self.ephemeral_processes) < 2 and self.random.random() < spawn_probability:
+                item = dict(self.random.choice(available))
+                duration = self.random.uniform(180.0, 660.0)
+                self.ephemeral_processes[str(item["name"])] = (item, elapsed + duration)
+        active_pool = [
+            *self.process_pool,
+            *(item for item, _ in self.ephemeral_processes.values()),
+        ]
         for index, item in enumerate(active_pool):
             name = str(item["name"]).removesuffix(".exe")
             pid = self.process_state.get_pid(name, int(item.get("pid_base", 1000 + 100 * index)))
-            self.proc_cpu[name] = self.proc_cpu.get(name, 0.05) * 0.94
+            self.proc_cpu[name] = self.proc_cpu.get(name, 0.05) * 0.9975
             disk_baseline = float(item.get("disk_weight", 0.02)) * 100_000.0
             net_baseline = float(item.get("net_baseline", 5.0))
             self.proc_disk[name] = self.proc_disk.get(name, disk_baseline) * 0.998 + disk_baseline * 0.002
             self.proc_net[name] = self.proc_net.get(name, net_baseline) * 0.997 + net_baseline * 0.003
-            if self.random.random() < burst_chance:
-                self.proc_cpu[name] += self.random.uniform(0.3, 5.5 if state == "BURST" else 1.6)
-            if name == "IceDisplay" and 32 <= minute < 39:
-                self.proc_disk[name] += (115_000.0 - self.proc_disk[name]) * 0.02
-            if self.random.random() < {"IDLE": 0.00003, "LIGHT": 0.00008, "NORMAL": 0.00012, "ACTIVE": 0.00025, "SHORT_BURST": 0.00045}[state]:
-                self.proc_disk[name] += self.random.uniform(1_000.0, 32_000.0)
-            net_boost = 0.0
-            if name == "IceDisplay" and (30 <= minute < 35 or 97 <= minute < 103): net_boost = 1800.0
-            if name == "Vmbooster" and 35 <= minute < 40: net_boost = 2100.0
-            if name == "MswitchWin" and 92 <= minute < 97: net_boost = 2200.0
-            if name == "VmQoEAgent" and 55 <= minute < 60: net_boost = 1900.0
-            self.proc_net[name] += (net_boost - max(0.0, self.proc_net[name] - net_baseline)) * 0.018
-            baseline_cpu = cpu_total * float(item.get("cpu_weight", 0.2)) / 8.0
+            if self.random.random() < activity_chance:
+                ceiling = 7.0 if state == "SHORT_BURST" else 4.2
+                self.proc_cpu[name] += self.random.uniform(0.6, ceiling)
+            disk_chance = {
+                "IDLE": 0.00001,
+                "LIGHT": 0.000025,
+                "NORMAL": 0.00005,
+                "ACTIVE": 0.00012,
+                "SHORT_BURST": 0.0003,
+            }[state]
+            if self.random.random() < disk_chance:
+                ceiling = {
+                    "IDLE": 8_000.0,
+                    "LIGHT": 40_000.0,
+                    "NORMAL": 100_000.0,
+                    "ACTIVE": 180_000.0,
+                    "SHORT_BURST": 260_000.0,
+                }[state]
+                self.proc_disk[name] += self.random.uniform(2_000.0, ceiling)
+            net_chance = {
+                "IDLE": 0.00001,
+                "LIGHT": 0.00003,
+                "NORMAL": 0.00006,
+                "ACTIVE": 0.00015,
+                "SHORT_BURST": 0.0004,
+            }[state]
+            if self.random.random() < net_chance:
+                ceiling = {
+                    "IDLE": 180.0,
+                    "LIGHT": 500.0,
+                    "NORMAL": 900.0,
+                    "ACTIVE": 2_500.0,
+                    "SHORT_BURST": 5_000.0,
+                }[state]
+                self.proc_net[name] += self.random.uniform(80.0, ceiling)
+            baseline_cpu = cpu_total * float(item.get("cpu_weight", 0.2)) / 35.0
             cpu = max(0.0, min(18.0, baseline_cpu + self.proc_cpu[name] + self.random.uniform(0, 0.04)))
             rss_target = float(item.get("rss_mb", 20.0)) * (1.0 + 0.012 * (self.memory - 15.0))
             self.proc_rss[name] = self._approach(self.proc_rss.get(name, rss_target), rss_target, 0.002, 0.006)

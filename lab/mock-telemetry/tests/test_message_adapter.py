@@ -89,9 +89,13 @@ class MessageAdapterTests(unittest.TestCase):
         messages = self.scheduler.messages_for(snapshot(0), 0)
         self.assertEqual(
             [item.int_msgid for item in messages],
-            [9050, 9054, 9054, 9054, 4002],
+            [9050, 9054, 9054, 9054],
         )
+        self.assertFalse(self.scheduler.messages_for(snapshot(8), 8))
+        heartbeat = self.scheduler.messages_for(snapshot(9), 9)
+        self.assertEqual([item.int_msgid for item in heartbeat], [4002])
         by_id = {item.int_msgid: item.payload for item in messages}
+        by_id[4002] = heartbeat[0].payload
         self.assertEqual(
             list(by_id[4002]),
             ["msgtype", "agentversion", "vmid", "agentstatus", "computername", "issysprep"],
@@ -111,6 +115,8 @@ class MessageAdapterTests(unittest.TestCase):
         )
         self.assertEqual(software[1]["softwares"][0]["type"], "1")
         self.assertEqual(software[2]["softwares"][0]["type"], "2")
+        self.assertEqual(software[0]["softwares"][3]["publisher"], "Microsoft+Corporation")
+        self.assertEqual(software[2]["softwares"][0]["publisher"], "Microsoft Corporation")
 
     def test_heartbeat_and_five_minute_batches_are_scheduled(self) -> None:
         self.scheduler.messages_for(snapshot(0), 0)
@@ -157,16 +163,24 @@ class MessageAdapterTests(unittest.TestCase):
     def test_protocol_field_semantics_match_observed_rows(self) -> None:
         encoder = WindowsMessageEncoder(CONFIG)
         sample = encoder.performance_sample(snapshot(60))
-        self.assertEqual(sample["disk"], "2|35|0|0|0|0|0|0|0")
+        self.assertEqual(sample["cpu"], 5.0)
+        self.assertEqual([row["data"] for row in sample["cpus"]], ["CPU0|4.0", "CPU1|6.0"])
+        self.assertEqual(sample["mem"], {"used": 33.0, "pagedpool": 200.0, "nonpagedpool": 100.0})
+        self.assertEqual(sample["disk"], "2.00|35.00|0.00|0.00|0.00|0.00|0.00|0.00|0.00")
+        self.assertEqual(
+            sample["perdisk"],
+            "C|80.00|0.00|35.00|0.00|0.00|0.00|0.00|0.00|0.00",
+        )
         self.assertNotIn(";", sample["perdisk"])
 
         process = encoder.process_9052(snapshot(307)).payload
         memory_columns = process["process_memory"][0]["data"].split("|")
         disk_columns = process["process_diskio"][0]["data"].split("|")
         network_columns = process["process_netio"][0]["data"].split("|")
+        self.assertEqual(process["process"][0]["data"].split("|")[2], "0.1")
         self.assertEqual(memory_columns[3], "19968")
-        self.assertEqual(disk_columns[2:], ["4", "2.6", "1.4"])
-        self.assertEqual(network_columns[2:], ["8", "3.6", "4.4"])
+        self.assertEqual(disk_columns[2:], ["4", "3", "1"])
+        self.assertEqual(network_columns[2:], ["8", "4", "4"])
 
 
 if __name__ == "__main__":

@@ -18,8 +18,8 @@ class ObservedReferenceFixtureTests(unittest.TestCase):
         batches = self.value["batches"]
         self.assertEqual([item["label"] for item in batches], ["wow6432node", "native", "kb"])
         self.assertEqual([item["observed_count"] for item in batches], [11, 13, 9])
-        self.assertEqual([item["retained_count"] for item in batches], [11, 13, 9])
-        self.assertEqual([len(item["softwares"]) for item in batches], [11, 13, 9])
+        self.assertEqual([item["retained_count"] for item in batches], [11, 12, 9])
+        self.assertEqual([len(item["softwares"]) for item in batches], [11, 12, 9])
 
     def test_every_retained_row_is_lossless_shape(self) -> None:
         for batch in self.value["batches"]:
@@ -29,16 +29,16 @@ class ObservedReferenceFixtureTests(unittest.TestCase):
                 self.assertEqual(row["size"], "0")
                 self.assertEqual(row["operate"], "1")
 
-    def test_current_observed_software_is_retained(self) -> None:
+    def test_explicit_modeling_omission_is_enforced(self) -> None:
         names = {
             row["name"]
             for batch in self.value["batches"]
             for row in batch["softwares"]
         }
-        self.assertIn("Clash Verge", names)
+        self.assertNotIn("Clash Verge", names)
         filtering = self.value["filtering"]
-        self.assertEqual(filtering["sensitive_software_omitted"], [])
-        self.assertEqual(filtering["omitted_count"], 0)
+        self.assertEqual(filtering["sensitive_software_omitted"], ["Clash Verge"])
+        self.assertEqual(filtering["omitted_count"], 1)
 
     def test_kb_version_space_is_preserved(self) -> None:
         kb = next(item for item in self.value["batches"] if item["label"] == "kb")

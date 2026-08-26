@@ -191,7 +191,7 @@ class MswitchFrameTransportModeTests(unittest.IsolatedAsyncioTestCase):
             "type": "simulated",
             "start": "2030-01-01T00:00:00+00:00",
         }
-        config["duration_seconds"] = 0
+        config["duration_seconds"] = 9
         config["provider"] = dict(config["provider"])
         config["provider"].pop("state_path", None)
 

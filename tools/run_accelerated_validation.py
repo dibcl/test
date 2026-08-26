@@ -86,7 +86,9 @@ def _episode_periodicity(values: list[float], threshold: float) -> dict[str, Any
     }
 
 
-def _cpu_memory_checks(cpu: list[float], memory: list[float]) -> dict[str, Any]:
+def _cpu_memory_checks(
+    cpu: list[float], memory: list[float], per_core_cpu: list[float]
+) -> dict[str, Any]:
     cpu_ordered = sorted(set(cpu))
     memory_ordered = sorted(set(memory))
     cpu_gap = max((right - left for left, right in zip(cpu_ordered, cpu_ordered[1:])), default=0.0)
@@ -124,10 +126,18 @@ def _cpu_memory_checks(cpu: list[float], memory: list[float]) -> dict[str, Any]:
             "memory_50_plus": _episode_periodicity(memory, 50.0),
         },
         "fixed_boundary_values": {
-            "cpu": {str(value): cpu.count(value) for value in (3.0, 58.5, 60.0)},
-            "memory": {str(value): memory.count(value) for value in (30.0, 58.5, 60.0)},
-            "detected": any(cpu.count(value) > 1 for value in (3.0, 58.5, 60.0))
-            or any(memory.count(value) > 1 for value in (30.0, 58.5, 60.0)),
+            "cpu": {str(value): cpu.count(value) for value in (3.0, 58.49, 58.5, 60.0)},
+            "per_core_cpu": {
+                str(value): per_core_cpu.count(value)
+                for value in (3.0, 58.49, 58.5, 60.0)
+            },
+            "memory": {
+                str(value): memory.count(value)
+                for value in (30.0, 58.49, 58.5, 60.0)
+            },
+            "detected": any(cpu.count(value) > 1 for value in (3.0, 58.49, 58.5, 60.0))
+            or any(per_core_cpu.count(value) > 1 for value in (3.0, 58.49, 58.5, 60.0))
+            or any(memory.count(value) > 1 for value in (30.0, 58.49, 58.5, 60.0)),
         },
         "cpu_memory_correlation": correlation,
         "correlation_too_high": abs(correlation) >= 0.80,
@@ -217,7 +227,7 @@ def _summary(
         ])
 
     metric: dict[str, list[float]] = {
-        "cpu": [], "memory": [], "network_tx": [], "network_rx": [],
+        "cpu": [], "per_core_cpu": [], "memory": [], "network_tx": [], "network_rx": [],
         "disk_activity": [], "disk_read_iops": [], "disk_write_iops": [],
         "disk_read_kb_per_second": [], "disk_write_kb_per_second": [],
     }
@@ -227,6 +237,9 @@ def _summary(
         if int(item["int_msgid"]) == 9051:
             for sample in payload["performance"]:
                 metric["cpu"].append(float(sample["cpu"]))
+                metric["per_core_cpu"].extend(
+                    float(row["data"].split("|")[1]) for row in sample["cpus"]
+                )
                 metric["memory"].append(float(sample["mem"]["used"]))
                 network = sample["network"][0]["data"].split("|")
                 metric["network_tx"].append(float(network[1]))
@@ -251,7 +264,9 @@ def _summary(
         "message_counts": dict(sorted(Counter(str(item["int_msgid"]) for item in messages).items())),
         "period_seconds": periods,
         "distributions": {key: _stats(value) for key, value in metric.items()},
-        "cpu_memory_analysis": _cpu_memory_checks(metric["cpu"], metric["memory"]),
+        "cpu_memory_analysis": _cpu_memory_checks(
+            metric["cpu"], metric["memory"], metric["per_core_cpu"]
+        ),
         "process_rank_changes": {
             key: sum(left != right for left, right in zip(values, values[1:]))
             for key, values in rank_groups.items()

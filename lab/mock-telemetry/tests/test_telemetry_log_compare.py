@@ -13,6 +13,7 @@ if str(TOOLS) not in sys.path:
     sys.path.insert(0, str(TOOLS))
 
 from telemetry_log_compare import compare
+from run_accelerated_validation import _cpu_memory_checks
 
 
 def protocol_row(second: int, msgid: int, payload: dict) -> dict:
@@ -27,6 +28,15 @@ def protocol_row(second: int, msgid: int, payload: dict) -> dict:
 
 
 class TelemetryLogCompareTests(unittest.TestCase):
+    def test_accelerated_validator_detects_exact_per_core_boundary(self) -> None:
+        result = _cpu_memory_checks(
+            [40.0, 41.0],
+            [35.0, 35.1],
+            [58.49, 58.49, 42.0],
+        )
+        self.assertTrue(result["fixed_boundary_values"]["detected"])
+        self.assertEqual(result["fixed_boundary_values"]["per_core_cpu"]["58.49"], 2)
+
     def test_comparison_emits_all_six_statistical_sections(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -90,6 +100,10 @@ class TelemetryLogCompareTests(unittest.TestCase):
         self.assertEqual(heartbeat_period["median_delta_seconds"], 2.0)
         self.assertEqual(result["process_trends"]["real"]["pid_change_count"], 1)
         self.assertEqual(result["process_trends"]["runtime"]["pid_change_count"], 0)
+        self.assertEqual(
+            result["process_trends"]["runtime"]["process_presence_top10"][0],
+            {"name": "A", "snapshot_count": 2, "share": 1.0},
+        )
         self.assertEqual(result["metric_distributions"]["real"]["cpu_percent"]["p50"], 2.0)
         self.assertEqual(result["metric_distributions"]["runtime"]["cpu_percent"]["p50"], 4.0)
         fields = result["field_differences"]["guest_to_host:4002"]

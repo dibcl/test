@@ -401,7 +401,7 @@ def process_trend(events: list[Event]) -> dict[str, Any]:
         current = dict(groups.get("process", []))
         all_names.update(current)
         all_pids.update(current.values())
-        presence.update(current)
+        presence.update(current.keys())
         if previous is not None:
             left_names, right_names = set(previous), set(current)
             union = left_names | right_names

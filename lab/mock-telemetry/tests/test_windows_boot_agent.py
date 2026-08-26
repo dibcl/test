@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 
@@ -64,6 +65,11 @@ class WindowsBootAgentTests(unittest.IsolatedAsyncioTestCase):
                 [row["int_msgid"] for row in rows[:6]],
                 [9050, 9054, 9054, 9054, 4002, 4004],
             )
+            startup_time = datetime.fromisoformat(rows[0]["emitted_at"])
+            heartbeat_time = datetime.fromisoformat(rows[4]["emitted_at"])
+            version_time = datetime.fromisoformat(rows[5]["emitted_at"])
+            self.assertEqual((heartbeat_time - startup_time).total_seconds(), 9.0)
+            self.assertEqual((version_time - startup_time).total_seconds(), 29.0)
             for name in ("messages.jsonl", "mswitch.raw", "runtime-status.json", "start_time.txt"):
                 self.assertTrue((session / name).is_file(), name)
             self.assertGreater((session / "mswitch.raw").stat().st_size, 0)

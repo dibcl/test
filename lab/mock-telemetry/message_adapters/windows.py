@@ -46,19 +46,31 @@ def _text(value: Any, label: str, *, allow_empty: bool = False) -> str:
     return value
 
 
-def _number(value: Any) -> str:
-    if value is None:
-        return "0.0"
+def _one_decimal(value: Any) -> str:
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         raise ValueError("protocol metric value must be numeric")
-    return f"{float(value):.3f}".rstrip("0").rstrip(".") or "0"
+    return f"{float(value):.1f}"
+
+
+def _two_decimals(value: Any) -> str:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise ValueError("protocol metric value must be numeric")
+    return f"{float(value):.2f}"
+
+
+def _integer(value: Any) -> str:
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        raise ValueError("protocol metric value must be numeric")
+    return str(round(float(value)))
 
 
 def _windows_urlencode(value: str) -> str:
     return quote_plus(value, safe="").replace("-", "%2D").replace(".", "%2E")
 
 
-def _software_batches(config: Mapping[str, Any]) -> tuple[tuple[dict[str, str], ...], ...]:
+def _software_batches(
+    config: Mapping[str, Any],
+) -> tuple[tuple[str, tuple[dict[str, str], ...]], ...]:
     profile_path = _text(config.get("software_profile", ""), "software_profile")
     source = Path(profile_path)
     value = json.loads(source.read_text(encoding="utf-8"))
@@ -84,7 +96,7 @@ def _software_batches(config: Mapping[str, Any]) -> tuple[tuple[dict[str, str], 
     missing = [label for label in SOFTWARE_BATCH_ORDER if label not in indexed]
     if missing:
         raise ValueError(f"software profile missing batches: {missing}")
-    return tuple(indexed[label] for label in SOFTWARE_BATCH_ORDER)
+    return tuple((label, indexed[label]) for label in SOFTWARE_BATCH_ORDER)
 
 
 class WindowsMessageEncoder:
@@ -219,12 +231,13 @@ class WindowsMessageEncoder:
         env = self._local_environment(snapshot)
         stamp = self._stamp(snapshot.observed_at)
         messages: list[ProtocolMessage] = []
-        for batch in self.software_batches:
+        for label, batch in self.software_batches:
             softwares = []
             for item in batch:
                 row = dict(item)
-                row["name"] = _windows_urlencode(row["name"])
-                row["publisher"] = _windows_urlencode(row["publisher"])
+                if label != "kb":
+                    row["name"] = _windows_urlencode(row["name"])
+                    row["publisher"] = _windows_urlencode(row["publisher"])
                 softwares.append(row)
             payload = {
                 "source": 4,
@@ -277,33 +290,41 @@ class WindowsMessageEncoder:
             "latency_ms": sum(latency_values) / len(latency_values) if latency_values else 0,
             "queue_length": sum(float(item.get("queue_length", 0)) for item in disks),
         }
-        disk_columns = [_number(disk_values.get(key, 0)) for key in DISK_FIELD_KEYS]
+        disk_columns = [_two_decimals(disk_values.get(key, 0)) for key in DISK_FIELD_KEYS]
         per_disk = []
         for item in disk.get("per_disk", []):
             per_disk.append("|".join([
                 str(item.get("name", "disk")),
-                _number(item.get("size_gb", 0)),
-                _number(item.get("used_gb", 0)),
-                _number(item.get("used_percent", 0)),
-                *[_number(item.get(key, 0)) for key in PER_DISK_FIELD_KEYS],
+                _two_decimals(item.get("size_gb", 0)),
+                _two_decimals(item.get("used_gb", 0)),
+                _two_decimals(item.get("used_percent", 0)),
+                *[_two_decimals(item.get(key, 0)) for key in PER_DISK_FIELD_KEYS],
             ]))
         return {
             "createtime": stamp,
-            "cpu": float(cpu["percent"]),
+            "cpu": float(_one_decimal(cpu["percent"])),
             "cpus": [
-                {"data": f"CPU{index}|{_number(value)}"}
+                {"data": f"CPU{index}|{_one_decimal(value)}"}
                 for index, value in enumerate(cpu.get("per_core", []))
             ],
             "handle": handles,
             "mem": {
-                "used": float(memory["percent"]),
-                "pagedpool": float(memory["paged_pool_mb"]),
-                "nonpagedpool": float(memory["nonpaged_pool_mb"]),
+                "used": float(_one_decimal(memory["percent"])),
+                "pagedpool": float(_one_decimal(memory["paged_pool_mb"])),
+                "nonpagedpool": float(_one_decimal(memory["nonpaged_pool_mb"])),
             },
             "network": [
                 {
                     "data": "|".join(
-                        [env["MAC"], _number(tx), _number(rx), "0", "0", _number(tx_total), _number(rx_total)]
+                        [
+                            env["MAC"],
+                            _one_decimal(tx or 0),
+                            _one_decimal(rx or 0),
+                            "0.0",
+                            "0.0",
+                            _one_decimal(tx_total),
+                            _one_decimal(rx_total),
+                        ]
                     )
                 }
             ],
@@ -337,20 +358,20 @@ class WindowsMessageEncoder:
         if group in {"process", "process_memory", "process_handle"}:
             memory = round(float(item.get("rss_mb", 0)) * 1024)
             values = [
-                _number(item.get("cpu_percent", 0)),
-                _number(memory),
+                _one_decimal(item.get("cpu_percent", 0)),
+                _integer(memory),
                 str(int(item.get("handles", 0))),
             ]
         elif group == "process_diskio":
             total = float(item.get("disk_io_rate", 0))
             read = float(item.get("disk_read_rate", total * 0.65))
             write = float(item.get("disk_write_rate", max(0.0, total - read)))
-            values = [_number(total), _number(read), _number(write)]
+            values = [_integer(total), _integer(read), _integer(write)]
         else:
             total = float(item.get("network_io_rate", 0))
             tx = float(item.get("network_tx_rate", total * 0.45))
             rx = float(item.get("network_rx_rate", max(0.0, total - tx)))
-            values = [_number(total), _number(tx), _number(rx)]
+            values = [_integer(total), _integer(tx), _integer(rx)]
         return {"data": "|".join([*base, *values])}
 
     def process_9052(self, snapshot: TelemetrySnapshot) -> ProtocolMessage:

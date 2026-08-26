@@ -32,6 +32,7 @@
     },
     "schedule": {
       "heartbeat_seconds": 30,
+      "heartbeat_startup_delay_seconds": 9,
       "version_seconds": 7200,
       "version_startup_delay_seconds": 29,
       "performance_sample_seconds": 60,

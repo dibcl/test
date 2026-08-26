@@ -26,6 +26,9 @@ class TelemetryMessageScheduler:
     def __init__(self, encoder: WindowsMessageEncoder, config: Mapping[str, Any]) -> None:
         self.encoder = encoder
         self.heartbeat_seconds = _interval(config, "heartbeat_seconds", 30.0)
+        self.heartbeat_startup_delay_seconds = _interval(
+            config, "heartbeat_startup_delay_seconds", 9.0
+        )
         self.version_seconds = _interval(config, "version_seconds", 7200.0)
         self.version_startup_delay_seconds = _interval(
             config, "version_startup_delay_seconds", 25.0
@@ -41,7 +44,7 @@ class TelemetryMessageScheduler:
             raise ValueError("message_adapter.schedule.process_jitter_seconds must be a number")
         self.process_jitter_seconds = max(0.0, float(jitter))
         self._started = False
-        self._next_heartbeat = 0.0
+        self._next_heartbeat = self.heartbeat_startup_delay_seconds
         self._next_version = self.version_startup_delay_seconds
         self._next_performance_sample = self.performance_sample_seconds
         self._next_qoe_batch = self.qoe_batch_seconds
@@ -65,11 +68,9 @@ class TelemetryMessageScheduler:
                 [
                     self.encoder.environment_9050(snapshot),
                     *self.encoder.software_9054(snapshot),
-                    self.encoder.heartbeat_4002(snapshot),
                 ]
             )
             self._started = True
-            self._next_heartbeat = self.heartbeat_seconds
             self._next_version = self.version_startup_delay_seconds
 
         if elapsed_seconds >= self._next_heartbeat:

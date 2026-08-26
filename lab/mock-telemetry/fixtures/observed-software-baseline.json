@@ -2,14 +2,14 @@
   "source": "observed-current-windows-guest-telemetry",
   "captured_at": "2026-08-25T18:29:36+08:00",
   "filtering": {
-    "sensitive_software_omitted": [],
-    "omitted_count": 0,
-    "reason": "current observed startup inventory retained"
+    "sensitive_software_omitted": ["Clash Verge"],
+    "omitted_count": 1,
+    "reason": "modeling fixture excludes workstation-specific software"
   },
   "notes": [
     "Derived from the captured current-instance 9054 telemetry payloads.",
     "All retained fields mirror the observed payload model: name, type, publisher, installtime, size, version, operate.",
-    "The current observed software split is retained as 11 + 13 items.",
+    "The modeled software split retains 11 + 12 items after one explicit omission.",
     "KB payloads preserve the observed single-space version field.",
     "Audit/reference fixture only; real VM identity is intentionally absent."
   ],
@@ -35,10 +35,9 @@
     {
       "label": "native",
       "observed_count": 13,
-      "retained_count": 13,
+      "retained_count": 12,
       "softwares": [
         {"name":"7-Zip 25.01 (x64)","type":"1","publisher":"Igor Pavlov","installtime":"","size":"0","version":"25.01","operate":"1"},
-        {"name":"Clash Verge","type":"1","publisher":"Clash Verge Rev","installtime":"","size":"0","version":"2.5.2","operate":"1"},
         {"name":"QEMU","type":"1","publisher":"QEMU Community","installtime":"","size":"0","version":"11.1.0","operate":"1"},
         {"name":"Python 3.13.15 Standard Library (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
         {"name":"Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
