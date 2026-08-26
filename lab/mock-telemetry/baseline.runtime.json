@@ -15,8 +15,8 @@
       "nonpaged_pool_mb": 228.0
     },
     "disk_layout": [
-      {"name": "C", "size_gb": 79.95, "used_percent": 34.9, "weight": 1.0},
-      {"name": "D", "size_gb": 500.0, "used_percent": 8.1, "weight": 0.18}
+      {"name": "C", "size_gb": 79.95, "used_gb": 29.03, "used_percent": 36.31, "weight": 1.0},
+      {"name": "D", "size_gb": 500.0, "used_gb": 40.20, "used_percent": 8.04, "weight": 0.18}
     ],
     "key_process": "MMRHookService.exe"
   },

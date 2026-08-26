@@ -105,7 +105,10 @@ class MessageAdapterTests(unittest.TestCase):
         self.assertEqual(by_id[9050]["environment"]["diskused"], "C:23.17GB,D:26.61GB")
         software = [item.payload for item in messages if item.int_msgid == 9054]
         self.assertEqual(len(software), 3)
-        self.assertEqual(software[0]["softwares"][0]["name"], "7%2DZip+25%2E01+%28x64%29")
+        self.assertEqual(
+            software[0]["softwares"][0]["name"],
+            "Windows+Driver+Packages+%2D+KVM+GPL+Virtio+Driver+Developers+Balloon+Device+Driver",
+        )
         self.assertEqual(software[1]["softwares"][0]["type"], "1")
         self.assertEqual(software[2]["softwares"][0]["type"], "2")
 
@@ -154,7 +157,7 @@ class MessageAdapterTests(unittest.TestCase):
     def test_protocol_field_semantics_match_observed_rows(self) -> None:
         encoder = WindowsMessageEncoder(CONFIG)
         sample = encoder.performance_sample(snapshot(60))
-        self.assertEqual(sample["disk"], "2|0|0|0|0|0|0|0|0")
+        self.assertEqual(sample["disk"], "2|35|0|0|0|0|0|0|0")
         self.assertNotIn(";", sample["perdisk"])
 
         process = encoder.process_9052(snapshot(307)).payload

@@ -135,7 +135,8 @@ class TelemetryAgent:
             raise RuntimeError("agent is already running")
 
         self._stop_event.clear()
-        elapsed = 0.0
+        started_at = self._clock.monotonic()
+        next_deadline = started_at
 
         try:
             async with self._provider_lock:
@@ -150,6 +151,7 @@ class TelemetryAgent:
             self._running = True
 
             while not self._stop_event.is_set():
+                elapsed = self._clock.monotonic() - started_at
                 snapshot = await self._collect()
                 if self._message_adapter is None:
                     messages = [
@@ -169,9 +171,8 @@ class TelemetryAgent:
                 ):
                     break
 
-                interval = self._settings.interval_seconds
-                await self._clock.sleep(interval)
-                elapsed += interval
+                next_deadline += self._settings.interval_seconds
+                await self._clock.sleep_until(next_deadline)
         finally:
             self._running = False
             async with self._provider_lock:

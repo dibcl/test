@@ -36,12 +36,17 @@ class TelemetryMessageScheduler:
         self.qoe_batch_seconds = _interval(config, "qoe_batch_seconds", 300.0)
         self.process_seconds = _interval(config, "process_seconds", 300.0)
         self.process_offset_seconds = _interval(config, "process_offset_seconds", 7.0)
+        jitter = config.get("process_jitter_seconds", 0.0)
+        if isinstance(jitter, bool) or not isinstance(jitter, (int, float)):
+            raise ValueError("message_adapter.schedule.process_jitter_seconds must be a number")
+        self.process_jitter_seconds = max(0.0, float(jitter))
         self._started = False
         self._next_heartbeat = 0.0
         self._next_version = self.version_startup_delay_seconds
         self._next_performance_sample = self.performance_sample_seconds
         self._next_qoe_batch = self.qoe_batch_seconds
         self._next_process = self.process_seconds + self.process_offset_seconds
+        self._process_sequence = 1
         self._performance_samples: deque[dict[str, Any]] = deque(maxlen=5)
 
     @staticmethod
@@ -101,7 +106,11 @@ class TelemetryMessageScheduler:
 
         if elapsed_seconds >= self._next_process:
             messages.append(self.encoder.process_9052(snapshot))
-            self._next_process = self._advance(
-                self._next_process, self.process_seconds, elapsed_seconds
+            self._process_sequence += 1
+            jitter = self.process_jitter_seconds * math.sin(self._process_sequence * 2.399)
+            self._next_process = (
+                self._process_sequence * self.process_seconds
+                + self.process_offset_seconds
+                + jitter
             )
         return messages

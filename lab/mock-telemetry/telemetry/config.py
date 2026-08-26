@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 from .agent import AgentSettings
-from .clocks import BaseClock, RealClock, SimulatedClock
+from .clocks import BaseClock, RealClock, ScaledRealClock, SimulatedClock
 from .mswitch_frame_transport import MswitchFrameTransport
 from .providers import (
     BaseMetricsProvider,
@@ -20,6 +20,7 @@ from .providers import (
 from .registry import CLOCK_REGISTRY, PROVIDER_REGISTRY, TRANSPORT_REGISTRY, Registry
 from .transports import BaseTransport, FileDumpTransport, MemoryTransport, TcpTransport, UdpTransport
 from .windows_validation import WindowsValidationProvider
+from .accelerated_validation import AcceleratedWindowsValidationProvider
 
 
 def _strict_bool(value: Any, label: str) -> bool:
@@ -126,6 +127,12 @@ def _register_defaults() -> None:
         ),
         replace=True,
     )
+    PROVIDER_REGISTRY.register(
+        "windows_validation_accelerated",
+        lambda cfg: AcceleratedWindowsValidationProvider(cfg["profile"], cfg["local_env"]),
+        aliases=("accelerated_windows",),
+        replace=True,
+    )
     TRANSPORT_REGISTRY.register(
         "mswitch_frame",
         lambda cfg: MswitchFrameTransport(
@@ -159,6 +166,20 @@ def _register_defaults() -> None:
         aliases=("fake",),
         replace=True,
     )
+
+    def build_scaled(cfg: Mapping[str, Any]) -> ScaledRealClock:
+        start = cfg.get("start")
+        parsed = None
+        if start is not None:
+            if not isinstance(start, str) or not start.strip():
+                raise ValueError("clock.start must be a non-empty ISO-8601 string")
+            parsed = datetime.fromisoformat(start)
+        return ScaledRealClock(
+            _strict_float(cfg.get("time_scale", 12.0), "clock.time_scale"),
+            parsed,
+        )
+
+    CLOCK_REGISTRY.register("scaled_real", build_scaled, aliases=("accelerated",), replace=True)
 
 
 _register_defaults()

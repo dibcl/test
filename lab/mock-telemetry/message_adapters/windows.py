@@ -18,24 +18,23 @@ QOE_MODULE = 0x80000011
 HOST_MODULE = 0x80000000
 QOE_TARGET = 10
 ZERO_VMID = "0" * 36
-SOFTWARE_BATCH_ORDER = ("native", "wow6432node", "kb")
+SOFTWARE_BATCH_ORDER = ("wow6432node", "native", "kb")
 DISK_FIELD_KEYS = (
-    "activity_rate",
+    "system_activity",
+    "primary_used_percent",
+    "secondary_used_percent",
     "read_iops",
     "write_iops",
-    "read_bytes_per_second",
-    "write_bytes_per_second",
-    "read_latency_ms",
-    "write_latency_ms",
+    "read_kb_per_second",
+    "write_kb_per_second",
+    "latency_ms",
     "queue_length",
-    "busy_percent",
 )
 PER_DISK_FIELD_KEYS = (
-    "activity_rate",
     "read_iops",
     "write_iops",
-    "read_bytes_per_second",
-    "write_bytes_per_second",
+    "read_kb_per_second",
+    "write_kb_per_second",
     "read_latency_ms",
     "write_latency_ms",
 )
@@ -187,6 +186,12 @@ class WindowsMessageEncoder:
     def environment_9050(self, snapshot: TelemetrySnapshot) -> ProtocolMessage:
         env = self._local_environment(snapshot)
         stamp = self._stamp(snapshot.observed_at)
+        diskused = self.diskused
+        disks = snapshot.metrics.get("disk_io", {}).get("per_disk", [])
+        if disks and all("used_gb" in item for item in disks):
+            diskused = ",".join(
+                f"{item.get('name', 'disk')}:{float(item['used_gb']):.2f}GB" for item in disks
+            )
         payload = {
             "source": 4,
             "uuid": env["UUID"],
@@ -203,7 +208,7 @@ class WindowsMessageEncoder:
                 "mac": env["MAC"].lower(),
                 "ip": env.get("IP", ""),
                 "disk": env["DISK"],
-                "diskused": self.diskused,
+                "diskused": diskused,
                 "version": self.vmbooster,
                 "targetversion": self.targetversion,
             },
@@ -242,15 +247,43 @@ class WindowsMessageEncoder:
         processes = metrics["process_snapshot"]
         stamp = self._stamp(snapshot.observed_at)
 
-        handles = sum(int(item.get("handles", 0)) for item in processes.get("process_handle", []))
-        tx = network.get("tx_bytes_per_second")
-        rx = network.get("rx_bytes_per_second")
-        disk_columns = [_number(disk.get(key, 0)) for key in DISK_FIELD_KEYS]
+        handles = int(processes.get(
+            "system_handles",
+            sum(int(item.get("handles", 0)) for item in processes.get("process_handle", [])),
+        ))
+        tx = network.get("tx_kb_per_second")
+        rx = network.get("rx_kb_per_second")
+        if tx is None and network.get("tx_bytes_per_second") is not None:
+            tx = float(network["tx_bytes_per_second"]) / 1024.0
+        if rx is None and network.get("rx_bytes_per_second") is not None:
+            rx = float(network["rx_bytes_per_second"]) / 1024.0
+        tx_total = network.get("tx_interval_kb", (float(tx) * 60.0 if tx is not None else 0))
+        rx_total = network.get("rx_interval_kb", (float(rx) * 60.0 if rx is not None else 0))
+        disks = list(disk.get("per_disk", []))
+        read_iops = sum(float(item.get("read_iops", 0)) for item in disks)
+        write_iops = sum(float(item.get("write_iops", 0)) for item in disks)
+        read_rate = sum(float(item.get("read_kb_per_second", 0)) for item in disks)
+        write_rate = sum(float(item.get("write_kb_per_second", 0)) for item in disks)
+        latency_values = [
+            float(item.get(key, 0)) for item in disks
+            for key in ("read_latency_ms", "write_latency_ms")
+        ]
+        disk_values = {
+            "system_activity": disk.get("system_activity", disk.get("activity_rate", 0)),
+            "primary_used_percent": disks[0].get("used_percent", 0) if disks else 0,
+            "secondary_used_percent": disks[1].get("used_percent", 0) if len(disks) > 1 else 0,
+            "read_iops": read_iops, "write_iops": write_iops,
+            "read_kb_per_second": read_rate, "write_kb_per_second": write_rate,
+            "latency_ms": sum(latency_values) / len(latency_values) if latency_values else 0,
+            "queue_length": sum(float(item.get("queue_length", 0)) for item in disks),
+        }
+        disk_columns = [_number(disk_values.get(key, 0)) for key in DISK_FIELD_KEYS]
         per_disk = []
         for item in disk.get("per_disk", []):
             per_disk.append("|".join([
                 str(item.get("name", "disk")),
                 _number(item.get("size_gb", 0)),
+                _number(item.get("used_gb", 0)),
                 _number(item.get("used_percent", 0)),
                 *[_number(item.get(key, 0)) for key in PER_DISK_FIELD_KEYS],
             ]))
@@ -270,7 +303,7 @@ class WindowsMessageEncoder:
             "network": [
                 {
                     "data": "|".join(
-                        [env["MAC"], _number(tx), _number(rx), "0", "0", _number(tx), _number(rx)]
+                        [env["MAC"], _number(tx), _number(rx), "0", "0", _number(tx_total), _number(rx_total)]
                     )
                 }
             ],
@@ -302,9 +335,7 @@ class WindowsMessageEncoder:
             str(item["pid"]),
         ]
         if group in {"process", "process_memory", "process_handle"}:
-            memory = float(item.get("rss_mb", 0))
-            if group == "process_memory":
-                memory = round(memory * 1024)
+            memory = round(float(item.get("rss_mb", 0)) * 1024)
             values = [
                 _number(item.get("cpu_percent", 0)),
                 _number(memory),

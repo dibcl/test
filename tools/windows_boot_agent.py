@@ -114,8 +114,11 @@ class BootSessionCaptureTransport(BaseTransport):
         self._messages.write(
             json.dumps(message, ensure_ascii=False, separators=(",", ":")) + "\n"
         )
+        self._messages.flush()
+        os.fsync(self._messages.fileno())
         self._frames.write(self.encoder.encode(protocol_message))
         self._frames.flush()
+        os.fsync(self._frames.fileno())
         self.message_count += 1
         self.message_ids.append(protocol_message.int_msgid)
 

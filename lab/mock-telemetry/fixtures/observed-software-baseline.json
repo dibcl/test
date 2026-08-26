@@ -1,23 +1,23 @@
 {
   "source": "observed-current-windows-guest-telemetry",
-  "captured_at": "2026-08-24T00:24:25+08:00",
+  "captured_at": "2026-08-25T18:29:36+08:00",
   "filtering": {
-    "sensitive_software_omitted": ["Clash Verge"],
-    "omitted_count": 1,
-    "reason": "user-requested filtering"
+    "sensitive_software_omitted": [],
+    "omitted_count": 0,
+    "reason": "current observed startup inventory retained"
   },
   "notes": [
     "Derived from the captured current-instance 9054 telemetry payloads.",
     "All retained fields mirror the observed payload model: name, type, publisher, installtime, size, version, operate.",
-    "The original software split was 10 + 6 items; after the agreed single-item filter the retained split is 10 + 5.",
+    "The current observed software split is retained as 11 + 13 items.",
     "KB payloads preserve the observed single-space version field.",
     "Audit/reference fixture only; real VM identity is intentionally absent."
   ],
   "batches": [
     {
       "label": "wow6432node",
-      "observed_count": 10,
-      "retained_count": 10,
+      "observed_count": 11,
+      "retained_count": 11,
       "softwares": [
         {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Balloon Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"08/03/2018,100.76.104.16000","operate":"1"},
         {"name":"Windows Driver Packages - Balloon Service","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"","operate":"1"},
@@ -28,19 +28,28 @@
         {"name":"uSmartviewUpdate","type":"1","publisher":"uSmartviewUpdate","installtime":"","size":"0","version":"7.24.10.01","operate":"1"},
         {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Vioserial Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"","operate":"1"},
         {"name":"Windows Driver Packages - KVM GPL Virtio Driver Developers Viostor Device Driver","type":"1","publisher":"ZTE","installtime":"","size":"0","version":"08/03/2018,100.76.104.16000","operate":"1"},
+        {"name":"Python Launcher","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
         {"name":"Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"","size":"0","version":"14.44.35211.0","operate":"1"}
       ]
     },
     {
       "label": "native",
-      "observed_count": 6,
-      "retained_count": 5,
+      "observed_count": 13,
+      "retained_count": 13,
       "softwares": [
         {"name":"7-Zip 25.01 (x64)","type":"1","publisher":"Igor Pavlov","installtime":"","size":"0","version":"25.01","operate":"1"},
+        {"name":"Clash Verge","type":"1","publisher":"Clash Verge Rev","installtime":"","size":"0","version":"2.5.2","operate":"1"},
         {"name":"QEMU","type":"1","publisher":"QEMU Community","installtime":"","size":"0","version":"11.1.0","operate":"1"},
+        {"name":"Python 3.13.15 Standard Library (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
         {"name":"Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
+        {"name":"Python 3.13.15 Core Interpreter (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
+        {"name":"Python 3.13.15 Development Libraries (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
         {"name":"Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211","type":"1","publisher":"Microsoft Corporation","installtime":"20260823","size":"0","version":"","operate":"1"},
-        {"name":"Microsoft Visual C++ 2010 x64 Redistributable - 10.0.30319","type":"1","publisher":"Microsoft Corporation","installtime":"20250604","size":"0","version":"","operate":"1"}
+        {"name":"Python 3.13.15 Executables (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
+        {"name":"Python 3.13.15 Add to Path (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
+        {"name":"Microsoft Visual C++ 2010  x64 Redistributable - 10.0.30319","type":"1","publisher":"Microsoft Corporation","installtime":"20250604","size":"0","version":"","operate":"1"},
+        {"name":"Python 3.13.15 Tcl/Tk Support (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"},
+        {"name":"Python 3.13.15 pip Bootstrap (64-bit)","type":"1","publisher":"Python Software Foundation","installtime":"20260824","size":"0","version":"","operate":"1"}
       ]
     },
     {

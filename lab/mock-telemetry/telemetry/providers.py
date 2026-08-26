@@ -251,7 +251,7 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
     def _cpu_snapshot(self) -> dict[str, Any]:
         per_core = []
         for index in range(self.cpu_cores):
-            bias = ((index % 4) - 1.5) * 0.35
+            bias = self.random.gauss(0.0, max(0.15, self.cpu * 0.16))
             value = self.cpu + bias
             per_core.append(round(max(0.0, min(100.0, value)), 2))
         return {
@@ -278,13 +278,24 @@ class HybridSyntheticNetworkProvider(SyntheticMetricsProvider):
             weight = max(0.01, float(item.get("weight", 1.0)))
             activity = max(0.0, self.disk * weight)
             used = float(item.get("used_percent", 35.0))
+            size = float(item.get("size_gb", 0.0))
+            used_gb = float(item.get("used_gb", size * used / 100.0))
             disks.append({
                 "name": str(item.get("name", "disk")),
-                "size_gb": round(float(item.get("size_gb", 0.0)), 2),
-                "used_percent": round(max(0.0, min(100.0, used)), 2),
+                "size_gb": round(size, 2),
+                "used_gb": round(used_gb, 2),
+                "used_percent": round(max(0.0, min(100.0, used_gb / size * 100.0 if size else used)), 2),
                 "activity_rate": round(activity, 3),
+                "read_iops": round(activity * self.random.uniform(0.02, 0.14), 3),
+                "write_iops": round(activity * self.random.uniform(0.03, 0.18), 3),
+                "read_kb_per_second": round(activity * self.random.uniform(0.4, 3.5), 3),
+                "write_kb_per_second": round(activity * self.random.uniform(0.5, 4.5), 3),
+                "read_latency_ms": round(activity * 0.003, 3),
+                "write_latency_ms": round(activity * 0.004, 3),
+                "queue_length": round(activity * 0.001, 3),
             })
         return {
+            "system_activity": 11.94,
             "activity_rate": round(self.disk, 3),
             "per_disk": disks,
             "source": "synthetic",
