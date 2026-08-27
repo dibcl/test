@@ -20,10 +20,92 @@ if str(RUNTIME_ROOT) not in sys.path:
 
 from telemetry.accelerated_validation import AcceleratedWindowsValidationProvider
 from telemetry.clocks import SimulatedClock
+from message_adapters.mswitch_frame import HEADER_SIZE, MswitchFrameEncoder, MswitchHeader, decode_serial_frame
+from message_adapters.scheduler import TelemetryMessageScheduler
+from message_adapters.windows import WindowsMessageEncoder
 
 
 GROUPS = ("process", "process_memory", "process_handle", "process_diskio", "process_netio")
 CORE_NAMES = ("IceDisplay", "IceTunnel", "VmQoEAgent", "MswitchWin")
+FROZEN_IDS = {4002, 4004, 9050, 9051, 9052, 9054}
+CLASS_A_IDS = {8007, 8059, 9053, 9055, 9056}
+
+
+def _adapter_config(enabled: bool) -> dict[str, Any]:
+    config: dict[str, Any] = {
+        "agentversion": "V7.25.21SP3pv",
+        "software_profile": str(RUNTIME_ROOT / "fixtures" / "observed-software-baseline.json"),
+        "versions": {"vmbooster": "V7.25.21SP3pv", "PVDriver": "3.18.34.723185c6"},
+        "environment": {"diskused": "C:29.03GB,D:40.20GB"},
+    }
+    if enabled:
+        config["class_a"] = {
+            "enabled": True,
+            "evidence_profile": str(RUNTIME_ROOT / "fixtures" / "class-a-observed-baseline.json"),
+            "gateway": "172.20.176.1",
+        }
+    return config
+
+
+def _class_a_summary(messages: list[Any], uuid: str) -> dict[str, Any]:
+    by_id: dict[int, list[Any]] = defaultdict(list)
+    encoder = MswitchFrameEncoder(uuid)
+    wire_lengths: dict[str, list[float]] = defaultdict(list)
+    for message in messages:
+        by_id[message.int_msgid].append(message)
+        if message.int_msgid in CLASS_A_IDS:
+            raw = decode_serial_frame(encoder.encode(message))
+            wire_lengths[str(message.int_msgid)].append(float(MswitchHeader.parse(raw).data_len))
+    cadence = {}
+    for msgid in sorted(CLASS_A_IDS):
+        rows = by_id[msgid]
+        stamps = [datetime.fromisoformat(row.emitted_at) for row in rows]
+        cadence[str(msgid)] = {
+            "count": len(rows),
+            "interval_mean": _mean([(b - a).total_seconds() for a, b in zip(stamps, stamps[1:])]),
+            "wire_length_mean": _mean(wire_lengths[str(msgid)]),
+            "wire_length_min": min(wire_lengths[str(msgid)]),
+            "wire_length_max": max(wire_lengths[str(msgid)]),
+        }
+    logs = [row for message in by_id[9053] for row in message.payload["logdatas"]]
+    states_9056 = [
+        message.payload["datas"][0]["row"].rsplit(",", 4)[-4:]
+        for message in by_id[9056]
+    ]
+    variants_8059 = [
+        "populated" if "gateway" in message.payload else "minimal"
+        for message in by_id[8059]
+    ]
+    startup_9050 = min(
+        (message for message in messages if message.int_msgid == 9050),
+        key=lambda value: value.emitted_at,
+    )
+    startup_9055 = by_id[9055][0]
+    return {
+        "message_counts": {str(msgid): len(by_id[msgid]) for msgid in sorted(CLASS_A_IDS)},
+        "cadence_and_wire": cadence,
+        "9055_to_9050_seconds": (
+            datetime.fromisoformat(startup_9050.emitted_at)
+            - datetime.fromisoformat(startup_9055.emitted_at)
+        ).total_seconds(),
+        "8059_variant_counts": dict(Counter(variants_8059)),
+        "8059_persistence_ratio": (
+            sum(a == b for a, b in zip(variants_8059, variants_8059[1:]))
+            / (len(variants_8059) - 1)
+        ),
+        "9053_batch_size": {
+            "mean": _mean([float(len(message.payload["logdatas"])) for message in by_id[9053]]),
+            "min": min(len(message.payload["logdatas"]) for message in by_id[9053]),
+            "max": max(len(message.payload["logdatas"]) for message in by_id[9053]),
+            "empty": sum(not message.payload["logdatas"] for message in by_id[9053]),
+        },
+        "9053_percent_plus_ratio": sum("%" in row["log"] or "+" in row["log"] for row in logs) / len(logs),
+        "9056_distinct_states": len({tuple(value) for value in states_9056}),
+        "9056_persistence_ratio": (
+            sum(a == b for a, b in zip(states_9056, states_9056[1:]))
+            / (len(states_9056) - 1)
+        ),
+    }
 
 
 def _mean(values: list[float]) -> float:
@@ -112,9 +194,23 @@ async def _run_seed(seed: int) -> tuple[dict[str, Any], list[int]]:
     rankings: dict[str, list[list[dict[str, Any]]]] = {group: [] for group in GROUPS}
     core_pids: dict[str, set[int]] = {name: set() for name in CORE_NAMES}
     process_metric: dict[str, list[float]] = defaultdict(list)
+    class_scheduler = TelemetryMessageScheduler(WindowsMessageEncoder(_adapter_config(True)), {})
+    frozen_scheduler = TelemetryMessageScheduler(WindowsMessageEncoder(_adapter_config(False)), {})
+    class_messages: list[Any] = []
+    class_frozen_messages: list[dict[str, Any]] = []
+    baseline_frozen_messages: list[dict[str, Any]] = []
     process_deadlines = {307 + 300 * index for index in range(23)}
     for second in range(7200):
         snapshot = await provider.snapshot(clock)
+        current = class_scheduler.messages_for(snapshot, float(second))
+        class_messages.extend(current)
+        class_frozen_messages.extend(
+            message.to_dict() for message in current if message.int_msgid in FROZEN_IDS
+        )
+        baseline_frozen_messages.extend(
+            message.to_dict()
+            for message in frozen_scheduler.messages_for(snapshot, float(second))
+        )
         if second and second % 60 == 0:
             metrics = snapshot.metrics
             overall = float(metrics["cpu"]["percent"])
@@ -186,6 +282,15 @@ async def _run_seed(seed: int) -> tuple[dict[str, Any], list[int]]:
         "rankings": {group: _ranking(rows) for group, rows in rankings.items()},
         "process_metric_scale": {key: _mean(values) for key, values in process_metric.items()},
         "core_pid_continuity": {name: sorted(pids) for name, pids in core_pids.items()},
+        "class_a": _class_a_summary(
+            class_messages,
+            str(provider.local_environment["UUID"]),
+        ),
+        "six_message_regression": {
+            "exact_match": class_frozen_messages == baseline_frozen_messages,
+            "enabled_count": len(class_frozen_messages),
+            "baseline_count": len(baseline_frozen_messages),
+        },
     }
     return result, core_leaders
 
@@ -202,6 +307,70 @@ async def run(seeds: list[int]) -> dict[str, Any]:
         for index, a in enumerate(leader_sequences)
         for b in leader_sequences[index + 1:]
     ]
+    evidence = json.loads(
+        (RUNTIME_ROOT / "fixtures" / "class-a-observed-baseline.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    class_rows = [row["class_a"] for row in rows]
+    count_9053 = [float(row["message_counts"]["9053"]) for row in class_rows]
+    batch_9053 = [float(row["9053_batch_size"]["mean"]) for row in class_rows]
+    encoded_9053 = [float(row["9053_percent_plus_ratio"]) for row in class_rows]
+    validation = {
+        "8007": {
+            "pass": all(row["message_counts"]["8007"] == 23 for row in class_rows),
+            "counts": [row["message_counts"]["8007"] for row in class_rows],
+            "real_count_per_hour": evidence["8007"]["count_per_hour"],
+        },
+        "8059": {
+            "pass": all(
+                row["message_counts"]["8059"] == 25
+                and row["8059_variant_counts"] == {"minimal": 1, "populated": 24}
+                for row in class_rows
+            ),
+            "counts": [row["message_counts"]["8059"] for row in class_rows],
+            "real_count_per_hour": evidence["8059"]["count_per_hour"],
+        },
+        "9053": {
+            "pass": (
+                0.70 * evidence["9053"]["count_per_hour"] * 2
+                <= _mean(count_9053)
+                <= 1.30 * evidence["9053"]["count_per_hour"] * 2
+                and 1.0 <= _mean(batch_9053) <= 5.5
+                and _mean(encoded_9053) >= 0.95
+            ),
+            "counts": count_9053,
+            "count_mean": _mean(count_9053),
+            "batch_size_mean_across_seeds": _mean(batch_9053),
+            "percent_plus_ratio_mean_across_seeds": _mean(encoded_9053),
+            "real_count_per_hour": evidence["9053"]["count_per_hour"],
+            "real_batch_size_mean": evidence["9053"]["batch_size"]["mean"],
+        },
+        "9055": {
+            "pass": all(
+                row["message_counts"]["9055"] == 1
+                and row["9055_to_9050_seconds"] in (1.0, 2.0)
+                for row in class_rows
+            ),
+            "offsets": [row["9055_to_9050_seconds"] for row in class_rows],
+        },
+        "9056": {
+            "pass": all(
+                row["message_counts"]["9056"] == 23
+                and abs(row["cadence_and_wire"]["9056"]["interval_mean"] - 304.0) < 0.1
+                for row in class_rows
+            ),
+            "counts": [row["message_counts"]["9056"] for row in class_rows],
+            "real_count_per_hour": evidence["9056"]["count_per_hour"],
+        },
+        "six_message_regression": {
+            "pass": all(row["six_message_regression"]["exact_match"] for row in rows),
+            "all_exact_match": all(row["six_message_regression"]["exact_match"] for row in rows),
+        },
+    }
+    validation["all_class_a_pass"] = all(
+        validation[str(msgtype)]["pass"] for msgtype in CLASS_A_IDS
+    )
     return {
         "seeds": seeds,
         "cross_seed_core_leader_same_position_agreement": {
@@ -209,6 +378,7 @@ async def run(seeds: list[int]) -> dict[str, Any]:
             "min": min(agreements) if agreements else None,
             "max": max(agreements) if agreements else None,
         },
+        "class_a_validation": validation,
         "results": rows,
     }
 

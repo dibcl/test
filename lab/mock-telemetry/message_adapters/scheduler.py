@@ -53,6 +53,12 @@ class TelemetryMessageScheduler:
         self._process_sequence = 1
         self._performance_samples: deque[dict[str, Any]] = deque(maxlen=5)
         self._last_qoe_emitted_at: str | None = None
+        self.class_a = encoder.class_a
+        self._next_8007 = 312.0
+        self._next_8059_startup = self.heartbeat_startup_delay_seconds
+        self._next_8059_status = 22.0
+        self._next_9053 = self.process_seconds + self.process_offset_seconds
+        self._next_9056 = 293.0
 
     @staticmethod
     def _advance(next_due: float, interval: float, elapsed: float) -> float:
@@ -65,7 +71,15 @@ class TelemetryMessageScheduler:
         elapsed_seconds: float,
     ) -> list[ProtocolMessage]:
         messages: list[ProtocolMessage] = []
+        self.class_a.observe(snapshot, elapsed_seconds)
         if not self._started:
+            if self.class_a.enabled:
+                messages.extend(
+                    [
+                        self.class_a.message_9055(snapshot),
+                        self.class_a.message_9053(snapshot, startup=True),
+                    ]
+                )
             messages.extend(
                 [
                     self.encoder.environment_9050(snapshot),
@@ -74,6 +88,20 @@ class TelemetryMessageScheduler:
             )
             self._started = True
             self._next_version = self.version_startup_delay_seconds
+
+        if self.class_a.enabled and elapsed_seconds >= self._next_8059_startup:
+            messages.append(self.class_a.message_8059(snapshot, startup=True))
+            self._next_8059_startup = math.inf
+
+        if self.class_a.enabled and elapsed_seconds >= self._next_8059_status:
+            messages.append(self.class_a.message_8059(snapshot, startup=False))
+            self._next_8059_status = self._advance(
+                self._next_8059_status, 300.0, elapsed_seconds
+            )
+
+        if self.class_a.enabled and elapsed_seconds >= self._next_9056:
+            messages.append(self.class_a.message_9056(snapshot))
+            self._next_9056 = self._advance(self._next_9056, 304.0, elapsed_seconds)
 
         if elapsed_seconds >= self._next_heartbeat:
             messages.append(self.encoder.heartbeat_4002(snapshot))
@@ -130,4 +158,13 @@ class TelemetryMessageScheduler:
                 + self.process_offset_seconds
                 + jitter
             )
+
+        if self.class_a.enabled and elapsed_seconds >= self._next_9053:
+            if self.class_a.should_emit_log_batch(snapshot):
+                messages.append(self.class_a.message_9053(snapshot))
+            self._next_9053 = self._advance(self._next_9053, 300.0, elapsed_seconds)
+
+        if self.class_a.enabled and elapsed_seconds >= self._next_8007:
+            messages.append(self.class_a.message_8007(snapshot))
+            self._next_8007 = self._advance(self._next_8007, 301.0, elapsed_seconds)
         return messages

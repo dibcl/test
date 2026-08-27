@@ -11,6 +11,7 @@ if TYPE_CHECKING:
     from telemetry.model import TelemetrySnapshot
 
 from .model import ProtocolMessage
+from .class_a import ClassAOfflineModel
 
 
 VMBOOSTER_MODULE = 0x80000001
@@ -134,6 +135,10 @@ class WindowsMessageEncoder:
             allow_empty=True,
         )
         self.software_batches = _software_batches(config)
+        class_a = config.get("class_a", {})
+        if not isinstance(class_a, Mapping):
+            raise ValueError("message_adapter.class_a must be an object")
+        self.class_a = ClassAOfflineModel(class_a)
 
     @staticmethod
     def _stamp(observed_at: str) -> str:

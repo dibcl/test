@@ -30,6 +30,11 @@
       "diskused": "C:29.03GB,D:40.20GB",
       "targetversion": ""
     },
+    "class_a": {
+      "enabled": true,
+      "evidence_profile": "fixtures/class-a-observed-baseline.json",
+      "gateway": "172.20.176.1"
+    },
     "schedule": {
       "heartbeat_seconds": 30,
       "heartbeat_startup_delay_seconds": 9,

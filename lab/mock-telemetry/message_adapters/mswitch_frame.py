@@ -130,6 +130,27 @@ def _version_payload(payload: dict[str, object]) -> bytes:
     ).encode("ascii")
 
 
+def _class_a_plain_payload(int_msgid: int, payload: dict[str, object]) -> bytes | None:
+    if int_msgid == 8007:
+        if payload != {"msgtype": "8007", "rdp": "0"}:
+            raise MswitchFrameError("8007 payload must match the observed Class A schema")
+        return b"msgtype:'8007',rdp:'0',"
+    if int_msgid == 8059:
+        ordered = ("alarmtype", "alarmnum", "gateway", "ip", "hostname")
+        if set(payload) not in ({"alarmtype", "alarmnum"}, set(ordered)):
+            raise MswitchFrameError("8059 payload must be an observed minimal or populated variant")
+        values = []
+        for key in ordered:
+            if key not in payload:
+                continue
+            value = payload[key]
+            if not isinstance(value, str) or any(char in value for char in ";\r\n"):
+                raise MswitchFrameError(f"8059 {key} must be a safe string")
+            values.append(f"{key}={value};")
+        return "".join(values).encode("ascii")
+    return None
+
+
 class MswitchFrameEncoder:
     def __init__(
         self,
@@ -154,7 +175,10 @@ class MswitchFrameEncoder:
 
     @staticmethod
     def _payload(message: ProtocolMessage) -> bytes:
-        if message.int_msgid == 4004:
+        class_a_payload = _class_a_plain_payload(message.int_msgid, message.payload)
+        if class_a_payload is not None:
+            payload = class_a_payload
+        elif message.int_msgid == 4004:
             payload = _version_payload(message.payload)
         elif message.int_msgid == 9050:
             payload = _environment_payload(message.payload)

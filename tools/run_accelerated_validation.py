@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import csv
 import hashlib
 import json
 import os
@@ -15,6 +16,7 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote_plus
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -332,6 +334,11 @@ def _absolute_config(path: Path) -> dict[str, Any]:
     config["message_adapter"]["software_profile"] = str(
         (base / config["message_adapter"]["software_profile"]).resolve()
     )
+    class_a = config["message_adapter"].get("class_a")
+    if isinstance(class_a, dict) and isinstance(class_a.get("evidence_profile"), str):
+        class_a["evidence_profile"] = str(
+            (base / class_a["evidence_profile"]).resolve()
+        )
     return config
 
 
@@ -394,6 +401,144 @@ def _summary(
             for key, values in rank_groups.items()
         },
     }
+
+
+def _class_a_summary(
+    messages: list[dict[str, Any]], frame_lengths: dict[str, Any], evidence: dict[str, Any]
+) -> dict[str, Any]:
+    ids = (8007, 8059, 9053, 9055, 9056)
+    by_id = {
+        msgid: [item for item in messages if int(item["int_msgid"]) == msgid]
+        for msgid in ids
+    }
+    periods = {}
+    for msgid, rows in by_id.items():
+        stamps = [datetime.fromisoformat(item["emitted_at"]) for item in rows]
+        periods[str(msgid)] = _stats([
+            (right - left).total_seconds() for left, right in zip(stamps, stamps[1:])
+        ])
+
+    variants_8059 = [
+        "populated" if "gateway" in item["payload"] else "minimal"
+        for item in by_id[8059]
+    ]
+    logs_9053 = [
+        str(row["log"])
+        for item in by_id[9053]
+        for row in item["payload"].get("logdatas", [])
+    ]
+    batches_9053 = [len(item["payload"].get("logdatas", [])) for item in by_id[9053]]
+    categories_9053: Counter[str] = Counter()
+    for raw in logs_9053:
+        decoded = unquote_plus(raw) if "%" in raw or "+" in raw else raw
+        fields = decoded.split("|")
+        if len(fields) >= 5:
+            categories_9053["|".join(fields[2:5])] += 1
+
+    row_states_9056: list[str] = []
+    row_lags_9056: list[float] = []
+    identity_9056: list[dict[str, str]] = []
+    for item in by_id[9056]:
+        row = next(csv.reader(
+            [str(item["payload"]["datas"][0]["row"])],
+            skipinitialspace=True, quotechar="'",
+        ))
+        if len(row) == 9:
+            row_states_9056.append("|".join(row[5:9]))
+            row_lags_9056.append(
+                (datetime.fromisoformat(row[0]) - datetime.fromisoformat(item["emitted_at"])).total_seconds()
+            )
+            identity_9056.append({
+                "source_id": row[3], "source_ip": row[4], "gateway_status": row[6]
+            })
+
+    startup_9050 = next(item for item in messages if int(item["int_msgid"]) == 9050)
+    offset_9055 = (
+        datetime.fromisoformat(startup_9050["emitted_at"])
+        - datetime.fromisoformat(by_id[9055][0]["emitted_at"])
+    ).total_seconds()
+    result = {
+        "counts": {str(msgid): len(by_id[msgid]) for msgid in ids},
+        "count_per_simulated_hour": {str(msgid): len(by_id[msgid]) / 2.0 for msgid in ids},
+        "cadence_seconds": periods,
+        "wire_payload_length": {str(msgid): frame_lengths.get(str(msgid), {}) for msgid in ids},
+        "8007": {
+            "all_payloads_exact_observed_state": all(
+                item["payload"] == {"msgtype": "8007", "rdp": "0"}
+                for item in by_id[8007]
+            ),
+        },
+        "8059": {
+            "variant_counts": dict(Counter(variants_8059)),
+            "persistence_ratio": sum(a == b for a, b in zip(variants_8059, variants_8059[1:])) / (len(variants_8059) - 1),
+        },
+        "9053": {
+            "batch_size": _stats([float(value) for value in batches_9053]),
+            "empty_batches": sum(value == 0 for value in batches_9053),
+            "log_event_count": len(logs_9053),
+            "percent_plus_ratio": sum("%" in value or "+" in value for value in logs_9053) / len(logs_9053),
+            "category_codes": dict(categories_9053),
+            "contains_observed_historical_text": any(
+                marker in value
+                for value in logs_9053
+                for marker in (
+                    "Authentication+Successed", "USB%5FCAMERA", "Vm+has+run",
+                    "Display+Channel+Link+Success", "Agent+stopped",
+                )
+            ),
+        },
+        "9055": {"to_9050_seconds": offset_9055, "payload": by_id[9055][0]["payload"]},
+        "9056": {
+            "state_counts": dict(Counter(row_states_9056)),
+            "persistence_ratio": sum(a == b for a, b in zip(row_states_9056, row_states_9056[1:])) / (len(row_states_9056) - 1),
+            "row_time_minus_emitted_seconds": _stats(row_lags_9056),
+            "identity_values": {
+                key: sorted({row[key] for row in identity_9056})
+                for key in ("source_id", "source_ip", "gateway_status")
+            },
+        },
+        "real_evidence_reference": {
+            str(msgid): {
+                "count": evidence[str(msgid)]["count"],
+                "count_per_hour": evidence[str(msgid)]["count_per_hour"],
+                "cadence_seconds": evidence[str(msgid)].get("cadence_seconds"),
+                "payload_length": evidence[str(msgid)]["payload_length"],
+            }
+            for msgid in ids
+        },
+    }
+    result["assessment"] = {
+        "8007": result["8007"]["all_payloads_exact_observed_state"] and result["counts"]["8007"] == 23,
+        "8059": result["8059"]["variant_counts"] == {"minimal": 1, "populated": 24},
+        "9053": (
+            result["counts"]["9053"] >= 1
+            and not result["9053"]["contains_observed_historical_text"]
+            and result["9053"]["batch_size"]["max"] <= 45
+            and result["9053"]["percent_plus_ratio"] >= 0.90
+        ),
+        "9055": result["counts"]["9055"] == 1 and offset_9055 in (1.0, 2.0),
+        "9056": (
+            result["counts"]["9056"] == 23
+            and abs(result["cadence_seconds"]["9056"]["mean"] - 304.0) < 1.0
+            and result["9056"]["persistence_ratio"] >= 0.99
+        ),
+    }
+    result["assessment"]["all_pass"] = all(result["assessment"].values())
+    return result
+
+
+def _six_message_regression(summary: dict[str, Any]) -> dict[str, Any]:
+    expected = {"4002": 240, "4004": 1, "9050": 1, "9051": 23, "9052": 23, "9054": 3}
+    actual = {key: int(summary["message_counts"].get(key, 0)) for key in expected}
+    checks = {
+        "counts_exact": actual == expected,
+        "4002_cadence": abs(summary["period_seconds"]["4002"]["mean"] - 30.0) < 0.1,
+        "9051_cadence": abs(summary["period_seconds"]["9051"]["mean"] - 300.0) < 0.1,
+        "9052_cadence": abs(summary["period_seconds"]["9052"]["mean"] - 300.0) < 0.2,
+        "9051_9052_pair": abs(summary["paired_9051_9052_delay_seconds"]["mean"] - 7.03) < 0.02,
+        "9050_wire_538": summary["frame_payload_length"]["9050"]["min"] == 538,
+    }
+    return {"expected_counts": expected, "actual_counts": actual, "checks": checks, "pass": all(checks.values())}
 
 
 def _sha256(path: Path) -> str:
@@ -499,6 +644,40 @@ def _write_report(
     (output / "accelerated_compare_report.md").write_text(markdown, encoding="utf-8")
 
 
+def _write_class_a_reports(output: Path, summary: dict[str, Any]) -> None:
+    result = {
+        "generated_from": str((output / "messages.jsonl").resolve()),
+        "effective_seed": summary["run_seed"],
+        "class_a": summary["class_a"],
+        "six_message_regression": summary["six_message_regression"],
+    }
+    (output / "class_a_compare_report.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    assessment = summary["class_a"]["assessment"]
+    markdown = f"""# Target B Class A offline comparison
+
+- Effective seed: {summary['run_seed']}
+- Generated from: `{(output / 'messages.jsonl').resolve()}`
+- Counts: {summary['class_a']['counts']}
+- 8007: {'PASS' if assessment['8007'] else 'FAIL'}
+- 8059: {'PASS' if assessment['8059'] else 'FAIL'}
+- 9053: {'PASS' if assessment['9053'] else 'FAIL'}
+- 9055: {'PASS' if assessment['9055'] else 'FAIL'}
+- 9056: {'PASS' if assessment['9056'] else 'FAIL'}
+- Six-message regression: {'PASS' if summary['six_message_regression']['pass'] else 'FAIL'}
+
+All Class A values are generated from the current virtual clock, local identity,
+provider behavior state, and a dedicated RNG domain derived from the same run seed.
+No real Host interaction, response, replay, or historical log text is used.
+"""
+    (output / "class_a_compare_report.md").write_text(markdown, encoding="utf-8")
+    (output / "six_message_regression.json").write_text(
+        json.dumps(summary["six_message_regression"], ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 async def run(args: argparse.Namespace) -> None:
     config = _absolute_config(args.config.resolve())
     local_env = json.loads(Path(config["provider"]["local_env"]).read_text(encoding="utf-8"))
@@ -525,6 +704,15 @@ async def run(args: argparse.Namespace) -> None:
         capture.messages
     )
     summary["process_ecology"] = _process_ecology(capture.messages)
+    class_a_profile = json.loads(
+        Path(config["message_adapter"]["class_a"]["evidence_profile"]).read_text(
+            encoding="utf-8"
+        )
+    )
+    summary["class_a"] = _class_a_summary(
+        capture.messages, summary["frame_payload_length"], class_a_profile
+    )
+    summary["six_message_regression"] = _six_message_regression(summary)
     summary["run_seed"] = getattr(runtime.agent.provider, "run_seed", None)
     summary["wall_started_at"] = wall_started_at.isoformat()
     summary["wall_ended_at"] = wall_ended_at.isoformat()
@@ -548,6 +736,7 @@ async def run(args: argparse.Namespace) -> None:
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
     _write_report(args.output, args.real_log, real_sources, summary)
+    _write_class_a_reports(args.output, summary)
     provenance = {
         "effective_seed": summary["run_seed"],
         "messages": summary["provenance"]["messages"],
