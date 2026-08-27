@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "provider": "hybrid-synthetic-network",
+  "required_metric_keys": ["cpu", "memory", "disk_io", "network_io", "process_snapshot"],
+  "required_cpu_keys": ["percent", "per_core", "source"],
+  "required_memory_keys": ["percent", "paged_pool_mb", "nonpaged_pool_mb", "source"],
+  "required_disk_keys": ["activity_rate", "per_disk", "source"],
+  "required_network_keys": ["tx_bytes_per_second", "rx_bytes_per_second", "scope", "source"],
+  "required_process_keys": ["process", "process_memory", "process_handle", "process_diskio", "process_netio", "keyprocess", "source"],
+  "required_process_row_keys": ["name", "pid", "cpu_percent", "rss_mb", "handles", "threads", "disk_io_rate", "network_io_rate"],
+  "forbidden_metric_keys": ["host", "environment", "software_batches"],
+  "forbidden_recursive_keys": ["hostname", "interface", "interface_name", "ip", "mac", "gateway", "netmask", "dns", "route", "os", "os_name", "distribution", "kernel", "machine_id", "boot_id"],
+  "forbidden_network_keys": ["bytes_sent", "bytes_recv", "hostname", "interface", "interface_name", "ip", "mac", "gateway", "netmask", "dns", "route"],
+  "forbidden_host_markers": ["debian", "linux", "systemd", "/proc/", "eth0", "ens3", "ens5"],
+  "expected_sources": {
+    "cpu": "synthetic",
+    "memory": "synthetic",
+    "disk_io": "synthetic",
+    "process_snapshot": "synthetic-declared-process-pool",
+    "network_io": "live"
+  },
+  "cpu_core_count": 8,
+  "disk_names": ["C", "D"],
+  "max_process_rows": 10,
+  "allowed_process_names": [
+    "System",
+    "explorer.exe",
+    "svchost.exe",
+    "IceTunnel.exe",
+    "IceDisplay.exe",
+    "IceInput.exe",
+    "IceSound.exe",
+    "Vdagent.exe",
+    "MswitchWin.exe",
+    "Vmbooster.exe",
+    "VmBoosterMonitor.exe",
+    "VmQoEAgent.exe",
+    "uSmartviewUpdate.exe",
+    "UsbIpc.exe",
+    "MMRHookService.exe"
+  ],
+  "numeric_ranges": {
+    "cpu_percent": [0.0, 100.0],
+    "memory_percent": [0.0, 100.0],
+    "pool_mb": [0.0, 4096.0],
+    "disk_activity_rate": [0.0, 1000000.0],
+    "network_rate": [0.0, 1000000000000.0]
+  },
+  "notes": [
+    "This contract validates only the generic host-isolated runtime and is not a proprietary protocol or backend compatibility claim.",
+    "The only permitted live host input is aggregate network rate.",
+    "Identity, OS, package inventory and host process discovery are forbidden in this runtime path.",
+    "Process names come from a declared non-sensitive Windows/guest-tool allowlist rather than host enumeration."
+  ]
+}

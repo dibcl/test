@@ -1,5 +1,4 @@
 import os
-import sys
 import time
 import unittest
 from datetime import datetime
@@ -11,6 +10,7 @@ from mock_telemetry_agent import (
     LoopbackJsonTcpTransport,
     MockTelemetryAgent,
     MockTelemetryError,
+    build_transport,
 )
 from mock_telemetry_test_server import LoopbackTestServer
 from mock_guest_session import BidirectionalGuestSession, TestHostResponder as HostResponder
@@ -62,23 +62,11 @@ class MockTelemetryAgentTests(unittest.TestCase):
         agent = MockTelemetryAgent(profile, transport)
         agent.emit_startup()
         agent.run_for(1800)
-        heartbeat_times = [
-            datetime.fromisoformat(item.emitted_at)
-            for item in transport.messages if item.int_msgid == 4002
-        ]
-        heartbeat_deltas = [
-            (right - left).total_seconds()
-            for left, right in zip(heartbeat_times, heartbeat_times[1:])
-        ]
+        heartbeat_times = [datetime.fromisoformat(item.emitted_at) for item in transport.messages if item.int_msgid == 4002]
+        heartbeat_deltas = [(right - left).total_seconds() for left, right in zip(heartbeat_times, heartbeat_times[1:])]
         self.assertTrue(all(28.0 <= item <= 31.0 for item in heartbeat_deltas))
-        qoe_times = [
-            datetime.fromisoformat(item.emitted_at)
-            for item in transport.messages if item.int_msgid == 9051
-        ]
-        qoe_deltas = [
-            (right - left).total_seconds()
-            for left, right in zip(qoe_times, qoe_times[1:])
-        ]
+        qoe_times = [datetime.fromisoformat(item.emitted_at) for item in transport.messages if item.int_msgid == 9051]
+        qoe_deltas = [(right - left).total_seconds() for left, right in zip(qoe_times, qoe_times[1:])]
         self.assertTrue(all(298.0 <= item <= 303.0 for item in qoe_deltas))
 
     def test_fault_plan_drops_duplicates_and_stales(self):
@@ -118,6 +106,15 @@ class MockTelemetryAgentTests(unittest.TestCase):
     def test_tcp_provider_rejects_non_loopback(self):
         with self.assertRaises(MockTelemetryError):
             LoopbackJsonTcpTransport("192.0.2.1", 19050, timeout=0.01)
+
+    def test_external_override_was_removed(self):
+        with self.assertRaises(MockTelemetryError):
+            build_transport({
+                "type": "loopback_tcp",
+                "host": "127.0.0.1",
+                "port": 19050,
+                "allow_external": True,
+            })
 
     def test_9053_contains_correlated_session_state(self):
         profile = FrozenProfile.load(PROFILE)

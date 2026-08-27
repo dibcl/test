@@ -1,8 +1,8 @@
-"""Static fault-injection telemetry stub with pluggable test transports.
+"""Static fault-injection telemetry stub with strictly local test transports.
 
-The data source is a frozen JSON profile.  This module does not inspect the
-host OS, registry, packages, processes, network adapters, or user activity.
-The network provider can be restricted to loopback or allowed for external testing.
+The data source is a frozen JSON profile. This module does not inspect the host
+OS, registry, packages, processes, network adapters, or user activity. Socket
+transports are intentionally restricted to loopback/local test endpoints.
 """
 
 from __future__ import annotations
@@ -51,9 +51,7 @@ class Envelope:
 
 class Transport(Protocol):
     def send(self, envelope: Envelope) -> None: ...
-
     def exchange(self, envelope: Envelope) -> list[Envelope]: ...
-
     def close(self) -> None: ...
 
 
@@ -78,22 +76,13 @@ class InMemoryTransport:
 
 
 class LoopbackJsonTcpTransport:
-    """Length-prefixed JSON transport for test servers."""
+    """Length-prefixed JSON transport restricted to loopback test servers."""
 
-    def __init__(
-        self,
-        host: str,
-        port: int,
-        timeout: float = 3.0,
-        allow_external: bool = False,  # 【改动 1】增加参数允许连接非回环/外部 IP
-        max_bytes: int = 10 * 1024 * 1024,  # 【改动 3】限制调大至 10MB
-    ) -> None:
+    def __init__(self, host: str, port: int, timeout: float = 3.0, max_bytes: int = 10 * 1024 * 1024) -> None:
         self.max_bytes = max_bytes
         addresses = {item[4][0] for item in socket.getaddrinfo(host, port, type=socket.SOCK_STREAM)}
-
-        # 【改动 1】解除严格的 127.0.0.1 回环限制
-        if not allow_external and (not addresses or any(not ip_address(value).is_loopback for value in addresses)):
-            raise MockTelemetryError("loopback_tcp only permits loopback destinations (set allow_external=True to override)")
+        if not addresses or any(not ip_address(value).is_loopback for value in addresses):
+            raise MockTelemetryError("loopback_tcp only permits loopback destinations")
         if not 1 <= port <= 65535:
             raise MockTelemetryError("port must be between 1 and 65535")
         self._socket = socket.create_connection((host, port), timeout=timeout)
@@ -155,14 +144,8 @@ class FrozenProfile:
     @classmethod
     def from_dict(cls, value: dict[str, Any]) -> "FrozenProfile":
         required = {
-            "identity",
-            "environment",
-            "software_batches",
-            "performance_samples",
-            "process_snapshot",
-            "activity_events",
-            "connectivity_rows",
-            "ice_traces",
+            "identity", "environment", "software_batches", "performance_samples",
+            "process_snapshot", "activity_events", "connectivity_rows", "ice_traces",
         }
         missing = required - value.keys()
         if missing:
@@ -217,14 +200,11 @@ class MockTelemetryAgent:
             raise MockTelemetryError("start_time must be timezone-aware")
         self.faults = faults or FaultPlan()
         self.control_session = control_session
-        
-        # 【改动 2】支持通过 Profile 动态覆盖配置模块 ID
         module_ids = dict(profile.identity.get("module_ids", {}))
         self.vmbooster_module = int(module_ids.get("vmbooster", VMBOOSTER_MODULE))
         self.qoe_module = int(module_ids.get("qoe", QOE_MODULE))
         self.host_module = int(module_ids.get("host", HOST_MODULE))
         self.qoe_target = int(module_ids.get("qoe_target", QOE_TARGET))
-        
         self.boot_time = self.now
         self.sent_counts: dict[int, int] = {}
         self.dynamic_engine = DynamicMetricsEngine(profile.dynamics) if profile.dynamics else None
@@ -269,10 +249,7 @@ class MockTelemetryAgent:
             if 4002 not in self.faults.drop_ids:
                 copies = 2 if 4002 in self.faults.duplicate_ids else 1
                 for _ in range(copies):
-                    self.control_session.heartbeat(
-                        self._stamp(),
-                        int((self.now - self.boot_time).total_seconds()),
-                    )
+                    self.control_session.heartbeat(self._stamp(), int((self.now - self.boot_time).total_seconds()))
                     self.sent_counts[4002] = self.sent_counts.get(4002, 0) + 1
             return
         identity = self.profile.identity
@@ -300,10 +277,7 @@ class MockTelemetryAgent:
         process_snapshot = self.static_builder.process_snapshot()
         activity_events = self.static_builder.activity_events()
         if self.dynamic_engine is not None:
-            dynamic_samples = [
-                self.dynamic_engine.sample(self.now - timedelta(minutes=4 - offset))
-                for offset in range(5)
-            ]
+            dynamic_samples = [self.dynamic_engine.sample(self.now - timedelta(minutes=4 - offset)) for offset in range(5)]
             templates = self.profile.performance_samples
             if not templates:
                 raise MockTelemetryError("dynamic metrics require at least one performance template")
@@ -324,25 +298,13 @@ class MockTelemetryAgent:
                         network["data"] = "|".join(columns)
                 if isinstance(sample.get("disk"), str):
                     disk_columns = sample["disk"].split("|")
-                    sample["disk"] = "|".join(
-                        f"{dynamic.disk_io:.3f}" for _ in disk_columns
-                    )
+                    sample["disk"] = "|".join(f"{dynamic.disk_io:.3f}" for _ in disk_columns)
                 performance.append(sample)
         if self.control_session is not None and hasattr(self.control_session, "activity_state_event"):
             activity_events.append(self.control_session.activity_state_event())
-        self._emit(9051, self.qoe_module, self.qoe_target, {
-            **common,
-            "performance": performance,
-        })
-        self._emit(9052, self.qoe_module, self.qoe_target, {
-            **common,
-            "createtime": self._stamp(),
-            **process_snapshot,
-        })
-        self._emit(9053, self.qoe_module, self.qoe_target, {
-            **common,
-            "logdatas": [{"log": item} for item in activity_events],
-        })
+        self._emit(9051, self.qoe_module, self.qoe_target, {**common, "performance": performance})
+        self._emit(9052, self.qoe_module, self.qoe_target, {**common, "createtime": self._stamp(), **process_snapshot})
+        self._emit(9053, self.qoe_module, self.qoe_target, {**common, "logdatas": [{"log": item} for item in activity_events]})
         self._emit(9056, self.qoe_module, self.qoe_target, {
             "tablename": "vm_ice",
             "columnname": "time,createtime,source,source_id,source_ip,internet_status,gateway_status,dns_status,ip_status",
@@ -392,11 +354,12 @@ def build_transport(config: dict[str, Any]) -> Transport:
             responder = TestHostResponder()
         return InMemoryTransport(responder=responder)
     if kind == "loopback_tcp":
+        if "allow_external" in config:
+            raise MockTelemetryError("allow_external is not supported; prototype transports are local-only")
         return LoopbackJsonTcpTransport(
             str(config.get("host", "127.0.0.1")),
             int(config["port"]),
             float(config.get("timeout", 3.0)),
-            allow_external=config.get("allow_external", False),  # 支持穿透外网/跨机调试
         )
     if kind == "loopback_mswitch_tcp":
         from mswitch_frame_transport import LoopbackMswitchTcpTransport

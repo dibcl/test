@@ -1,0 +1,369 @@
+{
+  "evidence": {
+    "source": "FULL_GUEST_PROTOCOL_EVIDENCE_AUDIT/analysis/serial_events.jsonl",
+    "source_sha256": "86bd5bf4560a4ff7d73079d95219036fed9af9abdff9d2067443ba65c404c606",
+    "observation_start": "2026-08-23T02:44:58",
+    "observation_end": "2026-08-26T21:33:14",
+    "coverage_hours": 90.80444444444444,
+    "class_a_serial_count": 3859
+  },
+  "8007": {
+    "count": 1083,
+    "count_per_hour": 11.9267289902599,
+    "cadence_seconds": {
+      "count": 1082,
+      "min": 299.0,
+      "mean": 301.81423290203327,
+      "median": 301.0,
+      "stddev": 16.3883005926619,
+      "p90": 301.0,
+      "p95": 301.0,
+      "max": 609.0
+    },
+    "payload_length": {
+      "count": 1083,
+      "min": 23.0,
+      "mean": 23.0,
+      "median": 23.0,
+      "stddev": 0.0,
+      "p90": 23.0,
+      "p95": 23.0,
+      "max": 23.0
+    },
+    "rdp_values": {
+      "0": 1083
+    },
+    "rdp_transition": {
+      "matrix": {
+        "0": {
+          "0": 1.0
+        }
+      },
+      "changes": 0,
+      "persistence_ratio": 1.0,
+      "run_length_samples": {
+        "count": 1,
+        "min": 1083.0,
+        "mean": 1083.0,
+        "median": 1083.0,
+        "stddev": 0.0,
+        "p90": 1083.0,
+        "p95": 1083.0,
+        "max": 1083.0
+      }
+    },
+    "observed_payload": "msgtype:'8007',rdp:'0',"
+  },
+  "8059": {
+    "count": 1102,
+    "count_per_hour": 12.135969849738144,
+    "cadence_seconds": {
+      "count": 1101,
+      "min": 13.0,
+      "mean": 296.7229791099001,
+      "median": 300.0,
+      "stddev": 28.80168826146716,
+      "p90": 300.0,
+      "p95": 301.0,
+      "max": 301.0
+    },
+    "payload_length": {
+      "count": 1102,
+      "min": 23.0,
+      "mean": 85.52359346642469,
+      "median": 86.0,
+      "stddev": 5.696887309578234,
+      "p90": 86.0,
+      "p95": 86.0,
+      "max": 93.0
+    },
+    "variant_counts": {
+      "minimal": 9,
+      "populated": 1093
+    },
+    "variant_probability": {
+      "minimal": 0.008166969147005444,
+      "populated": 0.9918330308529946
+    },
+    "variant_transition": {
+      "matrix": {
+        "minimal": {
+          "populated": 1.0
+        },
+        "populated": {
+          "minimal": 0.007326007326007326,
+          "populated": 0.9926739926739927
+        }
+      },
+      "changes": 17,
+      "persistence_ratio": 0.9845594913714805,
+      "run_length_samples": {
+        "count": 18,
+        "min": 1.0,
+        "mean": 61.22222222222222,
+        "median": 1.0,
+        "stddev": 139.17277653476293,
+        "p90": 262.00000000000006,
+        "p95": 351.9999999999998,
+        "max": 505.0
+      }
+    },
+    "state_counts": {
+      "2:0:0": 9,
+      "1:1000028:1": 1093
+    },
+    "state_transition": {
+      "matrix": {
+        "1:1000028:1": {
+          "1:1000028:1": 0.9926739926739927,
+          "2:0:0": 0.007326007326007326
+        },
+        "2:0:0": {
+          "1:1000028:1": 1.0
+        }
+      },
+      "changes": 17,
+      "persistence_ratio": 0.9845594913714805,
+      "run_length_samples": {
+        "count": 18,
+        "min": 1.0,
+        "mean": 61.22222222222222,
+        "median": 1.0,
+        "stddev": 139.17277653476293,
+        "p90": 262.00000000000006,
+        "p95": 351.9999999999998,
+        "max": 505.0
+      }
+    },
+    "field_presence": {
+      "alarmtype": 1102,
+      "alarmnum": 1102,
+      "gateway": 1093,
+      "ip": 1093,
+      "hostname": 1093
+    },
+    "observed_values": {
+      "alarmtype": {
+        "2": 9,
+        "1": 1093
+      },
+      "alarmnum": {
+        "0": 9,
+        "1000028": 1093
+      }
+    }
+  },
+  "9053": {
+    "count": 592,
+    "count_per_hour": 6.519504674269492,
+    "cadence_seconds": {
+      "count": 591,
+      "min": 10.0,
+      "mean": 534.5482233502538,
+      "median": 300.0,
+      "stddev": 2451.911293010263,
+      "p90": 301.0,
+      "p95": 301.0,
+      "max": 39307.0
+    },
+    "payload_length": {
+      "count": 592,
+      "min": 153.0,
+      "mean": 645.481418918919,
+      "median": 395.0,
+      "stddev": 853.9953555039459,
+      "p90": 812.5999999999999,
+      "p95": 1983.799999999993,
+      "max": 8188.0
+    },
+    "batch_size": {
+      "count": 592,
+      "min": 0.0,
+      "mean": 2.6030405405405403,
+      "median": 1.0,
+      "stddev": 4.9619693070152975,
+      "p90": 4.0,
+      "p95": 9.449999999999932,
+      "max": 45.0
+    },
+    "empty_batches": 2,
+    "encoding_styles": {
+      "percent_plus": 1530,
+      "plain": 11
+    },
+    "category_codes": {
+      "208|3|6": 531,
+      "5|16|1": 292,
+      "5|3|15": 174,
+      "208|16|1": 132,
+      "208|2|3": 83,
+      "6|4|1": 54,
+      "5|3|1": 47,
+      "5|3|29": 38,
+      "5|3|22": 30,
+      "209|2|3": 29,
+      "208|3|18": 27,
+      "6|19|1": 25,
+      "6|19|3": 24,
+      "208|17|6": 14,
+      "102|3|5": 11,
+      "208|2|4": 11,
+      "208|2|7": 6,
+      "208|404|40401": 6,
+      "208|1|9": 5,
+      "5|4|1": 1,
+      "103|102|10201": 1
+    },
+    "payload_time_minus_outer_seconds": {
+      "count": 592,
+      "min": 0.0,
+      "mean": 0.5008851351351351,
+      "median": 0.509,
+      "stddev": 0.28873261673774403,
+      "p90": 0.909,
+      "p95": 0.957,
+      "max": 0.999
+    },
+    "payload_time_minus_event_time_seconds": {
+      "count": 1541,
+      "min": 0.0,
+      "mean": 3764.5642777417256,
+      "median": 140.46,
+      "stddev": 71045.26995963142,
+      "p90": 280.797,
+      "p95": 295.143,
+      "max": 1396433.069
+    },
+    "top_level_fields": [
+      "source",
+      "uuid",
+      "hostid",
+      "time",
+      "logdatas"
+    ],
+    "log_fields_observed": "timestamp|unknown_code_1|category_code_1|category_code_2|category_code_3|...|message"
+  },
+  "9055": {
+    "count": 9,
+    "count_per_hour": 0.09911409133179971,
+    "payload_length": {
+      "count": 9,
+      "min": 198.0,
+      "mean": 198.0,
+      "median": 198.0,
+      "stddev": 0.0,
+      "p90": 198.0,
+      "p95": 198.0,
+      "max": 198.0
+    },
+    "startup_9055_to_9050_seconds": {
+      "count": 9,
+      "min": 1.0,
+      "mean": 1.3333333333333333,
+      "median": 1.0,
+      "stddev": 0.4714045207910317,
+      "p90": 2.0,
+      "p95": 2.0,
+      "max": 2.0
+    },
+    "batch_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "top_level_fields": [
+      "source",
+      "uuid",
+      "hostid",
+      "time",
+      "logdatas"
+    ]
+  },
+  "9056": {
+    "count": 1073,
+    "count_per_hour": 11.816602222113456,
+    "cadence_seconds": {
+      "count": 1072,
+      "min": 299.0,
+      "mean": 304.57929104477614,
+      "median": 304.0,
+      "stddev": 16.50110976201236,
+      "p90": 305.0,
+      "p95": 305.0,
+      "max": 657.0
+    },
+    "payload_length": {
+      "count": 1073,
+      "min": 291.0,
+      "mean": 294.11183597390493,
+      "median": 291.0,
+      "stddev": 4.2805374238120555,
+      "p90": 300.0,
+      "p95": 300.0,
+      "max": 300.0
+    },
+    "tablename_values": {
+      "vm_ice": 1073
+    },
+    "columnname_values": {
+      "time,createtime,source,source_id,source_ip,internet_status,gateway_status,dns_status,ip_status": 1073
+    },
+    "row_widths": {
+      "9": 1073
+    },
+    "state_counts": {
+      "1|172.20.176.1:1|1|1": 702,
+      "1|172.18.0.2:0|172.20.176.1:1|1|1": 371
+    },
+    "state_transition": {
+      "matrix": {
+        "1|172.18.0.2:0|172.20.176.1:1|1|1": {
+          "1|172.18.0.2:0|172.20.176.1:1|1|1": 0.9945945945945946,
+          "1|172.20.176.1:1|1|1": 0.005405405405405406
+        },
+        "1|172.20.176.1:1|1|1": {
+          "1|172.18.0.2:0|172.20.176.1:1|1|1": 0.004273504273504274,
+          "1|172.20.176.1:1|1|1": 0.9957264957264957
+        }
+      },
+      "changes": 5,
+      "persistence_ratio": 0.9953358208955224,
+      "run_length_samples": {
+        "count": 6,
+        "min": 4.0,
+        "mean": 178.83333333333334,
+        "median": 78.5,
+        "stddev": 238.8070467041447,
+        "p90": 454.0,
+        "p95": 567.0,
+        "max": 680.0
+      }
+    },
+    "time_minus_createtime_seconds": {
+      "count": 1073,
+      "min": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "stddev": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "max": 0.0
+    },
+    "row_time_minus_outer_seconds": {
+      "count": 1073,
+      "min": -4.825,
+      "mean": -3.810909599254427,
+      "median": -3.804,
+      "stddev": 0.42947425566907366,
+      "p90": -3.2346,
+      "p95": -3.163,
+      "max": -3.06
+    }
+  }
+}

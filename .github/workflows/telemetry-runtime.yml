@@ -1,0 +1,124 @@
+name: Telemetry Runtime Tests
+
+on:
+  pull_request:
+    paths:
+      - "lab/mock-telemetry/**"
+      - "prototype/**"
+      - "tools/**"
+      - ".github/workflows/telemetry-runtime.yml"
+  push:
+    branches:
+      - main
+      - "refactor/**"
+    paths:
+      - "lab/mock-telemetry/**"
+      - "prototype/**"
+      - "tools/**"
+      - ".github/workflows/telemetry-runtime.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  runtime-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        working-directory: lab/mock-telemetry
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: lab/mock-telemetry/requirements.txt
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
+      - name: Compile runtime
+        run: python -m compileall telemetry run_agent.py fidelity_audit.py windows_validation_audit.py
+      - name: Run runtime unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run tracked local-env Windows validation smoke
+        if: matrix.os == 'windows-latest' && matrix.python-version == '3.13'
+        shell: pwsh
+        run: |
+          $cfg = @{
+            provider = @{
+              type = 'windows_validation'
+              profile = 'baseline.runtime.json'
+              local_env = 'local_env.json'
+            }
+            clock = @{ type = 'real' }
+            transport = @{ type = 'file_dump'; path = 'out/windows-ci-validation.jsonl' }
+            interval_seconds = 1
+            duration_seconds = 1
+            schema_version = 1
+          }
+          $cfg | ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 windows-ci-validation.json
+          python run_agent.py --config windows-ci-validation.json
+          python windows_validation_audit.py out/windows-ci-validation.jsonl --local-env local_env.json
+
+  prototype-offline-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Compile offline prototype
+        run: python -m compileall prototype tools
+      - name: Run offline prototype unit tests
+        working-directory: prototype
+        run: python -m unittest discover -p "test_*.py" -v
+
+  debian-13-smoke:
+    runs-on: ubuntu-latest
+    container:
+      image: debian:13-slim
+    defaults:
+      run:
+        working-directory: lab/mock-telemetry
+    steps:
+      - name: Install Debian prerequisites
+        working-directory: /
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends ca-certificates git python3 python3-pip python3-venv
+          rm -rf /var/lib/apt/lists/*
+          cat /etc/os-release
+          python3 --version
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install runtime dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/python -m pip install -r requirements.txt
+      - name: Compile on Debian 13
+        run: .venv/bin/python -m compileall telemetry run_agent.py fidelity_audit.py windows_validation_audit.py
+      - name: Run full runtime suite on Debian 13
+        run: .venv/bin/python -m unittest discover -s tests -v
+      - name: Run hybrid-network provider smoke test
+        run: |
+          .venv/bin/python -c 'import json,pathlib; cfg={"provider":{"type":"hybrid_network","profile":"baseline.runtime.json"},"clock":{"type":"real"},"transport":{"type":"file_dump","path":"/tmp/debian-hybrid.jsonl"},"interval_seconds":1,"duration_seconds":1}; pathlib.Path("/tmp/debian-smoke.json").write_text(json.dumps(cfg),encoding="utf-8")'
+          .venv/bin/python run_agent.py --config /tmp/debian-smoke.json
+          .venv/bin/python fidelity_audit.py /tmp/debian-hybrid.jsonl
+          .venv/bin/python -c 'import json,pathlib; rows=pathlib.Path("/tmp/debian-hybrid.jsonl").read_text(encoding="utf-8").splitlines(); obj=json.loads(rows[-1]); m=obj["metrics"]; print("Debian 13 hybrid-network smoke OK", {"provider":obj["provider"],"metric_keys":sorted(m.keys()),"live_scope":obj["metadata"].get("live_scope")})'
+      - name: Run offline prototype suite on Debian 13
+        working-directory: prototype
+        run: ../lab/mock-telemetry/.venv/bin/python -m unittest discover -p "test_*.py" -v

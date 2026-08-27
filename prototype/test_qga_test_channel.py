@@ -9,18 +9,15 @@ class QgaTestChannelTests(unittest.TestCase):
         moment = datetime(2030, 1, 1, tzinfo=timezone.utc)
         qga = QgaTestStateMachine(clock=lambda: moment)
         response = qga.handle({"execute": "host-get-time", "id": 17})
-        self.assertEqual(response, {
-            "return": int(moment.timestamp() * 1_000_000_000),
-            "id": 17,
-        })
+        self.assertEqual(response, {"return": int(moment.timestamp() * 1_000_000_000), "id": 17})
         self.assertEqual(qga.counters.time_requests, 1)
 
     def test_standard_alias_and_unknown_command(self):
         qga = QgaTestStateMachine()
         self.assertIn("return", qga.handle({"execute": "guest-get-time", "id": "a"}))
-        response = qga.handle({"execute": "guest-exec", "id": "b"})
-        self.assertEqual(response["error"]["class"], "CommandNotFound")
-        self.assertEqual(qga.counters.errors, 1)
+        for command in ("guest-exec", "guest-get-osinfo", "guest-file-open", "guest-shutdown"):
+            response = qga.handle({"execute": command, "id": command})
+            self.assertEqual(response["error"]["class"], "CommandNotFound")
 
     def test_missing_or_non_string_execute_is_invalid(self):
         qga = QgaTestStateMachine()
@@ -31,17 +28,23 @@ class QgaTestChannelTests(unittest.TestCase):
         self.assertEqual(typed["id"], ["fixture"])
         self.assertEqual(qga.counters.invalid_requests, 2)
 
-    def test_network_interfaces_are_static_fixtures_and_deep_copied(self):
+    def test_network_interfaces_are_default_denied(self):
         fixture = [{
             "name": "test0",
             "hardware-address": "02:00:00:00:00:01",
-            "ip-addresses": [{
-                "ip-address": "192.0.2.10",
-                "ip-address-type": "ipv4",
-                "prefix": 24,
-            }],
+            "ip-addresses": [{"ip-address": "192.0.2.10", "ip-address-type": "ipv4", "prefix": 24}],
         }]
         qga = QgaTestStateMachine(network_interfaces=fixture)
+        response = qga.handle({"execute": "guest-network-get-interfaces", "id": "net-0"})
+        self.assertEqual(response["error"]["class"], "CommandNotFound")
+
+    def test_explicit_fixture_network_is_static_and_deep_copied(self):
+        fixture = [{
+            "name": "test0",
+            "hardware-address": "02:00:00:00:00:01",
+            "ip-addresses": [{"ip-address": "192.0.2.10", "ip-address-type": "ipv4", "prefix": 24}],
+        }]
+        qga = QgaTestStateMachine(network_interfaces=fixture, allow_fixture_network=True)
         fixture[0]["name"] = "mutated"
         response = qga.handle({"execute": "guest-network-get-interfaces", "id": "net-1"})
         self.assertEqual(response["id"], "net-1")
@@ -52,11 +55,7 @@ class QgaTestChannelTests(unittest.TestCase):
 
     def test_sync_commands_echo_fixture_id(self):
         qga = QgaTestStateMachine()
-        response = qga.handle({
-            "execute": "guest-sync-delimited",
-            "arguments": {"id": 99},
-            "id": "rpc-id",
-        })
+        response = qga.handle({"execute": "guest-sync-delimited", "arguments": {"id": 99}, "id": "rpc-id"})
         self.assertEqual(response, {"return": 99, "id": "rpc-id"})
         invalid = qga.handle({"execute": "guest-sync", "arguments": {"id": "99"}, "id": 3})
         self.assertEqual(invalid["error"]["class"], "InvalidParameter")

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mock-telemetry/runtime-envelope.schema.json",
+  "title": "Generic Telemetry Runtime Envelope",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "observed_at",
+    "provider",
+    "metrics",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "observed_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provider": {
+      "type": "string",
+      "minLength": 1
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "environment": {"type": "object"},
+        "local_environment": {"type": "object"},
+        "software_batches": {"type": "array"},
+        "performance": {"type": "object"},
+        "process_snapshot": {},
+        "activity_events": {"type": "array"},
+        "connectivity_rows": {"type": "array"},
+        "ice_traces": {"type": "array"},
+        "host": {"type": "object"},
+        "cpu": {"type": "object"},
+        "memory": {"type": "object"},
+        "disk": {"type": "object"},
+        "disk_io": {"type": "object"},
+        "network_io": {"type": "object"}
+      },
+      "additionalProperties": true
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

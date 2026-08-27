@@ -1,4 +1,11 @@
-"""Deterministic QGA-style JSON-RPC state machine for Fake Host tests."""
+"""Deterministic QGA-style JSON-RPC state machine for Fake Host tests.
+
+The default command surface is intentionally narrower than a normal QEMU guest
+agent. Only the observed time-query behavior and framing/sync helpers are
+accepted by default. Optional network-interface fixtures are disabled unless a
+test explicitly enables them; no OS, file, exec, shutdown, or host-identity
+emulation is provided.
+"""
 
 from __future__ import annotations
 
@@ -22,16 +29,29 @@ class QgaCounters:
 
 
 class QgaTestStateMachine:
-    """Handle only the observed time query plus its standard QGA alias."""
+    """Handle only evidence-backed/safe test commands by default."""
 
     def __init__(
         self,
         clock: Callable[[], datetime] | None = None,
         network_interfaces: list[dict[str, Any]] | None = None,
+        *,
+        allow_fixture_network: bool = False,
     ) -> None:
         self.clock = clock or (lambda: datetime.now(timezone.utc))
         self.network_interfaces = copy.deepcopy(network_interfaces or [])
+        self.allow_fixture_network = bool(allow_fixture_network)
         self.counters = QgaCounters()
+
+    def _not_found(self, request_id: Any) -> dict[str, Any]:
+        self.counters.errors += 1
+        return {
+            "error": {
+                "class": "CommandNotFound",
+                "desc": "unsupported command in test QGA state machine",
+            },
+            "id": request_id,
+        }
 
     def handle(self, request: dict[str, Any]) -> dict[str, Any]:
         self.counters.requests += 1
@@ -47,6 +67,7 @@ class QgaTestStateMachine:
                 },
                 "id": request_id,
             }
+
         if command in {"host-get-time", "guest-get-time"}:
             moment = self.clock()
             if moment.tzinfo is None:
@@ -56,11 +77,15 @@ class QgaTestStateMachine:
                 "return": int(moment.timestamp() * 1_000_000_000),
                 "id": request_id,
             }
+
         if command == "guest-network-get-interfaces":
+            if not self.allow_fixture_network:
+                return self._not_found(request_id)
             return {
                 "return": copy.deepcopy(self.network_interfaces),
                 "id": request_id,
             }
+
         if command in {"guest-sync", "guest-sync-delimited"}:
             arguments = request.get("arguments")
             if not isinstance(arguments, dict) or not isinstance(arguments.get("id"), int):
@@ -74,14 +99,8 @@ class QgaTestStateMachine:
                     "id": request_id,
                 }
             return {"return": arguments["id"], "id": request_id}
-        self.counters.errors += 1
-        return {
-            "error": {
-                "class": "CommandNotFound",
-                "desc": "unsupported command in test QGA state machine",
-            },
-            "id": request_id,
-        }
+
+        return self._not_found(request_id)
 
 
 class QgaJsonLineCodec:
